@@ -30,8 +30,6 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-sys.path.insert(0, os.path.abspath('sphinxcontrib'))
-
 extensions = [
     'sphinx.ext.autodoc',
     'sphinxcontrib.contentui',
