@@ -1,5 +1,5 @@
 ####################################################
-Зміна Логіна і Пароля на EDIN
+Зміна Логіна і Пароля на EDIN (додати картинки)
 ####################################################
 
 .. contents:: Зміст:
@@ -13,7 +13,7 @@
 
 На початковій сторінці необхідно ввести Логін та Пароль доступу та натиснути кнопку “Вхід”.
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_01.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/01.png
    :align: center
 
 2. Відновлення Паролю (в разі втрати пароля)
@@ -23,12 +23,12 @@
 
 #.  На сторінці входу необхідно натиснути кнопку “Нагадати пароль” .
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_02.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/02.png
    :align: center
 
 2.  Далі з'явиться сторінка відновлення паролю, де потрібно вказати “Логін” для якого потрібно виконати відновлення та натиснути “Відправити”.
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_03.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/03.png
    :align: center
 
 3. Перевірити e-mail, що раніше був закріплений за вказаним Логіном. На пошту автоматично надходить лист з посиланням для генерації нового паролю.
@@ -37,7 +37,7 @@
 *Для генерации нового пароля перейдитепо ссылке:
 https://edo.edi-n.com/access?event........*
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_04.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/04.png
    :align: center
 
 Необхідно ввести двічі новий пароль та натиснути кнопку «Зберегти».
@@ -50,12 +50,12 @@ https://edo.edi-n.com/access?event........*
 
 #. Вам необхідно увійти на платформу EDIN. В правому верхньому куті перейти до налаштувань.
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_05.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/05.png
    :align: center
 
 2. Перейти на сторінку «Мої налаштування». В полі змінення паролю внести необхідні данні та натиснути «Зберегти зміни».
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_06.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/06.png
    :align: center
 
 4. Редагування Логіна і Пароля (для нового користувача)
@@ -63,12 +63,12 @@ https://edo.edi-n.com/access?event........*
 
 #. Вам необхідно увійти на платформу EDIN. В правому верхньому куті перейти до налаштувань.
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_07.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/07.png
    :align: center
 
 2. Перейти на сторінку «Користувачі». Вибрати Логін для якого необхідно внести зміни.
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_08.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/08.png
    :align: center
 
 На сторінці редагування можливо змінити:
@@ -77,7 +77,7 @@ https://edo.edi-n.com/access?event........*
 #. Змінити Логін Користувача.
 #. Додати або змінити існуючу ел.пошту.
 
-.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_09.png
+.. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/09.png
    :align: center
 
 Будь які зміни вступають в силу після натискання кнопки «Зберегти».
