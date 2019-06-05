@@ -9,7 +9,7 @@ API
 
 .. toctree::
    :maxdepth: 2
-   :caption: Работа с документами
+   :caption: Робота з документами
 
    EdsDoc
    DocSend
@@ -19,7 +19,7 @@ API
 
 .. toctree::
    :maxdepth: 2
-   :caption: Работа со справочниками
+   :caption: Робота з довідниками
    
    OasUser
    AccountIdentifiers

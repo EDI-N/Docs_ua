@@ -1,28 +1,28 @@
-Параметр,Формат,Описание
-.. _XDoc: ,**Объект XDoc** ,
-body,XDocBodyForms_ ,объект; тела документов
-attachments,List<XDocAttachment_>,массив объектов; вложение (может не использоваться)
-comments,XDocCommentsList_ ,объект (в котором массив объектов); список комментариев
+Параметр,Формат,Опис
+.. _XDoc: ,**Об'єкт XDoc** ,
+body,XDocBodyForms_ ,об'єкт; тіла документів
+attachments,List<XDocAttachment_>,масив об'єктів; вкладення (може не використовуватися)
+comments,XDocCommentsList_ ,об'єкт (в якому масив об'єктів); список коментарів
 doc_id,long,id документа
-doc_uuid,UUID,уникальный идентификатор документа/квитанции
-uuidSender,String,уникальный идентификатор отправителя
-uuidReceiver,String,уникальный идентификатор получателя
+doc_uuid,UUID,унікальний ідентифікатор документа/квитанції
+uuidSender,String,унікальний ідентифікатор відправника
+uuidReceiver,String,унікальний ідентифікатор одержувача
 docNumber,String,номер документа
-dateCreated,long,дата создания документа (unix timestamp)
-dateChanged,long,дата последнего изменения документа (unix timestamp)
-dateRead,long,дата прочтения документа (unix timestamp)
-docDate,long,"дата документа, указанная в документе"
-chain_id,long,id цепочки документов
-chain_uuid,UUID,уникальный идентификатор цепочки документов
-family,int,семейство (EDI / UZD)
-hash,String,"хэш-значение, полученное в результате обработки"
-type,XDocType ,объект; тип документа
-status,XDocStatus_,объект; статус пары документов у отправителя и получателя
+dateCreated,long,дата створення документа (unix timestamp)
+dateChanged,long,дата останньої зміни документа (unix timestamp)
+dateRead,long,дата прочитання документа (unix timestamp)
+docDate,long,"дата документа, зазначена в документі"
+chain_id,long,id ланцюжка документів
+chain_uuid,UUID,унікальний ідентифікатор ланцюжка документів
+family,int,сімейство (EDI / UZD)
+hash,String,"хеш-значення, отримане в результаті обробки"
+type,XDocType ,об'єкт; тип документа
+status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
 exchange_status,String,сабстатус документа
-is_archive,boolean,"флаг; ""архивный"" документ или нет"
-signInfo,XDocSignInfo_,объект; данные о подписях
-chain,XChain,объект; данные связанных цепочек
-extraFields,"Map<String, String>",массив объектов; набор индексов (аналог индексных таблиц)
-tags,List<XTag_>,массив объектов; прикрепленные теги
-statuses,List<XStatus_>,массив объектов; статусы об обработке отправленных документов
-multiExtraFields,"Map<String, List<String>>"," массив объектов; мультииндекс. Пример: {'key1': ['val1', 'val2'], 'key2': ['val1', 'val2']}. Используется, например для обработки передаваемой строки => разбивка строки по условию => индексирование каждого куска"
+is_archive,boolean,"відмітка; **"Архівний"** документ чи ні"
+signInfo,XDocSignInfo_,об'єкт; дані про підписи
+chain,XChain,объект; дані пов'язаних ланцюжків
+extraFields,"Map<String, String>",масив об'єктів; набір індексів (аналог індексних таблиць)
+tags,List<XTag_>,масив об'єктів; прикріплені теги
+statuses,List<XStatus_>,масив об'єктів; статуси обробки відправлених документів
+multiExtraFields,"Map<String, List<String>>","масив об'єктів; мультиіндекс. Приклад: {'key1': ['val1', 'val2'], 'key2': ['val1', 'val2']}. Використовується, наприклад для обробки передаваємого рядка => розбивка рядка за умовою => індексування кожного шматка"

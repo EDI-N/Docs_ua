@@ -1,18 +1,18 @@
-Параметр,Формат,Описание
-.. _Account: , Объект **Account**,
-platform,enum,признак принадлежности к платформе EVO / FELEX
-id,int,id аккаунта; число 11 символов
-name,String,полное наименование организации или ФИО индивидуального предпринимателя
-ownership,String,"форма собственности; строка 5 символов; jur - Юридическое лицо, fiz - Физическое лицо"
-inn,String,код ИНН; строка 50 символов
-kpp,String,код ЕГРПОУ/КПП; строка 50 символов
-mail,String,почта
-phone,String,№ телефона; строка 50 символов
-ndsNumber,String,№ свидетельства НДС; строка 50 символов
-bankAccount,String,расчетный счет банка; строка 50 символов
-bankName,String,название банка; строка 100 символов
-bankMfo,String,"МФО банка, код-реквизит банка"
-bankAddress,String,адрес банка; строка 150 символов
-**identificators**,List<Identificator_>,массив объектов;
-**companies**,List<Company_>,массив объектов;
-**users**,List<User_>,массив объектов;
+Параметр, Формат, Опис
+.. _Account:, Об'єкт **Account**,
+platform, enum, ознака приналежності до платформи EVO/FELEX
+id, int, id аккаунта; число 11 символів
+name, String, повне найменування організації або ПІБ індивідуального підприємця
+ownership, String, "форма власності; рядок 5 символів; jur - Юридична особа, fiz - Фізична особа"
+inn, String, код ІПН; рядок 50 символів
+kpp, String, код ЄДРПОУ / КПП; рядок 50 символів
+mail, String, пошта
+phone, String, № телефону; рядок 50 символів
+ndsNumber, String, № свідоцтва ПДВ; рядок 50 символів
+bankAccount, String, розрахунковий рахунок банку; рядок 50 символів
+bankName, String, назва банку; рядок 100 символів
+bankMfo, String, "МФО банку, код-реквізит банку"
+bankAddress, String, адреса банку; рядок 150 символів
+**identificators**, List<Identificator_>, масив об'єктів;
+**companies**, List<Company_>, масив об'єктів;
+**users**, List<User_>, масив об'єктів;
