@@ -32,6 +32,7 @@ import os
 
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinxcontrib.contentui',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -120,31 +121,37 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-# Пока закомментирую рабочий вариант:
-#html_theme = 'sphinx_rtd_theme'
 
-import os
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# Это самый рабочий вариант:
+html_theme = 'sphinx_rtd_theme'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-  import sphinx_rtd_theme
-  html_theme = 'sphinx_rtd_theme'
-  html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-else:
-  html_context = { 
-    'css_files': [
-        'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
-        'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-        '_static/theme_overrides.css',
-    ],
-}
+def setup(app):
+    app.add_stylesheet('theme_overrides.css')
+
+# А это то, что я нагородил (не используй это):
+# import os
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# 
+# if not on_rtd:  # only import and set the theme if we're building docs locally
+#   import sphinx_rtd_theme
+#   html_theme = 'sphinx_rtd_theme'
+#   html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# else:
+#   html_context = { 
+#     'css_files': [
+#         'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
+#         'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
+#         '_static/theme_overrides.css',
+#     ],
+# }
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 
 html_theme_options = {
-    'logo_only': True
+    'logo_only': True,
+    'display_version': False
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
