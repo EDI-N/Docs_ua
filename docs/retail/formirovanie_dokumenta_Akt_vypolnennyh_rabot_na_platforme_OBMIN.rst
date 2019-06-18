@@ -1,6 +1,5 @@
-Формування документа «Акт виконаних робіт» на платформі OBMIN (додати картинки)
+Формування документа «Акт виконаних робіт» на платформі OBMIN
 #############################################################################################
----------
 
 .. contents:: Зміст:
    :depth: 6
@@ -23,12 +22,12 @@
 
 Для переходу до заповнення Товарного довідника, необхідно перейти в розділ «**Меню**»-> «**Двідники**»-> «**Довідник послуг/товарів**»
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/01.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_01.png
    :align: center
 
 Для того щоб додати товарну позицію або послугу, натисніть на кнопку «**+**».
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/02.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_02.png
    :align: center
 
 Після натискання якої у Вас відкриється форма «**Зміни даних товарної позиції**».
@@ -36,7 +35,7 @@
 
 .. sidebar:: Обов'язкові поля
 
-    .. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/03.png
+    .. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_03.png
     
 **Обов'язкові для заповнення поля**:
 
@@ -51,7 +50,7 @@
 
 Після заповнення обов'язкових полів, натисніть «**Зберегти**» для внесення змін за товарною позицією.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/04.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_04.png
    :align: center
 
 Позиція буде збережена та відображатиметься в загальному довіднику.
@@ -63,18 +62,18 @@
 
 Для цього, натисніть кнопку «**Создать**» і виберіть зі списку пункт Комерційний документ «**Акт виконаних робіт**». Після чого відкриється форма для заповнення даних.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/05.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_05.png
    :align: center
 
 У відкритій формі, всі поля позначені червоною зірочкою *** обов'язкові для заповнення**.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/06.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_06.png
    :align: center
 
 1. **№ документа*** - довільний номер, який присвоюється документу.
 2. **Дата складання*** - вказується поточна дата.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/07.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_07.png
    :align: center
 
 **У Документі-підставі**: 
@@ -83,7 +82,7 @@
 2. **Тип документа*** - вибираєте з випадаючого списку «Договір».
 3. **Дата документа*** - вказується дата укладення Договору.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/08.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_08.png
    :align: center
 
 **Одержувач**:
@@ -95,12 +94,12 @@
 5. **Індивідуальний податковий номер*** - ІПН одержувача, якщо одержувач не є платником ПДВ вказуєте 12-ти значний номер (100000000000).
 6. ** GLN *** - 13-ти значний Global Location Number контрагента, підтягується автоматично.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/09.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_09.png
    :align: center
 
 **Відправник** - **дані заповнюються автоматично з картки контрагента**.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/10.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_10.png
    :align: center
 
 **Термін дії документа**:
@@ -108,7 +107,7 @@
 #. **Початок терміну дії*** - дата початку дії договору з контрагентом.
 #. **Закінчення терміну дії*** - дата закінчення договору з контрагентом.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/11.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_11.png
    :align: center
 
 Після заповнення всіх обов'язкових полів, натискаєте кнопку **Зберегти**, і система запропонує додати товар або послугу, яку Ви надаєте Вашому контрагенту.
@@ -116,19 +115,19 @@
 Для коректного заповнення позицій, необхідно заповнити Товарний довідник.
 Інстркцію щодо заповнення довідника ви можете знайти `за посиланням <https://wiki.edi-n.com/uk/latest/general/Zapolnenie_Tovarnogo_spravochnika.html>`_.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/12_1.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_12.png
    :align: center
 
 #. **Найменування з товарного довідника** - вводите назву товарної позиції або послуги.
 #. **Кількість (прийнята)** - кількість товару.
 #. **Ціна** - ціна товару або послуги.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/12_2.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_13.png
    :align: center
 
 Після заповнення таблиці, натискаєте **Зберегти** -> **Підписати** -> **Надіслати**.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/13.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_14.png
    :align: center
 
 Налаштування ЕЦП
@@ -136,7 +135,7 @@
 
 Перед початком роботи необхідно налаштувати підпис, яким Ви будете підписувати документи. Щоб перейти до Налаштування ЕЦП, зайдіть в Налаштування, натисніть на "шестерню" у верхньому правому куті. Відкриється Провідник, де необхідно буде вказати каталог з секретними ключами і вибрати ключі.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/14.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_15.png
    :align: center
 
 Якщо ключі отримані в **АЦСК ІДД (ДФС)**, тоді необхідно вибирати: ключі **key-6.dat**
@@ -150,12 +149,12 @@
 
 Після того, як ключ обраний, з'являється вікно, в якому необхідно ввести пароль і натиснути кнопку: **Зчитати**.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/15.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_16.png
    :align: center
 
 Коли ключі зчитані, у вікні ЕЦП можна буде побачити інформацію про ЕЦП:
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/16.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_17.png
    :align: center
 
 Далі відкриється вікно, в якому необхідно відмітити чекером типи ключів, якими буде підписаний документ. Потім встановлюємо послідовність підпису, наприклад:
@@ -163,12 +162,12 @@
 - директор - 1
 - печатка - 2
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/17.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_18.png
    :align: center
 
 І натискаємо кнопку **Підписати**. Після процесу підписання необхідно натиснути кнопку **Надіслати**.
 
-.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/18.png
+.. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_19.png
    :align: center
 
 .. include:: kontakti.rst

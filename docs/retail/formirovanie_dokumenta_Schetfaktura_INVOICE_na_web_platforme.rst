@@ -1,7 +1,6 @@
 #################################################################################################
-Формування та відправка документа «Рахунок фактура» (INVOICE) на web-платформі (додати картинки)
+Формування та відправка документа «Рахунок фактура» (INVOICE) на web-платформі
 #################################################################################################
----------
 
 .. contents:: Зміст:
    :depth: 6
@@ -20,12 +19,12 @@
 
 Перейдіть в розділ «**Вхідні**», для зручності пошуку виберіть в фільтрі необхідну мережу і тип документа «Замовлення».
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/01.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_01.png
    :align: center
 
 У відкритому документі, натисніть кнопку «**Сформувати**» і виберіть зі списку документ «**Рахунок фактура**».
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/02.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_02.png
    :align: center
 
 У вікні з'явиться **Форма** для заповнення необхідних реквізитів документа. Всі поля, позначені червоною зірочкою ***** обов'язкові для заповнення.
@@ -41,17 +40,17 @@
 #. **№ замовлення** - автоматично переноситься з Замовлення.
 #. **№ накладної** - номер видаткової накладної
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/03.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_03.png
    :align: center
 
 .. important:: **Увага!** У разі створення декількох видаткових накладних, необхідно на кожне замовлення сформувати рахунок фактуру. При цьому, поле «**Номер накладної**» в документах повинно відрізнятися.
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/04.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_04.png
    :align: center
 
 Нижче на сторінці створеного документа знаходиться перелік товарних позицій, які були замовлені, і їх кількість:
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/05.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_05.png
    :align: center
 
 Система автоматично підставляє значення в колонку «**Кількість**» з раніше надісланого документа «**Замовлення**».
@@ -65,12 +64,12 @@
 
 Якщо якась із позицій відсутня і поставлятися не буде, її необхідно відзначити галочкою і видалити.
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/06.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_06.png
    :align: center
 
 Після внесення всіх даних в документі, натисніть кнопку «**Зберегти**», потім «**Надіслати**».
 
-.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/07.png
+.. image:: pics_formirovanie_dokumenta_Schetfaktura_INVOICE_na_web_platforme/formirovanie_INVOICE_07.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку «**Відправлені**» і буде знаходиться в ланцюжку документів разом із **Замовленням** і **Підтвердженням замовлення**.
