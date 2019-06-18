@@ -1,5 +1,5 @@
 ####################################################
-Заповнення Товарного Довідника (додати картинки)
+Заповнення Товарного Довідника
 ####################################################
 
 .. contents:: Содержание:
@@ -21,25 +21,25 @@
 
 Для переходу до заповнення Товарного довідника, необхідно перейти в розділ **«Меню» -> «Довідники» -> «Товарний Довідник»**
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/01.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_01.png
    :align: center
 
 Для того щоб додати товарної позиції, натисніть на кнопку **«+»**.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/02.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_02.png
    :align: center
 
 Після натискання на яку у вас відкриється форма **«Відхилення від норми даних товарної позиції»**.
 
 **Обов'язкові для заповнення поля**:
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/03.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_03.png
    :align: center
 
 #. **Найменування*** - вкажіть найменування товарної позиції.
-#. **Штрихкод*** - вкажіть штрихкод позиції.
+#. **Штрих-код*** - вкажіть штрихкод позиції.
 #. **Ціна*** - вкажіть ціну без ПДВ.
-#. **Од.вим*** - зі списку виберіть одиницю.
+#. **Од.вим.*** - зі списку виберіть одиницю.
 #. **ПДВ*** - Вкажіть ставку ПДВ.
 #. **ТМ** - вкажіть, до яких торговельних мереж буде відноситись даний товар. За замовчуванням стоїть значення "Всі".
 
@@ -47,22 +47,22 @@
 
 Після заповнення **обов'язкових полів**, натисніть на **«Зберегти»** для внесення змін за товарною позицією.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/04.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_04.png
    :align: center
 
 Позиція буде збережена і відображатиметься в загальному довіднику.
 
 Позиції з позначкою **ТМ** будуть відображатися в довіднику з найменуванням мережі в квадратних дужках після найменування.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/05.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_05.png
    :align: center
 
 Завантаження Товарного Довідника через шаблон
 ==========================================================
 
-Для того щоб перейти в Меню завантаження шаблону Товарного Довідника, натисніть на кнопку **«Завантажити довідник»**.
+Для того щоб перейти в Меню завантаження шаблону Товарного Довідника, натисніть на кнопку **«Імпортувати довідник»**.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/06.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_06.png
    :align: center
 
 Після чого відкриється форма **«Завантаження позицій»**.
@@ -71,7 +71,7 @@
 
 .. important:: **Зверніть увагу!** Коди «Одиниць вимірювань» і Коди «Ставок ПДВ» потрібно заповнити згідно таблиці, яка розташована в центральній частині екрану
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/07.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_07.png
    :align: center
 
 Заповнення ТД за допомогою шаблону .csv
@@ -79,26 +79,26 @@
 
 .. important:: Якщо Ваша програма не підтримує формат .csv (або файл відображається некоректно), ви можете встановити безкоштовний пакет офісних програм LibreOffice перейшовши за посиланням: http://free-software.com.ua/office/libreoffice/
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/08.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_08.png
    :align: center
 
 Для того щоб завантажити шаблон, натисніть на кнопку ** «Шаблон ТД.CSV» **. Після чого почнеться скачування файлу.
 
 Відкрийте порожній файл Excel, після чого натисканням на кнопку **«Файл»** -> **«Відкрити»** відкрийте завантажений шаблон.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/09.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_09.png
    :align: center
 
 Для того щоб відкрити таблицю Шаблона ТД.CSV, вкажіть в Таблиці **«Імпорт даних з тексту»** коректні дані.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/10.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_10.png
    :align: center
 
 Для коректного відкриття документа вкажіть в полі **Кодування - «Кирилиця (Windows-1251)»**, в полі **Параметри роздільник** - **«Кома / Крапка з комою»** і в полі **Інші параметри** - **«Розпізнавати будь-які числа»**, і натисніть клавішу **ОК**.
 
 Відкрийте завантажений файл Excel і заповніть **обов'язкові колонки**, виділені кольором, згідно з інструкцією на сайті:
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/11.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_11.png
    :align: center
 
 Після заповнення таблиці, збережіть файл на робочий стіл.
@@ -108,7 +108,7 @@
 
 Для завантаження шаблону необхідно повернутися в Товарний Довідник і натиснути на кнопку **«Завантажити Шаблон»** (при необхідності, відзначте роздрібну мережу, для якої ви хочете завантажити довідник).
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/12.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_12.png
    :align: center
 
 Потім виберіть створений документ, який ви зберегли раніше.
@@ -116,20 +116,20 @@
 
 Позиції з позначкою **ТМ** будуть відображатися в довіднику з найменуванням мережі в квадратних дужках після найменування.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/13.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_13.png
    :align: center
 
 Заповнення ТД за допомогою шаблону .xls
 ------------------------------------------------
 
-Для того щоб завантажити шаблон, натисніть на кнопку **«Шаблон ТД CSV»**, після чого почнеться скачування файлу.
+Для того щоб завантажити шаблон, натисніть на кнопку **«Шаблон ТД XLS»**, після чого почнеться скачування файлу.
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/14.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_14.png
    :align: center
 
 Відкрийте завантажений файл Excel і заповніть **обов'язкові колонки**, виділені кольором, згідно з інструкцією на сайті:
 
-.. image:: pics_zapolnenie_tovarnogo_spravochnika/15.png
+.. image:: pics_zapolnenie_tovarnogo_spravochnika/zapolnenie_tovarnogo_spravochnika_15.png
    :align: center
 
 Після заповнення шаблону, збережіть файл на робочий стіл.
