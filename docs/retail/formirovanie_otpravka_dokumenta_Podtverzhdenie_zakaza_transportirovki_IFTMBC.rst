@@ -35,17 +35,17 @@
 
 Для відображення більш детальної інформації, натисніть кнопку **«Показати повністю»**:
 
-.. image:: pic_formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC/formirovanie_IFTMBC_03.jpg
+.. image:: pic_formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC/formirovanie_IFTMBC_03.png
    :align: center
 
 Відкритий документ містить детальну інформацію за Замовленням, дані по вантажу і транспорту, а також дані по маршруту.
 
-.. image:: pic_formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC/formirovanie_IFTMBC_04.jpg
+.. image:: pic_formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC/formirovanie_IFTMBC_04.png
    :align: center
 
 У правому блоці, міститься інформація про реквізити контрагентів, їх найменування, адреси і GLN номери.
 
-.. image:: pic_formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC/formirovanie_IFTMBC_05.jpg
+.. image:: pic_formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC/formirovanie_IFTMBC_05.png
    :align: center
 
 Для створення документа **IFTMBC**, у відкритому документі натисніть кнопку **«Сформувати»** і виберіть зі списку документ **«Підтвердження замовлення транспортування»**.
