@@ -6,7 +6,7 @@ InvoiceDate, М, Дата (РРРР-ММ-ДД), дата ТН
 InvoiceCurrency, М, Рядок (3), валюта
 InvoicePostDate, O, Дата (РРРР-ММ-ДД), дата відправки ТН
 InvoicePostTime, O, Час (год: хв), час відправки ТН
-DocumentFunctionCode, М,"TN" "/" "CTN","Код типу документа:
+DocumentFunctionCode, М,TN/CTN,"Код типу документа:
 TN - товарна накладна
 CTN - коригувальна товарна накладна"
 ContractNumber, О, Рядок (16), номер договору на поставку
