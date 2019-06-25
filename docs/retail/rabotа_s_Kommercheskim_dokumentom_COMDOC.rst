@@ -1,89 +1,89 @@
-Общая инструкция по работе с Коммерческим документом COMDOC
+Загальна інструкція по роботі з Комерційним документом COMDOC
 ########################################################################
 
----------
+.. role:: red
 
-.. contents:: Содержание:
+.. contents:: Зміст:
    :depth: 6
 
 ---------
 
-Введение
+Вступ
 ====================================
 
-Данная инструкция описывает порядок подписания коммерческого документа, который состоит из перечисленных ниже этапов.
+Дана інструкція описує порядок підписання комерційного документа, який складається з перерахованих нижче етапів.
 
-Принятие коммерческого документа
+Прийняття комерційного документа
 =========================================
 
-Чтобы принять коммерческий документ необходимо перейти в раздел «**Входящие**». Для удобства поиска, отфильтруйте документы по «Прочитанным», выберете необходимую сеть, тип «Коммерческий документ» и укажите нужный подтип документа.
+Щоб прийняти комерційний документ необхідно перейти в розділ «**Вхідні**». Для зручності пошуку, відфільтруйте документи по «Прочитаним», виберіть необхідну мережу, тип «Комерційний документ» і вкажіть потрібний підтип документа.
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_01.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_1.png
    :align: center
 
-Документы, требующие подписания, будут выделены уведомлением красного цвета: «**Документ требует подписания**»
+Документи, що вимагають підписання, будуть виділені повідомленням червоного кольору: :red:`«Документ потребує підписання»`
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_02.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_2.png
    :align: center
 
-Непрочитанные документы не подсвечиваются, их необходимо открыть или отметить как прочитанные.
+Непрочитані документи не підсвічуються, їх необхідно відкрити або відзначити, як прочитані.
 
-Подписание коммерческого документа
+Підписання комерційного документа
 =========================================
 
-Откройте нужный документ и нажмите кнопку «**Подписать**» на верхней панели инструментов.
+Відкрийте потрібний документ і натисніть кнопку «**Підписати**» на верхній панелі інструментів.
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_03.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_3.png
    :align: center
 
-Для первичной настройки ЭЦП, дождитесь загрузки страницы, а затем нажмите кнопку “**Считать ключи**”
+Для первинного налаштування ЕЦП, дочекайтеся завантаження сторінки, а потім натисніть кнопку “**Зчитати ключі**”.
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_04.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_4.png
    :align: center
 
-Затем, в блоке настройки ЭЦП, нажмите на изображение ключа и выберете из каталога, где хранятся Ваши секретные ключи, соответствующий файл.
+Потім, в блоці налаштування ЕЦП, натисніть на зображення ключа і виберіть з каталогу, де зберігаються Ваші секретні ключі, відповідний файл.
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_05.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_5.png
    :align: center
 
-Виды файлов электронно-цифровой подписи
+Види файлів електронно-цифрового підпису
 =========================================
 
-Если Вы используете ключи от **АЦСК “Украина”**, файлы подписей секретных ключей имеют расширение **.ZS2** и следующие значения в именах файлов:
+Якщо Ви використовуєте ключі від **АЦСК "Україна"**, файли підписів секретних ключів мають розширення **.ZS2** і наступні значення в іменах файлів:
 
-- Директор «DS»,
-- Бухгалтер «BS»,
-- Сотрудник «SS»,
-- Печать «S»,
-- Шифрование «C»,
-- Универсальный ключ печати и шифрования «U».
+* Директор «DS»
+* Бухгалтер «BS»
+* Співробітник «SS»
+* Печатка «S»
+* Шифрування «C»
+* Універсальний ключ печатки і шифрування «U»
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_06.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_6.png
    :align: center
 
-Если Вы используете ключи от **АЦСК “ПриватБанк”**, файлы подписей секретных ключей имеют расширение **.jks**
+Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секрентних ключів мають розширення **.jks**
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_07.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_7.png
    :align: center
 
-Если Вы используете ключи от любых других **АЦСК**, файлы подписей секретных ключей имеют наименование **Key-6.dat**
+Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секрентних ключів мають найменування **Key-6.dat**
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_08.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_8.png
    :align: center
 
-После выбора секретных ключей, введите пароли под каждым из них, а затем нажмите кнопку “**Считать ключи**”
+Після вибору секретних ключів, введіть паролі під кожним з них, а потім натисніть кнопку “**Зчитати ключі**”
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_09.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_9.png
    :align: center
 
-При корректном считывании ключей, в блоке “**ЭЦП**” появится информация о владельцах ключей. После проверки информации нажмите кнопку “**Подписать**”.
+При коректному зчитуванні ключів, в блоці “**ЕЦП**” з’явиться інформація про власників ключів. Після перевірки інформації натисніть кнопку “**Підписати**”.
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_10.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_10.png
    :align: center
 
-После подписания нажмите на кнопку “**Отправить**”.
+Після підписання натисніть на кнопку “**Відправити**”.
 
-.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_Kommercheskim_dokumentom_COMDOC_11.png
+.. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_11.png
    :align: center
 
 .. include:: kontakti.rst

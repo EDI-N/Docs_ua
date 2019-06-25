@@ -1,10 +1,8 @@
 ####################################################
-Робота з платформою EDIN (додати картинки)
+Робота з платформою EDIN
 ####################################################
 
 Дана інструкція описує загальні принципи роботи на web-платформі.
-
----------
 
 .. contents:: Зміст:
    :depth: 6
@@ -13,7 +11,7 @@
 
 .. important:: **Увага!** Перед початком роботи на web-платформі Вам на пошту надійде лист з даними для доступу.
 
-.. image:: pics_rabota_s_platformoj_EDIN/01.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_01.png
    :align: center
 
 Генерація пароля
@@ -21,17 +19,17 @@
 
 Для доступу на портал, необхідно створити пароль, для генерації пароля, відкрийте лист і перейдіть за посиланням для створення пароля з пункту 3:
 
-.. image:: pics_rabota_s_platformoj_EDIN/02.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_02.png
 
 У формі введіть новий пароль, а потім повторіть його і натисніть кнопку **«Зберегти»**.
 Пароль повинен складатися мінімум з **6 символів** і містити **цифри і букви**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/03.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_03.png
    :align: center
 
 Після збереження пароля, система перенаправить Вас на головну сторінку для входу. Для доступу на web-платформу введіть логін з листа (пункт 2) і придуманий пароль.
 
-.. image:: pics_rabota_s_platformoj_EDIN/04.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_04.png
    :align: center
 
 Відновлення паролю
@@ -44,7 +42,7 @@
 
 Після введення логіна і пароля в лівому блоці web-порталу відображаються основні папки для документів, за замовчуванням відображається папка **«Вхідні»**. Тут знаходяться всі документи, які були відправлені з боку контрагентів.
 
-.. image:: pics_rabota_s_platformoj_EDIN/05.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_05.png
    :align: center
 
 Фільтри
@@ -52,19 +50,19 @@
 
 У цій папці є можливість використовувати ** фільтри ** для швидкого відображення потрібних типів документів від певної мережі. Для цього потрібно скористатися полями, які відображені вище над документами.
 
-.. image:: pics_rabota_s_platformoj_EDIN/06.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_06.png
    :align: center
 
 Якщо у Вас кілька GLN, переключитися можливо натиснувши на 13-ти значний номер / назва компанії в правому верхньому куті екрану і ввести перші символи номера / назви компанії. Щоб при наступному вході на платформу відображався певний GLN, його потрібно відзначити **«зірочкою»**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/07.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_07.png
    :align: center
 
 Спочатку всі документи, що надійшли на платформу, виділені жирним шрифтом і є в статусі ** «Не прочитані» **. Після перегляду (відкриття) документ стає прочитаним. Повернути його в колишній статус неможливо.
 
 Якщо в рядку документа біля найменування мережі стоїть якась цифра, вона відображає кількість документів, що знаходяться в ланцюжку. Наприклад, відкривши **«Замовлення»**, є можливість перейти в документ **«Підтвердження замовлення»**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/08.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_08.png
    :align: center
 
 При позначці галочкою документа (без переходу в документ), є можливість зробити наступні дії:
@@ -79,7 +77,7 @@
 
 При позначці зірочкою документ автоматично копіюється в папку **«Важливі»**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/09.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_09.png
    :align: center
 
 Після відкриття документа (вхідного / відправленого) є можливість:
@@ -92,7 +90,7 @@
 #. Відкрити повний вид документа
 #. Перенести документ в папку **«Оброблені»**
 
-.. image:: pics_rabota_s_platformoj_EDIN/10.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_10.png
    :align: center
 
 При натисканні кнопки **«Зберегти»**, документ зберігається в папці **«Чернетки»**. Надалі з Чернеток можна відправити кілька документів одночасно, зазначивши галочкою і натиснувши кнопку **«Надіслати»**. Така можливість є і при підписанні кількох ЮЗД. Після натискання кнопки **«Надіслати»**, документ переноситься в папку **«Відправлені»**.
@@ -101,7 +99,7 @@
 
 За замовчуванням відображається 40 останніх документів. Для переходу на наступні 40 досить натиснути на кнопку **«вправо»**, яка знаходиться в правій верхній частині екрану.
 
-.. image:: pics_rabota_s_platformoj_EDIN/11.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_11.png
    :align: center
 
 Завершує список, папка **«Документи АТС»**. Яка містить в собі первинну документацію та податкові накладні від ТОВ «АТС». Документ **«Акт наданих послуг»**, вимагає підписання ЕЦП з вашого боку. Процедура підписання вказана у відповідній інструкції.
@@ -111,17 +109,17 @@
 
 Крім основних папок на Web-платформі, є можливість створити **«Ярлик»** для певних типів документів і мереж. Для цього необхідно натиснути на кнопку **«Створити ярлик»**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/12.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_12.png
    :align: center
 
 Дана функція дозволяє створити окремий ярлик, під певні типи документів, стану документів (прочитані та непрочитані), вибрати розділ **«Вхідні»**, **«Відправлені»**, **«Важливі»**, **«Чернетки»** або **«Оброблені»**. Так само можна додати GLN номер, певну роздрібну мережу або місце доставки.
 
-.. image:: pics_rabota_s_platformoj_EDIN/13.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_13.png
    :align: center
 
 Після внесення необхідних даних, під стандартними папками на web-платформі з'явиться створений Ярлик з документами за вказаними параметрами.
 
-.. image:: pics_rabota_s_platformoj_EDIN/14.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_14.png
    :align: center
 
 Пошук
@@ -129,19 +127,19 @@
 
 .. sidebar:: Розширений **«Пошук»***
 
-    .. image:: pics_rabota_s_platformoj_EDIN/17.png
+    .. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_17.png
    
 
 Пошук документів на платформі здійснюється двома способами:
 
 Звичайний **«Пошук»**, і **"Розширений пошук"***
 
-.. image:: pics_rabota_s_platformoj_EDIN/15.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_15.png
    :align: center
 
 Для пошуку достатньо ввести коректний номер документа в поле **«Пошук»**. При цьому потрібно виставити фільтр на **«все»**. Так як, наприклад, при обраному фільтрі **«Прочитані»**, пошук буде здійснюватися тільки по прочитаним. Для скидання фільтра натисніть кнопку: | кубик-рубика | після цього всі фільтри будуть скинуті.
 
-.. |кубик-рубика| image:: pics_rabota_s_platformoj_EDIN/16.png 
+.. |кубик-рубика| image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_16.png 
 
 Кнопка ** «Пошук *» ** має розширений функціонал пошуку документів, натиснувши на відповідну кнопку, з'явитися вікно для введення даних.
 Після введення потрібного критерію для пошуку документа, натисніть кнопку **«Знайти»**. Пошук буде здійснюватися за заданими параметрами.
@@ -153,35 +151,35 @@
 
 Кнопка налаштувань знаходиться в правому верхньому кутку:
 
-.. image:: pics_rabota_s_platformoj_EDIN/18.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_18.png
    :align: center
 
 В налаштуваннях знаходяться наступні вкладки:
 
-.. image:: pics_rabota_s_platformoj_EDIN/19.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_19.png
    :align: center
 
 У вкладці **«Мої налаштування»** є можливість змінити свій пароль для входу на платформу, e-mail для відправки повідомлень, мову інтерфейсу, а також додати сервісні повідомлення.
 У вкладці **«Мої компанії»** відображається список ваших компаній з окремими GLN. При виборі однієї з компаній є можливість внести дані, які можуть використовуватися автоматично при формуванні деяких типів документів. Наприклад, дані підписанта в Комерційному документі. Далі обов'язково потрібно натиснути кнопку **«Зберегти»**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/20.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_20.png
    :align: center
 
 У вкладці **«Біллінг»** можна скачати звіт по зроблених транзакціях. Для цього потрібно вибрати період (при необхідності тип документа) і натиснути кнопку **«Фільтрувати»**, а потім **«Звіт»**. Далі файл завантажується в форматі .xls.
 
-.. image:: pics_rabota_s_platformoj_EDIN/21.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_21.png
    :align: center
 
 Функціонал у вкладці «Біллінг», знаходиться на стадії розробки.
 
 У вкладці **«Рахунки»** знаходяться документи, виставлені від контрагента. Їх можна надрукувати натиснувши на іконку в колонці **«Дії»**.
 
-.. image:: pics_rabota_s_platformoj_EDIN/22.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_22.png
    :align: center
 
 Перейти у вкладку рахунки також можна натиснувши на повідомлення вгорі платформи:
 
-.. image:: pics_rabota_s_platformoj_EDIN/23.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_23.png
    :align: center
 
 У вкладці **«Реквізити»** відображаються реквізити вашої компанії.
@@ -189,7 +187,7 @@
 
 У вкладці **«Користувачі»** відображаються всі логіни, через які здійснюється доступ до платформи. В даній вкладці є можливість створити нового користувача, натиснувши на відповідну кнопку або редагувати існуючий.
 
-.. image:: pics_rabota_s_platformoj_EDIN/24.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_24.png
    :align: center
 
 Функціонал у вкладці **«Мої покупці»**, знаходиться в на стадії розробки.
@@ -199,17 +197,17 @@
 
 На верхній панелі Web-платформи міститься наступне меню:
 
-.. image:: pics_rabota_s_platformoj_EDIN/25.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_25.png
    :align: center
 
-Розділ **«Довідники»** містить в собі:
+Розділ **«Каталоги»** містить в собі:
 
 * **Товарний довідник**
 * **Каталог транспортних засобів**
 * **Довідник водіїв**
 * **Довідник тегів**
 
-.. image:: pics_rabota_s_platformoj_EDIN/26.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_26.png
    :align: center
 
 **Товарний довідник** - необхідний для внесення цін і номенклатури для коректної роботи з відповідними документами по деяких торговельних мереж.
@@ -222,17 +220,17 @@
 
 Розділ **«План поставок»** являє собою календар:
 
-.. image:: pics_rabota_s_platformoj_EDIN/27.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_27.png
    :align: center
 
 В даному календарі можливо перевірити всі ваші минулі і майбутні поставки по всім торговим мережам. Дата поставки вказується відповідно до дати доставки, зазначеної в замовленні від мережі. При наведенні курсором миші на певний номер замовлення, у спливаючому вікні буде відображена точка доставки по даному замовленню. Клікнувши по номеру замовлення, буде виконаний перехід до відповідного замовлення. Для зручності відображення, план поставок можна відфільтрувати по місяцю, року і необхідній торговельній мережі. Для цього скористайтесь відповідними кнопками:
 
-.. image:: pics_rabota_s_platformoj_EDIN/28.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_28.png
    :align: center
 
 Функціонал у вкладці **«Контрагенти»** знаходиться на стадії розробки.
 
-.. image:: pics_rabota_s_platformoj_EDIN/29.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_29.png
    :align: center
 
 Сервіси
@@ -240,7 +238,7 @@
 
 Розділ **«Сервіс»** містить в собі функціонал, який підключається додатково:
 
-.. image:: pics_rabota_s_platformoj_EDIN/30.png
+.. image:: pics_rabota_s_platformoj_EDIN/Instrukcija_po_rabote_s_platformoj_EDIN_30.png
    :align: center
 
 * **EDIN-Certificate**

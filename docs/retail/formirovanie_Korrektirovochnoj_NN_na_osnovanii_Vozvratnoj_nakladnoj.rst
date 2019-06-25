@@ -1,156 +1,152 @@
-Формирование Корректировочной НН на основании Возвратной накладной
+Формування Коригувальної ПН на підставі Накладної на повернення
 ############################################################################
----------
 
-.. contents:: Содержание:
+.. role:: red
+
+.. contents:: Зміст:
    :depth: 6
 
 ---------
 
-Предварительные настройки
+Початкові налаштування
 ====================================
-Для начала работы с электронной налоговой накладной необходимо:
 
-1.1. Подготовить действующую электронную цифровую подпись
-лица (лиц), с помощью которой будет осуществляться подписание электронной
-налоговой накладной (declar).
+Для початку роботи з електронною податковою накладною необхідно:
 
-1.2. Если ключи не на внешних носителях (диск, флеш-накопитель), нужно
-узнать путь к ключам в файловой системе.
+1.1. Підготувати діючий електронний цифровий підпис особи (осіб), за допомогою якого буде здійснюватися підписання електронної податкової накладної (declar).
 
-1.3. Зайти на портал: http://edo.edi-n.com и ввести логин и пароль.
+1.2. Якщо ключі не на зовнішніх носіях (диск, флеш-накопичувач), потрібно знати шлях до ключів в файловій системі.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_01.png
+1.3. Зайти на портал: http://edo.edi-n.com і ввести логін і пароль.
+
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_01.png
    :align: center
 
-1.4. Перед началом работы с корректировочной налоговой накладной необходимо единоразово заполнить все реквизиты, которые будут отображаться в налоговой со стороны поставщика.
+1.4. Перед початком роботи з Коригувальною податковою накладною необхідно одноразово заповнити всі реквізити, які будуть відображатися в податковій з боку постачальника.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_02.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_02.png
    :align: center
 
-1.5. Перейти в раздел «**Настройки**» (в правом верхнем углу):
+1.5. Перейти в розділ «**Налаштування**» (в правому верхньому куті):
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_03.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_03.png
    :align: center
 
-1.6. Перейти в закладку "**Мои компании**" и выбрать GLN, с которого
-будет происходить отправка накладных:
+1.6. Перейти в закладку "**Мої компанії**" і вибрати GLN, з якого відбуватиметься відправка накладних:
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_04.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_04.png
    :align: center
 
-**Необходимо указать**:
+**Необхідно вказати**:
 
-- Код ЕДРПОУ
-- Код ИНН
-- Правильное название компании
-- № свидетельства плательщика НДС
-- Улицу и дом (юр. адрес)
-- Индекс (юр. адрес)
-- Город (юр. адрес)
-- Страну (выбирайте из списка Украину)
-- Область (выбирайте из списка)
-- ГНИ (выбирайте из списка налоговую, в которую подаете отчетность)
-- Менеджер (можно указать «-»)
-- Бухгалтер (Ф.И.О. главного бухгалтера)
-- Директор (Ф.И.О. директора)
-- Должность (должность директора: генеральный, исполнительный, директор)
-- Подписант (Ф.И.О. и ИНН подписанта)
+- Код ЄДРПОУ
+- Код ІПН
+- Правильну назву компанії
+- № свідоцтва платника ПДВ
+- Вулицю і будинок (юр. адреса)
+- Індекс (юр. адреса)
+- Місто (юр. Адреса)
+- Країну (вибирайте зі списку Україну)
+- Область (вибирайте зі списку)
+- ДПІ (вибирайте зі списку податкову, в яку подаєте звітність)
+- Менеджер (можна вказати «-»)
+- Бухгалтер (П.І.Б. головного бухгалтера)
+- Директор (П.І.Б. директора)
+- Посада (посада директора: генеральний, виконавчий, директор)
+- Підписант (П.І.Б. та ІПН підписувача)
 - Телефон
-- Форма собственности (юр. или физ. лицо)
+- Форма власності (юр. чи фіз. особа)
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_05.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_05.png
    :align: center
 
-После заполнения нажмите кнопку «**Сохранить**».
+Після заповнення натисніть кнопку «**Зберегти**».
 
-Формирование документа “Корректировка к Налоговой накладной(DECLAR_J12)»
+Формування документа "Коригування до Податкової накладної (DECLAR_J12)"
 ====================================================================================
-Данный документ формируется на основании **Коммерческого документа (СOMDOC) “Накладная на возврат”**.
 
-Для удобства поиска выберите в первом фильтре - **Все** документы, во втором — **торговую сеть**, в третьем - тип документа **Коммерческий документ**, и в четвертом — **Накладная на возврат**.
+Даний документ формується на підставі **Комерційного документа (СOMDOC) “Накладна на повернення”**.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_06.png
+Для зручності пошуку виберіть в першому фільтрі - **Всі** документи, у другому - **торгівельну мережу**, в третьому - тип документа **Комерційний документ**, і в четвертому - **Накладна на повернення**.
+
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_06.png
    :align: center
 
-*Перед отправкой корректировки необходимо подписать и отправить Коммерческий документ “Накладная на возврат”.*
+*Перед відправкою коригування необхідно підписати і відправити Комерційний документ "Накладна на повернення".*
 
-Для того, что бы сформировать документ “**Корректировка к Налоговой накладной**”, необходимо зайти в **Коммерческий документ** “**Накладная на возврат**”.
+Для того, що б сформувати документ “**Коригування до Податкової накладної**”, необхідно зайти в **Комерційний документ** “**Накладна на повернення**”.
 
-Далее необходимо нажать на кнопку **Сформировать** —> **Коригування податкової накладної**.
+Далі необхідно натиснути на кнопку **Сформувати** —> **Коригування податкової накладної**.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_07.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_07.png
    :align: center
 
-Заполнение документа “Корректировка к Налоговой накладной(DECLAR_J12)”
+Заповнення документа "Коригування до Податкової накладної (DECLAR_J12)"
 ========================================================================
 
-Все необходимые поля для заполнению обозначены красными звёздочками *****.
+Всі необхідні поля для заповнення позначені червоними зірочками :red:`*`.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_08.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_08.png
    :align: center
 
-В выпадающем списке **Причина коригування*** обязательно необходимо выбрать соответствующий параметр.
+В випадаючому списку **Причина коригування*** обов'язково необхідно вибрати відповідний параметр.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_09.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_09.png
    :align: center
 
-**Раздел А** рассчитывается автоматически при условии наличия соответствующией галочки в чекбоксе.
+**Розділ А** розраховується автоматично за умови наявності відповідної галочки в чекбоксі.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_10.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_10.png
    :align: center
 
-Ниже вы можете увидеть перечень товарных позиций, которые переносятся из документа “**Накладная на возврат**”.
+Нижче ви можете побачити перелік товарних позицій, які переносяться з документа “**Накладна на повернення**”.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_11.png
-   :align: center
-   
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_12.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_11.png
    :align: center
 
-Все остальные поля вы заполняете самостоятельно согласно действующего налогового законодательства Украины.
+Всі інші поля ви заповнюєте самостійно згідно чинного податкового законодавства України.
 
-После внесения всех данных необходимо нажать кнопку «**Сохранить**». Если часть необходимых реквизитов не заполнена, появятся подсказки, какие поля нужно заполнить.
+Після внесення всіх даних необхідно натиснути кнопку «**Зберегти**». Якщо частина необхідних реквізитів не заповнена, з'являться підказки, які поля потрібно заповнити.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_13.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_12.png
    :align: center
 
-После сохранения налоговой накладной для нанесения подписей необходим нажать кнопку «**Подписать**».
+Після збереження податкової накладної для нанесення підписів необхідно натиснути кнопку «**Підписати**».
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_14.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_13.png
    :align: center
 
-После нажатия кнопки "**Отправить**" накладная отправляется на регистрацию в Единый реестр налоговых накладных.
+Після натискання кнопки "**Надіслати**" накладна відправляється на реєстрацію до Єдиного реєстру податкових накладних.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_15.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_14.png
    :align: center
 
-Получение статуса о регистрации
+Отримання статусу про реєстрацію
 =======================================================================
 
-В зависимости от того, была ли зарегистрирована накладная или нет, вам обязательно поступит соответствующий статус:
+Залежно від того, чи була зареєстрована накладна чи ні, вам обов'язково надійде відповідний статус:
 
-1. **Зарегистрировано в ЕРНН**
+1. **Зареєстровано в ЄРПН**
 
-Свидетельствует о том, что Корректировочная налоговая накладная была успешно зарегистрирована в ЕРНН вашим контрагентом.
+Свідчить про те, що Коригувальна податкова накладна була успішно зареєстрована в ЄРПН вашим контрагентом.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_16.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_15.png
    :align: center
 
-2. **Ошибка при регистрации в ЕРНН**
+2. **Помилка при реєстрації в ЄРПН**
 
-Свидетельствует о том, что Корректировочная налоговая накладная была отклонена вашим контрагентом.
+Свідчить про те, що Коригувальна податкова накладна була відхилена вашим контрагентом.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_17.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_16.png
    :align: center
 
-Также ошибку регистрации(квитанцию) можно посмотреть, зайдя в документ.
+Також помилку реєстрації (квитанцію) можна переглянути, зайшовши в документ.
 
-.. image:: pics_formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj/formirovanie_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj_nakladnoj_18.png
+.. image:: pics_Korrektirovochnoj_NN_na_osnovanii_Vozvratnoj/formirovanie_Korrektirovochnoj_NN_17.png
    :align: center
 
-3. **Отправлен на проверку в торговую сеть**
+3. **Відправлений на перевірку в торговельну мережу**
 
-Документ проверяется на стороне торговой сети перед отправкой на регистрацию.
+Документ перевіряється на стороні торгової мережі перед відправкою на реєстрацію.
 
 .. include:: kontakti.rst

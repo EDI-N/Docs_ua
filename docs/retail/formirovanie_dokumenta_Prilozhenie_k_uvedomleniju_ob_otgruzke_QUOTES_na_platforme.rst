@@ -1,91 +1,90 @@
-####################################################################################
-Формирование документа «Приложение к уведомлению об отгрузке» (QUOTES) на платформе
-####################################################################################
----------
+##########################################################################################################################
+Формування документа «Додаток до повідомлення про відвантаження» (QUOTES) на платформі
+##########################################################################################################################
 
-.. contents:: Содержание:
+.. contents:: Зміст:
    :depth: 6
 
 ---------
 
-Введение
+Вступ
 ====================================
-Данная инструкция описывает порядок формирования и отправки документа «Приложение к уведомлению об отгрузке» (QUOTES).
 
-Формирование Приложения к уведомлению об отгрузке» (QUOTES)
-===============================================================
+Дана інструкція описує порядок формування та відправки документа «Додаток до повідомлення про відвантаження» (QUOTES).
 
-Формирование документа происходит на основании «**Уведомления об отгрузке**».
+Формування документа «Додаток до повідомлення про відвантаження» (QUOTES)
+=================================================================================
 
-Для формирования перейдите в раздел «**Отправленные**», для удобства поиска выберите в фильтре необходимую сеть и тип документа «**Уведомление об отгрузке**».
+Формування документа відбувається на підставі «**Повідомлення про відвантаження**».
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_01.png
+Перейдіть в розділ «**Відправлені**», для зручності пошуку виберіть в фільтрі необхідну мережу і тип документа «**Повідомлення про відвантаження**».
+
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/01.png
    :align: center
 
-В открытом документе, нажмите кнопку «**Сформировать**» и выберете из списка документ «**Приложение к уведомлению об отгрузке**».
+У відкритому документі, натисніть кнопку «**Сформувати**» і виберіть зі списку документ «**Додаток до повідомлення про відвантаження**».
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_02.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/02.png
    :align: center
 
-В окне появится Форма c данными, которые переносятся из соответствующего Уведомления об отгрузке. Все поля, обозначены красной звёздочкой ***** обязательны для заполнения.
+У вікні з'явиться Форма c даними, які переносяться з відповідного **Повідомлення про відвантаження**. Всі поля, позначені червоною зірочкою ***** обов'язкові для заповнення.
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_03.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/03.png
    :align: center
 
-#. **Номер документа** - переносится из соответствующего Ув.об отгрузке.
-#. **Дата документа** - переносится из соответствующего Ув.об отгрузке.
+#. **Номер документа** - переноситься з відповідного **Повідомлення про відвантаження**.
+#. **Дата документа** - переноситься з відповідного **Повідомлення про відвантаження**.
 
+Нижче на сторінці сформованого документа знаходиться перелік товарних позицій, які були замовлені, і їх кількість.
 
-Ниже на странице сформированого документа находится перечень товарных позиций, которые были заказаны, и их количество.
-
-Добавление серийных номеров к товарным позициям.
+Додавання серійних номерів до товарних позицій
 ======================================================
 
-Внесение данных доступно несколькими способами: вручную, либо через шаблон .xls. Ниже описаны примеры обоих способов.
+Внесити дані можливо декількома способами: вручну, або через шаблон .xls. Нижче описані приклади обох способів.
 
-Добавление номеров вручную
+Додавання номерів вручну
 ---------------------------
 
-Если по товарной позиции будет отгружено количество в размере одной единицы товара, то вам необходимо заполнить поле в колонке «**Серийный номер**».
+Якщо за товарною позицією буде відвантажено кількість в розмірі однієї одиниці товару, то вам необхідно заповнити поле в колонці «**Серійний номер**».
 
-Если по товарной позиции будет отгружено несколько единиц товара, то вам необходимо нажать на кнопку **«+» зеленого цвета**, и в открывшемся окне заполнить все поля.
+Якщо за товарною позицією буде відвантажено кілька одиниць товару, то вам необхідно натиснути на кнопку **«+» зеленого кольору**, і у вікні, заповнити всі поля.
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_04.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/04.png
    :align: center
 
-После внесения данных необходимо нажать кнопку «**Сохранить**»
+Після внесення даних необхідно натиснути кнопку «**Зберегти**»
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_05.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/05.png
    :align: center
 
-Добавление номеров через шаблон .xls
+Додавання номерів через шаблон .xls
 ------------------------------------
 
-Для загрузки серийных номеров через шаблон, нажмите на кнопку «**Скачать шаблон Excel**». После чего начнется скачивание файла.
+Для завантаження серійних номерів через шаблон, натисніть на кнопку «**Скачати шаблон Excel**». Після чого почнеться скачування файлу.
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_06.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/06.png
    :align: center
 
-Откройте пустой файл Excel, после чего нажатием на кнопку «**Файл**» -> «**Открыть**» откройте загруженный шаблон.
+Відкрийте порожній файл Excel, після чого натисканням на кнопку «**Файл**» -> «**Відкрити**» відкрийте завантажений шаблон.
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_07.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/07.png
    :align: center
 
-В открытом файле заполните колонку «**Серийный номер**», после заполнения шаблона, сохраните его на рабочий стол.
+У відкритому файлі заповніть колонку «**Серійный номер**», після заповнення шаблону, збережіть його на робочий стіл.
 
-Для загрузки шаблона, вернитесь в документ, и нажмите на кнопку «Загрузить позиции из Excel».
+Для завантаження шаблону, поверніться в документ, і натисніть на кнопку «Завантажити позиції з Excel».
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_08.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/08.png
    :align: center
 
-Затем выберите созданный документ, который вы сохранили и загрузите.
+Потім виберіть створений документ, який ви зберегли і завантажте.
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_09.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/09.png
    :align: center
 
-Для сохранения документа нажимаем на кнопку «**Сохранить**», а затем - «**Отправить**».
+Для збереження документа натискаємо на кнопку «**Зберегти**», а потім - «**Відправити**».
 
-.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_10.png
+.. image:: pics_formirovanie_dokumenta_Prilozhenie_k_uvedomleniju_ob_otgruzke_QUOTES_na_platforme/10.png
    :align: center
 
 .. include:: kontakti.rst
