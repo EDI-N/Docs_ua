@@ -1,8 +1,8 @@
-Сервисы
+Сервіси
 ###########
 
 .. toctree::
-    :maxdepth: 0
+    :maxdepth: 1
    
    EDIN_Price/EDIN_Price_list
    EDIN_Distribution/EDIN-Distribution_list
