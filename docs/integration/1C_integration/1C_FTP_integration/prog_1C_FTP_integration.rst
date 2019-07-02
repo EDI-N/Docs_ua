@@ -8,29 +8,29 @@
 
 З 1С-Підприємства запускаємо файл зовнішньої обробки **Integration_ (версія_модуля).epf** (Файл-> Відкрити)
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_01.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_001.png
    :align: center
 
 Перший запуск і установку модуля рекомендується проводити користувачем з правами адміністратора.
 
 1.2. З головного меню що з'явилося - «**Інтеграція EDI**» викликати «**Налаштування**»
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_02.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_002.png
    :align: center
 
 1.3. В викликаному меню «**Інтеграція: Налаштування**» перейти в **Майстер налаштувань**:
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_03.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_003.png
    :align: center
 
 1.4. У вікні Майстра налаштувань послідовно виконати налаштуваня у вкладках розташованих зліва:
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_04.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_004.png
    :align: center
 
 1.5. У вкладці «**Загальні настройки інтеграції**» в випадаючому списку вибрати Вид конфігурації (1) в якій працює Ваша 1С.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_05.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_005.png
    :align: center
 
 Модуль також може підключатися і до нетипових конфігурацій. Для такого підключення, виберіть зі списку найбільш близьку конфігурацію. Кожен випадок вимагає індивідуальної перевірки на працездатність.
@@ -54,7 +54,7 @@
 
 1.7. Перейшовши у вкладку «**Налаштування БД**» майстра налаштувань, необхідно встановити ODBC драйвер для *SQLlite* натиснувши на відповідну кнопку.
  
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_07.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_007.png
    :align: center
 
 Запуститься інсталятор ODBC драйвера, під час установки якого не міняйте параметри за замовчуванням (нічого додатково не вказуючи).
@@ -67,12 +67,12 @@
 
 На закладці **З'єднання** в пункті **1. Джерело даних** встановіть перемикач на **Використовувати рядок з'єднання** і натисніть кнопку **Збірка ...**
  
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_09.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_009.png
    :align: center
 
 У вікні вибору джерела даних на закладці **Джерело даних комп'ютера** виберіть **SQLite3 Datasource** і натисніть **ОК**.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_10.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_010.png
    :align: center
 
 У вікні налаштувань з'єднання ODBC-драйвера в поле **Database Name:** прописуємо шлях, де буде знаходитися файл з даними для інтеграції.
@@ -83,24 +83,24 @@
 
 Рядок з'єднання буде заповнено. Для тестування з'єднання з базою даних натисніть кнопку **Перевірити з'єднання**. Для повернення в вікно властивостей каналу передачі даних натисніть кнопку **ОК**.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_12.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_012.png
    :align: center
 
 На вкладці **Налаштування БД** рядок підключення і файл із зовнішнього базою даних будуть заповнені. Після цього створіть структуру бази даних, натиснувши на кнопку **Створити структуру БД**:
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_13.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_013.png
    :align: center
 
 1.8. У вкладці **Java** майстра налаштувань необхідно вказати шлях до Java на Вашому ПК, якщо вона встановлена. В іншому випадку, необхідно спочатку її встановити.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_14.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_014.png
    :align: center
 
 1.9. У вкладці **Налаштування FTP** прописуємо шляхи до локальних каталогів для вхідних, вихідних і архівних документів, натиснувши «**Заповнити за замовчуванням**» або вказуємо їх вручну.
 
 Вказуємо налаштування для сервера обміну і встановлюємо галочку навпроти «**Пасивний режим**»:
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_15.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_015.png
    :align: center
 
 .. note :: Якщо планується працювати з великою кількістю документів, то при синхронізації на закачування нових документів може знадобитися більше часу (1С спочатку закачує, а потім обробляє Додані файли). Для прискорення процесу синхронізації можливо використовувати **FTP-клієнт**, який у фоновому режимі закачує файли і також автоматично відсилає файли, підготовлені до відправки. В цьому випадку FTP клієнт завантажує файли з сервера в локальний каталог, а 1С працює вже з локальними каталогами. Для активації цієї функції встановіть галочку навпроти «**Завантажувати файли з використанням локального каталогу**».
@@ -110,14 +110,14 @@
 
 1.11. У вкладці **Організації** з переліку організацій виберіть необхідну.
  
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_16.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_016.png
    :align: center
 
 По подвійному кліку по назві організації відкриється форма елемента Організації.
 
 У формі натискаємо «**+**» і заповнюємо GLN організації, логін і пароль для підключення до FTP.
  
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_17.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_017.png
    :align: center
 
 .. note :: **GLN** (англ. Global Location Number 'глобальний номер розташування') являє собою номер структури EAN / UCC-13 (з 13 цифр, остання - контрольна). GLN не містить в собі ніякої конкретної інформації, він забезпечує тільки унікальне посилання на суб'єкт господарювання або його виробничий або функціональний об'єкт.
@@ -128,26 +128,26 @@
 
 Для цього з меню налаштувань інтеграції EDI необхідно перейти в довідник контрагентів натиснувши на кнопку «**Контрагенти**».
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_18.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_018.png
    :align: center
 
 У формі списку Контрагенти виберіть контрагента з яким планується електронний документообіг.
 
 По подвійному кліку на назву, викличте вікно форми елемента Контрагенти.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_19.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_019.png
    :align: center
 
 Заповніть GLN контрагента і активуйте типи документів, якими будете обмінюватися з даними контрагентом.
 
 1.12. У довідник **Роздрібні мережі** вноситься інформація про роздрібні мережі, з якими планується проводити EDI-обмін. Цю інформацію можна отримати автоматично, натиснувши на кнопку **Завантажити роздрібні мережі з сервера**.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_20.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_020.png
    :align: center
 
 У завантаженому списку роздрібних мереж вибираємо найменування необхідної мережі, встановлюємо галочку в стовпці Стан, і в стовпці Контрагент вибираємо відповідного контрагента в формі списку контрагентів.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_21.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_021.png
    :align: center
 
 Після проставлення відповідності довідників натиснути на кнопку **Завантажити точки доставки з сервера** (автоматично заповниться довідник **Точки доставки**).
@@ -156,17 +156,17 @@
 
 Далі слід вибрати необхідного контрагента в рядку «Контрагент» і заповнити інформацію по даній точці доставки.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_22.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_022.png
    :align: center
 
 1.14. У довідник **Номенклатура контрагентів** вноситься перелік номенклатури, яка братиме участь в документообігу із зазначеним контрагентом. Для коректної синхронізації товарних довідників в зазначеному регістрі **обов'язково (!)** повинні бути заповнені поля **Контрагент**, **Номенклатура**, **Одиниці виміру**, **Штрихкод номенклатури контрагента**. Список номенклатури, штрихкодів і одиниць вимірювання можна отримати безпосередньо у роздрібній мережі, з якої буде проводитися EDI-обмін.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_23.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_023.png
    :align: center
 
 .. note :: Для пошуку номенклатури також використовується поле Артикул номенклатури, а якщо встановлено прапорець **Вести облік номенклатури в розрізі характеристик** (див. Пункт Майстер настройки), то і за характеристиками.
 
 Всі вищеописані довідники та настройки доступні з головного меню налаштувань.
 
-.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_24.png
+.. image:: pics_prog_1C_FTP_integration/prog_1C_FTP_integration_024.png
    :align: center
