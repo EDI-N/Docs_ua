@@ -71,3 +71,6 @@
 
 .. image:: pics_instruktsia-po-shifrovaniu/foto9-3.2.png
    :align: center
+
+
+.. include:: kontakti.rst
