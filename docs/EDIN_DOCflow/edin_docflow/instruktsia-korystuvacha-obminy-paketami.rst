@@ -579,3 +579,6 @@
 
 .. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_63.png
    :align: center
+
+
+.. include:: kontakti.rst
