@@ -119,3 +119,6 @@
 
 .. image:: pics_instruktsia-nastroyka-ecp/instruktsia_nastroyka_ecp_13.png
    :align: center
+
+
+.. include:: kontakti.rst
