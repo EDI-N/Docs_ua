@@ -21,24 +21,21 @@
 
 Для отримання і обробки замовлень в головному вікні «**EDIN:Інтеграція**» натисніть кнопку **Замовлення**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_01.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_01.png
    :align: center
 
 У вікні що з’явилося відображається журнал замовлень.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_02.png
-   :align: center
-
 Для завантаження нових замовлень натисніть на кнопку **Завантажити Замовлення**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_03.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_02.png
    :align: center
 
 Після чого з'являться нові записи в журналі замовлень.
 
 Завантажені замовлення не створюються відразу в 1С, а завантажуються в базу даних модуля інтеграції. Якщо на підставі завантаженого замовлення в 1С були створені  документи **Замовлення покупця** і / або **Реалізація товарів і послуг**, то посилання на створені документи можна побачити в колонках **Замовлення 1С** і **Видат.накл. 1С**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_04.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_03.png
    :align: center
 
 Опис процедури створення даних документів в пунктах 2.3.Створення замовлень в 1С, та 2.4.Створення видаткової накладної
@@ -50,19 +47,19 @@
 
 У разі, якщо на даному етапі з якихось причин неможливо вказати підтверджену кількість (наприклад, якщо необхідний запит на склади по залишкам, що можливо після створення Реалізації в 1С), є можливість підтверджену кількість брати з Реалізації створеної на підставі завантаженого замовлення. Для цього необхідно попередньо встановити відповідну галочку *Кількість підтверджену брати з реалізації* в «**Налаштування» - «Загальні настройки інтеграції**»:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_05.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_04.png
    :align: center
 
 Після закінчення редагування встановіть стан замовлення в **Готовий до відправлення** і натисніть кнопку *Записати* (для збереження змін) або *ОК* (для збереження і закриття вікна).
 
 .. important:: Для документів *ORDRSP*, *DESADV* що відправляються у відповідь, більше не має необхідності міняти стан перед відправкою на **Готовий до відправлення**. Стан потрібно міняти лише при перевідправці - з **Відправлений** на **Готовий до відправлення**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_06.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_05.png
    :align: center
 
 Для відправки підтвердження замовлення відмітьте в списку замовлення, готові до відправки, і натисніть кнопку **Експорт ORDRSP**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_07.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_06.png
    :align: center
 
 Змінити стан документа (або декількох) можна не відкриваючи документ. Для цього необхідно виділити документ (або декілька) проставивши галочки, а потім у правому верхньому кутку вибрати Змінити стан на «**Готовий до відправлення**».
@@ -72,7 +69,7 @@
 
 Якщо відправка пройшла успішно, то стан замовлення зміниться на **Відправлений**. Після здійснення дій із замовленнями змінюються стани прапорів: **ORDRSP вивантажено**, **DESADV вивантажено**, **RECADV завантажений**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_09.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_07.png
    :align: center
 
 2.3 Створення замовлень в 1С
@@ -80,22 +77,22 @@
 
 Для створення запису в журналі замовлень 1С виберіть замовлення за допомогою чекера та натисніть кнопку **Створити Замовлення в 1С**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_10.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_08.png
    :align: center
 
 Або у вікні замовлення натисніть кнопку **Створити Замовлення в 1С**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_11.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_09.png
    :align: center
 
 В результаті відкриється вікно зі створеним замовленням (*якщо одночасно створюються кілька замовлень, то вікно не з'явиться*).
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_12.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_010.png
    :align: center
 
 У формі списку замовлень заповниться поле **Замовлення 1С** номером замовлення в 1С.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_13.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_011.png
    :align: center
 
 Для перегляду замовлення в 1С виберіть замовлення в списку (прапорець можна не встановлювати) і натисніть кнопку **Відкрити Замовлення 1С**.
@@ -107,17 +104,17 @@
 
 Для створення запису в журналі видаткових накладних 1С виберете замовлення і натисніть кнопку **Створити Видат. накл**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_14.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_012.png
    :align: center
 
 В результаті відкриється вікно створеної видаткової накладної (якщо одночасно створюються кілька видаткових накладних, то вікно не з'явиться).
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_15.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_013.png
    :align: center
 
 У формі списку замовлень навпроти замовлення заповниться поле **Посилання на Видат. накл**. номером документа **Реалізація товарів і послуг** в 1С.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_16.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_014.png
    :align: center
 
 Для перегляду документа 1С **Реалізація товарів і послуг** в журналі замовлень двічі клікніть на поле **Видат. накл. 1С**, а для перегляду форми видаткових накладних - натисніть кнопку **Відкрити Видат. накл. 1С** -> **Реалізація товарів і послуг №XXXXXXXXX від DD.MM.YYYY hh: mm: ss**.
@@ -129,17 +126,17 @@
 
 Для роботи з видатковими накладними в головному вікні натисніть кнопку **Видаткові накладні**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_17.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_015.png
    :align: center
 
 У вікні відображається журнал видаткових накладних.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_18.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_016.png
    :align: center
 
 **Важливо**! У разі, якщо Видаткова накладна була створена **Введенням на підставі із Замовлення 1С** (який в свою чергу був створений обробкою на підставі завантаженого замовлення EDI (!)), а не через обробку як описано в пункті 2.4, то необхідно встановити зв'язок із замовленням EDI вручну. Для цього в **формі списку Видаткові накладні** необхідно встановити галочки на необхідних документах і натиснути кнопку **Створити Акти EDI-N**:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_19.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_017.png
    :align: center
 
 Після чого, якщо замовлення по цій Реалізації був завантажений обробкою, в стовпці **Стан** відобразитися статус по цій Реалізації «*НЕ ОБРОБЛЕНИЙ*». Це означає, що зв'язок із замовленням встановлена і на таке замовлення можлива відправка Повідомлення про відвантаження.
@@ -151,7 +148,7 @@
 
 З видаткової накладної можна відправити повідомлення про відвантаження роздрібної мережі, натиснувши кнопку **Вивантажити Повідомлення про відвантаження**. Також можна відправити одне або кілька повідомлень зі списку видаткових накладних.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_21.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_018.png
    :align: center
 
 Після відправки Стан зміниться на «*ВІДПРАВЛЕНО*».
@@ -161,7 +158,7 @@
 
 Для завантаження повідомлень про прийом натисніть на кнопку **Завантажити Повідомленя про прийом**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_22.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_019.png
    :align: center
 
 У видатковій накладній після успішного завантаження **RECADV** у блоці **Товари** зміниться **Кількість прийнята**.
@@ -171,17 +168,17 @@
 
 У формі **Видаткові накладні** зайти в потрібну реалізацію і в формі реалізації, у блоці **Товари**, натиснути кнопку **QUOTES**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_24.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_020.png
    :align: center
 
 У формі праворуч натиснути кнопку зелений «**+**» і ввести серійні номери по позиціях. Кількість серійних номерів по кожній з товарних позицій має дорівнювати кількості одиниць цієї товарної позиції в **Реалізації**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_25.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_021.png
    :align: center
 
 Відправка **QUOTES** відбувається аналогічно відправці DESADV, тільки після натискання кнопки **Вивантажити додаток до Повід. про відвантаження для Розетка**:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_26.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_022.png
    :align: center
 
 2.9 Відправка інструкції з транспортування IFTMIN
@@ -189,12 +186,12 @@
 
 У формі списку **Видаткові накладні** зайти в потрібну Реалізацію і в формі реалізації перейти на вкладку **Транспорт** і в формі, що відкрилася заповнити відповідну інформацію:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_27.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_023.png
    :align: center
 
 Відправка **IFTMIN** відбувається аналогічно відправці DESADV, тільки після натискання кнопки **Вивантажити інструкцію по транспортуванню**:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_28.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_024.png
    :align: center
 
 3. Налаштування та робота з юридично значущими документами
@@ -211,12 +208,12 @@
 
 **Майстер налаштування**
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_30.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_026.png
    :align: center
 
 На дану вкладку також можна перейти з форми «**Налаштування**», натиснувши на кнопку «**ITT Користувач ЦСК-1**»
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_31.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_027(31).png
    :align: center
 
 Необхідно виконати наступні дії:
@@ -248,22 +245,22 @@
 
 Далі необхідно вибрати **сертифікати для шифрування ДФС** (державної фіскальної служби) та **сертифікат EDI-N**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_35.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_031.png
    :align: center
 
 Далі слід вказати шляхи для ключів ЕЦП. Для цього необхідно перейти в «**Налаштування ЕЦП**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_36.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_032.png
    :align: center
 
 У вікні вказуємо шлях для ключа бухгалтера, ключа директора (при необхідності), а також ключа печатки для підписання і ключа печатки для шифрування.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_37.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_033.png
    :align: center
 
 Для всіх контрагентів з якими буде проводитися обмін електронними податковими накладними, необхідно в настройках активувати даний тип документа - **ЕПН**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_38.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_034.png
    :align: center
 
 Для відправки ЕПН необхідно:
@@ -275,12 +272,12 @@
 
 Для цього необхідно в обробці інтеграції перейти в форму «**Комерційний документ**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_39.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_035(39).png
    :align: center
 
 У вікні «**Комерційні документи COMDOC**» встановити період, за який необхідно завантажити документи «*COMDOC*», вибрати організацію в поле «**Організація**» і натиснути на кнопку «**Загрузити COMDOC**»
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_40.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_036.png
    :align: center
 
 На підставі завантаженого документа «*COMDOC*» відкоригувати (при необхідності) видаткову накладну.
@@ -289,19 +286,19 @@
 
 Такий документ необхідно підтвердити, натиснувши на кнопку «**Підтвердити COMDOC**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_41.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_037.png
    :align: center
 
 При підтвердженні документа COMDOC обробка запропонує вибрати ключ ЕЦП підписувача та ввести пароль підпису, а також вибрати ключ ЕЦП печатки і ввести пароль підпису.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_42.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_038.png
    :align: center
 
 Також реалізована можливість відправити відмова від підписання COMDOC.
 
 В цьому випадку, в раніше завантаженому Комерційному документі необхідно заповнити поле коментар, мотивуючий відмову від підписання.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_43.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_039.png
    :align: center
 
 Необхідно записати зміни і в формі списку Комерційні документи натиснути «**Експорт відмов від підписання**», попередньо виділивши необхідний документ відміткою.
@@ -310,12 +307,12 @@
 
 В обробці інтеграції перейти на форму «**Податкові накладні**», натиснувши на кнопку «**ЕПН/РКПН**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_44.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_040.png
    :align: center
 
 На вкладці «**Нові**» встановити галочки навпроти документів, на підставі яких необхідно відправити ЕПН, і натиснути «**Підписати і відправити ЕПН**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_45.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_041.png
    :align: center
 
 При відправці електронної податкової накладної (ЕПН) обробка запропонує вибрати ключ ЕЦП підписувача та ввести пароль обраної підпису, а також вибрати ключ ЕЦП печатки і ввести пароль обраної підпису.
@@ -326,7 +323,7 @@
 
 Для отримання квитанції від **ЄРПН** про результат реєстрації ЕПН, на вкладці «**У обробці**» потрібно натиснути на кнопку «**Отримати квитанції**»
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_46.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_042.png
    :align: center
 
 На вкладках «**У обробці**» і «**Завершені**» відображаються події по виділеному документу «**Податкова накладна**», а також відображається інформація по нанесеним на документ підписами.
@@ -342,7 +339,7 @@
 
 Перейти у вкладку «**РКНН (Додаток 2)**» в формі списку Податкові накладні.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_48.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_043.png
    :align: center
 
 Далі діяти аналогічно як при відправці електронної податкової накладної.
@@ -353,17 +350,17 @@
 
 У разі необхідності підписання і відправки ПН безпосередньо в ЄРПН, наприклад по клієнтам, які не працюють за EDI, необхідно скористатися формою надсилання «**Звітність ПН**»
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_49.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_044(49).png
    :align: center
 
 Якщо дана кнопка не активна, її необхідно активувати. Для цього перейдіть в меню Настройок модуля інтеграції і виберете розділ «**Загальні настройки інтеграції**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_50.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_045.png
    :align: center
 
 У загальних настройках інтеграції встановіть відповідну позначку навпроти «**Використовуємо звітність ПН**».
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_51.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_046.png
    :align: center
 
 Порядок роботи з формою «**Звітність ПН**» аналогічний роботі в формі «**ЕПН / РКНН**».
@@ -375,21 +372,23 @@
 
 У налаштуваннях перейти в форму **«Контрагенти»**:
 
-+ фото47!
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_047.png
+   :align: center
 
 У формі встановити чекер **Використовуємо COMDOC вихідний**, зберегти зміни:
 
-+фото48!
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_048.png
+   :align: center
 
 У формі списку **Комерційні документи «COMDOC»** перейти на вкладку «**Вихідні**», із відображеного за вказаний період списку Видаткових накладних виділити галочками необхідні і натиснути «**Надіслати Видаткову накладну**». Обробка запропонує вибрати ключ ЕЦП підписувача та ввести пароль підпису, а також вибрати ключ ЕЦП печатки і ввести пароль підписи після чого Комерційний документ «**Видаткова накладна**» буде відправлений для його підтвердження мережею:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_52.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_049.png
    :align: center
 
 Після отримання Комерційного документа «**Видаткова накладна**» мережа в разі відсутності зауважень накладає на нього свій електронний підпис і печатку і відправляє даний документ вже з чотирма підписами (два підписи покупця і два постачальника) назад Вам після чого Ви можете його завантажити натиснувши на кнопку **Завантажити COMDOC** попередньо обравши період завантаження. 
-Якщо по якомусь із відправлених Вами документів на сервері вже є підтверджені з боку покупця, то вони будуть завантажені і відповідний статус «**Прийнято**» буде встановлено в списку Витратних накладних:
+Якщо по якомусь із відправлених Вами документів на сервері вже є підтверджені з боку покупця, то вони будуть завантажені і відповідний статус «**Прийнято**» буде встановлено в списку Видаткових накладних:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_53.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_050.png
    :align: center
 
 Завантаження STATUS файлів від мережі
@@ -399,22 +398,22 @@
 
 Попередньо в «**Налаштування» - «Загальні настройки інтеграції**» необхідно встановити відповідну галочку для активації можливості завантаження таких статус файлів:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_54.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_051.png
    :align: center
 
-Для завантаження статус файлів необхідно вибрати **період завантаження** і натиснути кнопку **Імпорт STATUS**.
+Для завантаження статус файлів необхідно вибрати **період завантаження** і натиснути кнопку **Завантажити STATUS файли**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_55.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_052.png
    :align: center
 
 Завантажений статус можна переглянути шляхом вибору необхідного документа і натискання на кнопку **Історія по STATUS файлам**:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_56.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_053.png
    :align: center
 
 Статус файли можна також завантажувати і по відправленим Комерційним документам на відповідній формі натиснувши **Імпорт STATUS**:
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_57.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_054.png
    :align: center
 
 4. Регламентовані звіти і запити в ЄРПН
