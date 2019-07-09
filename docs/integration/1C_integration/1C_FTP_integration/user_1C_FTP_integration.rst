@@ -21,24 +21,21 @@
 
 Для отримання і обробки замовлень в головному вікні «**EDIN:Інтеграція**» натисніть кнопку **Замовлення**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_01.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_01.png
    :align: center
 
 У вікні що з’явилося відображається журнал замовлень.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_02.png
-   :align: center
-
 Для завантаження нових замовлень натисніть на кнопку **Завантажити Замовлення**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_03.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_02.png
    :align: center
 
 Після чого з'являться нові записи в журналі замовлень.
 
 Завантажені замовлення не створюються відразу в 1С, а завантажуються в базу даних модуля інтеграції. Якщо на підставі завантаженого замовлення в 1С були створені  документи **Замовлення покупця** і / або **Реалізація товарів і послуг**, то посилання на створені документи можна побачити в колонках **Замовлення 1С** і **Видат.накл. 1С**.
 
-.. image:: pics_user_1C_FTP_integration/user_1C_FTP_integration_04.png
+.. image:: pics_user_1C_FTP_integration/user_FTP_integration_03.png
    :align: center
 
 Опис процедури створення даних документів в пунктах 2.3.Створення замовлень в 1С, та 2.4.Створення видаткової накладної
