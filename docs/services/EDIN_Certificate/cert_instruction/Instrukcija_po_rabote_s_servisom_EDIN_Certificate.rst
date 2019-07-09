@@ -49,7 +49,7 @@
    :align: center
 
 - *Не вибрано* - статус, при якому не можна зберегти сертифікат, необхідно вибрати права перегляду
-- *Lоступний всім* - доступний для перегляду всім користувачам
+- *Доступний всім* - доступний для перегляду всім користувачам
 - *Обмежений доступ* - доступ тільки обраним користувачам або мереж (після того, як ви вибрали «обмежений доступ», необхідно натиснути кнопку «Додати» і ввести або GLN-номер, або назву мережі, якою надається доступ). Якщо не додавати мережу або GLN, то сертифікат буде доступний для перегляду тільки вам.
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_05.png
@@ -298,7 +298,7 @@
 
 **6.1. Налаштування відображення стовпців**
 
-Для зручного перегляду даних про сертифікати, натисніть на кнопку «**Налаштування відображення стовпців**"
+Для зручного перегляду даних про сертифікати, натисніть на кнопку «**Налаштування відображення стовпців**»
  
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_33.png
    :align: center
@@ -364,3 +364,5 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_41.png
    :align: center
 
+
+.. include:: kontakti.rst
