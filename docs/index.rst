@@ -54,7 +54,7 @@ EDIN | Електронний документообіг для бізнесу
    
 .. toctree::
    :maxdepth: 2
-   :caption: ЗАКОНОДАТЕЛЬСТВО
+   :caption: ЗАКОНОДАВСТВО
 
    Zakon/Zakonodavcha_baza
    
