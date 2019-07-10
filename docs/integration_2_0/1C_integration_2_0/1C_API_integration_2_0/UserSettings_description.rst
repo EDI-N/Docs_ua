@@ -93,33 +93,32 @@
 .. toggle-header::
     :header: Файл користувацьких налаштувань: **Показати/Приховати зразок**
 
-    ::
-    {
-        "USER_DATA": {
-            "EDIN_USER_Warehouse": "{\r\n\"MetaDataObject\": \"Справочники\",\r\n\"Name\": \"Склады\",\r\n\"ID\": \"59c9e0fe-56a3-11e9-941e-70c94ef89d69\"\r\n}",
-            "EDIN_USER_Organization_Unit": "{\r\n\"MetaDataObject\": \"Справочники\",\r\n\"Name\": \"ПодразделенияОрганизаций\",\r\n\"ID\": \"59c9e0fb-56a3-11e9-941e-70c94ef89d69\"\r\n}",
-            "EDIN_USER_Save_Loggs": "1",
-            "EDIN_USER_Log_Folder_Sent": "C:\\API\\Админ\\Каталог логів відпралених запитів\\",
-            "EDIN_USER_Log_Folder_Error": "C:\\API\\Админ\\Каталог логів помилкових запитів\\",
-            "EDIN_USER_Test_Mode": "1",
-            "EDIN_USER_Save_UZD_DOCUMENTS": "1",
-            "EDIN_USER_Inbox_UZD_Folder": "C:\\API\\Админ\\Каталог вхідних ЮЗД\\",
-            "EDIN_USER_Outbox_UZD_Folder": "C:\\API\\Админ\\Каталог відправлених ЮЗД\\",
-            "USER_1": "uatestAPIpost",
-            "USER_RETAILERS": {
-                "retailer1": "16404",
-                "retailer2": "17046"
-            }
-        },
-        "SIGN_KEYS": {
-            "Keys_1": {
-                "Use": 1,
-                "Organization": "59c9e0fa-56a3-11e9-941e-70c94ef89d69",
-                "KeyAccountant": "D:\\1C_Yurchenko\\Keys\\new\\Директор\\Key-6.dat",
-                "KeyDigitalStamp": "D:\\1C_Yurchenko\\Keys\\new\\Печатка\\Key-6.dat"
+        {
+            "USER_DATA": {
+                "EDIN_USER_Warehouse": "{\r\n\"MetaDataObject\": \"Справочники\",\r\n\"Name\": \"Склады\",\r\n\"ID\": \"59c9e0fe-56a3-11e9-941e-70c94ef89d69\"\r\n}",
+                "EDIN_USER_Organization_Unit": "{\r\n\"MetaDataObject\": \"Справочники\",\r\n\"Name\": \"ПодразделенияОрганизаций\",\r\n\"ID\": \"59c9e0fb-56a3-11e9-941e-70c94ef89d69\"\r\n}",
+                "EDIN_USER_Save_Loggs": "1",
+                "EDIN_USER_Log_Folder_Sent": "C:\\API\\Админ\\Каталог логів відпралених запитів\\",
+                "EDIN_USER_Log_Folder_Error": "C:\\API\\Админ\\Каталог логів помилкових запитів\\",
+                "EDIN_USER_Test_Mode": "1",
+                "EDIN_USER_Save_UZD_DOCUMENTS": "1",
+                "EDIN_USER_Inbox_UZD_Folder": "C:\\API\\Админ\\Каталог вхідних ЮЗД\\",
+                "EDIN_USER_Outbox_UZD_Folder": "C:\\API\\Админ\\Каталог відправлених ЮЗД\\",
+                "USER_1": "uatestAPIpost",
+                "USER_RETAILERS": {
+                    "retailer1": "16404",
+                    "retailer2": "17046"
+                }
+            },
+            "SIGN_KEYS": {
+                "Keys_1": {
+                    "Use": 1,
+                    "Organization": "59c9e0fa-56a3-11e9-941e-70c94ef89d69",
+                    "KeyAccountant": "D:\\1C_Yurchenko\\Keys\\new\\Директор\\Key-6.dat",
+                    "KeyDigitalStamp": "D:\\1C_Yurchenko\\Keys\\new\\Печатка\\Key-6.dat"
+                }
             }
         }
-    }
 
 
 
