@@ -226,7 +226,7 @@ GLN - (Global Location Number) глобальний номер місцезна�
 **Додатково**
 ********************
 
-` Опис конфігураційного файлу Config.txt модуля для інтеграції з платформою EDIN 2.0 <https://wiki.edi-n.com/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/config_description.html>`__ .
+`Опис конфігураційного файлу Config.txt модуля для інтеграції з платформою EDIN 2.0 <https://wiki.edi-n.com/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/config_description.html>`__ .
 
 `Опис файлу користувацьких налаштувань UserSettinsg.txt модуля для інтеграції з платформою EDIN 2.0 <https://wiki.edi-n.com/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/UserSettings_description.html>`__ .
 
