@@ -93,6 +93,7 @@
 .. toggle-header::
     :header: Файл користувацьких налаштувань: **Показати/Приховати зразок**
 
+    ::
     {
         "USER_DATA": {
             "EDIN_USER_Warehouse": "{\r\n\"MetaDataObject\": \"Справочники\",\r\n\"Name\": \"Склады\",\r\n\"ID\": \"59c9e0fe-56a3-11e9-941e-70c94ef89d69\"\r\n}",
