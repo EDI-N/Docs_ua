@@ -35,7 +35,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['ntemplates']
+templates_path = ['_templates']
 
 # добавил для возможности использования файлов .md
 from recommonmark.parser import CommonMarkParser
