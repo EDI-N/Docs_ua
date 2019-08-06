@@ -55,3 +55,6 @@ id параметра, Найменування параметра, Тип, Фо
 82, compound_number ,, VARCHAR, складовий номер
 85, doc_process ,, TINYINT,
 87, users ,, VARCHAR,
+88, basis_doc_subtype, , INT, підтип документа-підстави
+89, basis_doc_number,	, INT, номер документа-підстави
+90, basis_doc_date, , INT, дата документа-підстави

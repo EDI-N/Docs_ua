@@ -2,7 +2,7 @@
 ###########
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 2
    
    EDIN_Price/EDIN_Price_list
    EDIN_Distribution/EDIN-Distribution_list
