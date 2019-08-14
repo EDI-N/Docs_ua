@@ -268,7 +268,7 @@
 
 5 Редагування пакета та відстеження статусу
 ---------------------------------------------
-Для роботи з пакетами перейдіть до розділу «Пакети» на навігаційній панелі. Розділ містить наступні папки:
+Для роботи з пакетами перейдіть до розділу «Пакети» (Зовнішні комплекти документів) на навігаційній панелі. Розділ містить наступні папки:
 
  - Вхідні – для отриманих пакетів документів
 
@@ -282,7 +282,7 @@
 
 Для кожної папки відображається список пакетів.
 
-.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_29.png
+.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_29_2.png
    :align: center
 
 Необроблені та нерозглянуті на стороні контрагента пакети відображаються зі статусом «Прийнятий» («Надісланий») та виділяються жирним шрифтом. Пакети відображаються за датою / часом зміни у порядку зменшення.
@@ -330,27 +330,20 @@
 
  - Дата (вказується в діапазоні від _  до)
 
-.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_34.png
+.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_34_2.png
    :align: center
 
 Для одночасного видалення внесених у налаштування фільтра значень натисніть «Скинути».
 
 **5.3 Шаблони фільтрів**
 
-Для спрощення фільтрації пакетів реалізована можливість зберегти потрібні параметри фільтра. Для цього у формі налаштувань заповніть необхідні атрибути і натисніть кнопку «Зберегти»:
+Для спрощення фільтрації пакетів у розділах, реалізована можливість зберегти потрібні параметри фільтра. Для цього натисніть кнопку "Додати ярлик" (є у кожному розділі), заповніть необхідні атрибути і натисніть кнопку «Зберегти»:
 
-.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_35.png
+.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_29_3.png
    :align: center
 
-Задані фільтри будуть збережені у папці «Шаблони фільтрів»:
-
-.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_36.png
-   :align: center
-
-У переліку збережених фільтрів є можливість переглянути та видалити значення фільтрів за допомогою відповідних кнопок:
-
-.. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_37.png
-   :align: center
+Створиться новий фільтр-підпапка, де буде відображено лише документи які відповідають заданим у фільтрі параметрам.
+Фільтр можливо редагувати або видалити за допомогою відповідних кнопок.
 
 **5.4 Уточнення до пакета з боку відправника**
 
@@ -565,7 +558,7 @@
 .. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_60.png
    :align: center
 
-Форма містить загальні дані щодо завдання, а також інформацію по документу із можливістю виконати потрібну дію або перейти в пакет (у вигляді посилання):
+Форма містить загальні дані щодо завдання, а також інформацію по документу із можливістю виконати потрібну дію або переглянути додаткову інформацію чи структуру документу,та можливість перейти в пакет (у вигляді посилання),:
 
 .. image:: pics_instruktsia_korystuvacha_obminy_paketami/instruktsia_korystuvacha_obminy_paketami_61.png
    :align: center
