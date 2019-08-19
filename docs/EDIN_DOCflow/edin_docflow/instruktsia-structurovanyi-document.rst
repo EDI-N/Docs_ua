@@ -43,7 +43,7 @@
 
 Документ буде збережено та відображено в переліку типів документів з позначкою «Структурований» |иконка-кубик|:
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_3.png
+.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_3_02.png
    :align: center
 
 Для редагування назви або коду типу документа натисніть на його назву у загальному переліку, внесіть потрібні зміни та натисніть «Зберегти».
