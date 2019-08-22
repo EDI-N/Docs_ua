@@ -20,3 +20,4 @@
    formirovanie_otpravka_dokumenta_Podtverzhdenie_zakaza_transportirovki_IFTMBC
    Obmin_e_dokumentami_s_Meest_Express
    EDI-N_OKKO_instruction
+   Rabota_s_Fozzy_EDI-N
