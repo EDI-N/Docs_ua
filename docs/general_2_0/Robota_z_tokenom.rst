@@ -160,5 +160,7 @@ e) Введіть пароль для ініціалізації КЕП
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_23.png
    :align: center
 
+---------------------
+
 .. include:: kontakti.rst
 
