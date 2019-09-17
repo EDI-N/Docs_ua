@@ -88,6 +88,7 @@ a) Зайдіть у web-розширення, додайте довірений
 ==========================================================================================
 
 a) Перейдіть за посиланням для скачування інсталяційного файлу:
+
 * для операційної системи Microsoft Windows — https://iit.com.ua/download/productfiles/EUSignWebInstall.exe 
 * для операційної системи Apple MAC OS X — https://iit.com.ua/download/productfiles/EUSignWebInstall.pkg
 * для операційної системи Linux Debian/Ubuntu (32-bit) — https://iit.com.ua/download/productfiles/euswi.deb
