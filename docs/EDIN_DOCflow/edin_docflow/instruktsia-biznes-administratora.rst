@@ -529,7 +529,8 @@
 .. image:: pics_instruktsia-biznes-administratora/foto47.png
    :align: center
 
-.. _пакет-тип документа:
+.. container:: test
+    :name: pack_with_docs
 
 **8.4 Керування зв’язком з типами документів**
 
