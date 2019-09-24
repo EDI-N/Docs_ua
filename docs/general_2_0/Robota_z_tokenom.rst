@@ -87,7 +87,14 @@ a) Зайдіть у web-розширення, додайте довірений
 **3 Встановлення web-бібліотеки підпису користувача ЦСК**
 ==========================================================================================
 
-a) Перейдіть за посиланням для скачування інсталяційного файлу — http://iit.com.ua/download/productfiles/euswi.64.deb 
+a) Перейдіть за посиланням для скачування інсталяційного файлу:
+
+* для операційної системи Microsoft Windows — https://iit.com.ua/download/productfiles/EUSignWebInstall.exe 
+* для операційної системи Apple MAC OS X — https://iit.com.ua/download/productfiles/EUSignWebInstall.pkg
+* для операційної системи Linux Debian/Ubuntu (32-bit) — https://iit.com.ua/download/productfiles/euswi.deb
+* для операційної системи Linux Debian/Ubuntu (64-bit) — https://iit.com.ua/download/productfiles/euswi.64.deb
+
+Розглянемо процес інсталювання на прикладі ОС Microsoft Windows:
 
 b) Для інсталяції програми запустіть програму інсталяції (майстер інсталяції) **EUSignWebInstall.exe** з інсталяційного носія (оптичного диску чи ін.)
 
