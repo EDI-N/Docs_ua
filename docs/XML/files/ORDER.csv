@@ -48,7 +48,7 @@ LATESTDELIVERYDATE, O, Дата (РРРР-ММ-ДД), Дата не пізніш
 SUPPLIER, M, Число (13), GLN постачальника
 BUYER, M, Число (13), GLN покупця
 BUYERCODE, O, Рядок (35), Код покупця
-BRANCHCODE, O, Рядок, Код філіалу
+BRANCHCODE, O, Рядок, Код філіалу (для Нова Лінія та ЕПІЦЕНТР К )
 DELIVERYPLACE, M, Число (13), GLN місця доставки
 FINALRECIPIENT, O, Число (13), GLN кінцевого консигнатора
 ORDERPARTNER, O, Число (13), GLN замовника
