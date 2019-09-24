@@ -529,11 +529,11 @@
 .. image:: pics_instruktsia-biznes-administratora/foto47.png
    :align: center
 
-.. container:: test
+..  container:: test
     :name: pack_with_docs
 
 **8.4 Керування зв’язком з типами документів**
-
+    
 Для керування зв’язком пакета з типами документів перейдіть до вкладки «Документи» на формі редагування типу пакета. На вкладці будуть відображені вже прикріплені типи документів з вказаними параметрами:
 
 .. image:: pics_instruktsia-biznes-administratora/foto48.png
