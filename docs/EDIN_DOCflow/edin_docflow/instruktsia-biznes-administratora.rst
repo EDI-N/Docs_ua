@@ -1063,8 +1063,6 @@
 
 Для видалення групи натисніть кнопку «Кошик».
 
-Lorem ipsum :ref:`here is the anchor link <arbitrary-anchor>` dolor sit amet
-
 .. [#] Ієрархічні деревовидні довідники — це  багаторівневий деревовидний список з головними - материнськими, та підлеглими - дочірніми значеннями, що розкриваються послідовно.
 
 .. _`Копіювання пакету с документами, позначеними для редагування`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-korystuvacha-obminy-paketami.html#id14
