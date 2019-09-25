@@ -529,7 +529,7 @@
 .. image:: pics_instruktsia-biznes-administratora/foto47.png
    :align: center
 
-.. container:: test
+..  container:: idishnicheg
     :name: pack_with_docs
 
 **8.4 Керування зв’язком з типами документів**
