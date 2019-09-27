@@ -327,7 +327,7 @@ EDI та Товари. На платформі окремо відображаю
 
 Результат після завантаження:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/39.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/40.png
    :align: center
 
 Далі необхідно вибрати позиції для додавання у товарний довідник (є можливість вибрати всі або декілька позицій):
@@ -345,14 +345,18 @@ EDI та Товари. На платформі окремо відображаю
    
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/43.png
    :align: center
+   
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/44.png
+   :align: center
+   
 Товари успішно додано у мережу:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/44.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/45.png
    :align: center
 
 Якщо в шапці завантаженого шаблону буде виявлена розбіжність, система надасть повідомлення про помилку:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/45.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/39.png
    :align: center
    
 .. include:: kontakti.rst
