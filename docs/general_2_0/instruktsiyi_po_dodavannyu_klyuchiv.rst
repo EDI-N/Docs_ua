@@ -11,7 +11,7 @@
 
 Для додавання підпису необхідно:
 
-1) Зчитати ключі у вкладці **"Ключи"** на боковій панелі
+1) Зчитати ключі у вкладці **"Ключі"** :
 
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv1.png
    :align: center
