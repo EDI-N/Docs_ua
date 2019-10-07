@@ -53,7 +53,7 @@ a) Зайдіть на платформу EDI-N
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_04.png
    :align: center
 
-b) Зчитайте ключі у вкладці **"Ключі"** на боковій панелі
+b) Зчитайте ключі у вкладці **"Ключі"** :
 
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_05.png
    :align: center
@@ -144,7 +144,7 @@ b) Зайдіть на платформу EDI-N
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_18.png
    :align: center
 
-c) Зчитайте ключі у вкладці **"Ключі"** на боковій панелі
+c) Зчитайте ключі у вкладці **"Ключі"** :
 
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_19.png
    :align: center
