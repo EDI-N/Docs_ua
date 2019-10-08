@@ -78,7 +78,7 @@
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv10.png
    :align: center
 
-Комерційний документ додається в папку **"Вихідні"**.
+Комерційний документ додається в папку **"Вихідні"**:
 
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv023.png
    :align: center
