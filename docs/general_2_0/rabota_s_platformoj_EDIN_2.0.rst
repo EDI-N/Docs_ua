@@ -295,17 +295,14 @@
 
 Далі необхідно вибрати позиції для додавання у товарний довідник (є можливість вибрати всі або декілька позицій):
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/40.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/41.png
    :align: center
-   
-   .. image:: pics_rabota_s_platformoj_EDIN_2.0/41.png
+
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/42.png
    :align: center
 
 Далі необхідно вибрати певну мережу для додавання та натиснути кнопку "Створити":
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/42.png
-   :align: center
-   
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/43.png
    :align: center
    

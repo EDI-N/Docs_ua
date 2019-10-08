@@ -78,9 +78,9 @@
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv10.png
    :align: center
 
-Комерційний документ додається в папку **"Вихідні"**.
+Комерційний документ додається в папку **"Вихідні"**:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv23.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv023.png
    :align: center
 
 **3 Робота з вхідним комерційним документом**
