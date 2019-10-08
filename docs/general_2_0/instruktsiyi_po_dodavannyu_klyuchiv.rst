@@ -91,9 +91,9 @@
 
 Одержувачу необхідно:
 
-1) Відкрити папку "Вхідні" (1)
+1) Відкрити папку "Вхідні"
 
-2) Вибрати необхідний документ (2)
+2) Вибрати необхідний документ
 
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv011.png
    :align: center
@@ -179,12 +179,14 @@
 
 .. important:: Для підтвердження запиту на анулювання комерційного документа тікет під номером 4 на схемі повинен бути "активний"
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv020.png
-   :align: center
+
 
 Для підтвердження запиту на анулювання підписаного комерційного документа необхідно:
 
 1) Натиснути — **"Підтвердження запита на анулювання"**
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv020.png
+   :align: center
 
 2) `Додати ключ для підписання`_ (за необхідністю)
 
