@@ -51,7 +51,7 @@ POSITIONNUMBER, M, Число позитивне,"Номер товарної п
 PRODUCT, M,"Число (8, 10, 14)", Штрих-код продукту
 PRODUCTIDBUYER, O, Рядок (16), Артикул в БД покупця
 PRODUCTIDSUPPLIER, O, Рядок (16), Артикул в БД постачальника
-ORDRSPUNIT, O, Рядок (3), Одиниці виміру
+ORDRSPUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 DESCRIPTION, O, Рядок (70), Опис продукту
 PRICE, O, Число десяткове, Ціна продукту
 PRICEWITHVAT, O, Число десяткове, Ціна продукту c ПДВ

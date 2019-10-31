@@ -53,13 +53,13 @@ PRODUCT, М,"Число (8, 10, 14)", Штрихкод продукту
 PRODUCTIDSUPPLIER, О, Рядок (16), Артикул в БД постачальника
 PRODUCTIDBUYER, О, Рядок (16), Артикул в БД покупця
 DELIVEREDQUANTITY, М, Число позитивне,"кількість, що поставляється"
-DELIVEREDUNIT, О, Рядок (3), Одиниці виміру
+DELIVEREDUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 ORDEREDQUANTITY, О, Число позитивне, Замовлена кількість
-ORDERUNIT, O, Рядок (3), Одиниці виміру
+ORDERUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 SSCC, O, Число (18), Серійний код транспортної упаковки
 PARTYNAME, O, Рядок (70), Назва виробника
 INVOICEDQUANTITY, O, Число позитивне, Кількість за рахунком
-INVOICEUNIT, O, Рядок (3), Одиниці виміру
+INVOICEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 AMOUNT, O, Число десяткове, Сума товару без ПДВ
 AMOUNTWITHVAT, O, Число десяткове, Сума товару з ПДВ
 PORTAL_CERT, О, Рядок (30), Номер сертифікату
