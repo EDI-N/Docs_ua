@@ -44,7 +44,7 @@ PROMOWITHVAT, O,, промоціна з ПДВ
 PROMODISCOUNT, O, Дата (РРРР-ММ-ДД),% промознижки
 POSITIONACTION, O,, Поставка не пізніше зазначеного часу
 VAT, О,, "Ставка ПДВ,%"
-UNIT, O,, "Одиниці виміру, шт"
+UNIT, O,, `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 STATUS, M,, Прийняти/відхилити
 **OCERTS**, O,, Сертифікат/-и (початок блоку)
 CERT_NUM, O, Рядок (16), № сертифіката

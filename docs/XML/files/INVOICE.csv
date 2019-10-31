@@ -77,7 +77,7 @@ BUYERPARTNUMBER, О, Рядок (16), внутрішній системний н
 PRODINN, O, Число позитивне, ІПН виробника/імпортера
 INVOICEDQUANTITY, М, Число позитивне, Кількість за рахунком
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
-INVOICEUNIT, O, Рядок (3), Одиниці виміру
+INVOICEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 UNITPRICE, М, Число десяткове, Ціна за одиницю (без ПДВ)
 ADVICEPRICE, O, Число десяткове, Рекомендована ціна (державою)
 GROSSPRICE, O, Число десяткове, Ціна за одиницю з ПДВ
