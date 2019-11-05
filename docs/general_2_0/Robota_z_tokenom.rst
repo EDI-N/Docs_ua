@@ -53,14 +53,14 @@ a) Зайдіть на платформу EDI-N
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_04.png
    :align: center
 
-b) Зчитайте ключі у вкладці **"Ключі"** на боковій панелі
+b) Зчитайте ключі у вкладці **"Ключі"** :
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_05.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_005.png
    :align: center
 
 c) При першій ініціалізації бібліотеки підписання підтвердіть дозвіл web-сайту до бібліотеки підпису користувача ЦСК, натисніть — "OK"
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_06.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_006.png
    :align: center
 
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_07.png
@@ -144,14 +144,14 @@ b) Зайдіть на платформу EDI-N
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_18.png
    :align: center
 
-c) Зчитайте ключі у вкладці **"Ключі"** на боковій панелі
+c) Зчитайте ключі у вкладці **"Ключі"** :
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_19.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_019.png
    :align: center
 
 d) При першій ініціалізації бібліотеки підписання підтвердіть дозвіл web-сайту до бібліотеки підпису користувача ЦСК, натисніть — "OK"
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_20.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_020.png
    :align: center
 
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_21.png
@@ -159,12 +159,12 @@ d) При першій ініціалізації бібліотеки підп�
 
 e) Введіть пароль для ініціалізації КЕП
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_22.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_022.png
    :align: center
 
 КЕП успішно доданий:
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_23.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_023.png
    :align: center
 
 ---------------------

@@ -36,7 +36,7 @@ PRODUCTIDBUYER, O, Рядок (35), Артикул в БД покупця
 PRODUCTIDMDLS, O, Рядок (35), Артикул в БД складу
 PRODUCTNAME, O, Рядок (70), Опис продукту
 ACTUALQUANTITY, M, Число позитивне, Фактична кількість
-ACTUALUNITS, O, Рядок (3), Одиниці виміру (під таблицею)
+ACTUALUNITS, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 ACTUALQUANTITYEND, O, Число позитивне, Загальний залишок на кінець
 SOLDQUANTITY, O, Число позитивне, Продана кількість
 SOLDUNITS, O, Рядок (3), Одиниця виміру

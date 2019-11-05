@@ -14,9 +14,9 @@ DELIVERYTIME, O, Час (год: хв), Час доставки
 PORTOFLOADING, O, Рядок (70), Місце погрузки (Морський порт)
 INFO, O, Рядок (70), Додаткова інформація
 TOTALWEIGHT, O, Число десяткове, Загальна вага
-TOTALWEIGHTUNIT, O, Рядок (3), Одиниці виміру (згідно з довідником)
+TOTALWEIGHTUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 TOTALVOLUME, O, Число десяткове, Загальний об'єм
-TOTALVOLUMEUNIT, O, Рядок (3), Одиниці виміру
+TOTALVOLUMEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 TOTALEQUIPMENTQUANTITY, O, Число десяткове, Загальна кількість обладнання
 ORDERNUMBER, O, Рядок (35), Номер замовлення товару
 CAMPAIGNNUMBER, O, Рядок (35), Номер договору на поставку
@@ -95,7 +95,7 @@ PRODUCT, O, "Число (8, 10, 14)", Штрих-код продукту
 DESCRIPTION, O, Рядок (70), Назва продуктів в упаковці
 DELIVERYPLACE, M, Число (13), Місце доставки однієї позиції
 WEIGHT, O, Число десяткове, Вага
-WEIGHTUNIT, O, Рядок (3), Одиниці виміру
+WEIGHTUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 PRODUCTIDBUYER, O, Рядок (35), Артикул в БД покупця
 **GOODSDETAILS**,,, Дані по вантажу (закінчення блоку)
 **EQUIPMENTDETAILS**,,, Дані по транспорту (початок блоку)

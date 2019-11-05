@@ -35,11 +35,11 @@ PRODUCTGROUPCODE, O, Число (4), Код групи товару
 IDSUPPLIER, O (M-для Розетка), Рядок (16), Артикул в БД постачальника
 IDBUYER, О, Рядок (16), Артикул в БД покупця
 MINORDERQUANTITY, O (M-для Розетка), Число позитивне, Мінімальна кількість у замовленні
-MINORDERQUANTITYUNIT, O, Рядок (3), Одиниці виміру
+MINORDERQUANTITYUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 MAXORDERQUANTITY, O, Число позитивне, Максимальна кількість в замовленні
-MAXORDERQUANTITYUNIT, O, Рядок (3), Одиниці виміру
+MAXORDERQUANTITYUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
-QUANTITYOFCUINTUUNIT, O, Рядок (3), Одиниці виміру
+QUANTITYOFCUINTUUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 IDNATIONAL, O, Рядок (35), Код товару за національним класифікатором (код УКТЗЕД)
 IDINTERNATIONAL, O, Рядок (35), Код товару за міжнародним класифікатором
 IDGPC, O, Рядок (35), Код продукту відповідає Global Product Classification
@@ -54,15 +54,15 @@ PRODUCTNAME, M, Рядок (75), Повна назва продукту
 NEWPOSITION, O,"Число (1, 0)", Новинка
 PROMO, О,"Число (1, 0)", Акція
 DEPTH, O, Число позитивне, Глибина
-DEPTHUNIT, O, Рядок (3), Одиниці виміру
+DEPTHUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 WIDTH, O, Число позитивне, Ширина
-WIDTHUNIT, O, Рядок (3), Одиниці виміру
+WIDTHUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 HEIGHT, O, Число позитивне, Висота
-HEIGHTUNIT, O, Рядок (3), Одиниці виміру
+HEIGHTUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 VOLUME, O, Число позитивне, Об'єм
-VOLUMEUNIT, O, Рядок (3), Одиниці виміру
+VOLUMEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 WEIGHT, O, Число позитивне, Вага
-WEIGHTUNIT, O, Рядок (3), Одиниці виміру
+WEIGHTUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 **TEMPERATUREOFSTORAGE**,,, Температура зберігання (початок блоку)
 FROM, O, Число [-100; 100], Від (Температура зберігання продукту вказується в градусах за Цельсієм)
 TO, O, Число [-100; 100], До (Температура зберігання продукту вказується в градусах за Цельсієм)
@@ -76,7 +76,7 @@ POSITIONCURRENCY, O (M-для Розетка), Рядок,"код валюти (
 BALANCE, O, Число десяткове, Поточний залишок (постачальник)
 UNITPRICE, M, Число десяткове, Ціна продукту без ПДВ
 PRICEWITHVAT, M, Число десяткове, Ціна продукту з ПДВ
-UNIT, М, Рядок (3), Одиниці виміру
+UNIT, М, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 RETAILPRICE, O, Число десяткове, Рекомендована роздрібна ціна
 ADVICEPRICE, O, Число десяткове, Рекомендована ціна (державою)
 MAXORDERPRICE, O, Число десяткове, Максимальна роздрібна ціна

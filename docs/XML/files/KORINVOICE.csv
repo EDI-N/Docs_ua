@@ -79,7 +79,7 @@ INVOICEDQUANTITY, М, Число позитивне, Кількість за р�
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
 INVOICEDQUANTITYBEFORE,,,
 INVOICEDQUANTITYAFTER,,,
-INVOICEUNIT, O, Рядок (3), Одиниці виміру
+INVOICEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
 UNITPRICEBEFORE,,,
 UNITPRICEAFTER,,,
 UNITPRICE, М, Число десяткове, Ціна за одиницю (без ПДВ)
