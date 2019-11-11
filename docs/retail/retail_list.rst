@@ -22,3 +22,5 @@
    EDI-N_OKKO_instruction
    Rabota_s_Fozzy_EDI-N
    Retins_ATB_instruction
+   modern_expo_instruction
+   modern_expo_postavschuk_instruction
