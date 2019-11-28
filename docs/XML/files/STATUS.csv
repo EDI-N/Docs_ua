@@ -22,6 +22,6 @@ TIMEIN, М, Час (чч: мм: сс), Час надходження на пла
 DATEOUT, О, Дата (РРРР-ММ-ДД), Дата прочитання документа одержувачем
 TIMEOUT, О, Час (чч: мм: сс), Час прочитання документа одержувачем
 SIZEINBYTES, М, Число позитивне, Розмір документа в байтах
-MESSAGECLASS, М, Рядок (6),"Клас повідомлення: ORDER, ORDRSP, DESADV, RECADV, INVOICE, IFTMBF"
+MESSAGECLASS, М, Рядок (6),"Клас повідомлення: ORDER, ORDRSP, DESADV, RECADV, INVOICE, IFTMBF, DECLAR, DECLARJ12"
 STATUSONFILENAME, М,,"ім'я файлу, на який отримано статус"
 **STATUS**,,, Закінчення документа
