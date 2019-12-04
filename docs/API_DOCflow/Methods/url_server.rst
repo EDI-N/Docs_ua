@@ -1,2 +1,0 @@
-``URL сервера = doc.edi-n.com``
-
