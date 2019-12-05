@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _SignBody:, Об'єкт **SignBody**,
+signId,long,id підпису
+bodyId,long,id тіла підпису
+**info**,SignInfo_,об'єкт; інформація про сертифікат користувача
+signBody,byte[],тіло підпису
+fullSignInfo,byte[],повна інформація щодо підпису
+companyId,long,id компанії

@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _PackageComments:, Об'єкт **PackageComments**,
+commentId,long,id коментаря
+packageId,long,id комплекту
+**user**,User_,об'єкт; дані користувача
+action,int,дія; тип операції
+comment,Comment,об'єкт; коментар
+date,long,дата коментаря

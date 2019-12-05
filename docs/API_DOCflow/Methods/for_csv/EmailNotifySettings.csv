@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _EmailNotifySettings:, Об'єкт **EmailNotifySettings**,
+notifyType,int,тип сповіщення
+notifyStatus,int,статус сповіщення
+**emails**,List<String>	,масив; email адреси

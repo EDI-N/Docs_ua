@@ -1,0 +1,14 @@
+Параметр, Формат, Опис
+.. _Partner:, Об'єкт **Partner**,
+partnerId,long,id контрагента-партнера
+accountId,long,id аккаунта
+code,String,код ЕДРПОУ
+name,String,назва компанїї
+contactPerson,String,ПІБ контактної особи
+contactEmail,String,Email контактної особи
+contactPhone,String,контактный телефон
+comment,String,коментар
+invitationDate,long,дата / час запрошення
+status,int,статус запрошення
+contractStatus,int,"статус контракту (відмітка про те, що контрагент зареєстрований на платформі DOCflow); 1 - так, 0 - немає"
+companyId,long,id компанії

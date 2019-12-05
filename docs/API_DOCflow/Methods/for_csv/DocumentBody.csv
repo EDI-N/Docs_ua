@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _DocumentBody:, Об'єкт **DocumentBody**,
+bodyId,long,id тіла документа
+documentId,long,id документа
+fileName,String,найменування файлу
+body,byte[],тіло документа
+**signBodies**,List<SignBody_>,масив об'єктів; тіла підписів на документі

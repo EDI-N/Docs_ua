@@ -1,0 +1,13 @@
+Параметр, Формат, Опис
+.. _SignInfo:, Об'єкт **SignInfo**,
+subjCN,String,ім'я власника сертифіката
+subjCode,String,код сертификата
+subjInn,String,ІПН власника сертифіката
+subjFullName,String,повне ім'я власника сертифіката
+subjTitle,String,посада власника сертифіката
+subject,String,загальна інформація про власника сертифіката
+certSerial,String,серійний номер сертифіката
+issuerCN,String,ім'я видавця
+subjOrg,String,організація власника сертифіката
+isTimeStamp,boolean,"відмітка ""дата в форматі timeStamp"""
+timeStamp,long,дата сертификата

@@ -1,0 +1,4 @@
+Параметр, Формат, Опис
+.. _OwnershipTypes:, Об'єкт **OwnershipTypes**,
+typeId,long,id форми власності
+typeName,String,форма власності

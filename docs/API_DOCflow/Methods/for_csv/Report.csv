@@ -1,0 +1,16 @@
+Параметр, Формат, Опис
+.. _Report:, Об'єкт **Report**,
+reportName,String,назва звіту
+reportId,long,ID звіту
+companyId,long,ID компанії
+reportStartDate,long,дата початку часового періоду звіту (у форматі Unix timestamp)
+reportEndDate,long,дата закінчення часового періоду звіту (у форматі Unix timestamp)
+dateCreated,long,дата і час запиту на створення звіту (у форматі Unix timestamp)
+dateCompleted,long,дата і час створення звіту (у форматі Unix timestamp)
+reportType,int,"тип звіту; 1 - по зовнішньому документообігу, 2 - по задачам"
+userId,long,ID користувача
+userEmail,String,Email користувача
+reportStatus,int,"статус звіту; 1 - IN_PROGRESS, 2 - FINISHED"
+**company**,Company_,об'єкт; інформація про компанію
+**reportFilter**,ReportDocumentFilter_ або ReportTaskFilter_,"змінна, в залежності про типу звіту містить об'єкт ReportDocumentFilter або об'єкт ReportTaskFilter"
+reportFileLink,String,посилання на файл

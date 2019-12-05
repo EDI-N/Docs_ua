@@ -1,0 +1,4 @@
+Параметр, Формат, Опис
+.. _AgreementProc2Doc:, Об'єкт **AgreementProc2Doc**,
+**document**,Document_,об'єкт; дані документа
+**dictionaryValue**,DictionaryValue,об'єкт; значення довідника
