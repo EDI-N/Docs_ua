@@ -36,7 +36,7 @@
 
 .. csv-table:: 
   :file: for_csv/Role.csv
-  :widths:  1, 9, 12, 41
+  :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
 
