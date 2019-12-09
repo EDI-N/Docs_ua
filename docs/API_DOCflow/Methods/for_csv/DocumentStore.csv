@@ -1,7 +1,7 @@
 Параметр, Формат, Опис
 .. _DocumentStore:, Об'єкт **DocumentStore**,
 documentId,long,id документа
-packageId,long,id пакета
+packageId,long,id комплекта
 senderCompanyId,long,id організації відправника
 **senderCompany**,Company_,об'єкт; дані компанії відправника
 **documentType**,Document_,об'єкт; опис типу документу

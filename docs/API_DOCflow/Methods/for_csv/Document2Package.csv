@@ -1,6 +1,6 @@
 Параметр, Формат, Опис
 .. _Document2Package:, Об'єкт **Document2Package**,
-packageId,long,id пакета
+packageId,long,id комплекта
 documentId,long,id документа
 needSign,int,"необхідність підписання; ""0 - Ні; 1 - Так"""
 signsCount,int,кількість підписів
