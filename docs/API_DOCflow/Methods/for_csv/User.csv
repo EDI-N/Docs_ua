@@ -1,0 +1,21 @@
+Параметр, Формат, Опис
+.. _User:, Об'єкт **User**,
+userId,long,ID користувача
+accountId,long,ID аккаунта
+email,String,email та логін користувача
+password,String,пароль користувача
+isOwner,int,"ознака власника аккаунта; 0 - ні, 1 - так"
+isCaptcha,Integer,"ознака активації CAPTCHA для користувача (""1"" - активна; ""0"" - не активна)"
+fio,String,ПІБ користувача
+tel,String,телефон
+**companies**,List<Company_>,масив об'єктів; компанії
+**account**,Account_,об'єкт; дані облікового запису
+status,int,"статус користувача (""1"" - активний; ""2"" - заблокований)"
+**roles**,List<Role_>,масив об'єктів; ролі
+**routes**,List<PackageRoute_>,масив об'єктів; маршрути
+passSecureType,int,"рівень складності пароля (""1"" - низький; ""2"" - звичайний; ""3"" - високий)"
+passPolicyId,long,"id пральний політики, застосованої до користувача"
+**userInfo**,UserInfo_,об'єкт; інформація про користувача
+lastLoginIp,String,IP-адреса останнього входу
+lastLoginDate,long,дата останнього входу
+**uiTypes**,List<UIType2Role_>,масив об'єктів; зв'язки користувальницьких інтерфейсів і ролей

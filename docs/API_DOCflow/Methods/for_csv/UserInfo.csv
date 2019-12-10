@@ -1,0 +1,10 @@
+Параметр, Формат, Опис
+.. _UserInfo:, Об'єкт **UserInfo**,
+position,String,посада
+department,String,відділ
+comment,String,коментар
+**whiteList**,List<String>,"масив; список ""білих"" IP адрес"
+decryptType,int,"тип розшифровки; ""1 - WEB; 2 - Cryptex"""
+cryptexServer,String,адреса cryptex-сервера на стороні клієнта
+language,int,"мова, ""1 - російська; 2 - англійська; 3 - українська"""
+notShowWizard,tinyint,"відмітка «Не показувати майстер налаштувань при повторному вході"", 0 - показувати(нема відмітки), 1- Не показувати(є відмітка)"

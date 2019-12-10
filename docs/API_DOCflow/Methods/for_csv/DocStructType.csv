@@ -1,0 +1,30 @@
+Параметр, Формат, Опис
+.. _DocStructType:, Об'єкт **DocStructType**,
+object,Object,"об'єкт; елемент, який є вузлом, структурою зі своїми полями"
+array,DocFieldTypeArray_,"об'єкт; елемент, який є таблицею або масивом значень зі своїми полями"
+number,DocFieldTypeNumeric_,об'єкт; числові значення зі знаком і символ розділювача числа в дробовій формі
+string,DocFieldTypeString_,об'єкт; текстові значення
+date,DocFieldTypeDate,об'єкт; дата без часу
+time,DocFieldTypeTime_,об'єкт; час
+aEnum,List<DocFieldTypeEnum_>,масив об'єктів; список
+.. _DocFieldTypeString:, Об'єкт **DocFieldTypeString**,
+length,Integer,кількість символів
+minLength,Integer,мінімальна кількість символів (мінімум 1)
+maxLength,Integer,максимальна кількість символів (максимум 9999)
+regexp,String,регулярний вираз
+case,String,"регістр - вказується, в якому регістрі використовувати рядок (upper, lower, camel)"
+.. _DocFieldTypeArray:, Об'єкт **DocFieldTypeArray**,
+minLength,int,мінімальна кількість рядків (мінімум 1)
+maxLength,int,максимальна кількість рядків (максимум 9999)
+.. _DocFieldTypeNumeric:, Об'єкт **DocFieldTypeNumeric**,
+type,String,тип числа
+positive,boolean,додатне число
+negative,boolean,від'ємне число
+decimal,int,кількість цифр після коми
+.. _DocFieldTypeDate:, Об'єкт **DocFieldTypeDate**,
+format,String,"формат дати, де Y - рік, M - місяць, D - день"
+.. _DocFieldTypeTime:, Об'єкт **DocFieldTypeTime**,
+format,String,"формат часу, де H - година, M - хвилина, S - секунда; при цьому H використовується для 24-годинного формату, h - для 12-годинного формату"
+.. _DocFieldTypeEnum:, Об'єкт **DocFieldTypeEnum**,
+value,String,"значення; значення, яке буде додано в тег"
+name,String,назва; відображувана назва значення

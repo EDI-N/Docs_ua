@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _AgreementGroup:, Об'єкт **AgreementGroup**,
+**users**,ArrayList<User_>,масив об'єктів; дані користувачів
+groupID,long,ID групи узгодження
+companyID,long,ID компанії
+**company**,Company_,об'єкт; дані компанії
+groupName,String,назва групи узгодження
+comment,String,коментар

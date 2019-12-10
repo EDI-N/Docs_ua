@@ -1,0 +1,25 @@
+Параметр, Формат, Опис
+.. _DocumentStore:, Об'єкт **DocumentStore**,
+documentId,long,id документа
+packageId,long,id комплекта
+senderCompanyId,long,id організації відправника
+**senderCompany**,Company_,об'єкт; дані компанії відправника
+**documentType**,Document_,об'єкт; опис типу документу
+documentTypeId,Long,id типу документу
+number,String,номер документу
+date,long,дата документу
+dateSent,long,дата відправки
+clientSignsCount,int,кількість підписів клієнта
+ownerSignsCount,int,кількість підписів власника
+status,int,статус документа; 2 - відправлений; 3 - прийнятий; 4 - відхилений
+comment,String,коментар
+versionStructure,long,версія структури структурованого документу
+**extraFields**,List<ExtraField_>,масив об'єктів; прив'язка додаткових полів до документа
+**bodies**,List<DocumentBody_>,масив об'єктів; тіла документів
+**structure**,List<DocStructValue_>,масив об'єктів; опис структури зі значеннями
+**agreementLogs**,List<AgreementLogs_>,масив об'єктів; історія / логи узгоджень
+isReadFromApi,int,ознака прочитання по API
+documentUuid,UUID,унікальний ідентифікатор документа
+agreementProcId,long,ID процесу узгодження
+agreementStatus,int,статус узгодження
+**dictionaryValue**,DictionaryValue_,об'єкт; значення довідника

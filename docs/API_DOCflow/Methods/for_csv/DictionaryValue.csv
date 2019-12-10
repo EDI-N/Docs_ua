@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _DictionaryValue:, Об'єкт **DictionaryValue**,
+valueId,long,id значення довідника
+dictionaryId,long,id довідника
+name,String,назва значення довідника
+code,String,код значення довідника
+parentCode,String,"код ""батьківського"" значення довідника"
+isActive,int,"статус значення довідника; 1 - активний, 0 - заблокований"

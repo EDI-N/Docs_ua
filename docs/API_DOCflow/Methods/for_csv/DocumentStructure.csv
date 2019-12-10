@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _DocumentStructure:, Об'єкт **DocumentStructure**,
+id,long,id структурованого документу
+**structure**,List<DocStructField_>,структура документу
+version,long,версія структури
+status,int,"статус документа; ""0 - чернетка; 1 - активний; 2 - архівний"""
+dateUpdate,long,дата оновлення
+**encodingPattern**,Pattern_,шаблон кодування (utf-8|windows-1251)
+encoding,String,"кодування (за замовчуванням ""utf-8"")"

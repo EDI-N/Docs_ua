@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _ExtraField:, Об'єкт **ExtraField**,
+fieldId,long,id поля
+companyId,long,id компанії
+name,String,назва поля
+description,String,опис поля
+dataType,int,"формат поля; 1 - текст; 2 - число; 3 - дата; 4 - цифра"
+status,int,"статус; 1 - Активно, 0 - Неактивно (Заблокировано)"
+value,String,значення поля
