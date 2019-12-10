@@ -24,3 +24,4 @@
    Retins_ATB_instruction
    modern_expo_instruction
    modern_expo_postavschuk_instruction
+   PricatPampikInstruction
