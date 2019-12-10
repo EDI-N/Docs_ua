@@ -4,5 +4,5 @@ dictionaryId,long,id довідника
 companyId,long,id компании
 name,String,назва довідника
 code,String,код довідника
-isActive,int,"статус довідника; 1 - активний, 0 — заблокований
+isActive,int,"статус довідника; 1 - активний, 0 — заблокований"
 **values**,List<DictionaryValue_>,масив об'єктів; значення довідника
