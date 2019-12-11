@@ -1,6 +1,6 @@
 Параметр, Формат, Опис
 .. _Certificate:, Об'єкт **Certificate**,
-certId, ,long,ID сертифіката
+certId,long,ID сертифіката
 info, ,EndUserCertificateInfoEx_,об'єкт; дані про сертифікат
 expireDate, ,long,дата закінчення дії сертифіката
 serial, ,String,серійний номер сертифіката
