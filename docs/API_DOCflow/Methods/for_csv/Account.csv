@@ -17,6 +17,6 @@ addInfo,String,додаткова інформація
 **whiteList**,List<String>,"масив; список білих ip адрес"
 decryptType,int,"тип розшифровки; 1 - WEB; 2 - Cryptex"
 cryptexServer,String,адреса cryptex-сервера на стороні клієнта
-status,int,"статус; "0 - заблокований; 1 - активний"
+status,int,статус; "0 - заблокований; 1 - активний"
 **accountInfo**,AccountInfo_,об'єкт; додаткова інформація про аккаунт
 **adminAccount**,AdminAccount_,об'єкт; данні по аккаунту в Адмінці
