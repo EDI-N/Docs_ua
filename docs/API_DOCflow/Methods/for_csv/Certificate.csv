@@ -1,0 +1,11 @@
+Параметр, Формат, Опис
+.. _Certificate:, Об'єкт **Certificate**,
+certId,long,ID сертифіката
+info,EndUserCertificateInfoEx_,об'єкт; дані про сертифікат
+expireDate,long,дата закінчення дії сертифіката
+serial,String,серійний номер сертифіката
+body,byte[],тіло відкритого сертифіката
+fullName,String,ПІБ власника сертифіката
+EDRPOUCode,String,Код ЄДРПОУ
+cer2accId,long,ID зв'язку аккаунта з сертифікатами
+keyUsage,String, призначення сертифіката

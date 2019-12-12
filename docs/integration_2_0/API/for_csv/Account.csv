@@ -1,18 +1,22 @@
 Параметр, Формат, Опис
 .. _Account:, Об'єкт **Account**,
-platform, enum, ознака приналежності до платформи EVO/FELEX
-id, int, id аккаунта; число 11 символів
-name, String, повне найменування організації або ПІБ індивідуального підприємця
-ownership, String, "форма власності; рядок 5 символів; jur - Юридична особа, fiz - Фізична особа"
-inn, String, код ІПН; рядок 50 символів
-kpp, String, код ЄДРПОУ / КПП; рядок 50 символів
-mail, String, пошта
-phone, String, № телефону; рядок 50 символів
-ndsNumber, String, № свідоцтва ПДВ; рядок 50 символів
-bankAccount, String, розрахунковий рахунок банку; рядок 50 символів
-bankName, String, назва банку; рядок 100 символів
-bankMfo, String, "МФО банку, код-реквізит банку"
-bankAddress, String, адреса банку; рядок 150 символів
-**identificators**, List<Identificator_>, масив об'єктів;
-**companies**, List<Company_>, масив об'єктів;
-**users**, List<User_>, масив об'єктів;
+accountId,long,ID аккаунта
+companyId,long,ID компанії
+**company**,Company_,об'єкт; дані про компанію
+mfo,String,МФО банку
+paymentAccount,String,розрахунковий рахунок
+tariffId,int,ID тарифу
+fullName,String,ПІП користувача
+phone,String,телефон
+email,String,Email
+dirPosition,String,посада директора
+activityBase,String,підстава діяльності
+isIndivOffer,int,"відмітка про наявність індивідуального договору; 0 - нет, 1 - есть"
+adminAccountId,long,ID аккаунта в Адмінці
+addInfo,String,додаткова інформація
+**whiteList**,List<String>,"масив; список білих ip адрес"
+decryptType,int,"тип розшифровки; 1 - WEB; 2 - Cryptex"
+cryptexServer,String,адреса cryptex-сервера на стороні клієнта
+status,int,"статус; 0 - заблокований; 1 - активний"
+**accountInfo**,AccountInfo_,об'єкт; додаткова інформація про аккаунт
+**adminAccount**,AdminAccount_,об'єкт; данні по аккаунту в Адмінці

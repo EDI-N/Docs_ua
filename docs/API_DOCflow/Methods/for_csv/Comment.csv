@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _Comment:, Об'єкт **Comment**,
+before,Changes,об'єкт; зміни (коментар до)
+after,Changes,об'єкт; зміни (коментар після)
+userComment,String,коментар користувача
+documentId,Long,ID документа

@@ -1,0 +1,35 @@
+Параметр, Формат, Опис
+.. _Package:, Об'єкт **Package**,
+packageId,long,ID комплекту
+senderCompanyId,long,ID компанії-відправника
+recipientCompanyId,long,ID компанії-одержувача
+ownerCompanyId,long,ID власника компанії
+clientCompanyId,long,ID контрагента
+**ownerCompany**,Company_,об'єкт; дані власника компанії
+**clientCompany**,Company_,об'єкт; дані контрагента
+**senderCompany**,Company_,об'єкт; дані компанії-відправника
+**recipientCompany**,Company_,об'єкт; дані компанії-одержувача
+contractId,long,ID контракту
+**contract**,Contract_,об'єкт; дані контракту
+packageTypeId,long,ID типу комплекту
+packageTypeChainId,long,ID ланцюжка типу комплекту (використовується для пошуку пов'язаних версій комплекта)
+dateCreated,long,дата створення
+dateChanged,long,дата зміни
+status,int,статус комплекту
+archive,int,ознака архівації
+packageNumber,String,номер комплекту
+**documents**,List<DocumentStore_>,масив об'єктів; документи комплекту
+**package2Dictionaries**,List<Package2Dictionaries_>,масив об'єктів; довідники комплекту
+**extraFields**,List<Package2ExtraField_>,"масив об'єктів; користувацькі поля, прив'язані до комплекту"
+**contractDictionaries**,List<Dictionary_>,"масив об'єктів; список довідників, скопійованих з контракту в момент створення комплекта"
+**packageType**,PackageType,об'єкт; настройки комплекту документів (комплекту)
+isRead,int,ознака прочитання на WEB
+isReadFromApi,int,ознака прочитання (завантаження) по API
+isReadyForSend,int,"індикатор ""Готовий до відправлення"""
+packageDirection,int,"напрямок комплекту; 1 - inbox, 2 - outbox, 3 - draft"
+signDateTerm,long,термін для підписання
+packageUuid,UUID,унікальний ідентифікатор комплекта
+**packageBase**,PackageBase_,об'єкт; дані комплекта підстави
+packageId,long,ID комплекту
+packageBasedId,long,ID комплекта підстави
+packageBasedNumber,String,номер комплекта підстави

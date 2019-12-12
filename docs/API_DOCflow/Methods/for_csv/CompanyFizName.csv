@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _CompanyFizName:, Об'єкт **CompanyFizName**,
+lastName,String,прізвище
+firstName,String,ім'я
+secondName,String,по батькові

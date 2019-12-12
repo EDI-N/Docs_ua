@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _BankAcc:, Об'єкт **BankAcc**,
+bankName,String,назва банку
+checkAcc,String,розрахунковий рахунок
+bankCode,String,МФО
+corAcc,String,номер кореспондентського рахунку банку
