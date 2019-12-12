@@ -12,5 +12,6 @@
    formirovanie_RECADV_na_EDI_Network_2.0
    formirovanie_INSDES_na_EDI_Network_2.0
    formirovanie_otpravka_RETINS_na_EDI_Network_2.0
+   PricatPampikInstruction_EDIN_2_0
    
    
