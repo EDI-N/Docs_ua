@@ -1,108 +1,18 @@
-  [
-    {
-      "agrementSteps": [],
-      "agreementProc2Docs": [],
-      "agreementProcId": 195,
-      "companyId": 1313,
-      "company": {
-        "companyId": 0,
-        "accountId": 0,
-        "type": 0,
-        "name": "ФОП Гаврилюк Татьяна",
-        "code": "3189823647",
-        "isApproved": 0,
-        "isSignedOffer": 0,
-        "isActive": 0,
-        "certificates": [],
-        "dictionaries": [],
-        "notifySettings": []
-      },
-      "name": "Согласование актов сверки ",
-      "status": 1
-    },
-    {
-      "agrementSteps": [],
-      "agreementProc2Docs": [],
-      "agreementProcId": 191,
-      "companyId": 1319,
-      "company": {
-        "companyId": 0,
-        "accountId": 0,
-        "type": 0,
-        "name": "ТОВ Альбатрос ",
-        "code": "01235896",
-        "isApproved": 0,
-        "isSignedOffer": 0,
-        "isActive": 0,
-        "certificates": [],
-        "dictionaries": [],
-        "notifySettings": []
-      },
-      "name": "Внутреннее согласование отчетов ",
-      "status": 1
-    },
-    {
-      "agrementSteps": [],
-      "agreementProc2Docs": [],
-      "agreementProcId": 189,
-      "companyId": 1313,
-      "company": {
-        "companyId": 0,
-        "accountId": 0,
-        "type": 0,
-        "name": "ФОП Гаврилюк Татьяна",
-        "code": "3189823647",
-        "isApproved": 0,
-        "isSignedOffer": 0,
-        "isActive": 0,
-        "certificates": [],
-        "dictionaries": [],
-        "notifySettings": []
-      },
-      "name": "Внутреннее согласование заявлений на отпуск ",
-      "status": 1
-    },
-    {
-      "agrementSteps": [],
-      "agreementProc2Docs": [],
-      "agreementProcId": 187,
-      "companyId": 1319,
-      "company": {
-        "companyId": 0,
-        "accountId": 0,
-        "type": 0,
-        "name": "ТОВ Альбатрос ",
-        "code": "01235896",
-        "isApproved": 0,
-        "isSignedOffer": 0,
-        "isActive": 0,
-        "certificates": [],
-        "dictionaries": [],
-        "notifySettings": []
-      },
-      "name": "Cогласования актов вып работ ",
-      "status": 1
-    },
-    {
-      "agrementSteps": [],
-      "agreementProc2Docs": [],
-      "agreementProcId": 181,
-      "companyId": 1313,
-      "company": {
-        "companyId": 0,
-        "accountId": 0,
-        "type": 0,
-        "name": "ФОП Гаврилюк Татьяна",
-        "code": "3189823647",
-        "isApproved": 0,
-        "isSignedOffer": 0,
-        "isActive": 0,
-        "certificates": [],
-        "dictionaries": [],
-        "notifySettings": []
-      },
-      "name": "Согласование договоров аренды ",
-      "comment": "Исходящие документы ",
-      "status": 1
-    }
-  ]
+Параметр, Формат, Опис
+.. _PackageFilterPart:, Об'єкт **PackageFilterPart**,
+folder,long,каталог (1 - Вхідні (inbox); 2 - Відправлені (outbox); 3 - Черновик (draft))
+fileName,String,пошук по імені файлу документа
+packageDictionaryValue,DictionaryValue_,об'єкт; пошук по значенню довідника комплекта документів
+extraField,ExtraField_,"об'єкт; пошук по значенню екстра поля; досить вказати 2 параметра: ExtraField {fieldId:1212, value:'dfdb'}"
+recipientCompaniesIds,List<Long>,масив id отримувачів
+senderCompaniesIds,List<Long>,масив id відправників
+contractIds,List<Long>,масив id контрактів
+packageTypesIds,List<Long>,масив; по типам комплектів документів
+packageChainIds,List<Long>,масив; по версії типу комплекта документів
+packageStatuses,List<Long>,"масив; по статусам комплектів документів, де ``1`` - чернетка; ``2`` - відправлений; ``3`` - прийнятий; ``4`` - запит на уточнення; ``5`` - відхилений; ``6`` - оброблений; ``7`` - відмова"
+dateFrom,long,по даті зміни комплекта документів (unix timestamp)
+dateTo,long,по даті зміни комплекта документів (unix timestamp)
+packageNumber,String,по номеру комплекта документів
+isReadFromApi,Integer,"ознака завантаження по API (0 - ні, 1 - так)"
+isRead,Integer,"ознака, що комплект прочитаний (0 - ні, 1 - так)"
+
