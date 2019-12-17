@@ -1,0 +1,14 @@
+Параметр, Формат, Опис
+.. _PackageRoute:, Об'єкт **PackageRoute**,
+routeId, long, id маршруту
+companyId, long, id компанії
+name, String, найменування маршруту
+code, String, код маршруту
+status, int, статус маршруту; 1 - активний; 2 - заблокований
+**company**, Company_, об'єкт; дані компанії
+**users**, List<User_>, масив об'єктів; користувачі
+**contracts**, List<Contract_>, масив об'єктів; контракти
+**packageTypes**, List<PackageType_>, масив об'єктів; налаштування комплектів документів
+isAllContracts, boolean, відмітка про всі контракти; 0 - ні; 1 - так
+isAllPackageTypes, boolean, відмітка про всі типи комплектів документів; 0 - ні; 1 - так
+direction, int, напрямок маршруту; 1 - від клієнта до власника; 2 - від власника до клієнта
