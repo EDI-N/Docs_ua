@@ -16,5 +16,6 @@ isAllClientSenderPackages,int,"відмітка ""всі комплекти"" д
 isAllOwnerSenderPackages,int,"відмітка ""всі комплекти"" для вихідних; 0 - немає, 1 — так"
 **specialConditions**,SpecialConditions_,об'єкт; спеціальні умови
 **dictionaries**,List<Dictionary_>,масив об'єктів; дані довідників
+**tags**,List<Tag_>,масив об'єктів; дані тегів
 **ownerPackages**,List<PackageType_>,масив об'єктів; дані комплектів документів відправника
 **clientPackages**,List<PackageType_>,масив об'єктів; дані комплектів документів одержувача
