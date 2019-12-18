@@ -21,7 +21,7 @@
 
 В цьому методі в тілі **запиту** передається *.xls/*.xlsx файл у вигляді масиву байт. Файл повинен відповідати шаблону:
 
-:download:`Завантажити шаблон<for_csv_/PostPartnersTemplate.xlsx>`
+:download:`Завантажити шаблон<for_csv/PostPartnersTemplate.xlsx>`
 
 ``RESPONSE``
 
@@ -34,7 +34,7 @@
 
 В цьому методі в тілі **запиту** передається *.xls/*.xlsx файл у вигляді масиву байт. Файл повинен відповідати шаблону:
 
-:download:`Завантажити шаблон<for_csv_/PostPartnersTemplate.xlsx>`
+:download:`Завантажити шаблон<for_csv/PostPartnersTemplate.xlsx>`
 
 --------------
 
