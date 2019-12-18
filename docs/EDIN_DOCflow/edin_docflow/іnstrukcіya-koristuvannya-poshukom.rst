@@ -101,7 +101,7 @@
 .. image:: pics_іnstrukcіya-koristuvannya-poshukom/pics_іnstrukcіya-koristuvannya-poshukom_04.png
    :align: center
 
-Пошук можливий за такимиполями:
+Пошук можливий за такими ,sxyjполями:
 
 - Тип завдання - Узгодження; Підписання; Повідомлення;
 - Статус завдання - До виконання, Виконано, Відхилено, Прострочена;
