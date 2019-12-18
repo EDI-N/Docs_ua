@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _MobileCert:, Об'єкт **MobileCert**,
+organization, String, організація
+positionId, String, id посади
+services, String[], масив; коди послуг
+title, String, посада
+msisdn, String, номер телефону
