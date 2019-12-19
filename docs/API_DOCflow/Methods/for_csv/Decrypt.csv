@@ -1,0 +1,19 @@
+Параметр, Формат, Опис
+.. _Contract:, Об'єкт **Contract**,
+cryptContent,  String, зашифрований контент в вигляді base64-рядка 
+origFileName,  String, оригінальна назва файлу 
+printFileName,  String, назва файлу печатного макету 
+bankLogo,  String, логотип банку в вигляді base64-рядка, використовується при формуванні печатного макету  
+bankName,  String, назва банку, використовується при формуванні печатного макету  
+clientName,  String, ім'я клієнта, використовується при формуванні печатного макету   
+signs, List<String>, масив підписів (кожен в вигляді base64-рядка)
+requestInfo,  String, додаткова інформація для логування
+bodyId,  long, id тіла документа 
+documentId,  long, id документа 
+documentDate,  long, дата документа 
+documentNumber,  String, номер документа 
+packageNumber,  String, номер комплекту документів 
+packageType,  String, тип комплекту документів 
+documentType,  String, тип документу 
+packageId,  long, id комплекту документів  
+packageStatus,  String, статус комплекту документів; 1 - OPEN - "Чернетка"; 2 - SEND - "Відправлений"; 3 - ACCEPTED - "Прийнятий"; 4 - ADDITIONAL_INFO - "Запит на уточнення"; 5 - REJECTED - "Відхилений"; 6 - PROCESSED - "Опрацьований"; 7 - REFUSED - "Відмова"; 8 - ATTACHMENT - "Довкладення" 
