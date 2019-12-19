@@ -108,6 +108,10 @@
 
 3.3 Натиснути кнопку «**Розшифрувати**» для відповідної квитанції.
 
+.. important::
+    Для зчитування квитанції потрібно використовувати ті ж ключі, що були використані при підписанні «**Податкової накладної**»
+
+
 .. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_11.png
    :align: center
 
