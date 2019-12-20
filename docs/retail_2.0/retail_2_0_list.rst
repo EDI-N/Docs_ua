@@ -13,5 +13,6 @@
    formirovanie_INSDES_na_EDI_Network_2.0
    formirovanie_otpravka_RETINS_na_EDI_Network_2.0
    PricatPampikInstruction_EDIN_2_0
+   Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi
    
    
