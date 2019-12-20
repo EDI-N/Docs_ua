@@ -6,6 +6,7 @@
    
   edin_docflow/instruktsia-avtorizatsia
   edin_docflow/instruktsia-nastroyka-ecp
+  edin_docflow/іnstrukcіya-koristuvannya-poshukom
   edin_docflow/instruktsia-biznes-administratora
   edin_docflow/instruktsia-administratora-polzovatelei
   edin_docflow/instruktsia-korystuvacha-obminy-paketami

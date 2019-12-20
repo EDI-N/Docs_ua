@@ -1,0 +1,25 @@
+Параметр, Формат, Опис
+.. _PackageFilter:, Об'єкт **PackageFilter**,
+filterId,long,ID фильтру
+filterName,long,назва ярлика-фільтру
+packageId,long,ID комплекта (пакета)
+ownerCompaniesIds,**List<ownerCompaniesIds>**,масив об'єктів; список ID компаній власника
+clientCompaniesIds,**List<clientCompaniesIds>**,масив об'єктів; список ID компаній контрагента
+senderCompaniesIds,**List<senderCompaniesIds>**,масив об'єктів; список ID компаній відправника
+recipientCompaniesIds,**List<recipientCompaniesIds>*,масив об'єктів; список ID компаній одержувача
+dateFrom,long,дата початку вибірки при пошуку комплекту (unix timestamp)
+dateTo,long,дата закынчення вибірки при пошуку комплекту (unix timestamp)
+packageNumber,String,номер комплекту
+packageTypesIds,**List<packageTypesIds>**,масив; за типами комплектів документів
+packageChainIds,**List<packageChainIds>**,масив; за версією типу комплекту документів
+contractIds,**List<contractIds>**,масив ID контрактів
+packageStatuses,**List<packageStatuses>**,"масив; по статусах комплектів документів де ""1"" - чернетка; ""2"" - відправлений; ""3"" — прийнятий; ""4"" - запит на уточнення; ""5"" - відхилений; ""6"" - оброблений; ""7"" - відмова; ""8"" — додано документ;"
+packageTagIds,**List<packageTagIds>**,масив  ID тегів
+folder,int,папка; 1 — inbox; 2 — outbox; 3 — draft;
+isReadFromApi,int,ознака прочитання (завантаження) по API
+isRead,int,ознака прочитання на WEB
+periodType,int,період; 1 — currentMonth; 2 — previousMonth; 3 — currentDate; 4 fixedPeriod;
+dateShift,int,"N днів в формі ""Поточна дата мінус N-днів"" (якщо periodType = 3)"
+fileName,String,пошук по імені файлу документа
+packageDictionaryValue,**DictionaryValue_**,об'єкт; довідник скопійований з контракту в момент створення комплекту
+extraField,**ExtraField_**,об'єкт; користувацькi поля прив'язані до комплекту
