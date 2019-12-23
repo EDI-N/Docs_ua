@@ -35,7 +35,7 @@ SUPPLIER, M, Число (13), GLN постачальника
 DELIVERYPLACE, M, Число (13), GLN місця доставки
 FINALRECIPIENT, O, Число (13), GLN кінцевого консигнатора
 INVOICEPARTNER, O, Число (13), GLN платника
-ENDER, M, Число (13), GLN відправника повідомлення
+SENDER, M, Число (13), GLN відправника повідомлення
 RECIPIENT, M, Число (13), GLN одержувача повідомлення
 CONSIGNEE, O, Число (13), GLN вантажоодержувача
 RECIPIENTCODE, O, Рядок (35), Код отримувача
