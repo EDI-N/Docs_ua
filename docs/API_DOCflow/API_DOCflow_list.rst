@@ -118,6 +118,9 @@ API
    Methods/PostPackageComment
    Methods/PostPackages
    Methods/GetPackageArch
+   Methods/GetPackageComments   
    Methods/PostAgreementStep
    Methods/PostPackageSend
+   Methods/PostPackageStatus
+   Methods/GetSignListArch
 
