@@ -7,4 +7,5 @@
    rabota_s_platformoj_EDIN_2.0
    instruktsiyi_po_dodavannyu_klyuchiv
    Robota_z_tokenom
+   Instruktsiya_po_zavantazhennyu_reyestru_komdok
    
