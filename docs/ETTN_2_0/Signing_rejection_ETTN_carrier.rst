@@ -15,7 +15,7 @@
 .. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_02.png
    :align: center
 
-*Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання.*
+.. hint:: Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання.
 
 .. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_03.png
    :align: center
@@ -47,7 +47,7 @@
 .. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_08.png
    :align: center
 
-У перевізника є можливість відхилити е-ТТН до підписання. Для цього потрібно натиснути на кнопку "Відхилити".
+У перевізника є можливість відхилити е-ТТН **до підписання**. Для цього потрібно натиснути на кнопку "Відхилити".
 
 Результат:
 
