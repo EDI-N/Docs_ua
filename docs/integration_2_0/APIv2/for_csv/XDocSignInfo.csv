@@ -1,0 +1,7 @@
+Параметр,Формат,Опис
+.. _XDocSignInfo: ,**Об'єкт XDocSignInfo** ,
+doc_id,long,id документа/квитанції
+date,long,дата підписання; формат unix timestamp
+count,short,кількість підписів
+info,String,додаткова інформація
+hash,String,"хеш-значення, отримане в результаті обробки"

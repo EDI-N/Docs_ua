@@ -1,0 +1,60 @@
+id параметра, Найменування параметра, Тип, Формат, Опис параметра
+1, created_from ,, UUID, ідентифікатор документа або ланцюжка
+2, is_signed ,, TINYINT, відмітка про підписання
+3, encrypted ,, TINYINT, відмітка про шифрування
+4, comdoc_reestr_id ,, INT, id факторингового Реєстру на підставі комерційного документа
+5, comdoc_reestr_is_active ,, TINYINT, відмітка про активність факторингового договору
+6, ftpex_file_name ,, VARCHAR, "найменування файлу, відправленого по FTP"
+7, ftpex_file_date ,, INT, дата/час відправки документа по FTP
+8, inv_date ,, INT, дата документа invrpt (Звіт про інвентаризацію)
+9, inv_num ,, VARCHAR, номер документа invrpt (Звіт про інвентаризацію)
+11, sub_doc_type_id ,, INT, id підтипу документа
+12, sub_status_id ,, INT, id статусу документа (стан ланцюжка документів)
+13, action ,, VARCHAR, статус документа за здійсненими діями користувача
+14, buyer_uuid ,, VARCHAR, відправник документа
+15, consignee_uuid ,, VARCHAR, вантажоодержувач
+16, consignor_uuid ,, VARCHAR, вантажовідправник
+17, customer_uuid ,, VARCHAR, покупець
+18, performer_uuid ,, VARCHAR, виконавець
+19, supplier_uuid ,, VARCHAR, постачальник
+20, delivery_place_uuid ,, VARCHAR, місце доставки
+21, contract_date ,, VARCHAR, дата договору
+22, contract_number ,, VARCHAR, номер договору
+23, delivery_date, M, INT, дата доставки
+24, order_number, M, VARCHAR, номер замовлення
+25, order_date ,, INT, дата замовлення
+26, return_date ,, INT, дата повернення
+27, summ ,, VARCHAR, сума з ПДВ
+28, parent_chain_hash ,, MD5, хеш ланцюжка
+29, period ,, VARCHAR, крайня дата підпису документа
+31, trans_id ,, VARCHAR, id транзакції
+32, ttn ,, VARCHAR, номер накладної
+33, doc_start_date ,, VARCHAR, початок терміну підписання документа
+34, doc_end_date ,, VARCHAR, закінчення терміну підписання документа
+35, delivery_note_number ,, VARCHAR, номер накладної
+42, contract_gln ,, VARCHAR, GLN місце доставки при товарному узгодженні (Agreem-> Comdoc)
+43, doc_date ,, INT, дата з документа
+44, delivery_agreement_number ,, VARCHAR, кількість узгоджень
+45, delivery_agreement_date ,, INT, дата узгодження
+46, varn ,, VARCHAR, ЮЗД id документа
+47, other_info ,, TEXT, додаткові дані
+48, sub_doc_date ,, INT, дата підтипу документа
+49, sub_doc_number ,, VARCHAR, номер підтипу документа
+50, doc_error ,, TEXT, помилка при роботі з документом
+51, doc_info ,, TEXT, коментар до документа
+52, old_doc_id ,, INT, id документа
+53, sub_status_date ,, INT, дата статусу документа (стан ланцюжка документів)
+54, from_doc_id ,, INT, порядковий номер документа в ланцюжку
+56, doc_num ,, VARCHAR, номер документа
+57, sender ,, VARCHAR, GLN відправника
+58, recipient ,, VARCHAR, GLN одержувача
+59, file_name ,, VARCHAR, "найменування прикладаємого (вкладення) файлу"
+60, xml_hash ,, VARCHAR, хеш змісту документа
+61, answer_doc_id ,, INT, id COMDOC документа відправленного у відповідь
+80, identifier ,, VARCHAR, ідентифікатор документа в системі клієнта
+82, compound_number ,, VARCHAR, складовий номер
+85, doc_process ,, TINYINT,
+87, users ,, VARCHAR,
+88, basis_doc_subtype, , INT, підтип документа-підстави
+89, basis_doc_number,	, INT, номер документа-підстави
+90, basis_doc_date, , INT, дата документа-підстави
