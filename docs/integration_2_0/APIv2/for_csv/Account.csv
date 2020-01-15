@@ -1,0 +1,22 @@
+Параметр, Формат, Опис
+.. _Account:, Об'єкт **Account**,
+accountId,long,ID аккаунта
+companyId,long,ID компанії
+**company**,Company_,об'єкт; дані про компанію
+mfo,String,МФО банку
+paymentAccount,String,розрахунковий рахунок
+tariffId,int,ID тарифу
+fullName,String,ПІП користувача
+phone,String,телефон
+email,String,Email
+dirPosition,String,посада директора
+activityBase,String,підстава діяльності
+isIndivOffer,int,"відмітка про наявність індивідуального договору; 0 - нет, 1 - есть"
+adminAccountId,long,ID аккаунта в Адмінці
+addInfo,String,додаткова інформація
+**whiteList**,List<String>,"масив; список білих ip адрес"
+decryptType,int,"тип розшифровки; 1 - WEB; 2 - Cryptex"
+cryptexServer,String,адреса cryptex-сервера на стороні клієнта
+status,int,"статус; 0 - заблокований; 1 - активний"
+**accountInfo**,AccountInfo_,об'єкт; додаткова інформація про аккаунт
+**adminAccount**,AdminAccount_,об'єкт; данні по аккаунту в Адмінці
