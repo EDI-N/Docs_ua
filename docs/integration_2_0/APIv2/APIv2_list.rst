@@ -6,10 +6,11 @@ API v2
    
    Authorization
 
+Робота з документами та квитанціями
+======================================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Робота з документами та квитанціями
 
    GetRepealTicketBody
    GetRejectTicketBody
@@ -24,9 +25,11 @@ API v2
    EdsChain
    DocBody
 
+Робота з довідниками
+======================================================
+
 .. toctree::
    :maxdepth: 2
-   :caption: Робота з довідниками
    
    OasUser
    AccountIdentifiers
