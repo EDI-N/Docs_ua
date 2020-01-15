@@ -1,4 +1,4 @@
-API
+API v2
 ###########
 
 .. toctree::
@@ -9,9 +9,16 @@ API
 
 .. toctree::
    :maxdepth: 2
-   :caption: Робота з документами
+   :caption: Робота з документами та квитанціями
 
+   GetRepealTicketBody
+   GetRejectTicketBody
+   ComdocAccept
+   ComdocReject
    CreateDocumentV2
+   CreateTicketV2
+   RepealAccept
+   RepealRequest
    SendDocument
    DocsSearch
    EdsChain
