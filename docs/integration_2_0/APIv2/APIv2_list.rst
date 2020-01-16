@@ -6,11 +6,22 @@ API v2
    
    Authorization
 
-Робота з документами та квитанціями
+Робота з документами
 ======================================================
 
 .. toctree::
    :maxdepth: 2
+
+   SendDocument
+   DocsSearch
+   EdsChain
+   DocBody
+
+Робота з квитанціями
+======================================================
+
+.. toctree::
+   :maxdepth: 1
 
    GetRepealTicketBody
    GetRejectTicketBody
@@ -20,10 +31,8 @@ API v2
    CreateTicketV2
    RepealAccept
    RepealRequest
-   SendDocument
-   DocsSearch
-   EdsChain
-   DocBody
+
+
 
 Робота з довідниками
 ======================================================
