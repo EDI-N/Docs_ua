@@ -12,6 +12,7 @@ API v2
 .. toctree::
    :maxdepth: 2
 
+   CreateDocumentV2
    SendDocument
    DocsSearch
    EdsChain
@@ -27,7 +28,6 @@ API v2
    GetRejectTicketBody
    ComdocAccept
    ComdocReject
-   CreateDocumentV2
    CreateTicketV2
    RepealAccept
    RepealRequest
