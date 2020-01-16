@@ -1,8 +1,8 @@
-Інструкція для постачальника
-#######################
+Інструкції для постачальника
+###################################
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
    
-   Soglasovanie_cen_web_EDIN-Price_dlja_postavshhika
-   Vvod_novyh_SKU_na_platforme
+    Soglasovanie_cen_web_EDIN-Price_dlja_postavshhika
+    Vvod_novyh_SKU_na_platforme

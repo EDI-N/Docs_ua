@@ -14,7 +14,6 @@ EDIN | Електронний документообіг для бізнесу
    :caption: EDIN
    
    general/general_list
-   
 
 .. toctree::
    :maxdepth: 2
@@ -33,12 +32,6 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   
-   /services/services_list
-
-
-.. toctree::
-   :maxdepth: 2
    :caption: EDIN 2.0
 
    general_2_0/general_2_0_list
@@ -46,6 +39,12 @@ EDIN | Електронний документообіг для бізнесу
    integration_2_0/integration_2_0_list
    XML/XML-structure.rst
    ETTN_2_0/ETTN_2_0_list
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Сервіси
+   
+   /services/services_list
 
 .. toctree::
    :maxdepth: 2

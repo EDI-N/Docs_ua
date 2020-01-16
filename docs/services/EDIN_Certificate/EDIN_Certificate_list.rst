@@ -2,6 +2,6 @@ EDIN-Certificate
 #####################
 
 .. toctree::
-    :maxdepth: 0
-   
-   cert_instruction/Certificate_list
+   :maxdepth: 1
+
+    cert_instruction/Instrukcija_po_rabote_s_servisom_EDIN_Certificate
