@@ -6,6 +6,20 @@ API v2
    
    Authorization
 
+Робота з довідниками
+======================================================
+
+.. toctree::
+   :maxdepth: 2
+   
+   OasUser
+   AccountIdentifiers
+   OasRetailers
+   RetailerIdentificators
+   Allretailers
+   OasUnits
+   OasIdentifiers
+
 Робота з документами
 ======================================================
 
@@ -32,19 +46,3 @@ API v2
    RepealAccept
    RepealRequest
 
-
-
-Робота з довідниками
-======================================================
-
-.. toctree::
-   :maxdepth: 2
-   
-   OasUser
-   AccountIdentifiers
-   OasRetailers
-   RetailerIdentificators
-   Allretailers
-   OasUnits
-   OasIdentifiers
-   

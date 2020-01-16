@@ -68,7 +68,7 @@
   :header-rows: 1
   :stub-columns: 1
 
-Таблиця 5 - Опис параметрів об'єкта **XChainStatus**)
+Таблиця 5 - Опис параметрів об'єкта **XChainStatus**
 
 .. csv-table:: 
   :file: for_csv/XChainStatus.csv
@@ -76,7 +76,7 @@
   :header-rows: 1
   :stub-columns: 1
 
-Таблиця 6 - Опис параметрів об'єкта **XDocStatus**)
+Таблиця 6 - Опис параметрів об'єкта **XDocStatus**
 
 .. csv-table:: 
   :file: for_csv/XDocStatus.csv
@@ -84,7 +84,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 7 - Опис параметрів об'єкта **XDoc**)
+Таблиця 7 - Опис параметрів об'єкта **XDoc**
 
 .. csv-table:: 
   :file: for_csv/XDoc.csv
@@ -92,7 +92,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 8 - Опис параметрів об'єкта **XTag**)
+Таблиця 8 - Опис параметрів об'єкта **XTag**
 
 .. csv-table:: 
   :file: for_csv/XTag.csv
@@ -100,7 +100,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 9 - Опис параметрів об'єкта **XStatus**)
+Таблиця 9 - Опис параметрів об'єкта **XStatus**
 
 .. csv-table:: 
   :file: for_csv/XStatus.csv
@@ -108,7 +108,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 10 - Опис параметрів об'єкта **XDocSignInfo**)
+Таблиця 10 - Опис параметрів об'єкта **XDocSignInfo**
 
 .. csv-table:: 
   :file: for_csv/XDocSignInfo.csv
@@ -116,7 +116,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 11 - Опис параметрів об'єкта **XDocCommentsList**)
+Таблиця 11 - Опис параметрів об'єкта **XDocCommentsList**
 
 .. csv-table:: 
   :file: for_csv/XDocCommentsList.csv
@@ -124,7 +124,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 12 - Опис параметрів об'єкта **XDocComment**)
+Таблиця 12 - Опис параметрів об'єкта **XDocComment**
 
 .. csv-table:: 
   :file: for_csv/XDocComment.csv
@@ -132,7 +132,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 13 - Опис параметрів об'єкта **XDocAttachment**)
+Таблиця 13 - Опис параметрів об'єкта **XDocAttachment**
 
 .. csv-table:: 
   :file: for_csv/XDocAttachment.csv
@@ -140,7 +140,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 14 - Опис параметрів об'єкта **XDocBodyForms**)
+Таблиця 14 - Опис параметрів об'єкта **XDocBodyForms**
 
 .. csv-table:: 
   :file: for_csv/XDocBodyForms.csv
@@ -148,7 +148,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 15 - Опис параметрів об'єкта **XDocBody**)
+Таблиця 15 - Опис параметрів об'єкта **XDocBody**
 
 .. csv-table:: 
   :file: for_csv/XDocBody.csv
@@ -156,7 +156,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 16 - Опис параметрів об'єкта **XDocBodyType**)
+Таблиця 16 - Опис параметрів об'єкта **XDocBodyType**
 
 .. csv-table:: 
   :file: for_csv/XDocBodyType.csv
@@ -164,7 +164,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 17 - Опис параметрів об'єкта **XDocType**)
+Таблиця 17 - Опис параметрів об'єкта **XDocType**
 
 .. csv-table:: 
   :file: for_csv/XDocType.csv

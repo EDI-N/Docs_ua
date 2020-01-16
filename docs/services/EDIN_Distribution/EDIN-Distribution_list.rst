@@ -2,7 +2,7 @@ EDIN-Distribution
 #######################
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
    
-   retailer/retailer_list
-   supplier/supplier_list
+    retailer/retailer_list
+    supplier/supplier_list
