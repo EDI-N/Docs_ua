@@ -13,3 +13,14 @@ API EDIN Certificate
    Methods/GetCertsByInnCode
    Methods/GetCertsByGLN
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Надання доступу до сертифіката (контролер Certificate)
+   
+   Methods/ShowAccessActions
+   Methods/ShowAccessTypes
+   Methods/SetAccess
+   Methods/
+   Methods/
+   Methods/
+   Methods/
