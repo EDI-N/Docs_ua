@@ -188,6 +188,13 @@
    font-size: small;
 }
 
+/* Подчеркивание текста underline text
+ В общем сначала на странице прописываем руками ролm а потом уже вызываем внутри текста, например :underline:`This text is underlined`*/
+
+ .underline {
+   text-decoration: underline;
+ } 
+
 /* Это для кнопки "Scroll To top" */
 #topchik {
    position: fixed;

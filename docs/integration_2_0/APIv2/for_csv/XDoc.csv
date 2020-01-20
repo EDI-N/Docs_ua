@@ -1,0 +1,28 @@
+Параметр,Формат,Опис
+.. _XDoc: ,**Об'єкт XDoc** ,
+body,XDocBodyForms_ ,об'єкт; тіла документів
+attachments,List<XDocAttachment_>,масив об'єктів; вкладення (може не використовуватися)
+comments,XDocCommentsList_ ,об'єкт (в якому масив об'єктів); список коментарів
+doc_id,long,id документа
+doc_uuid,UUID,унікальний ідентифікатор документа/квитанції
+uuidSender,String,унікальний ідентифікатор відправника
+uuidReceiver,String,унікальний ідентифікатор одержувача
+docNumber,String,номер документа
+dateCreated,long,дата створення документа (unix timestamp)
+dateChanged,long,дата останньої зміни документа (unix timestamp)
+dateRead,long,дата прочитання документа (unix timestamp)
+docDate,long,"дата документа, зазначена в документі"
+chain_id,long,id ланцюжка документів
+chain_uuid,UUID,унікальний ідентифікатор ланцюжка документів
+family,int,сімейство (EDI / UZD)
+hash,String,"хеш-значення, отримане в результаті обробки"
+type,XDocType ,об'єкт; тип документа
+status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
+exchange_status,String,сабстатус документа
+is_archive,boolean,відмітка; **Архівний** документ чи ні
+signInfo,XDocSignInfo_,об'єкт; дані про підписи
+chain,XChain,объект; дані пов'язаних ланцюжків
+extraFields,"Map<String, String>",масив об'єктів; набір індексів (аналог індексних таблиць)
+tags,List<XTag_>,масив об'єктів; прикріплені теги
+statuses,List<XStatus_>,масив об'єктів; статуси обробки відправлених документів
+multiExtraFields,"Map<String, List<String>>","масив об'єктів; мультиіндекс. Приклад: {'key1': ['val1', 'val2'], 'key2': ['val1', 'val2']}. Використовується, наприклад для обробки передаваємого рядка => розбивка рядка за умовою => індексування кожного шматка"
