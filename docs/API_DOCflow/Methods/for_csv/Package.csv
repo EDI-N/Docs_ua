@@ -22,6 +22,7 @@ packageNumber,String,номер комплекту
 **package2Dictionaries**,List<Package2Dictionaries_>,масив об'єктів; довідники комплекту
 **extraFields**,List<Package2ExtraField_>,"масив об'єктів; користувацькі поля, прив'язані до комплекту"
 **contractDictionaries**,List<Dictionary_>,"масив об'єктів; список довідників, скопійованих з контракту в момент створення комплекта"
+**packageTags**,List<Tag>,"масив об'єктів; список тегів, що прив'язані до комплекту"
 **packageType**,PackageType,об'єкт; настройки комплекту документів (комплекту)
 isRead,int,ознака прочитання на WEB
 isReadFromApi,int,ознака прочитання (завантаження) по API
