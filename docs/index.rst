@@ -44,7 +44,8 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: Сервіси
    
-   /services/services_list
+   services/services_list
+   API_EDIN_Certificate/API_EDIN_Certificate_list
 
 .. toctree::
    :maxdepth: 2
