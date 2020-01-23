@@ -3,3 +3,4 @@
 tagId,long,ID тега
 name,String,назва тега
 code,long,унікальний код ідентифікатор
+accountId,long,ID аккаунту
