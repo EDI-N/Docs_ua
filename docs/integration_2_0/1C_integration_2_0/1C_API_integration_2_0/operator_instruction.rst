@@ -50,7 +50,7 @@ GLN - (Global Location Number) глобальний номер місцезна�
 **"Налаштування"**
 ********************
 
-.. image:: pics_operator_instruction/operator_instruction_03.jpg
+.. image:: pics_operator_instruction/operator_instruction_03n.jpg
    :align: center 
 
 Розділ містить 4 вкладки:
