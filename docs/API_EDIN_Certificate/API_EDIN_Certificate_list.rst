@@ -15,12 +15,36 @@ API EDIN Certificate
 
 .. toctree::
    :maxdepth: 1
-   :caption: Надання доступу до сертифіката (контролер Certificate)
+   :caption: Надання доступу до сертифіката
    
    Methods/ShowAccessActions
    Methods/ShowAccessTypes
    Methods/SetAccess
-   Methods/
-   Methods/
-   Methods/
-   Methods/
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Додавання прив'язки сертифікатів до товарів
+   
+   Methods/ShowBindActions
+   Methods/SetBind
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Додавання додавання скан-копії до сертифіката
+   
+   Methods/AttachScan
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Створення картки сертифіката
+   
+   Methods/ShowTypes
+   Methods/ShowSubTypes
+   Methods/CreateCertificate
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Відправка скарг по сертифікатам
+   
+   Methods/ShowErrorTypes
+   Methods/NotifyError

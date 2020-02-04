@@ -1,0 +1,260 @@
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+   
+   .wy-nav-content {
+    max-width: 1200px !important;
+}
+   
+   .wy-side-nav-search {background-color: #32a55c}
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+
+  /* Navigation headers */ 
+   .wy-menu-vertical header,
+   .wy-menu-vertical p.caption {color: #32a55c}
+
+
+/* Colors and text decoration.
+ For example, :black:`text in black` or :blink:`text blinking` in rST.
+ В общем сначала на странице прописываем руками роли а потом уже вызываем внутри текста, например :red:`красный текст`. Роли:
+ .. role:: black
+.. role:: gray
+.. role:: grey
+.. role:: silver
+.. role:: white
+.. role:: maroon
+.. role:: red
+.. role:: magenta
+.. role:: fuchsia
+.. role:: pink
+.. role:: orange
+.. role:: yellow
+.. role:: lime
+.. role:: green
+.. role:: olive
+.. role:: teal
+.. role:: cyan
+.. role:: aqua
+.. role:: blue
+.. role:: navy
+.. role:: purple
+
+.. role:: under
+.. role:: over
+.. role:: blink
+.. role:: line
+.. role:: strike
+
+.. role:: it
+.. role:: ob
+
+.. role:: small
+.. role:: large
+
+.. role:: center
+.. role:: left
+.. role:: right*/
+
+.black {
+   color: black;
+}
+
+.gray {
+   color: gray;
+}
+
+.grey {
+   color: gray;
+}
+
+.silver {
+   color: silver;
+}
+
+.white {
+   color: white;
+}
+
+.maroon {
+   color: maroon;
+}
+
+.red {
+   color: red;
+}
+
+.magenta {
+   color: magenta;
+}
+
+.fuchsia {
+   color: fuchsia;
+}
+
+.pink {
+   color: pink;
+}
+
+.orange {
+   color: orange;
+}
+
+.yellow {
+   color: yellow;
+}
+
+.lime {
+   color: lime;
+}
+
+.green {
+   color: green;
+}
+
+.olive {
+   color: olive;
+}
+
+.teal {
+   color: teal;
+}
+
+.cyan {
+   color: cyan;
+}
+
+.aqua {
+   color: aqua;
+}
+
+.blue {
+   color: blue;
+}
+
+.navy {
+   color: navy;
+}
+
+.purple {
+   color: purple;
+}
+
+.under {
+   text-decoration: underline;
+}
+
+.over {
+   text-decoration: overline;
+}
+
+.blink {
+   text-decoration: blink;
+}
+
+.line {
+   text-decoration: line-through;
+}
+
+.strike {
+   text-decoration: line-through;
+}
+
+.it {
+   font-style: italic;
+}
+
+.ob {
+   font-style: oblique;
+}
+
+.small {
+   font-size: small;
+}
+
+.large {
+   font-size: large;
+}
+
+.smallpar {
+   font-size: small;
+}
+
+/* Подчеркивание текста underline text
+ В общем сначала на странице прописываем руками ролm а потом уже вызываем внутри текста, например :underline:`This text is underlined`*/
+
+ .underline {
+   text-decoration: underline;
+ } 
+
+/* Это для кнопки "Scroll To top" */
+#topchik {
+   position: fixed;
+   bottom: 20px;
+   right: 45px;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   width: 50px;
+   height: 50px;
+   display: block;
+   text-decoration: none;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   border-radius: 35px;
+   display: none;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+#topchik i {
+   color: #fff;
+   margin: 0;
+   position: relative;
+   left: 16px;
+   top: 13px;
+   font-size: 19px;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+#topchik:hover {
+   background: rgba(0, 0, 0, 0.9);
+}
+#topchik:hover i {
+   color: #fff;
+   top: 5px;
+}
+
+/* Для того, чтобы скрыть уродскую панель слева снизу */
+.rst-versions {
+   display: none;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 300px;
+   color: #fcfcfc;
+   background: #1f1d1d;
+   font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+   z-index: 400;
+}
+
+   /* попытка сделать Галагу на 404 страницу */
+   
+.center{text-align:center}
+   #space-invaders {
+   margin: 0 auto;
+   display: block;
+   background: white
+}
