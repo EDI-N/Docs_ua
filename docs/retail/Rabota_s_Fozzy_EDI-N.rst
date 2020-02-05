@@ -160,7 +160,10 @@
 .. image:: pics_formirovanie_dokumenta_Instrukcija_po_transportirovke_IFTMIN_na_platforme/formirovanie_dokumenta_Instrukcija_po_transportirovke_IFTMIN_na_platforme_03.png
    :align: center
    
-После внесения всех данных в документе, нажмите кнопку «**Сохранить**», затем «**Отправить**».
+Для відправлення документа натискаємо на кнопку **Зберегти**, після чого всі внесені зміни вступають в силу, а потім - **Відправити**:
+
+.. image:: pics_robota_s_Fozzy_EDI-N_2.0/pics_robota_s_Fozzy_06.png
+   :align: center
 
 .. image:: pics_formirovanie_dokumenta_Instrukcija_po_transportirovke_IFTMIN_na_platforme/formirovanie_dokumenta_Instrukcija_po_transportirovke_IFTMIN_na_platforme_04.png
    :align: center
