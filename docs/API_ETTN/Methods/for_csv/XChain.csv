@@ -1,0 +1,17 @@
+Параметр,Формат,Опис
+.. _XChain: , Об'єкт **XChain**,
+id,long,ID шарда
+uuid,UUID,UUID ланцюжка документів
+packageID,long,ID пакета
+**type**,XDocType_,об'єкт; тип документа
+docsCount,int,кількість документів в ланцюжку
+lastInDocID,long,id останнього вхідного документа в ланцюжку
+lastOutDocID,long,id останнього вихідного документа в ланцюжку
+partnerId,long,id роздрібної мережі
+important,boolean,"відмітка **важливий** документ"
+**status**,XChainStatus_,об'єкт; статус пари документів у відправника і одержувача
+visualStatus,int,"номер іконки"
+archive,boolean,"відмітка; **Архівний** документ чи ні"
+**childs**,List<XDoc_>,масив об'єктів; дані документів/квитанцій
+**chainsInPackage**,List<XChain_>,масив об'єктів; дані пов'язаних ланцюжків
+hash,String,"хеш-значення, отримане в результаті обробки"
