@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _ETTNHEAD:, Об'єкт **ETTNHEAD**,
+C_DOC,String,
+C_DOC_SUB,String
+C_DOC_VER,String,версія документа
+
