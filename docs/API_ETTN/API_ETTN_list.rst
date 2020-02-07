@@ -1,6 +1,11 @@
 API
 ###########
 
+.. container:: url
+
+.. hint::
+    Всі запити нижче перерахованих API методів сервісу "ЕТТН" направляються на адресу: https://ettn-demo.edi-n.com 
+
 .. toctree::
    :maxdepth: 1
    
