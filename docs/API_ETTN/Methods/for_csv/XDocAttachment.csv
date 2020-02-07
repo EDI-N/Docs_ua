@@ -6,4 +6,3 @@ fileName,String,найменування файлу
 createDate,long,дата створення вкладення; формат unix timestamp
 type,String,тип вкладення
 base64content,String,зміст вкладення в BASE64
-content,byte[],зміст вкладення в цілочисельному вигляді
