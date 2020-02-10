@@ -84,11 +84,11 @@ RXXXXG32,Код-ознака імпортованого товару №2,
 RXXXXG33,Код послуги №1 згідно з ДКПП, заповнюється із довідника ДКПП
 RXXXXG33,Код послуги №2 згідно з ДКПП, заповнюється із довідника ДКПП
 ,              ……………………………………, 
-RXXXXG4S,Одиниця виміру товару/послуги №1,Умовне позначення одиниці виміру товару №1 українською
-RXXXXG4S,Одиниця виміру товару/послуги №2,Умовне позначення одиниці виміру товару №2 українською
+RXXXXG4S,Одиниця виміру товару/послуги №1,Умовне позначення одиниці виміру товару №1 українською (`Довідник 1 <https://buhgalter.com.ua/dovidnik/kspovo/klasifikator-sistemi-poznachen-odinits-vimiryuvannya-ta-obliku-dk-011-96/>`__ / `{Довідник 2 <https://dovidnyk.in.ua/directories/kspovo>`__ )
+RXXXXG4S,Одиниця виміру товару/послуги №2,Умовне позначення одиниці виміру товару №2 українською (`Довідник 1 <https://buhgalter.com.ua/dovidnik/kspovo/klasifikator-sistemi-poznachen-odinits-vimiryuvannya-ta-obliku-dk-011-96/>`__ / `{Довідник 2 <https://dovidnyk.in.ua/directories/kspovo>`__ )
 ,              ……………………………………, 
-RXXXXG105_2S,Код одиниці виміру товару/послуги №1, Для користувача доступний список одиниць виміру з довідника
-RXXXXG105_2S,Код одиниці виміру товару/послуги №2, Для користувача доступний список одиниць виміру з довідника
+RXXXXG105_2S,Код одиниці виміру товару/послуги №1, Для користувача доступний список одиниць виміру з довідника (`Довідник 1 <https://buhgalter.com.ua/dovidnik/kspovo/klasifikator-sistemi-poznachen-odinits-vimiryuvannya-ta-obliku-dk-011-96/>`__ / `{Довідник 2 <https://dovidnyk.in.ua/directories/kspovo>`__ )
+RXXXXG105_2S,Код одиниці виміру товару/послуги №2, Для користувача доступний список одиниць виміру з довідника (`Довідник 1 <https://buhgalter.com.ua/dovidnik/kspovo/klasifikator-sistemi-poznachen-odinits-vimiryuvannya-ta-obliku-dk-011-96/>`__ / `{Довідник 2 <https://dovidnyk.in.ua/directories/kspovo>`__ )
 ,              ……………………………………, 
 RXXXXG5,Кількість товарів №1,"Кількість (об'єм, обсяг). В разі виписки податкової накладної на послуги, використовується тег: RXXXXG5S"
 RXXXXG5,Кількість товарів №2,
