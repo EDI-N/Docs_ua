@@ -38,7 +38,6 @@ EDIN | Електронний документообіг для бізнесу
    retail_2.0/retail_2_0_list
    integration_2_0/integration_2_0_list
    XML/XML-structure
-   ETTN_2_0/ETTN_2_0_list
 
 .. toctree::
    :maxdepth: 2
@@ -58,6 +57,7 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: ЕТТН
 
+   ETTN_2_0/ETTN_2_0_list
    API_ETTN/API_ETTN_list
 
 .. toctree::
