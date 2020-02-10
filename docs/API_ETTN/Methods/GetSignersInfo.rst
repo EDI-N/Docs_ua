@@ -29,7 +29,31 @@
 
 ``RESPONSE``
 
-У **відповідь** передаються дані підписантів документа ("ЕТТН" чи "Акт перевантаження товарів") (об'єкт **EndUserSignInfo?????????????????????????**).
+У **відповідь** передаються дані підписантів документа ("ЕТТН" чи "Акт перевантаження товарів") (об'єкт **EndUserSignInfo**).
+
+Таблиця 1 - Опис параметрів об'єкта **EndUserSignInfo**
+
+.. csv-table:: 
+  :file: for_csv/EndUserSignInfo.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 2 - Опис параметрів об'єкта **EndUserOwnerInfo**
+
+.. csv-table:: 
+  :file: for_csv/EndUserOwnerInfo.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 3 - Опис параметрів об'єкта **EndUserTimeInfo**
+
+.. csv-table:: 
+  :file: for_csv/EndUserTimeInfo.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 --------------
 

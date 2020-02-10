@@ -1,0 +1,4 @@
+Параметр, Формат, Опис
+.. _EndUserSignInfo:, Об'єкт **EndUserSignInfo**,
+**EndUserOwnerInfo**,EndUserOwnerInfo_,об'єкт; дані власника сертифікату
+**EndUserTimeInfo**,EndUserTimeInfo_,об'єкт; дата підписання сертифікату
