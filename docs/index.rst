@@ -53,7 +53,13 @@ EDIN | Електронний документообіг для бізнесу
 
    EDIN_DOCflow/EDIN_DOCflow_list
    API_DOCflow/API_DOCflow_list
-   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ЕТТН
+
+   API_ETTN/API_ETTN_list
+
 .. toctree::
    :maxdepth: 2
    :caption: ЗАКОНОДАВСТВО
