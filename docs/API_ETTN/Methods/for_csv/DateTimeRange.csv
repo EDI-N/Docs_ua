@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / необов'язкове поле, Формат, Опис
+.. _DateTimeRange: ,, Об'єкт **DateTimeRange** ,
+startTimestamp, ,long,початок часового діапазону
+finishTimestamp, ,long,закінчення часового діапазону
