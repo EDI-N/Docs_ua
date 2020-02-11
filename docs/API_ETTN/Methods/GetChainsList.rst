@@ -23,13 +23,83 @@
 
 ``REQUEST``
 
-В цьому методі json-тіло **запиту** відсутнє (інші дані передавати не потрібно).
+В цьому методі в json-тілі **запиту** передаються дані для фільтрації (об’єкт **StorageQuery**) 
+
+.. _Таблиця_2:
+
+Таблиця 2 - Опис json-параметрів (фільтр) **запиту** методу API
+
+.. csv-table:: 
+  :file: for_csv/StorageQuery.csv
+  :widths:  1, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 3 - Опис параметрів об'єкта **ExtraQueryParameters**
+
+.. csv-table:: 
+  :file: for_csv/ExtraQueryParameters.csv
+  :widths:  1, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 4 - Опис параметрів об'єкта **Direction**
+
+.. csv-table:: 
+  :file: for_csv/Direction.csv
+  :widths:  1, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 5 - Опис параметрів об'єкта **Limitation**
+
+.. csv-table:: 
+  :file: for_csv/Limitation.csv
+  :widths:  1, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 6 - Опис параметрів об'єкта **DateTimeRange**
+
+.. csv-table:: 
+  :file: for_csv/DateTimeRange.csv
+  :widths:  1, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 7 - Опис параметрів об'єкта **XDocType**
+
+.. csv-table:: 
+  :file: for_csv/XDocType.csv
+  :widths:  1, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+.. _fieldName:
+
+Таблиця 8 - Опис **fieldName** параметрів (объект ExtraQueryParameters_)
+
+.. csv-table:: 
+  :file: for_csv/extra_fields.csv
+  :widths:  1, 2, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+.. _опис_параметрів:
+
+Таблиця 9 - Опис **DocType** параметрів (объект XDocType_)
+
+.. csv-table:: 
+  :file: for_csv/xdoctype_p.csv
+  :widths:  1, 19, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 ``RESPONSE``
 
 У **відповідь** передається масив ланцюжків документів (об'єкт **XChain**).
 
-Таблиця 1 - Опис параметрів об'єкта **XChain**
+Таблиця 10 - Опис параметрів об'єкта **XChain**
 
 .. csv-table:: 
   :file: for_csv/XChain.csv
@@ -37,18 +107,10 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **XChainStatus**
+Таблиця 11 - Опис параметрів об'єкта **XChainStatus**
 
 .. csv-table:: 
   :file: for_csv/XChainStatus.csv
-  :widths:  1, 19, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 3 - Опис параметрів об'єкта **XDoc**
-
-.. csv-table:: 
-  :file: for_csv/XDoc.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
