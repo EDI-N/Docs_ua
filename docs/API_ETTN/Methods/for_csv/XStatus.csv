@@ -1,0 +1,6 @@
+Параметр,Формат,Опис
+.. _XStatus: ,**Об'єкт XStatus** ,
+docId,long,id документа/квитанції
+date,long,дата статусу; формат unix timestamp
+type,int,тип статусу
+text,String,зміст статусу

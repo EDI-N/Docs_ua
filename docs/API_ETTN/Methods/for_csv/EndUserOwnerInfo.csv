@@ -1,0 +1,20 @@
+Параметр, Формат, Опис
+.. _EndUserOwnerInfo:, Об'єкт **EndUserOwnerInfo**,
+isFilled,boolean,відмітка про заповненість сертифікату
+issuer,string,видавець сертифікату
+issuerCN,string,назва видавця сертифікату
+serial,string,серійний номер сертифікату
+subject,string,загальна інформація про власника сертифікату
+subjCN,string,ім'я власника сертифікату
+subjOrg,string,організація власника сертифікату
+subjOrgUnit,string,підрозділ власника сертифікату
+subjTitle,string,посада власника сертифікату
+subjState,string,регіон/область власника сертифікату
+subjLocality,string,місцеперебування власника сертифікату
+subjFullName,string,повне ім'я власника сертифікату
+subjAddress,string,адреса власника сертифікату
+subjPhone,string,номер телефону власника сертифікату
+subjEMail,string,e-mail власника сертифікату
+subjDNS,string,
+subjEDRPOUCode,string,код ЕДРПОУ власника сертифікату
+subjDRFOCode,string,код ДРФО власника сертифікату
