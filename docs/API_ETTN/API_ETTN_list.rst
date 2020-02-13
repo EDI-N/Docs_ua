@@ -9,8 +9,7 @@ API
 .. toctree::
    :maxdepth: 1
    
-   Methods/DeleteContractTag
-   Methods/ArcChains
+   Methods/Authorization
    Methods/CreateDocAttachment
    Methods/CreateETTN
    Methods/CreateTranshipment
@@ -30,3 +29,4 @@ API
    Methods/GetSignersInfo
    Methods/GetTicket
    Methods/SaveSignedData
+   Methods/ArcChains
