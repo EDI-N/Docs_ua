@@ -41,7 +41,23 @@
 
 ``RESPONSE``
 
-У **відповідь** передається список транзакцій.
+У **відповідь** передається об'єкт BillingData зі списком транзакцій.
+
+Таблиця 1 - Опис параметрів об'єкта **BillingData**
+
+.. csv-table:: 
+  :file: for_csv/BillingData.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 2 - Опис параметрів об'єкта **Transaction**
+
+.. csv-table:: 
+  :file: for_csv/Transaction.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 --------------
 
