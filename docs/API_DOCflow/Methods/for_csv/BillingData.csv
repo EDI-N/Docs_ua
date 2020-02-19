@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.._BillingData:, Об'єкт **BillingData**,
+chargeableTransCount,long, тарифіковані транзакції 
+remainsTransCount,int, залишок оплачених транзакцій (базові + регулярні) 
+baseTransCount,int, кількість оплачених транзакцій за поточний період по базовому тарифному пакету 
+regularTransCount,int, кількість оплачених транзакцій за поточний період по регулярному тарифному пакету 
+transCount,long, кількість використаних транзакцій 
+transactions,List<Transaction_>, список транзакцій 

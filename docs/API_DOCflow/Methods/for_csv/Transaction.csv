@@ -1,0 +1,15 @@
+Параметр, Формат, Опис
+.._Transaction:, Об'єкт **Transaction**,
+transId,long, ідентифікатор  транзакції 
+senderId,long, ідентифікатор  відправника 
+recipientId,long, ідентифікатор  отримувача 
+payerId,long, ідентифікатор  платника 
+packageId,long, ідентифікатор  комплекту  (пакета) 
+documentId,long, ідентифікатор  документу 
+transDate,long, дата  транзакції  (в  форматі  UNIX-timestamp) 
+transType,int, тип  транзакції  (1  -  відправлений  документ;  2  -  довкладення  отримувача) 
+transDirection,int, статус  транзакції  (trans_status);  можливі  значення:  "1"  -  вхідні;  "2"  -  вихідні;  "3"  —  тарифіковані 
+isChargeAble,boolean, відмітка  Тарифіковані  транзакції 
+senderCompany,Company_, дані  компанії  відправника 
+recipientCompany,Company_, дані  компанії  отримувача 
+payerCompany,Company_, дані  компанії  платника  (може  бути  як  відправник  так  і  отримувач) 
