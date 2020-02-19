@@ -8,6 +8,7 @@ API
 
 .. toctree::
    :maxdepth: 1
+   :caption: Робота з документами
    
    Methods/Authorization
    Methods/CreateDocAttachment
@@ -30,3 +31,13 @@ API
    Methods/GetTicket
    Methods/SaveSignedData
    Methods/ArcChains
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Робота з довідниками
+   
+   Methods/CompanySearch
+   Methods/GetCompany
+   Methods/AddressesSearch
+   Methods/EmployeesSearch
+   Methods/ExtraData
