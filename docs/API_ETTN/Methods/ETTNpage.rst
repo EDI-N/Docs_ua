@@ -14,10 +14,10 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 3 - Опис параметрів об'єкта **DECLARBODY**
+Таблиця 3 - Опис параметрів об'єкта **ETTNBODY**
 
 .. csv-table:: 
-  :file: for_csv/DECLARBODY.csv
+  :file: for_csv/ETTNBODY.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0

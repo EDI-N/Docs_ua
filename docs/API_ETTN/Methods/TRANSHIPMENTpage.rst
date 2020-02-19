@@ -6,10 +6,10 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **TRANSHIPMENTBODY**
+Таблиця 2 - Опис параметрів об'єкта **TRBODY**
 
 .. csv-table:: 
-  :file: for_csv/TRANSHIPMENTBODY.csv
+  :file: for_csv/TRBODY.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
