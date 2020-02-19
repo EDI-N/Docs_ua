@@ -1,5 +1,5 @@
 Параметр, Формат, Опис
-.. _Address: ,, Об'єкт **Address** ,
+.. _Address: , Об'єкт **Address** ,
 uuid,UUID,ідентифікатор адреси
 name,String,назва адреси
 city,String,місто
