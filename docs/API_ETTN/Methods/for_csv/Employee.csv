@@ -1,5 +1,5 @@
 Параметр, Формат, Опис
-.. _Employee: ,, Об'єкт **Employee** ,
+.. _Employee: , Об'єкт **Employee** ,
 uuid,UUID,ідентифікатор співробітника
 userId,long,id користувача
 lastName,String,прізвище співробітника
