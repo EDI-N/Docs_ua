@@ -8,4 +8,4 @@ middleName,String,по батькові співробітника
 ipn,long,код ІПН співробітника
 email,String,email співробітника
 tel,String,номер телефону співробітника
-identifiers,"Map<Integer, String>",додаткові дані, контакти
+identifiers,"Map<Integer, String>",додаткові дані; контакти
