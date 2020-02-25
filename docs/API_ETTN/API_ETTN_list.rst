@@ -41,3 +41,4 @@ API
    Methods/AddressesSearch
    Methods/EmployeesSearch
    Methods/ExtraData
+   Methods/KoatuuSearch
