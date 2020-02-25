@@ -1,5 +1,5 @@
 Параметр, Формат, Опис
-.. _Identificator: ,, Об'єкт **Identificator** ,
+.. _Identificator: , Об'єкт **Identificator** ,
 guid, String,GUID організації
 id,long,ID користувача
 gln,String,GLN організації; рядок 13 символів
