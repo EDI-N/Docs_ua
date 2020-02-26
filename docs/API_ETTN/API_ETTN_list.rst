@@ -8,9 +8,9 @@ API
 
 .. toctree::
    :maxdepth: 1
+   :caption: Робота з документами
    
-   Methods/DeleteContractTag
-   Methods/ArcChains
+   Methods/Authorization
    Methods/CreateDocAttachment
    Methods/CreateETTN
    Methods/CreateTranshipment
@@ -30,3 +30,15 @@ API
    Methods/GetSignersInfo
    Methods/GetTicket
    Methods/SaveSignedData
+   Methods/ArcChains
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Робота з довідниками
+   
+   Methods/CompanySearch
+   Methods/GetCompany
+   Methods/AddressesSearch
+   Methods/EmployeesSearch
+   Methods/ExtraData
+   Methods/KoatuuSearch

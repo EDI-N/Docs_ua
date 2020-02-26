@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _CompanyV2: , Об'єкт **CompanyV2** ,
+uuid,UUID,ідентифікатор компанії
+name,String,назва компанії
+type,int,"форма власності; 1 - Юридична особа, 2 - Фізична особа"
+ipn,String,код ІПН
+edrpou,String,код ЄДРПОУ
+city,String,місто
+address,String,адреса
