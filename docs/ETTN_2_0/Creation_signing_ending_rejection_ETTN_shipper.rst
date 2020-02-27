@@ -140,27 +140,17 @@
 
 Користувач може скористатись функціоналом для "Друку", "Завантаження" чи "Клонування" (1); також у разі виявлення помилки в документі у **"Вантажовідправника"** є можливість відхилити відправлену е-ТТН **до підписання "Перевізником"**. Для цього потрібно натиснути на кнопку "Відхилити" (2).
 
-
-
-
-
-
-
-
-
 **Відхилення документа**
 ================================================
 
+Для того, щоб відхилит документ (доступно **до підписання "Перевізником"**) потрібно натиснути **"Відхилити"**.
 
-
-Результат:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_16n.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_19n.png
    :align: center
 
-Для відхиленної вантажовідправником е-ТТН присвоєно статус "Відхилено".
+На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено").
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_17n.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_20n.png
    :align: center
 
 .. include:: kontakti.rst

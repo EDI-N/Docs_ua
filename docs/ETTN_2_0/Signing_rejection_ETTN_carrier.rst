@@ -5,58 +5,73 @@
 
 .. role:: underline
 
+.. contents:: Зміст:
+   :depth: 6
+
+---------
+
 Відправлена з боку вантажовідправника е-ТТН відображається в папці "Вхідні".
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_01.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_01n.png
    :align: center
 
-Для підписання е-ТТН перевізнику необхідно її відкрити та натиснути на кнопку "Підписати".
+Вхідний підписаний документ дозволяє "Підтвердити" / "Підписати" / "Відхилити" документ.
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_02.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_02n.png
    :align: center
 
-.. hint:: Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання.
+.. important::
+    В залежності від внутрішньої схеми **"Перевізника"** документ перед "Підписанням" може бути "Підтверджений" водієм, (кнопка **"Підтвердити"**) і відповідно цей документ у вхідних змінить свій статус на "Підтверджений водієм", підказка в документі:
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_03.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_03n.png
    :align: center
 
-Далі у модальному вікні необхідно додати ключ для підписання, натиснувши на кнопку "Додайте ключі для підписання", ввести пароль та натиснути – "Встановити ключ".
+**Підписання документа**
+==============================================================
 
-Ключ успішно додано:
+Для підписання е-ТТН **"Перевізнику"** необхідно її відкрити та натиснути на кнопку "Підписати".
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_04.png
+Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні необхідно додати файловий ключ. Для цього у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_04n.png
    :align: center
 
-Далі необхідно закрити модальне вікно та ще раз натиснути на кнопку "Підписати". У модальному вікні обрати ключ та натиснути – "Підписати".
+Після чого натиснути кнопку **"Додати"**:
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_05.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_05n.png
    :align: center
 
-Також додати ключи для підписання можна натиснувши на іконку ключа в правій верхній частині сторінки. Після чого повторити алгоритм додавання ключа в модальному вікні.
+При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_06.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_06n.png
    :align: center
 
-Після підписання е-ТТН інформація щодо підписантів відображається в документі ТТН у списку документів у ланцюжку.
+При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_07.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_07n.png
    :align: center
 
-Після підписання перевізником е-ТТН присвоєно статус "Підписано водієм".
+Після підписання е-ТТН додається інформація щодо підписантів документа.
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_08.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_08n.png
    :align: center
 
-У перевізника є можливість відхилити е-ТТН **до підписання**. Для цього потрібно натиснути на кнопку "Відхилити".
+Підписаний документ відображається в журналі вхідних документів зі статусом "Підписано перевізником":
 
-Результат:
-
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_09.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_09n.png
    :align: center
 
-Для відхиленної перевізником е-ТТН присвоєно статус "Відхилено".
+**Відхилення документа**
+==============================================================
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_10.png
+У **"Перевізника"** є можливість відхилити е-ТТН **до підписання**. Для цього потрібно натиснути на кнопку **"Відхилити"**:
+
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_10n.png
+   :align: center
+
+Для відхиленної перевізником е-ТТН присвоєно статус "Відхилено". Документ з цим статусом відображається у "Вхідних" **"Перевізника"**.
+
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_11n.png
    :align: center
 
 .. include:: kontakti.rst
