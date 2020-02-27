@@ -5,19 +5,27 @@
 
 .. role:: underline
 
+.. contents:: Зміст:
+   :depth: 6
+
+---------
+
+**Створення документа**
+================================================
+
 Для створення е-ТТН на платформі необхідно натиснути на кнопку "Створити".
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_01.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_01n.png
    :align: center
 
 Після цього необхідно вибрати тип створюваного документа в модальному окні:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_02.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_02n.png
    :align: center
 
-Далі необхідно заповнити форму е-ТТН:
+Далі необхідно заповнити форму е-ТТН (кнопка "Зберегти" активується лише для заповненої форми):
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_03.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_03n.png
    :align: center
 
 * Номер та дату (за замовчуванням вказується поточна дата);
@@ -33,92 +41,126 @@
 * Пункт розвантаження – необхідно поставити курсор в рядок та обрати його з випадаючого списку;
 * Натиснути на кнопку "Додати" для заповненя вартісно-кількісних показників та табличної частини.
 
-Після натискання на кнопку "Додати" відкриється модальне вікно, де необхідно заповнити рядки (найменування вантажу, кількість місць, одиниця виміру, ціна без ПДВ, вид пакування (необов’язково), маса брутто, кількість документів з вантажем) та натиснути на кнопку "Додати".
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_04.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_04n.png
    :align: center
 
-За необхідністю є можливість додавати ще вантаж(і), для цього необхідно натиснути на кнопку "Додати" та заповнити інформацію в модальному вікні.
+Після натискання на кнопку "Додати" відкриється модальне вікно, де необхідно заповнити рядки (найменування вантажу, кількість місць, одиниця виміру, ціна без ПДВ, вид пакування (необов’язково), маса брутто, кількість або назва документів з вантажем) та натиснути на кнопку "Додати".
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_05n.png
+   :align: center
+
+Також для додавання табличних даних (вантаж) є можливість скористатись шаблоном. Для цього над таблицею необхідно натиснути **"Зберегти шаблон Excel"** (1).
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_06n.png
+   :align: center
+
+На Ваш комп’ютер буде завантажено файл з назвою **ettn_products_sample.xlsx**. Відкривши його, необхідно внести інформацію про вантаж.
+
+Обов’язкові для заповнення поля (поля відмічені червоним кольором):
+
+* Найменування
+* Кількість
+* Одиниці виміру
+* Ціна
+* Маса брутто, кг
+* Документи
+
+.. important:: Ні в якому разі не змінювати формат шаблону, не видаляти або додавати нові стовпці. Також не допускається зміна формату комірок.
+
+Після збереження заповненої інформації завантажуємо файл на веб-портал, скориставшись кнопкою **"Завантажити позиції з Excel"** (2).
+
+За необхідністю є можливість додавати ще вантаж(і), для цього необхідно натиснути на кнопку **"Додати"** та заповнити інформацію в модальному вікні.
 
 Для редагування інформації щодо вантажу необхідно навести курсор на рядок цього вантажу та натиснути "Змінити", для видалення – "Видалити".
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_05.png
-   :align: center
-
-Заповнена форма е-ТТН має наступний вигляд:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_06.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_07n.png
    :align: center
 
 .. tip:: Для повторного вибору перевізника, водія, вантажовідправника, вантажоодержувача, пунктів навантаження/розвантаження необхідно натиснути на кнопку "Обрати".
 
-Для збереження е-ТТН необхідно натиснути кнопку "Зберегти", документ потрапить у папку "Чернетки".
+Для збереження е-ТТН необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**.
 
 За необхідністю є можливість додати супровідні документи на вантаж. Для цього необхідно натиснути на кнопку "Додати файл" (назва файлу повина бути унікальною).
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_07.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_08n.png
    :align: center
 
-Для того щоб видалити доданий файл необхідно натиснути на іконку корзини.
+Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_08.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_09n.png
    :align: center
-
-Для того щоб зберегти доданий файл необхідно натиснути на його назву.
 
 Для підписання е-ТТН необхідно натинути на кнопку "Підписати".
 
-.. hint:: Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання.
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_09.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_10n.png
    :align: center
 
-Далі у модальному вікні необхідно додати ключ для підписання, натиснувши на кнопку "Додайте ключі для підписання", ввести пароль та натиснути – "Встановити ключ".
+**Підписання та відправка документа**
+================================================
 
-Ключ успішно додано:
+Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні необхідно додати файловий ключ. Для цього у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_10.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_11n.png
    :align: center
 
-Далі необхідно закрити модальне вікно та ще раз натиснути на кнопку "Підписати". У модальному вікні обрати ключ та натиснути – "Підписати".
+Після чого натиснути кнопку **"Додати"**:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_11.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_12n.png
    :align: center
 
-Також додати ключи для підписання можна натиснувши на іконку ключа в правій верхній частині сторінки. Після чого повторити алгоритм додавання ключа в модальному вікні.
+При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_12.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_13n.png
    :align: center
 
-Після підписання е-ТТН інформація щодо підписанта відображається в блоці "Підписанти".
+При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_13.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_14n.png
    :align: center
 
-Для відправки е-ТТН необхідно натинути на кнопку "Надіслати".
+Після підписання е-ТТН інформація щодо підписанта відображається в блоці "Підписанти". Для відправки е-ТТН необхідно натинути на кнопку "Надіслати".
 
-Після відправки користувачу відображається журнал вихідних документів. Для відправленної вантажовідправником е-ТТН присвоєно статус "У процесі".
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_15n.png
+   :align: center
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_14.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_16n.png
+   :align: center
+
+Після відправки документа контрагенту він відображається в журналі вихідних документів. Для відправленної вантажовідправником е-ТТН присвоєно статус "У процесі":
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_17n.png
    :align: center
 
 Відправлена е-ТТН має наступний вигляд:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_15.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_18n.png
    :align: center
 
-На формі е-ТТН у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документу.
+На формі е-ТТН у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
 
-У разі помилки у користувача є можливість відхилити відправлену е-ТТН **до підписання перевізником**. Для цього потрібно натиснути на кнопку "Відхилити".
+Користувач може скористатись функціоналом для "Друку", "Завантаження" чи "Клонування" (1); також у разі виявлення помилки в документі у **"Вантажовідправника"** є можливість відхилити відправлену е-ТТН **до підписання "Перевізником"**. Для цього потрібно натиснути на кнопку "Відхилити" (2).
+
+
+
+
+
+
+
+
+
+**Відхилення документа**
+================================================
+
+
 
 Результат:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_16.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_16n.png
    :align: center
 
 Для відхиленної вантажовідправником е-ТТН присвоєно статус "Відхилено".
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_17.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_17n.png
    :align: center
 
 .. include:: kontakti.rst
