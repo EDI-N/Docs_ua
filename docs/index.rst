@@ -55,13 +55,13 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: ЕТТН
+   :caption: Е-СПЕЦИФІКАЦІЯ
 
    E_SPEC_2_0/E_SPEC_2_0_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Е-СПЕЦИФІКАЦІЯ
+   :caption: ЕТТН
 
    ETTN_2_0/ETTN_2_0_list
    API_ETTN/API_ETTN_list
