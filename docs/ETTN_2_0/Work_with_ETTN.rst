@@ -117,8 +117,9 @@
 
 .. container:: search
 
+.. _WhatIsThis:
 
-.. _external_links_named_reference:
+.. _external-links-named-reference:
 
 **Пошук**
 ----------------------------------
