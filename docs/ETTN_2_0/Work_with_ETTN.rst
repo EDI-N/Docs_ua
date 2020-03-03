@@ -117,7 +117,7 @@
 
 .. container:: search
 
-.. _WhatIsThis:
+.. _WhatIsThis-1:
 
 .. _external-links-named-reference:
 
