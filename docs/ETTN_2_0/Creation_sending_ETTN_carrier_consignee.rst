@@ -104,7 +104,7 @@
 .. image:: pics_Creation_sending_ETTN_carrier_consignee/Creation_sending_ETTN_carrier_consignee_11.png
    :align: center
 
-Далі згідно `оберненої схеми <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#id8>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
+Далі згідно `оберненої схеми <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#reverse-schema>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
 
 .. image:: pics_Creation_sending_ETTN_carrier_consignee/Creation_sending_ETTN_carrier_consignee_12.png
    :align: center
