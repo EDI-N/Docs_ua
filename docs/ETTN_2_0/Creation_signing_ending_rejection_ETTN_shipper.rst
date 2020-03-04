@@ -126,31 +126,6 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_10n.png
    :align: center
 
-**Створення документа на підставі чернетки Перевізника чи Вантажоотримувача**
-----------------------------------------------------------------------------------
-
-Існують схеми документообігу, в яких ініціатором виступає не **"Вантажовідправник"**, а **"Перевізник"** чи **"Вантажоотримувач"**. В такому випадку ініціатор створює та відправляє документ-чернетку, яку не потрібно підписувати. 
-
-Далі згідно `оберненої схеми <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#reverse-schema>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_21n.png
-   :align: center
-
-Для ролі **"Вантажовідправника"** вхідний документ-чернетка відображається з інформативною підказкою і дозволяє **"Створити"** на основі вхідної чернетки документ, що потребує підписання:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_22n.png
-   :align: center
-
-В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ може бути відредагований, після чого його потрібно **"Зберегти"** (1) та **"Підписати"** (2) (детальніше про підписання в наступному розділі).
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_23n.png
-   :align: center
-
-Особливостю такого документообігу є те, що в ланцюжку документів присутня чернетка, як документ-ініціатор документообігу:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_24n.png
-   :align: center
-
 **Підписання та відправка документа**
 ================================================
 
@@ -199,7 +174,10 @@
 **Відхилення документа**
 ================================================
 
-Для того, щоб відхилит документ (доступно **до підписання "Перевізником"**) потрібно натиснути **"Відхилити"**.
+Для того, щоб відхилити документ (доступно **до підписання "Перевізником"**) потрібно натиснути **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_30n.png
+   :align: center
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_19n.png
    :align: center
@@ -207,6 +185,31 @@
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено").
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_20n.png
+   :align: center
+
+**Створення документа на підставі чернетки Перевізника чи Вантажоотримувача**
+================================================================================================
+
+Існують схеми документообігу, в яких ініціатором виступає не **"Вантажовідправник"**, а **"Перевізник"** чи **"Вантажоотримувач"**. В такому випадку ініціатор створює та відправляє документ-чернетку, яку не потрібно підписувати. 
+
+Далі згідно `оберненої схеми <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#reverse-schema>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_21n.png
+   :align: center
+
+Для ролі **"Вантажовідправника"** вхідний документ-чернетка відображається з інформативною підказкою і дозволяє **"Створити"** на основі вхідної чернетки документ, що потребує підписання:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_22n.png
+   :align: center
+
+В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ може бути відредагований, після чого його потрібно **"Зберегти"** (1) та **"Підписати"** (2) (детальніше про підписання в наступному розділі).
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_23n.png
+   :align: center
+
+Особливістю такого документообігу є те, що в ланцюжку документів присутня чернетка, як документ-ініціатор документообігу:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_24n.png
    :align: center
 
 .. include:: kontakti.rst

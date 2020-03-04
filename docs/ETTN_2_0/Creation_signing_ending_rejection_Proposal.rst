@@ -3,6 +3,8 @@
 
 .. role:: red
 
+.. role:: green
+
 .. role:: underline
 
 .. contents:: Зміст:
@@ -10,10 +12,12 @@
 
 ---------
 
-При формуванні документообігу "Заявки на транспортування" ініціатором документа виступає користувач з роллю **"Вантажовідправник"** (в сервісі ETTN передбачені 3 основні ролі учасників документообігу: **"Вантажовідправник"**, **"Перевізник"**, **"Вантажоотримувач"**). Обмін документом здійснюється між **"Вантажовідправником"** та **"Перевізником"**.
+При формуванні документообігу "Заявки на транспортування" ініціатором документа виступає користувач з роллю **"Вантажовідправник"** (в сервісі ETTN передбачені 3 основні ролі учасників документообігу: **"Вантажовідправник"**, **"Перевізник"**, **"Вантажоотримувач"**). Обмін документом здійснюється між **"Вантажовідправником"** та **"Перевізником"**:
 
-**Створення документа**
-================================================
+:green:`"Вантажовідправник" -> "Перевізник" -> "Вантажовідправник"`
+
+**Створення "Заявки на транспортування" "Вантажовідправником"**
+================================================================================================
 
 Для створення "Заявки на транспортування" на платформі **"Вантажовідправнику"** необхідно натиснути на кнопку "Створити".
 
@@ -41,158 +45,178 @@
 * Вантажоодержувач – необхідно обрати з випадаючого списку (для цього в рядку необхідно ввести мінімум 3 символи найменування/П.І.Б. вантажоодержувача, після цього обрати його з випадаючого списку), місцезнаходження/місце проживання буде додано автоматично;
 * Пункт навантаження – необхідно поставити курсор в рядок та обрати його з випадаючого списку;
 * Пункт розвантаження – необхідно поставити курсор в рядок та обрати його з випадаючого списку;
-* Вид транспорту / Кількість місць / Температурні вимоги / Масою брутто / Вартість перевезення – в цих полях **"Вантажовідправником"** заповнюються вимоги до транспорту
 
 Якщо адреси у вказаному списку немає, то її можливо додати вручну через кнопку **"Нова адреса"**:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_27n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_04.png
    :align: center
 
 Після чого в модальному вікні потрібно буде додати населений пункт, адресу та вибрати КОАТУУ (в цьому рядку можливо здійснювати пошук по назві чи коду). Код КОАТУУ вказується автоматично. Додана адреса навантаження прив'язується в системі до вказаного **"Вантажовідправника"**, а адреса розвантаження - до **"Вантажоодержувача"**.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_28n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_05.png
    :align: center
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_29n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_06.png
    :align: center
 
-* Натиснути на кнопку "Додати" для заповненя вартісно-кількісних показників та табличної частини.
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_04n.png
-   :align: center
-
-Після натискання на кнопку "Додати" відкриється модальне вікно, де необхідно заповнити рядки (найменування вантажу, кількість місць, одиниця виміру, ціна без ПДВ, вид пакування (необов’язково), маса брутто, кількість або назва документів з вантажем) та натиснути на кнопку "Додати".
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_05n.png
-   :align: center
-
-Також для додавання табличних даних (вантаж) є можливість скористатись шаблоном. Для цього над таблицею необхідно натиснути **"Зберегти шаблон Excel"** (1).
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_06n.png
-   :align: center
-
-На Ваш комп’ютер буде завантажено файл з назвою **ettn_products_sample.xlsx**. Відкривши його, необхідно внести інформацію про вантаж.
-
-Обов’язкові для заповнення поля (поля відмічені червоним кольором):
-
-* Найменування
-* Кількість
-* Одиниці виміру
-* Ціна
-* Маса брутто, кг
-* Документи
-
-.. important:: Ні в якому разі не змінювати формат шаблону, не видаляти або додавати нові стовпці. Також не допускається зміна формату комірок.
-
-Після збереження заповненої інформації завантажуємо файл на веб-портал, скориставшись кнопкою **"Завантажити позиції з Excel"** (2).
-
-За необхідністю є можливість додавати ще вантаж(і), для цього необхідно натиснути на кнопку **"Додати"** та заповнити інформацію в модальному вікні.
-
-Для редагування інформації щодо вантажу необхідно навести курсор на рядок цього вантажу та натиснути "Змінити", для видалення – "Видалити".
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_07n.png
-   :align: center
+* Вид транспорту / Кількість місць / Температурні вимоги / Масою брутто / Вартість перевезення – в цих полях **"Вантажовідправником"** заповнюються вимоги до транспорту
 
 .. tip:: Для повторного вибору перевізника, водія, вантажовідправника, вантажоодержувача, пунктів навантаження/розвантаження необхідно натиснути на кнопку "Обрати".
 
-Для збереження е-ТТН необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**.
+Для збереження "Заявки на транспортування" необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**.
 
-За необхідністю є можливість додати супровідні документи на вантаж. Для цього необхідно натиснути на кнопку "Додати файл" (назва файлу повина бути унікальною).
+За необхідністю є можливість додати супровідні документи. Для цього необхідно натиснути на кнопку "Додати файл" (назва файлу повинна бути унікальною).
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_08n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_07.png
    :align: center
 
 Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_09n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_08.png
    :align: center
 
-Для підписання е-ТТН необхідно натинути на кнопку "Підписати".
+Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"** (2).
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_10n.png
-   :align: center
+.. _sign:
 
-**Створення документа на підставі чернетки Перевізника чи Вантажоотримувача**
-----------------------------------------------------------------------------------
-
-Існують схеми документообігу, в яких ініціатором виступає не **"Вантажовідправник"**, а **"Перевізник"** чи **"Вантажоотримувач"**. В такому випадку ініціатор створює та відправляє документ-чернетку, яку не потрібно підписувати. 
-
-Далі згідно `оберненої схеми <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#reverse-schema>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_21n.png
-   :align: center
-
-Для ролі **"Вантажовідправника"** вхідний документ-чернетка відображається з інформативною підказкою і дозволяє **"Створити"** на основі вхідної чернетки документ, що потребує підписання:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_22n.png
-   :align: center
-
-В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ може бути відредагований, після чого його потрібно **"Зберегти"** (1) та **"Підписати"** (2) (детальніше про підписання в наступному розділі).
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_23n.png
-   :align: center
-
-Особливостю такого документообігу є те, що в ланцюжку документів присутня чернетка, як документ-ініціатор документообігу:
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_24n.png
-   :align: center
-
-**Підписання та відправка документа**
-================================================
+**Підписання та відправка "Заявки на транспортування" "Вантажовідправником"**
+================================================================================================
 
 Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні необхідно додати файловий ключ. Для цього у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_11n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_09.png
    :align: center
 
 Після чого натиснути кнопку **"Додати"**:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_12n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_10.png
    :align: center
 
 При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_13n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_11.png
    :align: center
 
 При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_14n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_12.png
    :align: center
 
-Після підписання е-ТТН інформація щодо підписанта відображається в блоці "Підписанти". Для відправки е-ТТН необхідно натинути на кнопку "Надіслати".
+Після підписання "Заявки на транспортування" інформація щодо підписанта відображається в блоці "Підписанти". Для відправки "Заявки на транспортування" необхідно натинути на кнопку "Надіслати".
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_15n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_13.png
    :align: center
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_16n.png
+Після відправки документа контрагенту він відображається в журналі вихідних документів. Для відправленної **"Вантажовідправником"** "Заявки на транспортування"  присвоюється статус "У процесі":
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_14.png
    :align: center
 
-Після відправки документа контрагенту він відображається в журналі вихідних документів. Для відправленної вантажовідправником е-ТТН присвоєно статус "У процесі":
+Відправлена "Заявка на транспортування" має наступний вигляд:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_17n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_15.png
    :align: center
 
-Відправлена е-ТТН має наступний вигляд:
+На формі "Заявки на транспортування" у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_18n.png
+Користувач може скористатись функціоналом для "Друку", "Завантаження" чи "Клонування"; також у разі виявлення помилки в документі у **"Вантажовідправника"** є можливість відхилити відправлену "Заявку на транспортування" **до підписання "Перевізником"**. Для цього потрібно натиснути на кнопку "Відхилити".
+
+**Відхилення "Заявки на транспортування" "Вантажовідправником"**
+---------------------------------------------------------------------------
+
+Для того, щоб відхилити документ (доступно **до підписання "Перевізником"**) потрібно натиснути **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_25.png
    :align: center
 
-На формі е-ТТН у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
-
-Користувач може скористатись функціоналом для "Друку", "Завантаження" чи "Клонування" (1); також у разі виявлення помилки в документі у **"Вантажовідправника"** є можливість відхилити відправлену е-ТТН **до підписання "Перевізником"**. Для цього потрібно натиснути на кнопку "Відхилити" (2).
-
-**Відхилення документа**
-================================================
-
-Для того, щоб відхилит документ (доступно **до підписання "Перевізником"**) потрібно натиснути **"Відхилити"**.
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_19n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_16.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено").
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_20n.png
+**Підтвердження "Заявки на транспортування" та відправка "Підтвердження транспортування" "Перевізником"**
+=================================================================================================================
+
+Відправлена з боку **"Вантажовідправника"** "Заявка на транспортування" відображається в папці "Вхідні".
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_17.png
    :align: center
+
+Вхідний підписаний документ дозволяє "Підтвердити" та "Відхилити" документ.
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_18.png
+   :align: center
+
+Після того, як водій чи **"Перевізник"** "підтверджує" документ, відкривається форма "Підтвердження транспортування", в якій необхідно заповнити відомості про водія та натиснути "Зберегти":
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_19.png
+   :align: center
+
+За необхідністю до "Підтвердження транспортування" також є можливість додати супровідні документи. Для цього необхідно натиснути на кнопку "Додати файл" (назва файлу повинна бути унікальною).
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_20.png
+   :align: center
+
+Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву.
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_21.png
+   :align: center
+
+Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"** (2).
+
+.. hint::
+    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#sign>`__ .
+
+Після підписання в "Підтвердження транспортування" додається інформація щодо підписантів документа. Документ можливо **"Надіслати"** контрагенту (**"Вантажовідправнику"**): 
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_22.png
+   :align: center
+
+Підписаний документ відображається в журналі надісланих документів зі статусом "У процесі":
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_23.png
+   :align: center
+
+**Відхилення "Заявки на транспортування" "Перевізником"**
+=============================================================================
+
+У **"Перевізника"** є можливість відхилити "Заявку на транспортування" **до її підтвердження**. Для цього потрібно натиснути на кнопку **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_25.png
+   :align: center
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_24.png
+   :align: center
+
+Для відхиленної перевізником "Заявки на транспортування" присвоєно статус "Відхилено". Документ з цим статусом відображається у "Вхідних" **"Перевізника"**.
+
+**Підписання "Підтвердження транспортування" "Вантажовідправником"**
+================================================================================================
+
+Відправлене з боку **"Перевізника"** "Підтвердження транспортування" відображається в папці "Вхідні".
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_26.png
+   :align: center
+
+Вхідний відкритий підписаний документ доступно "Підписати" та "Відхилити".
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_27.png
+   :align: center
+
+.. hint::
+    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#sign>`__ .
+
+**Відхилення "Підтвердження транспортування" "Вантажовідправником"**
+=======================================================================================
+
+Для того, щоб відхилити документ потрібно натиснути **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_25.png
+   :align: center
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_29.png
+   :align: center
+
+На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено").
 
 .. include:: kontakti.rst

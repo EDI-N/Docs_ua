@@ -232,20 +232,9 @@
 .. image:: pics_Work_with_ETTN/Work_with_ETTN_22.png
    :align: center
 
-.. _act-creation:
-
+.. поки не готово _act-creation:
 **Створення актів на підставі ЕТТН**
 ----------------------------------------
-
 можливо є ризон зробити окрему статтю-сторінку
-
-
-
-
-
-
-
-
-
 
 .. include:: kontakti.rst
