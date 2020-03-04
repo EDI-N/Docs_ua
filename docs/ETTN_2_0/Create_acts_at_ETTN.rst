@@ -32,11 +32,6 @@
 .. image:: pics_Create_acts_at_ETTN/Create_acts_at_ETTN_02.png
    :align: center
 
-Загальна схема документообігу з "Актом перевантаження":
-
-.. image:: pics_Create_acts_at_ETTN/Create_acts_at_ETTN_02.png
-   :align: center
-
 При створенні "Акту перевантаження" можливо вибрати 1 або кілька документів ЕТТН, на підставі яких він буде створений:
 
 .. image:: pics_Create_acts_at_ETTN/Create_acts_at_ETTN_03.png
