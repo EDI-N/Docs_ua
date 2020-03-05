@@ -4,4 +4,4 @@
 .. toctree::
    :maxdepth: 1
    
-   Tro-lo-lo
+   Work_with_Tender
