@@ -142,7 +142,7 @@
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_17.png
    :align: center
 
-Вхідний підписаний документ дозволяє "Підтвердити" та "Відхилити" документ.
+Вхідний підписаний документ можливо "Підтвердити" чи "Відхилити".
 
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_18.png
    :align: center
