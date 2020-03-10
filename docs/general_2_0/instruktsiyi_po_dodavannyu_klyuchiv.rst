@@ -1,54 +1,21 @@
-Інструкція по роботі з комерційними документами (додаванню ключів, підписанням)
+Інструкція по роботі з комерційними документами (налаштування підписання)
 ###################################################################################################
 
 .. role:: red
+
+.. role:: underline
 
 .. contents:: Зміст:
    :depth: 3
 
 ---------
 
-**1 Налаштування підпису**
-================================================
+Для налаштування підпису окремої процедури проводити не потрібно. Усі налаштування та додавання файлового ключа здійснюються при :underline:`першому` підписанні.
 
-Налаштування підпису відбувається єдиноразово при першому підписанні. Для підписання документу потрібно натиснути кнопку "Підписати":
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv01.png
-   :align: center
-
-1) Зчитати ключі у вкладці **"Ключі"** :
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv01.png
-   :align: center
-
-.. hint:: Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv02.png
-   :align: center
-
-.. _`Додати ключ для підписання`:
-
-2) Додати ключ для підписання
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv03.png
-   :align: center
-
-3) Ввести пароль та натиснути — **"Встановити ключ"**
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv04.png
-   :align: center
-
-4) Закрити вкладку **"Доступні ключі"**
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv05.png
-   :align: center
-
-.. hint:: Аналогічно можна додати печатку (за необхідністю)
-
-**2 Створення та відправка комерційного документа**
+**1 Створення та відправка комерційного документа**
 =========================================================
 
-Створити комерційний документ на web-платформі можливо "з нуля" або на підставі іншого документу:
+Розглянемо приклад створення комерційного документу на web-платформі (його можливо створити "з нуля" або на підставі іншого документу):
 
 * Для створення комерційного документу "з нуля" потрібно натиснути кнопку "Створити" та вибрати зі списку комерційний документ, наприклад "Видаткову накладну"
 
@@ -72,30 +39,41 @@
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv026.png
    :align: center
     
-3) Обовʼязково **"Зберегти"** необхідний документ (1)
+3) Обовʼязково **"Зберегти"** необхідний документ
     
-4) Натиснути кнопку **"Підписати"** (2)
+4) Натиснути кнопку **"Підписати"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv7.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_07n.png
    :align: center
 
-    5) Вибрати ключ для підписання та натиснути кнопку **"Підписати"** комерційний документ
+.. _`Додати ключ для підписання`:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv08.png
+Далі у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_01n.png
    :align: center
 
-Зʼявиться повідомлення, що документ успішно підписаний
+Після чого натиснути кнопку **"Додати"**:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv09.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_02n.png
    :align: center
 
-.. important:: Після підписання комерційного документа, але до відправки, є можливість редагувати сам документ. У разі редагування потрібно будет знов підписати документ
+При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
 
-Якщо доступних для зчитування ключів немає, є можливість іх додати після натискання кнопки **"Підписати"** (див. `Додати ключ для підписання`_ )
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
+   :align: center
 
-Для відправки комерційного документа необхідно натиснути кнопку **"Відправити"** в самому документі:
+При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv10.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_04n.png
+   :align: center
+
+Після підписання документу інформація щодо підписанта відображається в блоці "Дані про підписантів". Для відправки документу необхідно натинути на кнопку "Відправити".
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_05n.png
+   :align: center
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_06n.png
    :align: center
 
 Комерційний документ додається в папку **"Вихідні"**:
@@ -103,11 +81,11 @@
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv023.png
    :align: center
 
-**3 Робота з вхідним комерційним документом**
+**2 Робота з вхідним комерційним документом**
 =========================================================
 
-Підписання
----------------
+2.1 Підписання
+---------------------
 
 Одержувачу необхідно:
 
@@ -115,31 +93,32 @@
 
 2) Вибрати необхідний документ
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv011.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_11n.png
    :align: center
 
-Як ми бачимо, документ потребує підписання (тікет під номером 2 на схемі — "не активний")
+Вхідний документ потребує підписання (при перегляді документу тікети на схемі — "не активні")
 
-3) Натиснути кнопку **"Підписати та відправити у відповідь"**
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_12n.png
+   :align: center
+
+3) Натиснути кнопку **"Підписати і відправити у відповідь"**
 
 4) `Додати ключ для підписання`_ (за необхідністю)
 
 5) Вибрати ключ для підписання та натиснути кнопку **"Підписати"** комерційний документ
 
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
+   :align: center
+
 .. important:: Після натискання кнопки **"Підписати та відправити у відповідь"** комерційний документ відразу відправляється одержувачу без можливості редагування документа
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv012.png
+Після відправки наступний тікет в схемі документообігу стане "активним", користувачу стає доступна функція створення **"Запиту на анулювання"**.  
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_13n.png
    :align: center
 
-Після відправки тікет під номером 2 на схемі стане "активним"
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv013.png
-   :align: center
-
-Також платформа має спеціальні можливості при роботі з комерційними документами: відмова від підписання, запит на аналювання підписаного комерційного документа, підтвердження запиту на анулювання підписаного комерційного документа.
-
-Відмова
----------------
+2.2 Відмова від підписання
+---------------------------------
 
 Для відмови від підписання комерційного документа необхідно:
 
@@ -149,30 +128,27 @@
 
 3) Натиснути — **"Відмова від підписання"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv014.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_08n.png
    :align: center
 
 4) `Додати ключ для підписання`_ (за необхідністю)
 
-    5) Ввести текст відмови, вибрати необхідний ключ та натиснути — **"Підписати"**
+5) Ввести текст відмови, вибрати необхідний ключ та натиснути — **"Підписати"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv015.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_09n.png
    :align: center
 
-Після підписання тікет під номером 3 на схемі стане "активним"
+Після підписання документообіг завершено, про що свідчить червоний колір тікета:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv016.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_10n.png
    :align: center
 
 .. important:: Після відмови від підписання комерційний документ відразу відправляється одержувачу без можливості редагування підпису
 
-Анулювання
----------------
+.. _`Запиту на анулювання`:
 
-.. important:: Для подачі запиту на анулювання комерційний документ повинен бути підписаний (тікет під номером 2 на схемі — "активний")
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv017.png
-   :align: center
+2.3 Анулювання
+---------------------
 
 Для подачі запиту на анулювання підписаного комерційного документа необхідно:
 
@@ -180,44 +156,53 @@
 
 2) Вибрати необхідний документ
 
+.. important:: Для подачі запиту на анулювання комерційний документ повинен бути підписаний (другий тікет в схемі документообігу — "активний")
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_13n.png
+   :align: center
+
 3) Натиснути — **"Запит на анулювання"**
 
 4) `Додати ключ для підписання`_ (за необхідністю)
 
-    5) Ввести текст анулювання, вибрати необхідний ключ та натиснути — **"Підписати"**
+5) Ввести текст анулювання, вибрати необхідний ключ та натиснути — **"Підписати"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv018.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_14n.png
    :align: center
 
-Після підписання тікет під номером 4 на схемі стане "активним"
+Запит на анулювання відправлено, про що свідчить жовтий колір наступного тікета в ланцюжку.
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv022.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_15n.png
    :align: center
 
-Підтвердження
----------------
+2.4 Підтвердження
+---------------------------
 
-.. important:: Для підтвердження запиту на анулювання комерційного документа тікет під номером 4 на схемі повинен бути "активний"
-
-
+.. important::
+    Підтвердження запиту на анулювання комерційного документа формується на основі `Запиту на анулювання`_
 
 Для підтвердження запиту на анулювання підписаного комерційного документа необхідно:
 
-1) Натиснути — **"Підтвердження запита на анулювання"**
+1) Відкрити документ у "Надісланих"
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv020.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_16n.png
    :align: center
 
-2) `Додати ключ для підписання`_ (за необхідністю)
+2) Натиснути — **"Підтвердження запиту на анулювання"**
 
-3) Вибрати необхідний ключ та натиснути — **"Підписати"**
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv019.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_17n.png
    :align: center
 
-Зʼявиться підтвердження запиту на анулювання та тікет під номером 5 на схемі стане "активним":
+3) `Додати ключ для підписання`_ (за необхідністю)
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv021.png
+4) Вибрати необхідний ключ та натиснути — **"Підписати"**
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
+   :align: center
+
+Запиту на анулювання підтверджено, документообіг завершено (останній тікет на схемі стане жовтого кольору):
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_18n.png
    :align: center
 
 .. include:: kontakti.rst
