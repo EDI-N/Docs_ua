@@ -43,7 +43,7 @@
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_14.png
    :align: center
 
-Після того, як документ буде заповнений його можливо буде **"Зберегти"** (1) та **"Підписати"**(2):
+Після того, як документ буде заповнений його можливо буде **"Зберегти"** (1) та **"Підписати"** (2):
 
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_15.png
    :align: center
