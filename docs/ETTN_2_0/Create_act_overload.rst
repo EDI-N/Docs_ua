@@ -58,7 +58,7 @@
 .. image:: pics_Create_act_overload/Create_act_overload_05.png
    :align: center
 
-Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"**(2):
+Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"** (2):
 
 .. image:: pics_Create_act_overload/Create_act_overload_06.png
    :align: center
