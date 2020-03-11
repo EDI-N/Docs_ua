@@ -17,6 +17,9 @@
 
 Зайдіть на портал: https://edo-v2.edi-n.com і введіть логін і пароль.
 
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_12.png
+   :align: center
+
 Перед початком роботи з Коригувальною податковою накладною необхідно одноразово заповнити всі реквізити, які будуть відображатися в податковій з боку постачальника, й виберіть GLN, з якого відбуватиметься відправка накладних.
 
 **Необхідно вказати**:
@@ -101,7 +104,39 @@
 .. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_09.png
    :align: center
 
-Після натискання кнопки «**Надіслати**» накладна відправляється на реєстрацію до Єдиного реєстру податкових накладних.
+.. _`Додати ключ для підписання`:
+
+Далі у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_13.png
+   :align: center
+
+Після чого натиснути кнопку **"Додати"**:
+
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_14.png
+   :align: center
+
+При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**). У користувача повинно бути додано три ключа (Директор, Бухгалтер, Штамп), кожним з яких повинен бути підписаний документ. Можливо здійснювати вибір ключів під час підписання (лівою кнопкою миші по данним доданого ключа).
+
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_15.png
+   :align: center
+
+.. important:: Підписання "Податкових накладних" (DECLAR), та "Коригувань до податкових накладних" (DECLARj12) здійснюється трьома ключами (Директор, Бухгалтер, Штамп): для одного документу неможливо використати один і той же ключ більше одного разу, а також неможливо встановити більше одного ключа для однієї ролі!
+
+При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
+
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_16.png
+   :align: center
+
+Після підписання документу інформація щодо підписанта відображається в блоці "Дані про підписантів". Для відправки документу необхідно натинути на кнопку "Відправити".
+
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_17.png
+   :align: center
+
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_18.png
+   :align: center
+
+Після натискання кнопки «**Надіслати**» накладна відправляється на реєстрацію до Єдиного реєстру податкових накладних та відображається на в каталозі **"Надіслані"**.
 
 Отримання статусу про реєстрацію
 =======================================================================
@@ -123,7 +158,6 @@
    :align: center
 
 Також помилку реєстрації (квитанцію) можна переглянути, зайшовши в документ.
-
 
 3. **Відправлений на перевірку в торговельну мережу**
 
