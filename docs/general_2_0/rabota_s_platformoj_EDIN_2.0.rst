@@ -3,7 +3,7 @@
 
 .. сюда закину немного картинок для текста
 
-.. |пресуха| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_02.png
+.. |пресуха| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_03n.png
 
 .. contents:: Зміст:
    :depth: 6

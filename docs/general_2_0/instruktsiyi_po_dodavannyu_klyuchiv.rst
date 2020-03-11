@@ -63,6 +63,13 @@
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
    :align: center
 
+Якщо у користувача додано кілька ключів, можливо здійснювати вибір ключа для підписання лівою кнопкою миші:
+
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_19n.png
+   :align: center
+
+.. important:: Підписання "Комерційних документів" (COMDOC), "Товарних накладних" (DOCUMENTINVOICE) та "Коригувань до товарних накладних" (DOCCORINVOICE) можливо здійснювати необмеженою кількістю ключів, однак документ не може бути підписаний одним підписом/печаткою більше одного разу
+
 При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_04n.png
