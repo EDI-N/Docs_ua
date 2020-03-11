@@ -3,6 +3,8 @@
 
 .. role:: red
 
+.. |пресуха| image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_22.png
+
 .. contents:: Зміст:
    :depth: 6
 
@@ -51,7 +53,9 @@
 2 Формування Податкової накладної
 ====================================
 
-Перед створенням Податкової накладної рекомендується перевірити товарний довідник, тому що інформація по позиціях підтягується саме з нього. Він знаходиться в правому верхньому кутку:
+Після успішної авторизації відкриється основне меню для вибору сервісу платформи EDIN: **"EDI", "ETTN", "АТС", "Виробник", "Дистриб'ютор", "Сертифікати", "Е-Специфікація", "Товари", "DOCflow", "Tender", "Wiki"**. 
+
+Перед створенням Податкової накладної рекомендується перевірити товарний довідник, тому що інформація по позиціях підтягується саме з нього. Для переходу в довідник потрібно в основному меню сервісів ( |пресуха| ) натиснути **"Відкрити"** під іконкою **"Товари"**. 
 
 .. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_02.png
    :align: center
@@ -82,6 +86,43 @@
    :align: center
 
 2.6 Після збереження податкової накладної для нанесення підписів необхідно натиснути кнопку «**Підписати**».
+
+.. _`Додати ключ для підписання`:
+
+Далі у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_14.png
+   :align: center
+
+Після чого натиснути кнопку **"Додати"**:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_15.png
+   :align: center
+
+При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**). У користувача повинно бути додано три ключа (Директор, Бухгалтер, Штамп), кожним з яких повинен бути підписаний документ. Можливо здійснювати вибір ключів під час підписання (лівою кнопкою миші по данним доданого ключа).
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_17.png
+   :align: center
+
+.. important:: Підписання "Податкових накладних" (DECLAR), та "Коригувань до податкових накладних" (DECLARj12) здійснюється трьома ключами (Директор, Бухгалтер, Штамп): для одного документу неможливо використати один і той же ключ більше одного разу, а також неможливо встановити більше одного ключа для однієї ролі!
+
+При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_18.png
+   :align: center
+
+Після підписання документу інформація щодо підписанта відображається в блоці "Дані про підписантів". Для відправки документу необхідно натинути на кнопку "Відправити".
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_19.png
+   :align: center
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_20.png
+   :align: center
+
+Відправлений документ додається в папку **"Надіслані"**:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_21.png
+   :align: center
 
 2.7 Після натискання кнопки "**Відправити**" ЕПН відправляється на реєстрацію до Єдиного реєстру податкових накладних.
 
