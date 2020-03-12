@@ -42,3 +42,12 @@ API
    Methods/EmployeesSearch
    Methods/ExtraData
    Methods/KoatuuSearch
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Специфікації документів
+   
+   Methods/ETTNpage
+   Methods/TRANSHIPMENTpage
+   Methods/BOOKINGpage
+   Methods/BookingConfirmationPage

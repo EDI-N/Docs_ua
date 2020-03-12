@@ -30,7 +30,7 @@
 
 ``REQUEST``
 
-Опис json-параметрів **запиту** метода API (`ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ , `BOOKING <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__ - для документа "Заявка на транспортування", `BookingConfirmation <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування")
+Опис json-параметрів **запиту** метода API (`ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ - для документа "ЕТТН", `BOOKING <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__ - для документа "Заявка на транспортування", `BOOKINGCONFIRMATION <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування")
 
 ``RESPONSE``
 
