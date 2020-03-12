@@ -29,7 +29,7 @@
 
 ``RESPONSE``
 
-У **відповідь** передається тіло документа сервісу "ЕТТН" (об'єкт `ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ чи `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ відповідно).
+У **відповідь** передається тіло документа сервісу "ЕТТН" (об'єкт `ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ - для документа ЕТТН, `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ - для документа "Акт перевантаження товарів", `BOOKING <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__ - для документа "Заявка на транспортування", `BookingConfirmation <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування").
 
 --------------
 
@@ -48,7 +48,7 @@
     приклад тимчасово відсутній
   }
 
-Приклад тіла **відповіді** для "Акт перевантаження товарів" документа в json форматі: 
+Приклад тіла **відповіді** для "Акта перевантаження товарів" документа в json форматі: 
 
 .. code:: ruby
 
@@ -56,4 +56,18 @@
     приклад тимчасово відсутній
   }
 
+Приклад тіла **відповіді** для "Заявки на транспортування" документа в json форматі: 
 
+.. code:: ruby
+
+  {
+    приклад тимчасово відсутній
+  }
+
+Приклад тіла **відповіді** для "Підтвердження транспортування" документа в json форматі: 
+
+.. code:: ruby
+
+  {
+    приклад тимчасово відсутній
+  }
