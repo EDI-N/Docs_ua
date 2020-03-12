@@ -1,4 +1,4 @@
 Параметр,Обов'язкове / необов'язкове поле, Формат, Опис
-.. _BookingConfirmation:,О, Об'єкт **BookingConfirmation**,
+.. _BOOKINGCONFIRMATION:,О, Об'єкт **BOOKINGCONFIRMATION**,
 **DECLARHEAD**,О,BKCHEAD_,об'єкт; складовий номер документа
 **DECLARBODY**,О,BKCBODY_,об'єкт; зміст документа

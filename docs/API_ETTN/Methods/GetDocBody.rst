@@ -29,7 +29,7 @@
 
 ``RESPONSE``
 
-У **відповідь** передається тіло документа сервісу "ЕТТН" (об'єкт `ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ - для документа ЕТТН, `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ - для документа "Акт перевантаження товарів", `BOOKING <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__ - для документа "Заявка на транспортування", `BookingConfirmation <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування").
+У **відповідь** передається тіло документа сервісу "ЕТТН" (об'єкт `ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ - для документа ЕТТН, `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ - для документа "Акт перевантаження товарів", `BOOKING <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__ - для документа "Заявка на транспортування", `BOOKINGCONFIRMATION <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування").
 
 --------------
 
