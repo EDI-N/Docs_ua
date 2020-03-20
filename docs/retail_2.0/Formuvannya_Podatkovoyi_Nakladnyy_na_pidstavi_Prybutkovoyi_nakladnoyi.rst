@@ -3,6 +3,8 @@
 
 .. role:: red
 
+.. |пресуха| image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_22n.png
+
 .. contents:: Зміст:
    :depth: 6
 
@@ -19,7 +21,7 @@
 
 1.3 Зайти на портал: https://edo-v2.edi-n.com/auth і ввести логін і пароль:
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_01.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_01n.png
    :align: center
 
 1.4 Перед початком роботи з податковою накладною необхідно одноразово надати інформацію про реквізити компанії - зверніться до технічної підтримки або до Вашого менеджера. 
@@ -51,37 +53,76 @@
 2 Формування Податкової накладної
 ====================================
 
-Перед створенням Податкової накладної рекомендується перевірити товарний довідник, тому що інформація по позиціях підтягується саме з нього. Він знаходиться в правому верхньому кутку:
+Після успішної авторизації відкриється основне меню для вибору сервісу платформи EDIN: **"EDI", "ETTN", "АТС", "Виробник", "Дистриб'ютор", "Сертифікати", "Е-Специфікація", "Товари", "DOCflow", "Tender", "Wiki"**. 
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_02.png
+Перед створенням Податкової накладної рекомендується перевірити товарний довідник, тому що інформація по позиціях підтягується саме з нього. Для переходу в довідник потрібно в основному меню сервісів ( |пресуха| ) натиснути **"Відкрити"** під іконкою **"Товари"**. 
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_02n.png
    :align: center
 
 2.1 Перейдіть в пункт меню «**Вхідні**»:
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_03.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_03n.png
    :align: center
 
 2.2 Виберіть *підписаний і вже відправлений* «Комерційний документ» **Прибуткова накладна**, на підставі якого будете формувати і відправляти електронну **Податкову накладну**.
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_04.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_04n.png
    :align: center
 
 2.3 Далі в відритому «**Комерційному документі**» необхідно натиснути на кнопку **Податкова накладна**.
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_05.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_05n.png
    :align: center
 
 2.4 При створенні **Податкової накладної** потрібно обрати ставку ПДВ:
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_06.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_06n.png
    :align: center
 
 2.5 Всі необхідні поля для заповнення позначені червоними зірочками :red:`*`. Також важливо попозиційно вносити код УКТ ЗЕД. Після внесення всіх даних необхідно натиснути кнопку «**Зберегти**». Якщо частина необхідних реквізитів не заповнена, з'являться підказки, які поля потрібно заповнити.
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_07.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_07n.png
    :align: center
 
 2.6 Після збереження податкової накладної для нанесення підписів необхідно натиснути кнопку «**Підписати**».
+
+.. _`Додати ключ для підписання`:
+
+Далі у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_14n.png
+   :align: center
+
+Після чого натиснути кнопку **"Додати"**:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_15n.png
+   :align: center
+
+При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**). У користувача повинно бути додано три ключа (Директор, Бухгалтер, Штамп), кожним з яких повинен бути підписаний документ. Можливо здійснювати вибір ключів під час підписання (лівою кнопкою миші по данним доданого ключа).
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_17n.png
+   :align: center
+
+.. important:: Підписання "Податкових накладних" (DECLAR), та "Коригувань до податкових накладних" (DECLARj12) здійснюється трьома ключами (Директор, Бухгалтер, Штамп): для одного документу неможливо використати один і той же ключ більше одного разу, а також неможливо встановити більше одного ключа для однієї ролі!
+
+При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_18n.png
+   :align: center
+
+Після підписання документу інформація щодо підписанта відображається в блоці "Дані про підписантів". Для відправки документу необхідно натинути на кнопку "Відправити".
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_19n.png
+   :align: center
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_20n.png
+   :align: center
+
+Відправлений документ додається в папку **"Надіслані"**:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_21n.png
+   :align: center
 
 2.7 Після натискання кнопки "**Відправити**" ЕПН відправляється на реєстрацію до Єдиного реєстру податкових накладних.
 
@@ -93,17 +134,17 @@
 
 1) "**Зареєстровано в ЄРПН і відправлено покупцеві**":
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_08.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_08n.png
    :align: center
 
 2) "**Помилка при реєстрації в ЄРПН**":
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_09.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_09n.png
    :align: center
 
 3.2 Для прочитання квитанції необхідно увійти в папку «**Відправлені**», зайти у відповідний документ «**Податкова накладна**».
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_10.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_10n.png
    :align: center
 
 3.3 Натиснути кнопку «**Розшифрувати**» для відповідної квитанції.
@@ -112,12 +153,12 @@
     Для зчитування квитанції потрібно використовувати ті ж ключі, що були використані при підписанні «**Податкової накладної**»
 
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_11.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_11n.png
    :align: center
 
 3.4 Після розшифровки текст квитанції стане доступний для читання. Її можна вивантажити в форматі **.rpl** (можливе завантаження в M.E.Doc), **.pdf**, а також роздрукувати.
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_12.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_12n.png
    :align: center
 
 .. include:: kontakti.rst
