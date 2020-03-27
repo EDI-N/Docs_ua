@@ -28,6 +28,7 @@ API v2
 
    CreateDocumentV2
    SendDocument
+   SendDocumentWithoutDraft
    DocsSearch
    EdsChain
    DocBody
