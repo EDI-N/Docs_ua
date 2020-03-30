@@ -13,7 +13,6 @@ API
    Methods/Authorization
    Methods/CreateDocAttachment
    Methods/CreateETTN
-   Methods/CreateTranshipment
    Methods/DelDocAttachment
    Methods/DelDocs
    Methods/DocClone
