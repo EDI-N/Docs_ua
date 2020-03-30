@@ -4,7 +4,7 @@
 
 .. картинки:
 
-.. |refresh| image:: pics_user_instruction_ettn/user_instruction_ettn_04.jpg
+.. |refresh| image:: pics_user_instruction_ettn/user_instruction_ettn_07.jpg
 
 .. contents:: Зміст:
    :depth: 6
