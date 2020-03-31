@@ -57,7 +57,7 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: Е-СПЕЦИФІКАЦІЯ
 
-   E_SPEC_2_0/E_SPEC_2_0_list
+   E_SPEC/E_SPEC_2_0_list
 
 .. toctree::
    :maxdepth: 2
