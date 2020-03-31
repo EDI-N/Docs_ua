@@ -50,3 +50,4 @@ API
    Methods/TRANSHIPMENTpage
    Methods/BOOKINGpage
    Methods/BookingConfirmationPage
+   Methods/AcceptancePage
