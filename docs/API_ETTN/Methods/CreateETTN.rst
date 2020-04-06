@@ -2,7 +2,7 @@
 **Створення/редагування документу сервісу "ETTN"**
 #############################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/API/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. important:: 
     Вибір дії (створення або редагування): в разі якщо в url запиту присутній ідентифікатор документа (параметр **doc_uuid**), то документ сервісу "ETTN" з зазначеним **Id** підлягає редагуванню. Відсутність в запиті параметра **doc_uuid** веде до створення нового документу, тип якого визначається в url запиту.
@@ -19,6 +19,8 @@
 |                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/bookingconfirmation** - запит створення/редагування чернетки "Підтвердження транспортування" |
 |                                                              |                                                                                                                                                                                                   |
 |                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/transhipment** - запит створення/редагування чернетки "Акта перевантаження товарів"          |
+|                                                              |                                                                                                                                                                                                   |
+|                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/acceptance** - запит створення/редагування чернетки "Акта приймання-передавання"             |
 +--------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Параметри, що передаються в URL (разом з адресою методу)** | В рядку заголовка (Header) "Set-Cookie" обов'язково передається **SID** - токен, отриманий при авторизації                                                                                        |
 |                                                              |                                                                                                                                                                                                   |
@@ -41,7 +43,8 @@
 * `ETTN <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__ - для документа "ЕТТН"
 * `BOOKING <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__ - для документа "Заявка на транспортування"
 * `BOOKINGCONFIRMATION <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування"
-* `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ - для документа "Акт перевантаження товарів")
+* `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ - для документа "Акт перевантаження товарів"
+* `ACCEPTANCE <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/AcceptancePage.html>`__ - для документа "Акт приймання-передавання"
 
 ``RESPONSE``
 

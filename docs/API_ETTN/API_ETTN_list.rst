@@ -13,7 +13,6 @@ API
    Methods/Authorization
    Methods/CreateDocAttachment
    Methods/CreateETTN
-   Methods/CreateTranshipment
    Methods/DelDocAttachment
    Methods/DelDocs
    Methods/DocClone
@@ -51,3 +50,4 @@ API
    Methods/TRANSHIPMENTpage
    Methods/BOOKINGpage
    Methods/BookingConfirmationPage
+   Methods/AcceptancePage
