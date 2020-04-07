@@ -52,3 +52,4 @@ API
    Methods/BookingConfirmationPage
    Methods/AcceptancePage
    Methods/DISCREPANCYPage
+   Methods/COMPLETIONpage
