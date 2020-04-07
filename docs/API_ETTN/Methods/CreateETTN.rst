@@ -21,6 +21,10 @@
 |                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/transhipment** - запит створення/редагування чернетки "Акта перевантаження товарів"          |
 |                                                              |                                                                                                                                                                                                   |
 |                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/acceptance** - запит створення/редагування чернетки "Акта приймання-передавання"             |
+|                                                              |                                                                                                                                                                                                   |
+|                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/discrepancy** - запит створення/редагування чернетки "Акта розбіжностей"                     |
+|                                                              |                                                                                                                                                                                                   |
+|                                                              | `{url серверу} <https://wiki.edi-n.com/uk/latest/API_ETTN/API_ETTN_list.html#url>`__ **/api/ettn/eds/completion** - запит створення/редагування чернетки "Акта виконаних робіт"                   |
 +--------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Параметри, що передаються в URL (разом з адресою методу)** | В рядку заголовка (Header) "Set-Cookie" обов'язково передається **SID** - токен, отриманий при авторизації                                                                                        |
 |                                                              |                                                                                                                                                                                                   |
@@ -45,6 +49,8 @@
 * `BOOKINGCONFIRMATION <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__ - для документа "Підтвердження транспортування"
 * `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__ - для документа "Акт перевантаження товарів"
 * `ACCEPTANCE <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/AcceptancePage.html>`__ - для документа "Акт приймання-передавання"
+* `DISCREPANCY <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/DISCREPANCYPage.html>`__ - для документа "Акт розбіжностей"
+* `COMPLETION <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/COMPLETIONpage.html>`__ - для документа "Акт виконаних робіт"
 
 ``RESPONSE``
 
