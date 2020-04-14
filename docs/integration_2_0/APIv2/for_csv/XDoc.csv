@@ -16,7 +16,7 @@ chain_id,long,id ланцюжка документів
 chain_uuid,UUID,унікальний ідентифікатор ланцюжка документів
 family,int,сімейство (EDI / UZD)
 hash,String,"хеш-значення, отримане в результаті обробки"
-type,XDocType ,об'єкт; тип документа
+type,XDocType_,об'єкт; тип документа
 status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
 exchange_status,String,сабстатус документа
 is_archive,boolean,відмітка; **Архівний** документ чи ні

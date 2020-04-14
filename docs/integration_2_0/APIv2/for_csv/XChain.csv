@@ -1,5 +1,5 @@
 Параметр,Формат,Опис
-.. _XChain: , Об'єкт **XChain**,
+.. _XChain: ,Об'єкт **XChain**, 
 id,long,ID шарда
 uuid,UUID,UUID ланцюжка документів
 packageID,long,ID пакета
