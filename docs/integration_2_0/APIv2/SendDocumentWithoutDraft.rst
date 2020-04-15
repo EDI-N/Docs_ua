@@ -27,7 +27,7 @@
 
 .. _опис_параметрів:
 
-Таблиця 12 - Опис **DocType** параметрів
+Таблиця 1 - Опис **DocType** параметрів
 
 .. csv-table:: 
   :file: for_csv/xdoctype_p.csv

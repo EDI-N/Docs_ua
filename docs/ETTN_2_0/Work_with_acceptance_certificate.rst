@@ -53,27 +53,57 @@
 
 Далі відкриється форма "Акта приймання-предавання" з уже заповненим номером, датою документа, Замовником та Виконавцем (дані контрагентів підтягуються з "Підтвердження транспортування"): 
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_06.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_06n.png
    :align: center
 
 Окрім обов'язкових до заповнення полей номеру та дати договору потрібно додати (кнопка "Додати") та заповнити табличку частину "Відомості про вантаж":
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_07.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_07n.png
    :align: center
 
-Обов'язкові до заповнення поля позначені червоною зірочкою :red:`*` :
+У модальному вікні обов'язкові до заповнення поля позначені червоною зірочкою :red:`*` :
 
 .. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_08.png
    :align: center
 
+Також для додавання табличних даних (вантаж) є можливість скористатись шаблоном. Для цього над таблицею необхідно натиснути **"Зберегти шаблон Excel"** (1).
+
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_26.png
+   :align: center
+
+На Ваш комп’ютер буде завантажено файл з назвою **acceptance_products_sample.xlsx**. Відкривши його, необхідно внести інформацію про вантаж.
+
+Як і в web-формі бов’язковими до заповнення є наступні поля:
+
+* Назва товару
+* Кількість
+* Одиниці виміру
+* Маса брутто, т
+
+.. important:: Ні в якому разі не змінювати формат шаблону, не видаляти або додавати нові стовпці. Також не допускається зміна формату комірок.
+
+Після збереження заповненої інформації завантажуємо файл на web-портал, скориставшись кнопкою **"Завантажити позиції з Excel"** (2).
+
+.. important:: Якщо завантажений файл не відповідає очікуваному формату, то система повідомить про це "Звітом про помилки":
+
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_27.png
+   :align: center
+
+За необхідністю є можливість додавати ще вантаж(і), для цього необхідно натиснути на кнопку **"Додати"** та заповнити інформацію в модальному вікні.
+
+Для редагування інформації щодо вантажу необхідно навести курсор на рядок цього вантажу та натиснути "Змінити", для видалення – "Видалити".
+
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_28.png
+   :align: center
+
 Після того, як документ буде заповнений його потрібно **"Зберегти"** (документ потрапить в "Чернетки") :
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_09.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_09n.png
    :align: center
 
 Після всіх подальших змін в "Акті приймання-передавання" його можливо буде **"Зберегти"** (1) та **"Підписати"** (2):
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_10.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_10n.png
    :align: center
 
 .. _sign:
@@ -108,7 +138,7 @@
 
 У **"Вантажовідправника"** відправлений документ відображається у **"Надіслані"** зі статусом "У процесі"
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_16.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_16n.png
    :align: center
 
 Відправлений "Акт приймання-передавання" має наступний вигляд:
@@ -143,7 +173,7 @@
 
 Відправлений з боку **"Вантажовідправника"** "Акт приймання-передавання" відображається в папці "Вхідні".
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_21.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_21n.png
    :align: center
 
 Вхідний підписаний документ можливо "Підписати" чи "Відхилити".
