@@ -1,28 +1,42 @@
-Тип, Назва, Опис (найменування кирилицею)
-0, "all", "всі"
-1, "invoice", "Рахунок"
-2, "orders", "Замовлення"
-3, "recadv", "Повідомлення про прийом"
-4, "desadv", "Повідомлення про відвантаження"
-5, "ordrsp", "Підтвердження замовлення"
-6, "pricat", "Прайс-лист"
-10, "declar", "Податкова накладна"
-11, "insdes", "Інструкція з доставки"
-13, "slsrpt", "Звіт про продажі"
-14, "invrpt", "Звіт про інвентаризацію"
-15, "coacsu", "Акт звірки взаєморозрахунків"
-16, "actset", "Акт взаємозаліку"
-17, "iftmin", "Інструкція про транспортування"
-18, "retann", "Повідомлення про повернення"
-19, "iftmbf", "Замовлення транспортування"
-21, "mscons", "Звіт про надані послуги"
-25, "retins", "Інструкція з повернення"
-28, "comdoc", "Комерційний документ"
-29, "declarj12", "Коригування до податкової накладної"
-30, "condra", "Не структурований документ"
-42, "iftmbc", "Підтвердження замовлення транспортування"
-59, "documentinvoice", "Товарна накладна"
-67, "doccorinvoice", "doccorinvoice"
-75, "waybill", "Товарно-транспортна накладна (ТТН)"
-79, "addbill", "addbill"
-98, "quotes", "Додаток до Повідомлення про відвантаження"
+Тип,Назва,Опис (найменування кирилицею)
+0,all,всі
+1,invoice,`Рахунок <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#invoice>`__
+2,orders,`Замовлення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#order>`__
+3,recadv,`Повідомлення про прийом <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#recadv>`__
+4,desadv,`Повідомлення про відвантаження <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#desadv>`__
+5,ordrsp,`Підтвердження замовлення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#ordrsp>`__
+6,pricat,`Прайс-лист <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#pricat>`__
+7,comdis,`Комерційна дискусія <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#comdis>`__
+9,act,`Акт виконаних робіт <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#act>`__
+10,declar,`Податкова накладна <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declar>`__
+11,insdes,`Інструкція з доставки <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#insdes>`__
+12,desscc,`Повідомлення про відвантаження для розподільного центру <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#desscc>`__
+13,slsrpt,`Звіт про продажі <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#slsrpt>`__
+14,invrpt,`Звіт про інвентаризацію <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#invrpt>`__
+15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#coacsu>`__
+16,actset,`Акт взаємозаліку <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#actset>`__
+17,iftmin,`Інструкція про транспортування <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#iftmin>`__
+18,retann,`Повідомлення про повернення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#retann>`__
+19,iftmbf,`Замовлення транспортування <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#iftmbf>`__
+20,partin,`Інформація про контрагента для постачальника <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#partin>`__
+21,mscons,`Звіт про надані послуги <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#mscons>`__
+25,retins,`Інструкція з повернення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#retins>`__
+28,comdoc,`Комерційний документ <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#comdoc>`__
+29,declarj12,`Коригування до податкової накладної <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declarj12>`__
+30,condra,`Не структурований документ <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#condra>`__
+32,reestr,`Реєстр <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#reestr>`__
+40,prodlist,`Електронна специфікація <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#productlist>`__
+41,agreem,`Товарне узгодження <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#agreem>`__
+42,iftmbc,`Підтвердження замовлення транспортування <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#iftmbc>`__
+59,documentinvoice,`Товарна накладна <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#documentinvoice>`__
+67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#doccorinvoice>`__
+98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#quotes>`__
+109,ettn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/ETTNpage.html>`__
+111,transhipment,`Акт перевантаження товарів <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/TRANSHIPMENTpage.html>`__
+117,acceptance,`Акт приймання-передавання <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/AcceptancePage.html>`__
+113,booking,`Замовлення транспортування <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BOOKINGpage.html>`__
+114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/BookingConfirmationPage.html>`__
+112,completion,`Акт виконаних робіт <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/COMPLETIONpage.html>`__
+118,docinvoiceact,`Акт наданих послуг (Метро) <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#docinvoiceact>`__
+119,discrepancy,`Акт розбіжностей <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/DISCREPANCYPage.html>`__
+120,contrl,`Звіт про відвантаження <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#contrl>`__
