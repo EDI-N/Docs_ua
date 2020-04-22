@@ -187,6 +187,11 @@
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_19n.png
    :align: center
 
+Для автомобілів та причепів реалізований автоматичний довідник, в який записуються "Реєстраційний номер", "Марка/модель", "Тип". Тож, наприклад, для раніше введеного реєстрайійного номеру BB1234BB користувач може скористатись пошуком (мінімум 3 символи): ``BB1, B12, 123, 234, 34B, 4BB``
+
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_43.png
+   :align: center
+
 Якщо водій відсутній в списку його можливо додати через кнопку **"Новий водій"**:
 
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_41n.png
