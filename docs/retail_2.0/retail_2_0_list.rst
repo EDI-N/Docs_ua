@@ -17,5 +17,7 @@
    Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi
    Formuvannia_Koryhuvalnoi_PN_na_pidstavi_Nakladnoi_na_povernennia
    Robota_s_Fozzy_EDI-N_2.0
+   formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin
+   formirovanie_Tovarnogo_dovidnyka
    
    
