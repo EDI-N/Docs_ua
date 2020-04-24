@@ -12,7 +12,7 @@
 
 Відправлена з боку вантажовідправника е-ТТН відображається в папці "Вхідні".
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_01n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_01new.png
    :align: center
 
 Вхідний підписаний документ дозволяє "Підтвердити" / "Підписати" / "Відхилити" документ.
@@ -58,7 +58,7 @@
 
 Підписаний документ відображається в журналі вхідних документів зі статусом "Підписано перевізником":
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_09n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_09new.png
    :align: center
 
 **Відхилення документа**
@@ -74,7 +74,7 @@
 
 Для відхиленної перевізником е-ТТН присвоєно статус "Відхилено". Документ з цим статусом відображається у "Вхідних" **"Перевізника"**.
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_11n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_11new.png
    :align: center
 
 .. include:: kontakti.rst
