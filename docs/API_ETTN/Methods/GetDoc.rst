@@ -29,7 +29,7 @@
 
 ``RESPONSE``
 
-У **відповідь** передаються дані документа (об'єкт `XDoc<https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/XDocPage.html>`__ ).
+У **відповідь** передаються дані документа (об'єкт `XDoc <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/XDocPage.html>`__ ).
 
 --------------
 
