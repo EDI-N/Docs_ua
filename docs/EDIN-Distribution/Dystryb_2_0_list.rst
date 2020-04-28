@@ -3,7 +3,7 @@
    
 .. toctree::
    :maxdepth: 1
-   :caption: Робота з документами
+   :caption: EDIN-Distribution
    
    Instruktsiia_dlia_vyrobnyka
    Instruktsiia_dlia_dystrybiutora

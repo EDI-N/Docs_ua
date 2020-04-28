@@ -62,6 +62,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: EDIN-Distribution
+
+   EDIN-Distribution/Dystryb_2_0_list
+
+.. toctree::
+   :maxdepth: 2
    :caption: ЕТТН
 
    ETTN_2_0/ETTN_2_0_list
