@@ -72,5 +72,6 @@
 .. image:: pics_instruktsia-po-shifrovaniu/foto9-3.2.png
    :align: center
 
+Інформація шодо підписання шифрованих документів та додавання шифрованих документів описана в інструкції `Підписання шифрованих документів <https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-nastroyka-ecp.html#id10>`__ .
 
 .. include:: kontakti.rst
