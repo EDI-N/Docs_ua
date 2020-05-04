@@ -6,8 +6,7 @@
 
 .. csv-table:: 
   :file: NewLimits.csv
-  :widths:  1, 41
-  :header-rows: 1
+  :widths:  10, 41
   :stub-columns: 0
 
 **RESPONSE**
