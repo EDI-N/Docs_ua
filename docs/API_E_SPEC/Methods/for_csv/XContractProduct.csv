@@ -1,0 +1,13 @@
+Параметр, Формат, Опис
+.. _XContractProduct: , Об'єкт **XContractProduct** ,
+id,long,id документа
+contractId,long,id контракту / договору;
+barcode,String,штрих-код продукту
+product,XProduct,"??????"
+buyerArticle,String,"артикул покупця"
+status,int,"статус узгодження; число"
+dateFrom,int,"дата початку дії асортименту"
+dateTo,int,"дата закынчення дії асортименту"
+content,byte[],"??????"
+
+
