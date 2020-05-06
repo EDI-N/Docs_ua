@@ -1,0 +1,10 @@
+Параметр, Формат, Опис
+.. _Limits: , Об'єкт **Limits** ,
+credit_limit,String,"кредитний ліміт, грн."
+max_pack_qty,String,максимальна кількість коробок
+max_pallet_qty,String,максимальна кількість палет
+max_pos_qty,String,максимальна кількість позицій в замовленні
+max_sum_nds,String,"максимальна сума замовлення з ПДВ, грн."
+max_weight,String,"максимальна вага замовлення, кг"
+min_sum_nds,String,"мінімальна сума замовлення з ПДВ, грн."
+multiplicity_packing,String,"кратність упаковці; 0-ні, 1-так"

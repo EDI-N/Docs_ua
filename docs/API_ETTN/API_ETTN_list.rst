@@ -22,6 +22,7 @@ API
    Methods/GetChain
    Methods/GetChainsList
    Methods/GetDoc
+   Methods/GetLinks
    Methods/GetDocArchive
    Methods/GetDocAttachment
    Methods/GetDocBody
