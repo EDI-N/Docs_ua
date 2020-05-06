@@ -9,7 +9,7 @@
 
 .. сюда закину немного картинок для текста
 
-.. |фільтр| image:: pics_Create_act_overload/Create_act_overload_33.png
+.. |фільтр| image:: pics_Create_act_overload/Create_act_overload_33n.png
 
 .. :underline:`"Чернетки" для ролі "Організатор"`
 
@@ -33,39 +33,39 @@
 **1 Створення "Акта перевантаження" на підставі ЕТТН ("Перевізник")**
 ==============================================================================
 
-Для того аби створити "Акт перевантаження" потрібно перейти до каталогу **"Вхідні"** (1) та в розділі **"Додатковий пошук"** (2) скористатись |фільтр| фільтром **"Для акту перевантаження"** (3), що дозволяє відсортувати ЕТТН документи, на підставі яких може бути створений відповідний акт.
-
-.. image:: pics_Create_act_overload/Create_act_overload_01.png
-   :align: center
-
 Загальна схема документообігу з "Актом перевантаження":
 
-.. image:: pics_Create_act_overload/Create_act_overload_02.png
+.. image:: pics_Create_act_overload/Create_act_overload_02n.png
+   :align: center
+
+Для того аби створити "Акт перевантаження" потрібно перейти до каталогу **"Вхідні"** (1) та в розділі **"Додатковий пошук"** (2) скористатись |фільтр| фільтром **"Для акту перевантаження"** (3), що дозволяє відсортувати ЕТТН документи, на підставі яких може бути створений відповідний акт.
+
+.. image:: pics_Create_act_overload/Create_act_overload_01n.png
    :align: center
 
 При створенні "Акту перевантаження" можливо вибрати 1 або кілька документів (наприклад, ЕТТН), на підставі яких він буде створений:
 
-.. image:: pics_Create_act_overload/Create_act_overload_03.png
+.. image:: pics_Create_act_overload/Create_act_overload_03n.png
    :align: center
 
 Далі необхідно заповнити обов'язкові поля форми документа, що позначені червоною зірочкою :red:`*` (відомості про вантаж вже заповнені, їх теж можливо редагувати/додавати): 
 
-.. image:: pics_Create_act_overload/Create_act_overload_04.png
+.. image:: pics_Create_act_overload/Create_act_overload_04n.png
    :align: center
 
 Для автомобілів та причепів реалізований автоматичний довідник, в який записуються "Реєстраційний номер", "Марка/модель", "Тип". Тож, наприклад, для раніше введеного реєстрайійного номеру BB1234BB користувач може скористатись пошуком (мінімум 3 символи): ``BB1, B12, 123, 234, 34B, 4BB``
 
-.. image:: pics_Create_act_overload/Create_act_overload_35.png
+.. image:: pics_Create_act_overload/Create_act_overload_35n.png
    :align: center
 
 Також до "Акту перевантаження" можливо додати супровідні метеріали через кнопку **"Додати файл"** (назва файлу повинна бути унікальною). Для того щоб видалити доданий файл необхідно натиснути на іконку корзини.
 
-.. image:: pics_Create_act_overload/Create_act_overload_05.png
+.. image:: pics_Create_act_overload/Create_act_overload_05n.png
    :align: center
 
 Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"** (2):
 
-.. image:: pics_Create_act_overload/Create_act_overload_06.png
+.. image:: pics_Create_act_overload/Create_act_overload_06n.png
    :align: center
 
 .. _sign:
@@ -75,37 +75,37 @@
 
 Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні необхідно додати файловий ключ. Для цього у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
 
-.. image:: pics_Create_act_overload/Create_act_overload_07.png
+.. image:: pics_Create_act_overload/Create_act_overload_07n.png
    :align: center
 
 Після чого натиснути кнопку **"Додати"**:
 
-.. image:: pics_Create_act_overload/Create_act_overload_08.png
+.. image:: pics_Create_act_overload/Create_act_overload_08n.png
    :align: center
 
 При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
 
-.. image:: pics_Create_act_overload/Create_act_overload_09.png
+.. image:: pics_Create_act_overload/Create_act_overload_09n.png
    :align: center
 
 При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_Create_act_overload/Create_act_overload_10.png
+.. image:: pics_Create_act_overload/Create_act_overload_10n.png
    :align: center
 
 Після підписання "Акту про перевантаження" інформація щодо підписанта відображається в блоці "Підписанти", а документ можливо **"Надіслати"**:
 
-.. image:: pics_Create_act_overload/Create_act_overload_11.png
+.. image:: pics_Create_act_overload/Create_act_overload_11n.png
    :align: center
 
 Відправлений "Акт про перевантаження" відображається в "Надісланих":
 
-.. image:: pics_Create_act_overload/Create_act_overload_36.png
+.. image:: pics_Create_act_overload/Create_act_overload_36n.png
    :align: center
 
 та має наступний вигляд:
 
-.. image:: pics_Create_act_overload/Create_act_overload_34.png
+.. image:: pics_Create_act_overload/Create_act_overload_34n.png
    :align: center
 
 На формі "Акта про перевантаження" у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
@@ -117,15 +117,15 @@
 
 Для того, щоб відхилити документ **"Перевізнику"** потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_act_overload/Create_act_overload_26.png
+.. image:: pics_Create_act_overload/Create_act_overload_26n.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_overload/Create_act_overload_27.png
+.. image:: pics_Create_act_overload/Create_act_overload_27n.png
    :align: center
 
-.. image:: pics_Create_act_overload/Create_act_overload_28.png
+.. image:: pics_Create_act_overload/Create_act_overload_28n.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено"). Документообіг завершено.
@@ -135,12 +135,12 @@
 
 Відправлений з боку **"Перевізника"** "Акт перевантаження" відображається в папці "Вхідні".
 
-.. image:: pics_Create_act_overload/Create_act_overload_13.png
+.. image:: pics_Create_act_overload/Create_act_overload_13n.png
    :align: center
 
 Вхідний підписаний документ можливо "Підтвердити" та "Підписати" чи "Відхилити".
 
-.. image:: pics_Create_act_overload/Create_act_overload_14.png
+.. image:: pics_Create_act_overload/Create_act_overload_14n.png
    :align: center
 
 **2.1 Підтвердження / Підписання "Акта перевантаження" "Компанією, що здійснює перевантаження"**
@@ -149,15 +149,15 @@
 .. important::
     В залежності від внутрішньої схеми **"Компанії, що здійснює перевантаження"** документ перед "Підписанням" може бути "Підтверджений" водієм, (кнопка **"Підтвердити"**) і відповідно цей документ у вхідних змінить свій статус на "Підтверджений", підказка в документі:
 
-.. image:: pics_Create_act_overload/Create_act_overload_15.png
+.. image:: pics_Create_act_overload/Create_act_overload_15n.png
    :align: center
 
-.. image:: pics_Create_act_overload/Create_act_overload_16.png
+.. image:: pics_Create_act_overload/Create_act_overload_16n.png
    :align: center
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_act_overload/Create_act_overload_17.png
+.. image:: pics_Create_act_overload/Create_act_overload_17n.png
    :align: center
 
 .. hint::
@@ -165,7 +165,7 @@
 
 Після підписання документ змінить свій статус, а в інформації про підписантів відобразиться інформація про підписання:
 
-.. image:: pics_Create_act_overload/Create_act_overload_18.png
+.. image:: pics_Create_act_overload/Create_act_overload_18n.png
    :align: center
 
 Після підписання документу "Відхилити" його неможливо.
@@ -175,15 +175,15 @@
 
 Для того, щоб відхилити документ потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_act_overload/Create_act_overload_29.png
+.. image:: pics_Create_act_overload/Create_act_overload_29n.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_overload/Create_act_overload_27.png
+.. image:: pics_Create_act_overload/Create_act_overload_27n.png
    :align: center
 
-.. image:: pics_Create_act_overload/Create_act_overload_30.png
+.. image:: pics_Create_act_overload/Create_act_overload_30n.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено"). Документообіг завершено.
@@ -193,12 +193,12 @@
 
 Відправлений та підписаний "Акт перевантаження" у **"Перевізника"** відображається в папці "Надіслані".
 
-.. image:: pics_Create_act_overload/Create_act_overload_19.png
+.. image:: pics_Create_act_overload/Create_act_overload_19n.png
    :align: center
 
 Вхідний підписаний документ можливо "Підтвердити" та "Підписати" чи "Відхилити".
 
-.. image:: pics_Create_act_overload/Create_act_overload_20.png
+.. image:: pics_Create_act_overload/Create_act_overload_20n.png
    :align: center
 
 **3.1 Підтвердження / Підписання "Акта перевантаження" "Перевізником"**
@@ -207,15 +207,15 @@
 .. important::
     В залежності від внутрішньої схеми **"Перевізника"** документ перед "Підписанням" може бути "Підтверджений" приймальником, (кнопка **"Підтвердити"**) і відповідно цей документ у вхідних змінить свій статус на "Підтверджений", підказка в документі:
 
-.. image:: pics_Create_act_overload/Create_act_overload_21.png
+.. image:: pics_Create_act_overload/Create_act_overload_21n.png
    :align: center
 
-.. image:: pics_Create_act_overload/Create_act_overload_22.png
+.. image:: pics_Create_act_overload/Create_act_overload_22n.png
    :align: center
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_act_overload/Create_act_overload_23.png
+.. image:: pics_Create_act_overload/Create_act_overload_23n.png
    :align: center
 
 .. hint::
@@ -223,12 +223,12 @@
 
 Після підписання відображається інформативна підказка:
 
-.. image:: pics_Create_act_overload/Create_act_overload_24.png
+.. image:: pics_Create_act_overload/Create_act_overload_24n.png
    :align: center
 
 Документообіг завершено. При перегляді документу/-ів, на основі яких було створено "Акт перевантаження" відображається посилання про прив'язаний акт:
 
-.. image:: pics_Create_act_overload/Create_act_overload_25.png
+.. image:: pics_Create_act_overload/Create_act_overload_25n.png
    :align: center
 
 **3.2 Відхилення "Акта перевантаження" "Перевізником"**
@@ -236,15 +236,15 @@
 
 Для того, щоб відхилити документ потрібно натиснути **"Відхилити"**.
 
-.. image:: pics_Create_act_overload/Create_act_overload_31.png
+.. image:: pics_Create_act_overload/Create_act_overload_31n.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_overload/Create_act_overload_27.png
+.. image:: pics_Create_act_overload/Create_act_overload_27n.png
    :align: center
 
-.. image:: pics_Create_act_overload/Create_act_overload_32.png
+.. image:: pics_Create_act_overload/Create_act_overload_32n.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено"). Документообіг завершено.
