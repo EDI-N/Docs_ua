@@ -9,33 +9,13 @@ EDIN | Електронний документообіг для бізнесу
 Зміст:
 
 .. toctree::
-   :name: main
    :maxdepth: 2
    :caption: EDIN
    
    general/general_list
-
-.. toctree::
-   :maxdepth: 2
-   
    retail/retail_list
-
-.. toctree::
-   :maxdepth: 2
-   
    integration/integration_list
-   
-.. toctree::
-   :maxdepth: 2
-   
    XML/XML-structure.rst
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Сервіси
-   
-   services/services_list
-   API_EDIN_Certificate/API_EDIN_Certificate_list
 
 .. toctree::
    :maxdepth: 2
@@ -49,10 +29,11 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN_DOCflow
+   :caption: ЕТТН
 
-   EDIN_DOCflow/EDIN_DOCflow_list
-   API_DOCflow/API_DOCflow_list
+   ETTN_2_0/ETTN_2_0_list
+   integration_ETTN/integration_ETTN_list
+   API_ETTN/API_ETTN_list
 
 .. toctree::
    :maxdepth: 2
@@ -64,15 +45,21 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: EDIN-Distribution
 
-   EDIN-Distribution/Dystryb_2_0_list
+   EDIN_Distribution/Dystryb_2_0_list
+   API_Distribution/API_Distribution_list.rst
 
 .. toctree::
    :maxdepth: 2
-   :caption: ЕТТН
+   :caption: EDIN-Certificate
 
-   ETTN_2_0/ETTN_2_0_list
-   integration_ETTN/integration_ETTN_list
-   API_ETTN/API_ETTN_list
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: EDIN_DOCflow
+
+   EDIN_DOCflow/EDIN_DOCflow_list
+   API_DOCflow/API_DOCflow_list
 
 .. toctree::
    :maxdepth: 2
@@ -86,4 +73,32 @@ EDIN | Електронний документообіг для бізнесу
 
    Zakon/Zakonodavcha_baza
    
+
+
+
+
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Сервіси
+   
+   services/services_list
+   API_EDIN_Certificate/API_EDIN_Certificate_list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
