@@ -31,14 +31,14 @@
 .. important::
     Створити "Акта приймання-передавання" можливо лише на підставі підписаного з обох сторін "Підтвердження транспортування" (детальніше про `"Підтвердження транспортування" <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_Proposal.html#confirmation>`__ )) 
 
-Для того аби створити "Акт приймання-передавання" потрібно перейти до каталогу **"Вхідні"** та скористатись кнопкою |фільтр| фільтром, що дозволяє відсортувати всі "Підтвердження транспортування", на підставі яких може бути створений відповідний акт.
+Для того аби створити "Акт приймання-передавання" потрібно перейти до каталогу **"Вхідні"** (1) та в розділі **"Додатковий пошук"** (2) скористатись |фільтр| фільтром **"Для акту перевантаження"** (3), що дозволяє відсортувати ЕТТН документи, на підставі яких може бути створений відповідний акт.
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_02.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_02n.png
    :align: center
 
 В журналі з відібраними документами потрібно вибрати один зі списку та відкрити його:
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_03.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_03n.png
    :align: center
 
 У відкритому документі натиснути кнопку "Створити Акт":
@@ -207,7 +207,7 @@
 
 Для відхиленого **"Вантажоотримувачем"** "Акта приймання-передавання" присвоєно статус "Відхилено".
 
-.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_25.png
+.. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_25n.png
    :align: center
 
 Документ з цим статусом відображається у "Вхідних" **"Вантажоотримувача"** - документообіг завершено.
