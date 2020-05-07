@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , ``/api/es/contracts?gln=9864119011415``
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_E_SPEC/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
