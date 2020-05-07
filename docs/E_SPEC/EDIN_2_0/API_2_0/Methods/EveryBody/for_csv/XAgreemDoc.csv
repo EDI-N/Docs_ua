@@ -17,4 +17,3 @@ dateCreated,long,дата створення документа; число
 dateChanged,long,дата зміни документа; число;
 docDate,long,дата з документа; число
 docNumber,String,номер документа
-
