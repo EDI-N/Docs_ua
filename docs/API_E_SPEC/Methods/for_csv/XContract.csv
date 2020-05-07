@@ -1,0 +1,20 @@
+Параметр, Формат, Опис
+.. _XContract: , Об'єкт **XContract** ,
+products,List<XContractProduct>,"список товарних позицій"
+id,long,id контракту / договору;
+uuid,UUID,GUID контракту / договору; число
+retailerId,long,id мережі (ритейлера);
+sender,long,"GLN відправника; число"
+recipient,long,"GLN одержувача; число"
+number,String,"номер контракту / договору; число"
+expireDate,long,"дата закінчення дії договору"
+description,String,"опис / коментарі"
+subContractNumber,String,"номер дочірнього договору"
+subContractExpireDate,long,"дата закінчення дії дочірнього договору"
+contractGlnId,long,"id Gln-ну користувача"
+reviewDeadLine,int,"кількість днів на розгляд"
+agrementsNumber,int,"допустима кількість погоджень"
+discountWorkStatus,int,"робота з ціною зі знижкою: 0-ні, 1-так"
+changeDate,long,"дата зміни документу"
+prolongationContract,int,"автоматична пролонгація контракту; 0-ні, 1-так"
+region,String,"код регіону; число"
