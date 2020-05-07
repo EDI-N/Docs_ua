@@ -39,20 +39,21 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: Е-СПЕЦИФІКАЦІЯ
 
+   E_SPEC/E_SPEC_list
    E_SPEC/E_SPEC_2_0_list
 
 .. toctree::
    :maxdepth: 2
    :caption: EDIN-Distribution
 
-   EDIN_Distribution/Dystryb_2_0_list
-   API_Distribution/API_Distribution_list.rst
+   Distribution/Distribution_list
+   Distribution/Distribution_2_0_list
 
 .. toctree::
    :maxdepth: 2
    :caption: EDIN-Certificate
 
-
+   Certificate/Certificate_list
 
 .. toctree::
    :maxdepth: 2
@@ -74,31 +75,4 @@ EDIN | Електронний документообіг для бізнесу
    Zakon/Zakonodavcha_baza
    
 
-
-
-
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Сервіси
-   
-   services/services_list
-   API_EDIN_Certificate/API_EDIN_Certificate_list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+ 
