@@ -39,21 +39,21 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: Е-СПЕЦИФІКАЦІЯ
 
-   E_SPEC/E_SPEC_list
-   E_SPEC/E_SPEC_2_0_list
+   E_SPEC/EDIN/E_SPEC_list
+   E_SPEC/EDIN_2_0/E_SPEC_2_0_list
 
 .. toctree::
    :maxdepth: 2
    :caption: EDIN-Distribution
 
-   Distribution/Distribution_list
-   Distribution/Distribution_2_0_list
+   Distribution/EDIN/Distribution_list
+   Distribution/EDIN_2_0/Distribution_2_0_list
 
 .. toctree::
    :maxdepth: 2
    :caption: EDIN-Certificate
 
-   Certificate/Certificate_list
+   Certificate/EDIN/Certificate_list
 
 .. toctree::
    :maxdepth: 2
