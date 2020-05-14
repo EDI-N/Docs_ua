@@ -72,20 +72,12 @@
   :file: for_csv/XChain.csv
   :widths:  1, 19, 41
   :header-rows: 1
-  :stub-columns: 1
+  :stub-columns: 0
 
 Таблиця 5 - Опис параметрів об'єкта **XChainStatus**
 
 .. csv-table:: 
   :file: for_csv/XChainStatus.csv
-  :widths:  1, 19, 41
-  :header-rows: 1
-  :stub-columns: 1
-
-Таблиця 6 - Опис параметрів об'єкта **XDocStatus**
-
-.. csv-table:: 
-  :file: for_csv/XDocStatus.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -180,10 +172,10 @@
 
 .. _детальніше:
 
-Таблиця 18 - Опис **DocStatus** параметрів (об'єкт XDocStatus_)
+Таблиця 18 - Опис **ChainStatus** параметрів (об'єкт XChainStatus_)
 
 .. csv-table:: 
-  :file: for_csv/xdocstatus_p.csv
+  :file: for_csv/xchainstatus_p.csv
   :widths:  1, 60
   :header-rows: 1
   :stub-columns: 0
