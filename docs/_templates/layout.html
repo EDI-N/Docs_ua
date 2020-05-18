@@ -22,7 +22,9 @@
         }, 500);
         });
     </script>
-    <!-- Да это же onesignal -->
+
+
+    <!-- Да это же onesignal - тоже решили убрать (бесполезен)
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
     var OneSignal = window.OneSignal || [];
@@ -32,11 +34,11 @@
         });
     });
     </script>
-{% endblock %}
+{% endblock %} -->
 
 
-    <!-- Костыльный селектор языка -->
+    <!-- Костыльный селектор языка - решили убрать переводы в принципе
 {% block sidebartitle %}
 {{ super() }}
 <select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edi-n.com/uk/latest/">Українська</option><option value="https://wiki.edi-n.com/ru/latest/">Русский</option><option value="https://wiki.edi-n.com/en/latest/">English</option></select>
-{% endblock %}
+{% endblock %} -->
