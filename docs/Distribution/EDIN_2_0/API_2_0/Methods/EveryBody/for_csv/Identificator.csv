@@ -1,0 +1,42 @@
+Параметр, Формат, Опис
+.. _Identificator:, Об'єкт **Identificator**,
+guid,"Map<String, SosGUID>",GUID організації
+taxNum,String,Податковий ідентифікаційний номер; 50 символів
+ndsNum,String,№ свідоцтва ПДВ; 50 символів
+manager,String,ПІБ менеджера; 100 символів
+accountant,String,ПІБ бухгалтера; 100 символів
+id,long,ID користувача
+gln,String,"GLN організації; 13 символів"
+companyId,long,id аккаунта
+retailerId,long,id мережі (ритейлера)
+isUzdAts,int,"ЮЗД від АТС; 0-ні, 1-так"
+isFinCrypt,int,"шифрування FINDOC; 0-ні, 1-так"
+countryId,int,ідентифікатор країни
+isERNN,int,"схема обробки DECLAR; 0 - відправка отримувачу тільки після успішної регістрації в реєстрі, 1 - регістрація після перевірки отримувачем, 3 - відправка отримувачу без регістрації"
+name,String,назва організації; 100 символів
+companyType,String,"форма власності; 5 символів; jur - Юридична особа, fiz - Фізична особа"
+companyInn,String,код ІПН компанії; 50 символів
+companyKpp,String,код ЄДРПОУ/КПП; 50 символів
+companyOgrn,String,Основний Державний Реєстраційний Номер; 15 символів
+companyTaxDepartmentID,String,ідентифікатор відділення податкової інспекції
+dirLastName,String,прізвище директора; 150 символів
+dirFirstName,String,ім'я директора; 150 символів
+director,String,ПІБ директора; 100 символів
+apartment,String,квартира; 20 символів
+zip,String,поштовий індекс; 20 символів
+city,String,місто; 50 символів
+street,String,назва вулиці; 100 символів
+regionCode,String,код регіону; 3 символа
+bankName,String,назва банку; 100 символів
+bankMfo,String,"МФО банку, код-реквізит банку"
+phone,String,№ телефону; 50 символів
+bankAccount,String,розрахунковий рахунок банку; 50 символів
+otherInfo,String,коментарі
+email,String,E-mail; 255 символів
+metroCode,String,код точки доставки; 20 символів
+IBAN,String,IBAN (англ. International Bank Account Number)
+dpiCReg,String,регіон/область податкової
+dpiCRaj,String,район (по регіону) прив'язки до податкової
+account,Account,id акаунту
+isDeclarDateNumRequired,boolean,обов'язковість № і дати ПН в ТН (МЕТРО)
+distribexUser,int,користувач сервісу; 1-Виробник; 2-Дистриб'ютор

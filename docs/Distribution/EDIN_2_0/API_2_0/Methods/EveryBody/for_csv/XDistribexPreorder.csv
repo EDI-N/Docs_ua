@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _XDistribexPreorder: , Об'єкт **XDistribexPreorder** ,
+positions,List<Long>,масив; позиції Попереднього замовлення
+id,long,ідентифікатор Попереднього замовлення
+producerId,long,ідентифікатор Виробника
+content,byte[],масив байтів; контент
+

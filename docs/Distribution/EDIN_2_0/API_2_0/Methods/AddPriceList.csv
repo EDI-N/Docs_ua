@@ -1,9 +1,9 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    , ``api/distribex/pricelist?gln=9864065732303``
+URL запиту    , ``/api/distribex/pricelist?gln=9864065732303``
 URL параметри ,"**gln** (обов'язково) String - GLN Виробника"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_Distribution/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
 Content-Type  , application/json                              
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу передаються нові/оновлені дані товарів, що долучаються в Прайс-лист до вказаних Дистриб'юторів (об'єкт `XPriceList <https://wiki.edi-n.com/uk/latest/API_Distribution/Methods/EveryBody/XPriceList.html>`__)"
+JSON Body     ,"В тілі запиту методу передаються нові/оновлені дані товарів, що долучаються в Прайс-лист до вказаних Дистриб'юторів (об'єкт `XPriceList <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XPriceList.html>`__)"

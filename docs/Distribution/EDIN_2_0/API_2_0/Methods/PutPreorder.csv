@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    , ``/api/distribex/preorder?gln=9864065732327&producerId=13200791&id=22&positions=1195&positions=1193&positions=1201&positions=1197&positions=1199``
+URL параметри ,"**gln** (обов'язково) String - GLN Дистриб'ютора
+
+**producerId** (обов'язково) String - ідентифікатор Виробника
+
+**id** (обов'язково) String - ідентифікатор Попереднього замовлення
+
+**positions** (обов'язково) String - позиції Попереднього замовлення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається масив об'єктів з вказаною `кількістю відповідних товарних позицій для Попереднього замовлення <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/PutPreorderRequest.html>`__)"
