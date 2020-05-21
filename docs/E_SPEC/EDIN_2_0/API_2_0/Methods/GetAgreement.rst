@@ -11,6 +11,6 @@
 
 **RESPONSE**
 
-В тілі відповіді в json-форматі передається об'єкт з інформацією про `пропозицію <https://wiki.edi-n.com/uk/latest//E_SPEC/EDIN_2_0/API_2_0/Methods//EveryBody/GetAgreementResponse.html>`__ ";
+В тілі відповіді в json-форматі передається об'єкт з інформацією про `пропозицію <https://wiki.edi-n.com/uk/latest//E_SPEC/EDIN_2_0/API_2_0/Methods//EveryBody/GetAgreementResponse.html>`__ .
 
 

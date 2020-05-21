@@ -4,6 +4,9 @@
 
 **JSON body_type=1 (Документ AGREEM):**
 
+`Специфікація AGREEM <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#agreem>`__ .
+
+
 .. code:: json
 
   {
@@ -107,4 +110,5 @@
   }
 
 **JSON body_type=3 (Обгрунтування)**
+
 Передається бінарний файл з вкладенням.

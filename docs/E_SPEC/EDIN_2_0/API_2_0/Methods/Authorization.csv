@@ -1,7 +1,7 @@
 **URL**       ,
 Метод запиту  , POST                                          
 URL запиту    , ``/api/authorization/hash``
-URL параметри ,
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;"
 **Headers**   ,
 Content-Type  , application/x-www-form-urlencoded                              
 **REQUEST**   ,
