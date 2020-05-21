@@ -1,10 +1,8 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    , ``/api/authorization``
+URL запиту    , ``/api/authorization/hash``
 URL параметри ,
 **Headers**   ,
 Content-Type  , application/x-www-form-urlencoded                              
 **REQUEST**   ,
-JSON Body     ,"**email** (обов'язково) String - логін користувача
-
-**password** (обов'язково) String - пароль користувача на платформі EDIN 2.0"
+JSON Body     ,"**email** (обов'язково) String - логін користувача; **password** (обов'язково) String - пароль користувача на платформі EDIN 2.0"

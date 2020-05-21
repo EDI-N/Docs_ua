@@ -1,5 +1,5 @@
 #############################################################
-**Отримати коментарі пропозиції**
+**Отримати список коментарів пропозиції**
 #############################################################
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
@@ -11,6 +11,4 @@
 
 **RESPONSE**
 
-json(xAgreementComments
-
-В тілі відповіді передаэться список коментарів (масив xAgreementComments)
+В тілі відповіді передається  `список коментарів <https://wiki.edi-n.com/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/EveryBody/GetAgreementCommentsResponse.html>`__ .
