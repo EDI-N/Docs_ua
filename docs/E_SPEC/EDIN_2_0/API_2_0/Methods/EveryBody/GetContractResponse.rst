@@ -6,7 +6,7 @@
 
 .. code:: json
 
-    [
+[
   {
     "products": [],
     "id": 8,

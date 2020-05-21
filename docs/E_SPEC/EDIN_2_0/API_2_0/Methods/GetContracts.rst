@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі відповіді в json-форматі передається об'єкт з інформацією про `контракти <https://wiki.edi-n.com/uk/latest//E_SPEC/EDIN_2_0/API_2_0/Methods//EveryBody/xContractsResponse.html>`__ ";
+В тілі відповіді в json-форматі передається об'єкт з інформацією про `контракти <https://wiki.edi-n.com/uk/latest//E_SPEC/EDIN_2_0/API_2_0/Methods//EveryBody/GetContractResponse.html>`__ .
