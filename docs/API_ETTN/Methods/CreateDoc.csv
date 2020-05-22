@@ -1,0 +1,33 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,"``/api/ettn/eds/doc`` - запит створення/редагування чернетки **ТТН**
+
+``/api/ettn/eds/booking`` - запит створення/редагування чернетки **Замовлення на транспортування**
+
+``/api/ettn/eds/bookingconfirmation`` - запит створення/редагування чернетки **Підтвердження транспортування**
+
+``/api/ettn/eds/transhipment`` - запит створення/редагування чернетки **Акта перевантаження товарів** 
+
+``/api/ettn/eds/acceptance`` - запит створення/редагування чернетки **Акта приймання-передавання**
+
+``/api/ettn/eds/discrepancy`` - запит створення/редагування чернетки **Акта розбіжностей**
+
+``/api/ettn/eds/completion`` - запит створення/редагування чернетки **Акта виконаних робіт**"
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (опціонально) UUID - ідентифікатор документа (передається для редагування (оновлення) даних раніше створеного документа)
+
+**linked_doc** (опціонально) UUID - ідентифікатор документа (передається для встановлення зв'язку між різними документами, наприклад, між **Замовленням на транспортування** та **ЕТТН**"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , *application/json* or *application/xml*                             
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло документа:
+
+* `ETTN <https://wiki.edi-n.com/uk/latest/Docs_ETTN/ETTNpage.html>`__ - для документа **ЕТТН**
+* `BOOKING <https://wiki.edi-n.com/uk/latest/Docs_ETTN/BOOKINGpage.html>`__ - для документа **Заявка на транспортування**
+* `BOOKINGCONFIRMATION <https://wiki.edi-n.com/uk/latest/Docs_ETTN/BookingConfirmationPage.html>`__ - для документа **Підтвердження транспортування**
+* `TRANSHIPMENT <https://wiki.edi-n.com/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__ - для документа **Акт перевантаження товарів**
+* `ACCEPTANCE <https://wiki.edi-n.com/uk/latest/Docs_ETTN/AcceptancePage.html>`__ - для документа **Акт приймання-передавання**
+* `DISCREPANCY <https://wiki.edi-n.com/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__ - для документа **Акт розбіжностей**
+* `COMPLETION <https://wiki.edi-n.com/uk/latest/Docs_ETTN/COMPLETIONpage.html>`__ - для документа **Акт виконаних робіт**"

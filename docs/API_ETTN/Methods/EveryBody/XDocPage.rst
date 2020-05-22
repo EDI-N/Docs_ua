@@ -1,3 +1,75 @@
+#############################################################
+**Дані документа (об'єкт XDoc)**
+#############################################################
+
+**JSON:**
+
+.. code:: json
+
+	{
+	  "body": {
+	    "forms": {
+	      "json": {
+	        "type": {
+	          "id": 2,
+	          "name": "json"
+	        }
+	      }
+	    }
+	  },
+	  "attachments": [],
+	  "comments": [],
+	  "doc_id": 829,
+	  "doc_uuid": "e64a304b-b0c0-454b-a361-5dc5d6987952",
+	  "uuidSender": "0855e1ce-46ed-4995-83b6-356127b95226",
+	  "uuidReceiver": "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
+	  "uuidReceivers": [
+	    "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
+	    "c2394341-85f0-4b8c-8ea9-ff8d3c6c119c"
+	  ],
+	  "docNumber": "Пибип0",
+	  "dateCreated": 1589960680,
+	  "dateChanged": 1589960680,
+	  "dateRead": 0,
+	  "docDate": 1587513600,
+	  "chain_id": 0,
+	  "family": 7,
+	  "hash": "65CC9A9F335B5AE07D9E3CD47C55063C",
+	  "type": {
+	    "type": 109,
+	    "title": "ettn",
+	    "description": "ЕТТН"
+	  },
+	  "status": {
+	    "status": 1,
+	    "title": "open"
+	  },
+	  "exchange_status": "000000000000000000000000",
+	  "is_archive": false,
+	  "extraFields": {
+	    "sub_status_date": "1587548202",
+	    "carrier_b_uuid": "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
+	    "doc_num": "Пибип0",
+	    "car_number": "BB1234BB",
+	    "doc_date": "1587513600",
+	    "consignor_b_uuid": "0855e1ce-46ed-4995-83b6-356127b95226",
+	    "customer_b_uuid": "0855e1ce-46ed-4995-83b6-356127b95226",
+	    "driver_b_uuid": "09f4c632-5c37-45ac-a68a-0acfdc157194",
+	    "gross_weight": "1.0",
+	    "consignee_b_uuid": "c2394341-85f0-4b8c-8ea9-ff8d3c6c119c"
+	  },
+	  "tags": [],
+	  "statuses": [],
+	  "multiExtraFields": {
+	    "ettn_delivery_koatuu": [
+	      "1413566500"
+	    ],
+	    "ettn_dispatch_koatuu": [
+	      "8000000000"
+	    ]
+	  }
+	}
+
 Таблиця 1 - Опис параметрів об'єкта **XDoc**
 
 .. csv-table:: 
