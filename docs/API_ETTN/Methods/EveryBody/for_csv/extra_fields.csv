@@ -20,8 +20,8 @@ id параметра, Найменування параметра,Обов'яз
 20, delivery_place_uuid ,, VARCHAR, місце доставки
 21, contract_date ,, VARCHAR, дата договору
 22, contract_number ,, VARCHAR, номер договору
-23, delivery_date, M, INT, дата доставки
-24, order_number, M, VARCHAR, номер замовлення
+23, delivery_date, О, INT, дата доставки
+24, order_number, О, VARCHAR, номер замовлення
 25, order_date ,, INT, дата замовлення
 26, return_date ,, INT, дата повернення
 27, summ ,, VARCHAR, сума з ПДВ
