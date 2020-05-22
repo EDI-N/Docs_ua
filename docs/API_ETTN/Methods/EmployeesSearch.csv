@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , GET                                          
-URL запиту    ,``/api/oas/v2/company/employees/search?edrpou=4294967295&query=вася``
+URL запиту    ,**/api/oas/v2/company/employees/search?edrpou=4294967295&query=вася**
 URL параметри ,"Обов'язково: **uuid** - ідентифікатор компанії АБО **edrpou** - ЄДРПОУ компанії в довіднику якої здійснюється пошук. **edrpou** є пріоритетнішим параметром
 
 **query** (опціонально) String - текст пошуку"

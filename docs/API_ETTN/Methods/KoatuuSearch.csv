@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , GET                                          
-URL запиту    , ``/api/oas/v2/koatuu/search?query=3210500000&limit=25``
+URL запиту    , **/api/oas/v2/koatuu/search?query=3210500000&limit=25**
 URL параметри ,"**query** (обов'язково) String - текст пошуку (назва/код КОАТУУ)
 
 **limit** (опціонально) int - ліміт вибірки (за замовчанням=20)"
