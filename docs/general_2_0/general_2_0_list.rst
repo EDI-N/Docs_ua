@@ -8,4 +8,5 @@
    instruktsiyi_po_dodavannyu_klyuchiv
    Robota_z_tokenom
    Instruktsiya_po_zavantazhennyu_reyestru_komdok
+   massovi_operacii_EDIN_2.0
    

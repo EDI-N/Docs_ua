@@ -4,8 +4,6 @@
 
 Після підключення послуги для роботи з API, користувач отримує логін, пароль і api_key для авторизації.
 
-api/authorization
-
 .. csv-table:: 
   :file: Authorization.csv
   :widths:  10, 41
@@ -15,7 +13,7 @@ api/authorization
 
 .. code:: none
 
-  email=sender&password=12345
+  email=senderx&password=1234x
 
 **RESPONSE**
 
@@ -25,7 +23,7 @@ api/authorization
 
 .. code:: json
 
-  {"SID": "65daca25-74ba-4c85-8183-71b404a348c0"}
+  {"SID": "65daxx25-74ba-4c85-8183-71b404a3xxc0"}
 
 .. hint::
   Тривалість сесії при бездіяльності користувача становить 20 хвилин (мається на увазі, що ключ буде видалено через 20 хвилин, якщо користувач не буде активним (не буде відправляти HTTP запити)).
