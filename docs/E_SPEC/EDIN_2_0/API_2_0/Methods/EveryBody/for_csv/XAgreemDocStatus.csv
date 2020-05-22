@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _XAgreemDocStatus: , Об'єкт **XAgreemDocStatus** ,
+id,int,id статусу
+name,String,назва статусу
+
