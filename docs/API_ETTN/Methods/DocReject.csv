@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , PUT                                          
-URL запиту    , ``/api/ettn/eds/doc/reject?company_uuid=97bd6618-71b1-45a2-91b2-fe7b888ca00d&doc_uuid=e64a304b-b0c0-454b-a361-5dc5d6987952&rejected_by=Test%20Test%20Test``
+URL запиту    , **/api/ettn/eds/doc/reject?company_uuid=97bd6618-71b1-45a2-91b2-fe7b888ca00d&doc_uuid=e64a304b-b0c0-454b-a361-5dc5d6987952&rejected_by=Test%20Test%20Test**
 URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
 
 **doc_uuid** (обов'язково) UUID - ідентифікатор документа
