@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    , ``/api/ettn/eds/doc/attachment?doc_uuid=b48aae9a-003a-453f-a40d-46d90181cdc7&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&file_name=wewerwer.gif&file_type=image/gif``
+URL запиту    , **/api/ettn/eds/doc/attachment?doc_uuid=b48aae9a-003a-453f-a40d-46d90181cdc7&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&file_name=wewerwer.gif&file_type=image/gif**
 URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
 
 **doc_uuid** (обов'язково) UUID - ідентифікатор документа
