@@ -40,7 +40,7 @@ extensions = [
 notfound_default_language = 'uk'
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['_templatesN']
 
 # добавил для возможности использования файлов .md
 from recommonmark.parser import CommonMarkParser
@@ -62,7 +62,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Docs'
-copyright = '2019, EDI-N'
+copyright = '2020, EDI-N'
 author = 'EDI-N'
 
 # The version info for the project you're documenting, acts as replacement for
