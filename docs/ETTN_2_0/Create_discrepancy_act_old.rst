@@ -9,7 +9,7 @@
 
 .. сюда закину немного картинок для текста
 
-.. |фільтр| image:: pics_Create_discrepancy_act/Create_discrepancy_act_01n.png
+.. |фільтр| image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_01n.png
 
 .. :underline:`"Чернетки" для ролі "Організатор"`
 
@@ -35,40 +35,40 @@
 
 Для того аби створити "Акт розбіжностей" потрібно перейти до каталогу **"Вхідні"** та обрати підписаний усіма сторонами документ "ЕТТН" (зі статусом "Підписано отримувачем"):
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_02n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_02n.png
    :align: center
 
 У вибраному документі ЕТТН потрібно натиснути на кнопку **"+Створити акт розбіжностей"**: 
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_03n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_03n.png
    :align: center
 
 При створенні документа "Акт розбіжностей" його форма частково автоматично заповнюється даними з "ЕТТН": 
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_04n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_04n.png
    :align: center
 
 В створеній формі потрібно заповнити Номер документу та **"Змінити"** дані в табличній частині (їх також можливо "Додати"):
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_05n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_05n.png
    :align: center
 
 В модальному вікні "Відомостей про вантаж" можливо змінити всі дані і всі вони є обов'язковими до заповнення окрім "Додаткової інформації". Числові значення не можуть бути менші чи рівні нулю.
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_06n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_06n.png
    :align: center
 
 Після того, як форма заповнена документ можливо **"Зберегти"** (документ зберігається, як чернетка):
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_07n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_07n.png
    :align: center
 
 Після збереження документу до "Акту розбіжностей" можливо додати супровідні метеріали через кнопку **"Додати файл"** (назва файлу повинна бути унікальною). Для того щоб видалити доданий файл необхідно натиснути на іконку корзини.
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_08n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_08n.png
    :align: center
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_09n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_09n.png
    :align: center
 
 Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"** (2).
@@ -80,37 +80,37 @@
 
 Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні необхідно додати файловий ключ. Для цього у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_10n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_10n.png
    :align: center
 
 Після чого натиснути кнопку **"Додати"**:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_11n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_11n.png
    :align: center
 
 При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_12n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_12n.png
    :align: center
 
 При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_13n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_13n.png
    :align: center
 
 Після підписання "Акту розбіжностей" інформація щодо підписанта відображається в блоці "Підписанти", а документ можливо **"Надіслати"**:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_14n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_14n.png
    :align: center
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Для відправленого **"Вантажоотримувачем"** "Акта розбіжностей" присвоєно статус "У процесі":
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_15n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_15n.png
    :align: center
 
 Відправлений "Акт розбіжностей" має наступний вигляд:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_16n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_16n.png
    :align: center
 
 На формі "Акта про розбіжностей" у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
@@ -122,15 +122,15 @@
 
 Для того, щоб відхилити документ **"Вантажоотримувачу"** потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_17n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_17n.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_18n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_18n.png
    :align: center
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_19n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_19n.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено"). Документообіг завершено.
@@ -140,12 +140,12 @@
 
 Відправлений з боку **"Вантажоотримувача"** "Акт розбіжностей" відображається в папці "Вхідні".
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_20n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_20n.png
    :align: center
 
 Вхідний підписаний документ можливо "Підтвердити" та "Підписати" чи "Відхилити".
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_21n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_21n.png
    :align: center
 
 **2.1 Підтвердження / Підписання "Акта розбіжностей" "Перевізником"**
@@ -154,15 +154,15 @@
 .. important::
     В залежності від внутрішньої схеми **"Перевізника"** документ перед "Підписанням" може бути "Підтверджений" водієм, (кнопка **"Підтвердити"**) і відповідно цей документ у вхідних змінить свій статус на "Підтверджений", підказка в документі:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_22n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_22n.png
    :align: center
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_23n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_23n.png
    :align: center
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_24n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_24n.png
    :align: center
 
 .. hint::
@@ -170,7 +170,7 @@
 
 Після підписання документ змінить свій статус на "Підписано перевізником", а в інформації про підписантів відобразиться інформація про підписання:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_25n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_25n.png
    :align: center
 
 Після підписання документу "Відхилити" його неможливо.
@@ -180,15 +180,15 @@
 
 Для того, щоб відхилити документ потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_26n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_26n.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_18n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_18n.png
    :align: center
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_27n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_27n.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено"). Документообіг завершено.
@@ -198,12 +198,12 @@
 
 Відправлений та підписаний "Акт розбіжностей" у **"Вантажовідправника"** відображається в папці "Надіслані".
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_28n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_28n.png
    :align: center
 
 Вхідний підписаний документ можливо "Підтвердити" та "Підписати" чи "Відхилити".
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_29n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_29n.png
    :align: center
 
 **3.1 Підтвердження / Підписання "Акта розбіжностей" "Вантажовідправником"**
@@ -212,15 +212,15 @@
 .. important::
     В залежності від внутрішньої схеми **"Вантажовідправника"** документ перед "Підписанням" може бути "Підтверджений" вантажовідправником, (кнопка **"Підтвердити"**) і відповідно цей документ у вхідних змінить свій статус на "Підтверджений", підказка в документі:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_30n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_30n.png
    :align: center
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_31n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_31n.png
    :align: center
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_32n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_32n.png
    :align: center
 
 .. hint::
@@ -228,7 +228,7 @@
 
 Після підписання документ змінить свій статус на "Підписано вантажовідправником", а в інформації про підписантів відобразиться інформація про підписання:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_33n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_33n.png
    :align: center
 
 Відображається інформативна підказка про те, що документообіг завершено. При перегляді документу/-ів, на основі яких було створено "Акт розбіжностей" відображається посилання про прив'язаний акт.
@@ -238,15 +238,15 @@
 
 Для того, щоб відхилити документ потрібно натиснути **"Відхилити"**.
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_34n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_34n.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_18n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_18n.png
    :align: center
 
-.. image:: pics_Create_discrepancy_act/Create_discrepancy_act_35n.png
+.. image:: pics_Create_discrepancy_act_old/Create_discrepancy_act_35n.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку ("Відхилено"). Документообіг завершено.
