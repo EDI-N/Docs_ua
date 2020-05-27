@@ -12,19 +12,21 @@
 
 Відправлена з боку вантажовідправника е-ТТН відображається в папці "Вхідні".
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_01new.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_01.png
    :align: center
 
-Вхідний підписаний документ дозволяє "Підтвердити" / "Підписати" / "Відхилити" документ.
+Вхідний підписаний документ дозволяє "Підтвердити" (1) та "Підписати" (2) чи "Відхилити" (3) документ.
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_02n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_02.png
    :align: center
 
 .. important::
     В залежності від внутрішньої схеми **"Перевізника"** документ перед "Підписанням" може бути "Підтверджений" водієм, (кнопка **"Підтвердити"**) і відповідно цей документ у вхідних змінить свій статус на "Підтверджений водієм", підказка в документі:
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_03n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_03.png
    :align: center
+
+Також в **"Історії змін статусів"** відображається інформація про співробітника, що здійснив "підтвердження".
 
 **Підписання документа**
 ==============================================================
@@ -51,30 +53,35 @@
 .. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_07n.png
    :align: center
 
-Після підписання е-ТТН додається інформація щодо підписантів документа.
+Після підписання е-ТТН додається інформація щодо підписантів документа, документ змінює свій статус на "Підписано перевізником":
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_08n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_08.png
    :align: center
 
-Підписаний документ відображається в журналі вхідних документів зі статусом "Підписано перевізником":
+Підписаний документ відображається в журналі вхідних документів:
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_09new.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_09.png
    :align: center
 
 **Відхилення документа**
 ==============================================================
 
-У **"Перевізника"** є можливість відхилити е-ТТН **до підписання**. Для цього потрібно натиснути на кнопку **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
+У **"Перевізника"** є можливість відхилити е-ТТН **до підписання**. Для цього потрібно натиснути на кнопку **"Відхилити"**:
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_12n.png
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_13.png
    :align: center
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_10n.png
+Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
+
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_12.png
    :align: center
 
-Для відхиленної перевізником е-ТТН присвоєно статус "Відхилено". Документ з цим статусом відображається у "Вхідних" **"Перевізника"**.
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_10.png
+   :align: center
 
-.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_11new.png
+Для відхиленної **"Перевізником"** еТТН присвоюється статус "Відхилено". Також в **"Історії змін статусів"** відображається інформація про співробітника, що здійснив "відхилення". Документ зі статусом "Відхилено" відображається у "Вхідних" **"Перевізника"**. Документообіг завершено.
+
+.. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_11.png
    :align: center
 
 .. include:: kontakti.rst
