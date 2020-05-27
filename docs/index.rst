@@ -34,6 +34,7 @@ EDIN | Електронний документообіг для бізнесу
    ETTN_2_0/ETTN_2_0_list
    integration_ETTN/integration_ETTN_list
    API_ETTN/API_ETTN_list
+   Docs_ETTN/Docs_ETTN_list
 
 .. toctree::
    :maxdepth: 2
