@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , "**/api/auth**"
+**Headers**   ,
+Content-Type  , multipart/form-data                              
+**REQUEST**   ,
+JSON Body     ,"**login** (обов'язково) String - логін користувача; **password** (обов'язково) String - пароль користувача;"
