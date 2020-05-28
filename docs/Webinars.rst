@@ -69,7 +69,7 @@ someddddddddddddddd
 
 .. raw:: html
 
-    <iframe width="100" height="50" align="left"
+    <iframe width="200" height="100" align="left"
     src="https://www.youtube.com/embed/Kt-tLuszKBA"
     frameborder="0" allowfullscreen></iframe>
 
@@ -88,6 +88,29 @@ someddddddddddddddd
 .. raw:: html
 
     <a href="#URL">somebody give this man a gun</a>
-    <div style="position: relative; overflow: hidden;">
-        <iframe src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 45%; height: auto;"></iframe>
+    <iframe width="200" height="100" align="left"
+    src="https://www.youtube.com/embed/Kt-tLuszKBA"
+    frameborder="0" allowfullscreen></iframe>
+
+.. raw:: html
+
+    <a href="#URLd">ddddsomebody give this man a gun</a>
+    <iframe width="200" height="100" align="left"
+    src="https://www.youtube.com/embed/Kt-tLuszKBA"
+    frameborder="0" allowfullscreen></iframe>
+
+tot dfhbfyn
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <a href="#URLsdsd">dddd324345345345n a gun</a>
+    <iframe width="100" height="50" align="left"
+    src="https://www.youtube.com/embed/Kt-tLuszKBA"
+    frameborder="0" allowfullscreen></iframe>
+    <a href="#UsdsLd">ddddasdbody give this man a gun</a>
+    <iframe width="100" height="50" align="left"
+    src="https://www.youtube.com/embed/Kt-tLuszKBA"
+    frameborder="0" allowfullscreen></iframe>
     </div>
+
