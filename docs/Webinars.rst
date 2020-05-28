@@ -20,8 +20,6 @@
         <iframe src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-111111111111 111111111111111111111 11111111111111 11111111111111
-
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 45%; height: auto;">
@@ -49,9 +47,21 @@ some
 
 .. raw:: html
 
+    <a href="URL">somebody give this man a gun</a>
     <iframe width="700" height="315"
     src="https://www.youtube.com/embed/2Mg8QD0F1dQ"
     frameborder="0" allowfullscreen></iframe>
+
+
+someddddddddddddddd
+
+.. raw:: html
+
+    <a class="toc-backref" href="#dogy">Масове завантаження</a>
+    <iframe width="700" height="315"
+    src="https://www.youtube.com/embed/2Mg8QD0F1dQ"
+    frameborder="0" allowfullscreen></iframe>
+
 
 
 
@@ -71,3 +81,13 @@ some
     src="https://www.youtube.com/embed/Kt-tLuszKBA"
     frameborder="0" allowfullscreen></iframe>
 
+
+
+Лучший образец:
+
+.. raw:: html
+
+    <a href="#URL">somebody give this man a gun</a>
+    <div style="position: relative; overflow: hidden;">
+        <iframe src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 45%; height: auto;"></iframe>
+    </div>
