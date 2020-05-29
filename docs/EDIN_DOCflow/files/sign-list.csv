@@ -1,0 +1,6 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , "**/api/sign-list**"
+URL параметри ,"**task_uuid** (обов'язково) - uuid задачі, ідентифікатор отриманий в запиті на отримання документа;"
+**Headers**   ,
+Content-Type  , "application / octet-stream"
