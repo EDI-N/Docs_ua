@@ -23,6 +23,8 @@
         <iframe src="https://www.youtube.com/embed/G2rJIMK-mwU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+---------------------------------------
+
 **Вебінар EDIN з демонстрацією сервісу ЕТТН**
 ********************************************************
 
@@ -31,6 +33,8 @@
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/B4J1vZfEcy8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
+---------------------------------------
 
 **Вебінар по роботі з платформою EDIN-DOCflow**
 ********************************************************
@@ -41,6 +45,8 @@
         <iframe src="https://www.youtube.com/embed/-xxsZDlGKEc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+---------------------------------------
+
 **Вебінар EDIN по роботі з ЕТТН з практичним кейсом від Novus**
 ************************************************************************************
 
@@ -49,6 +55,8 @@
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/VALw28DU4VA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
+---------------------------------------
 
 **Вебінар EDIN "Е-трансформація бізнесу" з представленням практичного кейсу від компанії TerraFood**
 ****************************************************************************************************************
@@ -59,6 +67,8 @@
         <iframe src="https://www.youtube.com/embed/bBT9NeEBwy4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+---------------------------------------
+
 **EDIN - бізнес без паперу**
 ********************************************************
 
@@ -67,6 +77,8 @@
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/f9TeRxUJpGQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
+---------------------------------------
 
 **EDI-провайдер EDIN**
 ********************************************************
