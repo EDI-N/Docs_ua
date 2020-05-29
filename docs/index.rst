@@ -70,7 +70,7 @@ EDIN | Електронний документообіг для бізнесу
    Tender_2_0/Tender_2_0_list
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :caption: Вебінари
    
    Webinars/Videos
