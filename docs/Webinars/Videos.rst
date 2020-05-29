@@ -77,6 +77,4 @@
         <iframe src="https://www.youtube.com/embed/BYz_gCaxcfw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-----------------------
 
-.. include:: kontakti.rst
