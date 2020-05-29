@@ -14,7 +14,7 @@
 
 ---------
 
-**EDI NETWORK**
+**Вебінар по роботі з оновленою платформою EDI NETWORK**
 ===========================================================================
 
 .. raw:: html
@@ -23,7 +23,7 @@
         <iframe src="https://www.youtube.com/embed/G2rJIMK-mwU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**EDIN ЕТТН**
+**Вебінар EDIN з демонстрацією сервісу ЕТТН**
 ===========================================================================
 
 .. raw:: html
@@ -32,7 +32,16 @@
         <iframe src="https://www.youtube.com/embed/B4J1vZfEcy8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**EDIN ЕТТН (Novus)**
+**Вебінар по роботі з платформою EDIN-DOCflow**
+===========================================================================
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/-xxsZDlGKEc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Вебінар EDIN по роботі з ЕТТН з практичним кейсом від Novus**
 ===========================================================================
 
 .. raw:: html
@@ -41,8 +50,8 @@
         <iframe src="https://www.youtube.com/embed/VALw28DU4VA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**"Е-трансформація бізнесу" (TerraFood)**
-===========================================================================
+**Вебінар EDIN "Е-трансформація бізнесу" з представленням практичного кейсу від компанії TerraFood**
+=======================================================================================================
 
 .. raw:: html
 
