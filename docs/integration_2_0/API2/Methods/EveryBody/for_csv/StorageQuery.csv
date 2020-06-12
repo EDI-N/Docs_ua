@@ -1,0 +1,28 @@
+Параметр,Тип_,Формат,Опис
+.. _StorageQuery: ,, Об'єкт **StorageQuery** ,
+**extraParams**, ,List<ExtraQueryParameters_>,масив об'єктів;
+**multiExtraParams**, ,List<ExtraQueryParameters_>,масив об'єктів;
+**type**,M,List<XDocType_>,"масив об'єктів; список типів документів: 0 - всі типи, 1/2/3 ... і більше - конкретний тип документа"
+**statuses**,M,**List<Integer>**,"масив; список статусів (станів) документів, за якими буде відбуватися відбір:    0 - все    1 - open    2 - sent    3 - delivered    4 - inbox    5 - read    6 - error    7 - deleted"
+**tags**, ,**List<Long>**,масив; тег
+**exchangeStatus**,O,**List<Integer>**,масив; статус документообігу
+**docs**, ,**List<Long>**,масив; документи
+**direction**,M,Direction_,"об'єкт; напрямок документообігу; вказуються відправник, отримувач і зв'язок між ними в умовах відбору документів"
+**limit**,O,Limitation_,объект; фільтр відбору (налаштування виводу даних)
+number,O,String,номер документа
+family,O,int,сімейство (EDI / UZD); можливі значення: 1 - edi
+partnerId, ,Long,id роздрібної мережі
+chainHash, ,String,"хеш-значення, отримане в результаті обробки ланцюжка"
+docHash, ,String,"хеш-значення, отримане в результаті обробки документа"
+**docDate**,O,DateTimeRange_,об'єкт; дата зазначена в документі (в форматі UNIX-timestamp) з / по
+**docCreate**,O,DateTimeRange_,об'єкт; дата створення документа (у форматі UNIX-timestamp) з / по
+**docRead**,O,DateTimeRange_,об'єкт; дата прочитання документа (у форматі UNIX-timestamp) з / по
+**docChanged**,O,DateTimeRange_,об'єкт; дата останньої зміни документа (у форматі UNIX-timestamp) з / по
+archive, ,Boolean,відмітка наявності архівної ознаки документа
+important, ,boolean,"відмітка **важливий** документ"
+visible, ,boolean,відмітка видимості
+loadBody, ,boolean,відмітка наявності тіла документа
+loadComments, ,boolean,відмітка наявності коментарів до документа
+loadStatuses, ,boolean,відмітка наявності статусів документа
+loadTags, ,boolean,відмітка наявності тегів документа
+loadChain, ,boolean,відмітка наявності ланцюжка документів
