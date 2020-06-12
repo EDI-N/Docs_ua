@@ -1,0 +1,10 @@
+Параметр,Формат,Опис
+.. _XDocBody: ,**Об'єкт XDocBody** ,
+type,XDocBodyType_ ,"об'єкт; тип тіла документа:
+CONTENT = 1 - зміст в байтах;
+JSON = 2 - зміст в json форматі;
+SIGN = 3 - зміст підпису;
+STAMP = 4;
+CRYPTED = 5 - зміст в зашифрованому вигляді;
+UZDRESPONSE = 6"
+base64content,String,зміст тіла документа в BASE64
