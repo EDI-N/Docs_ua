@@ -2,7 +2,7 @@
 **Отримання переліку всіх мереж, пов'язаних з авторизованим користувачем**
 ##########################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: Allretailers.csv
