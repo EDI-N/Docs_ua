@@ -1,5 +1,5 @@
 #############################################################
-**Дані документа (об'єкт XDoc)**
+**Дані документів (масив об'єктів XDoc)**
 #############################################################
 
 **JSON:**
@@ -7,55 +7,66 @@
 .. code:: json
 
     {
-      "attachments": [],
-      "body": {
-        "forms": {
-          "json": {
-            "type": {
-              "id": 2,
-              "name": "json"
+        "items": [
+            {
+                "body": {
+                    "forms": {}
+                },
+                "attachments": [],
+                "comments": [],
+                "doc_id": 1017,
+                "doc_uuid": "e18a05d5-983b-4ebc-95f3-c35eccc7d611",
+                "uuidSender": "4820128010004",
+                "uuidReceiver": "9864065702429",
+                "docNumber": "8663c3f48bea4f96a281238e847b1639",
+                "dateCreated": 1549961913,
+                "dateChanged": 1549961913,
+                "dateRead": 0,
+                "docDate": 1547503200,
+                "chain_id": 1006,
+                "chain_uuid": "60e487d3-871f-4b3a-9254-1d3f0e7a032f",
+                "family": 1,
+                "hash": "30745386780343D0C2F4C65C7F06D60F",
+                "type": {
+                    "type": 1,
+                    "title": "invoice",
+                    "description": "Счет"
+                },
+                "status": {
+                    "status": 4,
+                    "title": "inbox"
+                },
+                "exchange_status": "000000000000000000000000",
+                "is_archive": false,
+                "extraFields": {
+                    "order_date": "1551477600",
+                    "delivery_date": "1547503200",
+                    "ftpex_file_name": "highload_invoice_test.xml",
+                    "sender": "4820128010004",
+                    "buyer_uuid": "4820128010004",
+                    "doc_num": "8663c3f48bea4f96a281238e847b1639",
+                    "order_number": "747401",
+                    "doc_date": "1547503200",
+                    "recipient": "9864065702429",
+                    "ftpex_file_date": "1549961913",
+                    "supplier_uuid": "9864065702429",
+                    "delivery_place_uuid": "4820128019007"
+                },
+                "tags": [],
+                "statuses": [],
+                "multiExtraFields": {}
             }
-          }
-        }
-      },
-      "chain_id": 0,
-      "comments": [],
-      "dateChanged": 0,
-      "dateCreated": 1574421527,
-      "dateRead": 0,
-      "docDate": 1565211600,
-      "docNumber": "2019-08-08-TEST-001",
-      "doc_id": 143,
-      "doc_uuid": "6ffc8dfa-1cd5-4137-82cf-29b5969c2e74",
-      "extraFields": {
-        "basis_doc_date": "1565211600",
-        "basis_doc_number": "1",
-        "basis_doc_subtype": "007",
-        "doc_date": "1565211600",
-        "doc_num": "2019-08-08-TEST-001",
-        "order_number": "1",
-        "recipient": "9864232319979",
-        "sender": "9864232319962",
-        "sub_doc_type_id": "006"
-      },
-      "family": 1,
-      "hash": "D4733FDDDEBE23B4E38DC5F257604234",
-      "is_archive": false,
-      "multiExtraFields": {},
-      "status": {
-        "status": 1,
-        "title": "open"
-      },
-      "statuses": [],
-      "tags": [],
-      "type": {
-        "description": "Коммерческий документ",
-        "title": "comdoc",
-        "type": 28
-      },
-      "uuidReceiver": "9864232319979",
-      "uuidSender": "9864232319962"
+        ],
+        "totalCount": 0
     }
+
+Таблиця 0 - Опис параметрів **відповіді**
+
+.. csv-table:: 
+  :file: for_csv/XDoc+.csv
+  :widths:  1, 19, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 Таблиця 1 - Опис параметрів об'єкта **XDoc**
 
@@ -174,5 +185,4 @@
   :widths:  1, 60
   :header-rows: 1
   :stub-columns: 0
-
 
