@@ -1,0 +1,31 @@
+Параметр, Формат, Опис
+.. _Identificator:, Об'єкт **Identificator**,
+guid, String, GUID організації
+taxNum, String, Податковий ідентифікаційний номер; рядок 50 символів
+ndsNum, String, № свідоцтва ПДВ; рядок 50 символів
+manager, String, ПІБ менеджера; рядок 100 символів
+accountant, String, ПІБ бухгалтера; рядок 100 символів
+id, long, ID користувача
+gln, String, "GLN організації, яка пов'язана з авторизованим користувачем?; рядок 13 символів"
+companyId, long, id аккаунта; число
+retailerId, long, id мережі (ритейлера); число
+name, String, назва організації; рядок 100 символів
+companyType, String, "форма власності; рядок 5 символів; jur - Юридична особа, fiz - Фізична особа"
+companyInn, String, код ІПН компанії; рядок 50 символів
+companyKpp, String, код ЄДРПОУ/КПП; рядок 50 символів
+companyOgrn, String, Основний Державний Реєстраційний Номер; рядок 15 символів
+companyTaxDepartmentID, String, ідентифікатор відділення податкової інспекції
+dirLastName, String, прізвище директора; рядок 150 символів
+dirFirstName, String, ім'я директора; рядок 150 символів
+apartment, String, квартира; рядок 20 символів
+zip, String, поштовий індекс; рядок 20 символів
+city, String, місто; рядок 50 символів
+street, String, назва вулиці; рядок 100 символів
+regionCode, String, код регіону; рядок 3 символу
+bankName, String, назва банку; рядок 100 символів
+bankMfo, String, "МФО банку, код-реквізит банку"
+phone, String, № телефону; рядок 50 символів
+bankAccount, String, розрахунковий рахунок банку; рядок 50 символів
+otherInfo, String, коментарі
+email, String, E-mail; рядок 255 символів
+metroCode, String, код точки доставки; рядок 20 символів
