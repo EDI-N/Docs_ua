@@ -4,7 +4,6 @@
 .. toctree::
    :maxdepth: 1
    
-   API/API_list
    APIv2/APIv2_list
    SOAP
    FTP
