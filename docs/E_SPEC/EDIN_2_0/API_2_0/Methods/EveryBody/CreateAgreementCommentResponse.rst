@@ -6,14 +6,13 @@
 
 .. code:: json
 
- {
-  "docId": 0,
-  "date": 0,
-  "user": "uatestuserfx01",
-  "comment": "helloworld"
- }
+	{
+	  "docId": 0,
+	  "date": 0,
+	  "user": "uatestuserfx01",
+	  "comment": "helloworld"
+	}
  
-
 
 Таблиця 1 - Опис параметрів
 

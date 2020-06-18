@@ -2,4 +2,3 @@
 .. _XAgreemDocStatus: , Об'єкт **XAgreemDocStatus** ,
 id,int,id статусу
 name,String,назва статусу
-

@@ -136,6 +136,7 @@
   :header-rows: 1
   :stub-columns: 0
 
+
 Таблиця 2 - Опис параметрів
 
 .. csv-table:: 
