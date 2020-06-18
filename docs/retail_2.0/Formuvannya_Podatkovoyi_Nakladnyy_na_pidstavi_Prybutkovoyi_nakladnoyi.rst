@@ -156,9 +156,12 @@
 .. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_11n.png
    :align: center
 
-3.4 Після розшифровки текст квитанції стане доступний для читання. Її можна вивантажити в форматі **.rpl** (можливе завантаження в M.E.Doc), **.pdf**, а також роздрукувати.
+3.4 Після розшифровки текст квитанції стане доступний для читання. Її можна завантажити в форматі **.pdf**, а також роздрукувати.
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_12n.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_23n.png
+   :align: center
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_24n.png
    :align: center
 
 .. include:: kontakti.rst
