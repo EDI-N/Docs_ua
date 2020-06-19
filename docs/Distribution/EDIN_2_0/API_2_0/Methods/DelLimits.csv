@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , DELETE                                          
-URL запиту    , ``/api/distribex/limits?gln=9864065732303&d_gln=9864065732327``
+URL запиту    , **/api/distribex/limits?gln=9864065732303&d_gln=9864065732327**
 URL параметри ,"**gln** (обов'язково) String - GLN Виробника
 
 **d_gln** (обов'язково) String - GLN Дистриб'ютора"

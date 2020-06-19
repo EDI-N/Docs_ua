@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , GET                                          
-URL запиту    , ``/api/distribex/quotas?gln=9864065732303&d_gln=9864065732334&barcode=4820022867421``
+URL запиту    , **/api/distribex/quotas?gln=9864065732303&d_gln=9864065732334&barcode=4820022867421**
 URL параметри ,"**gln** (обов'язково) String - GLN Виробника
 
 **d_gln** (обов'язково) String - GLN Дистриб'ютора
