@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    , ``/api/distribex/pricelist?gln=9864065732303``
+URL запиту    , **/api/distribex/pricelist?gln=9864065732303**
 URL параметри ,"**gln** (обов'язково) String - GLN Виробника"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
