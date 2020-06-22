@@ -5,7 +5,9 @@ URL параметри ,"**gln** (обов'язково) String - GLN Вироб
 
 **d_gln** (обов'язково) String - GLN Дистриб'ютора
 
-**barcode** (обов'язково) String - штрихкод товару"
+**barcode** (обов'язково) String - штрихкод товару
+
+**article** (обов'язково) String - артикул товару"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
 Content-Type  , application/json                              
