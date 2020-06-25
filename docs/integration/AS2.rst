@@ -24,10 +24,14 @@ AS2 Сертифікування
 
 **Сертифікати** використовуються при передачі даних по https, а також для їх шифрування (додаткового в разі передачі по https).
 
-Повний ланцюжок сертифікатів, необхідний для встановлення зв'язку: **root - intermedia - edin**
+Повний ланцюжок сертифікатів, необхідний для встановлення зв'язку (**root - intermedia - edin**):
 
+:download:`root-intermedia-edin сертифікат<edin.ua.full_chain.pem>`
+
+
+
+
+.. раніше були три окремих сертифікати (тепер повний ланцюжок)
 :download:`Root сертифікат - DigiCert_Global_Root_CA.crt<DigiCert_Global_Root_CA.crt>`
-
 :download:`Сертифікат Intermediate CA - Intermediate_CA.crt<Intermediate_CA.crt>`
-
 :download:`Вкладений сертифікат EDI-N (Organization Validation) - OV_edi-n.com.crt<OV_edi-n.com.crt>`

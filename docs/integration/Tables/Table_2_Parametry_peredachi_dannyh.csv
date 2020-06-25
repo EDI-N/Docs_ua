@@ -1,6 +1,6 @@
 **Опис**,**Значення**,**Коментар**
 ,**Передача даних з EDI-N**,
-URL for AS2 connection,https://as2.edi-n.com/as2/HttpReceiver,URL (Encoding set applied)
+URL for AS2 connection,https://as2.edin.ua/as2/HttpReceiver,URL (Encoding set applied)
 IP address,91.194.88.14,Required for firewall
 Port,"80, 443",Required for firewall
 Transport,"https, http",http recommended
