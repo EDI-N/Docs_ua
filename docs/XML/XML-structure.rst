@@ -107,7 +107,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_005<examples/comdoc_005_example.xml>`
+:download:`Приклад COMDOC_005<examples/comdoc_005_example.xml>`
 
 ---------
 
@@ -121,7 +121,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_006<examples/comdoc_006_example.xml>`
+:download:`Приклад COMDOC_006<examples/comdoc_006_example.xml>`
 
 ---------
 
@@ -135,7 +135,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_007<examples/comdoc_007_example.xml>`
+:download:`Приклад COMDOC_007<examples/comdoc_007_example.xml>`
 
 ---------
 
@@ -149,7 +149,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_008<examples/comdoc_008_example.xml>`
+:download:`Приклад COMDOC_008<examples/comdoc_008_example.xml>`
 
 ---------
 
@@ -175,7 +175,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_011<examples/comdoc_011_example.xml>`
+:download:`Приклад COMDOC_011<examples/comdoc_011_example.xml>`
 
 ---------
 
@@ -189,7 +189,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_012<examples/comdoc_012_example.xml>`
+:download:`Приклад COMDOC_012<examples/comdoc_012_example.xml>`
 
 ---------
 
@@ -203,7 +203,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_013<examples/comdoc_013_018_example.xml>`
+:download:`Приклад COMDOC_013<examples/comdoc_013_018_example.xml>`
 
 ---------
 
@@ -217,7 +217,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_016<examples/comdoc_016_example.xml>`
+:download:`Приклад COMDOC_016<examples/comdoc_016_example.xml>`
 
 ---------
 
@@ -231,7 +231,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_018<examples/comdoc_013_018_example.xml>`
+:download:`Приклад COMDOC_018<examples/comdoc_013_018_example.xml>`
 
 ---------
 
@@ -245,7 +245,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_019<examples/comdoc_anuluvannya.xml>`
+:download:`Приклад COMDOC_019<examples/comdoc_anuluvannya.xml>`
 
 ---------
 
@@ -259,7 +259,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_021<examples/comdoc_021_example.xml>`
+:download:`Приклад COMDOC_021<examples/comdoc_021_example.xml>`
 
 ---------
 
@@ -273,7 +273,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_022<examples/comdoc_022_example.xml>`
+:download:`Приклад COMDOC_022<examples/comdoc_022_example.xml>`
 
 ---------
 
@@ -287,7 +287,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_023<examples/comdoc_023_example.xml>`
+:download:`Приклад COMDOC_023<examples/comdoc_023_example.xml>`
 
 ---------
 
@@ -301,7 +301,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_024<examples/comdoc_024_example.xml>`
+:download:`Приклад COMDOC_024<examples/comdoc_024_example.xml>`
 
 ---------
 
@@ -315,7 +315,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_025<examples/comdoc_025_example.xml>`
+:download:`Приклад COMDOC_025<examples/comdoc_025_example.xml>`
 
 ---------
 
@@ -329,7 +329,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_026<examples/comdoc_026_example.xml>`
+:download:`Приклад COMDOC_026<examples/comdoc_026_example.xml>`
 
 ---------
 
@@ -343,7 +343,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_027<examples/comdoc_027_example.xml>`
+:download:`Приклад COMDOC_027<examples/comdoc_027_example.xml>`
 
 ---------
 
@@ -357,7 +357,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_028<examples/comdoc_028_example.xml>`
+:download:`Приклад COMDOC_028<examples/comdoc_028_example.xml>`
 
 ---------
 
@@ -371,7 +371,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_029<examples/comdoc_029_example.xml>`
+:download:`Приклад COMDOC_029<examples/comdoc_029_example.xml>`
 
 ---------
 
@@ -385,7 +385,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_030<examples/comdoc_030_example.xml>`
+:download:`Приклад COMDOC_030<examples/comdoc_030_example.xml>`
 
 ---------
 
@@ -399,7 +399,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Пример COMDOC_031<examples/comdoc_031_example.xml>`
+:download:`Приклад COMDOC_031<examples/comdoc_031_example.xml>`
 
 ---------
 
@@ -692,3 +692,35 @@ XML Специфікації
   :file: files/CONTRL.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+---------
+
+Повідомлення про штрафні санкції (ORDRPT)
+=============================================
+
+.. csv-table:: Повідомлення про штрафні санкції (ORDRPT) 
+  :file: files/ORDRPT.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад ORDRPT<examples/ORDRPT_example.xml>`
+
+---------
+
+Акт виконаних робіт (DOCINVOICEACT)
+=============================================
+
+.. csv-table:: Акт виконаних робіт (DOCINVOICEACT)
+  :file: files/DOCINVOICEACT.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад DOCINVOICEACT<examples/DOCINVOICEACT_example.xml>`
+
+
+
+
+
+
+
+
