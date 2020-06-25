@@ -28,10 +28,3 @@ AS2 Сертифікування
 
 :download:`root-intermedia-edin сертифікат<edin.ua.full_chain.pem>`
 
-
-
-
-.. раніше були три окремих сертифікати (тепер повний ланцюжок)
-:download:`Root сертифікат - DigiCert_Global_Root_CA.crt<DigiCert_Global_Root_CA.crt>`
-:download:`Сертифікат Intermediate CA - Intermediate_CA.crt<Intermediate_CA.crt>`
-:download:`Вкладений сертифікат EDI-N (Organization Validation) - OV_edi-n.com.crt<OV_edi-n.com.crt>`
