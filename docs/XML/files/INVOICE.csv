@@ -4,8 +4,8 @@ DOCUMENTNAME, М, Рядок (16), Назва документа (380 - Раху
 NUMBER, М, Рядок (16), Номер рахунку
 DATE, М, Дата (РРРР-ММ-ДД), Дата створення рахунку
 INVOICETYPE, М, Число (1),"Тип документа: 0-Оригінал, 1-Коригування"
-INVOICENUMBER, М/O, Рядок (16), "Номер рахунку; поле обов'язкове до заповнення при INVOICETYPE=1"
-INVOICEDATE, М/O, Дата (РРРР-ММ-ДД), "Дата рахунку; поле обов'язкове до заповнення при INVOICETYPE=1"
+INVOICENUMBER, М/-, Рядок (16), "Номер рахунку; поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+INVOICEDATE, М/-, Дата (РРРР-ММ-ДД), "Дата рахунку; поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
 DELIVERYDATE, М, Дата (РРРР-ММ-ДД), Дата поставки
 DELIVERYTIME, O, Час (год: хв), Час поставки
 CURRENCY, М, Рядок (3), Код валюти
@@ -76,21 +76,21 @@ POSITIONNUMBER, М,"Число * 1, 100 +", Номер позиції.
 PRODUCT, М,"Число (8, 10, 14)", Штрих-код продукту
 PRODUCTIDSUPPLIER, О, Рядок (16), Артикул в БД постачальника
 PRODUCTIDBUYER, О, Рядок (16), Артикул в БД покупця
-INVOICEDQUANTITYBEFORE, О, Число позитивне, "Кількість в 'Оригіналі' (INVOICETYPE=0)"
-INVOICEDQUANTITYAFTER, О, Число позитивне, "Кількість в 'Коригуванні' (INVOICETYPE=1)"
+INVOICEDQUANTITYBEFORE, M/-, Число позитивне, "Кількість в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+INVOICEDQUANTITYAFTER, M/-, Число позитивне, "Кількість в 'Коригуванні' (INVOICETYPE=1); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
 BUYERPARTNUMBER, О, Рядок (16), внутрішній системний номер артикулу в БД покупця
 PRODINN, O, Число позитивне, ІПН виробника/імпортера
 INVOICEDQUANTITY, М/-, Число позитивне, Кількість за рахунком; поле не заповнюється при INVOICETYPE=1
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
 INVOICEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
-UNITPRICEBEFORE, O, Число позитивне, "Ціна без НДС в 'Оригіналі' (INVOICETYPE=0)"
-UNITPRICEAFTER, O, Число позитивне, "Ціна без НДС в 'Коригуванні' (INVOICETYPE=1)"
-GROSSPRICEBEFORE, O, Число позитивне, "Ціна з НДС в 'Оригіналі' (INVOICETYPE=0)"
-GROSSPRICEAFTER, O, Число позитивне, "Ціна з НДС в 'Коригуванні' (INVOICETYPE=1)"
-AMOUNTWITHVATBEFORE, O, Число позитивне, "Сума з НДС товару в 'Оригіналі' (INVOICETYPE=0)"
-AMOUNTWITHVATAFTER, O, Число позитивне, "Сума з НДС товару в 'Коригуванні' (INVOICETYPE=1)"
-AMOUNTBEFORE, O, Число позитивне, "Сума товару в 'Оригіналі' (INVOICETYPE=0)"
-AMOUNTAFTER, O, Число позитивне, "Сума товару в 'Коригуванні' (INVOICETYPE=1)"
+UNITPRICEBEFORE, M/О, Число позитивне, "Ціна без НДС в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1"
+UNITPRICEAFTER, M/О, Число позитивне, "Ціна без НДС в 'Коригуванні' (INVOICETYPE=1); поле обов'язкове до заповнення при INVOICETYPE=1"
+GROSSPRICEBEFORE, M/-, Число позитивне, "Ціна з НДС в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+GROSSPRICEAFTER, M/-, Число позитивне, "Ціна з НДС в 'Коригуванні' (INVOICETYPE=1); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+AMOUNTWITHVATBEFORE, M/-, Число позитивне, "Сума з НДС товару в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+AMOUNTWITHVATAFTER, M/-, Число позитивне, "Сума з НДС товару в 'Коригуванні' (INVOICETYPE=1); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+AMOUNTBEFORE, M/-, Число позитивне, "Сума товару в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
+AMOUNTAFTER, M/-, Число позитивне, "Сума товару в 'Коригуванні' (INVOICETYPE=1); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"
 UNITPRICE, М/-, Число десяткове, Ціна за одиницю (без ПДВ); поле не заповнюється при INVOICETYPE=1
 ADVICEPRICE, O, Число десяткове, Рекомендована ціна (державою)
 GROSSPRICE, O/-, Число десяткове, Ціна за одиницю з ПДВ; поле не заповнюється при INVOICETYPE=1
