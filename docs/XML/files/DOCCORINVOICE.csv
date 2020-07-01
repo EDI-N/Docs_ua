@@ -1,7 +1,7 @@
 НАЗВА ПОЛЯ, ТИП, ФОРМАТ, ОПИС
 **Document-Invoice**,,, Початок документа
 **Invoice-Header**, М,, Початок основного блоку
-InvoiceNumber, М, Число (15), номер ТН (номер RECADV)
+InvoiceNumber, М, Число (15), номер ТН
 InvoiceDate, М, Дата (РРРР-ММ-ДД), дата ТН
 InvoiceCurrency, М, Рядок (3), валюта
 InvoicePostDate, O, Дата (РРРР-ММ-ДД), дата відправки ТН
