@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , PUT                                          
-URL запиту    , ``/api/distribex/pricelist?gln=9864065732303&gln_id=13200793``
+URL запиту    , **/api/distribex/pricelist?gln=9864065732303&gln_id=13200793**
 URL параметри ,"**gln** (обов'язково) String - GLN Виробника
 
 **gln_id** (обов'язково) String - ідентифікатор Дистриб'ютора"

@@ -1,5 +1,6 @@
 **AS2 рішення**,Mendelson AS2
 **Провайдер AS2**,EDI-N
 **Операційна система**,CentOS
-**AS2 Identifier (AS2_ID)**,"Production: EDI-N;
-Test: EDI-N-TEST"
+**AS2 Identifier (AS2_ID)**,"Production: **EDIN**;
+
+Test: **EDIN_TEST**"

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+ <Document-Invoice>
+		<Invoice-Header>
+			<InvoiceNumber>5600050</InvoiceNumber>
+			<InvoiceDate>2020-01-21</InvoiceDate>
+			<InvoiceTime>13:40</InvoiceTime>
+			<DocumentFunctionCode>C</DocumentFunctionCode>
+			<ContractType>C-01</ContractType>
+			<ContractNumber>112/20/365921</ContractNumber>
+			<ContractDate />
+		</Invoice-Header>
+		<Invoice-References>
+			<Invoice>
+				<OriginalInvoiceNumber />
+				<OriginalInvoiceDate />
+			</Invoice>
+			<TaxInvoice>
+				<TaxInvoiceNumber>5670250</TaxInvoiceNumber>
+				<PromotionDealNumber />
+				<SalesDepartmentNumber />
+				<TaxInvoiceDate>2020-01-21</TaxInvoiceDate>
+				<CorrectionTaxInvoiceNumber />
+				<CorrectionPromotionDealNumber />
+				<CorrectionSalesDepartmentNumber />
+				<CorrectionTaxInvoiceDate />
+			</TaxInvoice>
+		</Invoice-References>
+		<Invoice-Parties>
+			<Buyer>
+				<ILN>4824000030349</ILN>
+				<CodeBySeller>20054</CodeBySeller>
+				<Name>ПЛЮС ТОВ </Name>
+				<StreetAndNumber />
+				<UtilizationRegisterNumber>32000076</UtilizationRegisterNumber>
+				<ContactInformation>
+					<ContactFunction />
+					<ManagingPerson />
+					<ManagingPersonFather />
+					<PhoneNumber />
+				</ContactInformation>
+			</Buyer>
+			<Seller>
+				<ILN>4820080000009</ILN>
+				<TaxID>100000847</TaxID>
+				<Name>ТОВ "МЕТРО КЕШ ЕНД КЕРІ УКРАЇНА"</Name>
+				<StreetAndNumber>пр-т Петра Григоренка, 43</StreetAndNumber>
+				<CityName>м.Київ</CityName>
+				<PostalCode>02140</PostalCode>
+				<Country>Україна</Country>
+				<VatPayerCertificate>320490026510</VatPayerCertificate>
+				<UtilizationRegisterNumber>32000199</UtilizationRegisterNumber>
+				<FinancialInformation>
+					<BankIdentifierCode>380805</BankIdentifierCode>
+					<BankAccount>26000009987</BankAccount>
+					<BankName>АТ "Райффайзен Банк Аваль"</BankName>
+					<IBAN>UA000808050000000026004439987</IBAN>
+				</FinancialInformation>
+				<ContactInformation>
+					<ContactFunction />
+					<ManagingPerson />
+					<ManagingPersonFather />
+				</ContactInformation>
+			</Seller>
+		</Invoice-Parties>
+		<Invoice-Lines>
+			<Line>
+				<Line-Item>
+					<LineNumber>1</LineNumber>
+					<ServiceName>Послуги по організації просування товарів Постачальника</ServiceName>
+					<UnitOfMeasure>грн.</UnitOfMeasure>
+					<UnitNetPrice>-8000020</UnitNetPrice>
+					<UnitGrossPrice>-9600024</UnitGrossPrice>
+					<TaxRate>20%</TaxRate>
+					<TaxCategoryCode/>
+					<NetAmount>-8000020</NetAmount>
+					<GrossAmount>-9600424</GrossAmount>
+					<TaxAmount>-1600004</TaxAmount>
+				</Line-Item>
+			</Line>
+		</Invoice-Lines>
+		<Invoice-Summary>
+			<TotalLines>1</TotalLines>
+			<TotalNetAmount>-8000020</TotalNetAmount>
+			<TotalGrossAmount>-9600424</TotalGrossAmount>
+			<TotalTaxAmount>-1600004</TotalTaxAmount>
+		</Invoice-Summary>
+	</Document-Invoice>
