@@ -10,6 +10,11 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   
+   WHAT'S NEW
+
+.. toctree::
+   :maxdepth: 2
    :caption: EDIN
    
    general/general_list
@@ -61,6 +66,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: EDIN_DOCflow
 
    EDIN_DOCflow/EDIN_DOCflow_list
+   DOCflow_integration/DOCflow_integration_list
    API_DOCflow/API_DOCflow_list
 
 .. toctree::
