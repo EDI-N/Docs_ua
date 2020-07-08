@@ -11,7 +11,7 @@ EDIN | Електронний документообіг для бізнесу
 .. toctree::
    :maxdepth: 2
    
-   WHAT'S NEW
+   WHATS_NEW
 
 .. toctree::
    :maxdepth: 2
