@@ -9,7 +9,7 @@ EDIN | Електронний документообіг для бізнесу
 Зміст:
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
    
    WHATS_NEW
 
