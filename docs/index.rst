@@ -15,15 +15,6 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN
-   
-   general/general_list
-   retail/retail_list
-   integration/integration_list
-   XML/XML-structure.rst
-
-.. toctree::
-   :maxdepth: 2
    :caption: EDIN 2.0
 
    general_2_0/general_2_0_list
@@ -31,6 +22,15 @@ EDIN | Електронний документообіг для бізнесу
    integration_2_0/integration_2_0_list
    XML/XML-structure
    XML/Fozzy_XML-structure
+
+.. toctree::
+   :maxdepth: 2
+   :caption: EDIN
+   
+   general/general_list
+   retail/retail_list
+   integration/integration_list
+   XML/XML-structure.rst
 
 .. toctree::
    :maxdepth: 2
