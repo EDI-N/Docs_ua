@@ -11,6 +11,7 @@ box_weight,String,"вага коробки, кг"
 box_in_layer,String,"кількість коробок в шарі, шт."
 box_in_palette,String,"кількість коробок на палеті, шт."
 palette_weight,String,"вага палети, кг"
+producer_code,String,код Виробника
 id,long,ідентифікатор запису
 date_changed,long,дата внесених змін в дані товару
 producer_id,long,ідентифікатор Виробника
