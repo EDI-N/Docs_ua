@@ -7,14 +7,11 @@
 5,ordrsp,`Підтвердження замовлення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#ordrsp>`__
 6,pricat,`Прайс-лист <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#pricat>`__
 7,comdis,`Комерційна дискусія <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#comdis>`__
-9,act,`Акт виконаних робіт <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#act>`__
 10,declar,`Податкова накладна <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declar>`__
 11,insdes,`Інструкція з доставки <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#insdes>`__
-12,desscc,`Повідомлення про відвантаження для розподільного центру <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#desscc>`__
 13,slsrpt,`Звіт про продажі <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#slsrpt>`__
 14,invrpt,`Звіт про інвентаризацію <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#invrpt>`__
 15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#coacsu>`__
-16,actset,`Акт взаємозаліку <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#actset>`__
 17,iftmin,`Інструкція про транспортування <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#iftmin>`__
 18,retann,`Повідомлення про повернення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#retann>`__
 19,iftmbf,`Замовлення транспортування <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#iftmbf>`__
