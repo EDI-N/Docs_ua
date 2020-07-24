@@ -122,6 +122,19 @@
 .. image:: pics_massovi_operacii/massovi_operacii_z_documentamy_09.png
    :align: center
 
+Звіт "Консолідоване замовлення"
+====================================
+
+Створення звіту "Консолідоване замовлення" можливо виконати в папках "Вхідні" та "Надіслані": для цього потрібно обрати кілька "Замовлень" (`ORDER <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#order>`__) (1) та в **"Масових операціях"** (2) обрати **"Звіт "Консолідоване замовлення" в Excel"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_z_documentamy_11.png
+   :align: center
+
+.. image:: pics_massovi_operacii/massovi_operacii_z_documentamy_12.png
+   :align: center
+
+В результаті завантажується xls-файл з усіма товарними позиціями в обраних "Замовленнях" (однакові позиції об'єднуються по штрих-коду, а їх кількість сумується).
+
 .. include:: kontakti.rst
 
 
