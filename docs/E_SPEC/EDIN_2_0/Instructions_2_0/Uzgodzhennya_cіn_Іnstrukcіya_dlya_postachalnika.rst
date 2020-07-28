@@ -144,12 +144,6 @@
 .. image:: pics_E_Spec_Іnstrukcіya_dlya_postachalnika/pics_Іnstrukcіya_dlya_postachalnika_12.png
    :align: center
 
-
-
-
-
-
-
 Зв'язок з мережею
 ------------------------------------
 
