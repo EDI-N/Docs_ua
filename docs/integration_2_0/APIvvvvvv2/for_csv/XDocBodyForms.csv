@@ -1,3 +1,0 @@
-Параметр,Формат,Опис
-.. _XDocBodyForms: ,**Об'єкт XDocBodyForms** ,
-forms,"HashMap<String, XDocBody_>",масив об'єктів; тіло документа
