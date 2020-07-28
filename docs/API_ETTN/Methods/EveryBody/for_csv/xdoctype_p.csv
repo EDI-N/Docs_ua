@@ -21,7 +21,6 @@
 28,comdoc,`Комерційний документ <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#comdoc>`__
 29,declarj12,`Коригування до податкової накладної <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declarj12>`__
 30,condra,`Не структурований документ <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#condra>`__
-32,reestr,`Реєстр <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#reestr>`__
 40,prodlist,`Електронна специфікація <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#productlist>`__
 41,agreem,`Товарне узгодження <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#agreem>`__
 42,iftmbc,`Підтвердження замовлення транспортування <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#iftmbc>`__
