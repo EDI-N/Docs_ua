@@ -15,31 +15,28 @@
 
 Для авторизації на платформі перейдіть за посиланням http://doc.edi-n.com/auth та введіть свої логін = email і пароль на формі авторизації. Детальна інформація з авторизації міститься в  `«Інструкції з авторизації»`_.
 
-.. _«Інструкції з авторизації»: https://wiki.edi-n.com/ru/latest/services/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
+.. _«Інструкції з авторизації»: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
 
 2 Завантаження сертифіката
 ---------------------------
 
-Для завантаження сертифіката перейдіть до розділу меню «Особистий кабінет» – «Сертифікати» та натисніть «Завантажити сертифікат»:
+Для завантаження сертифіката перейдіть до розділу меню «Безпека» – «Сертифікати бепеки» та натисніть «Завантажити сертифікат»:
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto1-3.png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_01.png
    :align: center
 
 Система повідомить про успішне завантаження, після чого сертифікат з’явиться у переліку
 завантажених сертифікатів. За сертифікатом відображатиметься серійний номер, код ЄДРПОУ
 організації, назва та дата закінчення дії. Завантаження сертифікатів після закінчення строку їх дії блокується системою.
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto2-3.png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_02.png
    :align: center
 
 Для перегляду детальнішої інформації за сертифікатом натисніть на його серійний номер:
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto3-3.png
-   :align: center
-
 Для повернення з форми деталізації до переліку сертифікатів натисніть на кнопку «Назад»:
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto4-3.png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_003.png
    :align: center
 
 **2.1 Налаштування зв’язку з сертифікатом**
@@ -47,10 +44,10 @@
 Для налаштування зв’язку сертифіката з конкретною компанією виберіть на навігаційній панелі меню «Налаштування компанії» – «Мої компанії», відкрийте форму обробки компанії, натиснувши на її назву, та перейдіть до розділу «Сертифікати».
 Наступним кроком натисніть «Додати зв’язок» та «Прив’язати», обравши сертифікат з переліку доступних, що відображені системою:
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto5-3.1.png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_04.png
    :align: center
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto6-3.1png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_05.png
    :align: center
 
 Опція завантажити сертифікат присутня також безпосередньо у формі налаштування зв’язку. Для завантаження сертифіката натисніть «Завантажити сертифікат» або «Завантажити новий».
@@ -59,17 +56,14 @@
 
 Для видалення сертифіката натисніть на кнопку «Кошик» напроти обраного сертифіката:
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto7-3.2.png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_06.png
    :align: center
 
-Для одночасного видалення декількох сертифікатів відмітьте обрані для видалення сертифікати та натисніть кнопку «Видалити виділені»:
-
-.. image:: pics_instruktsia-po-shifrovaniu/foto8-3.2.png
-   :align: center
+Для одночасного видалення декількох сертифікатів відмітьте обрані для видалення сертифікати та натисніть кнопку «Видалити виділені».
 
 Опція видалення доступна також безпосередньо у формі детальної інформації за сертифікатом:
 
-.. image:: pics_instruktsia-po-shifrovaniu/foto9-3.2.png
+.. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_07.png
    :align: center
 
 Інформація шодо підписання шифрованих документів та додавання шифрованих документів описана в інструкції `Підписання шифрованих документів <https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-nastroyka-ecp.html#id10>`__ .
