@@ -305,7 +305,7 @@
 
 Наступним кроком введіть опис структури документа у форматі JSON, оберіть кодування xml для документа і натисніть «Зберегти»:
 
-.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_04.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_06.png
    :align: center
 
 Система повідомить про успішне збереження відповідним повідомленням. Під час збереження опису структури відбувається перевірка валідності внесених даних на відповідність формату JSON та перевірка на дублі. 

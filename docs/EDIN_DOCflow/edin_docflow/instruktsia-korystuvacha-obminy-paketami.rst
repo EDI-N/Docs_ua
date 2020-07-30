@@ -678,7 +678,7 @@
 ----------------------------------------
 У підписаних документах без шифрування та у форматі PDF відображається візуалізація ЕЦП у листі підписання при скачуванні архіва.
 
-Обовязкова умова - увімкнути ознаку "Відображати штамп ЕЦП" для документу,  детальніше - у пункті `Налаштування доступу для провайдера`_.
+Обовязкова умова - увімкнути ознаку "Відображати штамп ЕЦП" для документу,  детальніше - у пункті `Відображення штампу ЕЦП у листі підписання`_.
 
 Внизу сторінки листа підпису буде відображено штамп "Документ підписаний..." та вказано  id документа.
 
@@ -770,7 +770,7 @@
 
 .. include:: kontakti.rst
 
-.. _`Маршрути погодження`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id17
+.. _`Маршрути погодження`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id18
 
-.. _`Налаштування доступу для провайдера`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id9
+.. _`Відображення штампу ЕЦП у листі підписання`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id9
 
