@@ -123,4 +123,7 @@ API
    Methods/PostPackageSend
    Methods/PostPackageStatus
    Methods/GetSignListArch
+   Methods/GetLogFile
+   Methods/GetPackageArchRequest
+   Methods/PostPackageDocumentXml
 
