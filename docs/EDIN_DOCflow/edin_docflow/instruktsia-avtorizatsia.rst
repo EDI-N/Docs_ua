@@ -155,14 +155,14 @@
 ---------------
 Для зміни пароля натисніть на логін користувача у верхньому правому куті інтерфейсу та натисніть кнопку «Скинути пароль»:
 
-.. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_11.png
+.. image:: pics_instruktsia-avtorizatsia/new_instruktsia_avtorizatsia_11.png
    :align: center
  
 Система повідомить про успішне скасування пароля та відправить листа для генерації нового пароля на Email користувача.
 
 Для зміни пароля перейдіть за посиланням у листі та вкажіть новий пароль (двічі):
 
-.. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_12.png
+.. image:: pics_instruktsia-avtorizatsia/instrktsuia_avtorizatsia_12.png
    :align: center
 
 Відправник: - noreply@edi-n.com. Тема листа: «EDIN-DOCFLOW Відновлення пароля».
@@ -177,7 +177,7 @@
 --------------
 Для зміни Email перейдіть на форму редагування облікового запису користувача (меню «Налаштування узгодження» - «Користувачі») і натисніть «Редагувати».
 
-.. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_13.png
+.. image:: pics_instruktsia-avtorizatsia/new_instruktsia_avtorizatsia_12.png
    :align: center
 
 У формі, що відкриється, вкажіть новий Email у полі «Email» та натисніть «Зберегти». Система повідомить про успішне збереження нових даних. 
@@ -185,9 +185,6 @@
 .. admonition:: Зверніть увагу!
 
    Після збереження змін доступ до сервісу під старим Email буде заблокований.
- 
-.. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_14.png
-   :align: center
 
 На нову адресу надійде лист з посиланням для підтвердження зміни Email та генерації пароля. 
 

@@ -511,8 +511,6 @@ Cтворення передбачає підтвердження компані
    Зміна назви довідника при редагуванні призведе до створення нового зв’язку. 
 
 Для розірвання зв’язку з довідником натисніть кнопку «Кошик».
-.. container:: idishnicheg
-    :name: pack_with_docs
 
 **8.5 Керування зв’язком з додатковими атрибутами**
 
@@ -616,7 +614,7 @@ Cтворення передбачає підтвердження компані
 .. image:: pics_instruktsia-biznes-administratora/new_instruktsia-biznes-administratora_041.png
    :align: center
 
-.. image:: pics_instruktsia-biznes-administratora/new_instruktsia-biznes-administratora_042.png
+.. image:: pics_instruktsia-biznes-administratora/new_instruktsia-biznes-administratora_041_1.png
    :align: center
 
 При цьому відкриється форма із переліком доступних активних довідників, що пов’язані з компанією-власником Сценарію документообігу (перелік довідників заповнюється у розділі «Налаштування компанії» – «Мої компанії» – «Довідники»).
