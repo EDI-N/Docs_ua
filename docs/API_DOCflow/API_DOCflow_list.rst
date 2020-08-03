@@ -3,6 +3,7 @@ API
 
 .. toctree::
    :maxdepth: 1
+   :numbered:
    
    Methods/DeleteContractTag
    Methods/DeletePackageTag
