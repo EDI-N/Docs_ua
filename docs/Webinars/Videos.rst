@@ -80,6 +80,28 @@
 
 ---------------------------------------
 
+**Вебінар спільно з Міністерством інфраструктури України "Електронна ТТН: реалізовані етапи та плани"**
+****************************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/pbo_5E1FI4k" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+---------------------------------------
+
+**Вебінар EDIN “Масові операції з документами та EDIN-DISTRIBUTION""**
+****************************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/2rQr710APlo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+---------------------------------------
+
 **EDIN - бізнес без паперу**
 ********************************************************
 
