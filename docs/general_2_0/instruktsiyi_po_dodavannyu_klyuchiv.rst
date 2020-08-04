@@ -1,6 +1,12 @@
 Інструкція по роботі з комерційними документами (налаштування підписання)
 ###################################################################################################
 
+.. сюда закину немного картинок для текста
+
+.. |drop_pass| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/drop_pass.png
+
+.. |del_key| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/del_key.png
+
 .. role:: red
 
 .. role:: underline
@@ -48,31 +54,30 @@
 
 .. _`Додати ключ для підписання`:
 
-Далі у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+Далі у модальному вікні потрібно обрати файл (1), ввести пароль (2) та натиснути **"Считати"** (3) ключ для підписання:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_01n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file1.png
    :align: center
 
-Після чого натиснути кнопку **"Додати"**:
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_02n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file2.png
    :align: center
 
-При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**):
+При успішному додаванні ключа автоматично відобразиться особа, від імені якої буде здійснено підписання. У користувача може бути додано кілька ключів - для вибору потрібного для здійснення операції підписання потрібно проставити відмітку (4) лівою кнопкою миші і натиснути "Підписати" (5):
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file3.png
    :align: center
 
-Якщо у користувача додано кілька ключів, можливо здійснювати вибір ключа для підписання лівою кнопкою миші:
+.. important::
+   Якщо підписання цим ключем вже було здійснено або знайдена невідповідність даних ЄДРПОУ/ІПН (перевірка), то підписання блокується, а користувачу виводиться відповідне повідомлення:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_19n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/wrong_key.png
    :align: center
 
-.. important:: Підписання "Комерційних документів" (COMDOC), "Товарних накладних" (DOCUMENTINVOICE) та "Коригувань до товарних накладних" (DOCCORINVOICE) можливо здійснювати необмеженою кількістю ключів, однак документ не може бути підписаний одним підписом/печаткою більше одного разу
+Додатково в вікні підписання можливо натиснути **"Детальніше"** для того, щоб переглянути інформацію про підписанта, обрати за необхідності посаду, скинути пароль активного ключа (|drop_pass|) чи видалити помилкові (|del_key|).
 
 При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_04n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file4.png
    :align: center
 
 Після підписання документу інформація щодо підписанта відображається в блоці "Дані про підписантів". Для відправки документу необхідно натинути на кнопку "Відправити".
@@ -114,7 +119,7 @@
 
 5) Вибрати ключ для підписання та натиснути кнопку **"Підписати"** комерційний документ
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file3.png
    :align: center
 
 .. important:: Після натискання кнопки **"Підписати та відправити у відповідь"** комерційний документ відразу відправляється одержувачу без можливості редагування документа
@@ -142,7 +147,7 @@
 
 5) Ввести текст відмови, вибрати необхідний ключ та натиснути — **"Підписати"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_09n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_20n.png
    :align: center
 
 Після підписання документообіг завершено, про що свідчить червоний колір тікета:
@@ -174,7 +179,7 @@
 
 5) Ввести текст анулювання, вибрати необхідний ключ та натиснути — **"Підписати"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_14n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_21n.png
    :align: center
 
 Запит на анулювання відправлено, про що свідчить жовтий колір наступного тікета в ланцюжку.
@@ -204,7 +209,7 @@
 
 4) Вибрати необхідний ключ та натиснути — **"Підписати"**
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_03n.png
+.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file3.png
    :align: center
 
 Запиту на анулювання підтверджено, документообіг завершено (останній тікет на схемі стане жовтого кольору):
