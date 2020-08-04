@@ -1,6 +1,12 @@
 Формування Податкової Накладний на підставі Прибуткової накладної (COMDOC_007)
 ###############################################################################
 
+.. сюда закину немного картинок для текста
+
+.. |drop_pass| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/drop_pass.png
+
+.. |del_key| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/del_key.png
+
 .. role:: red
 
 .. |пресуха| image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_22n.png
@@ -89,26 +95,34 @@
 
 .. _`Додати ключ для підписання`:
 
-Далі у модальному вікні потрібно обрати файл (2) і ввести пароль (1):
+Далі у модальному вікні потрібно обрати файл чи токен (1), ввести пароль (2) та натиснути **"Считати"** (3) ключ для підписання:
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_14n.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/file1.png
    :align: center
 
-Після чого натиснути кнопку **"Додати"**:
-
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_15n.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/file2.png
    :align: center
 
-При успішному додаванні ключа автоматично відобразиться вибрана особа, від імені якої буде здійснено підписання (кнопка **"Підписати"**). У користувача повинно бути додано три ключа (Директор, Бухгалтер, Штамп), кожним з яких повинен бути підписаний документ. Можливо здійснювати вибір ключів під час підписання (лівою кнопкою миші по данним доданого ключа).
+При успішному додаванні ключа автоматично відобразиться особа, від імені якої буде здійснено підписання. У користувача може бути додано кілька ключів - для вибору потрібного для здійснення операції підписання потрібно проставити відмітку (4) лівою кнопкою миші і натиснути "Підписати" (5):
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_17n.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/file3.png
    :align: center
+
+У користувача повинно бути додано три ключа (Директор, Бухгалтер, Штамп), кожним з яких повинен бути підписаний документ. Можливо здійснювати вибір ключів під час підписання.
 
 .. important:: Підписання "Податкових накладних" (DECLAR), та "Коригувань до податкових накладних" (DECLARj12) здійснюється трьома ключами (Директор, Бухгалтер, Штамп): для одного документу неможливо використати один і той же ключ більше одного разу, а також неможливо встановити більше одного ключа для однієї ролі!
 
+.. important::
+   Якщо підписання цим ключем вже було здійснено або знайдена невідповідність даних ЄДРПОУ/ІПН (перевірка), то підписання блокується, а користувачу виводиться відповідне повідомлення:
+
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/wrong_key.png
+   :align: center
+
+Додатково в вікні підписання можливо натиснути **"Детальніше"** для того, щоб переглянути інформацію про підписанта, обрати за необхідності посаду, скинути пароль активного ключа (|drop_pass|) чи видалити помилкові (|del_key|).
+
 При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_18n.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/file4.png
    :align: center
 
 Після підписання документу інформація щодо підписанта відображається в блоці "Дані про підписантів". Для відправки документу необхідно натинути на кнопку "Відправити".
