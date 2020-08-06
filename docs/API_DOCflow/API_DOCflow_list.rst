@@ -1,14 +1,16 @@
-API
-###########
+API DOCFLOW
+######################
 
 .. toctree::
    :caption: Авторизація
+   :glob:
    :maxdepth: 1
    
    Methods/Authorization
 
 .. toctree::
    :caption: Налаштування компанії аккаунту
+   :glob:
    :maxdepth: 1
 
    Methods/CreateCompanyFromSign
@@ -17,6 +19,7 @@ API
 
 .. toctree::
    :caption: Зовнішні документи
+   :glob:
    :maxdepth: 1
 
    Methods/PostPackageDocumentStatus
@@ -32,6 +35,7 @@ API
 
 .. toctree::
    :caption: Внутрішні документи
+   :glob:
    :maxdepth: 1
 
    Methods/GetInternalDocumentInfo
@@ -41,6 +45,7 @@ API
    
 .. toctree::
    :caption: Комплекти документів
+   :glob:
    :maxdepth: 1
    
    Methods/GetPackageTypeByContract
@@ -59,6 +64,7 @@ API
    
 .. toctree::
    :caption: Сценнарій документообігу
+   :glob:
    :maxdepth: 1
    
    Methods/ContractSend
@@ -73,6 +79,7 @@ API
    
 .. toctree::
    :caption: Запрошення контрагентів
+   :glob:
    :maxdepth: 1
    
    Methods/GetPartners
@@ -83,6 +90,7 @@ API
    
 .. toctree::
    :caption: Підписання ЕЦП\КЕП
+   :glob:
    :maxdepth: 1
 
    Methods/GetMobileSign
@@ -103,6 +111,7 @@ API
    
 .. toctree::
    :caption: Управління користувачами
+   :glob:
    :maxdepth: 1
    
    Methods/GetUsers
@@ -116,6 +125,7 @@ API
    
 .. toctree::
    :caption: Процес погодження
+   :glob:
    :maxdepth: 1
    
    Methods/CreateAgreementGroup
@@ -134,6 +144,7 @@ API
    
 .. toctree::
    :caption: Налаштування доступу до документів
+   :glob:
    :maxdepth: 1
    
    Methods/AddContracts2Route
@@ -144,6 +155,7 @@ API
    
 .. toctree::
    :caption: Управління тегами
+   :glob:
    :maxdepth: 1
    
    Methods/DeleteContractTag
@@ -157,6 +169,7 @@ API
 
 .. toctree::
    :caption: Управління ярликами (виборками)
+   :glob:
    :maxdepth: 1
 
    Methods/GetFilter
@@ -164,6 +177,7 @@ API
 
 .. toctree::
    :caption: Довідники компанії
+   :glob:
    :maxdepth: 1
 
    Methods/GetDictionaries
@@ -179,12 +193,14 @@ API
    
 .. toctree::
    :caption: Додаткові атрибути
+   :glob:
    :maxdepth: 1
    
    Methods/OptExtraField
    
 .. toctree::
    :caption: Аналітика та звіти
+   :glob:
    :maxdepth: 1
    
    Methods/CreateReport
@@ -193,6 +209,7 @@ API
    
 .. toctree::
    :caption: Акаунт
+   :glob:
    :maxdepth: 1
    
    Methods/GetCertificate
