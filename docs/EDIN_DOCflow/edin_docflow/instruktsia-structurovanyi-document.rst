@@ -27,7 +27,7 @@
 
 Для налаштування структурованого документа перейдіть в меню «Налаштування компанії» – «Мої  компанії» та оберіть потрібну компанію зі списку, натиснувши на її назву. У формі редагування, що відкриється, перейдіть до вкладки «Документи». Вкладка містить вже закріплені за компанією типи документів. Для додання нового документа з ознакою «Структурований» натисніть на кнопку «Додати»: 
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_1.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_01.png
    :align: center
 
 У формі додання типу документа заповніть обов’язкові поля: 
@@ -38,12 +38,25 @@
 
 Наступним кроком встановіть відмітку напроти типу документа, а саме «Структурований», і натисніть «Зберегти»:
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_2.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_02.png
    :align: center
 
 Документ буде збережено та відображено в переліку типів документів з позначкою «Структурований» |иконка-кубик|:
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_3_02.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_03.png
+   :align: center
+
+Натисніть на позначку «Структурований» та додайте структуру документа натиснувши на кнопку «Додати».
+
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_04.png
+   :align: center
+
+Відкриється поле для додавання опису структури. Також можливо скористатися заготовленими шаблонами Рахунку або Акту - просто виберіть зі списку документ та структура додастся автоматично.
+
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_05.png
+   :align: center
+
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_06.png
    :align: center
 
 Для редагування назви або коду типу документа натисніть на його назву у загальному переліку, внесіть потрібні зміни та натисніть «Зберегти».
@@ -287,12 +300,12 @@
 
 У формі, що відкриється, натисніть на кнопку «Додати»:
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_5.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_04.png
    :align: center
 
 Наступним кроком введіть опис структури документа у форматі JSON, оберіть кодування xml для документа і натисніть «Зберегти»:
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_6.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_06.png
    :align: center
 
 Система повідомить про успішне збереження відповідним повідомленням. Під час збереження опису структури відбувається перевірка валідності внесених даних на відповідність формату JSON та перевірка на дублі. 
@@ -311,14 +324,11 @@
 .. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_7.png
    :align: center
 
-Схема у статусі «Чернетка» доступна для редагування. Для переходу у режим редагування натисніть на номер версії |иконка-дата|  або на кнопку «Редагувати». Для активації певної версії структури натисніть «Активувати» у формі редагування опису даних:
-
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_8.png
-   :align: center
+Схема у статусі «Чернетка» доступна для редагування. Для переходу у режим редагування натисніть на номер версії |иконка-дата|  або на кнопку «Редагувати». Для активації певної версії структури натисніть «Активувати» у формі редагування опису даних.
 
 Для зручності у формі додання версій реалізований пошук за номером і датою. Для старту пошуку введіть початкові символи у пошукове поле:  
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_9.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_07.png
    :align: center
 
 .. admonition:: Зверніть увагу!
@@ -335,14 +345,14 @@
 ---------------------------------------- 
 Форма заповнення структури відкривається при доданні документа з ознакою «структурований» до комплекта. Для цього перейдіть в меню «Зовнішні комплекти документів», у вкладці Чернетки виберіть комплект та в ньому перейдіть до вкладки «Документи», і натисніть «Додати»:
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_10.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_08.png
    :align: center
 
 Після цього відкриється форма для заповнення структурованого документа, складена відповідно до опису його структури. 
 
 Елементи структури документа відображаються послідовно, у порядку, заданому в налаштуваннях структури. При цьому типи елемента (секції) відображаються у вигляді окремих структур, складові компоненти яких розташовуються горизонтально по три в ряд. Назва структури (типу елемента) виділяється жирним шрифтом:  
 
-.. image:: pics_instruktsia-structurovanyi-document/instr_struct_doc_11.png
+.. image:: pics_instruktsia-structurovanyi-document/new_instr_struct_doc_09.png
    :align: center
 
 Заповніть поля документа і натисніть кнопку «Зберегти». Для повторного перегляду збереженого структурованого документа в комплекті натисніть на іконку |иконка-кубик| напроти документа: 

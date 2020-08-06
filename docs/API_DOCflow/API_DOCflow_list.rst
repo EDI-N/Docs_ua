@@ -2,126 +2,230 @@ API
 ###########
 
 .. toctree::
+   :caption: Авторизація
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/Authorization
+
+.. toctree::
+   :caption: Налаштування компанії аккаунту
+   :maxdepth: 1
+   :numbered:
+
+   Methods/CreateCompanyFromSign
+   Methods/UpdateCompanyFromSign
+   Methods/EditCompany
+
+.. toctree::
+   :caption: Зовнішні документи
+   :maxdepth: 1
+   :numbered:
+
+   Methods/PostPackageDocumentStatus
+   Methods/GetExtraDocumentTypes
+   Methods/EditDocumentData
+   Methods/GetDocumentTypes
+   Methods/SetProviderAccess
+   Methods/GetDocumentTypesXlsx
+   Methods/PostDocumentTypes
+   Methods/ActBlockDocumentType
+   Methods/AddStructure
+   Methods/PostPackageDocumentXml
+
+.. toctree::
+   :caption: Внутрішні документи
+   :maxdepth: 1
+   :numbered:
+
+   Methods/GetInternalDocumentInfo
+   Methods/GetInternalDocumentStructure
+   Methods/GetInternalDocuments
+   Methods/CreateInternalDocument
+   
+.. toctree::
+   :caption: Комплекти документів
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/GetPackageTypeByContract
+   Methods/CreatePackage
+   Methods/PutDocumentInPackage
+   Methods/OptPackageDocument
+   Methods/GetExtraPackageTypes
+   Methods/CreateDocumentType
+   Methods/GetPackagesByChain
+   Methods/ChangePackageTypeStatus
+   Methods/PostPackage
+   Methods/PostPackageComment
+   Methods/PostPackages
+   Methods/PostPackageSend
+   Methods/PostPackageStatus
+   
+.. toctree::
+   :caption: Сценнарій документообігу
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/ContractSend
+   Methods/ChangeContractStatus
+   Methods/GetContract
+   Methods/ContractDelete
+   Methods/DelContractPackages
+   Methods/PutContractPackages
+   Methods/DelContractDictionary
+   Methods/PutContractDictionary
+   Methods/PostContract
+   
+.. toctree::
+   :caption: Запрошення контрагентів
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/GetPartners
+   Methods/PostPartner
+   Methods/PostPartners
+   Methods/PartnerSetInvitationMark
+   Methods/SendInvitation
+   
+.. toctree::
+   :caption: Підписання ЕЦП\КЕП
+   :maxdepth: 1
+   :numbered:
+
+   Methods/GetMobileSign
+   Methods/GetMobileCerts
+   Methods/GetDocumentBody
+   Methods/GetDocumentSign
+   Methods/GetDocumentArch
+   Methods/GetPackage
+   Methods/PutDocumentSignByUUID
+   Methods/PutDocumentSign
+   Methods/AccountSignSettings
+   Methods/GetInternalDocumentsArch
+   Methods/PutInternalDocumentSign
+   Methods/GetInternalDocumentsBody
+   Methods/GetPackageArch
+   Methods/GetSignListArch
+   Methods/GetPackageArchRequest
+   
+.. toctree::
+   :caption: Управління користувачами
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/GetUsers
+   Methods/GetRoles
+   Methods/GetUser
+   Methods/OptUser
+   Methods/CreateRole
+   Methods/PostUserProfile
+   Methods/CreateUser
+   Methods/PatchUserRoles
+   
+.. toctree::
+   :caption: Процес погодження
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/CreateAgreementGroup
+   Methods/GetAgreementGroup
+   Methods/GetAgreementGroups
+   Methods/GetAgreementProcs
+   Methods/OptAgreementProcs
+   Methods/GetDocInfo
+   Methods/DelAgreementProcDocument
+   Methods/DelAgreementGroup
+   Methods/DelAgreementStep
+   Methods/AgreementProcDocument
+   Methods/PostAgreementProc
+   Methods/GetPackageComments   
+   Methods/PostAgreementStep
+   
+.. toctree::
+   :caption: Налаштування доступу до документів
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/AddContracts2Route
+   Methods/AddPackageType2Route
+   Methods/DeleteContracts2Route
+   Methods/DeletePackageType2Route
+   Methods/EditRoute2Users
+   
+.. toctree::
+   :caption: Управління тегами
    :maxdepth: 1
    :numbered:
    
    Methods/DeleteContractTag
    Methods/DeletePackageTag
    Methods/DeleteTag
-   Methods/GetCertificate
-   Methods/GetCertificates
-   Methods/GetFilter
-   Methods/GetMobileSign
    Methods/GetTags
-   Methods/Logout
+   Methods/PostTag
+   Methods/PostTagXls
+   Methods/PutContractTag
+   Methods/PutPackageTag
+
+.. toctree::
+   :caption: Управління ярликами (виборками)
+   :maxdepth: 1
+   :numbered:
+
+   Methods/GetFilter
    Methods/PostFilter
-   Methods/PostPackageDocumentStatus
-   Methods/GetExtraDocumentTypes
-   Methods/GetUsers
-   Methods/GetRoles
-   Methods/GetMobileCerts
-   Methods/GetPackageTypeByContract
-   Methods/GetDocumentBody
-   Methods/GetDocumentSign
-   Methods/Authorization
-   Methods/EditDocumentData
-   Methods/CreateAgreementGroup
-   Methods/GetAgreementGroup
-   Methods/GetAgreementGroups
-   Methods/GetAgreementProcs
+
+.. toctree::
+   :caption: Довідники компанії
+   :maxdepth: 1
+   :numbered:
+
    Methods/GetDictionaries
    Methods/GetDictionary
    Methods/GetDictionaryXlsx
-   Methods/GetDocumentTypes
-   Methods/GetOffer
-   Methods/GetUser
-   Methods/OptAgreementProcs
-   Methods/OptUser
    Methods/PostDictionaryXlsx
-   Methods/CreateCompanyFromSign
-   Methods/UpdateCompanyFromSign
-   Methods/EditCompany
-   Methods/CreateRole
-   Methods/AddContracts2Route
-   Methods/AddPackageType2Route
-   Methods/DeleteContracts2Route
-   Methods/DeletePackageType2Route
-   Methods/EditRoute2Users
    Methods/CreateDictionary
-   Methods/CreatePackage
-   Methods/CreateReport
-   Methods/GetDocumentArch
-   Methods/GetPackage
-   Methods/GetPartners
-   Methods/GetReportFile
-   Methods/GetReports
    Methods/OptDocumentTypesDictionary
-   Methods/PostAccount
-   Methods/PostPartner
-   Methods/PostPartners
-   Methods/PostTag
-   Methods/PostTagXls
-   Methods/PutCertificate
-   Methods/PutContractTag
-   Methods/PutPackageTag
-   Methods/TagsDocflow
-   Methods/PostUserProfile
-   Methods/PutDocumentInPackage
-   Methods/PutDocumentSignByUUID
-   Methods/PutDocumentSign
-   Methods/PartnerSetInvitationMark
-   Methods/OptPackageDocument
-   Methods/SendInvitation
-   Methods/GetAccount
-   Methods/RegisterAccountList
-   Methods/AccountSignSettings
-   Methods/SetProviderAccess
-   Methods/GetExtraPackageTypes
-   Methods/GetDocumentTypesXlsx
-   Methods/PostDocumentTypes
-   Methods/GetInternalDocumentsArch
-   Methods/PutInternalDocumentSign
-   Methods/GetInternalDocumentsBody
-   Methods/GetDocInfo
-   Methods/GetInternalDocumentInfo
-   Methods/GetInternalDocumentStructure
-   Methods/GetInternalDocuments
-   Methods/CreateInternalDocument
    Methods/ActBlockDictionaryValue
    Methods/ActBlockDictionary
-   Methods/ActBlockDocumentType
    Methods/AddDictionaryValue
-   Methods/DelAgreementProcDocument
-   Methods/CreateUser
-   Methods/DelAgreementGroup
-   Methods/CreateDocumentType
-   Methods/AddStructure
-   Methods/GetPackagesByChain
-   Methods/ChangePackageTypeStatus
-   Methods/PostPackage
-   Methods/DelAgreementStep
-   Methods/AgreementProcDocument
-   Methods/PostAgreementProc
-   Methods/ContractSend
-   Methods/ChangeContractStatus
-   Methods/GetContract
-   Methods/PatchUserRoles
-   Methods/ContractDelete
    Methods/OptPackageDictionary
+   
+.. toctree::
+   :caption: Додаткові атрибути
+   :maxdepth: 1
+   :numbered:
+   
    Methods/OptExtraField
-   Methods/DelContractPackages
-   Methods/PutContractPackages
-   Methods/DelContractDictionary
-   Methods/PutContractDictionary
-   Methods/PostContract
+   
+.. toctree::
+   :caption: Аналітика та звіти
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/CreateReport
+   Methods/GetReportFile
+   Methods/GetReports
+   
+.. toctree::
+   :caption: Акаунт
+   :maxdepth: 1
+   :numbered:
+   
+   Methods/GetCertificate
+   Methods/GetCertificates
+   Methods/Logout
+   Methods/GetOffer
+   Methods/PutCertificate
+   Methods/GetAccount
    Methods/GetTransactions
    Methods/GetPaymentInvoice
-   Methods/PostPackageComment
-   Methods/PostPackages
-   Methods/GetPackageArch
-   Methods/GetPackageComments   
-   Methods/PostAgreementStep
-   Methods/PostPackageSend
-   Methods/PostPackageStatus
-   Methods/GetSignListArch
+   Methods/GetLogFile
 
+
+   
+   
+   
+   
+   
+   
