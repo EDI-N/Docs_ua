@@ -3,14 +3,12 @@ API DOCFLOW
 
 .. toctree::
    :caption: Авторизація
-   :glob:
    :maxdepth: 1
    
    Methods/Authorization
 
 .. toctree::
    :caption: Налаштування компанії аккаунту
-   :glob:
    :maxdepth: 1
 
    Methods/CreateCompanyFromSign
@@ -19,7 +17,6 @@ API DOCFLOW
 
 .. toctree::
    :caption: Зовнішні документи
-   :glob:
    :maxdepth: 1
 
    Methods/PostPackageDocumentStatus
@@ -35,7 +32,6 @@ API DOCFLOW
 
 .. toctree::
    :caption: Внутрішні документи
-   :glob:
    :maxdepth: 1
 
    Methods/GetInternalDocumentInfo
@@ -45,7 +41,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Комплекти документів
-   :glob:
    :maxdepth: 1
    
    Methods/GetPackageTypeByContract
@@ -63,8 +58,7 @@ API DOCFLOW
    Methods/PostPackageStatus
    
 .. toctree::
-   :caption: Сценнарій документообігу
-   :glob:
+   :caption: Сценарій документообігу
    :maxdepth: 1
    
    Methods/ContractSend
@@ -79,7 +73,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Запрошення контрагентів
-   :glob:
    :maxdepth: 1
    
    Methods/GetPartners
@@ -90,7 +83,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Підписання ЕЦП\КЕП
-   :glob:
    :maxdepth: 1
 
    Methods/GetMobileSign
@@ -111,7 +103,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Управління користувачами
-   :glob:
    :maxdepth: 1
    
    Methods/GetUsers
@@ -125,7 +116,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Процес погодження
-   :glob:
    :maxdepth: 1
    
    Methods/CreateAgreementGroup
@@ -144,7 +134,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Налаштування доступу до документів
-   :glob:
    :maxdepth: 1
    
    Methods/AddContracts2Route
@@ -155,7 +144,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Управління тегами
-   :glob:
    :maxdepth: 1
    
    Methods/DeleteContractTag
@@ -169,7 +157,6 @@ API DOCFLOW
 
 .. toctree::
    :caption: Управління ярликами (виборками)
-   :glob:
    :maxdepth: 1
 
    Methods/GetFilter
@@ -177,7 +164,6 @@ API DOCFLOW
 
 .. toctree::
    :caption: Довідники компанії
-   :glob:
    :maxdepth: 1
 
    Methods/GetDictionaries
@@ -193,14 +179,12 @@ API DOCFLOW
    
 .. toctree::
    :caption: Додаткові атрибути
-   :glob:
    :maxdepth: 1
    
    Methods/OptExtraField
    
 .. toctree::
    :caption: Аналітика та звіти
-   :glob:
    :maxdepth: 1
    
    Methods/CreateReport
@@ -209,7 +193,6 @@ API DOCFLOW
    
 .. toctree::
    :caption: Акаунт
-   :glob:
    :maxdepth: 1
    
    Methods/GetCertificate
