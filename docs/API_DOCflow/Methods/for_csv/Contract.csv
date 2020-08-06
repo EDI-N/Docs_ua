@@ -1,8 +1,8 @@
 Параметр, Формат, Опис
 .. _Contract:, Об'єкт **Contract**,
-contractId,long,ID контракту
+contractId,long,ID сценарію документообігу
 number,String,номер документа
-contractName,String,назва контракту
+contractName,String,назва сценарію документообігу
 date,long,дата документа у форматі UNIX TimeStamp
 **ownerCompany**,Company_,об'єкт; інформація про компанію відправника (власника)
 **clientCompany**,Company_,об'єкт; інформація про компанію одержувача (клієнта)

@@ -1,7 +1,7 @@
 Параметр, Формат, Опис
 .. _SpecialConditions:, Об'єкт **SpecialConditions**,
 specialConditionId,long,ідентифікатор спеціальних умов обслуговування
-companyId,long,id компанії (Компанія-власник контракту)
+companyId,long,id компанії (Компанія-власник сценарію документообігу)
 fileName,String,назва файлу
 body,byte[],тіло файлу
 ecomSigns,byte[],підпис E-COM
