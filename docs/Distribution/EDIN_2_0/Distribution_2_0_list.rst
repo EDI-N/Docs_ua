@@ -7,6 +7,7 @@ EDIN 2.0
    
    Instructions_2_0/Distribution_instructions_2_0_list
    API_2_0/Distribution_API_2_0_list
+   XML/XML_structure
 
 
 
