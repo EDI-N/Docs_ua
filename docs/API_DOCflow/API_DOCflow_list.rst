@@ -4,14 +4,12 @@ API
 .. toctree::
    :caption: Авторизація
    :maxdepth: 1
-   :numbered:
    
    Methods/Authorization
 
 .. toctree::
    :caption: Налаштування компанії аккаунту
    :maxdepth: 1
-   :numbered:
 
    Methods/CreateCompanyFromSign
    Methods/UpdateCompanyFromSign
@@ -20,7 +18,6 @@ API
 .. toctree::
    :caption: Зовнішні документи
    :maxdepth: 1
-   :numbered:
 
    Methods/PostPackageDocumentStatus
    Methods/GetExtraDocumentTypes
@@ -36,7 +33,6 @@ API
 .. toctree::
    :caption: Внутрішні документи
    :maxdepth: 1
-   :numbered:
 
    Methods/GetInternalDocumentInfo
    Methods/GetInternalDocumentStructure
@@ -46,7 +42,6 @@ API
 .. toctree::
    :caption: Комплекти документів
    :maxdepth: 1
-   :numbered:
    
    Methods/GetPackageTypeByContract
    Methods/CreatePackage
@@ -65,7 +60,6 @@ API
 .. toctree::
    :caption: Сценнарій документообігу
    :maxdepth: 1
-   :numbered:
    
    Methods/ContractSend
    Methods/ChangeContractStatus
@@ -80,7 +74,6 @@ API
 .. toctree::
    :caption: Запрошення контрагентів
    :maxdepth: 1
-   :numbered:
    
    Methods/GetPartners
    Methods/PostPartner
@@ -91,7 +84,6 @@ API
 .. toctree::
    :caption: Підписання ЕЦП\КЕП
    :maxdepth: 1
-   :numbered:
 
    Methods/GetMobileSign
    Methods/GetMobileCerts
@@ -112,7 +104,6 @@ API
 .. toctree::
    :caption: Управління користувачами
    :maxdepth: 1
-   :numbered:
    
    Methods/GetUsers
    Methods/GetRoles
@@ -126,7 +117,6 @@ API
 .. toctree::
    :caption: Процес погодження
    :maxdepth: 1
-   :numbered:
    
    Methods/CreateAgreementGroup
    Methods/GetAgreementGroup
@@ -145,7 +135,6 @@ API
 .. toctree::
    :caption: Налаштування доступу до документів
    :maxdepth: 1
-   :numbered:
    
    Methods/AddContracts2Route
    Methods/AddPackageType2Route
@@ -156,7 +145,6 @@ API
 .. toctree::
    :caption: Управління тегами
    :maxdepth: 1
-   :numbered:
    
    Methods/DeleteContractTag
    Methods/DeletePackageTag
@@ -170,7 +158,6 @@ API
 .. toctree::
    :caption: Управління ярликами (виборками)
    :maxdepth: 1
-   :numbered:
 
    Methods/GetFilter
    Methods/PostFilter
@@ -178,7 +165,6 @@ API
 .. toctree::
    :caption: Довідники компанії
    :maxdepth: 1
-   :numbered:
 
    Methods/GetDictionaries
    Methods/GetDictionary
@@ -194,14 +180,12 @@ API
 .. toctree::
    :caption: Додаткові атрибути
    :maxdepth: 1
-   :numbered:
    
    Methods/OptExtraField
    
 .. toctree::
    :caption: Аналітика та звіти
    :maxdepth: 1
-   :numbered:
    
    Methods/CreateReport
    Methods/GetReportFile
@@ -210,7 +194,6 @@ API
 .. toctree::
    :caption: Акаунт
    :maxdepth: 1
-   :numbered:
    
    Methods/GetCertificate
    Methods/GetCertificates
