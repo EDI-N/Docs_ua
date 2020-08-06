@@ -18,8 +18,8 @@ API DOCFLOW
    Methods/EditCompany
 
 .. toctree::
-   :caption: Зовнішні документи
    :glob:
+   :caption: Зовнішні документи
    :maxdepth: 1
 
    Methods/PostPackageDocumentStatus
