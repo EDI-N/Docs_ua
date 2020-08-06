@@ -18,7 +18,7 @@ API DOCFLOW
    Methods/EditCompany
 
 .. toctree::
-   :glob:
+   :glob: true
    :caption: Зовнішні документи
    :maxdepth: 1
 
