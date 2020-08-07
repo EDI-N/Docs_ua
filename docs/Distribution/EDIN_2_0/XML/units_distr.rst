@@ -1,10 +1,8 @@
 :orphan:
 
 ===========================================================================
-Одиниці виміру
+Довідник одиниць виміру для документів Distribution
 ===========================================================================
-
-Довідник одиниць виміру для документів: PRICAT, ORDER, ORDRSP, DESADV, RECADV, INVOICE, KORINVOICE, INVRPT, COMDIS, INSDES, DESSCC, COACSU, RETANN, IFTMBF, MSCONS, PRODUCTLIST, AGREEM, DOCUMENTINVOICE, DOCCORINVOICE, QUOTES
 
 +----------------------+-----+
 | Назва одиниці виміру | Код |
