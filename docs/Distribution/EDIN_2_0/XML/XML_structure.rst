@@ -10,7 +10,7 @@ XML Специфікації Distribution
 
 .. csv-table:: Прайс-лист (PRICAT) служить для опису товарів і послуг. Даний документ відправляється Виробником; в документі вказується штрих-код продукту, його опис, ціна, ставка ПДВ. За допомогою Прайс-листа можна також вказати зміни в ціні (зростання/зменшення).
   :file: files/PRICAT.csv
-  :widths:  20, 10, 29, 38
+  :widths:  20, 11, 29, 37
   :header-rows: 1
 
 :download:`Приклад PRICAT<examples/pricat_example.xml>`
@@ -22,7 +22,7 @@ XML Специфікації Distribution
 
 .. csv-table:: Замовлення (ORDER) на поставку відправляється Дистриб'ютором; в документі вказується штрих-код продукту, його опис, замовлена кількість, ціна та інша необхідна інформація.
   :file: files/ORDER.csv
-  :widths:  20, 10, 29, 38
+  :widths:  20, 11, 29, 37
   :header-rows: 1
 
 :download:`Приклад ORDER<examples/order_example.xml>`
@@ -34,7 +34,7 @@ XML Специфікації Distribution
 
 .. csv-table:: Обмеження (LIMITS) на замовлення відправляється Виробником; в документі вказуються ціни та кількості по формуванню замовлення у вказаного Дистриб'ютора.
   :file: files/LIMITS.csv
-  :widths:  20, 10, 29, 38
+  :widths:  20, 11, 29, 37
   :header-rows: 1
 
 :download:`Приклад LIMITS<examples/distribex_limits_example.xml>`
