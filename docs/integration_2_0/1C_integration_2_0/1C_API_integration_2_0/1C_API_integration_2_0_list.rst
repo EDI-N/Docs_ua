@@ -6,5 +6,6 @@
    
    operator_instruction
    user_instruction
+   Videoinstruction
    
    
