@@ -20,7 +20,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **SIGNATURE**
+Таблиця 3 - Опис параметрів об'єкта **SIGNATURE**
 
 .. csv-table:: 
   :file: for_csv/ETTN/SIGNATURE.csv
@@ -28,7 +28,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CONSIGNEE_SIGN_ENVELOPE**
+Таблиця 4 - Опис параметрів об'єкта **CONSIGNEE_SIGN_ENVELOPE**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CONSIGNEE_SIGN_ENVELOPE.csv
@@ -36,7 +36,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **SIGNATURE_RECIPIENT**
+Таблиця 5 - Опис параметрів об'єкта **SIGNATURE_RECIPIENT**
 
 .. csv-table:: 
   :file: for_csv/ETTN/SIGNATURE_RECIPIENT.csv
@@ -44,7 +44,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CARRIER_UNLOAD_BODY**
+Таблиця 6 - Опис параметрів об'єкта **CARRIER_UNLOAD_BODY**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CARRIER_UNLOAD_BODY.csv
@@ -52,7 +52,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **DECLAREXT**
+Таблиця 7 - Опис параметрів об'єкта **DECLAREXT**
 
 .. csv-table:: 
   :file: for_csv/ETTN/DECLAREXT.csv
@@ -60,7 +60,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CARRIER_LOAD_SIGN_ENVELOPE**
+Таблиця 8 - Опис параметрів об'єкта **CARRIER_LOAD_SIGN_ENVELOPE**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CARRIER_LOAD_SIGN_ENVELOPE.csv
@@ -68,7 +68,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CONSIGNEE_BODY**
+Таблиця 9 - Опис параметрів об'єкта **CONSIGNEE_BODY**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CONSIGNEE_BODY.csv
@@ -76,7 +76,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **DECLAR_ACT**
+Таблиця 10 - Опис параметрів об'єкта **DECLAR_ACT**
 
 .. csv-table:: 
   :file: for_csv/ETTN/DECLAR_ACT.csv
@@ -84,7 +84,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **EXTENSION**
+Таблиця 11 - Опис параметрів об'єкта **EXTENSION**
 
 .. csv-table:: 
   :file: for_csv/ETTN/EXTENSION.csv
@@ -92,7 +92,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CONSIGNOR_SIGN_ENVELOPE**
+Таблиця 12 - Опис параметрів об'єкта **CONSIGNOR_SIGN_ENVELOPE**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CONSIGNOR_SIGN_ENVELOPE.csv
@@ -100,7 +100,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **SIGNATURE_ORIGINATOR**
+Таблиця 13 - Опис параметрів об'єкта **SIGNATURE_ORIGINATOR**
 
 .. csv-table:: 
   :file: for_csv/ETTN/SIGNATURE_ORIGINATOR.csv
@@ -108,7 +108,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CARRIER_LOAD_BODY**
+Таблиця 14 - Опис параметрів об'єкта **CARRIER_LOAD_BODY**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CARRIER_LOAD_BODY.csv
@@ -116,7 +116,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **CLAIM_TRANSFER**
+Таблиця 15 - Опис параметрів об'єкта **CLAIM_TRANSFER**
 
 .. csv-table:: 
   :file: for_csv/ETTN/CLAIM_TRANSFER.csv
@@ -124,7 +124,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **ETTN_HEAD**
+Таблиця 16 - Опис параметрів об'єкта **ETTN_HEAD**
 
 .. csv-table:: 
   :file: for_csv/ETTN/ETTN_HEAD.csv
@@ -132,7 +132,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **ETTN_BODY**
+Таблиця 17 - Опис параметрів об'єкта **ETTN_BODY**
 
 .. csv-table:: 
   :file: for_csv/ETTN/ETTN_BODY.csv
@@ -140,7 +140,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **DECLAR_SECURITY**
+Таблиця 18 - Опис параметрів об'єкта **DECLAR_SECURITY**
 
 .. csv-table:: 
   :file: for_csv/ETTN/DECLAR_SECURITY.csv
@@ -148,7 +148,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **RXXType**
+Таблиця 19 - Опис параметрів об'єкта **RXXType**
 
 .. csv-table:: 
   :file: for_csv/ETTN/RXXType.csv
