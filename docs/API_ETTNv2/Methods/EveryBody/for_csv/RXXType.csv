@@ -1,0 +1,4 @@
+Параметр, Формат, Опис
+.. _RXXType:, Об'єкт **RXXType**,
+ROWNUM,String,номер рядка
+message,String,повідомлення

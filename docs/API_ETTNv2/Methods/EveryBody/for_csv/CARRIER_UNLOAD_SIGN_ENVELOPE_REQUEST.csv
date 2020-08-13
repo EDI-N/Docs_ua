@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CARRIER_UNLOAD_SIGN_ENVELOPE:,О, Об'єкт **CARRIER_UNLOAD_SIGN_ENVELOPE**,
+STATE,О,«TRANSPORTER_SIGNED_UNLOADED»,стан документу «підписано Перевізником під час вивантаження товару»
+**DECLARBODY**,О,CARRIER_UNLOAD_BODY_,об'єкт; зміст документа

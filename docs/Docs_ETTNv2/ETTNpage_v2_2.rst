@@ -76,7 +76,15 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 10 - Опис параметрів об'єкта **EXTENSION**
+Таблиця 10 - Опис параметрів об'єкта **DECLAR_ACT**
+
+.. csv-table:: 
+  :file: for_csv/ETTN/DECLAR_ACT.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 11 - Опис параметрів об'єкта **EXTENSION**
 
 .. csv-table:: 
   :file: for_csv/ETTN/EXTENSION.csv
@@ -84,7 +92,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 11 - Опис параметрів об'єкта **RXXType**
+Таблиця 12 - Опис параметрів об'єкта **RXXType**
 
 .. csv-table:: 
   :file: for_csv/ETTN/RXXType.csv
@@ -92,7 +100,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 12 - Опис параметрів об'єкта **DECLAR_SECURITY**
+Таблиця 13 - Опис параметрів об'єкта **DECLAR_SECURITY**
 
 .. csv-table:: 
   :file: for_csv/ETTN/DECLAR_SECURITY.csv
