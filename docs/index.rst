@@ -25,15 +25,6 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN
-   
-   general/general_list
-   retail/retail_list
-   integration/integration_list
-   XML/XML-structure.rst
-
-.. toctree::
-   :maxdepth: 2
    :caption: ЕТТН
 
    ETTN_2_0/ETTN_2_0_list
@@ -45,35 +36,37 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: Е-СПЕЦИФІКАЦІЯ
 
-   E_SPEC/EDIN/E_SPEC_list
-   E_SPEC/EDIN_2_0/E_SPEC_2_0_list
+   E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
+   E_SPEC/EDIN_2_0/API_2_0/E_SPEC_API_2_0_list
 
 .. toctree::
    :maxdepth: 2
    :caption: EDIN-Distribution
 
-   Distribution/EDIN/Distribution_list
-   Distribution/EDIN_2_0/Distribution_2_0_list
-
-.. toctree::
-   :maxdepth: 2
-   :caption: EDIN-Certificate
-
-   Certificate/EDIN/Certificate_list
-
-.. toctree::
-   :maxdepth: 2
-   :caption: EDIN_DOCflow
-
-   EDIN_DOCflow/EDIN_DOCflow_list
-   DOCflow_integration/DOCflow_integration_list
-   API_DOCflow/API_DOCflow_list
+   Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list
+   Distribution/EDIN_2_0/API_2_0/Distribution_API_2_0_list
+   Distribution/EDIN_2_0/XML/XML_structure
 
 .. toctree::
    :maxdepth: 2
    :caption: Tender
 
    Tender_2_0/Tender_2_0_list
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Особистий кабінет
+
+   Personal_Cabinet/PCInstruction
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Юридична інформація
+
+   Legal_info/Rules
+   Legal_info/Oferta
+   Legal_info/KP
+   Legal_info/Tarifs
 
 .. toctree::
    :titlesonly: 

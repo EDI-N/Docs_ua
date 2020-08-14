@@ -6,7 +6,7 @@
 .. |del_key| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/del_key.png
 
 .. contents:: Зміст:
-   :depth: 6
+   :depth: 2
 
 ---------
 
