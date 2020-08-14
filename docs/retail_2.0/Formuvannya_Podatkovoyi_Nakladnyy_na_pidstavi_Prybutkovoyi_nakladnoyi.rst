@@ -12,7 +12,7 @@
 .. |пресуха| image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_22n.png
 
 .. contents:: Зміст:
-   :depth: 6
+   :depth: 2
 
 ---------
 

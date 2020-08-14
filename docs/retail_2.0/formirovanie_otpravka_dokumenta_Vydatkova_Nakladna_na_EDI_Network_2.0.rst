@@ -5,7 +5,7 @@
 .. role:: red
 
 .. contents:: Зміст:
-   :depth: 3
+   :depth: 2
 
 ---------
 
