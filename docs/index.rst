@@ -66,7 +66,7 @@ EDIN | Електронний документообіг для бізнесу
    Legal_info/Rules
    Legal_info/Oferta
    Legal_info/KP
-   Legal_info/Tarifs
+   Legal_info/Politic
 
 .. toctree::
    :titlesonly: 
