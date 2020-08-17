@@ -5,4 +5,4 @@ LAST_NAME,О,String,Прізвище особи
 FATHERS_NAME,О,String,По батькові особи
 DOCUMENT_TYPE,О,String,Тип документу
 DOCUMENT_ID,О,String,Номер документу
-DOCUMENT_DATE,О,String,Дата укладення документу
+DOCUMENT_DATE,О,String (YYYY-MM-DD),Дата укладення документу
