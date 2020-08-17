@@ -3,10 +3,10 @@
 TYPE,О,«AMENDMENT»,Тип документа (Поправки)
 STAKE,О,«RECIPIENT»,Учасник-підписант (Вантажоотримувач)
 R09G2,О,double,"Маса брутто, кг в пункті розвантаження"
-DATE_ARRIVAL_UNLOAD,О,String,Дата прибуття
+DATE_ARRIVAL_UNLOAD,О,String (YYYY-MM-DD),Дата прибуття
 R09G31,О,int,"Час прибуття, (год)"
 R09G32,О,int,"Час прибуття, (хв)"
-DATE_DEPARTURE_UNLOAD,О,String,Дата вибуття
+DATE_DEPARTURE_UNLOAD,О,String (YYYY-MM-DD),Дата вибуття
 R09G41,О,int,"Час вибуття, (год)"
 R09G42,О,int,"Час вибуття, (хв)"
 R09G51,О,int,"Час простою, (год)"

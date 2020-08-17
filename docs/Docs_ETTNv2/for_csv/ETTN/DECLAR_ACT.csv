@@ -9,5 +9,5 @@ TYPE,О,String,"Типи актів, які можуть бути зазначе
 * WAREHOUSE_CHANGE - заміна складу отримувача"
 ID,О,String,Ідентифікатор акту
 NUMBER,О,String,Номер Акту
-DATE,О,String,Дата формування Акту
+DATE,О,String (YYYY-MM-DD),Дата формування Акту
 DATA,О,String,Додаткова інформація про Акт
