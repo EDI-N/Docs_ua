@@ -149,7 +149,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Приклад COMDOC_008<examples/comdoc_008_example.xml>`
+:download:`Приклад COMDOC_008<examples/comdoc_008_example_1.xml>`
 
 ---------
 
