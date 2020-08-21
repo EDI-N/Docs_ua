@@ -5,6 +5,10 @@ WHAT'S NEW
 
 .. role:: underline
 
+.. role:: large
+
+----------------------------------------------------
+
 ``17.08.2020``
 
 **`Особистий кабінет <https://wiki.edi-n.com/uk/latest/Personal_Cabinet/PCInstruction.html>`__**
@@ -55,8 +59,9 @@ WHAT'S NEW
 .. toggle-header::
     :header: **03.08.2020**
 
-    **`EDIN-Distribution <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list.html>`__**
-
+    :red:`**EDIN-Distribution**`
+    :large:`**EDIN-Distribution**`
+    
     #. **Швидке завантаження прайс-листа**
         Цінність: Тепер завантаження прайс-листа проходить в декілька секунд. *Для: Дистриб'ютора та Виробника.*
     #. **Зафіксована шапка таблиці прайс-листа**
