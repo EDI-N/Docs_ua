@@ -23,7 +23,7 @@ Telegram помічник водія сервісу "ETTN"
 
 Для початку роботи з Telegram помічником потрібно долучити його списку своїх контактів за допомогою пошуку (|лупа| + ETTNDemoBot) або можливо перейти за посиланням https://t.me/ETTNDemoBot та натиснути кнопку **"Розпочати"** чи **"Старт"**.
 
-.. image:: pics_Telegram_bot_instruction/Telegram_bot_instruction_01.png
+.. image:: pics_Telegram_bot_instruction/Telegram_bot_instruction_07.png
    :align: center
 
 Далі помічник автоматично попросить номер телефону для авторизації:
