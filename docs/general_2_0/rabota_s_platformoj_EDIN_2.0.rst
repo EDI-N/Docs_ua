@@ -22,6 +22,9 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_01n.png
    :align: center
 
+.. hint::
+   Нові користувачі можуть самостійно пройти "Реєстрацію" на платформі (детальніше в `інструкції <https://wiki.edi-n.com/uk/latest/general_2_0/User_registration.html>`__)
+
 Після успішної авторизації відкриється основне меню для вибору сервісу платформи EDIN: **"EDI", "ETTN", "АТС", "Виробник", "Дистриб'ютор", "Сертифікати", "Е-Специфікація", "Товари", "DOCflow", "Tender", "Wiki"**. 
 
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_02n.png
