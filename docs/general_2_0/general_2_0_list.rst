@@ -4,11 +4,11 @@
 .. toctree::
    :maxdepth: 1
    
-   User_registration
    rabota_s_platformoj_EDIN_2.0
    instruktsiyi_po_dodavannyu_klyuchiv
    Robota_z_tokenom
    Instruktsiya_po_zavantazhennyu_reyestru_komdok
    massovi_operacii_EDIN_2.0
    Spravochnik_torgovyh_setej_Ukraina
+   User_registration
    
