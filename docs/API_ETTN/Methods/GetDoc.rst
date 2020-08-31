@@ -13,3 +13,5 @@
 
 В тілі **відповіді** передаються дані документа (об'єкт `XDoc <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html>`__ ).
 
+.. note::
+  Опис сабстатусів документів: `XDoc.extraFields.sub_status <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__
