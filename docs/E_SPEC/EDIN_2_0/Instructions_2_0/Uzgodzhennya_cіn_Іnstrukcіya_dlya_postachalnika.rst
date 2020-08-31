@@ -327,17 +327,28 @@
 
 Розділ **"Новинки"** доступний на стороні Мережі та Постачальника. Постачальника може "Додавати нові позиції" (1):
 
-.. image:: pics_E_Spec_Іnstrukcіya_dlya_postachalnika/pics_Іnstrukcіya_dlya_postachalnika_30.png
+.. image:: pics_E_Spec_Іnstrukcіya_dlya_postachalnika/pics_Іnstrukcіya_dlya_postachalnika_30n.png
    :align: center
 
 Для збереження (2) позиції потрібно заповнити всі обов'язкові поля позначні червоною зірочкою :red:`*` .
 
+.. tip::
+   * При створенні товарної позиції (Чернетка) замість стандартного лого можливо завантажити фото товару максимальним розміром зображення 5 МБ (JPEG/JPG, PNG).
+
 Після чого позиції, що мають статус "Чернетка" можливо **"Видалити"** чи **"Надіслати"** (4), заздалегідь обравши (3) створені позиції.
 
-.. image:: pics_E_Spec_Іnstrukcіya_dlya_postachalnika/pics_Іnstrukcіya_dlya_postachalnika_31.png
+.. image:: pics_E_Spec_Іnstrukcіya_dlya_postachalnika/pics_Іnstrukcіya_dlya_postachalnika_31n.png
    :align: center
 
 Далі ця позиція на стороні Мережі проходить узгодження, а статус позиції автоматично оновлюється в таблиці розділу.
+
+.. hint::
+   Користувачі можуть отримувати повідомлення на ел. пошту про зміну статуса відправленої новинки. Для налаштувань такої опції потрібно звертутись до співробітників компанії-провайдера.
+
+   .. image:: pics_E_Spec_Іnstrukcіya_dlya_postachalnika/pics_Іnstrukcіya_dlya_postachalnika_32.png
+      :align: center
+
+----------------------------------
 
 .. include:: kontakti.rst
 
