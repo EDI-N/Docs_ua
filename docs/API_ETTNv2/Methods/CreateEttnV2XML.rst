@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передається json-тіло з відповідним документом `е-ТТН <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ для подальшої операції підписання.
+У тілі **відповіді** передається XML з відповідним документом `е-ТТН <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ для подальшої операції підписання.
 
