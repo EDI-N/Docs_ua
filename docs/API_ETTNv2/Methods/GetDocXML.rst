@@ -5,7 +5,7 @@
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTNv2/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
-  :file: GetDocArchive.csv
+  :file: GetDocXML.csv
   :widths:  10, 41
   :stub-columns: 0
 
