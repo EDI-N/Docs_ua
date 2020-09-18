@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається XML-файл.
+В тілі **відповіді** передається XML-файл. `Підписано Вантажовідправником <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/ETTNpage_v2_1.html>`__ або `Підписано Перевізником під час завантаження товару <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/ETTNpage_v2_2.html>`__ або `Підписано Вантажоотримувачем <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/ETTNpage_v2_3.html>`__ або `Підписано Перевізником під час вивантаження товару <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/ETTNpage_v2_4.html>`__.
