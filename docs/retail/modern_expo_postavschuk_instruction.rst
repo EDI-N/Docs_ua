@@ -14,7 +14,7 @@
 
 2 Вхід на платформу
 ====================================
-Для входу на web-платформу перейдіть за посиланням https://edo.edi-n.com/ введіть Ваш Логін і Пароль, після чого натисніть **Вхід**.
+Для входу на web-платформу перейдіть за посиланням https://edo.edin.ua/ введіть Ваш Логін і Пароль, після чого натисніть **Вхід**.
 
 .. image:: pics_modern_expo_postavschuk_instruction/modern_expo_postavschuk_instruction_01.png
    :align: center

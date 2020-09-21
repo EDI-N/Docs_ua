@@ -25,7 +25,7 @@
 
 1.2 Якщо ключі не на зовнішніх носіях (диск, флеш-накопичувач), потрібно знати шлях до ключів в файловій системі.
 
-1.3 Зайти на портал: https://edo-v2.edi-n.com/auth і ввести логін і пароль:
+1.3 Зайти на портал: https://edo-v2.edin.ua/auth і ввести логін і пароль:
 
 .. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_01n.png
    :align: center
