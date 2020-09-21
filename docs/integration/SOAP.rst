@@ -5,7 +5,7 @@ SOAP API
 
 ---------
 
-WSDL схема для роботи з FTPEX по SOAP: https://soap.edi-n.com/soap/service.wsdl
+WSDL схема для роботи з FTPEX по SOAP: https://soap.edin.ua/soap/service.wsdl
 
 Отримання списку доступних файлів (getList)
 ============================================================================================

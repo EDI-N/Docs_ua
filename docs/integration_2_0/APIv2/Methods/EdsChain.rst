@@ -22,22 +22,22 @@
 Отримати перелік документів за визначеним ланцюжком без завантаження їхніх тіл, пакетів, коментарів, тегів і статусів
 =======================================================================================================================
 
-  https://edo-v2.edi-n.com/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=false&load_package=false&load_comments=false&load_tags=false&load_statuses=false
+  https://edo-v2.edin.ua/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=false&load_package=false&load_comments=false&load_tags=false&load_statuses=false
 
 Отримати перелік документів за визначеним ланцюжком з завантаженням тіл і коментарів без завантаження їхніх пакетів, тегів і статусів
 ====================================================================================================================================
 
-  https://edo-v2.edi-n.com/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=true&load_package=false&load_comments=true&load_tags=false&load_statuses=false
+  https://edo-v2.edin.ua/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=true&load_package=false&load_comments=true&load_tags=false&load_statuses=false
 
 Отримати перелік документів за визначеним ланцюжком з завантаженням пакетів, тегів без завантаження їхніх тіл і коментарів і статусів
 ====================================================================================================================================
 
-  https://edo-v2.edi-n.com/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=false&load_package=true&load_comments=false&load_tags=true&load_statuses=false
+  https://edo-v2.edin.ua/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=false&load_package=true&load_comments=false&load_tags=true&load_statuses=false
 
 Отримати перелік документів за визначеним ланцюжком з завантаженням статусів без завантаження їхніх тіл, коментарів, пакетів, тегів
 ====================================================================================================================================
 
-  https://edo-v2.edi-n.com/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=false&load_package=false&load_comments=false&load_tags=false&load_statuses=true
+  https://edo-v2.edin.ua/api/eds/chain?gln=9864232304302&chain_uuid=0fe60377-51db-4b7a-b7eb-cdf5fa91a46a&load_docs=true&load_bodies=false&load_package=false&load_comments=false&load_tags=false&load_statuses=true
 
 **RESPONSE**
 

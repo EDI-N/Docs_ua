@@ -9,7 +9,7 @@
 1. Вхід на платформу EDIN
 ==============================
 
-Для входу на web платформу EDIN необхідно перейти за посиланням: https://edo.edi-n.com
+Для входу на web платформу EDIN необхідно перейти за посиланням: https://edo.edin.ua
 
 На початковій сторінці необхідно ввести Логін та Пароль доступу та натиснути кнопку “Вхід”.
 
@@ -35,7 +35,7 @@
 Приклад:
 
 *Для генерации нового пароля перейдитепо ссылке:
-https://edo.edi-n.com/access?event........*
+https://edo.edin.ua/access?event........*
 
 .. image:: pics_vosstanovlenie_parolja_na_platforme_EDIN/vosstanovlenie_parolja_na_platforme_EDIN_04.png
    :align: center

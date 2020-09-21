@@ -244,7 +244,7 @@
         },
         "General_Settings": {
             "EDIN_Configuration_1C_Type": "БП30",
-            "EDIN_API_address": "https://edo-v2.edi-n.com/",
+            "EDIN_API_address": "https://edo-v2.edin.ua/",
             "EDIN_Partner_Equal_Consignee": 0,
             "EDIN_Search_Partner_By_Delivery_Point": 0,
             "EDIN_Use_Characteristics": 0,
