@@ -50,7 +50,7 @@
 .. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_3.png
    :align: center
 
-Для підтвердження реєстрації перейдіть за посиланням у реєстраційному листі. Відправник листа - noreply@edi-n.com, тема – «EDIN-DOCFLOW Підтвердження реєстрації».  
+Для підтвердження реєстрації перейдіть за посиланням у реєстраційному листі. Відправник листа - noreply@edin.ua, тема – «EDIN-DOCFLOW Підтвердження реєстрації».  
 
 .. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_4.png
    :align: center
@@ -141,7 +141,7 @@
 У разі використання незареєстрованого Email система повідомить про помилку. 
 
 Наступним кроком перейдіть за посиланням у листі, отриманому на вказану адресу.  
-Відправник листа - noreply@edi-n.com, тема – «EDIN-DOCFLOW Відновлення пароля". 
+Відправник листа - noreply@edin.ua, тема – «EDIN-DOCFLOW Відновлення пароля". 
 
 .. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_9.png
    :align: center
@@ -165,7 +165,7 @@
 .. image:: pics_instruktsia-avtorizatsia/instrktsuia_avtorizatsia_12.png
    :align: center
 
-Відправник: - noreply@edi-n.com. Тема листа: «EDIN-DOCFLOW Відновлення пароля».
+Відправник: - noreply@edin.ua. Тема листа: «EDIN-DOCFLOW Відновлення пароля».
 
 .. admonition:: Зверніть увагу!
 
@@ -196,6 +196,6 @@
 .. image:: pics_instruktsia-avtorizatsia/instruktsia_avtorizatsia_16.png
    :align: center
 
-На стару адресу Email надійде інформаційне повідомлення про зміну електронної адреси. Відправник: - noreply@edi-n.com, тема листа: «EDIN-DOCFLOW. Відновлення пароля".
+На стару адресу Email надійде інформаційне повідомлення про зміну електронної адреси. Відправник: - noreply@edin.ua, тема листа: «EDIN-DOCFLOW. Відновлення пароля".
 
 .. include:: kontakti.rst

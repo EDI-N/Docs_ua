@@ -39,7 +39,7 @@
 	      "firstName": "Test",
 	      "middleName": "Test",
 	      "ipn": "23423423",
-	      "email": "goncharovd@edi-n.com",
+	      "email": "goncharovd@edin.ua",
 	      "tel": "380958476694",
 	      "chatId": 347971296,
 	      "identifiers": {
@@ -53,7 +53,7 @@
 	      "firstName": "Сергій",
 	      "middleName": "Сергійович",
 	      "ipn": "1010101014",
-	      "email": "kinasha@edi-n.com",
+	      "email": "kinasha@edin.ua",
 	      "tel": "380981206467",
 	      "chatId": 0,
 	      "identifiers": {
