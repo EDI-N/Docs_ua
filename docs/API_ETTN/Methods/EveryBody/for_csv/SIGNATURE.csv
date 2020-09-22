@@ -1,0 +1,7 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _SIGNATURE:,О, Об'єкт **SIGNATURE**,
+OWNER,О,"TRANSPORTER_DRIVER / TRANSPORTER_EXPEDITION","власник підпису:
+
+* TRANSPORTER_DRIVER - Водій
+* TRANSPORTER_EXPEDITION - Експедитор"
+SIGN,О,String,тіло підпису в base64

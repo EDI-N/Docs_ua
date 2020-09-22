@@ -1,0 +1,7 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CONSIGNEE_SIGN_ENVELOPE:,О, Об'єкт **CONSIGNEE_SIGN_ENVELOPE**,
+STATE,О,«RECIPIENT_SIGNED»,стан документу «підписано Вантажоотримувачем»
+**SIGN_ENVELOPE**,О,CARRIER_LOAD_SIGN_ENVELOPE_,об'єкт; обгортка для накладання підпису Вантажоотримувача на контент
+**SIGNATURE**,О,List<SIGNATURE_>,масив об'єктів; підписи учасників
+**DECLARBODY**,О,CONSIGNEE_BODY_,об'єкт; зміст документа
+**DECLAREXT**,О,DECLAREXT_,об'єкт; додаткова інформація для учасників перевезення
