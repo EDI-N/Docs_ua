@@ -1,4 +1,4 @@
-Формування Податкової Накладний на підставі Прибуткової накладної (COMDOC_007)
+Формування Податкової Накладної на підставі Прибуткової накладної (COMDOC_007)
 ###############################################################################
 
 .. сюда закину немного картинок для текста
@@ -27,7 +27,7 @@
 
 1.3 Зайти на портал: https://edo-v2.edin.ua/auth і ввести логін і пароль:
 
-.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_01n.png
+.. image:: pics_Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi/Formuvannya_Podatkovoyi_Nakladnyy_26n.png
    :align: center
 
 1.4 Перед початком роботи з податковою накладною необхідно одноразово надати інформацію про реквізити компанії - зверніться до технічної підтримки або до Вашого менеджера. 

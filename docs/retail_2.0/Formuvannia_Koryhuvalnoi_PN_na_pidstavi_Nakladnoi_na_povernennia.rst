@@ -23,7 +23,7 @@
 
 Зайдіть на портал: https://edo-v2.edin.ua і введіть логін і пароль.
 
-.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_12.png
+.. image:: pics_formuvannia_Koryhuvalnoi_PN_na_Nakladnoi_na_povernennia/Koryhuvalnoi_PN_iz_Nakladnoi_na_povernennia_19.png
    :align: center
 
 Перед початком роботи з Коригувальною податковою накладною необхідно одноразово заповнити всі реквізити, які будуть відображатися в податковій з боку постачальника, й виберіть GLN, з якого відбуватиметься відправка накладних.
