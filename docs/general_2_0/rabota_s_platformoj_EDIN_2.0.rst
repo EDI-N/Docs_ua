@@ -19,7 +19,7 @@
 
 При переході за вказаним посиланням відкриється вікно авторизації. Необхідно ввести Ваш логін і пароль користувача і натиснути «**Вхід**», як це зазначено на зображенні нижче:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_01n.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_06n.png
    :align: center
 
 .. hint::
