@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CARRIER_UNLOAD_ETTN:,О, Об'єкт **CARRIER_UNLOAD_ETTN**,
+**SIGN_ENVELOPE**,О,CARRIER_UNLOAD_SIGN_ENVELOPE_,об'єкт; обгортка для накладання підпису на контент
+**SIGNATURE**,О,List<SIGNATURE_>,масив об'єктів; підписи
