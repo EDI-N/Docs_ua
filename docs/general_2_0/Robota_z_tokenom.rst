@@ -23,7 +23,7 @@
 
 Для браузера Opera — https://addons.opera.com/uk/extensions/details/iit-end-user-ca-1-sign-webextension/?display=uk 
 
-Для браузера Mozilla Firefox — https://eu.iit.com.ua/download/productfiles/eusw@iit.com.ua.xp 
+Для браузера Mozilla Firefox — https://eu.iit.com.ua/download/productfiles/eusw@iit.com.ua.xpi 
 
 Розглянемо процес встановлення розширення для браузера Google Chrome:
 
@@ -54,21 +54,21 @@
 **2.1 Додавання довіреного сайту**
 -----------------------------------------------------------
 
-Додати довірений сайт можливо:
+Додати довірений сайт https://edo-v2.edin.ua можливо:
 
 1) вручну через налаштування розширення ІІТ:
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_22.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_30.png
    :align: center
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_23.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_31.png
    :align: center
 
 2) автоматично при першому "Підписанні" (розширення ІІТ запитає дозвіл на доступ)
 
 Для початку потрібно зайти на платформу EDI-N
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_04n.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_32.png
    :align: center
 
 В заповненому документі натиснути кнопку **"Підписати"**. При першій ініціалізації бібліотеки підписання підтвердіть дозвіл web-сайту до бібліотеки підпису користувача ЦСК, натисніть — "OK"
@@ -79,12 +79,12 @@
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_006.png
    :align: center
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_07.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_33.png
    :align: center
 
 Зайдіть у web-розширення для перевірки додавання довіреного сайту
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_08.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_34.png
    :align: center
 
 **3 Встановлення web-бібліотеки підпису користувача ЦСК**
@@ -144,7 +144,7 @@
 
 2) Зайдіть на платформу EDI-N
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_04n.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_32.png
    :align: center
 
 3) Встановлена на комп'ютері web-бібліотека підпису користувача ЦСК повинна бути запущена:
@@ -157,7 +157,7 @@
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_020.png
    :align: center
 
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_21.png
+.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_33.png
    :align: center
 
 5) Далі потрібно за необхідності додати токен (1), обрати ключ (2), ввести пароль (3), **"Считати"** (4) та **"Додати"** активний ключ: 
