@@ -2,7 +2,7 @@
 **Отримати список категорій товарів Прайс-листа**
 #############################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetCategories.csv
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** у вигляді масиву об'єктів передаються `категорії товарів <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XProductGroup.html>`__ для вказаного "Дистриб'ютора"
+В тілі **відповіді** у вигляді масиву об'єктів передаються `категорії товарів <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XProductGroup.html>`__ для вказаного "Дистриб'ютора"
 

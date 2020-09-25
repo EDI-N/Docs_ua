@@ -15,7 +15,7 @@
 
 Для авторизації на платформі перейдіть за посиланням http://doc.edi-n.com/auth та введіть свої логін = email і пароль на формі авторизації. Детальна інформація з авторизації міститься в  `«Інструкції з авторизації»`_.
 
-.. _«Інструкції з авторизації»: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
+.. _«Інструкції з авторизації»: https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
 
 2 Завантаження сертифіката
 ---------------------------
@@ -66,6 +66,6 @@
 .. image:: pics_instruktsia-po-shifrovaniu/new_instruktsia-po-shifrovaniu_07.png
    :align: center
 
-Інформація шодо підписання шифрованих документів та додавання шифрованих документів описана в інструкції `Підписання шифрованих документів <https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-nastroyka-ecp.html#id10>`__ .
+Інформація шодо підписання шифрованих документів та додавання шифрованих документів описана в інструкції `Підписання шифрованих документів <https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-nastroyka-ecp.html#id10>`__ .
 
 .. include:: kontakti.rst

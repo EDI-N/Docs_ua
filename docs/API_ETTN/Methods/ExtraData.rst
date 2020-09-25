@@ -2,7 +2,7 @@
 **Отримання даних компанії, співробітників, адрес з довідників сервісу "ЕТТН"**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: ExtraData.csv
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передається json-тіло з `даними компанії, співробітників, адрес <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/ExtraDataResponse.html>`__ в випадку, якщо в запиті передавався відповідний ідентифікатор (об'єкти **CompanyV2**, **Employee**, **Address**).
+У тілі **відповіді** передається json-тіло з `даними компанії, співробітників, адрес <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/ExtraDataResponse.html>`__ в випадку, якщо в запиті передавався відповідний ідентифікатор (об'єкти **CompanyV2**, **Employee**, **Address**).
 

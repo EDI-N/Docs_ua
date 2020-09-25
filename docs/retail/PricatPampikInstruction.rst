@@ -89,7 +89,7 @@
 .. image:: pics_PricatPampikInstruction/PricatPampikInstruction_08n.png
    :align: center
 
-Інструкція щодо додавання продукції до товарного довідника — https://wiki.edi-n.com/uk/latest/general/Zapolnenie_Tovarnogo_spravochnika.html.
+Інструкція щодо додавання продукції до товарного довідника — https://wiki.edin.ua/uk/latest/general/Zapolnenie_Tovarnogo_spravochnika.html.
 
 **3 Збереження та відправка документу**
 ================================================

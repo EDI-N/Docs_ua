@@ -46,7 +46,7 @@
 --------------
 Для авторизації на платформі перейдіть за посиланням https://doc.edi-n.com/auth та введіть свої логін та email і пароль на формі авторизації. Детальна інформація з авторизації міститься в  `«Інструкції з авторизації»`_.
 
-.. _«Інструкції з авторизації»: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
+.. _«Інструкції з авторизації»: https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
 
 3 Передумови обміну комплектами
 ----------------------------------
@@ -195,7 +195,7 @@
 
 Якщо для документа встановлено ознаку шифрування, перед підписанням його необхідно розшифрувати. Для цього виберіть ЕЦП/КЕП для розшифрування.  Успішно розшифрований документ можливо буде підписати. У разі виникнення помилки розшифрування з’явиться відповідне повідомлення, і подальше підписання буде неможливим.
 
-`Ознайомтеся з інструкцією з з налаштування ЕЦП/КЕП для підписання! <https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-nastroyka-ecp.html>`_ .
+`Ознайомтеся з інструкцією з з налаштування ЕЦП/КЕП для підписання! <https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-nastroyka-ecp.html>`_ .
 
 У разі використання MobileID користувачеві буде надіслано sms-запит на номер телефону, зв’язаний із ЕЦП/КЕП. Для підтвердження підписання введіть код підтвердження.
 
@@ -323,7 +323,7 @@
 
 Дізнайтеся більше про використання фільтрів та пошук за тегами у  `«Інструкції користування пошуком та фільтрами»`_.
 
-.. _«Інструкції користування пошуком та фільтрами»: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/%D1%96nstrukc%D1%96ya-koristuvannya-poshukom.html
+.. _«Інструкції користування пошуком та фільтрами»: https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/%D1%96nstrukc%D1%96ya-koristuvannya-poshukom.html
 
 Для пошуку потрібного комплекта натисніть «Фільтр»:
 
@@ -737,7 +737,7 @@
 11 Копіювання комплекту с документами, позначеними для редагування
 --------------------------------------------------------------------------------------------------------------------
 
-У *Налаштування компанії - Налаштування комплектів документів*, при `додаванні звязку комплекта з типами документів <https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#pack_with_docs>`_  можливо налаштувати правила роботи з документом.
+У *Налаштування компанії - Налаштування комплектів документів*, при `додаванні звязку комплекта з типами документів <https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#pack_with_docs>`_  можливо налаштувати правила роботи з документом.
 
 Для зручності користувачів на платформі, та простішого обміну структурованими документами, реалізована можливість копіювання і редагування документів отриманих від контрагента.
 
@@ -770,7 +770,7 @@
 
 .. include:: kontakti.rst
 
-.. _`Маршрути погодження`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id18
+.. _`Маршрути погодження`: https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id18
 
-.. _`Відображення штампу ЕЦП у листі підписання`: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id9
+.. _`Відображення штампу ЕЦП у листі підписання`: https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-biznes-administratora.html#id9
 

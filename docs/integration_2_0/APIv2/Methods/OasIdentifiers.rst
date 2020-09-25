@@ -2,7 +2,7 @@
 **Отримання інформації про організацію по Назві/ІПН/КПП/GLN**
 ######################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 Метод дозволяє користувачеві переглядати додаткову інформацію про інші організації на рівні одного загального аккаунта.
 
@@ -13,4 +13,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається інформація про організацію (масив об'єктів `Identificator <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Identificator.html>`__).
+В тілі **відповіді** передається інформація про організацію (масив об'єктів `Identificator <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Identificator.html>`__).

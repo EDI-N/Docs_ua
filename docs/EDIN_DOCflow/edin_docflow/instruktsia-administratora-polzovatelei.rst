@@ -31,7 +31,7 @@
 --------------
 Для авторизації на платформі перейдіть за посиланням https://doc.edi-n.com/auth та введіть свої логін = email і пароль на формі авторизації. Детальна інформація з авторизації міститься в `«Інструкції з авторизації»`_.
 
-.. _«Інструкції з авторизації»: https://wiki.edi-n.com/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
+.. _«Інструкції з авторизації»: https://wiki.edin.ua/uk/latest/EDIN_DOCflow/edin_docflow/instruktsia-avtorizatsia.html
 
 3 Створення облікового запису користувача
 -------------------------------------------

@@ -7,7 +7,7 @@ URL параметри ,"**company_uuid** (обов'язково) UUID - іде�
 
 **rejected_by** (обов'язково) String - ПІБ співробітника"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
 Content-Type  , text/plain; charset=UTF-8                             
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту передається текст причини відмови в підписанні"

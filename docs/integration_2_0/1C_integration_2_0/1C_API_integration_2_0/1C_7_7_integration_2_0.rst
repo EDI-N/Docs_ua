@@ -105,7 +105,7 @@ EDI (electronic data interchange - електронний обмін данни�
 .. image:: pics_1C_7_7_integration_2_0/1C_7_7_integration_2_0_08.png
    :align: center
 
-За замовчуванням в модулі для перегляду доступно 3 типи документів: `Замовлення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#order>`__, `Підтвердження замовлення <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#ordrsp>`__, `Повідомлення про відвантаження <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#desadv>`__.
+За замовчуванням в модулі для перегляду доступно 3 типи документів: `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__, `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__, `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__.
 
 .. image:: pics_1C_7_7_integration_2_0/1C_7_7_integration_2_0_09.png
    :align: center

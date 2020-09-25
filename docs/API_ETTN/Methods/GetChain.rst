@@ -2,7 +2,7 @@
 **Отримання ланцюжка документів сервісу "ЕТТН" по id ланцюжка чи id документа**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetChain.csv
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані ланцюжка документів (об'єкт `XChain <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/XChainPage.html>`__ ).
+В тілі **відповіді** передаються дані ланцюжка документів (об'єкт `XChain <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XChainPage.html>`__ ).
 

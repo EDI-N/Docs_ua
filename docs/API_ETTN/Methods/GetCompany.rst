@@ -2,7 +2,7 @@
 **Отримання даних про компанію по ідентифікатору компанії**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetCompany.csv
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані компанії (об'єкт `CompanyV2 <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/CompanyV2.html>`__ ).
+В тілі **відповіді** передаються дані компанії (об'єкт `CompanyV2 <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CompanyV2.html>`__ ).
 

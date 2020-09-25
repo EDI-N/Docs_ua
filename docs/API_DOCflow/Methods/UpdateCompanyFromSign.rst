@@ -2,7 +2,7 @@
 **Оновлення компанії з КЕП/ЕЦП**
 ########################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_DOCflow/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_DOCflow/Methods/Authorization.html>`__ .
 
 .. attention:: Оновлення компанії з КЕП/ЕЦП відбувається в два кроки:
 

@@ -55,7 +55,7 @@ DESCRIPTION, O, Рядок (70), Опис причини (пошкодження
 VAT, O, Число позитивне, "Ставка ПДВ,%"
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
 WEIGHT, O, Число десяткове, Вага
-WEIGHTUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+WEIGHTUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 **POSITION**,,, Товарні позиції (закінчення блоку)
 **HEAD**,,, Закінчення основного блоку
 **RETANN**,,, Закінчення документа

@@ -25,9 +25,9 @@ PRODUCT, М, "Число (8, 10, 14)", Штрих-код продукту
 PRODUCTIDSUPPLIER, О, Рядок (16), Артикул в БД постачальника
 PRODUCTIDBUYER, О, Рядок (16), Артикул в БД покупця
 DELIVEREDQUANTITY, М, Число позитивне,"Кількість, що поставляється"
-DELIVEREDUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+DELIVEREDUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 ORDEREDQUANTITY, О, Число позитивне, Замовлена ​​кількість
-ORDERUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+ORDERUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 CUSTOMSTARIFFNUMBER, О, Рядок (30), Номер державної митної декларації (ВМД)
 PRICE, О, Число десяткове, Ціна продукту без ПДВ
 PRICEWITHVAT, О, Число десяткове, Ціна продукту з ПДВ

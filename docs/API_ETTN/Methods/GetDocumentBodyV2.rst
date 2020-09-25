@@ -2,7 +2,7 @@
 **Отримання тіла документа сервісу "ЕТТН" в json форматі**
 #####################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetDocumentBodyV2.csv
@@ -13,4 +13,4 @@
 
 У тілі **відповідь** передається тіло документа (json) сервісу "ЕТТН", тип якого залежить від його статусу:
 
-* `Специфікації документів <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+* `Специфікації документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__

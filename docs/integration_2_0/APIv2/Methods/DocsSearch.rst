@@ -2,7 +2,7 @@
 **Пошук документів (з фільтрацією), вибір списку документів**
 ######################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 За допомогою методу **api/eds/docs/search** можливо швидко зробити пошук по заданим критеріям, наприклад, отримати список документів з певним статусом, або за проміжок часу.
 
@@ -13,5 +13,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається `масив документів <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/DocsSearchResponse.html>`__.
+В тілі **відповіді** передається `масив документів <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/DocsSearchResponse.html>`__.
 

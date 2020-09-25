@@ -2,7 +2,7 @@
 **Отримання даних/контенту квитанції**
 #######################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetTicketBody.csv
@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** в залежності від параметра **body_type** передаються `дані підпису <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/SignInfo.html>`__ (json) або контент підпису (base64).
+В тілі **відповіді** в залежності від параметра **body_type** передаються `дані підпису <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/SignInfo.html>`__ (json) або контент підпису (base64).

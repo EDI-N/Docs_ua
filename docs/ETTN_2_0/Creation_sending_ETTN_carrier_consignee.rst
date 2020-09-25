@@ -229,7 +229,7 @@
 .. image:: pics_Creation_sending_ETTN_carrier_consignee/Creation_sending_ETTN_carrier_consignee_11n.png
    :align: center
 
-Далі згідно `оберненої схеми <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_ETTN.html#reverse-schema>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
+Далі згідно `оберненої схеми <https://wiki.edin.ua/uk/latest/ETTN_2_0/Work_with_ETTN.html#reverse-schema>`__ документообігу контрагент з роллю **"Вантажовідправник"** отримує документ-чернетку:
 
 .. image:: pics_Creation_sending_ETTN_carrier_consignee/Creation_sending_ETTN_carrier_consignee_12n.png
    :align: center
@@ -239,7 +239,7 @@
 .. image:: pics_Creation_sending_ETTN_carrier_consignee/Creation_sending_ETTN_carrier_consignee_13.png
    :align: center
 
-В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ може бути відредагований, після чого його потрібно **"Зберегти"** (1) та **"Підписати"** (2) (детальніше про підписання в `інструкції для вантажовідправника <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html>`__ ).
+В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ може бути відредагований, після чого його потрібно **"Зберегти"** (1) та **"Підписати"** (2) (детальніше про підписання в `інструкції для вантажовідправника <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html>`__ ).
 
 .. image:: pics_Creation_sending_ETTN_carrier_consignee/Creation_sending_ETTN_carrier_consignee_14.png
    :align: center

@@ -118,7 +118,7 @@
  
 У сервісі також реалізована можливість встановити інший строк блокування користувача (мінімальне значення – 3 хвилини, максимальне – 24 години) у межах  налаштування параметрів парольної політики. Детальніше про налаштування парольної політики в `«Інструкції адміністратора користувачів»`_.
 
-.. _«Інструкції адміністратора користувачів»: https://wiki.edi-n.com/uk/latest/services/EDIN_DOCflow/edin_docflow/instruktsia-administratora-polzovatelei.html
+.. _«Інструкції адміністратора користувачів»: https://wiki.edin.ua/uk/latest/services/EDIN_DOCflow/edin_docflow/instruktsia-administratora-polzovatelei.html
 
 3 Відновлення пароля 
 ---------------------

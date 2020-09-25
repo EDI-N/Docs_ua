@@ -7,5 +7,5 @@ URL параметри ,"**company_uuid** (обов'язково) UUID - іде�
 
 **attach_id** (обов'язково) long - ідентифікатор вкладення"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
 Content-Type  , application/json 

@@ -2,7 +2,7 @@
 **Отримати дані "Прайс-листа" для вказаного Дистриб'ютора**
 #############################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
 
 .. important::
   В залежності від ролі користувача (Виробник / Дистриб'ютор), що виконує запит значення параметрів в запиті відрізняються! 
@@ -23,6 +23,6 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані по товарам "Прайс-листа" (масив об'єктів `XPriceListElement <https://wiki.edi-n.com/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XPriceListElement.html>`__) для вказаного "Дистриб'ютора"
+В тілі **відповіді** передаються дані по товарам "Прайс-листа" (масив об'єктів `XPriceListElement <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XPriceListElement.html>`__) для вказаного "Дистриб'ютора"
 
 

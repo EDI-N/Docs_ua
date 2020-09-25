@@ -85,7 +85,7 @@ EAN, М, Число (14), Штрих-код продукту
 BuyerItemCode,О,Строка (16),Артикул в БД покупця
 ItemDescription, М, Рядок (210), Опис товару
 InvoiceQuantity, M, Число позитивне, Замовлена кількість (кількість товару за накладною)
-UnitOfMeasure, О, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+UnitOfMeasure, О, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 InvoiceUnitNetPrice, M, Число позитивне, Ціна однієї одиниці без ПДВ
 TaxRate, M, Число позитивне,"Ставка ПДВ (20%, 7%, 0%)"
 TaxCategoryCode, M,E/S,"Код категорії податку:

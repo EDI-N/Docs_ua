@@ -2,7 +2,7 @@
 **Створення квитанції №12 (прийняття запиту на анулювання COMDOC)**
 ######################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 За допомогою POST методу **api/v2/eds/comdoc/repeal/accept** можливо прийняти запит на анулювання документу COMDOC.
 

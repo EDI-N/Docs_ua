@@ -2,7 +2,7 @@
 **Переглянути тіло пропозиції (переузгодження)**
 #############################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetAgreementBody.csv
@@ -11,6 +11,6 @@
 
 **RESPONSE**
 
-В тілі **відповіді** методу передається `тіло пропозиції <https://wiki.edi-n.com/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/EveryBody/GetAgreementBodyResponse.html>`__ .
+В тілі **відповіді** методу передається `тіло пропозиції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/EveryBody/GetAgreementBodyResponse.html>`__ .
 
 
