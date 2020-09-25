@@ -2,7 +2,7 @@
 **Відправка документа (без створення чернетки)**
 ######################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 За допомогою цього POST методу **/api/eds/doc/create_and_send** відбувається одночасне створення та відправка документа.
 
@@ -19,7 +19,7 @@
 
 , де **doc_uuid** - унікальний ідентифікатор документа на платформі EDIN 2.0;
 
-**chain_uuid** - унікальний ідентифікатор `ланцюжка документів <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EdsChain.html>`__.
+**chain_uuid** - унікальний ідентифікатор `ланцюжка документів <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EdsChain.html>`__.
 
 
 

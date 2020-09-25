@@ -2,7 +2,7 @@
 **Допоміжний метод. Отримання довідника типів помилок**
 #############################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_EDIN_Certificate/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_EDIN_Certificate/Methods/Authorization.html>`__ .
 
 +--------------------------------------------------------------+--------------------------------------------------------------+
 |                       **Метод запиту**                       |                         **HTTP GET**                         |
@@ -19,7 +19,7 @@
 
 ``REQUEST``
 
-В цьому методі в json-тілі **запиту** обов'язково передається лише токен **varToken​**, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_EDIN_Certificate/Methods/Authorization.html>`__ 
+В цьому методі в json-тілі **запиту** обов'язково передається лише токен **varToken​**, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_EDIN_Certificate/Methods/Authorization.html>`__ 
 
 ``RESPONSE``
 

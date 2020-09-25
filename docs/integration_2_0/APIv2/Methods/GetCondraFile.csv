@@ -11,5 +11,5 @@ URL параметри ,"**gln** (обов'язково) - рядок (13); но
 
 * zip - в вигляді архіву в base64"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 Content-Type  , application/octet-stream

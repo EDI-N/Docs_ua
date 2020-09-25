@@ -2,7 +2,7 @@
 **Створення XML документа для подальшого підписання**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTNv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTNv2/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: CreateEttnV2XML.csv
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передається XML з відповідним документом `е-ТТН <https://wiki.edi-n.com/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ для подальшої операції підписання.
+У тілі **відповіді** передається XML з відповідним документом `е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ для подальшої операції підписання.
 

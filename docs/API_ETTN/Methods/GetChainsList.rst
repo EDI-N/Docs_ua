@@ -2,7 +2,7 @@
 **Отримання списку ланцюжків документів сервісу "ЕТТН"**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetChainsList.csv
@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається масив ланцюжків документів (об'єктів `XChain <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/XChainPage.html>`__ ).
+В тілі **відповіді** передається масив ланцюжків документів (об'єктів `XChain <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XChainPage.html>`__ ).

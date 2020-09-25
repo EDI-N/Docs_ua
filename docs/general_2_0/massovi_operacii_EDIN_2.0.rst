@@ -29,7 +29,7 @@
 * Масовий друк документів
 * Архівувати/розархівувати обрані
 * Завантажити в форматі .xls / .pdf / .p7s (доступність форматів залежить від типу документа)
-* Звіт "Консолідоване замовлення" в Excel (для документів "Замовлення" (`ORDER <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#order>`__))
+* Звіт "Консолідоване замовлення" в Excel (для документів "Замовлення" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__))
 * Видалити документи
 
 Доступ до Масових операцій можливо отримати двома способами:
@@ -69,23 +69,23 @@
 
 У "Вхідних" доступне **Масове підписання / відправка**:
 
-* Комерційного (універсального) документа (`COMDOC <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#comdoc>`__)
-* Податкової накладної (`DECLAR <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declar>`__)
-* Коригування до податкової накладної (`DECLARj12 <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declarj12>`__)
-* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#documentinvoice>`__)
-* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
-* Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
-* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#ordrpt>`__)).
+* Комерційного (універсального) документа (`COMDOC <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__)
+* Податкової накладної (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__)
+* Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__)
+* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__)
+* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
+* Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
+* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)).
 
 У "Чернетках" доступне **Масове підписання / відправка**:
 
-* Видаткової накладної (`COMDOC_006 <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#comdoc-006>`__)
-* Податкової накладної (`DECLAR <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declar>`__)
-* Коригування до податкової накладної (`DECLARj12 <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#declarj12>`__)
-* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#documentinvoice>`__)
-* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
-* Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
-* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#ordrpt>`__)
+* Видаткової накладної (`COMDOC_006 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__)
+* Податкової накладної (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__)
+* Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__)
+* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__)
+* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
+* Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
+* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)
 
 Для доступу до операції, відсортуйте документи за Типом документу, а також за статусом - "Не підписано" (1). Виберіть потрібні документи, або відмітьте усі, а потім натисніть на кнопку "Масові операції" (2), щоб перейти до допустимих операції.
 
@@ -143,7 +143,7 @@
 Звіт "Консолідоване замовлення"
 ====================================
 
-Створення звіту "Консолідоване замовлення" можливо виконати в папках "Вхідні" та "Надіслані": для цього потрібно обрати кілька "Замовлень" (`ORDER <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#order>`__) (1) та в **"Масових операціях"** (2) обрати **"Звіт "Консолідоване замовлення" в Excel"**:
+Створення звіту "Консолідоване замовлення" можливо виконати в папках "Вхідні" та "Надіслані": для цього потрібно обрати кілька "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__) (1) та в **"Масових операціях"** (2) обрати **"Звіт "Консолідоване замовлення" в Excel"**:
 
 .. image:: pics_massovi_operacii/massovi_operacii_z_documentamy_11.png
    :align: center

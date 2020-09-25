@@ -13,5 +13,5 @@ URL параметри ,"**gln** - рядок (13); номер GLN органі�
 - ``STAMP`` - base64 тіло печатки      
 - ``CRYPTED`` - шифровані вихідні дані"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 Content-Type  , application/json

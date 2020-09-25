@@ -227,7 +227,7 @@
 Після усіх проведених змін документ необхідно **"Зберегти"** (1) та **"Підписати"** (2).
 
 .. hint::
-    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_Proposal.html#sign>`__ .
+    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_Proposal.html#sign>`__ .
 
 Після підписання в "Підтвердження транспортування" додається інформація щодо підписантів документа. Документ можливо **"Надіслати"** контрагенту (**"Вантажовідправнику"**): 
 
@@ -274,7 +274,7 @@
    :align: center
 
 .. hint::
-    Процес підписання **"Вантажовідправником"** вже описаний раніше в `розділі вище <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_Proposal.html#sign>`__ .
+    Процес підписання **"Вантажовідправником"** вже описаний раніше в `розділі вище <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_Proposal.html#sign>`__ .
 
 Після підписання інформаційне повідомлення сповіщає про те, що документообіг завершено ("Процес завершено"), а статус документа "Підтвердження транспортування" змінюється на "Підписано вантажовідправником".
 
@@ -298,7 +298,7 @@
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_37n.png
    :align: center
 
-Детальніше про заповнення, підписання, відправку в `інструкції для роботи з "ЕТТН" <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html>`__ )
+Детальніше про заповнення, підписання, відправку в `інструкції для роботи з "ЕТТН" <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html>`__ )
 
 2) **Створити Акт** - дозволяє створити "Акт прийому-передачі" за вибраним **"Вантажовідправником"** (якщо їх було кілька в "Замовленні транспортування"):
 
@@ -315,7 +315,7 @@
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_40n.png
    :align: center
 
-Детальніше про заповнення, підписання, відправку в `інструкції для роботи з "Актом прийому-передачі" <https://wiki.edi-n.com/uk/latest/ETTN_2_0/Work_with_acceptance_certificate.html>`__ )
+Детальніше про заповнення, підписання, відправку в `інструкції для роботи з "Актом прийому-передачі" <https://wiki.edin.ua/uk/latest/ETTN_2_0/Work_with_acceptance_certificate.html>`__ )
 
 **3.2 Відхилення "Підтвердження транспортування" "Вантажовідправником"**
 ------------------------------------------------------------------------------------

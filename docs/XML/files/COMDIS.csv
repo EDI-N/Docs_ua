@@ -28,7 +28,7 @@ DESCRIPTION, О, Рядок (70), Опис продукту
 AMOUNTSUBJECT, O, Число десяткове, Сума позиції
 AMOUNTSUBJECTCURRENCY, О, Рядок (3), Код валюти
 QUANTITY, О, Число позитивне, "Кількість, що поставляється"
-UNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+UNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 PRICE, O, Число десяткове, Ціна продукту
 **TAX**,,, Логістика (початок блоку)
 TAXRATE, O, Число (3),"Ставка податку (ПДВ,%)"

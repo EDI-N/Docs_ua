@@ -83,7 +83,7 @@ BUYERPARTNUMBER, О, Рядок (16), внутрішній системний н
 PRODINN, O, Число позитивне, ІПН виробника/імпортера
 INVOICEDQUANTITY, М/-, Число позитивне, Кількість за рахунком; поле не заповнюється при INVOICETYPE=1
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
-INVOICEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+INVOICEUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 UNITPRICEBEFORE, M/О, Число позитивне, "Ціна без НДС в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1"
 UNITPRICEAFTER, M/О, Число позитивне, "Ціна без НДС в 'Коригуванні' (INVOICETYPE=1); поле обов'язкове до заповнення при INVOICETYPE=1"
 GROSSPRICEBEFORE, M/-, Число позитивне, "Ціна з НДС в 'Оригіналі' (INVOICETYPE=0); поле обов'язкове до заповнення при INVOICETYPE=1 і не заповнюється при INVOICETYPE=0"

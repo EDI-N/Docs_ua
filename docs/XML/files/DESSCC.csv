@@ -40,8 +40,8 @@ CUSTOMSTARIFFNUMBER, О, Рядок (35), Номер державної митн
 QUANTITYOFCUINTU, O, Число позитивне, Кількість в упаковці
 PRICE, O, Число десяткове, Ціна продукту
 VAT, O, Число позитивне,"Ставка ПДВ,%"
-UNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
-DELIVEREDUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edi-n.com/uk/latest/XML/units_edi.html>`__
+UNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+DELIVEREDUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 PRODUCTIDSUPPLIER, О, Рядок (35), Артикул в БД постачальника
 BOTTLINGDATE, О, Дата (РРРР-ММ-ДД), Дата розливу
 **POSITION**,,, Товарні позиції (закінчення блоку)

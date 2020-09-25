@@ -2,7 +2,7 @@
 **Отримання інформації (мета-даних) про документ**
 #######################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetDocument.csv
@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-У тілі **відповідь** передаються дані вказаного документа (об'єкт `XDoc <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html>`__ ).
+У тілі **відповідь** передаються дані вказаного документа (об'єкт `XDoc <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html>`__ ).

@@ -9,7 +9,7 @@ URL параметри ,"**company_uuid** (обов'язково) UUID - іде�
 
 **file_type** (обов'язково) String - тип файлу-вкладення; може бути переданий будь-який `MIME тип <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
 Content-Type  , application/json                              
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу передається файл-вкладення в вигляді набору байтів"

@@ -2,7 +2,7 @@
 **Отримання переліку роздрібних мереж, які пов'язані із заданим GLN**
 ######################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 За допомогою методу **api/oas/retailers** можливо отримати перелік всіх роздрібних мереж-контрагентів користувача.
 
@@ -13,5 +13,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається `інформація про розрібні мережі <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/OasRetailersResponse.html>`__.
+В тілі **відповіді** передається `інформація про розрібні мережі <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/OasRetailersResponse.html>`__.
 

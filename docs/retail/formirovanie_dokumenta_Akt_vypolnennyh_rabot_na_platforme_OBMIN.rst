@@ -113,7 +113,7 @@
 Після заповнення всіх обов'язкових полів, натискаєте кнопку **Зберегти**, і система запропонує додати товар або послугу, яку Ви надаєте Вашому контрагенту.
 
 Для коректного заповнення позицій, необхідно заповнити Товарний довідник.
-Інстркцію щодо заповнення довідника ви можете знайти `за посиланням <https://wiki.edi-n.com/uk/latest/general/Zapolnenie_Tovarnogo_spravochnika.html>`_.
+Інстркцію щодо заповнення довідника ви можете знайти `за посиланням <https://wiki.edin.ua/uk/latest/general/Zapolnenie_Tovarnogo_spravochnika.html>`_.
 
 .. image:: pics_formirovanie_dokumenta_Akt_vypolnennyh_rabot_na_platforme_OBMIN/formirovanie_Akt_12.png
    :align: center

@@ -3,9 +3,9 @@
 URL запиту    , **/api/v2/eds/doc?gln=9864065702429&doc_type=orders**
 URL параметри ,"**gln** - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта
 
-**doc_type** - рядок; тип документа (`опис параметру <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html#param-desc>`__)"
+**doc_type** - рядок; тип документа (`опис параметру <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html#param-desc>`__)"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 Content-Type  , *application/json* або *application/xml*                              
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу передається документ у форматі JSON або XML (`приклад запиту <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/CreateDocExample.html>`__ + `специфікації документів <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html>`__)"
+JSON Body     ,"В тілі запиту методу передається документ у форматі JSON або XML (`приклад запиту <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/CreateDocExample.html>`__ + `специфікації документів <https://wiki.edin.ua/uk/latest/XML/XML-structure.html>`__)"

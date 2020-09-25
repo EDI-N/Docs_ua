@@ -5,7 +5,7 @@ URL параметри ,"**gln** - рядок (13); номер GLN органі�
 
 **doc_uuid** - рядок; UUID документа COMDOC"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 Content-Type  , application/json                              
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу передаються `дані для здійснення операції прийняття <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/ComdocAcceptRequest.html>`__"
+JSON Body     ,"В тілі запиту методу передаються `дані для здійснення операції прийняття <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/ComdocAcceptRequest.html>`__"

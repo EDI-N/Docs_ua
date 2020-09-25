@@ -4,7 +4,7 @@
 
 **JSON body_type=1 (Документ AGREEM):**
 
-`Специфікація AGREEM <https://wiki.edi-n.com/uk/latest/XML/XML-structure.html#agreem>`__ .
+`Специфікація AGREEM <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__ .
 
 
 .. code:: json

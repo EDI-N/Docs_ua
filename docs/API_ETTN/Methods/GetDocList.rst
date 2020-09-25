@@ -2,7 +2,7 @@
 **Отримання списку документів сервісу "ЕТТН"**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetDocList.csv
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається масив документів (об'єкти `XDoc <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html>`__ ).
+В тілі **відповіді** передається масив документів (об'єкти `XDoc <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html>`__ ).
 

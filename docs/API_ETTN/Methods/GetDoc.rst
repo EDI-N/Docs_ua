@@ -2,7 +2,7 @@
 **Отримання документа сервісу "ЕТТН"**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: GetDoc.csv
@@ -11,7 +11,7 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані документа (об'єкт `XDoc <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html>`__ ).
+В тілі **відповіді** передаються дані документа (об'єкт `XDoc <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html>`__ ).
 
 .. note::
-  Опис сабстатусів документів: `XDoc.extraFields.sub_status <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__
+  Опис сабстатусів документів: `XDoc.extraFields.sub_status <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__

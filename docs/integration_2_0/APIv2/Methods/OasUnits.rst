@@ -2,7 +2,7 @@
 **Отримання переліку доступних одиниць виміру**
 ######################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 Метод **api/oas/units** дозволяє відобразити довідник одиниць виміру.
 
@@ -13,5 +13,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається `довідник одиниць виміру <https://wiki.edi-n.com/uk/latest/integration_2_0/APIv2/Methods/EveryBody/OasUnitsResponse.html>`__.
+В тілі **відповіді** передається `довідник одиниць виміру <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/OasUnitsResponse.html>`__.
 

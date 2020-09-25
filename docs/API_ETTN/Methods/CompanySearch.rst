@@ -2,7 +2,7 @@
 **Отримання даних про компанію за назвою / ІНН / ЄДРПОУ**
 ##########################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
   :file: CompanySearch.csv
@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються `дані компаній <https://wiki.edi-n.com/uk/latest/API_ETTN/Methods/EveryBody/CompanySearchResponse.html>`__ в вигляді масиву об'єктів (**CompanyV2**).
+В тілі **відповіді** передаються `дані компаній <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CompanySearchResponse.html>`__ в вигляді масиву об'єктів (**CompanyV2**).
