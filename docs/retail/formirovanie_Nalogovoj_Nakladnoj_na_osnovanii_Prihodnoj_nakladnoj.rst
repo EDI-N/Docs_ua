@@ -17,7 +17,7 @@
 
 1.2. Якщо ключі не на зовнішніх носіях (диск, флеш-накопичувач), потрібно знати шлях до ключів в файловій системі.
 
-1.3. Зайти на портал: http://edo.edi-n.com і ввести логін і пароль:
+1.3. Зайти на портал: https://edo.edin.ua і ввести логін і пароль:
 
 .. image:: pics_formirovanie_Nalogovoj_Nakladnoj_na_osnovanii_Prihodnoj_nakladnoj/formirovanie_NN_01.png
    :align: center
