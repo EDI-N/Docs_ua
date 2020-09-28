@@ -50,6 +50,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: EDIN-Certificate
+
+   Certificate/EDIN/Certificate_list
+
+.. toctree::
+   :maxdepth: 2
    :caption: Tender
 
    Tender_2_0/Tender_2_0_list
