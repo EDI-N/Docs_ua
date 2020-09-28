@@ -14,7 +14,7 @@
 15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#coacsu>`__
 17,iftmin,`Інструкція про транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmin>`__
 18,retann,`Повідомлення про повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retann>`__
-19,iftmbf,`Замовлення транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbf>`__
+19,iftmbf,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbf>`__
 20,partin,`Інформація про контрагента для постачальника <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#partin>`__
 21,mscons,`Звіт про надані послуги <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#mscons>`__
 25,retins,`Інструкція з повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retins>`__
@@ -23,14 +23,14 @@
 30,condra,`Не структурований документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#productlist>`__
 41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__
-42,iftmbc,`Підтвердження замовлення транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
+42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
 59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
 98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#quotes>`__
 109,ettn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTN/ETTNpage.html>`__
 111,transhipment,`Акт перевантаження товарів <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__
 117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTN/AcceptancePage.html>`__
-113,booking,`Замовлення транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTN/BOOKINGpage.html>`__
+113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTN/BOOKINGpage.html>`__
 114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTN/BookingConfirmationPage.html>`__
 112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTN/COMPLETIONpage.html>`__
 118,docinvoiceact,`Акт наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
