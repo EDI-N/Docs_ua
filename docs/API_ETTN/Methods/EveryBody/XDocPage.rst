@@ -178,7 +178,7 @@
 
 .. _опис_параметрів:
 
-Таблиця 9 - Опис **DocType** параметрів (объект XDocType_)
+Таблиця 14 - Опис **DocType** параметрів (объект XDocType_)
 
 .. csv-table:: 
   :file: for_csv/xdoctype_p.csv

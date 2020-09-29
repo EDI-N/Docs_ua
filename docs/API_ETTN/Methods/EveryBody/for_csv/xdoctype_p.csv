@@ -27,7 +27,6 @@
 59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
 98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#quotes>`__
-109,ettn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTN/ETTNpage.html>`__
 111,transhipment,`Акт перевантаження товарів <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__
 117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTN/AcceptancePage.html>`__
 113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTN/BOOKINGpage.html>`__
@@ -36,3 +35,4 @@
 118,docinvoiceact,`Акт наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__
 120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#contrl>`__
+121,ttn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__

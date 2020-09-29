@@ -14,7 +14,13 @@ dateRead,long,дата прочитання документа (unix timestamp)
 docDate,long,"дата документа, зазначена в документі"
 chain_id,long,id ланцюжка документів
 chain_uuid,UUID,унікальний ідентифікатор ланцюжка документів
-family,int,сімейство (EDI / UZD)
+family,int,"сімейство
+
+* 1 - EDI
+* 6 - ATS
+* 7 - ETTN
+* 8 - DISTRIBUTION
+* 9 - SIMPLEDOC"
 hash,String,"хеш-значення, отримане в результаті обробки"
 type,XDocType_,об'єкт; тип документа
 status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
