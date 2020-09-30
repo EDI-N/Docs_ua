@@ -25,4 +25,5 @@
    :hidden:
    :glob:
 
-   EveryBody/*
+   *
+
