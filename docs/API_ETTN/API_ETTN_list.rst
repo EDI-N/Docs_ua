@@ -123,7 +123,3 @@ API
 
    Methods/*
 
-.. toctree::
-   :hidden:
-
-   Methods/EveryBody/EveryBody_List
