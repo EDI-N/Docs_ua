@@ -24,6 +24,7 @@
 .. toctree::
    :hidden:
    :glob:
+   :titlesonly:
 
    *
 
