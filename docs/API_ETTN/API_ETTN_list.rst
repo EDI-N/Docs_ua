@@ -120,12 +120,10 @@ API
 .. toctree::
    :hidden:
    :glob:
-   :titlesonly:
 
    Methods/*
 
 .. toctree::
    :hidden:
-   :titlesonly:
 
    Methods/EveryBody/EveryBody_List
