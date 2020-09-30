@@ -122,6 +122,6 @@ API
    :glob:
 
    Methods/*
-   EveryBody/EveryBody_List
+   Methods/EveryBody/EveryBody_List
 
 
