@@ -4,4 +4,4 @@
 .. toctree::
    :glob:
 
-   EveryBody/*
+   *
