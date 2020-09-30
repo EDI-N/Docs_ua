@@ -2,7 +2,6 @@
 ###########
 
 .. toctree::
-   :hidden:
    :glob:
 
    EveryBody/*
