@@ -119,8 +119,7 @@ API
 
 .. toctree::
    :hidden:
-   :includehidden:
 
-   Menu_list
+   Methods/*
 
 
