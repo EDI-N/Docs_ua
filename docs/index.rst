@@ -24,8 +24,8 @@ EDIN | Електронний документообіг для бізнесу
    XML/Fozzy_XML-structure
 
 .. toctree::
-   :maxdepth: 2
    :caption: ЕТТН
+   :titlesonly:
 
    ETTN_2_0/ETTN_2_0_list
    integration_ETTN/integration_ETTN_list
