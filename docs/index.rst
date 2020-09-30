@@ -88,6 +88,5 @@ EDIN | Електронний документообіг для бізнесу
    Zakon/Zakonodavcha_baza
    
 .. toctree::
-   :hidden:
 
    API_ETTN/Menu_list
