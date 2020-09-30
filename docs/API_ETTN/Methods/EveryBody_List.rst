@@ -5,4 +5,4 @@
    :hidden:
    :glob:
 
-   Methods/*
+   EveryBody/*
