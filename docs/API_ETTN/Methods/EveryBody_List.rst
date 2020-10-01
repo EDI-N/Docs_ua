@@ -18,7 +18,7 @@
 * `Вкладення (об’єкт XDocAttachment) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XDocAttachment.html>`__
 * `Дані документа (об’єкт XDoc) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html>`__
 * `Опис сабстатусів документів (XDoc.extraFields.sub_status) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__
-
+* `Опис додаткових відміток / ознак невідповідності в документах (XDoc.extraFields.ettn_discrepancy) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/extraFields_ettn_discrepancy.html>`__
 
 
 .. toctree::
