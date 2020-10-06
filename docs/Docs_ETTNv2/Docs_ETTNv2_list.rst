@@ -16,4 +16,6 @@
    
    BOOKINGpage_v2
    BookingConfirmationPage_v2
+   COMPLETIONpage_v2
+   AcceptancePage_v2
    
