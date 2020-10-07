@@ -5,9 +5,11 @@
    :maxdepth: 1
    
    ETTNpage
-   TRANSHIPMENTpage
    BOOKINGpage
    BookingConfirmationPage
    AcceptancePage
    DISCREPANCYPage
    COMPLETIONpage
+
+
+.. пока что закоментировали TRANSHIPMENTpage

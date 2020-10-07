@@ -28,10 +28,10 @@
 67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
 98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#quotes>`__
 111,transhipment,`Акт перевантаження товарів <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__
-117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTN/AcceptancePage.html>`__
-113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTN/BOOKINGpage.html>`__
-114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTN/BookingConfirmationPage.html>`__
-112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTN/COMPLETIONpage.html>`__
+117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/AcceptancePage_v2.html>`__
+113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BOOKINGpage_v2.html>`__
+114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BookingConfirmationPage_v2.html>`__
+112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__
 118,docinvoiceact,`Акт наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__
 120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#contrl>`__

@@ -24,10 +24,10 @@ Content-Type  , *application/json* or *application/xml*
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу передається тіло документа:
 
-* `ETTN <https://wiki.edin.ua/uk/latest/Docs_ETTN/ETTNpage.html>`__ - для документа **ЕТТН**
-* `BOOKING <https://wiki.edin.ua/uk/latest/Docs_ETTN/BOOKINGpage.html>`__ - для документа **Заявка на транспортування**
-* `BOOKINGCONFIRMATION <https://wiki.edin.ua/uk/latest/Docs_ETTN/BookingConfirmationPage.html>`__ - для документа **Підтвердження транспортування**
+* `ETTN <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ - для документа **ЕТТН**
+* `BOOKING <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BOOKINGpage_v2.html>`__ - для документа **Заявка на транспортування**
+* `BOOKINGCONFIRMATION <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BookingConfirmationPage_v2.html>`__ - для документа **Підтвердження транспортування**
 * `TRANSHIPMENT <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__ - для документа **Акт перевантаження товарів**
-* `ACCEPTANCE <https://wiki.edin.ua/uk/latest/Docs_ETTN/AcceptancePage.html>`__ - для документа **Акт приймання-передавання**
+* `ACCEPTANCE <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/AcceptancePage_v2.html>`__ - для документа **Акт приймання-передавання**
 * `DISCREPANCY <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__ - для документа **Акт розбіжностей**
-* `COMPLETION <https://wiki.edin.ua/uk/latest/Docs_ETTN/COMPLETIONpage.html>`__ - для документа **Акт виконаних робіт**"
+* `COMPLETION <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__ - для документа **Акт виконаних робіт**"
