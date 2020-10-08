@@ -6,6 +6,6 @@
 
 .. csv-table:: 
   :file: for_csv/extraFields_sub_status.csv
-  :widths:  1, 7
+  :widths:  1, 7, 7, 7
   :header-rows: 1
   :stub-columns: 0
