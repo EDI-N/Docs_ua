@@ -62,6 +62,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: Просто.DOC
+
+   ProstoDoc/ProstoDoc_list
+
+.. toctree::
+   :maxdepth: 2
    :caption: Особистий кабінет
 
    Personal_Cabinet/PCInstruction
