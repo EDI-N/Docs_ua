@@ -99,12 +99,12 @@
 
 1) **"+Додати тариф"** - додавання лише в :underline:`поточний місяць` додаткового тарифу (необхідно обрати тариф):
 
-.. image:: pics_PCInstruction/PCInstruction_46.png
+.. image:: pics_PCInstruction/PCInstruction_66.gif
    :align: center
 
 2) **"Змінити"** - зміна обраного тарифу :underline:`для будь-якого місяця оплаченого періоду` (необхідно обрати тариф):
 
-.. image:: pics_PCInstruction/PCInstruction_47.png
+.. image:: pics_PCInstruction/PCInstruction_67.gif
    :align: center
 
 .. note::
@@ -115,7 +115,7 @@
 
 3) **"Продовжити"** - придбання вказаного сервісу на подальші періоди (можливо обрати тариф/кількості доступів, вказати період для розрахунку вартості сервісу):
 
-.. image:: pics_PCInstruction/PCInstruction_48.png
+.. image:: pics_PCInstruction/PCInstruction_68.gif
    :align: center
 
 За допомогою кнопки **"Придбати"** здійснюється покупка сервісу з автоматичним списанням коштів з балансу.
@@ -149,7 +149,7 @@
 
 **"Придбати"** - придбання вказаного сервісу на подальші періоди (можливо обрати тариф/кількості доступів, вказати період для розрахунку вартості сервісу):
 
-.. image:: pics_PCInstruction/PCInstruction_54.png
+.. image:: pics_PCInstruction/PCInstruction_69.gif
    :align: center
 
 За допомогою кнопки **"Придбати"** здійснюється покупка сервісу з автоматичним списанням коштів з балансу.
