@@ -60,11 +60,11 @@ EDIN | Електронний документообіг для бізнесу
 
    Tender_2_0/Tender_2_0_list
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Просто.DOC
+.. временно.. toctree::
+      :maxdepth: 2
+      :caption: Просто.DOC
 
-   ProstoDoc/ProstoDoc_list
+      ProstoDoc/ProstoDoc_list
 
 .. toctree::
    :maxdepth: 2
