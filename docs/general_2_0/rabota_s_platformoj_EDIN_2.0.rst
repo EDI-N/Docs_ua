@@ -252,6 +252,8 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/20.png
    :align: center
 
+.. _product-directory:
+
 **Робота з товарним довідником**
 ================================================
 
