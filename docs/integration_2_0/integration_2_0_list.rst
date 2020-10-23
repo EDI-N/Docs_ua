@@ -8,5 +8,6 @@
    SOAP
    FTP
    1C_integration_2_0/1C_integration_2_0_list
+   DocSign/DocSign_instruction
    
   
