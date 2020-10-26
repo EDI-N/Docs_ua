@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _DistribexOrderResult: , Об'єкт **DistribexOrderResult** ,
+status,String,статус виконання запиту
+doc_uuid,String,ідентифікатор документа
+errors,List<String>,масив; помилки при формуванні Замовлення
