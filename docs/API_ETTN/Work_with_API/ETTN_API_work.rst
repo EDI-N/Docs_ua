@@ -17,7 +17,7 @@
 ----------------------------------------------------
 
 .. image:: pics/ETTN_API_work_02.png
-   :align: left
+   :align: top
 
 1.1 `Авторизація Вантажовідправника <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__
 
@@ -30,14 +30,14 @@
 1.5 `Відправка е-ТТН Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocSend.html>`__
 
 .. image:: pics/ETTN_API_work_03.png
-   :align: left
+   :align: top
 
 1.6 `Відхилення е-ТТН Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
 
 -----------------------------------------------
 
 .. image:: pics/ETTN_API_work_04.png
-   :align: left
+   :align: top
 
 2.1 `Авторизація Перевізника <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__
 
@@ -48,14 +48,14 @@
 2.4 `Підписання е-ТТН Перевізником <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/SaveEttnV2Sign.html>`__
 
 .. image:: pics/ETTN_API_work_05.png
-   :align: left
+   :align: top
 
 2.2* `Відхилення е-ТТН Перевізником <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
 
 -----------------------------------------------
 
 .. image:: pics/ETTN_API_work_06.png
-   :align: left
+   :align: top
 
 3.1 `Авторизація Вантажоотримувача <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__
 
@@ -66,14 +66,14 @@
 3.4 `Підписання е-ТТН Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/SaveEttnV2Sign.html>`__
 
 .. image:: pics/ETTN_API_work_07.png
-   :align: left
+   :align: top
 
 3.2* `Відхилення е-ТТН Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
 
 -----------------------------------------------
 
 .. image:: pics/ETTN_API_work_08.png
-   :align: left
+   :align: top
 
 4.1 `Авторизація Перевізника <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__
 
