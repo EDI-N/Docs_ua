@@ -17,7 +17,6 @@
 ----------------------------------------------------
 
 .. image:: pics/ETTN_API_work_02.png
-   :align: top
 
 1.1 `Авторизація Вантажовідправника <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__
 
