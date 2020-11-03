@@ -34,7 +34,7 @@
    :height: 31px
    :width: 31px
 
-1.6 `Відхилення е-ТТН Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
+1.6 `Відмовити в підписанні документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
 
 -----------------------------------------------
 
@@ -54,7 +54,7 @@
    :height: 31px
    :width: 31px
 
-2.2* `Відхилення е-ТТН Перевізником <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
+2.2* `Відмовити в підписанні документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
 
 -----------------------------------------------
 
@@ -74,7 +74,7 @@
    :height: 31px
    :width: 31px
 
-3.2* `Відхилення е-ТТН Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
+3.2* `Відмовити в підписанні документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocReject.html>`__
 
 -----------------------------------------------
 
@@ -91,3 +91,34 @@
 **Додаткові методи API**
 =============================
 
+Робота з довідниками
+-------------------------------
+
+* `Отримання даних компанії, співробітників, адрес з довідників сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/ExtraData.html>`__
+* `Отримання даних про компанію за назвою / ІНН / ЄДРПОУ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/CompanySearch.html>`__
+* `Отримання даних співробіника компанії за назвою / містом / вулицею / кодом КОАТУУ / номером посвідчення водія <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EmployeesSearch.html>`__
+* `Отримання адреси з довідника компанії за назвою / містом / вулицею / кодом КОАТУУ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/AddressesSearch.html>`__
+* `Отримання данних КОАТУУ за назвою / кодом <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/KoatuuSearch.html>`__
+* `Отримання даних про компанію по ідентифікатору компанії <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetCompany.html>`__
+
+Додаткові можливості
+---------------------------
+
+* `Створення вкладення до документа <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/CreateDocAttachment.html>`__
+* `Отримання вкладення документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetDocAttachment.html>`__
+* `Видалення вкладення документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DelDocAttachment.html>`__
+* `Відмітити документ, як «прочитаний» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/MarkDocumentAsRead.html>`__
+* `Створити копію документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DocClone.html>`__
+* `Видалення документів сервісу «ЕТТН» з «Чернеток» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/DelDocs.html>`__
+* `Отримання документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetDoc.html>`__
+* `Отримання ланцюжка документів сервісу «ЕТТН» по id ланцюжка чи id документа <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetChain.html>`__
+* `Отримання тіла документа сервісу «ЕТТН» в json форматі <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetDocBody.html>`__
+* `Отримання даних підписантів документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetSignersInfo.html>`__
+* `Отримання пов’язаних документів сервісу «ETTN» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetLinks.html>`__
+* `Отримання даних документа сервісу «ЕТТН» для підписання <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetTicket.html>`__
+* `Отримання списку ланцюжків документів сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetChainsList.html>`__
+* `Отримання документа в вигляді архіву (json + XML + підписані дані) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetDocArchive.html>`__
+* `Отримання списку документів сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetDocList.html>`__
+* `Заархівувати всі документи у вказаному ланцюжку <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/ArcChains.html>`__
+* `Додати коментар до документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/AddComment.html>`__
+* `Отримання коментарів до документу сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetComments.html>`__
