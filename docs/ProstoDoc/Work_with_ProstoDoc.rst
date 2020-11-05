@@ -1,4 +1,4 @@
-Робота з сервісом Просто.DOC
+Робота з сервісом Вільний
 #############################################################
 
 .. role:: red
@@ -45,10 +45,10 @@
 
 Після успішної авторизації відкриється головне меню з сервісами платформи EDIN:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_02.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_02n.png
    :align: center
 
-Лівою кнопкою миші потрібно вибрати **"Просто.DOC"**.
+Лівою кнопкою миші потрібно вибрати **"Вільний"**.
 
 .. hint::
    Для повернення до меню сервісів, товарного довідника потрібно натиснути кнопку |пресуха| або натиснувши на логотип EDIN
@@ -56,9 +56,9 @@
 **2 Загальний вигляд сервісу**
 ================================================
 
-Зовнішній вигляд сервісу **"Просто.DOC"** складається з кількох наступних основних частин: функціонал переходу по каталогами папок (1), журналу документів (2), пошуку документів (3), кнопки переходу в меню сервісів, вибору мови, `налаштувань користувача <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__ та виходу з платформи (4).
+Зовнішній вигляд сервісу **"Вільний"** складається з кількох наступних основних частин: функціонал переходу по каталогами папок (1), журналу документів (2), пошуку документів (3), кнопки переходу в меню сервісів, вибору мови, `налаштувань користувача <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__ та виходу з платформи (4).
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_04.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_04n.png
    :align: center
 
 **3 Перегляд каталогів платформи**
@@ -66,7 +66,7 @@
 
 В путівнику, а також зеленим маркером відмічене поточне місце перебування користувача в сервісі (при первинному вході - в каталозі "**Вхідних**" документів).
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_05.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_05n.png
    :align: center
 
 Для переходу в потрібний Вам каталог необхідно його вибрати:
@@ -83,32 +83,56 @@
 
 Для створення документа на платформі необхідно натиснути кнопку - "**Створити**"
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_08.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_08n.png
    :align: center
 
 Після цього на формі створення документа обов'язково потрібно вказати "Отримувача", "Тему документа" (від 1 до 100 символів) та додати файли-вкладення.
+
+**4.1 Додавання отримувачів**
+-------------------------------------------------
 
 Для вибору потрібних **Отримувачів** (може бути декілька) потрібно в полі почати вводити прізвище, пошту чи ЕДРПОУ контрагента (min 3 символи) і обрати зі списку зареєстрованих на платформі користувачів:
 
 .. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_13.gif
    :align: center
 
+Реалізована можливість вказати Email незареєстрованого на платформі користувача в полі **"Отримувачі"**. При додаванні такого користувача потрібно обрати "Запросити нового користувача" в результатах випадаючого списка:
+
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_37.png
+   :align: center
+
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_38.png
+   :align: center
+
+При відправці документа у відправника з'являється попередження, що потребує підтвердження:
+
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_39.png
+   :align: center
+
+Незареєстрованому отримувачу на вказаний Email відправляється запрошення з посиланням на `реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__):
+
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_40.png
+   :align: center
+
+**4.2 Додавання файлів**
+-------------------------------------------------
+
 Файли можливо додати з локального носія через кнопку "Додати файл" чи "Drag-and-drop" способом:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_09.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_09n.png
    :align: center
 
 .. note::
-   Один документ може містити не більше 10 файлів в PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/CSV/TXT/XML/P7S форматі з розміром файлу не більше 5 Мб.
+   Один документ може містити не більше 10 файлів в наступних форматах: PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/CSV/TXT/XML/P7S (попередній перегляд працює лише для PDF/JPG/JPEG/PNG/BMP/TXT/XML) з розміром файлу не більше 5 Мб.
 
-При додаванні більше 3 файлів частина файлів прихована за стрілками прокручування (|прокрутка1| |прокрутка2|). Для доданих файлів доступний попередній перегляд їх вмісту (попередній перегляд працює лише для файлів в PDF/JPG/JPEG/PNG/BMP/TXT/XML форматах):
+При додаванні більше 3 файлів частина файлів прихована за стрілками прокручування (|прокрутка1| |прокрутка2|). Для доданих файлів доступний попередній перегляд їх вмісту:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_10.gif
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_10n.gif
    :align: center
 
 Додані файли можливо скачати (|download|) чи видалити (|trash|).
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_16.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_16n.png
    :align: center
 
 Після додавання файлу/-ів та заповнення всіх обов'язковий полей можливо масово **"Підписати всі"** файли документа та **"Відправити"** документ (також можливо "Відправити документ без підписання"). При відправці непідписанного документа з'являється підказка, що потребує підтвердження дії:
@@ -118,12 +142,12 @@
 
 .. _sign:
 
-**4.1 Підписання та відправка документа**
+**4.3 Підписання та відправка документа**
 -------------------------------------------------
 
 Для підписання необхідно натинути на кнопку **"Підписати всі"**:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_15.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_15n.png
    :align: center
 
 Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні у модальному вікні потрібно обрати файл чи токен (1), ввести пароль (2) та натиснути **"Зчитати"** (3) ключ для підписання:
@@ -158,22 +182,22 @@
 .. attention::
    При додаванні/видаленні файлів в/з документа - раніше накладені підписи видаляються!
 
-Після підписання документів під документами відображається інформація щодо підписантів. Для відправки документів потрібно натиснути на кнопку **"Відправити"**.
+Після підписання під даними документа відображається інформація щодо підписантів. Для відправки документів потрібно натиснути на кнопку **"Відправити"**.
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_22.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_22n.png
    :align: center
 
 Після відправки документа контрагентам він відображається в журналі надісланих документів і має стутус **"Очікує підпису"**. Відправлений документ можливо лише **"Переслати"** (кнопки додавання файлів та підписання не активні):
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_19.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_19n.png
    :align: center
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_20.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_20n.png
    :align: center
 
 Також при відправці документа, на вказаний e-mail **"Отримувача"** відправляється лист:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_36.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_36n.png
    :align: center
 
 .. _search:
@@ -215,19 +239,16 @@
 
 Всі непрочитані **"Вхідні"** документи відображаються жирним шрифтом:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_28.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_28n.png
    :align: center
 
 При переході в сам документ відкриваються дані про підписанта, файли доступні до перегляду та скачування (|download|), а сам з документом можливо виконати наступні дії: **"Переслати"**, **"Відхилити всі"** підписані файли чи **"Підписати"** їх у відповідь:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_29.png
-   :align: center
-
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_30.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_30n.png
    :align: center
 
 .. hint::
-   Процес підписання **"Отримувачем"** документа не відрізняється від підписання **"Відправника"** та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ProstoDoc/Work_with_ProstoDoc.html#sign>`__ .
+   Процес **Підписання** "Отримувачем" документа не відрізняється від підписання "Відправника" та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ProstoDoc/Work_with_ProstoDoc.html#sign>`__ .
 
 Після підписання документ змінює свій статус на **"Підписано"**. Підписаний документ можливо лише **"Переслати"** (кнопки відхилення файлів та підписання не активні):
 
@@ -241,7 +262,7 @@
 
 Для відхилення всіх підписаних файлів потрібно відкрити сам документ і натиснути кнопку **"Відхилити всі"**:
 
-.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_33.png
+.. image:: pics_Work_with_ProstoDoc/Work_with_ProstoDoc_33n.png
    :align: center
 
 При відхиленні потрібно обов'язково вказати причину відхилення та **"Відправити"**:
