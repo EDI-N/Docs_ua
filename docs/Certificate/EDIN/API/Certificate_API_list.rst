@@ -12,6 +12,7 @@ API EDIN Certificate
    Methods/GetCertsByNum
    Methods/GetCertsByInnCode
    Methods/GetCertsByGLN
+   Methods/GetCertsByNaklNum
 
 .. toctree::
    :maxdepth: 1
