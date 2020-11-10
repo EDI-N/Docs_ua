@@ -65,7 +65,7 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: ВІЛЬНИЙ
 
-   OpenDoc/OpenDoc_list
+   Vilnyi/Vilnyi_list
 
 .. toctree::
    :maxdepth: 2
