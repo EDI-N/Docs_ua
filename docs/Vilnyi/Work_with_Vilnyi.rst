@@ -7,21 +7,21 @@
 
 .. сюда закину немного картинок для текста
 
-.. |пресуха| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_03.png
+.. |пресуха| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_03.png
 
-.. |звезда| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_06.png
+.. |звезда| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_06.png
 
-.. |звезда2| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_07.png
+.. |звезда2| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_07.png
 
-.. |прокрутка1| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_12.png
+.. |прокрутка1| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_12.png
 
-.. |прокрутка2| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_11.png
+.. |прокрутка2| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_11.png
 
-.. |download| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_17.png
+.. |download| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_17.png
 
-.. |trash| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_18.png
+.. |trash| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_18.png
 
-.. |non| image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_21.png
+.. |non| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_21.png
 
 .. |del_key| image:: signing/del_key2.png
 
@@ -37,7 +37,7 @@
 
 При переході за вказаним посиланням відкриється вікно авторизації. Необхідно ввести Ваш логін і пароль користувача і натиснути «**Вхід**»:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_01.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_01.png
    :align: center
 
 .. hint::
@@ -45,7 +45,7 @@
 
 Після успішної авторизації відкриється головне меню з сервісами платформи EDIN:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_02n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_02n.png
    :align: center
 
 Лівою кнопкою миші потрібно вибрати **"Вільний"**.
@@ -58,7 +58,7 @@
 
 Зовнішній вигляд сервісу **"Вільний"** складається з кількох наступних основних частин: функціонал переходу по каталогами папок (1), журналу документів (2), пошуку документів (3), кнопки переходу в меню сервісів, вибору мови, `налаштувань користувача <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__ та виходу з платформи (4).
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_04n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_04n.png
    :align: center
 
 **3 Перегляд каталогів платформи**
@@ -66,7 +66,7 @@
 
 В путівнику, а також зеленим маркером відмічене поточне місце перебування користувача в сервісі (при первинному вході - в каталозі "**Вхідних**" документів).
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_05n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_05n.png
    :align: center
 
 Для переходу в потрібний Вам каталог необхідно його вибрати:
@@ -76,14 +76,14 @@
 #. **"Важливі"** - каталог всіх документів, що були відзначені, як "важливі" символом зірочки ("важливі" |звезда| / |звезда2| "звичайні").
 #. **"Чернетки"** - каталог для документів, що були створені, але не були відправлені. 
 #. **"Архів"** - каталог для документів, що були перенесені в архів.
-#. **"Збережений пошук"** - стандартні та створені користувачем комбінації критеріїв пошуку документів для зручної фільтрації документів у вище перерахованих каталогах (детальніше за `посиланням <https://wiki.edin.ua/uk/latest/ProstoDoc/Work_with_OpenDoc.html#search>`__).
+#. **"Збережений пошук"** - стандартні та створені користувачем комбінації критеріїв пошуку документів для зручної фільтрації документів у вище перерахованих каталогах (детальніше за `посиланням <https://wiki.edin.ua/uk/latest/ProstoDoc/Work_with_Vilnyi.html#search>`__).
 
 **4 Створення документа**
 ================================================
 
 Для створення документа на платформі необхідно натиснути кнопку - "**Створити**"
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_08n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_08n.png
    :align: center
 
 Після цього на формі створення документа обов'язково потрібно вказати "Отримувача", "Тему документа" (від 1 до 100 символів) та додати файли-вкладення.
@@ -93,25 +93,25 @@
 
 Для вибору потрібних **Отримувачів** (може бути декілька) потрібно в полі почати вводити прізвище, пошту чи ЕДРПОУ контрагента (min 3 символи) і обрати зі списку зареєстрованих на платформі користувачів:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_13.gif
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_13.gif
    :align: center
 
 Реалізована можливість вказати Email незареєстрованого на платформі користувача в полі **"Отримувачі"**. При додаванні такого користувача потрібно обрати "Запросити нового користувача" в результатах випадаючого списка:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_37.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_37.png
    :align: center
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_38.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_38.png
    :align: center
 
 При відправці документа у відправника з'являється попередження, що потребує підтвердження:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_39.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_39.png
    :align: center
 
 Незареєстрованому отримувачу на вказаний Email відправляється запрошення з посиланням на `реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__):
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_40.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_40.png
    :align: center
 
 **4.2 Додавання файлів**
@@ -119,7 +119,7 @@
 
 Файли можливо додати з локального носія через кнопку "Додати файл" чи "Drag-and-drop" способом:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_09n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_09n.png
    :align: center
 
 .. note::
@@ -127,17 +127,17 @@
 
 При додаванні більше 3 файлів частина файлів прихована за стрілками прокручування (|прокрутка1| |прокрутка2|). Для доданих файлів доступний попередній перегляд їх вмісту:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_10n.gif
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_10n.gif
    :align: center
 
 При перегляді доданого файлу можливо масштабувати попередній перегляд файлу (1), використовувати пагінацію сторінок (2), скачати (|download|) чи видалити (|trash|) файл (3).
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_41.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_41.png
    :align: center
 
 Після додавання файлу/-ів та заповнення всіх обов'язковий полей можливо масово **"Підписати всі"** файли документа та **"Відправити"** документ (також можливо "Відправити документ без підписання"). При відправці непідписанного документа з'являється підказка, що потребує підтвердження дії:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_14.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_14.png
    :align: center
 
 .. _sign:
@@ -147,7 +147,7 @@
 
 Для підписання необхідно натинути на кнопку **"Підписати всі"**:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_15n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_15n.png
    :align: center
 
 Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні у модальному вікні потрібно обрати файл чи токен (1), ввести пароль (2) та натиснути **"Зчитати"** (3) ключ для підписання:
@@ -184,20 +184,20 @@
 
 Після підписання під даними документа відображається інформація щодо підписантів. Для відправки документів потрібно натиснути на кнопку **"Відправити"**.
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_22n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_22n.png
    :align: center
 
 Після відправки документа контрагентам він відображається в журналі надісланих документів і має стутус **"Очікує підпису"**. Відправлений документ можливо лише **"Переслати"** (кнопки додавання файлів та підписання не активні):
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_19n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_19n.png
    :align: center
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_20n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_20n.png
    :align: center
 
 Також при відправці документа, на вказаний e-mail **"Отримувача"** відправляється лист:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_36n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_36n.png
    :align: center
 
 .. _search:
@@ -207,31 +207,31 @@
 
 .. Для того щоб виконати пошук документів на платформі необхідно перейти в підменю каталогів під назвою **"Пошук"**.
 
-   .. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_23.png
+   .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_23.png
       :align: center
 
    Потім потрібно ввести назву та вибрати параметри. За потребою можна користуватись випадаючим списком. Після цього натисніть - **"Пошук"** (1).
    Усі елементи пошуку повині бути розділені комами, також є елементи із конкретним значенням та без: "Номер: 123, #Відправлені," (2).
 
-   .. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_24.png
+   .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_24.png
       :align: center
 
    Окремо винесені фільтри документів по даті (**"Сьогодні"**, **"Вчора"**), а останній введений пошук зберігається платформою автоматично і при натисканні кнопки **"Останній фільтр"** він виконується повторно в тій папці ("Вхідні" / "Надіслані" / "Важливі" / "Чернетки" / "Архів"), в якій він був виконаний останнього разу (Вас буде переадресовано):
 
-   .. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_25.png
+   .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_25.png
       :align: center
 
    Також можливо перманентно **Зберегти** данні власного рядку пошуку, натиснувши на іконку дискети (1). Переглянути збережений пошук можна в блоці "**Збережений пошук**" (2). Збережений пошук відноситься тільки до певного статусу документа: "Вхідні", "Вихідні".
    У блоці "Збережений пошук" за замовчуванням доступні фільтри по документам за сьогодні та вчора (3).
    Вилучити збережений пошук можна за допомогою хрестика (4).
 
-   .. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_26.png
+   .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_26.png
       :align: center
 
    Очистити рядок "Пошук" можна за допомогою кнопки **"Скинути фільтри"** |non| . При переході між папками "Вхідні", "Вихідні" пошуковий рядок очищається.
    Якщо користувач відфільтрував список документів, після чого перейшов до перегляду цього документа та повернувся назад, — пошук зберігається.
 
-   .. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_27.png
+   .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_27.png
       :align: center
 
 **6 Робота з вхідними документами**
@@ -239,20 +239,20 @@
 
 Всі непрочитані **"Вхідні"** документи відображаються жирним шрифтом:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_28n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_28n.png
    :align: center
 
 При переході в сам документ відкриваються дані про підписанта, файли доступні до перегляду та скачування (|download|), а сам з документом можливо виконати наступні дії: **"Переслати"**, **"Відхилити всі"** підписані файли чи **"Підписати"** їх у відповідь:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_30n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_30n.png
    :align: center
 
 .. hint::
-   Процес **Підписання** "Отримувачем" документа не відрізняється від підписання "Відправника" та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ProstoDoc/Work_with_OpenDoc.html#sign>`__ .
+   Процес **Підписання** "Отримувачем" документа не відрізняється від підписання "Відправника" та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ProstoDoc/Work_with_Vilnyi.html#sign>`__ .
 
 Після підписання документ змінює свій статус на **"Підписано"**. Підписаний документ можливо лише **"Переслати"** (кнопки відхилення файлів та підписання не активні):
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_32.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_32.png
    :align: center
 
 Документообіг завершено.
@@ -262,17 +262,17 @@
 
 Для відхилення всіх підписаних файлів потрібно відкрити сам документ і натиснути кнопку **"Відхилити всі"**:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_33n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_33n.png
    :align: center
 
 При відхиленні потрібно обов'язково вказати причину відхилення та **"Відправити"**:
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_34.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_34.png
    :align: center
 
 Після відхилення документ змінює свій статус на **"Відхилено"**. Відхилений документ можливо лише **"Переслати"** (кнопки відхилення файлів та підписання не активні):
 
-.. image:: pics_Work_with_OpenDoc/Work_with_OpenDoc_35.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_35.png
    :align: center
 
 Документообіг завершено.
