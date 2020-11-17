@@ -8,3 +8,9 @@
    Uzgodzhennya_cіn_Іnstrukcіya_dlya_rozdrіbnoi_merezhі
    Uzgodzhennya_cіn_Іnstrukcіya_dlya_postachalnika
    
+.. toctree::
+   :maxdepth: 1
+   :caption: Інструкції для роботи в новому інтерфейсі
+   
+   E_Spec_Instruction_merezha
+   E_Spec_Іnstruction_postachalnik
