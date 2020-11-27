@@ -40,6 +40,7 @@ EDIN | Електронний документообіг для бізнесу
 
    E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
    E_SPEC/EDIN_2_0/API_2_0/E_SPEC_API_2_0_list
+   E_SPEC/EDIN_2_0/XML/XML_structure
 
 .. toctree::
    :maxdepth: 2
