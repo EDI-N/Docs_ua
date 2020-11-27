@@ -16,7 +16,7 @@ XML Специфікації
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад AGREEM<examples/del_me.xml>`
+:download:`Приклад AGREEM<examples/agreem_example.xml>`
 
 ---------
 
@@ -28,7 +28,7 @@ XML Специфікації
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_008<examples/del_me.xml>`
+:download:`Приклад COMDOC_008<examples/comdoc_008_example.xml>`
 
 ---------
 
@@ -40,7 +40,7 @@ XML Специфікації
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад PRODUCTLIST<examples/del_me.xml>`
+:download:`Приклад PRODUCTLIST<examples/productlist_example.xml>`
 
 -------------------------
 
