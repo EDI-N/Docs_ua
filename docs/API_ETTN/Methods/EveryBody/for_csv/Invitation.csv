@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _Invitation: , Об'єкт **Invitation** ,
+email, String,email користувача / співробітника
+code, String,код ЄДРПОУ
+companyName, String,назва компанії чи ПІП (для фіз. особи)
+companyUUID, UUID,унікальний ідентифікатор компанії
+employeeUUID, UUID,унікальний ідентифікатор співробітника
+invitationId, long,ідентифікатор запрошення
