@@ -262,7 +262,7 @@
 
 Для зручної роботи розділ **"ДОКУМЕНТИ"** має 3 вкладки для роботи з узгодженнями:
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_28.png
+.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_56.png
    :align: center
 
 * **Узгодження цін** - містить весь список Товарних узгодженнь, тобто створених документів-пропозицій щодо зміни цін.
