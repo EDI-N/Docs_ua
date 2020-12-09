@@ -13,15 +13,19 @@
 
 **RESPONSE**
 
+**chain_uuid** - ідентифікатор ланцюжка, в якому знаходиться документ
+**doc_uuid** - ідентифікатор документа на платформі EDIN 2.0;
+**ticket_uuid** - ідентифікатор квитанції (для документів COMDOC)
+
+**Приклад (JSON):**
+
 .. code:: json
 
-  {doc_uuid: 3698b501-e1ef-464d-a71a-58066f556114, chain_uuid: 7ccff78e-ea42-47ea-81e4-5508ed4fbd51}
-
-, де **doc_uuid** - унікальний ідентифікатор документа на платформі EDIN 2.0;
-
-**chain_uuid** - унікальний ідентифікатор `ланцюжка документів <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EdsChain.html>`__.
-
-
+	{
+	  "chain_uuid": "7ccff78e-ea42-47ea-81e4-5508ed4fbd51",
+	  "doc_uuid": "3698b501-e1ef-464d-a71a-58066f556114",
+	  "ticket_uuid": "1003706c-3656-497b-9438-c6f33e27c36d"
+	}
 
 
 
