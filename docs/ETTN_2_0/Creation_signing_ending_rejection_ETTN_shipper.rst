@@ -61,14 +61,14 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_51.png
    :align: center
 
-Відкриється модальне вікно, в якому потрібно буде заповнити основні обов'язкові дані майбутного контрагента (**Назву, Тип, ЄДРПОУ, ІПН, Місто, Адресу** організації та співробітника) та натиснути **"Додати"**:
+Відкриється модальне вікно, в якому потрібно спочатку заповнити e-mail майбутного контрагента і після підтведження його унікальності заповнити обов'язкові поля: **ЄДРПОУ чи ІПН** та **Назву компанії чи ПІБ** та натиснути **"Додати"**:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_52.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_82.png
    :align: center
 
-При корректному заповненні даних (унікальні email, ЄДРПОУ) на вказаний email буде відправлено запрошення з унікальним посиланням для подальшої реєстрації на платформі EDIN:
+Дані нового контрагента автоматично додаються в таблицю **"Додаткові дані"** (детальніше `детальніше <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html#additional-data>`__). При корректному заповненні даних (унікальні email, ЄДРПОУ) на вказаний email відправляється запрошення з унікальним посиланням для подальшої реєстрації на платформі EDIN:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_38new.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_89.png
    :align: center
 
 * **Водій** (рядок стає активним тільки після вибору перевізника) – необхідно необхідно ввести мінімум 3 символи та обрати його з випадаючого списку;
@@ -80,12 +80,12 @@
 
 Після чого в модальному вікні потрібно буде заповнити дані про водія ("Серія, номер посвідчення водія" заповнюється в форматі "3 заголовні латинські літери + 6 цифр", наприклад "DGJ123456"). Обов'язкові поля позначені червоною зірочкою :red:`*` . Доданий водій прив'язується в системі до вказаного **"Перевізника"**.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_26new.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_83.png
    :align: center
 
-При додаванні нового перевізника автоматично підтягуються дані вказаної особи аби її можливо було вказати в якості **Водія**. Також можливо додати водія через кнопку **"Додати нового водія"**:
+При додаванні нового перевізника автоматично підтягуються дані вказаної особи, є можливість їх **"Змінити"**:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_54.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_84.png
    :align: center
 
 * **Серія, номер посвідчення водія** буде додано автоматично після вибору водія;
@@ -98,14 +98,14 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_56.png
    :align: center
 
-Відкриється модальне вікно, в якому потрібно буде заповнити основні обов'язкові дані майбутного контрагента (**Назву, Тип, ЄДРПОУ, ІПН, Місто, Адресу** організації та співробітника) та натиснути **"Додати"**:
+Відкриється модальне вікно, в якому потрібно спочатку заповнити e-mail майбутного контрагента і після підтведження його унікальності заповнити обов'язкові поля: **Назву, ЄДРПОУ, ІПН, Місто, Адресу** організації та співробітника та натиснути **"Додати"**:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_57.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_85.png
    :align: center
 
-При корректному заповненні даних (унікальні email, ЄДРПОУ) на вказаний email буде відправлено запрошення з унікальним посиланням для подальшої реєстрації на платформі EDIN:
+Дані нового контрагента автоматично додаються в таблицю **"Додаткові дані"** (детальніше `детальніше <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html#additional-data>`__). При корректному заповненні даних (унікальні email, ЄДРПОУ) на вказаний email буде відправлено запрошення з унікальним посиланням для подальшої реєстрації на платформі EDIN:
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_38new.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_89.png
    :align: center
 
 * **Пункт навантаження** – необхідно обрати з випадаючого списку (для цього в рядку необхідно ввести мінімум 3 символи найменування, після цього обрати його з випадаючого списку);
@@ -118,10 +118,10 @@
 
 Після чого в модальному вікні потрібно буде додати населений пункт, адресу та вибрати КОАТУУ (в цьому рядку можливо здійснювати пошук по назві чи коду). Код КОАТУУ вказується автоматично. Додана адреса навантаження прив'язується в системі до вказаного **"Вантажовідправника"**, а адреса розвантаження - до **"Вантажоодержувача"**.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_28n.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_86.png
    :align: center
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_29n.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_87.png
    :align: center
 
 Існує можливість вказати за потреби "Спеціальну охорону вантажу" та документ, згідно з яким здійснюється супровід через кнопку "Додати":
@@ -229,6 +229,8 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_66.png
    :align: center
 
+.. _additional-data:
+
 **1.1.3 Додаткові дані**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -238,6 +240,11 @@
    :align: center
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_68.png
+   :align: center
+
+Також при додаванні нових Перевізника та/або Вантажоотримувача дані автоматично додаються в таблицю **"Додаткові дані"**: 
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_88.png
    :align: center
 
 --------
