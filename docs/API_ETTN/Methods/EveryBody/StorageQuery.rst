@@ -240,3 +240,13 @@
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
+
+.. _опис_підтипів:
+
+Таблиця 10 - Опис підтипів COMDOC
+
+.. csv-table:: 
+  :file: for_csv/sub_doc_type_id.csv
+  :widths:  1, 7
+  :header-rows: 1
+  :stub-columns: 0
