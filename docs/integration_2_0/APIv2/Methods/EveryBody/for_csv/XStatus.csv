@@ -2,5 +2,8 @@
 .. _XStatus: ,**Об'єкт XStatus** ,
 docId,long,id документа/квитанції
 date,long,дата статусу; формат unix timestamp
-type,int,тип статусу
+type,int,"тип статусу: 
+
+* 0 - позитивний
+* 1 - негативний"
 text,String,зміст статусу
