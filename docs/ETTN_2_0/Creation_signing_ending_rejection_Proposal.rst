@@ -80,14 +80,14 @@
 .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_77n.png
    :align: center
 
-Відкриється модальне вікно, в якому потрібно буде заповнити основні обов'язкові дані майбутного контрагента (**Назву, Тип, ЄДРПОУ, ІПН, Місто, Адресу** організації та співробітника) та натиснути **"Додати"**:
+Відкриється модальне вікно, в якому потрібно спочатку заповнити e-mail майбутного контрагента і після підтведження його унікальності заповнити обов'язкові поля: **ЄДРПОУ чи ІПН** та **Назву компанії чи ПІБ** та натиснути **"Додати"**:
 
-.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_78n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_82n.png
    :align: center
 
-При корректному заповненні даних (унікальні email, ЄДРПОУ) на вказаний email буде відправлено запрошення з унікальним посиланням для подальшої реєстрації на платформі EDIN:
+Дані нового контрагента автоматично додаються в таблицю **"Додаткові дані"** (детальніше `детальніше <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html#additional-data>`__). При корректному заповненні даних (унікальні email, ЄДРПОУ) на вказаний email відправляється запрошення з унікальним посиланням для подальшої реєстрації на платформі EDIN:
 
-.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_79n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_89n.png
    :align: center
 
 .. important::
@@ -250,7 +250,7 @@
 
 Після чого в модальному вікні потрібно буде заповнити дані про водія ("Серія, номер посвідчення водія" заповнюється в форматі "3 заголовні латинські літери + 6 цифр", наприклад "DGJ123456"). Обов'язкові поля позначені червоною зірочкою :red:`*` . Доданий водій прив'язується в системі до вказаного **"Перевізника"**. Є можливість зробити доступним номер телефону водія для учасників документообігу (відмітка "Відображати номер телефону водія").
 
-.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_42n.png
+.. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_83n.png
    :align: center
 
 Після того, як документ буде "Збережено" з'являється можливість додати до "Підтвердження транспортування" супровідні документи. Для цього необхідно натиснути на кнопку "Додати файл" (назва файлу повинна бути унікальною).
