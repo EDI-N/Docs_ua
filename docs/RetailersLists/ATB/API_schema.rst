@@ -145,7 +145,7 @@
 **Додаткові методи API**
 =============================
 
-Додатково мережа АТБ зі своєї сторони може `відхилити документ COMDOC <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocReject.html>`__ від Постачальника чи почати процес анулювання:
+Додатково мережа АТБ зі своєї сторони може `відкликати підписання документа COMDOC <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocRevoke.html>`__, `відхилити документ COMDOC <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocReject.html>`__ від Постачальника чи почати процес анулювання:
 
 * зі сторони АТБ виконується `запит на анулювання COMDOC <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/RepealRequest.html>`__
 * у відповідь зі сторони Постачальника виконується `прийняття запиту на анулювання COMDOC <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/RepealAccept.html>`__
