@@ -96,6 +96,6 @@ EDIN | Електронний документообіг для бізнесу
    Zakon/Zakonodavcha_baza
 
 .. toctree::
-   :hidden:
+   :includehidden:
    
    RetailersLists/ATB/ATB_list
