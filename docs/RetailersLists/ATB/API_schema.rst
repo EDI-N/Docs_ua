@@ -46,9 +46,9 @@
 
 2.3 `Отримати/завантажити тіло документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DownloadDocument.html>`__
 
-2.4 `Створення квитанції №2 (прийняття документа COMDOC) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocAccept.html>`__
+2.4 `Відправка статусу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
 
-2.5 `Відправка статусу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__ 
+2.5 `Створення квитанції №2 (прийняття документа COMDOC) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocAccept.html>`__
 
 .. image:: pics_API_schema/Red2.png
    :height: 31px
@@ -90,9 +90,9 @@
 
 5.3 `Отримати/завантажити тіло документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DownloadDocument.html>`__
 
-5.4 `Створення квитанції №2 (прийняття документа COMDOC) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocAccept.html>`__
+5.4 `Відправка статусу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
 
-5.5 `Відправка статусу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__ 
+5.5 `Створення квитанції №2 (прийняття документа COMDOC) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocAccept.html>`__
 
 .. image:: pics_API_schema/Red5.png
    :height: 31px
@@ -124,9 +124,7 @@
 
 7.3 `Отримати/завантажити тіло документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DownloadDocument.html>`__
 
-7.4 `Створення, підписання і відправка документа COMDOC_033 <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocumentWithoutDraft.html>`__
-
-7.5 `Відправка статусу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__ 
+7.4 `Створення, підписання і відправка документа COMDOC_033 <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocumentWithoutDraft.html>`__ 
 
 -----------------------------------------------
 
