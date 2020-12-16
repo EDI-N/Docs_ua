@@ -3,4 +3,4 @@
 URL запиту    , **/api/oas/personal/tariff/balance**
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
-Content-Type  , application/octet-stream
+Content-Type  , application/json
