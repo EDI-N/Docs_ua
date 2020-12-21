@@ -45,7 +45,29 @@
    :align: center
 
 .. note::
-    Реєстрація можлива лише зі згодою з умовами договору оферти та політикою конфіденційності.
+   Реєстрація можлива лише зі згодою з умовами договору оферти та політикою конфіденційності.
+
+.. attention::
+   Якщо вказаний на етапі реєстрації код ЄДРПОУ чи ІПН вже зареєстрований на платформі, то система повідомляє про формування запиту на приєднання до компанії:
+
+   .. image:: pics_User_registration/User_registration_21.png
+      :align: center
+   
+   .. image:: pics_User_registration/User_registration_22.png
+      :align: center   
+
+   Адміністраторам (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження:
+
+   .. image:: pics_User_registration/User_registration_24.png
+      :align: center   
+
+   .. image:: pics_User_registration/User_registration_23.png
+      :align: center
+
+   .. important::
+      Після створення/додавання користувача, для коректної роботи останнього, йому потрібно присвоїти GLN (меню **"GLN"**) та компанію (меню **"Компанії"**).
+
+   Після **"Додавання"/"Відхилення"** користувачу, що реєструвався на пошту відправляється лист-повідомлення про рішення адміністратора компанії.
 
 .. hint::
     За потреби дані вже зареєстрованого користувача завжди можливо відредагувати в `"Особистому кабінеті" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#id4>`__
