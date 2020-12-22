@@ -421,6 +421,24 @@
 .. note::
    Якщо Організатор відхилить заявку повторно відправити її не буде можливо 
 
+**3.5 Видалення ставки організатором**
+---------------------------------------
+
+Зі сторони "Організатора" (користувач, що створив тендер чи `"Супер адміністратор" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ ) може видалити помилкову ставку конкретного учасника:
+
+.. image:: pics_Work_with_Tender/Work_with_Tender_87.png
+   :align: center
+
+При цьому обов'язково вказується причина видалення:
+
+.. image:: pics_Work_with_Tender/Work_with_Tender_88.png
+   :align: center
+
+Після чого статус ставки змінюється на :red:`"Ставка видалена організатором"`:
+
+.. image:: pics_Work_with_Tender/Work_with_Tender_89.png
+   :align: center
+
 --------------------------------
 
 .. include:: kontakti.rst
