@@ -53,16 +53,22 @@
    .. image:: pics_User_registration/User_registration_21.png
       :align: center
    
+    
+
    .. image:: pics_User_registration/User_registration_22.png
       :align: center   
 
-   Адміністраторам (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження:
+   Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням:
 
    .. image:: pics_User_registration/User_registration_24.png
       :align: center   
 
-   .. image:: pics_User_registration/User_registration_23.png
+   При переході за посиланням адміністратор потрапляє на форму додавання нового користувача з попередньо вказаними даними та налаштуваннями "за замовчуваннями" з можливістю **"Додати користувача"** до компанії чи **"Відхилити запит на приєднання"**: 
+
+   .. image:: pics_User_registration/User_registration_25.png
       :align: center
+
+    
 
    .. important::
       Після створення/додавання користувача, для коректної роботи останнього, йому потрібно присвоїти GLN (меню **"GLN"**) та компанію (меню **"Компанії"**).
@@ -72,9 +78,9 @@
 .. hint::
     За потреби дані вже зареєстрованого користувача завжди можливо відредагувати в `"Особистому кабінеті" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#id4>`__
 
-Вітаємо, Ви успішно пройшли реєстрацію і тепер можете ознайомитись з сервісами та можливостями платформи. Після реєстрації доступний демо режим у використанні платформи на протязі 40 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#id5>`__ користувача):
+Вітаємо, Ви успішно пройшли реєстрацію і тепер можете ознайомитись з сервісами та можливостями платформи. Після реєстрації доступний демо режим у використанні платформи на протязі 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#id5>`__ користувача):
 
-.. image:: pics_User_registration/User_registration_14.png
+.. image:: pics_User_registration/User_registration_26.png
    :align: center
 
 Краще та швидше ознайомитись з основним функціоналом всіх представлених сервісів Вам завжди допоможуть наші `інструкції <https://wiki.edin.ua>`__
