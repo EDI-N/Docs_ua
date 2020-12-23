@@ -259,7 +259,7 @@ XML Специфікації
 
 .. include:: units_comdoc.rst
 
-:download:`Приклад COMDOC_021<examples/comdoc_021_example.xml>`
+:download:`Приклад COMDOC_021<examples/comdoc_021_example+.xml>`
 
 ---------
 

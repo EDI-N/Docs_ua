@@ -65,9 +65,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_021 - відмова від підписання<ATB_XML/examples/comdoc_021_otkaz.xml>`
+:download:`Приклад COMDOC_021 - відмова від підписання<ATB_XML/examples/comdoc_021_otkaz+.xml>`
 
-:download:`Приклад COMDOC_021 - відклик підпису<ATB_XML/examples/comdoc_021_otziv.xml>`
+:download:`Приклад COMDOC_021 - відклик підпису<ATB_XML/examples/comdoc_021_otziv+.xml>`
 
 ---------
 
