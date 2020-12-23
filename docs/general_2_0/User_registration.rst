@@ -53,8 +53,6 @@
    .. image:: pics_User_registration/User_registration_21.png
       :align: center
    
-    
-
    .. image:: pics_User_registration/User_registration_22.png
       :align: center   
 
@@ -68,7 +66,7 @@
    .. image:: pics_User_registration/User_registration_25.png
       :align: center
 
-    
+   Зверніть увагу, що для доступу користувача до сервісів платформи потрібно провести налаштування його роль (за замовчуванням роль "Користувач" без доступу до сервісів (без проставлених галочок))!
 
    .. important::
       Після створення/додавання користувача, для коректної роботи останнього, йому потрібно присвоїти GLN (меню **"GLN"**) та компанію (меню **"Компанії"**).
