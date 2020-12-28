@@ -4,7 +4,7 @@
 * `Адреси компаній (масив об’єктів Address) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/AddressesSearchResponse.html>`__
 * `Обгортка для накладання підпису Вантажоотримувача на контент (об’єкт CARRIER_LOAD_SIGN_ENVELOPE) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CARRIER_LOAD_SIGN_ENVELOPE_REQUEST.html>`__
 * `Обгортка для накладання підпису на контент (об’єкт CARRIER_UNLOAD_SIGN_ENVELOPE) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CARRIER_UNLOAD_SIGN_ENVELOPE_REQUEST.html>`__
-* `Обгортка для накладання підпису Вантажовідправника на контент (об’єкт CONSIGNEE_SIGN_ENVELOPE) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CONSIGNEE_SIGN_ENVELOPE_REQUEST.html>`__
+* `Обгортка для накладання підпису Вантажоотримувача на контент (об’єкт CONSIGNEE_SIGN_ENVELOPE) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CONSIGNEE_SIGN_ENVELOPE_REQUEST.html>`__
 * `Тіло документа е-ТТН для накладання підпису Вантажовідправника (об’єкт CONSIGNOR_ETTN) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CONSIGNOR_ETTN_REQUEST.html>`__
 * `Дані коментарів до документа (масив об’єктів XDocComment) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CommentResponse.html>`__
 * `Дані про компанії (масив об’єктів CompanyV2) <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CompanySearchResponse.html>`__
