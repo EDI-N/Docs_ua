@@ -6,7 +6,23 @@
 
 .. code:: json
 
-	Приклад тимчасово відсутній
+  {
+  "DECLARBODY":{
+          "STAKE": "RECIPIENT",
+          "TYPE":"AMENDMENT",
+          "R09G2": 571.755,
+          "DATE_ARRIVAL_UNLOAD": "2020-10-25",
+          "DATE_DEPARTURE_UNLOAD": "2020-10-25",
+          "R09G31": 22,
+          "R09G32": 0,
+          "R09G41": 23,
+          "R09G42": 0,
+          "R09G51": 0,
+          "R09G52": 0,
+          "R017G61S": "Старший комірник",
+          "R017G6S": "Кузьменко Марія Петрівна"
+      }
+  }
 
 Таблиця 1 - Опис параметрів об'єкта **CONSIGNEE_SIGN_ENVELOPE**
 
