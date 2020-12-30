@@ -22,5 +22,6 @@
    formuvannia__Tovarnoi_i_Podatkovoi_nakladnoi_Metro
    formirovanie_Tovarnogo_dovidnyka
    System_Pysk_work_with_COMDOC_013_COMDOC_029
+   Factoring_instruction_EDIN_2_0
    
    
