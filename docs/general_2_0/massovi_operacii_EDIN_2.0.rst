@@ -136,7 +136,7 @@
 
 .. _condra-create-send:
 
-1.2 Створення та відправка "Універсального документа" (CONDRA)
+1.2 Створення та відправка "Універсального документа" (CONDRA) для Фактора
 ----------------------------------------------------------------------------------------------
 
 Масове створення "Універсальних документів" (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__) використовується для `роботи з факторингом <https://wiki.edin.ua/uk/latest/retail_2.0/Factoring_instruction_EDIN_2_0.html>`__. Документи CONDRA створюються на підставі підписаних з обох сторін (в статусі :green:`"Підтверджено з двох сторін"`) "Видаткової накладної" (`COMDOC_006 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__), "Прибуткової накладної" (`COMDOC_007 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__), "Товарної накладної" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__):
