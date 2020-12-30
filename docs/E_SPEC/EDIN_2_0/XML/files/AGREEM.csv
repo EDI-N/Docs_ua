@@ -62,7 +62,7 @@ COMPENSATION_PERCENTAGE, O, "Число (6,2)", % компенсації
 ACTION_ACTIVATION_AMOUNT, O,"Число (6,4)", Сума за активацію акції
 PROMOPRICEWITHVAT_RECOMMEND, O, "Число (6,4)", Рекомендована роздрібна ціна з ПДВ
 VAT, O,Число («20» / «7» / «0»),"Ставка ПДВ,%"
-UNIT, O, Рядок (3),Одиниці виміру [2]_
+UNIT, O, Рядок (3),`Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 **POSITION**,,, Товарні позиції (закінчення блоку)
 **HEAD**,,, Закінчення основного блоку
 **AGREEM**,,, Закінчення документа

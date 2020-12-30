@@ -5,10 +5,6 @@ XML Специфікації
 
 У специфікації представлено опис полів XML-документів, які застосовуються в електронному обміні даними на платформі EDI-N.
 
-Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
-– M (mandatory) — обов'язкові для заповнення поля;
-– O (optional) — необов'язкові (опціональні) для заповнення поля.
-
 ---------
 
 .. contents:: Зміст:
@@ -93,8 +89,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 ---------
 
 Акт про виявлені недоліки (COMDOC_005)
@@ -104,8 +98,6 @@ XML Специфікації
   :file: files/COMDOC_005.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_005<examples/comdoc_005_example.xml>`
 
@@ -119,8 +111,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_006<examples/comdoc_006_example.xml>`
 
 ---------
@@ -132,8 +122,6 @@ XML Специфікації
   :file: files/COMDOC_007.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_007<examples/comdoc_007_example.xml>`
 
@@ -147,8 +135,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_008<examples/comdoc_008_example_1.xml>`
 
 ---------
@@ -161,8 +147,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 ---------
 
 Повідомлення про повернення (COMDOC_011)
@@ -172,8 +156,6 @@ XML Специфікації
   :file: files/COMDOC_011.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_011<examples/comdoc_011_example.xml>`
 
@@ -187,8 +169,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_012<examples/comdoc_012_example.xml>`
 
 ---------
@@ -200,8 +180,6 @@ XML Специфікації
   :file: files/COMDOC_013.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_013<examples/comdoc_013_018_example.xml>`
 
@@ -215,8 +193,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_016<examples/comdoc_016_example.xml>`
 
 ---------
@@ -228,8 +204,6 @@ XML Специфікації
   :file: files/COMDOC_018.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_018<examples/comdoc_013_018_example.xml>`
 
@@ -243,8 +217,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_019<examples/comdoc_anuluvannya.xml>`
 
 ---------
@@ -256,8 +228,6 @@ XML Специфікації
   :file: files/COMDOC_021.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_021<examples/comdoc_021_example+.xml>`
 
@@ -271,8 +241,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_022<examples/comdoc_022_example.xml>`
 
 ---------
@@ -284,8 +252,6 @@ XML Специфікації
   :file: files/COMDOC_023.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_023<examples/comdoc_023_example.xml>`
 
@@ -299,8 +265,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_024<examples/comdoc_024_example.xml>`
 
 ---------
@@ -312,8 +276,6 @@ XML Специфікації
   :file: files/COMDOC_025.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_025<examples/comdoc_025_example.xml>`
 
@@ -327,8 +289,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_026<examples/comdoc_026_example.xml>`
 
 ---------
@@ -340,8 +300,6 @@ XML Специфікації
   :file: files/COMDOC_027.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_027<examples/comdoc_027_example.xml>`
 
@@ -355,8 +313,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_028<examples/comdoc_028_example.xml>`
 
 ---------
@@ -368,8 +324,6 @@ XML Специфікації
   :file: files/COMDOC_029.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_029<examples/comdoc_029_example.xml>`
 
@@ -383,8 +337,6 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-.. include:: units_comdoc.rst
-
 :download:`Приклад COMDOC_030<examples/comdoc_030_example.xml>`
 
 ---------
@@ -396,8 +348,6 @@ XML Специфікації
   :file: files/COMDOC_031.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
-
-.. include:: units_comdoc.rst
 
 :download:`Приклад COMDOC_031<examples/comdoc_031_example.xml>`
 
