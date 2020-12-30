@@ -5,13 +5,16 @@
 
 .. role:: green
 
+.. |лупа| image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_09.png
+
+.. |save| image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_10.png
+
+.. |non| image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_11.png
+
 .. contents:: Зміст:
    :depth: 3
 
 ---------
-
-**1 Формування та відправка "Універсального документа" для сторони-Фактора**
-===========================================================================================
 
 Для входу на web платформу EDIN 2.0 необхідно перейти за посиланням: https://edo-v2.edin.ua/.
 
@@ -19,9 +22,7 @@
 
 * "Видаткової накладної" (`COMDOC_006 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__);
 * "Прибуткової накладної" (`COMDOC_007 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__);
-* "Товарної накладної" (`COMDOC_027 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-027>`__);
-* "Товарної накладної (Метро)" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__);
-* "Коригування до товарної накладної (Метро)" (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__).
+* "Товарної накладної" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__).
 
 .. important::
     Документ-підстава повинен знаходитись в статусі :green:`"Підтверджено з двох сторін"`!
@@ -29,7 +30,20 @@
     .. image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_01.png
        :align: center
 
-Потрібно відкрити підписаний з двох сторін документ (наприклад, "Видаткову накладну") та натиснути кнопку створення "Універсального документу":
+**1 Формування та відправка "Універсального документа" для сторони-Фактора**
+===========================================================================================
+
+Для зручності можливо скористатись "Пошуком" (можливо переглянути всі "Доступні ключі пошуку"):
+
+.. image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_08.png
+   :align: center
+
+Наприклад, для того, щоб вибрати всі підписані з обох сторін "Видаткові накладні" потрібно ввести через кому два параметра: **#Видаткова накладна, #Підтверджено з двох сторін,** і натиснути |лупа|. За потреби пошук можливо зберегти (|save|):
+
+.. image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_07.gif
+   :align: center
+
+Для формування "Універсального документа" потрібно відкрити підписаний з двох сторін документ (наприклад, "Видаткову накладну") та натиснути кнопку **"Універсальний документ"**:
 
 .. image:: pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_02.png
    :align: center
@@ -50,7 +64,7 @@
    :align: center
 
 .. hint::
-    Також можливо масово створювати та відправляти "Універсальні документи" Фактору (детальніше в `розділі інструкції масових операцій з документами <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#>`__)
+    Також можливо масово створювати та відправляти "Універсальні документи" Фактору (детальніше в `розділі інструкції масових операцій з документами <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#condra-create-send>`__)
 
 **2 Відповідь сторони-Фактора**
 ===========================================================================================
@@ -59,3 +73,6 @@
 
 Відсутність будь-яких статусів говорить про розглядання чи прийняття накладної на фінансування. Найближчим часом по всіх прийнятих накладних Фактор відправляє "Універсальний документ" (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__) з вкладеним "Реєстром документів" (:download:`приклад<pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_06.png>`), що містить список прийнятих до фінансування накладних.
 
+-----------------------------------
+
+.. include:: kontakti.rst
