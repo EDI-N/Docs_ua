@@ -21,6 +21,8 @@
 
 .. |trash| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_18.png
 
+.. |print| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_52.png
+
 .. |non| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_21.png
 
 .. |лупа| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_49.png
@@ -149,9 +151,9 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_10n.gif
    :align: center
 
-При перегляді доданого файлу можливо масштабувати попередній перегляд файлу (1), використовувати пагінацію сторінок (2), завантажити |download| (логіка отримання файлів описана в `масовому завантаженні <https://wiki.edin.ua/uk/latest/Vilnyi/Work_with_Vilnyi.html#mass-download>`__) чи видалити (|trash|) файл (3).
+При перегляді доданого файлу можливо масштабувати попередній перегляд файлу (1), використовувати пагінацію сторінок (2), роздрукувати |print| (доступно лише для документів в форматі PDF, JPG (JPEG), PNG, BMP), завантажити |download| (логіка отримання файлів описана в `масовому завантаженні <https://wiki.edin.ua/uk/latest/Vilnyi/Work_with_Vilnyi.html#mass-download>`__) чи видалити (|trash|) файл (3).
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_41.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_51.png
    :align: center
 
 Після додавання файлу/-ів та заповнення всіх обов'язковий полей можливо масово **"Підписати всі"** файли документа та **"Відправити"** документ (також можливо "Відправити документ без підписання"). При відправці непідписанного документа з'являється підказка, що потребує підтвердження дії:
