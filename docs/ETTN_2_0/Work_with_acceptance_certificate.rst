@@ -55,7 +55,7 @@
 .. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_31.png
    :align: center
 
-Окрім обов'язкових до заповнення полей номеру та дати договору потрібно додати (кнопка "Додати") та заповнити табличку частину "Відомості про вантаж":
+Окрім обов'язкових до заповнення номеру та дати договору потрібно додати (кнопка "Додати") та заповнити табличку частину "Відомості про вантаж":
 
 .. image:: pics_Work_with_acceptance_certificate/Work_with_acceptance_certificate_32.png
    :align: center
