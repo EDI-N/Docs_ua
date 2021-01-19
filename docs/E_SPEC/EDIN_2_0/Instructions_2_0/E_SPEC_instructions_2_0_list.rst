@@ -1,12 +1,12 @@
 Інструкції
 ##################
    
-.. toctree::
+.. deprecated .. toctree::
    :maxdepth: 1
    :caption: Робота з документами
    
-   Uzgodzhennya_cіn_Іnstrukcіya_dlya_rozdrіbnoi_merezhі
-   Uzgodzhennya_cіn_Іnstrukcіya_dlya_postachalnika
+..   Uzgodzhennya_cіn_Іnstrukcіya_dlya_rozdrіbnoi_merezhі
+..   Uzgodzhennya_cіn_Іnstrukcіya_dlya_postachalnika
    
 .. toctree::
    :maxdepth: 1
