@@ -29,6 +29,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад ORDER<examples/ORDER_example_f.xml>`
+
 ---------
 
 Підтвердження замовлення (ORDRSP)
