@@ -240,9 +240,6 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_19n.png
    :align: center
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_20n.png
-   :align: center
-
 Також при відправці документа, на вказаний e-mail **"Отримувача"** відправляється лист:
 
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_36n.png
