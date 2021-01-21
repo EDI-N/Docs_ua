@@ -79,7 +79,7 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_032<ATB_XML/examples/COMDOC_032.xml>`
+:download:`Приклад COMDOC_032<ATB_XML/examples/COMDOC_032+.xml>`
 
 ---------
 
