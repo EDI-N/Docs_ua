@@ -60,13 +60,13 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: Tender
 
-   Tender_2_0/Tender_2_0_list
+   Tender_2_0/Work_with_Tender
 
 .. toctree::
    :maxdepth: 2
    :caption: ВІЛЬНИЙ
 
-   Vilnyi/Vilnyi_list
+   Vilnyi/Work_with_Vilnyi
 
 .. toctree::
    :maxdepth: 2
