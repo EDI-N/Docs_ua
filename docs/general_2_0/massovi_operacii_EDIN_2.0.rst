@@ -92,6 +92,9 @@
 * Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
 * Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)
 
+.. note::
+   Універсальні документи (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__), до яких додано вкладення також можуть бути масово відправлені з "Чернеток" (з підписом чи без в залежності від клієнтських налаштувань).
+
 Для доступу до операції, відсортуйте документи за Типом документу, а також за статусом - "Не підписано" (1). Виберіть потрібні документи, або відмітьте усі, а потім натисніть на кнопку "Масові операції" (2), щоб перейти до допустимих операції.
 
 .. image:: pics_massovi_operacii/massovi_operacii_z_documentamy_podpisanie.png
