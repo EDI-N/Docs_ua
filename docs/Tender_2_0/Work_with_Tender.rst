@@ -459,7 +459,7 @@
 .. image:: pics_Work_with_Tender/Work_with_Tender_88.png
    :align: center
 
-Після чого статус ставки змінюється на :red:`"Ставка видалена організатором"`:
+При видаленні ставки учасники отримують повідомлення у вигляді коментаря, а статус ставки змінюється на :red:`"Ставка видалена організатором"`:
 
 .. image:: pics_Work_with_Tender/Work_with_Tender_89.png
    :align: center

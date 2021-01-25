@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    , **/api/es/agreement?gln=9864067620417&sender_id=13200665&recipient_id=41249&retailer_id=7&contract_uuid=ebe77c79-85fc-4c58-a07b-833caac25d65&type=1&doc_date=1588881407&doc_number=1200.996633_128&status_id=1``
+URL запиту    , **/api/es/agreement?gln=9864067620417&sender_id=13200665&recipient_id=41249&retailer_id=7&contract_uuid=ebe77c79-85fc-4c58-a07b-833caac25d65&type=1&doc_date=1588881407&doc_number=1200.996633_128&status_id=1**
 URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
 
 **sender_id** (обов'язково) long - id відправника;
