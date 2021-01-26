@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/v1/tender/lot/bets?lot_id=795&auction_id=256&bet_id=96**
+URL параметри ,"**lot_id** (обов'язково) long - ідентифікатор лоту тендера
+
+**auction_id** (обов'язково) long - ідентифікатор тендера
+
+**bet_id** (обов'язково) long - ідентифікатор ставки"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Tender/Methods/Authorization.html>`__ "
+Content-Type  , application/json                           
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту обов'язково передається причина видалення ставки (text)"
