@@ -1,0 +1,22 @@
+Параметр, Формат, Опис
+.. _CreateAgreementBody2Request: , Об'єкт,
+changePriceTerm,int,термін подачі на перегляд регулярних цін
+isPriceWithDiscount,boolean,робота з ціною зі знижкою
+isPriceWithVat,boolean,узгодження по ціні з ПДВ
+maxNumbersOfAgreements,int,максимальна кількість узгоджень
+isChangePricePeriod,boolean,доступ до зміни термінів дії
+changePromoPriceTerm,int,термін подачі на розгляд промо цін
+changeLastingTerm,int,період дії регулярних цін (за замовчуванням)
+changePromoLastingTerm,int,період дії промо цін (за замовчуванням)
+changeOutputGoodsTerm,int,термін подачі на розгляд призупинення/виведення товару
+isNewPositions,boolean,введення нових пропозицій по розширенню
+isExtendedSpec,boolean,лише розширені характеристики Listex
+isOutputGoods,boolean,призупинення/виведення товару з асортименту
+isTypePromo,boolean,узгодження промо ціни
+isPromoQuantity,boolean,вказується кількість товарів промо
+isExtendedSpecUcat,boolean,лише розширені характеристики Ucat
+isSignUnBlock,boolean,можливість підписувати COMDOC_008 за день до початку дії ціни
+isProlongationContract,boolean,автоматична пролонгація контракту/специфікації
+isNewSupplier,boolean,нові постачальники
+isReplaceProductlistData,boolean,попереднє очищення PRODUCTLIST
+isActionControl,boolean,керування акціями
