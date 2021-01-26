@@ -61,6 +61,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Tender
 
    Tender_2_0/Work_with_Tender
+   API_Tender/API_Tender_list
 
 .. toctree::
    :maxdepth: 2
