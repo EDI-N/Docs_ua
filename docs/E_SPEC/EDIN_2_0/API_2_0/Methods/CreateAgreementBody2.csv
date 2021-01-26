@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    , **api/es/agreement/body?gln=9864067620417&agreement_uuid=e9xxxxa0-aed2-4cd8-b8ba-c6070ecab278&body_type=2**
+URL запиту    , **/api/es/agreement/body?gln=9864067620417&agreement_uuid=e9xxxxa0-aed2-4cd8-b8ba-c6070ecab278&body_type=2**
 URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
 
 **agreement_uuid** UUID - GUID пропозиції (`метод створення пропозиції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreement.html>`__);
