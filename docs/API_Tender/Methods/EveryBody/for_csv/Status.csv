@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _Status: , Об'єкт **Status**,
+code,int,"код;
+
+* 1 - draft - Чернетка
+* 2 - active - Активний
+* 3 - closed - Завершений"
+name,String,назва
+description,String,опис
