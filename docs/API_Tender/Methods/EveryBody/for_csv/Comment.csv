@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _Comment: , Об'єкт **Comment**,
+id,long,id коментаря
+accountId,long,id аккаунту
+companyId,long,id компанії
+userId,long,id користувача
+adminId,long,id адміністратора
+dateChange,long,дата зміни коментаря
+text,String,текст коментаря
