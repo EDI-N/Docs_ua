@@ -7,47 +7,45 @@
 .. code:: json
 
 	{
-	  "id": 263,
-	  "uuid": "f0982333-0a52-4118-913c-f9bcf6cc81aa",
-	  "companyId": 477,
+	  "id": 601,
+	  "uuid": "8d3cc0a7-6225-43c9-b732-cb3827149ac2",
+	  "companyId": 447,
 	  "company": {
-	    "id": 477,
-	    "uuid": "b0707909-d160-4902-9e49-cb35ef70ed99",
-	    "accountID": 412,
-	    "name": "Торговий дім Чорна перлина",
-	    "edrpou": "31005868",
-	    "inn": "310058615429"
+	    "id": 447,
+	    "uuid": "0e4eca5a-b60d-4e18-b87c-05173ce5dfac",
+	    "accountID": 11158,
+	    "name": "СУБЛАНД УКРАЇНА",
+	    "edrpou": "37212319",
+	    "inn": "372123104628"
 	  },
-	  "dateCreate": 1592833608,
-	  "dateStart": 1592837160,
-	  "dateEnd": 1592838960,
-	  "dateLastUpdate": 1592833608,
-	  "userId": 199,
+	  "dateCreate": 1596092826,
+	  "dateStart": 1596094380,
+	  "dateEnd": 1617224340,
+	  "dateLastUpdate": 1596093307,
+	  "userId": 198,
 	  "user": {
-	    "id": 199,
-	    "employeeId": 199,
-	    "accountId": 412,
+	    "id": 198,
+	    "employeeId": 198,
+	    "accountId": 11158,
 	    "account": {
-	      "id": 412,
-	      "name": "Торговий дім Чорна перлина",
-	      "edrpou": "31005868",
-	      "inn": "310058615429",
+	      "id": 11158,
+	      "name": "СУБЛАНД УКРАЇНА",
+	      "edrpou": "37212319",
+	      "inn": "372123104628",
 	      "status": {
-	        "code": 2,
-	        "description": "Стартовый (с ограниченными возможностями)"
+	        "code": 1,
+	        "description": "Активный"
 	      },
 	      "emails": [
-	        "perlina@elaninet.com",
-	        " perlna@ukr.net"
+	        "sinergiya07@mail.ru"
 	      ],
-	      "phone": "3804871744",
-	      "legalAddress": "65013, м. Одеса, пров. Бісквітний, 3",
-	      "dateCreate": 0,
-	      "dateChange": 1611043593,
-	      "about": "SOME INFO ABOUT ACCOUNT",
-	      "logo": "/api/logo/accounts/logo_412.png"
+	      "phone": "3805637318",
+	      "legalAddress": "49069, м. Дніпропетровськ, вул. Карла Лібкнехта, буд. 49",
+	      "dateCreate": 1371452537,
+	      "dateChange": 1605700611,
+	      "logo": "/api/logo/accounts/logo_11158.jpg"
 	    },
-	    "login": "boba",
+	    "login": "biba",
 	    "role": {
 	      "code": 1,
 	      "description": "Пользователь"
@@ -55,51 +53,41 @@
 	    "name": "first_name",
 	    "surname": "last_name",
 	    "secondName": "middle_name",
-	    "phone": "8",
-	    "ipn": "2",
-	    "dateLastLogin": 1611680167,
-	    "info": "7a685d9e\r\nЗаблокирован, за неуплату 2010-06-21 14:57\r\nРазблокирован 2010-06-21 14:57\r\nЗаблокирован, за неуплату 2010-10-05 10:14\r\nРазблокирован 2010-10-05 12:18\r\nЗаблокирован, за неуплату 2010-11-15 11:27\r\nРазблокирован 2010-11-17 12:06\r\nЗаблокирован, за неуплату 2011-01-20 10:10\r\nРазблокирован 2011-01-24 15:30\r\nЗаблокирован, за неуплату 2011-04-01 12:20\r\nРазблокирован 2011-04-04 11:05\r\nЗаблокирован, за неуплату 2011-07-01 10:34\r\nЗаблокирован, за неуплату 2011-10-03 10:34",
+	    "phone": "9",
+	    "ipn": "1",
+	    "dateLastLogin": 1611833549,
+	    "info": "1e4d3617\r\nЗаблокирован, за неуплату 2010-10-04 16:55\r\nРазблокирован 2010-10-06 17:31\r\nЗаблокирован, за неуплату 2011-03-29 11:47\r\nРазблокирован 2011-03-29 15:34\r\nЗаблокирован, за неуплату 2011-05-10 09:24\r\nРазблокирован 2011-05-10 11:44",
 	    "emails": [
-	      "boba",
+	      "biba",
 	      "evo-dev@edi.su"
 	    ],
 	    "companies": [
 	      {
-	        "id": 59,
-	        "uuid": "dea6af35-8382-4023-b045-b788dbf4c773",
-	        "accountID": 22855,
-	        "name": "TEST_DRIVER_COMPANY",
-	        "edrpou": "99007755",
-	        "inn": "9900660055",
-	        "city": "KIEV",
-	        "address": "KIEV"
-	      },
-	      {
-	        "id": 477,
-	        "uuid": "b0707909-d160-4902-9e49-cb35ef70ed99",
-	        "accountID": 412,
-	        "name": "Торговий дім Чорна перлина",
-	        "edrpou": "31005868",
-	        "inn": "310058615429"
+	        "id": 447,
+	        "uuid": "0e4eca5a-b60d-4e18-b87c-05173ce5dfac",
+	        "accountID": 11158,
+	        "name": "СУБЛАНД УКРАЇНА",
+	        "edrpou": "37212319",
+	        "inn": "372123104628"
 	      }
 	    ]
 	  },
-	  "title": "Атракціон невиданої щедрості",
-	  "description": "Продається атракціон",
+	  "title": "Лента липкая",
+	  "description": "Лента липкая, для ловли мух",
 	  "status": {
-	    "code": 1,
-	    "name": "draft",
-	    "description": "Черновик"
+	    "code": 2,
+	    "name": "active",
+	    "description": "Активный"
 	  },
 	  "accessType": {
-	    "code": 2,
-	    "name": "private",
-	    "description": "Закрытый (приватный)"
+	    "code": 1,
+	    "name": "public",
+	    "description": "Открытый для всех"
 	  },
 	  "type": {
-	    "code": 2,
-	    "name": "selling",
-	    "description": "Продажа"
+	    "code": 1,
+	    "name": "purchase",
+	    "description": "Покупка"
 	  },
 	  "offerType": {
 	    "code": 1,
@@ -113,8 +101,8 @@
 	  "hideParticipantNamesOnly": false,
 	  "isFree": false,
 	  "isProlonged": false,
-	  "lotsCount": 1,
-	  "betsCount": 0
+	  "lotsCount": 2,
+	  "betsCount": 63
 	}
 
 Таблиця 1 - Опис параметрів об'єкта **Auction**
