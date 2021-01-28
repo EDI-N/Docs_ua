@@ -1,0 +1,25 @@
+Параметр, Формат, Опис
+.. _Auction: , Об'єкт **Auction**,
+id,long,id тендера
+uuid,UUID,uuid тендера
+companyId,long,id компанії
+company,Company_,"об'єкт; дані компанії, якій належить тендер"
+dateCreate,long,дата створення тендера (UNIX TimeStamp)
+dateStart,long,дата початку тендера (UNIX TimeStamp)
+dateEnd,long,дата закінчення тендера (UNIX TimeStamp)
+dateLastUpdate,long,дата останнього оновлення тендера (UNIX TimeStamp)
+userId,long,id користувача
+user,User_,об'єкт; дані користувача
+title,String,назва (заголовок) тендера
+description,String,опис тендера
+status,Status_,об'єкт; статус тендера
+accessType,AccessType_,об'єкт; тип доступу
+type,Type_,об'єкт; тип торгівлі
+offerType,OfferType_,об'єкт; етап
+isAutoRenewal,boolean,автоматичне оновлення тендера
+isTax,boolean,відображення ціни з ПДВ
+noShowBets,boolean,приховувати ставки
+noShowBestBet,boolean,приховувати кращу ставку
+hideParticipantNamesOnly,boolean,приховувати імена учасників
+isFree,boolean,безкоштовна участь
+isProlonged,boolean,автопродовження тендера

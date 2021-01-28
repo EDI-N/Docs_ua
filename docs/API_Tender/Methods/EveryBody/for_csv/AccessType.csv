@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _AccessType: , Об'єкт **AccessType**,
+code,int,"код;
+
+* 1 - public - Відкритий для всіх
+* 2 - private - Закритий (приватний)"
+name,String,назва
+description,String,опис
