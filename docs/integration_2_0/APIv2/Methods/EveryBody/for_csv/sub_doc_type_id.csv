@@ -7,6 +7,7 @@
 11,`Повідомлення про повернення (COMDOC_011) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-011>`__
 12,`Накладна на повернення (COMDOC_012) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-012>`__
 13,`Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
+15,`Акт взаємозаліку (COMDOC_015) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-015>`__
 16,`Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
 18,`Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__
 19,`Анулювання (COMDOC_019) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-019>`__
