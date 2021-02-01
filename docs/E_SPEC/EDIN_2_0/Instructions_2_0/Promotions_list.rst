@@ -2,8 +2,7 @@
 ######################################################
  
 .. toctree::
-   :maxdepth: 1
-   :caption: 
+   :titlesonly:
    
    Promotions_postachalnik
    Promotions_merezha
