@@ -2,8 +2,7 @@
 ######################################################
  
 .. toctree::
-   :maxdepth: 1
-   :caption: 
+   :titlesonly:
    
    Commercial_offers_merezha
    Commercial_offers_postachalnik

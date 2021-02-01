@@ -15,15 +15,3 @@
    E_Spec_Instruction_merezha
    E_Spec_Іnstruction_postachalnik
 
-.. наступний токтрі для відображення сторінок зашитих на веб EDIN
-
-.. toctree::
-   :hidden:
-   :glob:
-
-   Commercial_offers_postachalnik
-   Commercial_offers_merezha
-   Commercial_offers_list
-   Promotions_postachalnik
-   Promotions_merezha
-   Promotions_list
