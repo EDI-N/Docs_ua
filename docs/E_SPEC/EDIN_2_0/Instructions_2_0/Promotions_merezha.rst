@@ -1,4 +1,4 @@
-Комерційні пропозиції для Постачальника
+Комерційні пропозиції для Роздрібної Мережі
 ###############################################################################
 
 .. сюда закину немного картинок для текста
@@ -20,8 +20,8 @@
 
 ---------
 
-.. include:: E_Spec_Іnstruction_postachalnik.rst
-   :start-after: .. початок блоку для Commercial_offers
-   :end-before: .. кінець блоку для Commercial_offers
+.. include:: E_Spec_Instruction_merezha.rst
+   :start-after: .. початок блоку для Promotions
+   :end-before: .. кінець блоку для Promotions
 
 ---------
