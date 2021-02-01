@@ -5,6 +5,12 @@
 
 .. role:: red
 
+.. role:: green
+
+.. role:: blue
+
+.. role:: orange
+
 .. role:: underline
 
 ---------
@@ -15,7 +21,7 @@
 ---------
 
 .. include:: E_Spec_Instruction_merezha.rst
-   :start-after: .. початок блоку для include
-   :end-before: .. кінець блоку для include
+   :start-after: .. початок блоку для Commercial_offers
+   :end-before: .. кінець блоку для Commercial_offers
 
 ---------
