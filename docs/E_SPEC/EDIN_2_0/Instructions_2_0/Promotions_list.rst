@@ -4,5 +4,5 @@
 .. toctree::
    :titlesonly:
    
-   Promotions/Promotions_postachalnik
-   Promotions/Promotions_merezha
+   Promotions_postachalnik
+   Promotions_merezha
