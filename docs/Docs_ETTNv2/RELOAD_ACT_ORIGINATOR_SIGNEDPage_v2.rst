@@ -41,3 +41,5 @@
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
+
+:download:`Приклад Акту перевантаження(1)<examples/reload_act-originator_signed.xml>`

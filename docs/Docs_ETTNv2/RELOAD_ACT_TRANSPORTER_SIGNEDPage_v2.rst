@@ -58,3 +58,4 @@
   :header-rows: 1
   :stub-columns: 0
 
+:download:`Приклад Акту перевантаження(2)<examples/reload_act-transporter_signed.xml>`
