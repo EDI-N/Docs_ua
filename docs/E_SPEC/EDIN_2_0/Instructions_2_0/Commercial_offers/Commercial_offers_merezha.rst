@@ -20,7 +20,7 @@
 
 ---------
 
-.. include:: E_Spec_Instruction_merezha.rst
+.. include:: /E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Instruction_merezha.rst
    :start-after: .. початок блоку для Commercial_offers
    :end-before: .. кінець блоку для Commercial_offers
 
