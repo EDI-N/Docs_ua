@@ -18,4 +18,6 @@
    BookingConfirmationPage_v2
    COMPLETIONpage_v2
    AcceptancePage_v2
+   RELOAD_ACT_ORIGINATOR_SIGNEDPage_v2
+   RELOAD_ACT_TRANSPORTER_SIGNEDPage_v2
    
