@@ -21,9 +21,5 @@
    :hidden:
    :glob:
 
-   Commercial_offers/Commercial_offers_postachalnik
-   Commercial_offers/Commercial_offers_merezha
    Commercial_offers_list
-   Promotions/Promotions_postachalnik
-   Promotions/Promotions_merezha
    Promotions_list
