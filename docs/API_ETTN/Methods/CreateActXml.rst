@@ -14,5 +14,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передається XML з відповідним документом `е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ для подальшої операції підписання.
+У тілі **відповіді** передається XML з `"Актом перевантаження" <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/RELOAD_ACT_ORIGINATOR_SIGNEDPage_v2.html>`__ для подальшої операції підписання.
 
