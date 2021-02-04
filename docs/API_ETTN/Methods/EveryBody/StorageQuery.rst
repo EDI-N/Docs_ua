@@ -246,7 +246,7 @@
 Таблиця 10 - Опис підтипів COMDOC
 
 .. csv-table:: 
-  :file: for_csv/sub_doc_type_id.csv
+  :file: /integration_2_0/APIv2/Methods/EveryBody/for_csv/sub_doc_type_id.csv
   :widths:  1, 7
   :header-rows: 1
   :stub-columns: 0
