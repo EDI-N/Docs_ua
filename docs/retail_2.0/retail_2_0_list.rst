@@ -20,6 +20,7 @@
    Robota_s_Fozzy_EDI-N_2.0
    formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin
    formuvannia__Tovarnoi_i_Podatkovoi_nakladnoi_Metro
+   formirovanie_COMDOC_027_na_EDI_Network_2_0
    formirovanie_Tovarnogo_dovidnyka
    System_Pysk_work_with_COMDOC_013_COMDOC_029
    Factoring_instruction_EDIN_2_0
