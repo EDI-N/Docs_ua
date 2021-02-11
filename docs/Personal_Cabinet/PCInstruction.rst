@@ -590,7 +590,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
    .. image:: pics_PCInstruction/PCInstruction_101.png
       :align: center
 
-   *При відхиленні обов'язково потрібно вкачати причину відмови:
+   *При відхиленні обов'язково потрібно вказати причину відмови:
 
    .. image:: pics_PCInstruction/PCInstruction_102.png
       :align: center
