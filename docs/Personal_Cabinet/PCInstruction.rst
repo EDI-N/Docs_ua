@@ -581,6 +581,20 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 Після прийняття рішення запит змінює свій статус на :green:`Прийнято` / :red:`Відхилено`.
 
+.. note::
+   Додатково по всіх запитах Постачальника Торгова Мережа отримує листа з посиланням на форму прийняття рішення (не потребує авторизації):
+
+   .. image:: pics_PCInstruction/PCInstruction_100.png
+      :align: center
+
+   .. image:: pics_PCInstruction/PCInstruction_101.png
+      :align: center
+
+   *При відхиленні обов'язково потрібно вкачати причину відмови:
+
+   .. image:: pics_PCInstruction/PCInstruction_102.png
+      :align: center
+
 -------------------------------------
 
 .. include:: kontakti.rst
