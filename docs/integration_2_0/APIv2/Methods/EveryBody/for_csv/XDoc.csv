@@ -24,7 +24,7 @@ family,int,"сімейство
 hash,String,"хеш-значення, отримане в результаті обробки"
 type,XDocType_,об'єкт; тип документа
 status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
-exchange_status,String,сабстатус документа
+exchange_status,String,сабстатус документа (`детальніше <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__)
 is_archive,boolean,відмітка; **Архівний** документ чи ні
 signInfo,XDocSignInfo_,об'єкт; дані про підписи
 chain,XChain,объект; дані пов'язаних ланцюжків

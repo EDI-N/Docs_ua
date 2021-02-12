@@ -9,7 +9,7 @@ id параметра, Найменування параметра,Обов'яз
 8, inv_date ,, INT, дата документа invrpt (Звіт про інвентаризацію)
 9, inv_num ,, VARCHAR, номер документа invrpt (Звіт про інвентаризацію)
 11, sub_doc_type_id ,, INT, id підтипу документа ( опис_підтипів_ )
-12, sub_status_id ,, INT, id статусу документа (стан ланцюжка документів)
+12, sub_status_id ,, INT, id статусу документа (`детальніше <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__); характеризує стан ланцюжка документів 
 13, action ,, VARCHAR, статус документа за здійсненими діями користувача
 14, buyer_uuid ,, VARCHAR, відправник документа
 15, consignee_uuid ,, VARCHAR, вантажоодержувач
