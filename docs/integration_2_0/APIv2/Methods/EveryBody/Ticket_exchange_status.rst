@@ -6,7 +6,7 @@
 
 .. csv-table:: 
   :file: for_csv/COMDOC_exchange_status.csv
-  :widths:  1, 19, 5, 20, 20
+  :widths:  7, 19, 5, 20, 20
   :header-rows: 1
   :stub-columns: 0
 
