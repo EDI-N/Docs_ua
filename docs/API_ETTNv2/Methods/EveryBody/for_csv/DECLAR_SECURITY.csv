@@ -1,5 +1,5 @@
 Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
-.. _DECLAR_SECURITY:,О, Об'єкт **DECLAR_SECURITY**,
+.. _DECLAR_SECURITY:,Н, Об'єкт **DECLAR_SECURITY**,"Якщо використовується, то обов'язково містить параметри"
 FIRST_NAME,О,String,Ім'я особи
 LAST_NAME,О,String,Прізвище особи
 FATHERS_NAME,О,String,По батькові особи
