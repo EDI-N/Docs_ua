@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _XNoveltyTrade: , Об'єкт **XNoveltyTrade** ,
+national1,String,Національна мережа №1
+national2,String,Національна мережа №2
+regional1,String,Регіональна мережа №1
+regional2,String,Регіональна мережа №2
