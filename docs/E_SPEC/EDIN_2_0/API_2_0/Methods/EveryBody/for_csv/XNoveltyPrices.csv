@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _XNoveltyPrices: , Об'єкт **XNoveltyPrices** ,
+unit_price,String,Ціна за одиницю
+weight_price,String,Ціна за кг
+volume_price,String,Ціна за літр
+profitability,String,Націнка (%); може мати від'ємне значення

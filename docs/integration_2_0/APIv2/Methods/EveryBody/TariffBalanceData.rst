@@ -585,7 +585,7 @@
           "onlyOneTariffByMonth": false,
           "extraTariff": false,
           "billingCountType": 0,
-          "shortName": "tuning_1с",
+          "shortName": "tuning_1С | BAS",
           "tariffs": [
             {
               "id": 3976,
@@ -622,7 +622,7 @@
         },
         {
           "id": 34,
-          "name": "Підтримка, доопрацювання та налаштування 1С|BAS",
+          "name": "Підтримка, доопрацювання та налаштування 1С | BAS|BAS",
           "type": 1,
           "period": 6,
           "multiplier": true,
@@ -635,7 +635,7 @@
           "tariffs": [
             {
               "id": 3952,
-              "name": "Підтримка, доопрацювання та налаштування 1С|BAS",
+              "name": "Підтримка, доопрацювання та налаштування 1С | BAS|BAS",
               "price": 29.0,
               "priceWithoutVAT": 0.0,
               "limit": 0,
