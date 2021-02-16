@@ -2,7 +2,12 @@
 .. _XNovelty: , Об'єкт **XNovelty** ,
 novelty_id,long,id комерційної пропозиції
 novelty_uuid,UUID,uuid комерційної пропозиції
-status,int,Статус комерційної пропозиції
+status,int,"Статус комерційної пропозиції
+
+* 0 - Чернетка
+* 1 - Узгодження
+* 2 - Прийнято
+* 3 - Відхилено"
 date_created,long,Дата створення (UNIX TimeStamp)
 date_changed,long,Дата останніх змін (UNIX TimeStamp)
 supplier,String,GLN Постачальника
