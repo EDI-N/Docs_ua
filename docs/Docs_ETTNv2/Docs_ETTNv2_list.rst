@@ -18,6 +18,18 @@
    BookingConfirmationPage_v2
    COMPLETIONpage_v2
    AcceptancePage_v2
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт розбіжностей до ТТН
+   
+   DISAGREEMENT_ORIGINATOR_SIGNEDPage
+   DISAGREEMENT_TRANSPORTER_SIGNEDPage
+   DISAGREEMENT_CONSIGNOR_SIGNEDPage
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт перевантаження
+   
    RELOAD_ACT_ORIGINATOR_SIGNEDPage_v2
    RELOAD_ACT_TRANSPORTER_SIGNEDPage_v2
-   
