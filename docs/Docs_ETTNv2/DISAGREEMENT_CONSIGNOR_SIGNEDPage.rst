@@ -66,4 +66,12 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 9 - Опис параметрів об'єкта **TRANSPORTER_BODY_C**
+
+.. csv-table:: 
+  :file: for_csv/DISAGREEMENT/TRANSPORTER_BODY_C.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
 :download:`Приклад Акту розбіжностей(3)<examples/DISAGREEMENT_act-originator_signed.xml>`

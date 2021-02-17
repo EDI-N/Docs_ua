@@ -17,7 +17,7 @@
 Таблиця 1 - Опис параметрів об'єкта **DECLARBODY**
 
 .. csv-table:: 
-  :file: for_csv/DECLARBODY_REQUEST.csv
+  :file: for_csv/DECLARBODY_RELOAD_ACT_REQUEST.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
