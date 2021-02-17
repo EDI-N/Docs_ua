@@ -1,0 +1,6 @@
+Параметр,Обов'язкове / необов'язкове поле, Формат, Опис
+.. _CONSIGNOR_SIGN_ENVELOPE:,, Об'єкт **CONSIGNOR_SIGN_ENVELOPE**,
+STATE,О,«CONSIGNOR_SIGNED»,"стан документу «підписано Вантажоотримувачем»"
+ENVELOPE,О,TRANSPORTER_SIGN_ENVELOPE_,об'єкт; обгортка документа Перевізника
+**SIGNATURE**,О,SIGNATURE_,об'єкт; підписи
+**DECLARBODY**,О,TRANSPORTER_BODY_,об'єкт; зміст документа

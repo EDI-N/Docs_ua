@@ -1,0 +1,8 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _SIGNATURE:,О, Об'єкт **SIGNATURE**,
+OWNER,О,"«ORIGINATOR_SIGNED» / «CONSIGNOR_SIGNED» / «TRANSPORTER_SIGNED»","власник підпису:
+
+* ORIGINATOR_SIGNED - Вантажоотримувач
+* CONSIGNOR_SIGNED - Вантажовідправник
+* TRANSPORTER_SIGNED - Перевізник"
+SIGN,О,String,тіло підпису в base64

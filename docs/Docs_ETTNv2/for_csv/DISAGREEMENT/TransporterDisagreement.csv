@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / необов'язкове поле, Формат, Опис
+.. _TransporterDisagreement:,, Об'єкт **TransporterDisagreement**,
+ENVELOPE,О,CONSIGNOR_SIGN_ENVELOPE_,об'єкт; обгортка документа Перевізника
+**SIGNATURE**,О,SIGNATURE_,об'єкт; підписи
