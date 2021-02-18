@@ -50,4 +50,4 @@
   :header-rows: 1
   :stub-columns: 0
 
-:download:`Приклад Акту розбіжностей(1)<examples/DISAGREEMENT_act-originator_signed.xml>`
+:download:`Приклад Акту розбіжностей(1)<examples/disagreement_act-originator_signed.xml>`
