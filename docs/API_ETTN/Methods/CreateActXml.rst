@@ -27,10 +27,10 @@
 :green:`для "Акта перевантаження":`
 
 * для подальшої операції підписання `Перевізником, що здає вантаж <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/RELOAD_ACT_ORIGINATOR_SIGNEDPage_v2.html>`__;
-* для подальшої операції підписання `Перевізником, що приймає вантаж <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/RELOAD_ACT_TRANSPORTER_SIGNEDPage_v2.html>`__;
+* для подальшої операції підписання `Перевізником, що приймає вантаж <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/RELOAD_ACT_TRANSPORTER_SIGNEDPage_v2.html>`__.
 
 :green:`для "Акта розбіжностей до ТТН":`
 
 * для подальшої операції підписання `Вантажоотримувачем <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_ORIGINATOR_SIGNEDPage.html>`__;
 * для подальшої операції підписання `Перевізником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_TRANSPORTER_SIGNEDPage.html>`__;
-* * для подальшої операції підписання `Вантажовідправником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_ORIGINATOR_SIGNEDPage.html>`__;
+* для подальшої операції підписання `Вантажовідправником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_ORIGINATOR_SIGNEDPage.html>`__.
