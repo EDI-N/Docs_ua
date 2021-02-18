@@ -4,5 +4,5 @@
 .. raw:: html
 
     <embed>
-      <iframe align="middle" frameborder="1" height="907px" id="ID" scrolling="auto" src="https://wiki-df.edin.ua/uk/latest/_static/ЛІЦЕНЗІЯ ІНТЕГРАЦІЙНИЙ МОДУЛЬ EDI-NETWORK.pdf" style="border:1px solid #666CCC" title="PDF" width="99.5%"></iframe>
+      <iframe align="middle" frameborder="1" height="907px" id="ID" scrolling="auto" src="https://wiki-df.edin.ua/uk/latest/_static/files/Licenses/Integration_Module_EDI_NETWORK_license.pdf" style="border:1px solid #666CCC" title="PDF" width="99.5%"></iframe>
     </embed>
