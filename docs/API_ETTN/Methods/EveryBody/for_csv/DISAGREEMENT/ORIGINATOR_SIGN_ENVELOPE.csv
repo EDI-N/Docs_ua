@@ -1,0 +1,5 @@
+Назва поля,Тип [1]_,Формат,Опис
+.. _ORIGINATOR_SIGN_ENVELOPE:,, Об'єкт **ORIGINATOR_SIGN_ENVELOPE**,
+STATE,M,«ORIGINATOR_SIGNED»,"стан документу «підписано Вантажоотримувачем»"
+**DECLARHEAD**,M,HEAD_,об'єкт; складовий номер документа
+**DECLARBODY**,M,DBODY_,об'єкт; зміст документа
