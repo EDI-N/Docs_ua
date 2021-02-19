@@ -2,76 +2,19 @@
 **"Акт розбіжностей" - Підписано Вантажовідправником**
 ##########################################################################################################################
 
-Таблиця 1 - Опис параметрів об'єкта **ConsignorDisagreement**
-
 .. csv-table:: 
-  :file: for_csv/DISAGREEMENT/ConsignorDisagreement.csv
-  :widths:  1, 5, 12, 41
+  :file: for_csv/DISAGREEMENT/ConsignorDisagreementTempName.csv
+  :widths:  20, 11, 29, 37
   :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 2 - Опис параметрів об'єкта **TRANSPORTER_SIGN_ENVELOPE**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/TRANSPORTER_SIGN_ENVELOPE.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 3 - Опис параметрів об'єкта **SIGNATURE**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/SIGNATURE.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 4 - Опис параметрів об'єкта **TRANSPORTER_BODY**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/TRANSPORTER_BODY.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 5 - Опис параметрів об'єкта **ORIGINATOR_SIGN_ENVELOPE**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/ORIGINATOR_SIGN_ENVELOPE.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 6 - Опис параметрів об'єкта **HEAD**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/HEAD.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 7 - Опис параметрів об'єкта **DBODY**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/DBODY.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 8 - Опис параметрів об'єкта **RXXType**
-
-.. csv-table:: 
-  :file: for_csv/ETTN/RXXType.csv
-  :widths:  1, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
-
-Таблиця 9 - Опис параметрів об'єкта **TRANSPORTER_BODY_C**
-
-.. csv-table:: 
-  :file: for_csv/DISAGREEMENT/TRANSPORTER_BODY_C.csv
-  :widths:  1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
 
 :download:`Приклад Акту розбіжностей(3)<examples/disagreement_act-consignor_signed.xml>`
+
+-------------------------
+
+.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+
+   * M (mandatory) — обов'язкові до заповнення поля;
+   * O (optional) — необов'язкові (опціональні) до заповнення поля.
+
+-------------------------
+

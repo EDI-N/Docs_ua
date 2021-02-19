@@ -1,6 +1,0 @@
-Параметр,Обов'язкове / необов'язкове поле, Формат, Опис
-.. _ORIGINATOR_SIGN_ENVELOPE:,, Об'єкт **ORIGINATOR_SIGN_ENVELOPE**,
-STATE,О,«ORIGINATOR_SIGNED»,"стан документу «підписано Вантажоотримувачем»"
-**DECLARHEAD**,О,HEAD_,об'єкт; складовий номер документа
-**DECLARBODY**,О,DBODY_,об'єкт; зміст документа
-**SIGNATURE**,О,SIGNATURE_,об'єкт; підписи
