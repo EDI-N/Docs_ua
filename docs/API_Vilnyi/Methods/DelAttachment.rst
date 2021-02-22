@@ -1,14 +1,14 @@
 ######################################################################
-**Отримати документ**
+**Видалити файл-вкладення (чернетка)**
 ######################################################################
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
-  :file: GetDocument.csv
+  :file: DelAttachment.csv
   :widths:  10, 41
   :stub-columns: 0
 
 **RESPONSE**
 
-В тілі **відповіді** (json) передаються `дані документа <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/XDocPage.html>`__.
+Код сервера 200 (ok).
