@@ -17,28 +17,58 @@
 	      }
 	    }
 	  },
-	  "attachments": [],
-	  "comments": [],
-	  "doc_id": 829,
-	  "doc_uuid": "e64a304b-b0c0-454b-a361-5dc5d6987952",
-	  "uuidSender": "0855e1ce-46ed-4995-83b6-356127b95226",
-	  "uuidReceiver": "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
-	  "uuidReceivers": [
-	    "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
-	    "c2394341-85f0-4b8c-8ea9-ff8d3c6c119c"
+	  "attachments": [
+	    {
+	      "id": 247,
+	      "docUUID": "a4ab5f49-9f5b-4a05-ae61-825b76ef3e4a",
+	      "attachmentUUID": "66c673fe-4beb-48e1-94bc-16bbae74ead6",
+	      "fileName": "21-Speed-Front-Suspension-MTB-Snow-Beach-Bike-Fat-Bike.jpg",
+	      "createDate": 1613753224,
+	      "type": "image/jpeg",
+	      "signs": [],
+	      "signHash": "EQt6XqKdKdTsjH1e+zgHOyi6FwFohC/jS5XyBgYN4k8="
+	    },
+	    {
+	      "id": 249,
+	      "docUUID": "a4ab5f49-9f5b-4a05-ae61-825b76ef3e4a",
+	      "attachmentUUID": "37280d06-c85e-42bc-aa97-670950d1739f",
+	      "fileName": "1613469397472.png",
+	      "createDate": 1613754039,
+	      "type": "image/png",
+	      "signs": [],
+	      "signHash": "6zcK6RDHUxAV3icq6p0uMHmGfA1DYhfKZz053tw75+Y="
+	    },
+	    {
+	      "id": 250,
+	      "docUUID": "a4ab5f49-9f5b-4a05-ae61-825b76ef3e4a",
+	      "attachmentUUID": "14904c6b-a83d-4e08-9bbf-5427d1d015f0",
+	      "fileName": "8cb20e57bcf705981d4605d6af413a91.png",
+	      "createDate": 1613754581,
+	      "type": "image/png",
+	      "signs": [],
+	      "signHash": "B5qPxPAju4pZ3x9blBo+NQVFRv8TU/5rxkwAWnhAyPw="
+	    }
 	  ],
-	  "docNumber": "Пибип0",
-	  "dateCreated": 1589960680,
-	  "dateChanged": 1589960680,
+	  "comments": [],
+	  "doc_id": 125,
+	  "doc_uuid": "a4ab5f49-9f5b-4a05-ae61-825b76ef3e4a",
+	  "uuidSender": "7c30a623-b84f-44d1-bda1-fdcc5f8be3d7",
+	  "uuidReceiver": "831714cf-064b-4ce9-bdc4-b6a79784639c",
+	  "uuidReceivers": [
+	    "831714cf-064b-4ce9-bdc4-b6a79784639c"
+	  ],
+	  "docNumber": "1613753224",
+	  "dateCreated": 1613753224,
+	  "dateChanged": 1613754581,
 	  "dateRead": 0,
-	  "docDate": 1587513600,
+	  "docDate": 1613753224,
 	  "chain_id": 0,
-	  "family": 7,
-	  "hash": "65CC9A9F335B5AE07D9E3CD47C55063C",
+	  "family": 9,
+	  "hash": "D6387945D930C872219A5BA48FD50849",
 	  "type": {
-	    "type": 109,
-	    "title": "ettn",
-	    "description": "ЕТТН"
+	    "type": 122,
+	    "title": "simple_doc",
+	    "description": "simple_doc"
 	  },
 	  "status": {
 	    "status": 1,
@@ -47,33 +77,18 @@
 	  "exchange_status": "000000000000000000000000",
 	  "is_archive": false,
 	  "extraFields": {
-	    "sub_status_date": "1587548202",
-	    "carrier_b_uuid": "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
-	    "doc_num": "Пибип0",
-	    "car_number": "BB1234BB",
-	    "doc_date": "1587513600",
-	    "consignor_b_uuid": "0855e1ce-46ed-4995-83b6-356127b95226",
-	    "customer_b_uuid": "0855e1ce-46ed-4995-83b6-356127b95226",
-	    "driver_b_uuid": "09f4c632-5c37-45ac-a68a-0acfdc157194",
-	    "gross_weight": "1.0",
-	    "consignee_b_uuid": "c2394341-85f0-4b8c-8ea9-ff8d3c6c119c"
+	    "doc_title": "rock&roll123",
+	    "action": "0"
 	  },
 	  "tags": [],
 	  "statuses": [],
-	  "multiExtraFields": {
-	    "ettn_delivery_koatuu": [
-	      "1413566500"
-	    ],
-	    "ettn_dispatch_koatuu": [
-	      "8000000000"
-	    ]
-	  }
+	  "multiExtraFields": {}
 	}
 
 Таблиця 1 - Опис параметрів об'єкта **XDoc**
 
 .. csv-table:: 
-  :file: for_csv/XDoc.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDoc.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -81,7 +96,7 @@
 Таблиця 2 - Опис параметрів об'єкта **XDocStatus**
 
 .. csv-table:: 
-  :file: for_csv/XDocStatus.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocStatus.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -89,7 +104,7 @@
 Таблиця 3 - Опис параметрів об'єкта **XTag**
 
 .. csv-table:: 
-  :file: for_csv/XTag.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XTag.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -97,7 +112,7 @@
 Таблиця 4 - Опис параметрів об'єкта **XStatus**
 
 .. csv-table:: 
-  :file: for_csv/XStatus.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XStatus.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -105,7 +120,7 @@
 Таблиця 5 - Опис параметрів об'єкта **XDocSignInfo**
 
 .. csv-table:: 
-  :file: for_csv/XDocSignInfo.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocSignInfo.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -113,7 +128,7 @@
 Таблиця 6 - Опис параметрів об'єкта **XDocCommentsList**
 
 .. csv-table:: 
-  :file: for_csv/XDocCommentsList.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocCommentsList.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -121,7 +136,7 @@
 Таблиця 7 - Опис параметрів об'єкта **XDocComment**
 
 .. csv-table:: 
-  :file: for_csv/XDocComment.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocComment.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -129,7 +144,7 @@
 Таблиця 8 - Опис параметрів об'єкта **XDocAttachment**
 
 .. csv-table:: 
-  :file: for_csv/XDocAttachment.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocAttachment.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -137,7 +152,7 @@
 Таблиця 9 - Опис параметрів об'єкта **XDocBodyForms**
 
 .. csv-table:: 
-  :file: for_csv/XDocBodyForms.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocBodyForms.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -145,7 +160,7 @@
 Таблиця 10 - Опис параметрів об'єкта **XDocBody**
 
 .. csv-table:: 
-  :file: for_csv/XDocBody.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocBody.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -153,7 +168,7 @@
 Таблиця 11 - Опис параметрів об'єкта **XDocBodyType**
 
 .. csv-table:: 
-  :file: for_csv/XDocBodyType.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocBodyType.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -163,7 +178,7 @@
 Таблиця 12 - Опис **DocStatus** параметрів (об'єкт XDocStatus_)
 
 .. csv-table:: 
-  :file: for_csv/xdocstatus_p.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/xdocstatus_p.csv
   :widths:  1, 60
   :header-rows: 1
   :stub-columns: 0
@@ -171,7 +186,7 @@
 Таблиця 13 - Опис параметрів об'єкта **XDocType**
 
 .. csv-table:: 
-  :file: for_csv/XDocType.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocType.csv
   :widths:  1, 5, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -181,7 +196,7 @@
 Таблиця 14 - Опис **DocType** параметрів (объект XDocType_)
 
 .. csv-table:: 
-  :file: for_csv/xdoctype_p.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/xdoctype_p.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -189,11 +204,7 @@
 Таблиця 15 - Опис параметрів об'єкта **XDocAttachmentSign**
 
 .. csv-table:: 
-  :file: for_csv/XDocAttachmentSign.csv
+  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocAttachmentSign.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
-
-
-
-

@@ -1,7 +1,7 @@
 Параметр,Формат,Опис
 .. _XDoc: ,**Об'єкт XDoc** ,
 body,XDocBodyForms_ ,об'єкт; тіла документів
-attachments,List<XDocAttachment_>,масив об'єктів; вкладення (може не використовуватися)
+attachments,List<XDocAttachment_>,масив об'єктів; вкладення (може не використовуватись)
 comments,XDocCommentsList_ ,об'єкт (в якому масив об'єктів); список коментарів
 doc_id,long,id документа
 doc_uuid,UUID,унікальний ідентифікатор документа/квитанції

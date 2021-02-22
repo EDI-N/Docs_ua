@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+receivers,M,List<String>,масив з UUID-ами отримувачів документа
+title,M,String,тема документа
+text,O,String,текст повідомлення
+date,O,String,дата документа

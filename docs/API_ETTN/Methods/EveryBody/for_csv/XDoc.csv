@@ -7,6 +7,7 @@ doc_id,long,id документа
 doc_uuid,UUID,унікальний ідентифікатор документа/квитанції
 uuidSender,String,унікальний ідентифікатор відправника
 uuidReceiver,String,унікальний ідентифікатор одержувача
+uuidReceivers,List<String>,масив унікальних ідентифікаторів одержувачів
 docNumber,String,номер документа
 dateCreated,long,дата створення документа (unix timestamp)
 dateChanged,long,дата останньої зміни документа (unix timestamp)
