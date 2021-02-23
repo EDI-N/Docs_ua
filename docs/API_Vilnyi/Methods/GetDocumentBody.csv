@@ -3,14 +3,11 @@
 URL запиту    , **/api/sd/eds/doc/body?doc_uuid=aa0c929d-f7b3-437a-aa55-edf61ea11805&body_type=json**
 URL параметри ,"**doc_uuid** (обов'язково) UUID - ідентифікатор документа
 
-**body_type** (опціонально) String - тип тіла документа; можливі значення:
+**response_type** (опціонально) String - формат очікуваної відповіді; можливі варіанти:
 
-- content - base64 контенту без підписів/печаток; 
-- json - json документа;     
-- sign - base64 тіло підпису;                    
-- stamp - base64 тіло печатки;                     
-- crypted - шифровані вихідні дані;
-- positions - товарні позиції"
+- **bytes** (за замовчуванням)
+- **file**
+- **base64**"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
 Content-Type  , application/json
