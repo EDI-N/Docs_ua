@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** (json) передаються список uuid-ів Відправника (перший uuid) і Отримувачів (наступні uuid) документа з `даними підписантів <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/GetSignResponse.html>`__ відповідно.
+В тілі **відповіді** (json) передається список uuid-ів Відправника і Отримувачів документа з масивами `даних про підписи <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/GetSignResponse.html>`__ для кожного uuid відповідно.

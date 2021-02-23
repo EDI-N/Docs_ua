@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається документ (zip-архів).
+В тілі **відповіді** передається документ (zip-архів). Детальніше про `завантаження <https://wiki.edin.ua/uk/latest/Vilnyi/Work_with_Vilnyi.html#mass-download>`__. 
