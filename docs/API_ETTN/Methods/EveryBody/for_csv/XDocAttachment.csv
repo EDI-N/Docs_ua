@@ -8,5 +8,5 @@ createDate,long,дата створення вкладення; формат uni
 type,String,тип вкладення
 base64content,String,зміст вкладення в BASE64
 content,transient byte[],байтовий масив контенту
-signs,List<XDocAttachmentSign_>,масив об'єктів; підписи вкладень (документів)
+signs,List<XDocAttachmentSign_>,масив об'єктів; підписи вкладень (файлів)
 signHash,String,хеш підпису

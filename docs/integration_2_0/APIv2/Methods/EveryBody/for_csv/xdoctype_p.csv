@@ -36,5 +36,6 @@
 119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__
 120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#contrl>`__
 121,ttn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+122,simple_doc,Документ сервісу «Вільний»
 123,reload,`Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
 124,disagreement,Акт розбіжностей
