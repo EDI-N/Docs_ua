@@ -123,7 +123,7 @@
 Таблиця 1 - Опис параметрів об'єкта **ExEndUserSignInfo**
 
 .. csv-table:: 
-  :file: ../../../integration_2_0/Methods/EveryBody/for_csv/ExEndUserSignInfo.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/ExEndUserSignInfo.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -131,7 +131,7 @@
 Таблиця 2 - Опис параметрів об'єкта **EndUserOwnerInfo**
 
 .. csv-table:: 
-  :file: ../../../integration_2_0/Methods/EveryBody/for_csv/EndUserOwnerInfo.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/EndUserOwnerInfo.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -139,7 +139,7 @@
 Таблиця 3 - Опис параметрів об'єкта **ExEndUserTimeInfo**
 
 .. csv-table:: 
-  :file: ../../../integration_2_0/Methods/EveryBody/for_csv/ExEndUserTimeInfo.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/ExEndUserTimeInfo.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
