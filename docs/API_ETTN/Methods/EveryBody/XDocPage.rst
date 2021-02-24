@@ -194,6 +194,24 @@
   :header-rows: 1
   :stub-columns: 0
 
+.. _fieldName:
 
+Таблиця 16 - Опис полей екстрапараметрів
+
+.. csv-table:: 
+  :file: for_csv/extra_fields.csv
+  :widths:  1, 2, 7, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+.. _опис_підтипів:
+
+Таблиця 17 - Опис підтипів COMDOC
+
+.. csv-table:: 
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/sub_doc_type_id.csv
+  :widths:  1, 7
+  :header-rows: 1
+  :stub-columns: 0
 
 
