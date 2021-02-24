@@ -63,8 +63,8 @@ EDIN | Електронний документообіг для бізнесу
    API_Tender/API_Tender_list
 
 .. toctree::
-   :maxdepth: 2
    :caption: ВІЛЬНИЙ
+   :titlesonly:
 
    Vilnyi/Work_with_Vilnyi
    API_Vilnyi/API_Vilnyi_list
