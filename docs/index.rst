@@ -67,6 +67,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: ВІЛЬНИЙ
 
    Vilnyi/Work_with_Vilnyi
+   API_Vilnyi/API_Vilnyi_list
 
 .. toctree::
    :maxdepth: 2
