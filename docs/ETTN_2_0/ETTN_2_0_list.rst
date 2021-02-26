@@ -16,5 +16,6 @@
    Work_with_acceptance_certificate
    Create_discrepancy_act_new
    Create_reload_act
+   Create_disagreement_act
    
 .. Create_act_overload - временно закоментировали
