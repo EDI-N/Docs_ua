@@ -64,3 +64,7 @@ id параметра, Найменування параметра,Обов'яз
 88, basis_doc_subtype, , INT, підтип документа-підстави
 89, basis_doc_number,	, INT, номер документа-підстави
 90, basis_doc_date, , INT, дата документа-підстави
+, summ_without_tax, , INT, сума без ПДВ
+, tax_summ, , INT, сума ПДВ
+, summ, , INT, сума з ПДВ
+137, branch_uuid,, VARCHAR, uuid «гілки поставки» (АТБ COMDOC+DESADV)
