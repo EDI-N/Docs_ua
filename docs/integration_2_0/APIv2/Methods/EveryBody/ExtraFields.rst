@@ -36,7 +36,7 @@
 
 .. csv-table:: 
   :file: for_csv/extra_fields.csv
-  :widths:  1, 2, 12, 41, 15
+  :widths:  1, 2, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
 
