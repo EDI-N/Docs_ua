@@ -38,4 +38,11 @@
 121,ttn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
 122,simple_doc,Документ сервісу «Вільний»
 123,reload,`Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
-124,disagreement,Акт розбіжностей
+124,disagreement,`Акт розбіжностей до е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+125,adjustment,Акт корегування
+126,warehouse_change,Акт зміни пункту призначення
+127,unload_storage,Акт розвантаження на проміжному складі
+128,load_storage,Акт завантаження на проміжному складі
+129,ettn_stop,Акт примусового завершення ТТН
+130,resealing,Акт переопломбування
+131,load_reject,Акт відмови завантаження
