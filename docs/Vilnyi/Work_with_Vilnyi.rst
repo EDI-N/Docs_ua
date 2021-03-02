@@ -29,6 +29,12 @@
 
 .. |save| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_50.png
 
+.. |yellow_tag| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_58.png
+
+.. |red_tag| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_59.png
+
+.. |green_tag| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_57.png
+
 .. |del_key| image:: signing/del_key2.png
 
 .. contents:: Зміст:
@@ -237,8 +243,15 @@
 
 .. Відправлений документ можливо лише **"Переслати"** - функціонал поки в розробці 
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_19n.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_56.png
    :align: center
+
+.. note::
+   Надіслані документи мають мітки (з підказками при наведенні курсора):
+
+   * |yellow_tag| - "Частково доставлено" (серед отримувачів є зареєстровані і незареєстровані користувачі)
+   * |green_tag| - "Доставлено" (всі отримувачі зареєстровані на платформі)
+   * |red_tag| - "Очікуємо реєстрації отримувача" (всі отримувачі - незареєстровані користувачі)
 
 Також при відправці документа, на вказаний e-mail **"Отримувача"** відправляється лист:
 
