@@ -70,10 +70,10 @@
 	<!--  Id елемента, в який буде вбудовано компонент сервісу "Вільний"  -->
 	<div id="inter-doc-container"></div>
 	<!--  Підключаємо бібліотеку  -->
-	<script src="interdoc.js"></script>
+	<script src="https://edo-v2.edi-n.com/vilnyi.js"></script>
 	<!-- Ініціалізація -->
 	<script>
-	    interdoc.init({
+	    vilnyi.init({
 	        container: "inter-doc-container", /* Посилання на HTML елемент куди буде вбудовано код платформи (сервіс "Вільний") */
 	        session_id: "b1499776-8f00-4d94-8521-15020410c9e3", /* Ідентифікатор сесії на стороні клієнта, який був отриманий запитом POST, "/api/sd/session" */
 	    });
