@@ -74,7 +74,6 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Особистий кабінет
 
    Personal_Cabinet/PCInstruction
-   Personal_Cabinet/New_balance_tariff
 
 .. toctree::
    :maxdepth: 2
