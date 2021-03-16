@@ -154,6 +154,11 @@
 .. image:: pics_New_balance_tariff/New_balance_tariff_18.png
    :align: center
 
+По кліку мишкою на використані транзакції здійснюється перехід до вкладки `"Білінг" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#billing>`__:
+
+.. image:: pics_New_balance_tariff/New_balance_tariff_27.png
+   :align: center
+
 **3.1 Докупити тарифний пакет**
 ------------------------------------------------
 
