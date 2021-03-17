@@ -1,21 +1,18 @@
+.. не використовується для інтегрованих користувачів + body_type = uzdresponse - лише для доків, що не використовуються в UA 
 .. deprecated (not for integrated users - web only) Ok, this is an exception for CONDRA (temporary) - delete when another api will be ready
 
 ######################################################################
-**Створення чернетки документа (для CONDRA)**
+**Підписання файла (для CONDRA)**
 ######################################################################
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 .. csv-table:: 
-  :file: CreateDocument.csv
+  :file: SignCondraBody.csv
   :widths:  10, 41
   :stub-columns: 0
 
 **RESPONSE**
 
-В тілі **відповіді** в текстовому вигляді передається **doc_uuid** - унікальний ідентифікатор документа: 
-
-.. code:: json
-
-  e64a304b-b0c0-454b-a361-5dc5d6987952
+Код сервера 200 (ok).
 
