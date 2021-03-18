@@ -474,6 +474,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад IFTMIN<examples/IFTMIN_example.xml>`
+
 ---------
 
 Повідомлення про повернення (RETANN)
