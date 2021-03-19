@@ -80,7 +80,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Юридична інформація
 
    Legal_info/Rules
-   Legal_info/Oferts_list
+   Legal_info/Oferta
    Legal_info/KP
    Legal_info/Politic
    Legal_info/Licenses/Licenses_list
