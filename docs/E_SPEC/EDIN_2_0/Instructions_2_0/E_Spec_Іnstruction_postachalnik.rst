@@ -372,13 +372,19 @@
 
 .. початок блоку для Commercial_offers
 
-Розділ **"Комерційні пропозиції"** доступний на стороні **Покупця** (мережі) та **Постачальника**.
+Сервіс **"Комерційні пропозиції"** доступний на стороні **Покупця** (мережі) та **Постачальника**.
 
-Статуси: "Чернетка" -> :blue:`"Узгодження"` -> :green:`"Прийнято"`/ :red:`"Відхилено"`
+Для початку роботи серед доступних сервісів потрібно вибрати **"Комерційні пропозиції"**:
+
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_60.png
+   :align: center
+
+.. hint::
+   Шляг зміни статусів пропозицій: "Чернетка" -> :blue:`"Узгодження"` -> :green:`"Прийнято"`/ :red:`"Відхилено"`
 
 Для роботи з пропозиціями **Постачальнику** потрібно обрати Мережу:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_48.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_61.png
    :align: center
 
 Після чого відкриється журнал комерційних пропозицій, окрім перегляду пропозицій (перехід через **"Найменування"** пропозиції) передбачене:
