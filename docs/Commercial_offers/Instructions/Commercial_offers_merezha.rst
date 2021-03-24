@@ -33,25 +33,30 @@
 
 1
 
-.. image:: /pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
    :align: center
 
 2
 
-.. image:: /../../pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+.. image:: /../../E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
    :align: center
 
 3
 
-.. image:: ../../../pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+.. image:: ../../../E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
    :align: center
 
 4
 
-.. image:: ../pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+.. image:: ../E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
    :align: center
 
 5
 
-.. image:: ../../pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+.. image:: ../../E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+   :align: center
+
+6
+
+.. image:: /../E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
    :align: center
