@@ -79,5 +79,11 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 5 - Опис параметрів
 
+.. csv-table:: 
+  :file: for_csv/XNoveltyComment.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
