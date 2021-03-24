@@ -9,13 +9,13 @@
 
 .. |del_key| image:: signing/del_key2.png
 
-.. |важливий| image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_25.png
+.. |важливий| image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_25.png
 
-.. |неважливий| image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_24.png
+.. |неважливий| image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_24.png
 
-.. |чат| image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_27.png
+.. |чат| image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_27.png
 
-.. |скріпка| image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_26.png
+.. |скріпка| image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_26.png
 
 .. role:: red
 
@@ -58,12 +58,12 @@
 
 Для початку роботи з сервісом необхідно виконати вхід в систему за допомогою наданих логіна і пароля. Далі серед доступних сервісів обрати **Е-СПЕЦИФІКАЦІЯ**:
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_53.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_53.png
    :align: center
 
 Основне вікно сервісу **Е-СПЕЦИФІКАЦІЯ** містить:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_15.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_15.png
    :align: center
 
 1. Розділ для роботи з документами (узгодження цін, комерційні пропозиції);
@@ -81,12 +81,12 @@
 
 Після того як по FTP буде вивантажено товарний довідник (контракт, специфікацію) у розділі **ДОВІДНИКИ** у вкладці **Специфікація** відобразиться перелік **Постачальників** та діючих специфікацій з ними. Усі специфікації зручно згруповані по назві **Постачальника**. Потрібно обрати **Постачальника** та **"Перейти"** в одну з актуальних специфікацій:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_01.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_01.png
    :align: center
 
 Після переходу відкривається детальна форма довідника з пропозиціями. Можливо відфільтрувати позиції за назвою, штрих-кодом чи артикулом та **"Скачати специфікацію"**:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_02.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_02.png
    :align: center
 
 4 Робота з документами 
@@ -94,7 +94,7 @@
 
 Для зручної роботи розділ **"ДОКУМЕНТИ"** має 3 вкладки для роботи з узгодженнями:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_16.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_16.png
    :align: center
 
 * **Узгодження цін** - містить весь список Товарних узгодженнь, тобто створених документів-пропозицій щодо зміни цін.
@@ -121,7 +121,7 @@
 .. hint::
    Додатково для зручності в журналі документів можливо робити відмітки (іконки). Системними відмітками також позначаються документи, до яких додано коментар (|чат|) чи обгрунтування (|скріпка|):
 
-   .. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_55.png
+   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_55.png
       :align: center
 
 .. note::
@@ -132,7 +132,7 @@
 
 Нові узгодження, відправлені **Постачальником**, знаходяться у статусі **"На погодженні"**. При переході в документ (через номер документа) відкривається форма документа-пропозиції:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_03.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_03.png
    :align: center
 
 1. Функціонал для роботи з усім документом одразу.
@@ -165,7 +165,7 @@
 
 Після зміни статусу позицій для продовження узгодження потрібно "Прийняти" документ (система попереджає про невідхильність такої дії):
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_04.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_04.png
    :align: center
 
 Після підтвердження документ змінює статус на «**Готовий до підписання**» й відправляється на наступний етап - **"Підписання"**.
@@ -180,7 +180,7 @@
 
 У формі документа Вам необхідно перевірити ціни в кожній з позицій, вказати статус - "Прийнято" / "Відхилено", потім змінити загальний статус документа - "Погоджено" / "Відхилено". Після зміни статусу натисніть кнопку **Підписати**.
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_06.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_06.png
    :align: center
 
 Після ініціалізації бібліотеки підписання, система надасть можливість додати ключ для підписання. При :underline:`першому` підписанні у модальному вікні потрібно обрати файл чи токен (1), ввести пароль (2) та натиснути **"Считати"** (3) ключ для підписання:
@@ -211,21 +211,21 @@
 
 Після підписання узгодження інформація щодо підписанта відображається в блоці "Контрагенти". 
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_30.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_30.png
    :align: center
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_31.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_31.png
    :align: center
 
 Після успішного підписання, натисніть кнопку **Надіслати**. 
 Після підписання й відправки статус докумена міняється на **Підписання постачальником** й відображається один підпис - від мережі:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_09.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_09.png
    :align: center
 
 Вже після підписання **Постачальником**, статус узгодження зміниться на **Завершено** та з'явиться ще один підпис у блоці Контрагенти. Тепер обидві візуалізації ЕЦП зеленого кольору:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_10.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_10.png
    :align: center
 
 .. _promotion:
@@ -237,7 +237,7 @@
 
 Розділ **"Акції"** доступний в "ДОВІДНИКАХ" на стороні **Покупця** (мережі) та **Постачальника**. Представник мережі може редагувати (додавати/змінювати/видаляти позиції) основну таблицю розділу, а **Постачальнику** доступно лише переглядати інформацію по акціям.
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_11.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_11.png
    :align: center
 
 Список акцій можливо редагувати вручну чи шляхом вивантаження xls-файлу (кнопка **"Завантажити акції з Excel"** (2)) - для цього попередньо потрібно **"Завантажити шаблон Excel"** (1).
@@ -251,32 +251,32 @@
 
 Розділ **"Комерційні пропозиції"** доступний на стороні **Покупця** (мережі) та **Постачальника**. Якщо у **Покупця** (мережі) налаштовані повідомлення на ел. пошту, то він буде проінформований про новинки, навіть не заходячи до сервісу:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_19.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_19.png
    :align: center
 
 При переході в **"Комерційні пропозиції"** відкривається журнал з пропозиціями. **Постачальники** відправляють позиції на узгодження, а представник Мережі проводить їх узгодження: із загального списку обирає позиції в статусі :blue:`"Узгодження"` та прийняти рішення (масово **"Відхилити"** чи **"Прийняти"**) по обраним позиціям:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_18.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_18.png
    :align: center
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_13.png
    :align: center
 
 Також можливо детальніше ознайомитись з пропозицією (перехід через її найменування) і одразу **"Прийняти"** чи **"Відхилити"** ту позицію:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_14.gif
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_14.gif
    :align: center
 
 .. admonition:: Прийняття пропозиції:
 
    після натискання кнопки **"Прийняти"** (1) в модальному вікні можливо додати коментар (необов'язково) і підтвердити рішення (2):
 
-   .. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_20.png
+   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_20.png
       :align: center
 
    Після прийняття рішення статус позиції автоматично оновлюється з :blue:`"Узгодження"` -> на :green:`"Прийнято"` + може відображатись опціональний коментар для **Постачальника**, де також вказується користувач **Мережі**, дата/час рішення:
 
-   .. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_21.png
+   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_21.png
       :align: center
 
 ---------------------------------------------------------
@@ -285,12 +285,12 @@
 
    після натискання кнопки **"Відхилити"** (1) в модальному вікні потрібно необов'язково вказати причину (2) і підтвердити рішення (3):
 
-   .. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_22.png
+   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_22.png
       :align: center
 
    Після прийняття рішення статус позиції автоматично оновлюється з :blue:`"Узгодження"` -> на :red:`"Відхилено"`,відображається коментар (причина відхилення) для **Постачальника**, де також вказується користувач **Мережі**, дата/час рішення:
 
-   .. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_23.png
+   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_23.png
       :align: center
 
 .. attention::
@@ -311,30 +311,30 @@
 
 Рядок пошуку допомагає відфільтрувати документи в журналі, а всі доступні ключі пошуку детально описані в підказці:
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_33.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_33.png
    :align: center
 
 Можливо обрати ключ зі списку чи вводити ключ з клавіатури (при фільтруванні кількома ключами одночасно елементи пошуку повині бути розділені комою з пробілом). Після цього натисніть - **"Пошук"**:
 
-.. image:: pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_17.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_17.png
    :align: center
 
 Окремо винесені фільтри документів по даті (**"Сьогодні"**, **"Вчора"**), а останній введений пошук зберігається платформою автоматично і при натисканні кнопки **"Останній фільтр"** він виконується повторно в тій вкладці ("Узгодження цін" / "Важливі" / "Оброблені"), в якій він був виконаний останнього разу (Вас буде переадресовано):
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_35.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_35.png
    :align: center
 
 Також можливо перманентно **Зберегти** данні власного рядку пошуку, натиснувши на іконку дискети:
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_36.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_36.png
    :align: center
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_37.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_37.png
    :align: center
 
 Вилучити збережений пошук можна за допомогою хрестика:
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_38.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_38.png
    :align: center
 
 .. _attach:
@@ -344,7 +344,7 @@
 
 Лише для **Постачальника**, існує можливість додати обгрунтування зміни ціни або інші документи, які можуть прискорити погодження.
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_42.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_42.png
    :align: center
 
 Для скачування потрібно натиснути на назву документу. Документ що містить обгрунтування позначається в журналі документів символом |скріпка|.
@@ -356,7 +356,7 @@
 
 Під табличною частиною з позиціями після відправки документа з'являється блок для звязку контрагентів.
 
-.. image:: pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_43.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_43.png
    :align: center
 
 Документ що містить коментар позначається в журналі документів символом |чат|.
