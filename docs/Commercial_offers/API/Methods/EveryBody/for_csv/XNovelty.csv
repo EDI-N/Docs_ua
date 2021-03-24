@@ -1,0 +1,69 @@
+Параметр, Формат, Опис
+.. _XNovelty: , Об'єкт **XNovelty** ,
+novelty_id,long,id комерційної пропозиції
+novelty_uuid,UUID,uuid комерційної пропозиції
+status,int,"Статус комерційної пропозиції
+
+* 0 - Чернетка
+* 1 - Узгодження
+* 2 - Прийнято
+* 3 - Відхилено"
+date_created,long,Дата створення (UNIX TimeStamp)
+date_changed,long,Дата останніх змін (UNIX TimeStamp)
+supplier,String,GLN Постачальника
+retailer,String,GLN Мережі
+supplier_gln_id,long,GLN id Постачальника
+retailer_gln_id,long,GLN id Мережі
+retailer_id,long,id Мережі на платформі EDIN
+group_id,int,id групи товарів
+name,String,Найменування
+barcode,String,Штрихкод
+brand,String,Торгова марка
+producer_name,String,Виробник
+postponement,int,Відстрочка платежу (днів)
+unit_id,int,"Код одиниці виміру
+
+* 1 - г;
+* 2 - кг;
+* 3 - л;
+* 4 - м;
+* 5 - мм;
+* 6 - м2;
+* 7 - м3;
+* 8 - шт;
+* 9 - кор;
+* 10 - пач;
+* 11 - поддон;
+* 12 - упак;
+* 13 - штука дробная;
+* 14 - тыс. шт; 1000 шт;
+* 15 - бут;
+* 16 - рул;
+* 17 - услуга;
+* 20 - см;
+* 21 - грн;
+* 23 - ящ;
+* 25 - пар;
+* 31 - час;
+* 33 - пог.м;
+* 35 - компл;
+* 37 - т;
+* 38 - бл;
+* 39 - набор;
+* 41 - паков;
+* 43 - банк;
+* 45 - од"
+unit_weight,String,Вага одиниці виміру (кг)
+unit_volume,String,Обсяг/об'єм одиниці виміру (літр)
+tax_id,int,"Код ставки ПДВ
+
+* 5 - 20% 
+* 14 - 0.00% 
+* 24 - 7% 
+* 25 - 19%"
+prices,XNoveltyPrices_,об'єкт; ціни
+marketing,XNoveltyMarketing_,об'єкт; маркетинг
+trade,XNoveltyTrade_,об'єкт; торгівля
+listex_link,String,Посилання на Listex
+icon_link,String,Посилання на фото товару
+comments,XNoveltyComment_,об'єкт; коментарі

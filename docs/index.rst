@@ -35,6 +35,13 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: Комерційні пропозиції
+
+   Commercial_offers/API/C_O_API_list
+   Commercial_offers/Instructions/C_O_instructions_list
+
+.. toctree::
+   :maxdepth: 2
    :caption: Е-СПЕЦИФІКАЦІЯ
 
    E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
