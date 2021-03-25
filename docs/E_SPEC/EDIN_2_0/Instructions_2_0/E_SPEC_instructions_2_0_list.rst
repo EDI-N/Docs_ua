@@ -21,5 +21,4 @@
    :hidden:
    :glob:
 
-   Commercial_offers_list
    Promotions_list
