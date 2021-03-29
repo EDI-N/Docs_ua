@@ -185,7 +185,7 @@
 .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_021.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_016.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_015.png
    :align: center
 
 Для відхиленого **"Вантажовідправником"** "Акта виконаних робіт" присвоєно статус "Відхилено".
@@ -211,7 +211,7 @@
 
 Тож при формуванні "Акта виконаних робіт" на підставі "Підтвердження транспортування" при заданих налаштуваннях в створюваному акті виконується автоматичний розрахунок вартості перевезення (тариф за 1км/1т - обирається в "Заявці на транспортування"):
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_028.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_028.png
    :align: center
 
 -------------------------------------
