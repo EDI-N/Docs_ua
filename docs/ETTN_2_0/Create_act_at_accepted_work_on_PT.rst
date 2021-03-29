@@ -1,4 +1,4 @@
-"Акт виконаних робіт" на підставі ЕТТН (створення, підписання, відправлення та відхилення) 
+"Акт виконаних робіт" на підставі "Підтвердження транспортування" (створення, підписання, відправлення та відхилення) 
 #################################################################################################################################
 
 .. role:: red
@@ -9,7 +9,7 @@
 
 .. сюда закину немного картинок для текста
 
-.. |фільтр| image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_28n.png
+.. |фільтр| image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_030.png
 
 .. |drop_pass| image:: signing/drop_pass.png
 
@@ -27,45 +27,51 @@
 :green:`"Перевізник" -> "Вантажовідправник"`
 
 .. important::
-   Функціонал створення актів доступний для компанії з роллю **"Перевізника"** з "нуля" чи на підставі підписаного з трьох сторін ЕТТН (в статусі "Підписано перевізником" чи повторно "Очікує підписання водієм / перевізником"):
+    Функціонал створення актів доступний для компанії з роллю **"Перевізника"** з "нуля" чи на підставі підписаного з обох сторін "Підтвердження транспортування" (в статусі "Підписано замовником"):
 
-   .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_34.png
-      :align: center
+    .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_001.png
+       :align: center
 
-**1 Створення "Акта виконаних робіт" на підставі ЕТТН ("Перевізник")**
-==============================================================================
+.. attention::
+    Якщо **"Вантажовідправником"** на "Підтвердження транспортування" був сформований документ "е-ТНН", то на створення "Акта виконаних робіт" діють обмеження поки не завершиться документообіг "е-ТНН" (тобто документ повинен бути підписаний **"Вантажоотримувачем"** і мати статус "Очікує підписання водієм / перевізником", "Очікує підписання перевізником (підтверджено водієм)" чи "Підписано перевізником"). Якщо серед пов'язаних документів "Підтвердження транспортування" є хоча б один документ "е-ТНН" в іншому статусі, то "Акт виконаних робіт" не створюється:
 
-Для того аби створити "Акт виконаних робіт" потрібно перейти до каталогу **"Вхідні"** (1) та в розділі **"Додатковий пошук"** (2) скористатись |фільтр| фільтром **"Для актів виконаних робіт"** (3), що дозволяє відсортувати ЕТТН документи, на підставі яких може бути створений відповідний акт.
+    .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_003.png
+       :align: center
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_35.png
+**1 Створення "Акта виконаних робіт" на підставі "Підтвердження транспортування" ("Перевізник")**
+================================================================================================================
+
+Для того аби створити "Акт виконаних робіт" потрібно перейти до каталогу **"Надіслані"** (1) та в розділі **"Додатковий пошук"** (2) скористатись |фільтр| фільтром **"Для актів виконаних робіт"** (3), що дозволяє відсортувати "Підтвердження транспортування", на підставі яких може бути створено акт:
+
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_004.png
    :align: center
 
-При створенні "Акта виконаних робіт" можливо вибрати 1 або кілька документів ЕТТН, на підставі яких він буде створений:
+При створенні "Акту виконаних робіт" можливо вибрати 1 або кілька "Підтверджень транспортування", на підставі яких він буде створений:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_36.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_005.png
    :align: center
 
 Далі необхідно заповнити форму "Акта виконаних робіт": 
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_37.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_006.png
    :align: center
 
-Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з е-ТТН (документа-підстави):
+Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з "Підтвердження транспортування" (документа-підстави):
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_38.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_007.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_39.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_008.png
    :align: center
 
 Після збереження чернетки (кнопка **"Зберегти"**) можливо додати супровідні документи на вантаж через кнопку **"Додати файл"**:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_57.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_009.png
    :align: center
 
 Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву. Після того, як обов'язкові поля документа (позначені червоною зірочкою :red:`*`) будуть заповнені документ за потреби можливо повторно **"Зберегти"** (1) та **"Підписати"** (2):
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_58.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_010.png
    :align: center
 
 .. _sign:
@@ -102,19 +108,19 @@
 .. image:: signing/file5n.png
    :align: center
 
-Після підписання "Акта виконаних робіт" інформація щодо підписанта відображається в блоці "Підписанти", а документ можливо **"Надіслати"**:
+Після підписання "Акту виконаних робіт" інформація щодо підписанта відображається в блоці "Підписанти", а документ можливо **"Надіслати"**:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_41.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_011.png
    :align: center
 
 У **"Перевізника"** відправлений документ відображається у **"Надіслані"** зі статусом **"Очікує підписання замовником"**.
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_42.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_012.png
    :align: center
 
 Відправлений "Акт виконаних робіт" має наступний вигляд:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_43.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_013.png
    :align: center
 
 На формі "Акта виконаних робіт" у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
@@ -126,33 +132,33 @@
 
 Для того, щоб відхилити документ (доступно **до підписання "Вантажовідправником"**) потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_44.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_014.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_20n.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_015.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_45.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_016.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку (**"Скасовано виконавцем"**).
 
 .. hint::
-   Якщо "Акт виконаних робіт" було відхилено однією зі сторін, то на основі однієї і тієї ж ТТН **"Перевізник"** може створити і відправити новий акт (в посиланнях до ТТН будуть відображатись всі прив'язані акти). 
+   Якщо "Акт виконаних робіт" було відхилено однією зі сторін, то на основі одного і того ж "Підтвердження транспортування" **"Перевізник"** може створити і відправити новий акт (в посиланнях до "Підтвердження транспортування" будуть відображатись всі прив'язані акти). 
 
 **2 Отримання "Акта виконаних робіт" "Вантажовідправником"**
 =================================================================================================================
 
 Відправлений з боку **"Перевізника"** "Акт виконаних робіт" відображається в папці "Вхідні".
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_46.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_017.png
    :align: center
 
 Вхідний підписаний документ можливо "Підписати" чи "Відхилити".
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_47.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_018.png
    :align: center
 
 **2.1 Підписання "Акта виконаних робіт" "Вантажовідправником"**
@@ -160,15 +166,15 @@
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_48.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_019.png
    :align: center
 
 .. hint::
-    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work.html#sign>`__ .
+    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work_on_PT.html#sign>`__ .
 
 Після підписання документ змінює свій статус на **"Підписано замовником"** система повідомить про завершення документообігу інформаційним повідомленням в формі документу:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_49.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_020.png
    :align: center
 
 **2.2 Відхилення "Акта виконаних робіт" "Вантажовідправником"**
@@ -176,64 +182,36 @@
 
 У **"Вантажовідправника"** є можливість відхилити "Акт виконаних робіт". Для цього потрібно натиснути на кнопку **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_50.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_021.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_20n.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_016.png
    :align: center
 
 Для відхиленого **"Вантажовідправником"** "Акта виконаних робіт" присвоєно статус "Відхилено".
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_51.png
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_022.png
    :align: center
 
 Документ з цим статусом відображається у "Вхідних" **"Вантажовідправника"** - документообіг завершено.
 
 .. hint::
-   Якщо "Акт виконаних робіт" було відхилено однією зі сторін, то на основі однієї і тієї ж ТТН **"Перевізник"** може створити і відправити новий акт (в посиланнях до ТТН будуть відображатись всі прив'язані акти). 
+   Якщо "Акт виконаних робіт" було відхилено однією зі сторін, то на основі одного і того ж "Підтвердження транспортування" **"Перевізник"** може створити і відправити новий акт (в посиланнях до "Підтвердження транспортування" будуть відображатись всі прив'язані акти). 
 
 .. _additional-functionality:
 
 **3 Додатковий функціонал**
 ==============================================================================
 
-.. початок блоку для additional-functionality
+.. зробимо тут спільний блочок
 
-Додатково в "Акті виконаних робіт" можливо налаштувати автоматичне підрахування цін за послугу **"Перевізника"**.
+.. include:: Create_act_at_accepted_work.rst
+   :start-after: .. початок блоку для additional-functionality
+   :end-before: .. кінець блоку для additional-functionality
 
-.. note::
-   Налаштування здійснюються на стороні контрагента з роллю **"Вантажовідправника"**!
+Тож при формуванні "Акта виконаних робіт" на підставі "Підтвердження транспортування" при заданих налаштуваннях в створюваному акті виконується автоматичний розрахунок вартості перевезення (тариф за 1км/1т - обирається в "Заявці на транспортування"):
 
-Для налаштування автоматичного підрахування цін за послугу **"Вантажовідправнику"** потрібно перейти в "Налаштування":
-
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_52.png
-   :align: center
-
-Далі серед своїх компаній (якщо їх кілька) обрати компанію, для якої потрібно налаштувати автоматичне підрахування цін за послугу **"Перевізника"**.
-
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_53.png
-   :align: center
-
-Обрати вкладку **"Тарифи"** та натиснути кнопку **"+Додати"**:
-
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_54.png
-   :align: center
-
-Обрати (за назвою чи ЄДРПОУ) компанію-**"Перевізника"**, яка вже зареєстрована на платформі EDIN (1) і встановити фіксований **"Спосіб тарифікації"** ("Тариф за 1 т" або "Тариф за 1 км"), вказавши при цьому вартість та ставку ПДВ (2). Згідно вказаного тарифу буде проводитись автоматичний підрахунок цін (лише для обраного **"Перевізника"**). Кнопка "Зберегти" (3) зберігає вказані налаштування. 
-
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_55.png
-   :align: center
-
-Для цього ж **"Перевізника"** додатково можливо додати ще один альтернативний спосіб тарифікації або відредагувати/видалити раніше введені налаштування:
-
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_56.png
-   :align: center
-
-.. кінець блоку для additional-functionality
-
-Тож при формуванні "Акта виконаних робіт" на підставі "е-ТТН" при заданих налаштуваннях в створюваному акті виконується автоматичний розрахунок вартості перевезення (тариф за 1 т):
-
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_59.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_028.png
    :align: center
 
 -------------------------------------
