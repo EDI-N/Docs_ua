@@ -1,10 +1,12 @@
 :orphan:
 
-=======  ======
+==========================
 Одиниці  виміру
-=======  ======
+==========================
 
 Довідник одиниць виміру для документів: PRICAT, ORDER, ORDRSP, DESADV, RECADV, INVOICE, KORINVOICE, INVRPT, COMDIS, INSDES, DESSCC, COACSU, RETANN, IFTMBF, MSCONS, PRODUCTLIST, AGREEM, DOCUMENTINVOICE, DOCCORINVOICE, QUOTES
+
+.. begin copy table to Distribution
 
 +----------------------+-----+
 | Назва одиниці виміру | Код |
@@ -71,3 +73,5 @@
 +----------------------+-----+
 | Метрична тонна       | TNE |
 +----------------------+-----+
+
+.. end copy table to Distribution
