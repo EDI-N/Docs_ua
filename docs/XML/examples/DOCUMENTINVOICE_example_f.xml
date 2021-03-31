@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document-Invoice>
+	<Invoice-Header>
+		<InvoiceNumber>12234455</InvoiceNumber>
+		<InvoiceDate>2020-10-09</InvoiceDate>
+		<DocumentFunctionCode>TN</DocumentFunctionCode>
+		<ContractNumber>27786</ContractNumber>
+		<ContractDate>2020-10-09</ContractDate>
+	</Invoice-Header>
+	<Invoice-Reference>
+		<Order>
+			<BuyerOrderNumber>test</BuyerOrderNumber>
+			<BuyerOrderDate>2020-10-09</BuyerOrderDate>
+		</Order>
+		<DespatchAdvice>
+			<DespatchAdviceNumber>45311841</DespatchAdviceNumber>
+		</DespatchAdvice>
+	</Invoice-Reference>
+	<Invoice-Parties>
+		<Buyer>
+			<ILN>9864232301905</ILN>
+			<TaxID>384516626551</TaxID>
+			<UtilizationRegisterNumber>34554362</UtilizationRegisterNumber>
+			<Name>ООО «СИЛЬПО-Фуд»</Name>
+		</Buyer>
+		<Seller>
+			<ILN>9864232324065</ILN>
+			<TaxID>1010101016</TaxID>
+			<UtilizationRegisterNumber>34554362</UtilizationRegisterNumber>
+			<Name>Аккаунт для теста Фелекс</Name>
+		</Seller>
+		<DeliveryPoint>
+			<ILN>9991027100105</ILN>
+			<Name>ООО «СИЛЬПО-Фуд»</Name>
+			<StreetAndNumber>Бутлерова,1</StreetAndNumber>
+			<CityName>г. Киев</CityName>
+			<PostalCode>12345</PostalCode>
+		</DeliveryPoint>
+		<Payer>
+			<ILN>9991027100105</ILN>
+			<Name>ООО «СИЛЬПО-Фуд»</Name>
+			<StreetAndNumber>Бутлерова,1</StreetAndNumber>
+			<CityName>г. Киев</CityName>
+			<PostalCode>12345</PostalCode>
+		</Payer>
+	</Invoice-Parties>
+	<Invoice-Lines>
+		<Line>
+			<Line-Item>
+				<LineNumber>1</LineNumber>
+				<EAN>4820190000000</EAN>
+				<BuyerItemCode>3000000</BuyerItemCode>
+				<ItemDescription>FINE TEST</ItemDescription>
+				<InvoiceQuantity>168</InvoiceQuantity>
+				<BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
+			</Line-Item>
+		</Line>
+	</Invoice-Lines>
+</Document-Invoice>
