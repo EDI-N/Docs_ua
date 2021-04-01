@@ -33,6 +33,7 @@ import os
 extensions = [
     'sphinx.ext.autodoc',
     'sphinxcontrib.contentui',
+    'sphinxcontrib.plantuml',
     'notfound.extension',
 ]
 
