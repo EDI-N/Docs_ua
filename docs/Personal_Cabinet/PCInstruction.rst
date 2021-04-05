@@ -225,7 +225,10 @@
 .. image:: pics_New_balance_tariff/New_balance_tariff_19.png
    :align: center
 
-Покупка додаткового тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__).
+Покупка додаткового тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__):
+
+.. image:: pics_PCInstruction/PCInstruction_116.gif
+   :align: center
 
 **1.2.3.2 Продовжити тарифний пакет**
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -238,7 +241,10 @@
 .. important::
    Функція **"Продовжити"** не доступна для :underline:`річних тарифів` [2]_, що вже оплачені більше ніж на 12 місяців.
 
-Продовження тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__).
+Продовження тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__):
+
+.. image:: pics_PCInstruction/PCInstruction_117.gif
+   :align: center
 
 **1.2.3.3 Змінити тарифний пакет**
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -251,7 +257,10 @@
 .. note::
    Під зміною тарифного пакету мається на увазі зміна опцій оплаченого сервісу(ів). При зміні вираховується сума, яку потрібно оплатити з урахуванням раніше оплаченого тарифного пакету. Для зміни тарифу на зменшення необхідно зв’язатись з відповідальним менеджером та/або надіслати листа на sales@edin.ua (детальніше в п.6.3 `Правил користування платформою <https://wiki.edin.ua/uk/latest/Legal_info/Rules.html>`__).
 
-Зміна тарифного пакету сервісу здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__).
+Зміна тарифного пакету сервісу здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__):
+
+.. image:: pics_PCInstruction/PCInstruction_118.gif
+   :align: center
 
 .. _balance:
 
