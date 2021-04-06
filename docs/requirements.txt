@@ -4,4 +4,4 @@ git+https://github.com/rtfd/sphinx-notfound-page@master#egg=sphinx-notfound-page
 # For UML
 -e git://github.com/sphinx-contrib/plantuml.git#egg=sphinxcontrib-plantuml
 # Fix Toctree error https://github.com/readthedocs/readthedocs.org/issues/8070
-Sphinx==3.0
+sphinx_rtd_theme==0.5.1
