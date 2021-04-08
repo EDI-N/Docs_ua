@@ -27,7 +27,7 @@ VAT, O, Число позитивне, "Ставка ПДВ,%"
 TRANSPORTATIONTYPES, O, Рядок (35), Вид транспортування
 TRANSPORTATIONMEANS, O, Рядок (70), Транспортний засіб
 TRANSPORTATIONCONDITION, O, Рядок (70), Умови транспортування
-TRANSPORTATIONPAYMENTTYPE, O, Рядок (35), Тип оплати доставки
+TRANSPORTATIONPAYMENTTYPE, O, Рядок (35), Тип оплати доставки (Умови оплати)
 TRANSPORTATIONROUTE, O, Рядок (70), Маршрут доставки
 BLANKETORDERNUMBER, O, Рядок (35), Номер бланкового замовлення
 INFOCODED, O, Рядок (35), Інфокод
