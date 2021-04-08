@@ -38,6 +38,12 @@
 .. image:: pics_Fozzy_DOCUMENTINVOICE_instruction/Fozzy_DOCUMENTINVOICE_instruction_003.png
    :align: center
 
+.. note::
+   Якщо всі позиції в створеній "Накладній за кількістю" (DOCUMENTINVOICE) співпадають з позиціями в "Замовленні" (ORDERS), то в табличній частині відсутня кнопка "+Додати" (додавати можливо лише позиції вказані в "Замовленні"). Позиції, яких немає в "Замовленні" (були перенесені з "Повідомлення про відвантаження" (DESADV)) за вимогою мережі вважаються некоректиними і потребують видалення. Платформа повідомляє про помилку, некоректні позиції відмічені в таблиці помаранчевим кольором:
+
+   .. image:: pics_Fozzy_DOCUMENTINVOICE_instruction/Fozzy_DOCUMENTINVOICE_instruction_008.png
+      :align: center
+
 .. tip::
     Значення поля "Накладна за кількістю №" рекомендовано замінити на `значення поля "Кількісна накладна №" <https://wiki.edin.ua/uk/latest/retail_2.0/Robota_s_Fozzy_EDI-N_2.0.html#hint-for-D-I>`_ пов'язаної раніше відправленої "Інструкції по транспортуванню" IFTMIN (звісно, якщо це поле було зазначено).
 
@@ -53,7 +59,7 @@
 .. image:: pics_Fozzy_DOCUMENTINVOICE_instruction/Fozzy_DOCUMENTINVOICE_instruction_005.png
    :align: center
 
-Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), потім **"Підписати"**(2):
+Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), потім **"Підписати"** (2):
 
 .. image:: pics_Fozzy_DOCUMENTINVOICE_instruction/Fozzy_DOCUMENTINVOICE_instruction_006.png
    :align: center
