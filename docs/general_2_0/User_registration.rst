@@ -6,7 +6,7 @@
 .. role:: underline
 
 .. contents:: Зміст:
-   :depth: 1
+   :depth: 3
 
 ---------
 
