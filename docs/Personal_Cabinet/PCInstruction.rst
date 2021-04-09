@@ -600,12 +600,12 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 Користувач може самостійно `зареєстуватись <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#account>`__ на платформі EDIN 2.0 і зформувати запит на приєднання до компанії. При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням:
 
-.. image:: pics_User_registration/User_registration_119.png
+.. image:: pics_PCInstruction/PCInstruction_119.png
    :align: center  
 
 При переході за посиланням адміністратор потрапляє на форму додавання нового користувача з попередньо вказаними даними та налаштуваннями "за замовчуваннями" з можливістю **"Додати користувача"** до компанії чи **"Відхилити запит на приєднання"**: 
 
-.. image:: pics_User_registration/User_registration_120.png
+.. image:: pics_PCInstruction/PCInstruction_120.png
    :align: center
 
 Зверніть увагу, що для доступу користувача до сервісів платформи потрібно провести налаштування його роль (за замовчуванням роль "Користувач" без доступу до сервісів (без проставлених галочок))!
