@@ -57,7 +57,9 @@
 
 .. image:: pics_User_registration/User_registration_21.png
    :align: center
-   
+
+Після відправки запиту (поки чекаєте рішення від власника аккаунта) можете ознайомитись з доступними сервісами: "DOC-FLOW", "Вільний", "WIKI".
+
 .. image:: pics_User_registration/User_registration_22.png
    :align: center   
 
