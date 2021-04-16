@@ -27,38 +27,15 @@
    
    Creation_signing_ending_rejection_Proposal
    
-**Акт виконаних робіт**
+**Акти**
 
 .. toctree::
    :maxdepth: 1
    
    Create_act_at_accepted_work
    Create_act_at_accepted_work_on_PT
-
-**Акт приймання-передавання**
-
-.. toctree::
-   :maxdepth: 1
-   
    Work_with_acceptance_certificate
-
-**Акт розбіжностей**
-
-.. toctree::
-   :maxdepth: 1
-   
    Create_discrepancy_act_new
-
-**Акт перевантаження**
-
-.. toctree::
-   :maxdepth: 1
-   
    Create_reload_act
-
-**Акт розбіжностей**
-
-.. toctree::
-   :maxdepth: 1
-   
    Create_disagreement_act
+   Create_warehouse_change
