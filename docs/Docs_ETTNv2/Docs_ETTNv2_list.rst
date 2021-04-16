@@ -33,3 +33,11 @@
    
    RELOAD_ACT_ORIGINATOR_SIGNEDPage_v2
    RELOAD_ACT_TRANSPORTER_SIGNEDPage_v2
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт про заміну пункту призначення вантажу
+   
+   WAREHOUSE_CHANGE_ORIGINATOR_SIGNED
+   WAREHOUSE_CHANGE_TRANSPORTER_SIGNED
+   WAREHOUSE_CHANGE_CUSTOMER_SIGNED
