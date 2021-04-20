@@ -39,3 +39,4 @@
    Create_reload_act
    Create_disagreement_act
    Create_warehouse_change
+   Create_adjustment_act
