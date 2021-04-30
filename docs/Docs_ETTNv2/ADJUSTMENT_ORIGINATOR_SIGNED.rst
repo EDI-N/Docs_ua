@@ -19,7 +19,7 @@
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад Акта коригування(1)<examples/adjustment_act-originator_signed.xml>`
+:download:`Приклад Акта коригування(1)<examples/adjustment_act-originator_signed_n.xml>`
 
 -------------------------
 

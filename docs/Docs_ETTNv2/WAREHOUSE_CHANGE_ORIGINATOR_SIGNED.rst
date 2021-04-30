@@ -23,7 +23,7 @@
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад Акта про заміну пункту призначення вантажу(1)<examples/warehouse_change_act-originator_signed.xml>`
+:download:`Приклад Акта про заміну пункту призначення вантажу(1)<examples/warehouse_change_act-originator_signed_n.xml>`
 
 -------------------------
 

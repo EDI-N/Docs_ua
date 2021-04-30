@@ -7,7 +7,7 @@
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад Акту розбіжностей(3)<examples/disagreement_act-consignor_signed.xml>`
+:download:`Приклад Акту розбіжностей(3)<examples/disagreement_act-consignor_signed_n.xml>`
 
 -------------------------
 

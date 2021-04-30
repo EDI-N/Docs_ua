@@ -8,7 +8,7 @@
                     <C_DOC_SUB>Подтип документа</C_DOC_SUB>
                     <C_DOC_VER>Версия документа</C_DOC_VER>
                 </DECLARHEAD>
-	            <DECLARBODY TYPE="CORE" STAKE="ORIGINATOR">
+                <DECLARBODY TYPE="CORE" STAKE="ORIGINATOR">
                     <HNUM>Номер акта расхождений</HNUM>
                     <HFILL>Дата акта расхождений</HFILL>
                     <BASE_HNUM>Номер ТТН</BASE_HNUM>
@@ -24,6 +24,7 @@
                     <R02G31S>Имя водителя</R02G31S>
                     <R02G32S>Отчество водителя</R02G32S>
                     <R02G4S>Серия, номер прав водителя</R02G4S>
+                    <DRIVER_ID>ИНН водителя</DRIVER_ID>
                     <HTIN>ЕГРПОУ/ИНН грузоотправителя</HTIN>
                     <HNAME>Название грузоотправителя</HNAME>
                     <HLOC>Юр. адрес грузоотправителя</HLOC>
