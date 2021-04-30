@@ -13,7 +13,7 @@
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад Акта коригування(2)<examples/adjustment_act-consignor_signed.xml>`
+:download:`Приклад Акта коригування(2)<examples/adjustment_act-consignor_signed_n.xml>`
 
 -------------------------
 
