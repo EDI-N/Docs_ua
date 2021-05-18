@@ -20,7 +20,7 @@
 25,retins,`Інструкція з повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retins>`__
 28,comdoc,`Комерційний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__
 29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__
-30,condra,`Не структурований документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
+30,condra,`Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#productlist>`__
 41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__
 42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
