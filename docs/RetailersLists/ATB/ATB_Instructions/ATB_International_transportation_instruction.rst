@@ -323,4 +323,4 @@
 
 -------------------------------------
 
-.. include:: kontakti.rst
+.. include:: /_static/files/kontakti.rst
