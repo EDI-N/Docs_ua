@@ -71,7 +71,7 @@ R08G2,O,double,"Маса брутто, кг в пункті навантажен
 DATE_ARRIVAL_LOAD,O,String (YYYY-MM-DD),Дата прибуття
 R08G31,O,int,"Час прибуття, (год)"
 R08G32,O,int,"Час прибуття, (хв)"
-DATE_DEPARTURE_LOAD,M,String (YYYY-MM-DD),Дата вибуття
+DATE_DEPARTURE_LOAD,O,String (YYYY-MM-DD),Дата вибуття
 R08G41,O,int,"Час вибуття, (год)"
 R08G42,O,int,"Час вибуття, (хв)"
 R08G51,O,int,"Час простою, (год)"
