@@ -113,7 +113,7 @@
 .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_012.png
    :align: center
 
-На формі відправленого "Замовлення" Ви можете замінити дане "Замовлення" *Новим*, можливо залишити комментар, який відобразиться контрагенту в формі "Замовленням" чи роздрукувати "Замовлення":
+На формі відправленого "Замовлення" Ви можете замінити дане "Замовлення" *Новим*, можливо залишити комментар, який відобразиться контрагенту в формі "Замовленням", завантажити чи роздрукувати "Замовлення":
 
 .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_013.png
    :align: center
