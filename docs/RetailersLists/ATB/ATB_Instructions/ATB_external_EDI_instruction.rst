@@ -1,5 +1,5 @@
 ########################################################################################################################
-Документообіг з мережею "АТБ" на платформі EDI Network 2.0: "Міжнародні перевезення"
+Документообіг з мережею "АТБ" на платформі EDI Network 2.0
 ########################################################################################################################
 
 .. сюда закину немного картинок для текста
@@ -17,7 +17,7 @@
 .. role:: red
 
 .. contents:: Зміст:
-   :depth: 2
+   :depth: 5
 
 ---------
 
@@ -26,7 +26,7 @@
 
 Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
 - `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#desadv>`__
 - `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-006>`__
 - `Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-032>`__
