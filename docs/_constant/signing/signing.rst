@@ -46,7 +46,7 @@
 .. image:: /_constant/signing/file4.png
    :align: center
 
-.. image:: /_constant/signing/file4.png
+.. image:: /_constant/signing/file5.png
    :align: center
 
 .. кінець блоку для Signing
