@@ -197,7 +197,7 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 Підписаний документ можливо **"Відправити"**:
 
@@ -209,14 +209,36 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_037.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#revoke>`__).
 
-У разі якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#reject>`__).
+.. warning::
+   У разі якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то мережа "АТБ" формує у відповідь "Акт про виявлені недоліки" - COMDOC_005 (детальніше у наступному підрозділі).
 
+3 Отримання і підписання "Акта про виявлені недоліки" (COMDOC_005). Сторона Постачальника
+=========================================================================================================================
 
+Після того, як мережа "АТБ" сформувала "Акт про виявлені недоліки" (COMDOC_005), його потрібно затвердити підписанням. Для цього у папці **"Вхідні"** потрібно знайти і відкрити акт, що потребує підписання (документ в статусі "Поребує підписання отримувачем":
 
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_108.png
+   :align: center
 
+В відкритій формі документа можливо ознайомитись з відхиленнями в табличній частині:
 
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_109.png
+   :align: center
+
+.. attention::
+   Для того аби мережа "АТБ" підписала "Видаткову накладну" (COMDOC_006) потрібно узгодити (підписати) "Акт про виявлені недоліки" (COMDOC_005)!
+
+"Акт про виявлені недоліки" (COMDOC_005) можливо **"Підписати і відправити у відповідь"**:
+
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_111.png
+   :align: center
+
+.. hint::
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+
+Після того, як обидві сторони підписали "Акт про виявлені недоліки" (COMDOC_005) мережа "АТБ" може підписати "Акт про виявлені недоліки" (COMDOC_005), як це описано в `інструкції для мережі <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#to006>`__.
 
 4 Формування "Акта приймання товару (складська логістика)" (COMDOC_032). Сторона Постачальника
 =========================================================================================================================
@@ -291,7 +313,7 @@
 Після збереження документ потрапляє в папку **"Чернетки"**.
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 Підписаний документ можливо **"Відправити"**:
 
@@ -303,119 +325,12 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_049.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#revoke>`__).
 
-5 Отримання "Акта приймання товару (складська логістика)" (COMDOC_032). Сторона "Логістик Юніон"
+5 Отримання і підписання "Акта розбіжностей до АПП" (COMDOC_034). Сторона Постачальника
 =========================================================================================================================
 
-У від відповідь на вхідний (папка **"Вхідні"**) "Акт приймання товару (складська логістика)" (COMDOC_032) формується "Акт приймання товару" (COMDOC_033) чи "Акт розбіжностей до АПП" (COMDOC_034). Для пошуку потрібного документа достатньо ввести коректний номер документа в полі «Пошук». Документи також можливо шукати за **Відправником**, **Датою документа** і **Одержувачем**.
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_052.png
-   :align: center
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_051.png
-   :align: center
-
-.. important::
-   Компанія "Логістик Юніон" переглядає "Акт приймання товару (складська логістика)" (COMDOC_032) і:
-
-   1. якщо всі дані в документі коректні, то підписує цей документ і формує у відповідь "Акт приймання товару" (COMDOC_033);
-   2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь "Акт розбіжностей до АПП" (COMDOC_034); при підписанні документа з обох сторін вхідний акт переглядається і виконуються дії згідно п.1; 
-   3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#reject>`__).
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_053.png
-   :align: center
-
-.. _to033:
-
-5.1 Підписання та формування "Акта приймання товару" (COMDOC_033) у відповідь. Сторона "Логістик Юніон"
-----------------------------------------------------------------------------------------------------------------------------
-
-Перед тим, як сформувати "Акт приймання товару" (COMDOC_033) компанія "Логістик Юніон" підписує вхідний акт. Для підписання потрібно натиснути на кнопку **"Підписати і відправити у відповідь"**:
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_054.png
-   :align: center
-
-.. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
-
-Після того, як документ підписано можливо сформувати **"Акт приймання товару"** чи **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#repeal>`__)):
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_055.png
-   :align: center
-
-5.1.1 Формування "Акта приймання товару" (COMDOC_033). Сторона "Логістик Юніон"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Для формування "Акта приймання товару" (COMDOC_033) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_056.png
-   :align: center
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_057.png
-   :align: center
-
-У відкритій формі "Акта приймання товару" (COMDOC_033) всі поля заповнюються автоматично з пов'язаного документа-підстави. Блок табличної частини з переліком позицій також заповнюються автоматично з документа-основи. Можливо вносити зміни в дані позиції (кількість, базову ціну позицій) чи "Видалити" обрані позиції:
-
-:red:`Всі зміни за позиціями тільки після узгодження з мережею!`
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_058.png
-   :align: center
-
-.. attention::
-   Кількість товарних позицій, що постачається не може перевищувати кількість зазначену в "Замовленні"!
-
-Після внесення змін в документ, натисніть кнопку **"Зберегти"** (1), **"Підписати"** (2) та **"Відправити"** (3):
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_059.png
-   :align: center
-
-.. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
-
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_060.png
-   :align: center
-
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#revoke>`__).
-
-5.2 Формування у відповідь "Акта розбіжностей до АПП" (COMDOC_034). Сторона "Логістик Юніон"
-----------------------------------------------------------------------------------------------------------------------------
-
-Для формування "Акта розбіжностей до АПП" (COMDOC_034) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_081.png
-   :align: center
-
-У відкритій формі "Акта розбіжностей до АПП" (COMDOC_034) всі поля заповнюються автоматично з пов'язаного документа-підстави. Блок табличної частини з переліком позицій також заповнюються автоматично з документа-основи. Документ засвідчує невідповідність кількості товарних позицій:
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_082.png
-   :align: center
-
-.. attention::
-   Кількість товарних позицій, що постачається не може перевищувати кількість зазначену в "Замовленні"!
-
-Після внесення змін в документ, натисніть кнопку **"Зберегти"** (1), **"Підписати"** (2) та **"Відправити"** (3):
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_083.png
-   :align: center
-
-.. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
-
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_084.png
-   :align: center
-
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#revoke>`__).
-
-
-5.2.1 Отримання і підписання "Акта розбіжностей до АПП" (COMDOC_034). Сторона Постачальника
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Після того, як компанія "Логістик Юніон" сформувала "Акта розбіжностей до АПП" (COMDOC_034), його потрібно затвердити підписанням. Для цього у папці **"Вхідні"** потрібно знайти і відкрити акт, що потребує підписання (документ в статусі "Поребує підписання отримувачем":
+Після того, як компанія "Логістик Юніон" сформувала "Акт розбіжностей до АПП" (COMDOC_034), його потрібно затвердити підписанням. Для цього у папці **"Вхідні"** потрібно знайти і відкрити акт, що потребує підписання (документ в статусі "Поребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_087.png
    :align: center
@@ -433,10 +348,10 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_089.png
    :align: center
 
-Після того, як обидві сторони підписали "Акт розбіжностей до АПП" (COMDOC_034) компанія "Логістик Юніон" може підписати "Акт приймання товару (складська логістика)" (COMDOC_032), як це описано в пункті `5.1 <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#to033>`__.
+Після того, як обидві сторони підписали "Акт розбіжностей до АПП" (COMDOC_034) компанія "Логістик Юніон" може підписати "Акт приймання товару (складська логістика)" (COMDOC_032), як це описано в `інструкції для мережі <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#to033>`__.
 
-5.2.1.1 Підписання "Акта розбіжностей до АПП" (COMDOC_034). Сторона Постачальника
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+5.1 Підписання "Акта розбіжностей до АПП" (COMDOC_034). Сторона Постачальника
+-----------------------------------------------------------------------------------------------
 
 Для підписання потрібно натиснути на кнопку **"Підписати і відправити у відповідь"**:
 
@@ -444,7 +359,7 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 6 Отримання "Акта приймання товару" (COMDOC_033). Сторона Постачальника
 =========================================================================================================================
@@ -457,21 +372,13 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_068.png
    :align: center
 
-Відкритий "Акт приймання товару" (COMDOC_033) можливо **"Підписати і відправити у відповідь"** або виконати **"Відмову від підписання"**:
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_071.png
-   :align: center
-
-6.1 Підписання "Акта приймання товару" (COMDOC_033). Сторона Постачальника
-----------------------------------------------------------------------------------------------------------------------------
-
-Для підписання потрібно натиснути на кнопку **"Підписати і відправити у відповідь"**:
+Відкритий "Акт приймання товару" (COMDOC_033) можливо **"Підписати і відправити у відповідь"**:
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_072.png
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 Документообіг завершено.
 
