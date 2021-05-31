@@ -91,6 +91,7 @@ EDIN | Електронний документообіг для бізнесу
    Legal_info/KP
    Legal_info/Politic
    Legal_info/Licenses/Licenses_list
+   Legal_info/Promotions/Promotions_list
 
 .. toctree::
    :titlesonly: 
