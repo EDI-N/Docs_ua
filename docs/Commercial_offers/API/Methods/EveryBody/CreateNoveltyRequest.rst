@@ -7,38 +7,51 @@
 .. code:: json
 
 	{
-	  "supplier": "9864067620417",
-	  "retailer": "9864119011415",
-	  "retailer_id": 7,
+	  "supplier": "9864232399285",
+	  "retailer": "9864232377986",
+	  "retailer_id": 17548,
 	  "status": 0,
 	  "unit_id": 8,
 	  "tax_id": 5,
 	  "prices": {
-	    "unit_price": "55.56",
-	    "weight_price": "5.56",
-	    "volume_price": "55.6",
-	    "profitability": "5.6"
+	    "weight_price": "166.6667",
+	    "volume_price": "166.6667",
+	    "profitability": "16.5",
+	    "unit_price": "50"
 	  },
 	  "marketing": {
-	    "promotion": "1.2",
-	    "logistics": "1.3",
-	    "damage": "1.4",
-	    "TPR": "1.5"
+	    "promotion": "12",
+	    "logistics": "2",
+	    "damage": "23",
+	    "TPR": "23"
 	  },
 	  "trade": {
-	    "national1": "55.66",
-	    "national2": "55.67",
-	    "regional1": "55.44",
-	    "regional2": "55.45"
+	    "national1": "52",
+	    "national2": "55",
+	    "regional1": "56",
+	    "regional2": "70"
 	  },
-	  "group_id": 21,
-	  "name": "Півники",
-	  "barcode": "020202020",
-	  "producer_name": "Природа",
-	  "brand": "Земля",
-	  "postponement": "10",
-	  "listex_link": "https://listex.info",
-	  "unit_weight": "100"
+	  "supplierContacts": {
+	    "name": "Тест",
+	    "surname": "Тестов",
+	    "middleName": "Тестович",
+	    "email": "test@edin.ua",
+	    "phone": "380502386924",
+	    "uuid": "6ee4b199-f7f0-4125-b0a3-4f6dc1709f7d"
+	  },
+	  "group_id": 71,
+	  "name": "Чорне золото",
+	  "barcode": "010101010",
+	  "brand": "Копальня",
+	  "producer_name": "Турка",
+	  "postponement": "1",
+	  "unit_weight": "0.3",
+	  "unit_volume": "0.3",
+	  "new_logo": {
+	    "icon": {},
+	    "logo": {},
+	    "mime_type": "image/jpeg"
+	  }
 	}
 
 Таблиця 1 - Опис параметрів
@@ -81,3 +94,13 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 6 - Опис параметрів
+
+.. csv-table:: 
+  :file: for_csv/XNoveltyContacts.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+
+  

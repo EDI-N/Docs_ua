@@ -67,3 +67,4 @@ trade,XNoveltyTrade_,об'єкт; торгівля
 listex_link,String,Посилання на Listex
 icon_link,String,Посилання на фото товару
 comments,XNoveltyComment_,об'єкт; коментарі
+supplierContacts,XNoveltyContacts_,об'єкт; контакти Постачальника

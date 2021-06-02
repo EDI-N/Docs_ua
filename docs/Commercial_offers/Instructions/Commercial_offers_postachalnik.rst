@@ -51,15 +51,17 @@
 
 При редагуванні чи **"Додаванні позиції"** відкривається вікно даних товару. Для збереження позиції потрібно заповнити всі обов'язкові поля позначні червоною зірочкою :red:`*` , послідовно вказавши **"Категорію"** -> **"Групу 1"** -> **"Групу 2"** -> **"Групу 3"** та натиснути **"Зберегти"** / **"Зберегти та створити ще"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_50.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_62.png
    :align: center
 
-.. tip::
+Також обов'язково вказуються контакти Постачальника (повторно заповнюються автоматично за прізвищем).
+
+.. note::
    При створенні товарної позиції (Чернетка) замість стандартного лого можливо завантажити фото товару максимальним розміром зображення 5 МБ (JPEG/JPG, PNG).
 
 Масове **"Завантаження позицій"** з Excell файлу потрібно здійснювати згідно шаблону (обов'язкові колонки шаблону відмічені зеленим кольором з підказками), послідовно вказавши **"Категорію"** -> **"Групу 1"** -> **"Групу 2"** -> **"Групу 3"**, до яких будуть належати всі завантажені комерційні позиції:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_51.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_63.png
    :align: center
 
 .. note::
