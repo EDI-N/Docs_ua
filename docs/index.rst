@@ -84,6 +84,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: WhiteDoc
+
+   WhiteDoc/WD_Instructions/WD_Instructions_list
+
+.. toctree::
+   :maxdepth: 2
    :caption: Юридична інформація
 
    Legal_info/Rules
