@@ -34,6 +34,7 @@
    
    Create_act_at_accepted_work
    Create_act_at_accepted_work_on_PT
+   Create_act_at_accepted_work_on_Proposal
    Work_with_acceptance_certificate
    Create_discrepancy_act_new
    Create_reload_act
