@@ -159,9 +159,9 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_39.png
    :align: center
 
-Незареєстрованому отримувачу на вказаний Email відправляється запрошення з посиланням на `реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__):
+Незареєстрованому отримувачу на вказаний Email відправляється запрошення з посиланням на `реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__) та вкладеним одним (першим) файлом без підпису:
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_47.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_68.png
    :align: center
 
 Також :underline:`незареєстрованим отримувачам` на Email приходять нагадування про запрошення на наступний день, 3-ій, 6-ий, 12-ий та 27-ий зі списком відправників та темами повідомлень:
