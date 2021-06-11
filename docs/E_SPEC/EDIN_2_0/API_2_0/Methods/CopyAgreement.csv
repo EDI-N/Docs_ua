@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    , **/api/es/agreement/copy?gln=9864067620417&sender_id=13200665&recipient_id=41249&retailer_id=7&contract_uuid=ebe77c79-85fc-4c58-a07b-833caac25d65&type=1&doc_date=1588881407&doc_number=1200.996633_128&status_id=1&signperiod=undefined**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**agreement_uuid** (обов'язково) UUID - GUID узгодження для клонування"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , application/json
