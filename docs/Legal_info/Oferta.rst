@@ -6,4 +6,5 @@
    
    Dogovir_oferta
    Ugoda_Oferta
+   Oferta_WD
 
