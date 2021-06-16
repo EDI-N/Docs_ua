@@ -74,7 +74,7 @@ EDIN | Електронний документообіг для бізнесу
    :titlesonly:
 
    Vilnyi/Work_with_Vilnyi
-   Vilnyi/integration_Vilnyi_list
+   Vilnyi/Integration_Vilnyi/integration_Vilnyi_list
    API_Vilnyi/API_Vilnyi_list
 
 .. toctree::
