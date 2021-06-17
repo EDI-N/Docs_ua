@@ -10,6 +10,14 @@
 
 ---------
 
+.. raw:: html
+
+   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+       <iframe src="https://www.youtube.com/embed/VXlC2CKPJwE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+   </div>
+
+---------
+
 Для початку роботи з платформою **EDIN 2.0** потрібно здійснити авторизований вхід (https://edo-v2.edin.ua/auth). Зареєстровані користувачі для **"Входу"** (1) на платформу використовують логін(email) / пароль, а для нових користувачів, що планують почати використовувати електронний документообіг передбачений функціонал **"Реєстрації"** (3):
 
 .. image:: pics_User_registration/User_registration_27.png
