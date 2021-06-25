@@ -6,5 +6,6 @@
    
    WD_registration
    Work_with_WD
+   Work_with_Envelope
 
 Розділ в процесі наповнення новими інструкціями по роботі з сервісом WhiteDoc
