@@ -59,6 +59,7 @@ DELIVEREDQUANTITY, M, Число позитивне,"кількість, що п
 DELIVEREDUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 ORDEREDQUANTITY, О, Число позитивне, Замовлена кількість
 ORDERUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+ADVICEPRICE, O, Число ціле з трьома знаками після коми, Рекомендована ціна (державою)
 SSCC, O, Число (18), Серійний код транспортної упаковки
 PARTYNAME, O, Рядок (70), Назва виробника
 INVOICEDQUANTITY, O, Число позитивне, Кількість за рахунком
