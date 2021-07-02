@@ -84,7 +84,12 @@
 
 Зовнішній вигляд сервісу **"Вільний"** складається з кількох наступних основних частин: функціонал переходу по каталогами папок (1), журналу документів (2), пошуку документів (3), кнопки переходу в меню сервісів, вибору мови, `налаштувань користувача <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__ та виходу з платформи (4).
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_46.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_105.png
+   :align: center
+
+Якщо у користувача налаштований `доступ до документів сервісу інших співробітників компанії <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#shard-entrance>`__, то є можливість переключитись на каталоги тих співробітників і виконувати дії з документами від їх імені:
+
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_102.png
    :align: center
 
 **3 Перегляд каталогів платформи**
