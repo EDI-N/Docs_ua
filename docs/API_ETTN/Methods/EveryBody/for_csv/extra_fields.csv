@@ -105,3 +105,4 @@ id параметра, Найменування параметра,Обов'яз
 , summ, , INT, сума з ПДВ
 129, receiving_note_number, , VARCHAR, Номер повідомлення про прийом (DOCUMENTINVOICE...ReceivingAdviceNumber)
 137, branch_uuid,, VARCHAR, uuid «гілки поставки» (АТБ COMDOC+DESADV)
+, parent_doc_uuid, ,VARCHAR, uuid початкової е-ТТН (записується при заміні відправленої чернетки)
