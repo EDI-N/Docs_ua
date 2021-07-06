@@ -27,6 +27,8 @@
 
 .. |sortup| image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_66.png
 
+.. |trash| image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_69.png
+
 .. role:: red
 
 .. role:: green
@@ -425,28 +427,36 @@
 Обгрунтування
 ----------------------------------------------------------------------------------------------------------------
 
-Лише для **Постачальника**, існує можливість додати обгрунтування зміни ціни або інші документи, які можуть прискорити погодження. Для цього натисніть кнопку **"Додати обгрунтування"** та додайте необхідні файли.
+До узгодження в статусі **Чернетка** у **Постачальника** є можливість додати обгрунтування зміни ціни або інші документи, які можуть прискорити погодження. В якості обгрунтування до документу можливо додати максимум 5 файлів розміром кожного не більше 5 МБ в наступних форматах: PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/TXT. Для цього потрібно натиснути кнопку **"Додати обгрунтування"**, обрати файли та підтвердити додавання обраних файлів кнопкою **"Додати обгрунтування Х файл(а)"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_41.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_67.png
    :align: center
 
-Додати обгрунтування можливо до документу у статусі узгодження **Чернетка** або **На узгодженні**, та лише файл формату PDF, JPEG, ZIP. Максимальний розмір файлу - 10 МБ.
-
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_42.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_68.png
    :align: center
 
-Для скачування потрібно натиснути на назву документу. Після додавання "Обгрунтування" до відправленої Пропозиції в блоці коментарів автоматично додається новий коментар: "Додано вкладення для обгрунтування" (коментар також відображається на стороні мережі).
+Після цього документи підвантажаться і будуть відображатись у вигляді плиток - їх можливо видалити кнопкою |trash| та завантажити клікнувши, на назву документа лівою кнопкою мишки:
+
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_70.png
+   :align: center
 
 Документ що містить обгрунтування позначається в журналі документів символом |скріпка|.
+
+Також обгрунтування можливо додавати до `коментарів <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Іnstruction_postachalnik.html#comment>`__ в процесі узгодження.
 
 .. _comment:
 
 Коментарі
 ----------------------------------------------------------------------------------------------------------------
 
-Під табличною частиною з позиціями після відправки документа з'являється блок для звязку контрагентів.
+Під табличною частиною з позиціями після відправки документа з'являється блок для звязку з контрагентами. До кожного коментаря можливо **"Додати обгрунтування"** (максимум 5 файлів розміром кожного не більше 5 МБ в наступних форматах: PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/TXT).
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_43.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_71.png
+   :align: center
+
+Після того, як повідомлення набрано і всі потрібні файли додані потрібно **"Відправити"** коментар контрагенту:
+
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_72.png
    :align: center
 
 Документ що містить коментар позначається в журналі документів символом |чат|.
