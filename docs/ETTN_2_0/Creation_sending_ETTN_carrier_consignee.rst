@@ -291,13 +291,26 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_78.png
    :align: center
 
-В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ можливо **"Зберегти"** (2) чи внести зміни (**"Змінити"** (2)), **"Підписати"** (3) та **"Надіслати"** (4) (детальніше про підписання в `інструкції для вантажовідправника <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html>`__ ):
+В створений такий чином документ копіюється вся інформація та вкладення з чернетки. Документ можливо **"Зберегти"** (2) чи внести зміни (**"Змінити"** (2)), **"Підписати"** (3) та **"Надіслати"** (4) (`детальніше про підписання <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html#sign>`__ в інструкції для вантажовідправника):
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_79.png
    :align: center
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_80.png
    :align: center
+
+   .. note::
+   Деякі контрагенти мають відмінну схему роботи з е-ТТН, наприклад, ТОВ "СІЛЬПО-ФУД", коли підписання не є обов'язковим чи виключеним з документообігу:
+
+   .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_91.png
+      :align: center
+
+   При цьому у відправленому непідписаному документі е-ТТН в статусі "Чернетка" у відправника є можливість **"Замінити ТТН"**:
+
+   .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_92.png
+      :align: center
+
+   При **"Замініні ТТН"** виконується копіювання всіх даних документа для подальшого редагування, а в додаткові поля записується посилання на документ, який буде замінено.
 
 Особливістю такого документообігу є те, що в ланцюжку документів присутня чернетка, як документ-ініціатор документообігу:
 
