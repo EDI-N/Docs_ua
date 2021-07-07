@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/es/attachment?gln=9864067620417&agreement_uuid=3aa29cf2-b05f-49b7-b447-e5f4354f1132**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**agreement_uuid** (обов'язково) UUID - унікальний ідентифікатор товарного узгодження;
+
+**comment_id** (опціонально) long - ідентифікатор коментаря з вкладеннями; якщо параметр не передається або передається comment_id=0, то у відповідь повертаються дані вкладень до документа, а не коментаря"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
