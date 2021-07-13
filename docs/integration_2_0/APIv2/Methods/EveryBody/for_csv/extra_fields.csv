@@ -106,3 +106,4 @@ id параметра, Найменування параметра,Обов'яз
 129, receiving_note_number, , VARCHAR, Номер повідомлення про прийом (DOCUMENTINVOICE...ReceivingAdviceNumber)
 137, branch_uuid,, VARCHAR, uuid «гілки поставки» (АТБ COMDOC+DESADV)
 , parent_doc_uuid, ,VARCHAR, uuid початкової е-ТТН (записується при заміні відправленої чернетки)
+139, format_version, ,VARCHAR, номер версії (поле C_DOC_VER) з Податкової накладної (DECLAR) чи Коригування до податкової накладної (DECLARj12)
