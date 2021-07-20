@@ -41,10 +41,16 @@
             {% if display_github %}
             {% if check_meta and 'github_url' in meta %}
               <!-- User defined GitHub URL -->
-              <!-- охрана отмена <select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edin.ua/uk/latest/">Українська</option><option value="https://wiki.edin.ua/ru/latest/">Русский</option><option value="https://wiki.edin.ua/en/latest/">English</option></select> --> <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+              <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
             {% else %}
-            <!-- охрана отмена <select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edin.ua/uk/latest/">Українська</option><option value="https://wiki.edin.ua/ru/latest/">Русский</option><option value="https://wiki.edin.ua/en/latest/">English</option></select> --> <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode|default("blob") }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+              <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode or "blob" }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ page_source_suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
             {% endif %}
+            <!-- {% if check_meta and 'github_url' in meta %} -->
+              <!-- User defined GitHub URL -->
+              <!-- охрана отмена <select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edin.ua/uk/latest/">Українська</option><option value="https://wiki.edin.ua/ru/latest/">Русский</option><option value="https://wiki.edin.ua/en/latest/">English</option></select> --> <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+            <!-- {% else %} -->
+            <!-- охрана отмена <select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edin.ua/uk/latest/">Українська</option><option value="https://wiki.edin.ua/ru/latest/">Русский</option><option value="https://wiki.edin.ua/en/latest/">English</option></select> --> <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode|default("blob") }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+            <!-- {% endif %} -->
           {% elif display_bitbucket %}
             {% if check_meta and 'bitbucket_url' in meta %}
               <!-- User defined Bitbucket URL -->
