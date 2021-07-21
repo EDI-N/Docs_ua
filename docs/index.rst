@@ -88,6 +88,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: WhiteDoc
 
    WhiteDoc/WD_Instructions/WD_Instructions_list
+   API <https://wd-api.edin.ua/swagger-ui/#/>
 
 .. toctree::
    :maxdepth: 2
