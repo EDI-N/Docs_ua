@@ -12,6 +12,7 @@ box_in_layer,String,"кількість коробок в шарі, шт."
 box_in_palette,String,"кількість коробок на палеті, шт."
 palette_weight,String,"вага палети, кг"
 producer_code,String,код Виробника
+min_order_qty,"float (10,3)","Мінімальна кількість замовлення"
 id,long,ідентифікатор запису
 date_changed,long,дата внесених змін в дані товару
 producer_id,long,ідентифікатор Виробника
@@ -32,4 +33,4 @@ quota,Double,квота на замовлення
 is_promo,boolean,відмітка «Новинка!»
 is_new,boolean,відмітка «Акція!»
 is_public,boolean,відмітка «Публічна позиція!»
-
+is_surcharge,boolean,відмітка «Надбавка!»

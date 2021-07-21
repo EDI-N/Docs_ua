@@ -20,3 +20,4 @@ quota,Double,квота на замовлення
 is_promo,boolean,відмітка «Новинка!»
 is_new,boolean,відмітка «Акція!»
 is_public,boolean,відмітка «Публічна позиція!»
+is_surcharge,boolean,відмітка «Надбавка!»
