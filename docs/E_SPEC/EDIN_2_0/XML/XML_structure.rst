@@ -42,6 +42,18 @@ XML Специфікації
 
 :download:`Приклад PRODUCTLIST<examples/productlist_example.xml>`
 
+---------
+
+Універсальний/неструктурований документ (CONDRA)
+==============================================================
+
+.. csv-table:: CONDRA - універсальний/неструктурований документ, що формується на стороні Мережі при відправці Постачальником вкладених файлів (додавання `обгрунтування <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_%D0%86nstruction_postachalnik.html#attach>`__ до узгодження чи `коментарів <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_%D0%86nstruction_postachalnik.html#comment>`__ до нього)
+  :file: files/CONDRA.csv
+  :widths:  20, 11, 29, 37
+  :header-rows: 1
+
+:download:`Приклад CONDRA<examples/condra_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
