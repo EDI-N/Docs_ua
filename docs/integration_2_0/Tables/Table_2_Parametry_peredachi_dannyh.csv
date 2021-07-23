@@ -6,5 +6,5 @@ Port,"80, 443",Required for firewall
 Transport,"https, http",http recommended
 Basic HTTP authentication,No,
 ,**Передача даних в EDI-N**,
-IP address,91.194.88.11,Required for firewall
+IP address,91.194.88.25,Required for firewall
 Transport,"https, http",https port 443; http port 80 - recommended
