@@ -39,6 +39,20 @@ XML Специфікації Distribution
 
 :download:`Приклад LIMITS<examples/distribex_limits_example.xml>`
 
+---------
+
+.. at this moment COMDOC_007 is same as in EDI
+
+Прибуткова накладна (COMDOC_007)
+====================================================
+
+.. csv-table:: Прибуткова накладна (COMDOC_007)
+  :file: files/COMDOC_007.csv
+  :widths:  20, 11, 29, 37
+  :header-rows: 1
+
+:download:`Приклад COMDOC_007<examples/comdoc_007_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
