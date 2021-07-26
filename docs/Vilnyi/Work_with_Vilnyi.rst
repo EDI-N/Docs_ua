@@ -89,7 +89,7 @@
 
 Якщо у користувача налаштований `доступ до документів сервісу інших співробітників компанії <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#shard-entrance>`__, то є можливість переключитись на каталоги тих співробітників і виконувати дії з документами від їх імені:
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_102.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_102.gif
    :align: center
 
 **3 Перегляд каталогів платформи**
