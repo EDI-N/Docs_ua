@@ -24,7 +24,7 @@ EDIN | Електронний документообіг для бізнесу
    XML/Fozzy_XML-structure
 
 .. toctree::
-   :caption: ЕТТН
+   :caption: Е-ТТН
    :titlesonly:
 
    ETTN_2_0/ETTN_2_0_list
@@ -42,7 +42,7 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Е-СПЕЦИФІКАЦІЯ
+   :caption: Е-Специфікація
 
    E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
    E_SPEC/EDIN_2_0/API_2_0/E_SPEC_API_2_0_list
@@ -58,19 +58,19 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN-Certificate
+   :caption: Е-Сертифікати
 
    Certificate/EDIN/Certificate_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tender
+   :caption: Тендер
 
    Tender_2_0/Work_with_Tender
    API_Tender/API_Tender_list
 
 .. toctree::
-   :caption: ВІЛЬНИЙ
+   :caption: Вільний
    :titlesonly:
 
    Vilnyi/Work_with_Vilnyi
@@ -109,7 +109,7 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: ЗАКОНОДАВСТВО
+   :caption: Законодавство
 
    Zakon/Zakonodavcha_baza
 
