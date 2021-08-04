@@ -10,3 +10,4 @@ email,String,email співробітника
 tel,String,номер телефону співробітника
 chatId,long,ідентифікатор чату (telegram помічник)
 identifiers,"Map<Integer, String>",додаткові дані; контакти
+aliases,List<String>,масив аліасів (email) для сервісу Вільний

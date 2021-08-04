@@ -184,6 +184,11 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_13.gif
    :align: center
 
+При введенні в поле Отримувачів пошти, що є аліасом (детальніше про `налаштування аліасів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#alias>`__) відображається ПІБ контрагента, основний email та аліас:
+
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_106.png
+   :align: center
+
 Реалізована можливість вказати Email незареєстрованого на платформі користувача в полі **"Отримувачі"**. При додаванні такого користувача потрібно обрати "Запросити нового користувача" в результатах випадаючого списка:
 
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_37.png
