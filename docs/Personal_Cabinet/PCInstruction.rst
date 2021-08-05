@@ -911,4 +911,4 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 -------------------------------------
 
-.. include:: kontakti.rst
+.. include:: /_constant/kontakti.rst
