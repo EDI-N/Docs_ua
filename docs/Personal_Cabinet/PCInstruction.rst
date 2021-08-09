@@ -352,7 +352,7 @@
 
 Після чого системою автоматино створюється рахунок-фактура (детальніше в описі розділу меню `"Рахунки" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/New_balance_tariff.html#invoice>`__):
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_25.png
+.. image:: pics_PCInstruction/PCInstruction_008.png
    :align: center
 
 .. hint::
@@ -382,7 +382,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 В розділі **"Рахунки"** документи позначаються різним кольором в залежності від статусу [3]_ (:red:`Неоплачений` / :green:`Сплачений` / :orange:`Часткова оплата`) з зазначеними сумою, сумою з рекомендованим платежем / рекомендованим платежем (7% від суми):
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_25.png
+.. image:: pics_PCInstruction/PCInstruction_008.png
    :align: center
 
 В журналі доступний функціонал друку (|друк|), скачування документа в форматі pdf (|pdf|) та можливість запросити оригінал (|карандаш|) для сплаченого рахунку.
@@ -390,6 +390,19 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 Лівою кнопкою миші можливо обрати рахунок, щоб переглянути його вміст:
 
 .. image:: pics_New_balance_tariff/New_balance_tariff_26.gif
+   :align: center
+
+За допомогою кнопки **"Звіт за період"** можливо отримати Excel-звіт з деталізацією по тариіним пакетам, що включені в акт виконаних робіт від АТС за обраний період:
+
+.. image:: pics_PCInstruction/PCInstruction_009.png
+   :align: center
+
+.. image:: pics_PCInstruction/PCInstruction_010.gif
+   :align: center
+
+В звіті відображається Назва тарифу, Період дії тарифу, Вартість, Дати акту та оплати:
+
+.. image:: pics_PCInstruction/PCInstruction_011.png
    :align: center
 
 ----------------------------------
