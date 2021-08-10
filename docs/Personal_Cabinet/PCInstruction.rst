@@ -737,6 +737,14 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_025.png
    :align: center
 
+Сесії інших користувачів можливо "Зупинити" одразу чи вказати час, через який вона буде зупинена:
+
+.. image:: pics_PCInstruction/PCInstruction_029.png
+   :align: center
+
+.. image:: pics_PCInstruction/PCInstruction_030.png
+   :align: center
+
 .. _user-groups: 
 
 **2.3 Групи користувачів**
