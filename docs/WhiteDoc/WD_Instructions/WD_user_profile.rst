@@ -3,9 +3,9 @@
 
 .. есть картинки с главной инструкции сервиса
 
-.. |accept| image:: pics_WD_user_profile/WD_user_profile_035.png
+.. |accept| image:: pics_WD_user_profile/WD_user_profile_036.png
 
-.. |denied| image:: pics_WD_user_profile/WD_user_profile_036.png
+.. |denied| image:: pics_WD_user_profile/WD_user_profile_035.png
 
 .. role:: red
 
