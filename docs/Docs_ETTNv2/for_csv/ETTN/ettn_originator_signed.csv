@@ -1,14 +1,14 @@
 Назва поля,Тип [1]_,Формат,Опис
 **SIGN_ENVELOPE**,M,,"Обгортка документа Ініціатора - Вантажовідправника (початок блоку)"
-STATE,M,«ORIGINATOR_SIGNED»,"стан документу «підписано Вантажовідправником»"
+STATE,M,ORIGINATOR_SIGNED,"стан документу «підписано Вантажовідправником»"
 **DECLARHEAD**,M,,Складовий номер документа (початок блоку)
 C_DOC,M,String,код документа («T01»)
 C_DOC_SUB,M,String,підтип документа («001»)
 C_DOC_VER,M,String,номер версії документа («02»)
 **DECLARHEAD**,,,Складовий номер документа (закінчення блоку)
 **DECLARBODY**,M,,"Основні реквізити від Вантажовідправника (початок блоку)"
-TYPE,M,«CORE»,Тип документа (Основа)
-STAKE,M,«ORIGINATOR»,Учасник-підписант (Вантажовідправник)
+TYPE,M,CORE,Тип документа (Основа)
+STAKE,M,ORIGINATOR,Учасник-підписант (Вантажовідправник)
 HFILL,M,String (YYYY-MM-DD),Дата товарно-транспортної накладної
 HNUM,M,String,Номер товарно-транспортної накладної
 DOCUMENT_PLACE,M,String,Місце складання
@@ -87,7 +87,7 @@ DOCUMENT_DATE,M,String (YYYY-MM-DD),Дата укладення документ
 **DECLARBODY**,,,"Основні реквізити від Вантажовідправника (закінчення блоку)"
 **DECLAREXT**,M,,"Додаткова інформація для учасників перевезення (початок блоку)"
 **EXTENSION**,M/O,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Початок блоку)"
-TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BASE_UOM, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE, ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE, CONTAINER_NO, SEAL_ADD_TYPE, SEAL_ADD_NO, RTP_TYPE, RTP_NAME, RTP_QUANTITY, TRUCK_NUMBER, PACKING_LIST_NO, PACKING_LIST_DATE)","тип даних:
+TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BASE_UOM, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE, ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE, CONTAINER_NO, SEAL_ADD_TYPE, SEAL_ADD_NO, RTP_TYPE, RTP_NAME, RTP_QUANTITY, TRUCK_NUMBER, PACKING_LIST_NO, PACKING_LIST_DATE, NET_WEIGHT, CAR_COLOR, COUNTERPARTY_CODE, DRIVER_PASSPORT, CERTIFICATE_NUMBER, DRIVER_PHONE, BASE_UOM)","тип даних:
 
 * EMAIL - email,
 * PHONE - номер телефону,
@@ -130,7 +130,14 @@ TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, ARE
 * RTP_QUANTITY - Кількість транспортної упаковки,
 * TRUCK_NUMBER - Номер рейсу
 * PACKING_LIST_NO - Номер товарної накладної
-* PACKING_LIST_DATE - Дата товарної накладної"
+* PACKING_LIST_DATE - Дата товарної накладної
+* NET_WEIGHT - маса нетто за товарною позицією
+* CAR_COLOR - колір авто
+* COUNTERPARTY_CODE - код контрагента
+* DRIVER_PASSPORT - паспортні дані водія
+* CERTIFICATE_NUMBER - номер сертифіката
+* DRIVER_PHONE - телефон водія
+* BASE_UOM - одиниця виміру кількості"
 STAKE,O,"enum (ORIGINATOR, RECIPIENT, TRANSPORTER_DRIVER, ORIGINATOR_DRIVER, TRANSPORTER_EXPEDITION, TRANSPORTER, CUSTOMER, CONSIGNOR, ANY)","запис учасника:
 
 * ORIGINATOR - Ініціатор
@@ -154,6 +161,6 @@ DATA,O,String,Дані запису
 **DECLAREXT**,,,"Додаткова інформація для учасників перевезення (закінчення блоку)"
 **SIGN_ENVELOPE**,,,"Обгортка документа Ініціатора - Вантажовідправника (закінчення блоку)"
 **SIGNATURE**,M,,"Підпис Ініціатора - Вантажовідправника (початок блоку)"
-OWNER,M,«ORIGINATOR»,"Власник підпису: Ініціатор - Вантажовідправник"
+OWNER,M,ORIGINATOR,"Власник підпису: Ініціатор - Вантажовідправник"
 SIGN,M,String,тіло підпису в base64
 **SIGNATURE**,,,"Підпис Ініціатора - Вантажовідправника (закінчення блоку)"
