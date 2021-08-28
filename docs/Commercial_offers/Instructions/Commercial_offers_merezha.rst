@@ -104,7 +104,7 @@
 .. image:: pics_Commercial_offers/Commercial_offers_007.png
    :align: center
 
-.. image:: pics_Commercial_offers/Commercial_offers_006.png
+.. image:: pics_Commercial_offers/Commercial_offers_013.png
    :align: center
 
 Можливо обрати параметр зі списку/підказки чи почати вводити пошукове значення (система автоматично вкаже на можливі параметри): 
@@ -117,6 +117,14 @@
 При складному пошуку усі параметри повині бути розділені комами, наприклад, ``Штрихкод: 768566858, #Прийнято``:
 
 .. image:: pics_Commercial_offers/Commercial_offers_012.gif
+   :align: center
+
+Для зручності пошуку пропозицій за категорією додатково винесено кнопку **"Фільтр по категоріям"**:
+
+.. image:: pics_Commercial_offers/Commercial_offers_017.png
+   :align: center
+
+.. image:: pics_Commercial_offers/Commercial_offers_016.png
    :align: center
 
 ----------------------------------

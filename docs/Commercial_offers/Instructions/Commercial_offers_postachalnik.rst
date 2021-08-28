@@ -119,6 +119,13 @@
 .. image:: pics_Commercial_offers/Commercial_offers_012.gif
    :align: center
 
+Для зручності пошуку пропозицій за категорією додатково винесено кнопку **"Фільтр по категоріям"**:
+
+.. image:: pics_Commercial_offers/Commercial_offers_015.png
+   :align: center
+
+.. image:: pics_Commercial_offers/Commercial_offers_014.png
+   :align: center
 
 ----------------------------------
 
