@@ -69,6 +69,14 @@ EDIN-DISTRIBUTION — це комплексне електронне рішен�
 .. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_04_2.png
    :align: center
 
+За допомогою зручного рядка пошуку можливо тонко відібрати потрібних контрагентів; доступні ключі пошуку:
+
+.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_006.png
+   :align: center
+
+.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_007.png
+   :align: center
+
 Створення Замовлення по прайсу
 ===================================
 

@@ -1,7 +1,7 @@
 Параметр,Обов'язкове / необов'язкове поле,Формат,Опис
 .. _StorageQuery: ,, Об'єкт **StorageQuery** ,
-**extraParams**, ,List<ExtraQueryParameters_>,масив об'єктів;
-**multiExtraParams**, ,List<ExtraQueryParameters_>,масив об'єктів;
+**extraParams**, ,List<ExtraQueryParameters_>,масив об'єктів; набір індексів
+**multiExtraParams**, ,List<ExtraQueryParameters_>,масив об'єктів; мультиіндекс (може приймати масив параметрів з масивами значень для кожного з параметрів)
 **type**,О,List<XDocType_>,"масив об'єктів; список типів документів: 0 - всі типи, 1/2/3 ... і більше - конкретний тип документа"
 **statuses**,О,**List<Integer>**,"масив; список статусів (станів) документів, за якими буде відбуватися відбір:
 
