@@ -140,6 +140,12 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_020.png
    :align: center
 
+---------------------------------
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для DESADV_TTN
+   :end-before: .. кінець блоку для DESADV_TTN
+
 1.2 Формування "Видаткової накладної" (COMDOC_006). Сторона Постачальника
 -----------------------------------------------------------------------------------------------------------------------------
 
