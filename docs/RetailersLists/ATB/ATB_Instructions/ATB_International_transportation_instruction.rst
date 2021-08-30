@@ -258,6 +258,12 @@
 .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_030.png
    :align: center
 
+--------------------------------------
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для DESADV_TTN
+   :end-before: .. кінець блоку для DESADV_TTN
+
 .. _condra-form:
 
 4 Формування "Універсального документа" (CONDRA). Сторона Постачальника

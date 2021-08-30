@@ -100,4 +100,24 @@
 
 -----------------------------
 
+.. початок блоку для DESADV_TTN
+
+Якщо у користувача (Постачальника) є доступ до сервісу "ЕТТН", то за допомогою вже відправленого "Повідомлення про відвантаження" (DESADV) можливо створити та відправити в Мережу документ "ТТН":
+
+.. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0./DESADV_na_EDI_Network_07.png
+   :align: center
+
+При цьому деякі поля створюваного документа автоматично заповнюються полями з документа підстави ("Повідомлення про відвантаження" (DESADV)):
+
+.. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0./DESADV_na_EDI_Network_07.gif
+   :align: center
+
+Кількість створених ТТН на підставі одного DESADV необмежено. Детальніше про `створення ТТН <https://wiki.edin.ua/uk/latest/ETTN_2_0/Creation_signing_ending_rejection_ETTN_shipper.html>`__ за посиланням.
+
+.. кінець блоку для DESADV_TTN
+
+-----------------------------
+
 .. include:: kontakti.rst
+
+
