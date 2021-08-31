@@ -304,24 +304,6 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_81.png
    :align: center
 
-.. _without-sign:
-
-**1.1.4 Схема "е-ТТН без ЕЦП/КЕП"**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. note::
-   Деякі контрагенти мають відмінну схему роботи з е-ТТН, наприклад, ТОВ "СІЛЬПО-ФУД", коли підписання не є обов'язковим чи навіть повністю виключеним з документообігу:
-
-   .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_91.png
-      :align: center
-
-   При цьому у відправленому непідписаному документі е-ТТН в статусі "Чернетка" у відправника є можливість **"Замінити ТТН"**:
-
-   .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_92.png
-      :align: center
-
-   При **"Заміні ТТН"** виконується копіювання всіх даних документа для подальшого редагування, а в додаткові поля записується посилання на документ, який буде замінено.
-
 --------------------------------
 
 .. include:: kontakti.rst
