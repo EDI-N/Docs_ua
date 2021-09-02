@@ -6,25 +6,27 @@
     <C_DOC_VER>01</C_DOC_VER>
   </DECLARHEAD>
   <DECLARBODY>
-    <HNUM>Добро2</HNUM>
+    <HNUM>пїЅпїЅпїЅпїЅпїЅ2</HNUM>
     <HFILL>2021-05-21</HFILL>
-    <R01G10S>покілометровий тариф</R01G10S>
-    <R01G1S>Тестовая марка</R01G1S>
-    <R01G2S>АА0000АА</R01G2S>
-    <R01G3S>Тестовый тип</R01G3S>
-    <R01G11S>Тестовая модель </R01G11S>
-    <R02G3S>Васян Вася Васильович</R02G3S>
+    <R01G10S>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</R01G10S>
+    <R01G1S>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</R01G1S>
+    <R01G2S>пїЅпїЅ0000пїЅпїЅ</R01G2S>
+    <R01G3S>СѓРєСѓРє</R01G3S>
+    <R02G31S>Р°Р°Р°Р°Р°Р°Р°Р°</R02G31S>
+    <R02G32S>РєРєРєРєРєРєРєРєРє</R02G32S>
+    <R01G11S>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ </R01G11S>
+    <R02G3S>пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</R02G3S>
     <R02G4S>GHJ000000</R02G4S>
     <R02G5S>380000000000</R02G5S>
     <DRIVER_ID>2222222222</DRIVER_ID>
     <R02G11S>31600022</R02G11S>
-    <R02G1S>ТОВ &quot;Перевiзник&quot;</R02G1S>
+    <R02G1S>пїЅпїЅпїЅ &quot;пїЅпїЅпїЅпїЅпїЅiпїЅпїЅпїЅпїЅ&quot;</R02G1S>
     <R02G12S>Kyiv, Street 6</R02G12S>
     <R02G21S>31600017</R02G21S>
-    <R02G2S>Компанiя &quot;Вантажовiдправник&quot;</R02G2S>
+    <R02G2S>пїЅпїЅпїЅпїЅпїЅпїЅiпїЅ &quot;пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅiпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&quot;</R02G2S>
     <R02G22S>Kyiv, Kyiv</R02G22S>
     <HTIN>31600017</HTIN>
-    <HNAME>Компанiя &quot;Вантажовiдправник&quot;</HNAME>
+    <HNAME>пїЅпїЅпїЅпїЅпїЅпїЅiпїЅ &quot;пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅiпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&quot;</HNAME>
     <HLOC>Kyiv, Kyiv</HLOC>
     <R03G10S>1</R03G10S>
     <R03G11S>2021-05-21</R03G11S>
@@ -37,17 +39,17 @@
     <R08G13S>1843.20</R08G13S>
     <R08G14S>fixed</R08G14S>
     <R09G1S>50.0</R09G1S>
-    <R010G1S>Жмих</R010G1S>
+    <R010G1S>пїЅпїЅпїЅпїЅ</R010G1S>
     <T4RXXXXG11S ROWNUM="1">31600038</T4RXXXXG11S>
-    <T4RXXXXG12S ROWNUM="1">Компанiя &quot;Вантажоотримувач&quot;</T4RXXXXG12S>
+    <T4RXXXXG12S ROWNUM="1">пїЅпїЅпїЅпїЅпїЅпїЅiпїЅ &quot;пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&quot;</T4RXXXXG12S>
     <T4RXXXXG13S ROWNUM="1">Kyiv, Street2</T4RXXXXG13S>
-    <T4RXXXXG21S ROWNUM="1">Київ, вул. Леніна, 65</T4RXXXXG21S>
+    <T4RXXXXG21S ROWNUM="1">пїЅпїЅпїЅ, пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ, 65</T4RXXXXG21S>
     <T4RXXXXG22S ROWNUM="1">7425355100</T4RXXXXG22S>
     <T4RXXXXG23S ROWNUM="1">2021-05-21</T4RXXXXG23S>
     <T4RXXXXG24S xsi:nil="true" ROWNUM="1"/>
     <T4RXXXXG25S xsi:nil="true" ROWNUM="1"/>
     <T4RXXXXG26S xsi:nil="true" ROWNUM="1"/>
-    <T4RXXXXG31S ROWNUM="1">Одесса, Одесская 34</T4RXXXXG31S>
+    <T4RXXXXG31S ROWNUM="1">пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 34</T4RXXXXG31S>
     <T4RXXXXG32S ROWNUM="1">5110100000</T4RXXXXG32S>
     <T4RXXXXG33S ROWNUM="1">2021-05-21</T4RXXXXG33S>
     <T4RXXXXG34S xsi:nil="true" ROWNUM="1"/>
