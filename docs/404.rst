@@ -27,7 +27,7 @@
          </div>
       </div>
       <canvas id="canvas-404" class="ag-canvas-404"></canvas>
-      <img class="ag-canvas-404_img" src="https://vodafone-wd.readthedocs.io/uk/latest/_static/smoke.png">
+      <img class="ag-canvas-404_img" src="https://wiki.edin.ua/uk/latest/_static/smoke.png">
    </div>
    </div>
    <p><a href="https://wiki.edin.ua">До головної сторінки :)</a></p>
