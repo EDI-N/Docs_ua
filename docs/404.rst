@@ -11,7 +11,7 @@
    <!DOCTYPE html>
    <html>
    <head>
-   <script src="galaga.js"></script>
+   <script src="frog_404.js"></script>
    </head>
    <body>
    <div class="container" id="fore-particles">
