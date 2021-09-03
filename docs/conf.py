@@ -134,7 +134,6 @@ def setup(app):
     app.add_stylesheet('theme_overrides.css')
     app.add_javascript('ultra_custom.js')
     app.add_javascript('galaga.js')
-    app.add_javascript('toaster_404.js')
 
 # Для Сворачивания текста: если вдруг contentui.js перестанет отрабатывать, то можно еще добавить в список app.add_javascript('ShowHide.js')
 
