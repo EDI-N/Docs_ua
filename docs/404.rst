@@ -10,27 +10,8 @@
 
    <!DOCTYPE html>
    <html>
-   <head>
-   <script src="toaster_404.js"></script>
-   </head>
    <body>
-   <div class="ag-page-404">
-   <div class="ag-toaster-wrap">
-      <div class="ag-toaster">
-         <div class="ag-toaster_back"></div>
-         <div class="ag-toaster_front">
-         <div class="js-toaster_lever ag-toaster_lever"></div>
-         </div>
-         <div class="ag-toaster_toast-handler">
-         <div class="ag-toaster_shadow"></div>
-         <div class="js-toaster_toast ag-toaster_toast js-ag-hide"></div>
-         </div>
-      </div>
-      <canvas id="canvas-404" class="ag-canvas-404"></canvas>
-      <img class="ag-canvas-404_img" src="https://wiki.edin.ua/uk/latest/_static/smoke.png">
-   </div>
-   </div>
-   <p><a href="https://wiki.edin.ua">До головної сторінки :)</a></p>
+   <img alt="sleeping-kitten" itemprop="image" data-src="https://wiki.edin.ua/uk/latest/_static/404-animated.gif" class="fl-photo-img wp-image-11837 size-full lazyloaded" src="https://wiki.edin.ua/uk/latest/_static/sleeping-kitten.gif" title="sleeping-kitten" width="946" height="530"><noscript><img class="fl-photo-img wp-image-11837 size-full" src="https://wiki.edin.ua/uk/latest/_static/sleeping-kitten.gif" alt="sleeping-kitten" itemprop="image" height="530" width="946" title="sleeping-kitten"  /></noscript>
    </body>
    </html>
 
