@@ -1277,8 +1277,8 @@ ToDo
 =========================================================================================================================
 
 .. include:: /WhiteDoc/WD_Instructions/WD_signing/WD_signing.rst
-   :start-after: .. початок блоку для Signing
-   :end-before: .. кінець блоку для Signing
+   :start-after: .. початок блоку для WD_Signing
+   :end-before: .. кінець блоку для WD_Signing
 
 ToDo
 
