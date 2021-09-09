@@ -8,6 +8,7 @@ id параметра, Найменування параметра,Обов'яз
 7, ftpex_file_date ,, INT, дата/час відправки документа по FTP
 8, inv_date ,, INT, дата документа invrpt (Звіт про інвентаризацію)
 9, inv_num ,, VARCHAR, номер документа invrpt (Звіт про інвентаризацію)
+10, error_code ,, INT, код помилки документообігу
 11, sub_doc_type_id ,, INT, id підтипу документа ( опис_підтипів_ )
 12, sub_status_id ,, INT, id статусу документа (`детальніше <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__); характеризує стан ланцюжка документів 
 13, action ,, VARCHAR, "статус/стан документа за здійсненими діями користувача;
@@ -74,7 +75,7 @@ id параметра, Найменування параметра,Обов'яз
 33, doc_start_date ,, VARCHAR, початок терміну підписання документа
 34, doc_end_date ,, VARCHAR, закінчення терміну підписання документа
 35, delivery_note_number ,, VARCHAR, номер накладної
-42, contract_gln ,, VARCHAR, GLN місце доставки при товарному узгодженні (Agreem-> Comdoc)
+42, contract_gln ,, VARCHAR, GLN місце доставки при товарному узгодженні (Agreem->Comdoc) для сервісу Е-Специфікація. Також для EDI сервісу в нього пишеться поле ContractGLN з документа Метро 7а 
 43, doc_date ,, INT, дата з документа
 44, delivery_agreement_number ,, VARCHAR, кількість узгоджень
 45, delivery_agreement_date ,, INT, дата узгодження
@@ -107,3 +108,4 @@ id параметра, Найменування параметра,Обов'яз
 137, branch_uuid,, VARCHAR, uuid «гілки поставки» (АТБ COMDOC+DESADV)
 , parent_doc_uuid, ,VARCHAR, uuid початкової е-ТТН (записується при заміні відправленої чернетки)
 139, format_version, ,VARCHAR, номер версії (поле C_DOC_VER) з Податкової накладної (DECLAR) чи Коригування до податкової накладної (DECLARj12)
+149, post_start_date, ,[yyyy-MM-dd], дата дедлайну для документів Метро 7а
