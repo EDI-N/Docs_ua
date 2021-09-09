@@ -641,6 +641,18 @@ XML Специфікації
 
 :download:`Приклад DOCINVOICEACT<examples/DOCINVOICEACT_example.xml>`
 
+---------
+
+Додаток до договору 7А (METRO_7A)
+=============================================
+
+.. csv-table:: Додаток до договору 7А (METRO_7A) 
+  :file: files/METRO_7A.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад METRO_7A<examples/METRO_7A_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
