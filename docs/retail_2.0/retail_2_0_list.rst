@@ -20,6 +20,7 @@
    formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin
    formuvannia__Tovarnoi_i_Podatkovoi_nakladnoi_Metro
    formirovanie_COMDOC_027_na_EDI_Network_2_0
+   Metro_7a_instruction
    formirovanie_Tovarnogo_dovidnyka
    Factoring_instruction_EDIN_2_0
    Create_and_send_reconciliation_act_COMDOC_029
