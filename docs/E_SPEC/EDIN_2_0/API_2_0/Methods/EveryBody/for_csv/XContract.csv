@@ -1,6 +1,6 @@
 Параметр, Формат, Опис
 .. _XContract: , Об'єкт **XContract** ,
-products,List<XContractProduct>_,"список товарних позицій"
+**products**,List<XContractProduct_>,"список товарних позицій"
 id,long,id контракту / договору;
 uuid,UUID,GUID контракту / договору; число
 retailerId,long,id мережі (ритейлера);
