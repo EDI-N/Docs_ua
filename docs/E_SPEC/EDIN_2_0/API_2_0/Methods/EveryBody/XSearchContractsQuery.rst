@@ -37,8 +37,8 @@
 Таблиця 2 - Опис параметрів об'єкта **Direction**
 
 .. csv-table:: 
-  :file: ../../../../../API_ETTN/Methods/EveryBody/for_csv/Direction.csv
-  :widths:  1, 7, 12, 41
+  :file: for_csv/Direction.csv
+  :widths:  10, 5, 41
   :header-rows: 1
   :stub-columns: 0
 

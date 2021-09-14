@@ -1,7 +1,15 @@
-Параметр, Формат, Опис
-.. _XAgreemDoc: , Об'єкт **XAgreemDoc** ,
-body,"Map<Integer, byte[]>",тіло документа
-indexes,"Map<String, String>","набір параметрів для фільтрації
+Параметр,Формат,Опис
+.. _Index: ,, Об'єкт **Index** ,
+operator,"enum (AND, OR)","тип оператора;
+
+* AND - відбираються всі документи, в яких збігаються всі зазначені параметри type + fieldName + value
+* OR - відбираються документи, в яких збігаються АБО fieldName АБО value"
+type,"enum (MORE, EQUALS, LIKE)","тип документа;
+
+* LIKE - Пошук по повному або частковому збігу. Для часткового пошуку, використовуеться символ '+'. Приклад: 'Номер: 123+' - будуть знайдені всі документи які починаються з 123
+* EQUALS - відбираються тільки документи в яких збігаються зазначені значення параметрів fieldName + value
+* MORE - відбираються документи з числовим значенням value більше вказаного"
+fieldName,String,"назва параметра, за яким буде здійснюватись фільтрація
 
 * isComments (boolean) - документ має коментар/-і;
 * isSigns (boolean) - документ має підписи;
@@ -22,19 +30,4 @@ indexes,"Map<String, String>","набір параметрів для фільт
 * lastSignDate () - дата останнього підписання;
 * afterDeadline (boolean) - Заявка на участь в акції була подана після встановленого дедлайну;
 * rejection_reason (String) - причина відхилення"
-childs,List<XAgreemDoc>, дочірні документи
-id,long,id документу
-uuid,UUID,GUID документу
-parentDocId,transient long,"id батьківського документу; число"
-parentDocUUID,UUID,"GUID батьківського документу"
-sender,long,"GLN відправника; число"
-recipient,long,"GLN одержувача; число"
-retailerId,long,"id мережі (ритейлера); число"
-contractUUID,UUID,"GUID контракту / договору"
-status,XAgreemDocStatus_ ,"статус узгодження; число"
-type,int,"тип документа (статус документообігу); 1-AGREEM; 2-AGREEM (Add SKU); 3-PRODLIST; 4-COMDOC; число"
-dateCreated,long,"дата створення документа; число"
-dateChanged,long,"дата зміни документа; число"
-docDate,long,"дата з документу; число"
-docNumber,String,номер документу
-isArchive,Boolean,"відмітка про те, що документ оброблений (архівний)"
+value,String,значення поля fieldName

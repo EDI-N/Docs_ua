@@ -1,4 +1,11 @@
 Параметр, Формат, Опис
 .. _XAgreemDocStatus: , Об'єкт **XAgreemDocStatus** ,
 id,int,id статусу
+
+* 1 - draft - Чернетка;
+* 3 - onagreement - На узгодженні;
+* 4 - rejected - Відхилено;
+* 6 - onsigning2 - Підписання постачальником;
+* 7 - completed - Завершено"
 name,String,назва статусу
+description,String,опис статусу
