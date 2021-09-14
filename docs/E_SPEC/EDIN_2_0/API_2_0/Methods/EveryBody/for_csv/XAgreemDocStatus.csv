@@ -1,6 +1,6 @@
 Параметр, Формат, Опис
 .. _XAgreemDocStatus: , Об'єкт **XAgreemDocStatus** ,
-id,int,id статусу
+id,int,"id статусу
 
 * 1 - draft - Чернетка;
 * 3 - onagreement - На узгодженні;
