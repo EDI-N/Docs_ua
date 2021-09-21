@@ -2,6 +2,41 @@
 **Авторизація**
 ######################
 
+
+
+
+
+
+
+.. include:: /integration_2_0/APIv2/Methods/Authorization.rst
+   :start-after: .. початок блоку для Authorization
+   :end-before: .. кінець блоку для Authorization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Після підключення послуги для роботи з API, користувач отримує логін і пароль для авторизації.
 
 .. csv-table:: 
