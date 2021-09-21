@@ -12,7 +12,7 @@
 Після підключення послуги для роботи з API, користувач отримує логін і пароль для авторизації.
 
 .. csv-table:: 
-  :file: /integration_2_0/APIv2/Methods/Authorization.csv
+  :file: ../integration_2_0/APIv2/Methods/Authorization.csv
   :widths:  10, 41
   :stub-columns: 0
 
