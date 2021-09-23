@@ -82,6 +82,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Особистий кабінет
 
    Personal_Cabinet/PCInstruction
+   API_PC/API_PC_list
 
 .. toctree::
    :maxdepth: 2
