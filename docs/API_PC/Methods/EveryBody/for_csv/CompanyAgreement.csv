@@ -1,0 +1,11 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _CompanyAgreement: , Об'єкт **CompanyAgreement**,,
+id,,long,id договору
+companyUUID,M,UUID,UUID компанії
+counterpartyCompanyUUID,M,UUID,UUID контрагента
+date,M,long,дата договору (Unix timestamp)
+number,M,String,номер договору
+type,O,int,"id типу договору; число
+
+* 0 - не выбрано
+* 1 - Договір перевезення"
