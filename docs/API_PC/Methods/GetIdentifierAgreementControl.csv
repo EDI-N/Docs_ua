@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET                                         
+URL запиту    , **/api/oas/identifier/agreement?agreement_id=71**
+URL параметри ,"**agreement_id** (обов'язково) int - ідентифікатор договору"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , application/json

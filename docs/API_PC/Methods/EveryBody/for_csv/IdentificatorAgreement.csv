@@ -1,0 +1,13 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _IdentificatorAgreement: , Об'єкт **IdentificatorAgreement**,,
+id,,long,id договору
+gln,M,String,GLN
+retailerId,M,long,id мережі
+date,M,long,дата договору (Unix timestamp)
+number,M,String,номер договору
+type,O,int,"id типу договору; число
+
+* 0 - не выбрано
+* 1 - Договір поставки
+* 2 - Договір маркетингу
+* 3 - Договір послуг"
