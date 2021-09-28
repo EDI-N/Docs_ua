@@ -1,0 +1,16 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/ettn/v2/eds/doc/processing_status?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&status=101**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**status** (обов'язково) String - статус обробки ТТН; допустимі значення:
+
+* 101 - без помилок
+* 102 - з помилками"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається текстовий коментар."
