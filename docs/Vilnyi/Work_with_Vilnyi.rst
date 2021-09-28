@@ -411,6 +411,11 @@
    .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_100.png
       :align: center
 
+В випадку підписання документа Відправником (після відправки документа) на Email приходить повідомлення всім Отримувачам:
+
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_110.png
+   :align: center
+
 Після відправки документа контрагентам він відображається в журналі надісланих документів і має статус **Очікує підпису** (кнопки додавання файлів та підписання не активні):
 
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_56.png
@@ -549,6 +554,11 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_32.png
    :align: center
 
+При підписанні документа Отримувачем на email Відправника приходить лист-сповіщення:
+
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_108.png
+   :align: center
+
 Документообіг завершуєтся, коли документ змінює свій статус на **"Підписано"**.
 
 **8.1 Відхилення вхідного документа**
@@ -572,6 +582,11 @@
 .. Відхилений документ можливо лише **"Переслати"** (кнопки відхилення файлів та підписання не активні):
 
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_43.png
+   :align: center
+
+При відхиленні документа на email Відправника приходить лист-сповіщення:
+
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_109.png
    :align: center
 
 Документообіг завершено.
