@@ -9,6 +9,7 @@ CONTRACTGLN, M, Число (13), GLN контракту
 CAMPAIGNNUMBER, M, Рядок (20), Номер договору
 CAMPAIGNDATE, M, Дата (РРРР-ММ-ДД), Дата договору
 REVIEWDEADLINE, О, Число (3), Термін подачі на розгляд
+PROMO_REVIEWDEADLINE, О, Число (3), Термін подачі на розгляд (промо)
 AGREEMENTNUMBER, О, Число (3), Допустима кількість погоджень
 DISCOUNTWORKSTATUS, M,"0,1","Робота з ціною зі знижкою: 0 - ні, 1 - так"
 PROLONGATIONCONTRACT, O, Число,"Автоматична пролонгація контракту: 0 - ні, 1 - так"
