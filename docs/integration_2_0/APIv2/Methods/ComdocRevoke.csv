@@ -11,4 +11,4 @@ Content-Type  , *application/pkcs7-signature* or *application/xml*
 JSON Body     ,"В тілі запиту методу можуть передаватись:
 
 * при *Content-Type=application/pkcs7-signature* підписані дані p7s в бінарному вигляді;
-* при *Content-Type=application/application/xml* непідписаний xml (`COMDOC_021 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-021>`__) в бінарному вигляді."
+* при *Content-Type=application/xml* непідписаний xml (`COMDOC_021 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-021>`__) в бінарному вигляді."
