@@ -15,6 +15,10 @@
 
 .. |green_house| image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_55.png
 
+.. |doc_good| image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_95.png
+
+.. |doc_bad| image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_94.png   
+
 .. contents:: Зміст:
    :depth: 6
 
@@ -355,7 +359,7 @@
 
 Користувач може скористатись функціоналом для "Друку", "Завантаження" чи "Клонування" (1); також у разі виявлення помилки в документі у **"Вантажовідправника"** є можливість відхилити відправлену е-ТТН **до підписання "Перевізником"**. Для цього потрібно натиснути на кнопку "Відхилити" (2).
 
-**2 Відхилення документа**
+**3 Відхилення документа**
 ================================================
 
 Для того, щоб відхилити документ (доступно **до підписання "Перевізником"**) потрібно натиснути **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
@@ -371,7 +375,7 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_76.png
    :align: center
 
-**3 Створення документа на підставі чернетки Перевізника чи Вантажоотримувача**
+**4 Створення документа на підставі чернетки Перевізника чи Вантажоотримувача**
 ================================================================================================
 
 Існують схеми документообігу, в яких ініціатором виступає не **"Вантажовідправник"**, а **"Перевізник"** чи **"Вантажоотримувач"**. В такому випадку ініціатор створює та відправляє документ-чернетку, яку не потрібно підписувати. 
@@ -397,6 +401,31 @@
 Особливістю такого документообігу є те, що в ланцюжку документів присутня чернетка, як документ-ініціатор документообігу:
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_81.png
+   :align: center
+
+.. _doc-status:
+
+**5 Отримання статусу обробки е-ТТН від "Вантажоодержувача"**
+================================================================================================
+
+У "Вантажоодержувача" є можливість відправити статус обробки е-ТТН, що відображається позначкою в журналі відправлених е-ТТН:
+
+* |doc_good| - Документ без помилок
+* |doc_bad| - Документ з помилками
+
+Клік мишкою на значок викликає pop-up вікно з детальною інформацією:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_96.png
+   :align: center
+
+Статус обробки е-ТТН також відображається в самому документі:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_97.png
+   :align: center
+
+Про відправку такого статусу співробітники "Вантажовідправника" будуть проінформовані на email:
+
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_98.png
    :align: center
 
 --------------------------------
