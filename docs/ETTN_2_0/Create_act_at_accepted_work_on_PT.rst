@@ -56,6 +56,14 @@
 .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_006.png
    :align: center
 
+Поле "Дані договору" заповнюється автоматично, якщо з вказаним контрагентом вже є договір (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька або поки немає, то можливо обрати договір зі списку чи створити **"+Новий договір"** прямо в цьому документі:
+
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_031.png
+   :align: center
+
+.. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_032.png
+   :align: center
+
 Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з "Підтвердження транспортування" (документа-підстави):
 
 .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_007.png

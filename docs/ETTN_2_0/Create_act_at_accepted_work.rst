@@ -50,6 +50,14 @@
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_37.png
    :align: center
 
+Поле "Дані договору" заповнюється автоматично, якщо з вказаним контрагентом вже є договір (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька або поки немає, то можливо обрати договір зі списку чи створити **"+Новий договір"** прямо в цьому документі:
+
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_60.png
+   :align: center
+
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_61.png
+   :align: center
+
 Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з е-ТТН (документа-підстави):
 
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_38.png
@@ -164,7 +172,7 @@
    :align: center
 
 .. hint::
-    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work.html#sign>`__ .
+    Процес підписання **"Перевізником"** не відрізняється від підписання **"Вантажовідправником"** та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work.html#sign>`__.
 
 Після підписання документ змінює свій статус на **"Підписано замовником"** система повідомить про завершення документообігу інформаційним повідомленням в формі документу:
 
