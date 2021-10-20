@@ -217,6 +217,8 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_67.gif
    :align: center
 
+.. _files-add:
+
 **4.2 Додавання файлів**
 -------------------------------------------------
 
