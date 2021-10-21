@@ -1,5 +1,5 @@
 #############################################################
-**Категорії товарів (XProductGroup)**
+**Групи / категорії товарів (XProductGroup)**
 #############################################################
 
 **JSON:**
@@ -28,9 +28,8 @@
 Таблиця 1 - Опис параметрів
 
 .. csv-table:: 
-  :file: for_csv/XProductGroup.csv
+  :file: /Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
-
 
