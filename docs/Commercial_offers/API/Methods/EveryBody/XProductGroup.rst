@@ -171,6 +171,38 @@
 Таблиця 1 - Опис параметрів
 
 .. csv-table:: 
+  :file: ../../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+1
+
+.. csv-table:: 
+  :file: ../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+2
+
+.. csv-table:: 
+  :file: ../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+3
+
+.. csv-table:: 
+  :file: ../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+4
+
+.. csv-table:: 
   :file: ../../../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
   :widths:  1, 12, 41
   :header-rows: 1
