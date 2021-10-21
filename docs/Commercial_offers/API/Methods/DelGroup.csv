@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/products/group?gln=9864119011415&group_id=230**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**group_id** (обов'язково) long - ідентифікатор групи/категорії для видалення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__"
+Content-Type  , application/json

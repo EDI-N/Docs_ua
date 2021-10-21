@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , PUT
+URL запиту    , **/api/products/group?gln=9864119011415&group_name=Tralala&group_id=230**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**group_name** (обов'язково) String - назва нової групи / категорії; 
+
+**group_id** (обов'язково) long - ідентифікатор групи/категорії, що буде відредагована;
+
+**parrent_group_id** (опціонально) long - ідентифікатор вищого рівня в структурі (групи/категорії); За відсутності=0"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__ "
+Content-Type  , application/json
