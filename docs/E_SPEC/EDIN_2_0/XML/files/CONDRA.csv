@@ -4,7 +4,7 @@ DATE, O, Дата (РРРР-ММ-ДД), Дата відправки вкладе
 NUMBERDOCTO, O, Рядок (16), Номер AGREEM
 DATEDOCTO, O, Дата (РРРР-ММ-ДД), Дата AGREEM
 CONTRACTNUMBER, О, Рядок (16), Номер специфікації (CONTRACTNUMBER в AGREEM)
-COMPNUMBER,О, Рядок (1000), Номер договору (CAMPAIGNNUMBER в AGREEM)
+COMPNUMBER,O, Рядок (1000), Номер договору (CAMPAIGNNUMBER в AGREEM)
 **HEAD**,,, Початок основного блоку
 SENDER, M, Число (13), GLN відправника AGREEM
 RECIPIENT, M, Число (13), GLN одержувача AGREEM
