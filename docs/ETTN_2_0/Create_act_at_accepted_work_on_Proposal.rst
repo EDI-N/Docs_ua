@@ -52,7 +52,7 @@
    .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_005.png
       :align: center
 
-Поле "Дані договору" заповнюється автоматично, якщо з вказаним контрагентом вже є договір (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька або поки немає, то можливо обрати договір зі списку чи створити **"+Новий договір"** прямо в цьому документі:
+Поле "Дані договору" заповнюється автоматично, якщо з вказаним контрагентом вже є договір (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
 
 .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_031.png
    :align: center
