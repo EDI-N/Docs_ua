@@ -581,6 +581,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад AGREEM<../E_SPEC/EDIN_2_0/XML/examples/agreem_example.xml>`
+
 ---------
 
 Коригування до податкової накладної (DECLARj12)
