@@ -64,6 +64,7 @@ R08G14S,O,String,"спосіб тарифікації; допустимі зна
 R09G1S,O/M,double,кілометраж; поле обов'язкове при R08G14S=distance
 R010G1S,O,String,найменування вантажу (тут враховується загальний характер вантажу)
 R011G1S,O,String,додаткова інформація
+R011G2S,O,String,додаткова інформація від Перевізника
 **<T4RXXXXG10>** ROWNUM=«1» message=«value» **</T4RXXXXG10>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість місць
 **<T4RXXXXG15>** ROWNUM=«1» message=«value» **</T4RXXXXG15>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: маса брутто (кг)
 **<T4RXXXXG27S>** ROWNUM=«1» message=«value» **</T4RXXXXG27S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: вид транспорту
