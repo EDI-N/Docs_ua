@@ -56,13 +56,16 @@
 .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_006.png
    :align: center
 
-Поле "Дані договору" заповнюється автоматично, якщо з вказаним контрагентом вже є договір (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
+Поле "Дані договору" - номер/дата договору, на підставі якого створено документ (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
 
 .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_031.png
    :align: center
 
 .. image:: pics_Create_act_at_accepted_work_on_PT/Create_act_at_accepted_work_on_PT_032.png
    :align: center
+
+.. attention::
+   При створенні документа шляхом `клонування <https://wiki.edin.ua/uk/latest/ETTN_2_0/Work_with_ETTN.html#doc-clone>`__ поле "Дані договору" заповнюється автоматично лише за наявності цього договору в `"Особистому кабінеті" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__.
 
 Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з "Підтвердження транспортування" (документа-підстави):
 
