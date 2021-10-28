@@ -1083,7 +1083,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_158.png
    :align: center
 
-По всім заявкам :orange:`На розгляді` Мережа кожного понеділка буде отримувати лист-нагадування на контактний email:
+По всім заявкам :orange:`На розгляді` Мережа кожного понеділка о 10:00 буде отримувати лист-нагадування на контактний email:
 
 .. image:: pics_PCInstruction/PCInstruction_164.png
    :align: center
