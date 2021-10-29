@@ -10,3 +10,67 @@
    :depth: 2
 
 ---------
+
+"Накладна за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) є юридично значущим документом (ЮЗД) і може використовуватись при роботі з мережею Фоззі в схемі документообігу "Match Invoice". "Накладна за кількістю" може бути створена Постачальником на підставі вхідного "Замовлення" (ORDER).
+
+.. `XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/XML/Fozzy_XML-structure.html>`__
+
+1 Формування "Накладної за кількістю" на підставі вхідного "Замовлення" (ORDER)
+====================================================================================================================================
+
+Для формування "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) на підставі "Замовлення" (ORDER) потрібно перейти в розділ "Вхідні" та обрати потрібний документ. Для зручності можливо скористатись пошуком (за типом документа (приклад в зображенні), номером документа чи GLN):
+
+.. prn_pic
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_001.png
+   :align: center
+
+У відкритому документі на формі-підказці виберіть зі списку **"Накладна за кількістю"**:
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_001.png
+   :align: center
+
+Після чого на підставі "Замовлення" (ORDER) автоматично створюється "Накладна за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN). На формі створюваного документа значення більшості полів заповняться (пененесутся) з документа-підстави. Всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_002.png
+   :align: center
+
+Дані позицій можливо відредагувати та **"Змінити"** через pop-up вікно, що відкривається по кліку на штрихкод товару:
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_003.png
+   :align: center
+
+Також можливо **"Видалити"** товарні позиції з табличної частини документа:
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_004.png
+   :align: center
+
+До табличної частини "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) можливо додавати лише ті позиції, що були вказані в "Замовленні" (вибрати зі списку). Якщо всі позиції співпадають з позиціями в "Замовленні" (ORDER), то в табличній частині кнопка **"+Додати"** не відображається:
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_005.png
+   :align: center
+
+Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_006.png
+   :align: center
+
+.. _sign:
+
+1.1 Підписання та відправка "Накладної за кількістю"
+--------------------------------------------------------------------------------------------------
+
+.. include:: /_constant/signing/signing.rst
+   :start-after: .. початок блоку для Signing
+   :end-before: .. кінець блоку для Signing
+
+Після підписання "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) документ потрібно **"Відправити"**:
+
+.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_007.png
+   :align: center
+
+Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в ланцюжку документів разом із пов'язаними документами. Мережа Фоззі зі своєї сторони переглядає та підписує документ.
+
+------------------------------------------------
+
+.. include:: /_constant/kontakti.rst
