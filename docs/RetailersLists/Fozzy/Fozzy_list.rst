@@ -6,6 +6,7 @@ Fozzy
    :maxdepth: 1
    
    Fozzy_Instructions/Fozzy_ORDRSP_instruction
+   Fozzy_Instructions/Fozzy_IFTMIN_instruction
    Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction
    Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_TN_instruction
 
