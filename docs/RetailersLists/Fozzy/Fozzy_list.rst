@@ -2,15 +2,23 @@ Fozzy
 #############################################
 
 .. toctree::
+   :caption: Робота з мережею Фоззі за схемою "Match Invoice"
+   :maxdepth: 1
+   
+   Fozzy_Instructions/Fozzy_ORDRSP_instruction
+   Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction
+   Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_TN_instruction
+
+.. toctree::
    :maxdepth: 1
    
    Fozzy_XML-structure
 
-.. uml::
-   :scale: 100 %
-   :align: center
 
-	@startuml
+
+
+
+.. 	@startuml
 	skinparam componentStyle rectangle
 	skinparam groupInheritance 1
 	left to right direction
@@ -56,10 +64,3 @@ Fozzy
 	DOCCORINVOICE_PRNp --> DOCCORINVOICE_PRNf
 	DOCCORINVOICE_TNp --> DOCCORINVOICE_TNf
 	@enduml
-
-.. toctree::
-   :maxdepth: 1
-   
-   Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction
-   Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_TN_instruction
-   
