@@ -13,7 +13,7 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDER<Fozzy_XML/examples/ORDER_example.xml>`
+:download:`Приклад ORDER<Fozzy_XML/examples/ORDERS_example.xml>`
 
 ---------
 
