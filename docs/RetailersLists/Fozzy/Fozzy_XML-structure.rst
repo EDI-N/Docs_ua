@@ -63,6 +63,18 @@ XML Специфікації для роботи з мережею "Фоззі"
 
 :download:`Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN_example.xml>`
 
+---------
+
+Коригування до товарної накладної (DOCCORINVOICE)
+=============================================================
+
+.. csv-table:: "Коригування до товарної накладної" (DOCCORINVOICE) можливо створити лише коли в ланцюжку документів вже є COMDOC_009 від мережі (Фоззі)
+  :file: Fozzy_XML/files/DOCCORINVOICE.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад DOCCORINVOICE<Fozzy_XML/examples/DOCCORINVOICE_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
