@@ -3,7 +3,7 @@ Type of certificate,Сертифікат виданий центром серт�
 Certificate validity period,RSA Encryption
 Type of public key,2048 bit
 Encryption algorithm,3DES
-Notification method,Asynchronous
+Notification method,Synchronous
 Certification type,Signed detached encrypted
 Algorithm used for electronic signature,"SHA1, SHA256"
 Compression of documents,No
