@@ -22,7 +22,7 @@
 .. image:: pictures/schema_Fozzy.png
    :align: center
 
-.. `XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/XML/Fozzy_XML-structure.html>`__
+`XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/RetailersLists/Fozzy/Fozzy_XML-structure.html>`__
 
 1 Формування "Підтвердження замовлення" (ORDRSP) на підставі вхідного "Замовлення" (ORDER)
 ====================================================================================================================================

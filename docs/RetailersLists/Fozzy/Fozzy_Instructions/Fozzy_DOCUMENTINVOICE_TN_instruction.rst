@@ -13,7 +13,7 @@
 
 "Накладна за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) є юридично значущим документом (ЮЗД) і може використовуватись при роботі з мережею Фоззі в схемі документообігу "Match Invoice". "Накладна за кількістю" може бути створена Постачальником на підставі вхідного "Замовлення" (ORDER).
 
-.. `XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/XML/Fozzy_XML-structure.html>`__
+`XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/RetailersLists/Fozzy/Fozzy_XML-structure.html>`__
 
 Загальна схема документообігу:
 
