@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document-Invoice>
+  <Invoice-Header>
+    <InvoiceNumber>98</InvoiceNumber>
+    <InvoiceDate>2021-09-24</InvoiceDate>
+    <DocumentFunctionCode>CTN</DocumentFunctionCode>
+    <ContractNumber>26537</ContractNumber>
+    <ContractDate>2015-10-01</ContractDate>
+    <CorrectionReason>NAC</CorrectionReason>
+  </Invoice-Header>
+  <Invoice-Reference>
+  <Order>
+    <buyerOrderNumber>257898</buyerOrderNumber>
+    <buyerOrderDate>2021-10-01</buyerOrderDate>
+  </Order>
+  <DeliveryNote>
+    <DeliveryNoteNumber>12<DeliveryNoteNumber>
+    <DeliveryNoteDate>2021-10-02<DeliveryNoteDate>
+  </DeliveryNote>
+  </Invoice-Reference>
+  <Invoice-Parties>
+      <Buyer>
+      <Name>ООО «СИЛЬПО-Фуд»</Name>           
+      <TaxID>407201926538</TaxID> 
+      <UtilizationRegisterNumber>40720198</UtilizationRegisterNumber>
+      <ILN>9991027100105</ILN>       
+    </Buyer>
+    <Seller>
+      <Name>ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛНІСТЮ ФІТОР КО</Name> 
+      <TaxID>371174626531</TaxID>
+      <UtilizationRegisterNumber>37117467</UtilizationRegisterNumber>      
+      <ILN>4823082900008</ILN>
+    </Seller>
+    <DeliveryPoint>
+      <ILN>4824034999996</ILN>
+      <Name>Р КВІТНЕВЕ Гоголівска вул.1-А</Name>
+      <CityName>Броварской р-н, с. Квитневе</CityName>    
+      <StreetAndNumber>ул. Гоголевская, 1а</StreetAndNumber>
+      <PostalCode>7402</PostalCode>              
+    </DeliveryPoint>
+    <Payer>
+      <ILN>9991027100105</ILN>
+      <Name>ООО «СИЛЬПО-Фуд»</Name>
+      <CityName>Київ</CityName>  
+      <StreetAndNumber>Бутлерова,1</StreetAndNumber>
+      <PostalCode>7402</PostalCode>   
+    </Payer>
+  </Invoice-Parties>
+  <Invoice-Lines>
+    <Line>
+      <Line-Item>
+        <LineNumber>1</LineNumber>
+        <EAN>4820999580999</EAN>
+        <BuyerItemCode>157625001001</BuyerItemCode>
+        <ItemDescription>Свічка</ItemDescription>
+        <InvoiceQuantity>18</InvoiceQuantity>        
+        <BuyerUnitOfMeasure>PCE</BuyerUnitOfMeasure>
+        <ExternalItemCode>3406002000</ExternalItemCode>
+        <InvoiceUnitNetPri0ce>39.35</InvoiceUnitNetPrice>
+        <UnitGrossPrice>47.22</UnitGrossPrice>
+        <TaxRate>20</TaxRate>
+        <TaxAmount>141.66</TaxAmount>
+        <NetAmount>708.30</NetAmount>
+        <GrossAmount>849.96</GrossAmount>
+        <CorrectionInvoiceQuantity>17</CorrectionInvoiceQuantity>
+        <CorrectionNetAmount>668.95<CorrectionNetAmount>
+        <CorrectionTaxAmount>133.79<CorrectionTaxAmount>
+        <CorrectionGrossAmount>802.74<CorrectionGrossAmount>
+      </Line-Item>
+    </Line>
+  </Invoice-Lines>
+  <Invoice-Summary>
+    <TotalLines>1</TotalLines>
+    <TotalNetAmount>708.30</TotalNetAmount>
+    <TotalTaxAmount>141.66</TotalTaxAmount>
+    <TotalGrossAmount>849.96</TotalGrossAmount>
+  <Tax-Summary>
+    <Tax-Summary-Line>
+      <CorrectionTaxAmount>141.66<CorrectionTaxAmount>
+      <CorrectionTaxableAmount>708.30<CorrectionTaxableAmount>
+      <CorrectionGrossAmount>849.96<CorrectionGrossAmount>
+    </Tax-Summary-Line>
+  </Tax-Summary>
+  </Invoice-Summary>
+</Document-Invoice>
