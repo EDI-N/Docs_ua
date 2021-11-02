@@ -41,15 +41,25 @@ XML Специфікації для роботи з мережею "Фоззі"
 
 ---------
 
-Товарна накладна (DOCUMENTINVOICE)
+Накладна за кількістю (DOCUMENTINVOICE_TN)
 =============================================
 
-.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DocumentFunctionCode
-  :file: Fozzy_XML/files/DOCUMENTINVOICE.csv
+.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DOCUMENTINVOICE.DocumentFunctionCode 
+  :file: Fozzy_XML/files/DOCUMENTINVOICE_TN.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
 :download:`Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)<Fozzy_XML/examples/DOCUMENTINVOICE_TN_example.xml>`
+
+---------
+
+Цінова накладна (DOCUMENTINVOICE_PRN)
+=============================================
+
+.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DOCUMENTINVOICE.DocumentFunctionCode 
+  :file: Fozzy_XML/files/DOCUMENTINVOICE_PRN.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
 
 :download:`Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN_example.xml>`
 
