@@ -20,9 +20,9 @@
 
 Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0 за схемою передбаченою для міжнородних перевезень. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#order>`__
+- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#ordrsp>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#desadv>`__
 - `Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 
 Загальна схема документообігу:
