@@ -22,7 +22,7 @@ R02G31S,M,String,Ім'я Водія
 R02G32S,M,String,По батькові Водія
 R02G4S,M,String,"серія, номер посвідчення водія"
 R02G5S,M,String,телефон водія
-DRIVER_ID,O,String,"Ідентифікаційний код Водія"
+DRIVER_ID,O,int(10),"Ідентифікаційний код Водія"
 HNUM,M,String,номер документа
 HFILL,M,String (YYYY-MM-DD),дата документа
 R01G10S,M,String,"вид перевезень; доступні значення:
