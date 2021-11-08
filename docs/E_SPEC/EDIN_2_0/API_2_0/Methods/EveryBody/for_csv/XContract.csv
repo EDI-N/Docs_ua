@@ -18,3 +18,4 @@ discountWorkStatus,int,"робота з ціною зі знижкою: 0-ні, 
 changeDate,long,"дата зміни документу"
 prolongationContract,int,"автоматична пролонгація контракту; 0-ні, 1-так"
 region,String,"код регіону; число"
+content,byte[],"набір байт; закодоване в utf8 JSON-тіло документа PRODUCTLIST (`сервіс онлайн дешифрування <https://onlineutf8tools.com/convert-bytes-to-utf8>`__)"
