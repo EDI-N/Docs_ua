@@ -874,10 +874,12 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 При створенні співробітника на його Email відправляється лист з автоматично згенерованим паролем (аналогічно до створення користуваа в розділі `Користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#users>`__).
 
-Також можливо **"Додати"** адреси компанії, створити `правила тарифікації <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work.html#additional-functionality>`__ (для сервісу **"Е-ТТН"**) та ввести ідентифікатори:
+Можливо **"Додати"** адреси компанії. Поле "Код КАТОТТГ" заповнюється автоматично - для цього потрібно почати вводити назву населеного пункту і обрати його із запропонованого списку:
 
-.. image:: pics_PCInstruction/PCInstruction_88.png
+.. image:: pics_PCInstruction/PCInstruction_031.gif
    :align: center
+
+Також можливо створити `правила тарифікації <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work.html#additional-functionality>`__ (для сервісу **"Е-ТТН"**) та ввести ідентифікатори:
 
 .. image:: pics_PCInstruction/PCInstruction_36.png
    :align: center
