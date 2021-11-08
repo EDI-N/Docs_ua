@@ -123,15 +123,12 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_58.png
    :align: center
 
-Після чого в модальному вікні потрібно буде додати населений пункт, адресу та вибрати КОАТУУ (в цьому рядку можливо здійснювати пошук по назві чи коду). Код КОАТУУ вказується автоматично. Додана адреса навантаження прив'язується в системі до вказаного **"Вантажовідправника"**, а адреса розвантаження - до **"Вантажоодержувача"**.
+Після чого в модальному вікні потрібно буде **"Додати"** адресу, населений пункт (достатньо почати вводити назву населеного пункту та обрати його зі списку) - при цьому код КАТОТТГ вказується автоматично. Додана адреса навантаження прив'язується в системі до вказаного **"Вантажовідправника"**, а адреса розвантаження - до **"Вантажоодержувача"**.
 
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_86.png
+.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_99.gif
    :align: center
-
-.. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_87.png
-   :align: center
-
-Існує можливість вказати за потреби "Спеціальну охорону вантажу" та документ, згідно з яким здійснюється супровід через кнопку "Додати":
+   
+Існує можливість вказати за потреби "Спеціальну охорону вантажу" та документ, згідно з яким здійснюється супровід через кнопку **"Додати"**:
 
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_59.png
    :align: center

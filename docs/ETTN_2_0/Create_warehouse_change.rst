@@ -68,6 +68,19 @@
 .. image:: pics_Create_warehouse_change/Create_warehouse_change_004.png
    :align: center
 
+.. note::
+   Якщо адреси у вказаному списку немає, то її можливо додати вручну через кнопку **"Нова адреса"**:
+
+   .. image:: pics_Create_warehouse_change/Create_warehouse_change_031.png
+      :align: center
+
+   Після чого в модальному вікні потрібно буде **"Додати"** адресу, населений пункт (достатньо почати вводити назву населеного пункту та обрати його зі списку) - при цьому код КАТОТТГ вказується автоматично. Додана адреса розвантаження прив'язується в системі до вказаного **"Вантажоодержувача"**.
+
+   .. берем гіфку з ттн інструкції
+
+   .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_99.gif
+      :align: center
+
 Заповнений документ потрібно **"Зберегти"** (зберігається в якості чернетки):
 
 .. image:: pics_Create_warehouse_change/Create_warehouse_change_005.png
