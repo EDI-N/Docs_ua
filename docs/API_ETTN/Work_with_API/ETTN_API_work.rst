@@ -96,9 +96,9 @@
 
 * `Отримання даних компанії, співробітників, адрес з довідників сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/ExtraData.html>`__
 * `Отримання даних про компанію за назвою / ІНН / ЄДРПОУ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/CompanySearch.html>`__
-* `Отримання даних співробіника компанії за назвою / містом / вулицею / кодом КОАТУУ / номером посвідчення водія <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EmployeesSearch.html>`__
-* `Отримання адреси з довідника компанії за назвою / містом / вулицею / кодом КОАТУУ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/AddressesSearch.html>`__
-* `Отримання данних КОАТУУ за назвою / кодом <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/KoatuuSearch.html>`__
+* `Отримання даних співробіника компанії за прізвищем / ІПН / номером посвідчення водія <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EmployeesSearch.html>`__
+* `Отримання адреси з довідника компанії за назвою / містом / вулицею / кодом КОАТУУ / кодом КАТОТТГ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/AddressesSearch.html>`__
+* `Отримання данних КАТОТТГ за кодом / назвою населеного пункту <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/SearchKatottg.html>`__
 * `Отримання даних про компанію по ідентифікатору компанії <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetCompany.html>`__
 
 Додаткові можливості
