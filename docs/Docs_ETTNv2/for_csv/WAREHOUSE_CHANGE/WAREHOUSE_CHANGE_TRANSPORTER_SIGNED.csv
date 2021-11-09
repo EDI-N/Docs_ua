@@ -44,7 +44,7 @@ R04G3S,M,String,Юридична адреса Вантажоодержувача
 R04G1S,M,String,Ідентифікаційний код Вантажоодержувач (ЄДРПОУ юридичної особи або ІПН фізичної-особи підприємця)
 R04G2S,M,String,Повне найменування Вантажоодержувач (найменування юридичної особи або ПІБ фізичної-особи підприємця)
 R04G3S,M,String,Юридична адреса Вантажоодержувач
-R05G41,M,String,Код КОАТУУ / КАТОТТГ пункту розвантаження
+R05G41,M,String,Код КОАТУУ / `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__ пункту розвантаження
 R05G4S,M,String,Місцезнаходження пункту розвантаження
 **NEW_DESTINATION**,,,Інформація про нового Вантажоодержувача та/чи новий пункт розвантаження (закінчення блоку)
 WAREHOUSE_CHANGE_INFORMATION,M,String,Додаткова інформація. Короткий або повний опис причин складання акта (заміна пункту призначення та/або вантажоодержувача)

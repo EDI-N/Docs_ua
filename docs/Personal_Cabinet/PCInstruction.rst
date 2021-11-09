@@ -874,7 +874,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 При створенні співробітника на його Email відправляється лист з автоматично згенерованим паролем (аналогічно до створення користуваа в розділі `Користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#users>`__).
 
-Можливо **"Додати"** адреси компанії. Поле "Код КАТОТТГ" заповнюється автоматично - для цього потрібно почати вводити назву населеного пункту і обрати його із запропонованого списку:
+Можливо **"Додати"** адреси компанії. Поле "Код `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__" заповнюється автоматично - для цього потрібно почати вводити назву населеного пункту і обрати його із запропонованого списку:
 
 .. image:: pics_PCInstruction/PCInstruction_031.gif
    :align: center
