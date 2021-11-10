@@ -879,6 +879,8 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_031.gif
    :align: center
 
+.. _ettn-tariffs: 
+
 Також можливо створити `правила тарифікації <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work.html#additional-functionality>`__ (для сервісу **"Е-ТТН"**) та ввести ідентифікатори:
 
 .. image:: pics_PCInstruction/PCInstruction_36.png
