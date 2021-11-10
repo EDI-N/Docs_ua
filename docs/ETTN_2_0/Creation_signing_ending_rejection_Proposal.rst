@@ -78,7 +78,7 @@
          .. image:: ../Personal_Cabinet/pics_PCInstruction/PCInstruction_36.png
             :align: center
 
-         ---------------------------------------
+              
 
          .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_91n.png
             :align: center
@@ -89,7 +89,7 @@
          .. image:: ../Personal_Cabinet/pics_PCInstruction/PCInstruction_36.png
             :align: center
          
-         ---------------------------------------
+              
 
          .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_92n.png
             :align: center
