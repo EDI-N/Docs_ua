@@ -78,6 +78,8 @@
          .. image:: ../Personal_Cabinet/pics_PCInstruction/PCInstruction_36.png
             :align: center
 
+         ---------------------------------------
+
          .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_91n.png
             :align: center
 
@@ -85,6 +87,9 @@
       - при виборі **"за тоннаж"**: Вартість перевезення без ПДВ = поле "Загальна маса брутто, кг" у "Заявці на транспортування"/"Підтвердження транспортування"/"ТТН" * Тариф за 1 кг без ПДВ (шлях для встановлення тарифу за 1 кг: `Особистий кабінет/Налаштування/Компанії <https://edo-v2.edin.ua/app/#/service/personal/settings/agreements/company/list>`__/ вибір компанії/Тарифи:
 
          .. image:: ../Personal_Cabinet/pics_PCInstruction/PCInstruction_36.png
+            :align: center
+         
+         ---------------------------------------
 
          .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_92n.png
             :align: center
