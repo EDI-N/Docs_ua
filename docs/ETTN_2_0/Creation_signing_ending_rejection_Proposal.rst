@@ -71,14 +71,13 @@
 .. _tariffing-method:
 
 .. important::
-
    Для прискорення створення "Акту виконаних робіт" Перевізником на підставі вихідного документа ("Заявка на транспортування", "Підтвердження транспортування", "ТТН") ми реалізували функціонал автоматичного розрахунку та/або передзаповнення даних вартості перевезення – для цього спочатку необхідно заповнити поле **"Спосіб тарифікації"**. Логіка розрахунку та/або передзаповнення даних вартості перевезення:
       - при виборі **"за кілометраж"**: Вартість перевезення без ПДВ = поле "Загальна відстань перевезення" (стає обов'язковим до заповнення) у "Заявці на транспортування"/"Підтвердження транспортування" * Тариф за 1 км без ПДВ (шлях для встановлення тарифу за 1 км: `Особистий кабінет/Налаштування/Компанії <https://edo-v2.edin.ua/app/#/service/personal/settings/agreements/company/list>`__/ вибір компанії/Тарифи:
 
          .. image:: ../Personal_Cabinet/pics_PCInstruction/PCInstruction_36.png
             :align: center
 
-         .. probel
+         ⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
          .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_91n.png
             :align: center
@@ -89,7 +88,7 @@
          .. image:: ../Personal_Cabinet/pics_PCInstruction/PCInstruction_36.png
             :align: center
          
-         .. probel
+         ⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
          .. image:: pics_Creation_signing_ending_rejection_Proposal/Creation_signing_ending_rejection_Proposal_92n.png
             :align: center
