@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповідь** передаються `дані КАТОТТГ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/SearchKatottgResponse.html>`__ в вигляді масиву об'єктів **Koatuu**.
+У тілі **відповідь** передаються `дані КАТОТТГ <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/SearchKatottgResponse.html>`__ в вигляді масиву об'єктів **Katottg**.
 
