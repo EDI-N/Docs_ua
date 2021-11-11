@@ -82,4 +82,4 @@
   :file: for_csv/User.csv
   :widths:  1, 19, 41
   :header-rows: 1
-  :stub-columns: 1
+  :stub-columns: 0

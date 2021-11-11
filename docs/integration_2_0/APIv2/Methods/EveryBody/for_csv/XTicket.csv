@@ -1,0 +1,16 @@
+Параметр,Формат,Опис
+.. _XTicket: ,**Об'єкт XTicket** ,
+docID,long,ідентифікатор документа
+transactionType,int,тип транзакції
+version,int,версія; використовується для підрахунку кількості анулювань
+documentType,int,`тип документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/DocType.html>`__
+date,long,дата/час транзакції (у форматі UNIX TimeStamp) 
+uuid,UUID,ідентифікатор документообігу (однаковий у межах ланцюжка) 
+senderID,long,ідентифікатор відправника
+recipientID,long,ідентифікатор отримувача
+sosID,int,ідентифікатор провайдера документообігу
+status,String,"статус квитанції
+
+* 00000100 - sent - надіслано
+* 00010000 - received - отримано"
+bodys,List<XTicketBody_>,масив об'єктів; тіла квитанцій
