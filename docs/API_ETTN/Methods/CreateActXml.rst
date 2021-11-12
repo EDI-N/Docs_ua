@@ -9,6 +9,8 @@
 
   * **"Акта перевантаження"**
   * **"Акта розбіжностей до ТТН"**
+  * **"Акта про заміну пункту призначення вантажу"**
+  * **"Акта коригування"**
 
 .. important::
   XML формується **лише** в результаті першого виклику методу. При повторних викликах цього методу (незалежно від передаваємого в запиті тіла) XML вже не змінюється!
@@ -34,3 +36,20 @@
 * для подальшої операції підписання `Вантажоотримувачем <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_ORIGINATOR_SIGNEDPage.html>`__;
 * для подальшої операції підписання `Перевізником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_TRANSPORTER_SIGNEDPage.html>`__;
 * для подальшої операції підписання `Вантажовідправником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/DISAGREEMENT_ORIGINATOR_SIGNEDPage.html>`__.
+
+:green:`для "Акта про заміну пункту призначення вантажу":`
+
+* для подальшої операції підписання `Ініціатором (Вантажовідправник/Вантажоодержувач/Перевізник/Замовник) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/WAREHOUSE_CHANGE_ORIGINATOR_SIGNED.html>`__;
+* для подальшої операції підписання `Перевізником чи Замовником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/WAREHOUSE_CHANGE_TRANSPORTER_SIGNED.html>`__;
+* для подальшої операції підписання `Замовником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/WAREHOUSE_CHANGE_CUSTOMER_SIGNED.html>`__.
+
+:green:`для "Акта коригування":`
+
+* для подальшої операції підписання `Ініціатором (Вантажовідправник/Перевізник/Вантажоодержувач/Замовник) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/ADJUSTMENT_ORIGINATOR_SIGNED.html>`__;
+* для подальшої операції підписання `Вантажовідправником чи Перевізником <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/ADJUSTMENT_CONSIGNOR_SIGNED.html>`__;
+* для подальшої операції підписання `Перевізником чи Вантажоотримувачем <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/ADJUSTMENT_TRANSPORTER_SIGNED.html>`__;
+* для подальшої операції підписання `Вантажоотримувачем <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/ADJUSTMENT_RECIPIENT_SIGNED.html>`__.
+
+
+
+
