@@ -21,7 +21,7 @@ EDIN | Електронний документообіг для бізнесу
    retail_2.0/retail_2_0_list
    integration_2_0/integration_2_0_list
    XML/XML-structure
-   XML/Fozzy_XML-structure
+   RetailersLists/Clients_list
 
 .. toctree::
    :caption: Е-ТТН

@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 1
    
+   Terminology
    User_registration
    rabota_s_platformoj_EDIN_2.0
    instruktsiyi_po_dodavannyu_klyuchiv

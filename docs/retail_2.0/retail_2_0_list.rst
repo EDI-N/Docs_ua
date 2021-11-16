@@ -24,17 +24,9 @@
    formirovanie_Tovarnogo_dovidnyka
    Factoring_instruction_EDIN_2_0
    Create_and_send_reconciliation_act_COMDOC_029
-   
-   
-.. toctree::
-   :caption: Робота з мережею Фоззі за схемою "Match Invoice"
-   :maxdepth: 1
-   
-   Robota_s_Fozzy_EDI-N_2.0
-   Fozzy_DOCUMENTINVOICE_instruction
 
 .. toctree::
-   :caption: Робота з «Системи Трейд» та "ПУСК"
+   :caption: Робота з "Системою Трейд" та "ПУСК"
    :maxdepth: 1
    
    System_Pysk_work_with_COMDOC_013_COMDOC_029
