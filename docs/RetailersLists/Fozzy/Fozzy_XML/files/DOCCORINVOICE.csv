@@ -67,7 +67,7 @@ ItemDescription, М, Рядок (210), Опис товару
 InvoiceQuantity, M,"Decimal (18,3)", Замовлена кількість (кількість товару за накладною)
 BuyerUnitOfMeasure, M, Рядок (10), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 InvoiceUnitNetPrice, M,"Decimal (18,5)", Ціна однієї одиниці без ПДВ
-UnitGrossPrice, M,"Decimal (18,2)",Ціна однієї одиниці з ПДВ
+InvoiceUnitGrossPrice, M,"Decimal (18,2)",Ціна однієї одиниці з ПДВ
 TaxRate, M, Число позитивне,"Ставка ПДВ (20%, 7%, 0%)"
 TaxAmount, M,"Decimal (18,2)", Сума ПДВ по артикулу
 NetAmount, M,"Decimal (18,2)", Сума без ПДВ

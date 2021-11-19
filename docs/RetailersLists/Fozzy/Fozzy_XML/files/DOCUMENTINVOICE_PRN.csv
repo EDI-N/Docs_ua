@@ -60,7 +60,7 @@ ItemDescription,M,Рядок (50),Найменування товарної по
 InvoiceQuantity,M,"Decimal (18,3)",Кількість поставлених одиниць товару
 BuyerUnitOfMeasure,M,Рядок (10),"Одиниці виміру згідно `Класифікатора системи позначень одиниць вимірювання та обліку (КСПОВО) <https://dovidnyk.in.ua/directories/kspovo>`_ (шт. – штука; уп. – упаковка; л. – літр; послуга; кг. – кілограм; г. – грам…)"
 InvoiceUnitNetPrice,M,"Decimal (18,5)", Ціна однієї одиниці без ПДВ
-UnitGrossPrice,M,"Decimal (18,2)", Ціна однієї одиниці з ПДВ
+InvoiceUnitGrossPrice,M,"Decimal (18,2)", Ціна однієї одиниці з ПДВ
 TaxRate,M, Число позитивне,"Ставка податку (ПДВ,%):
 
 * 20
