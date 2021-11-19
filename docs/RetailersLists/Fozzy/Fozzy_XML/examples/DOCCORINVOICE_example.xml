@@ -57,7 +57,7 @@
         <BuyerUnitOfMeasure>PCE</BuyerUnitOfMeasure>
         <ExternalItemCode>3406002000</ExternalItemCode>
         <InvoiceUnitNetPri0ce>39.35</InvoiceUnitNetPrice>
-        <UnitGrossPrice>47.22</UnitGrossPrice>
+        <InvoiceUnitGrossPrice>47.22</InvoiceUnitGrossPrice>
         <TaxRate>20</TaxRate>
         <TaxAmount>141.66</TaxAmount>
         <NetAmount>708.30</NetAmount>
