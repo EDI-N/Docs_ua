@@ -17,7 +17,7 @@
 
 Загальна схема документообігу:
 
-.. image:: pictures/schema_Fozzy.png
+.. image:: pictures/Fozzy_schema_v1_0.png
    :align: center
 
 1 Формування "Накладної за кількістю" на підставі вхідного "Замовлення" (ORDER)

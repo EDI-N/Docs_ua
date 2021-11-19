@@ -15,7 +15,7 @@
 
 Загальна схема документообігу:
 
-.. image:: pictures/schema_Fozzy.png
+.. image:: pictures/Fozzy_schema_v1_0.png
    :align: center
 
 `XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/RetailersLists/Fozzy/Fozzy_XML-structure.html>`__

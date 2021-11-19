@@ -15,7 +15,7 @@
 
 Загальна схема документообігу:
 
-.. image:: pictures/schema_Fozzy.png
+.. image:: pictures/Fozzy_schema_v1_0.png
    :align: center
 
 "Цінова накладна" може бути створена Постачальником:
