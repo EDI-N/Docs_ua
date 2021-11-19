@@ -211,3 +211,43 @@
 +-------------------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | «13»              | для ініціаторів документообігу: «Вантажовідправник» / «Перевізник» / «Вантажоодержувач» / «Замовник» | «Скасовано замовником»                                                                                             |
 +-------------------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
+.. OPTIONAL_SIGN = "-6";
+   DRAFT_PERFORMER = "-5";
+   DRAFT_CUSTOMER = "-4";
+   DRAFT_CONSIGNEE = "-3";
+   DRAFT_CARRIER = "-2";
+   DRAFT_CONSIGNOR = "-1";
+
+   IN_PROCESS = "1";
+
+   CONFIRMED_CONSIGNOR = "2";
+   CONFIRMED_CARRIER_LOAD = "3";
+   CONFIRMED_CONSIGNEE = "4";
+
+   SIGNED_CONSIGNOR = "5";
+   SIGNED_CARRIER_LOAD = "6";
+   SIGNED_CONSIGNEE = "7";
+
+   CANCELED_CONSIGNOR = "8";
+   CANCELED_CARRIER_LOAD = "9";
+   CANCELED_CONSIGNEE = "10";
+
+   CONFIRMED_CUSTOMER = "11";
+   SIGNED_CUSTOMER = "12";
+   CANCELED_CUSTOMER = "13";
+
+   CONFIRMED_PERFORMER = "14";
+   SIGNED_PERFORMER = "15";
+   CANCELED_PERFORMER = "16";
+
+   CONFIRMED_CARRIER_UNLOAD = "17";
+   SIGNED_CARRIER_UNLOAD = "18";
+   CANCELED_CARRIER_UNLOAD = "19";
+
+   CARRIER_RELOAD = "20";
+   CHANGED_CONSIGNEE = "21";
