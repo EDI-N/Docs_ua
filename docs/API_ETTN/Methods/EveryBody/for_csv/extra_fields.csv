@@ -124,3 +124,4 @@ id параметра, Найменування параметра,Обов'яз
 139, format_version, ,VARCHAR, номер версії (поле C_DOC_VER) з Податкової накладної (DECLAR) чи Коригування до податкової накладної (DECLARj12)
 142, parent_docs_match,,INT, 0 - comdoc_007 зі зміненими даними для звірки по desadv; 1 - comdoc_007 з коректними / не зміненими даними для звірки по desadv 
 149, post_start_date, ,[yyyy-MM-dd], дата дедлайну для документів Метро 7а
+153, review_deadline_date, ,[yyyy-MM-dd], термін подачі на перегляд для документів Метро 7b (ReviewDeadlineDate)
