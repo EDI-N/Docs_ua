@@ -6,12 +6,4 @@
    
    Fozzy/Fozzy_list
    Silpo/Silpo_list
-   АТБ
-   Метро
-   Варус
-   Ашан
-   Білла
-   Велика кишеня
-   Мегамаркет
-   Еко-маркет
-   Розетка
+   Modern_Expo/Modern_Expo_list
