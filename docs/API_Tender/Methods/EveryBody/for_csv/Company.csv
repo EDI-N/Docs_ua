@@ -9,3 +9,4 @@ edrpou,String,код ЄДРПОУ/КПП
 inn,String,код ІПН
 city,String,місто
 address,String,адреса
+comment,Comment_,об'єкт; коментар
