@@ -33,6 +33,8 @@
 
 .. |del_key| image:: signing/del_key2.png
 
+.. |edit| image:: pics_PCInstruction/PCInstruction_174.png
+
 .. contents:: Зміст:
    :depth: 4
 
@@ -874,10 +876,31 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 При створенні співробітника на його Email відправляється лист з автоматично згенерованим паролем (аналогічно до створення користуваа в розділі `Користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#users>`__).
 
-Можливо **"Додати"** адреси компанії. Поле "Код `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__" заповнюється автоматично - для цього потрібно почати вводити назву населеного пункту і обрати його із запропонованого списку:
+.. _company-addresses:
 
-.. image:: pics_PCInstruction/PCInstruction_031.gif
+У вкладці "Адреси" можливо доповнити список адрес компанії:
+
+* масово **"Завантажити з Excel"** (XLSX, XLS файли), згідно вказаного **"Шаблону"**;
+* через введення даних в модальне вікно (кнопка **"+Додати"**).
+
+.. image:: pics_PCInstruction/PCInstruction_171.png
    :align: center
+
+При внесенні даних через модальне вікно поле "Код `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__" заповнюється автоматично - для цього потрібно почати вводити назву населеного пункту і обрати його із запропонованого списку:
+
+.. image:: pics_PCInstruction/PCInstruction_170.gif
+   :align: center
+
+При масовому завантаженні адрес потрібно спочатку скачати **"Шаблон"** (1), у відповідності до якого й **"Завантажити з Excel"** (2) Ваш список адрес:
+
+.. image:: pics_PCInstruction/PCInstruction_172.png
+   :align: center
+
+.. attention::
+   При заповненні XLSX / XLS файлу потрібно притримуватись державного кодифікатора `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__. Також не допускається повтор GLN на рівні компанії. В іншому випадку адреси можуть не завантажитись чи завантажитись часково (рядки з помилками виділені жовтим кольором, червоні комірки яких потрібно виправити в файлі чи відредагувати |edit| на формі):
+
+   .. image:: pics_PCInstruction/PCInstruction_173.png
+      :align: center
 
 .. _ettn-tariffs: 
 
