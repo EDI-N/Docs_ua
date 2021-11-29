@@ -68,6 +68,11 @@
 .. image:: pics_Work_with_Tender/Work_with_Tender_006.png
    :align: center
 
+.. hint::
+   * `Налаштування дати та часу для ОС Windows <https://support.microsoft.com/uk-ua/windows/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%87%D0%B0%D1%81%D1%83-%D0%B9-%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D1%8F%D1%81%D1%83-dfaa7122-479f-5b98-2a7b-fa0b6e01b261>`__
+   * `Налаштування дати та часу для ОС Macintosh <https://support.apple.com/uk-ua/guide/mac-help/mchlp2996/mac>`__
+   * `Налаштування дати та часу для ОС Linux <https://losst.ru/ustanovka-vremeni-linux>`__
+
 **2 Загальний вигляд платформи**
 ================================================
 
