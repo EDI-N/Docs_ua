@@ -629,7 +629,21 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_021.png
    :align: center
 
+.. hint::
+   Для коректної роботи системи логін для входу на платформу повинен збігатись з Вашим актуальним email. Для користувачів, у яких логін відмінний передбачений функціонал для заміни:
+
+   .. image:: pics_PCInstruction/PCInstruction_175.png
+      :align: center
+
+   ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+   .. image:: pics_PCInstruction/PCInstruction_176.png
+      :align: center
+
 При зміні Email користувача на вказаний (новий) Email потрібно ввести пароль поточного користувача (підтвердження дії) - на новий email відправляється лист для підтвердження поштової адреси.
+
+.. image:: pics_PCInstruction/PCInstruction_177.png
+   :align: center
 
 .. hint::
    При генеруванні нового паролю на вказану електронну пошту відправляється лист: 

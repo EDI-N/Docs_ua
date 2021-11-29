@@ -84,6 +84,17 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_005.png
    :align: center
 
+.. hint::
+   Для коректної роботи системи логін для входу на платформу повинен збігатись з Вашим актуальним email. Для користувачів, у яких логін відмінний передбачений функціонал для заміни:
+
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_006.png
+   :align: center
+
+При зміні Email користувача на вказаний (новий) Email потрібно ввести пароль поточного користувача (підтвердження дії) - на новий email відправляється лист для підтвердження поштової адреси.
+
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_007.png
+   :align: center
+
 **4 Вибір номера GLN організації**
 ================================================
 
