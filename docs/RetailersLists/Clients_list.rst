@@ -7,3 +7,4 @@
    Fozzy/Fozzy_list
    Silpo/Silpo_list
    Modern_Expo/Modern_Expo_list
+   System_Pysk/System_Pysk_list

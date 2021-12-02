@@ -105,6 +105,6 @@
    :start-after: .. початок блоку для Comdoc_Revoke
    :end-before: .. кінець блоку для Comdoc_Revoke
 
----------------------------------
-
-.. include:: kontakti.rst
+----------------------------
+   
+.. include:: /_constant/kontakti.rst
