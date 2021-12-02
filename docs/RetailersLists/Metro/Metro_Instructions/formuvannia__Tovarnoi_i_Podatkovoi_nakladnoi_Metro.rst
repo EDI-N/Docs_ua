@@ -3,10 +3,6 @@
 
 .. сюда закину немного картинок для текста
 
-.. |drop_pass| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/drop_pass.png
-
-.. |del_key| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/del_key.png
-
 .. role:: red
 
 ---------
@@ -84,52 +80,34 @@
 
 Щоб додати код **УКТ ЗЕД** натисніть на штрихкод товару. Відкриється вікно з даними позиції:
 
-.. image:: pics_Tovarna_nakladna_Leroy_Merlin/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_03_2.png
+.. image:: pics_formuvannia_TN_i_PN_Metro/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_03_2.png
    :align: center
 
 Для того, щоб поле з кодом **УКТ ЗЕД** за товарними позиціями при формуванні документа Товарна Накладна заповнювалось автоматично, необхідно перевірити коректність заповнення даних в Товарному довіднику. Для цього перейдіть у сервіс **Товари** та знайдіть позицію за штрихкодом.
 
-.. image:: pics_Tovarna_nakladna_Leroy_Merlin/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_03_3.png
+.. image:: pics_formuvannia_TN_i_PN_Metro/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_03_3.png
    :align: center
    
-Після заповнення усіх обовязкових полів, будь ласка, збережіть документ натисканням на кнопку **Зберегти**!
+Після заповнення усіх обовязкових полів, будь ласка, збережіть документ натисканням на кнопку **Зберегти**! Після збереження документа, його необхідно підписати Електронно-Цифровим підписом (ЕЦП). Для ініціалізації підписання документу натисніть "**Підписати**".
+
+.. _sign:
 
 Підписання документа Товарна Накладна
 ----------------------------------------------------
 
-Після збереження документа, його необхідно підписати Електронно-Цифровим підписом (ЕЦП). Для ініціалізації підписання документу натисніть "**Підписати**". Далі у модальному вікні потрібно обрати файл чи токен (1), ввести пароль (2) та натиснути **"Считати"** (3) ключ для підписання:
+.. загальне підписання на платформі
 
-.. image:: pics_formuvannia_TN_i_PN_Metro/file1.png
-   :align: center
-
-.. image:: pics_formuvannia_TN_i_PN_Metro/file2.png
-   :align: center
-
-При успішному додаванні ключа автоматично відобразиться особа, від імені якої буде здійснено підписання. У користувача може бути додано кілька ключів - для вибору потрібного для здійснення операції підписання потрібно проставити відмітку (4) лівою кнопкою миші і натиснути "Підписати" (5):
-
-.. image:: pics_formuvannia_TN_i_PN_Metro/file3.png
-   :align: center
-
-.. important::
-   Якщо підписання цим ключем вже було здійснено або знайдена невідповідність даних ЄДРПОУ/ІПН (перевірка), то підписання блокується, а користувачу виводиться відповідне повідомлення:
-
-.. image:: pics_formuvannia_TN_i_PN_Metro/wrong_key.png
-   :align: center
-
-Додатково в вікні підписання можливо натиснути **"Детальніше"** для того, щоб переглянути інформацію про підписанта, обрати за необхідності посаду, скинути пароль активного ключа (|drop_pass|) чи видалити помилкові (|del_key|).
-
-При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа:
-
-.. image:: pics_formuvannia_TN_i_PN_Metro/file4.png
-   :align: center
+.. include:: /_constant/signing/signing.rst
+   :start-after: .. початок блоку для Signing
+   :end-before: .. кінець блоку для Signing
 
 Після успішного підписання, натисніть кнопку **Відправити**. Відправлений документ додається в папку «Надіслані».
 Після відправки у документі з'явиться візуалізація підпису "Товарна накладна" зеленим кольором, натиснувши на яку можна переглянути Дані про підписантів.
 
-.. image:: pics_Tovarna_nakladna_Leroy_Merlin/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_07.png
+.. image:: pics_formuvannia_TN_i_PN_Metro/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_07.png
    :align: center
 
-.. image:: pics_Tovarna_nakladna_Leroy_Merlin/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_08.png
+.. image:: pics_formuvannia_TN_i_PN_Metro/formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin_08.png
    :align: center
 
 Сірим кольором відображається очікувана візуалізація підпису "Підтвердження товарної накладної", натиснувши на яку побачимо що документ ще не підписаний. 
@@ -178,7 +156,7 @@
 .. image:: pics_formuvannia_TN_i_PN_Metro/formuvannia_TN_i_PN_Metro_x3.png
    :align: center
 
-У податковій накладній натискаємо **Підписати** - процес підписання аналогічний `підписанню документа Товарна Накладна <https://wiki.edin.ua/uk/latest/retail_2.0/formuvannia__Tovarnoi_i_Podatkovoi_nakladnoi_Metro.html#id9>`_.
+У податковій накладній натискаємо **Підписати** - процес підписання аналогічний `підписанню документа Товарна Накладна <https://wiki.edin.ua/uk/latest/retail_2.0/formuvannia__Tovarnoi_i_Podatkovoi_nakladnoi_Metro.html#sign>`_.
 
 Статуси документа Податкова Накладна
 ----------------------------------------------------
@@ -195,5 +173,6 @@
 .. image:: pics_formuvannia_TN_i_PN_Metro/formuvannia_TN_i_PN_Metro_status5.png
    :align: center
 
-
-.. include:: kontakti.rst
+----------------------------
+   
+.. include:: /_constant/kontakti.rst
