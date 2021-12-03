@@ -22,6 +22,7 @@
 29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__
 30,condra,`Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 35,metro_7a,`Додаток до договору 7А <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
+39,metro_7b,`Додаток до договору 7Б <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
 40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#productlist>`__
 41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__
 42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
