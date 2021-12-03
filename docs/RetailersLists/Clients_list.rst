@@ -9,3 +9,4 @@
    Modern_Expo/Modern_Expo_list
    System_Pysk/System_Pysk_list
    Metro/Metro_list
+   Metinvest/Metinvest_list
