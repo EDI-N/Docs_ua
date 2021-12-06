@@ -19,7 +19,7 @@
    :height: 700px
    :align: center
 
-`XML Специфікації для роботи з "Modern-Expo" <https://wiki.edin.ua/uk/latest/RetailersLists/Modern_Expo/Modern_Expo_XML-structure.html>`__
+`XML Специфікації для роботи з "Modern-Expo" <https://wiki.edin.ua/uk/latest/ClientProcesses/Modern_Expo/Modern_Expo_XML-structure.html>`__
 
 1 Вхід на платформу
 ====================================
@@ -204,7 +204,7 @@
    :align: center
 
 .. hint::
-   Процес підписання документів на платформі не відрізняється і описаний в `розділі вище <https://wiki.edin.ua/uk/latest/RetailersLists/Modern_Expo/Modern_Expo_Instructions/Modern_Expo_EDI_instruction.html#sign>`__.
+   Процес підписання документів на платформі не відрізняється і описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Modern_Expo/Modern_Expo_Instructions/Modern_Expo_EDI_instruction.html#sign>`__.
 
 Відправлені документи доступні до перегляду знаходяться у вкладці "Надіслані":
 

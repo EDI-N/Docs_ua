@@ -26,13 +26,13 @@
 
 Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#order>`__
-- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#desadv>`__
-- `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-006>`__
-- `Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-005>`__
-- `Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-032>`__
-- `Акт приймання товару (COMDOC_033) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-033>`__
-- `Акт розбіжностей до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-034>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
+- `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-006>`__
+- `Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-005>`__
+- `Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
+- `Акт приймання товару (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
+- `Акт розбіжностей до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
 
 Постачальник може працювати з ТОВ "АТБ-Маркет" напряму або через логістичного оператора ТОВ "Логістик Юніон".
 
@@ -244,7 +244,7 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 .. error::
    На платформі EDIN 2.0 здійснюються перевірки документів на валідність КЕП, на приналежність власника сертифіката КЕП зазначеному підприємству, перевірки на коректність заповнення документа і відповідність один одному в рамках одного пакета документів. Постачальнику відправляється квитанція про результати перевірки і в разі помилки статус файл з повідомленням:
@@ -285,7 +285,7 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_037.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#revoke>`__).
 
 .. warning::
    Після оприбуткування товару в обліковій системі складу, якщо кількість поставленого товару відповідає кількості DESADV і дата переходу права власності в COMDOC_006 відповідає фактичній даті приймання товару, приймальник складу мережі ТОВ "АТБ-Маркет" накладає КЕП на Видаткову накладну (COMDOC_006).
@@ -314,7 +314,7 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 Після того, як обидві сторони підписали "Акт про виявлені недоліки" (COMDOC_005) мережа "АТБ" може підписати "Видаткову накладну" (COMDOC_006).
 
@@ -398,7 +398,7 @@
 Після збереження документ потрапляє в папку **"Чернетки"**.
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 Підписаний документ можливо **"Відправити"**:
 
@@ -410,7 +410,7 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_049.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#revoke>`__).
 
 2.2 Отримання і підписання "Акта розбіжностей до АПП" (COMDOC_034). Сторона Постачальника
 -----------------------------------------------------------------------------------------------------------------------------
@@ -434,9 +434,9 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
-Після того, як обидві сторони підписали "Акт розбіжностей до АПП" (COMDOC_034) компанія "Логістик Юніон" може підписати "Акт приймання товару (складська логістика)" (COMDOC_032), як це описано в `інструкції для мережі <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#to033>`__.
+Після того, як обидві сторони підписали "Акт розбіжностей до АПП" (COMDOC_034) компанія "Логістик Юніон" може підписати "Акт приймання товару (складська логістика)" (COMDOC_032), як це описано в `інструкції для мережі <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#to033>`__.
 
 2.3 Отримання "Акта приймання товару" (COMDOC_033). Сторона Постачальника
 -----------------------------------------------------------------------------------------------------------------------------
@@ -455,7 +455,7 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
 
 Документообіг завершено.
 

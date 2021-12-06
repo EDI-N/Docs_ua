@@ -20,9 +20,9 @@
 
 Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0 за схемою передбаченою для міжнородних перевезень. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#order>`__
-- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#ordrsp>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#desadv>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
+- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#ordrsp>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
 - `Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 
 Загальна схема документообігу:
@@ -325,7 +325,7 @@
 За потреби мережа "АТБ" може зформувати у відповідь "Універсальний документ" (CONDRA) разом з запропонованими правками і коментарями. 
 
 .. hint::
-   Процес формування документа не відрізняється і описаний в `розділі вище <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_International_transportation_instruction.html#condra-form>`__ .
+   Процес формування документа не відрізняється і описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_International_transportation_instruction.html#condra-form>`__ .
 
 -------------------------------------
 

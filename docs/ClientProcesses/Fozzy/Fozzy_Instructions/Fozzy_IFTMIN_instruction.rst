@@ -19,7 +19,7 @@
    :height: 700px
    :align: center
 
-`XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/RetailersLists/Fozzy/Fozzy_XML-structure.html>`__
+`XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html>`__
 
 1 Формування "Інструкція з транспортування" (IFTMIN) на підставі вхідного "Замовлення" (ORDER)
 ====================================================================================================================================

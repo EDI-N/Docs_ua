@@ -26,13 +26,13 @@
 
 Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#order>`__
-- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#desadv>`__
-- `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-006>`__
-- `Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-005>`__
-- `Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-032>`__
-- `Акт приймання товару (COMDOC_033) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-033>`__
-- `Акт розбіжностей до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-034>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
+- `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-006>`__
+- `Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-005>`__
+- `Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
+- `Акт приймання товару (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
+- `Акт розбіжностей до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
 
 1 Отримання "Видаткової накладної" (COMDOC_006). Сторона мережі "АТБ"
 =========================================================================================================================
@@ -50,7 +50,7 @@
 
    1. якщо всі дані в документі коректні, то підписує цей документ;
    2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь "Акт про виявлені недоліки" - COMDOC_005; при підписанні документа з обох сторін вхідна "Видаткова накладна" переглядається і виконуються дії згідно п.1; 
-   3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#reject>`__).
+   3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#reject>`__).
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_101.png
    :align: center
@@ -66,9 +66,9 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
 
-За потреби можливо створити **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#repeal>`__)):
+За потреби можливо створити **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#repeal>`__)):
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_104.png
    :align: center
@@ -92,14 +92,14 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_107.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
 
 2 Отримання "Акта приймання товару (складська логістика)" (COMDOC_032). Сторона "Логістик Юніон"
 =========================================================================================================================
@@ -117,7 +117,7 @@
 
    1. якщо всі дані в документі коректні, то підписує цей документ і формує у відповідь "Акт приймання товару" (COMDOC_033);
    2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь "Акт розбіжностей до АПП" (COMDOC_034); при підписанні документа з обох сторін вхідний акт переглядається і виконуються дії згідно п.1; 
-   3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#reject>`__).
+   3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#reject>`__).
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_053.png
    :align: center
@@ -133,9 +133,9 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
 
-Після того, як документ підписано можливо сформувати **"Акт приймання товару"** чи **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#repeal>`__)):
+Після того, як документ підписано можливо сформувати **"Акт приймання товару"** чи **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#repeal>`__)):
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_055.png
    :align: center
@@ -167,14 +167,14 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_060.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
 
 2.2 Формування у відповідь "Акта розбіжностей до АПП" (COMDOC_034). Сторона "Логістик Юніон"
 ----------------------------------------------------------------------------------------------------------------------------
@@ -198,14 +198,14 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_084.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
 
 .. _sign:
 
