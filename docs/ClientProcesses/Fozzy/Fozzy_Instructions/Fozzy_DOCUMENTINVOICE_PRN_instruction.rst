@@ -33,7 +33,7 @@
 
 При цьому: якщо в ланцюжку документів вже відправлена "Накладна за кількістю", то "Цінову накладну" можливо створити лише на підставі "Накладної за кількістю".
 
-`XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/RetailersLists/Fozzy/Fozzy_XML-structure.html>`__
+`XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html>`__
 
 .. note::
    Формування "Цінової накладної" на підставі вхідного "Замовлення" (ORDER) чи відправленої "Накладної за кількістю" не має жодних відмінностей, якщо не враховувати вибір документа-підстави.
@@ -154,7 +154,7 @@
    :align: center
 
 .. hint::
-   Процес підписання "Коригування до товарної накладної" не відрізняється від підписання "Цінової накладної" та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/RetailersLists/Fozzy/Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction.html#sign>`__ .
+   Процес підписання "Коригування до товарної накладної" не відрізняється від підписання "Цінової накладної" та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction.html#sign>`__ .
 
 Після підписання "Коригування до товарної накладної" (DOCCORINVOICE) документ потрібно **"Відправити"**:
 

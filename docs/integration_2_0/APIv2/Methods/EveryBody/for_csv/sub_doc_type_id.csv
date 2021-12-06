@@ -22,6 +22,6 @@
 29,`Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__
 30,`Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-030>`__
 31,`Накладна на зворотну тару (COMDOC_031) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-031>`__
-32,`Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-032>`__
-33,`Акт приймання товару (COMDOC_033) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-033>`__
-34,`Акт розбіжностей до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/RetailersLists/ATB/ATB_XML-structure.html#comdoc-034>`__
+32,`Акт приймання товару (складська логістика) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
+33,`Акт приймання товару (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
+34,`Акт розбіжностей до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__

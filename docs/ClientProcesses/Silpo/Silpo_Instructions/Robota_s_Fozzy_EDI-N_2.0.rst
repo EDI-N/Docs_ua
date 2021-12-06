@@ -41,7 +41,7 @@
 
    @enduml
 
-`XML Специфікації для роботи з Сільпо (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/RetailersLists/Silpo/Silpo_XML-structure.html>`__
+`XML Специфікації для роботи з Сільпо (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html>`__
 
 1. Формування вихідного документа **«Підтвердження замовлення»(ORDRSP)** у відповідь на Замовлення (ORDER)
 ========================================================================================================================
