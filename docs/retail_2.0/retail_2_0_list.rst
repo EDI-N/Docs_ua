@@ -16,19 +16,9 @@
    formirovanie_otpravka_dokumenta_Vydatkova_Nakladna_na_EDI_Network_2.0
    Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi
    Formuvannia_Koryhuvalnoi_PN_na_pidstavi_Nakladnoi_na_povernennia
-   PricatPampikInstruction_EDIN_2_0
-   formirovanie_Tovarnoj_nakladnoj_Leroy_Merlin
-   formuvannia__Tovarnoi_i_Podatkovoi_nakladnoi_Metro
-   formirovanie_COMDOC_027_na_EDI_Network_2_0
-   Metro_7a_instruction
    formirovanie_Tovarnogo_dovidnyka
    Factoring_instruction_EDIN_2_0
    Create_and_send_reconciliation_act_COMDOC_029
 
-.. toctree::
-   :caption: Робота з "Системою Трейд" та "ПУСК"
-   :maxdepth: 1
-   
-   System_Pysk_work_with_COMDOC_013_COMDOC_029
 
 

@@ -12,14 +12,7 @@ EDIN | Електронний документообіг для бізнесу
    :titlesonly:
    
    WHATS_NEW
-
-
-.. rst-class:: hatnote
-
-   .. toctree::
-      :titlesonly:
-   
-      ClientProcesses/Clients_list
+   ClientProcesses/Clients_list
 
 .. toctree::
    :maxdepth: 2
@@ -29,7 +22,6 @@ EDIN | Електронний документообіг для бізнесу
    retail_2.0/retail_2_0_list
    integration_2_0/integration_2_0_list
    XML/XML-structure
-   ClientProcesses/Clients_list
 
 .. toctree::
    :caption: Е-ТТН
