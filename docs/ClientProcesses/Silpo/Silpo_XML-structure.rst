@@ -85,17 +85,16 @@ XML Специфікації для роботи з Сільпо
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
----------
+.. сеть запретила следующий документ
+  Накладна за кількістю (DOCUMENTINVOICE)
+  =============================================
 
-Накладна за кількістю (DOCUMENTINVOICE)
-=============================================
+  .. csv-table:: Накладна за кількістю (DOCUMENTINVOICE)
+    :file: Silpo_XML/files/DOCUMENTINVOICE.csv
+    :widths:  40, 7, 12, 41
+    :header-rows: 1
 
-.. csv-table:: Накладна за кількістю (DOCUMENTINVOICE)
-  :file: Silpo_XML/files/DOCUMENTINVOICE.csv
-  :widths:  40, 7, 12, 41
-  :header-rows: 1
-
-:download:`Приклад DOCUMENTINVOICE<Silpo_XML/examples/DOCUMENTINVOICE_example_f.xml>`
+  :download:`Приклад DOCUMENTINVOICE<Silpo_XML/examples/DOCUMENTINVOICE_example_f.xml>`
 
 -------------------------
 
