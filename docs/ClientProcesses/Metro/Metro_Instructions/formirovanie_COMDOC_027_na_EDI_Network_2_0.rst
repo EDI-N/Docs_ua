@@ -128,9 +128,9 @@
 .. image:: pics_formirovanie_COMDOC_027_na_EDI_Network_2_0/formirovanie_COMDOC_027_na_EDI_Network_2_0_20.png
    :align: center
 
--------------------------------
-
-.. include:: kontakti.rst
+----------------------------
+   
+.. include:: /_constant/kontakti.rst
 
 
 
