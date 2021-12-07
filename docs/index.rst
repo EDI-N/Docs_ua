@@ -12,11 +12,18 @@ EDIN | Електронний документообіг для бізнесу
    :titlesonly:
    
    WHATS_NEW
-   :green:`ClientProcesses/Clients_list`
+
+
+.. rst-class:: large
+
+   .. toctree::
+      :titlesonly:
+   
+      ClientProcesses/Clients_list
 
 .. raw:: html
 
-   <li class="toctree-l1 current"><a class="reference internal current" style="color: #ff0000;" href="#"><span class="toctree-expand"></span>Процеси клієнтів</a><ul>
+   <li class="toctree-l1 current"><a class="reference internal" style="color: #ff0000;" href="#"><span class="toctree-expand"></span>Процеси клієнтів</a><ul>
  
 .. toctree::
    :maxdepth: 2
