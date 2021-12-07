@@ -14,17 +14,13 @@ EDIN | Електронний документообіг для бізнесу
    WHATS_NEW
 
 
-.. rst-class:: large
+.. rst-class:: hatnote
 
    .. toctree::
       :titlesonly:
    
       ClientProcesses/Clients_list
 
-.. raw:: html
-
-   <li class="toctree-l1 current"><a class="reference internal" style="color: #ff0000;" href="#"><span class="toctree-expand"></span>Процеси клієнтів</a><ul>
- 
 .. toctree::
    :maxdepth: 2
    :caption: EDIN 2.0
