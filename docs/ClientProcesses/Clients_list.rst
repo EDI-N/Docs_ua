@@ -11,3 +11,5 @@
    System_Pysk/System_Pysk_list
    Metro/Metro_list
    Metinvest/Metinvest_list
+   Leroy_Merlin/Leroy_Merlin_list
+   Pampik/Pampik_list
