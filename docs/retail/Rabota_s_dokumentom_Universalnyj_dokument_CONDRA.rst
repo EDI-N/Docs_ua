@@ -69,12 +69,12 @@
 .. image:: pics_Rabota_s_dokumentom_Universalnyj_dokument_CONDRA/Rabota_s_dokumentom_Universalnyj_dokument_CONDRA_06.png
    :align: center
 
-Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секрентних ключів мають розширення **.jks**:
+Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секретних ключів мають розширення **.jks**:
 
 .. image:: pics_Rabota_s_dokumentom_Universalnyj_dokument_CONDRA/Rabota_s_dokumentom_Universalnyj_dokument_CONDRA_07.png
    :align: center
 
-Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секрентних ключів мають найменування **Key-6.dat**:
+Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секретних ключів мають найменування **Key-6.dat**:
 
 .. image:: pics_Rabota_s_dokumentom_Universalnyj_dokument_CONDRA/Rabota_s_dokumentom_Universalnyj_dokument_CONDRA_08.png
    :align: center

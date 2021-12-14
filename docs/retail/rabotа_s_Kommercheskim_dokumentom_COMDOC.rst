@@ -61,12 +61,12 @@
 .. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_6.png
    :align: center
 
-Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секрентних ключів мають розширення **.jks**
+Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секретних ключів мають розширення **.jks**
 
 .. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_7.png
    :align: center
 
-Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секрентних ключів мають найменування **Key-6.dat**
+Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секретних ключів мають найменування **Key-6.dat**
 
 .. image:: pics_rabotа_s_Kommercheskim_dokumentom_COMDOC/rabotа_s_COMDOC_8.png
    :align: center

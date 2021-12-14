@@ -71,7 +71,7 @@
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_22n.png
    :align: center
 
-Якщо Ви використовуєте ключі від будь-яких інших АЦСК, файли підписів секрентних ключів мають найменування **Key-6.dat**.
+Якщо Ви використовуєте ключі від будь-яких інших АЦСК, файли підписів секретних ключів мають найменування **Key-6.dat**.
 
 .. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_23n.png
    :align: center
