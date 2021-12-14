@@ -36,7 +36,9 @@
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_010.png
       :align: center
 
-   :red:`Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:`
+   .. raw:: html
+
+      <p><strong><span style="color: #ff9900;  font-size: 28px;">Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:</span></strong></p>
 
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_002.png
       :align: center
