@@ -259,7 +259,7 @@
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_09.png
    :align: center
 
-Вже після підписання **Постачальником**, статус узгодження зміниться на **Завершено** та з'явиться ще один підпис у блоці Контрагенти. Тепер обидві візуалізації ЕЦП зеленого кольору:
+Вже після підписання **Постачальником**, статус узгодження зміниться на **Завершено** та з'явиться ще один підпис у блоці Контрагенти. Тепер обидві візуалізації КЕП зеленого кольору:
 
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_10.png
    :align: center
