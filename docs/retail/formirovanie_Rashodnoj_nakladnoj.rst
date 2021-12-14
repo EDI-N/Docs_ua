@@ -140,12 +140,12 @@
 .. image:: pics_formirovanie_Rashodnoj_nakladnoj/formirovanie_Rashodnoj_nakladnoj_15.png
    :align: center
 
-Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секрентних ключів мають розширення **.jks**:
+Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секретних ключів мають розширення **.jks**:
 
 .. image:: pics_formirovanie_Rashodnoj_nakladnoj/formirovanie_Rashodnoj_nakladnoj_16.png
    :align: center
 
-Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секрентних ключів мають найменування **Key-6.dat**:
+Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секретних ключів мають найменування **Key-6.dat**:
 
 .. image:: pics_formirovanie_Rashodnoj_nakladnoj/formirovanie_Rashodnoj_nakladnoj_17.png
    :align: center

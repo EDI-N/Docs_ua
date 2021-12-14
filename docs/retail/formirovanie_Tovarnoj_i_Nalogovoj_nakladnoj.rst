@@ -119,12 +119,12 @@
 .. image:: pics_formirovanie_Tovarnoj_i_Nalogovoj_nakladnoj/formirovanie_Tovarnoj_i_Nalogovoj_nakladnoj_12.png
    :align: center
 
-Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секрентних ключів мають розширення **.jks**:
+Якщо Ви використовуєте ключі від **АЦСК “ПриватБанк”**, файли підписів секретних ключів мають розширення **.jks**:
 
 .. image:: pics_formirovanie_Tovarnoj_i_Nalogovoj_nakladnoj/formirovanie_Tovarnoj_i_Nalogovoj_nakladnoj_13.png
    :align: center
 
-Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секрентних ключів мають найменування **Key-6.dat**:
+Якщо Ви використовуєте ключі від будь-яких інших **АЦСК**, файли підписів секретних ключів мають найменування **Key-6.dat**:
 
 .. image:: pics_formirovanie_Tovarnoj_i_Nalogovoj_nakladnoj/formirovanie_Tovarnoj_i_Nalogovoj_nakladnoj_14.png
    :align: center
