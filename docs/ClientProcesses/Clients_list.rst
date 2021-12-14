@@ -13,3 +13,4 @@
    Metinvest/Metinvest_list
    Leroy_Merlin/Leroy_Merlin_list
    Pampik/Pampik_list
+   Auchan/Auchan_list
