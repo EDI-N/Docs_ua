@@ -1,7 +1,9 @@
 Інструкція по роботі з мережею "Ашан" на web-платформі EDI Network 2.0 за схемою "Ашан маркетинг"
 ##########################################################################################################################################
 
-.. role:: red
+.. role:: green
+
+.. role:: large
 
 .. contents:: Зміст:
    :depth: 6
@@ -28,10 +30,12 @@
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_010.png
       :align: center
 
-   Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:
+   :large:`Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:`
 
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_002.png
       :align: center
+
+   ⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_012.gif
       :align: center
@@ -63,8 +67,6 @@
 .. image:: pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_005.png
    :align: center
 
-.. _підписання:
-
 .. _sign:
 
 2.1 Підписання та відправка документа
@@ -81,23 +83,11 @@
 .. image:: pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_007.png
    :align: center
 
-.. _repeal:
+.. note::
+   Відмова від підписання документа відбувається аналогічно до відмови будь-якого іншого COMDOC-документа на платформі та вже описана в розділі `"Відмова від підписання документа <https://wiki.edin.ua/uk/latest/ClientProcesses/Auchan/Auchan_Instructions/Auchan_comdoc_013_016_condra.html#reject>`__.
 
-2.1.1 Анулювання підписаного документа
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. include:: /_constant/comdoc_repeal/comdoc_repeal.rst
-   :start-after: .. початок блоку для Comdoc_Repeal
-   :end-before: .. кінець блоку для Comdoc_Repeal
-
-.. _reject:
-
-2.2 Відмова від підписання документа
--------------------------------------------------------------------------------
-
-.. include:: /_constant/comdoc_reject/comdoc_reject.rst
-   :start-after: .. початок блоку для Comdoc_Reject
-   :end-before: .. кінець блоку для Comdoc_Reject
+.. hint::
+   Анулювання підписаного документа відбувається аналогічно до анулювання будь-якого іншого COMDOC-документа на платформі та вже описане в розділі `"Анулювання підписаного документа <https://wiki.edin.ua/uk/latest/ClientProcesses/Auchan/Auchan_Instructions/Auchan_comdoc_013_016_condra.html#repeal>`__.
 
 3 Отримання "Акта виконаних робіт" (COMDOC_013)
 ==============================================================================================================
@@ -115,7 +105,7 @@
 Підписання відбувається аналогічно до підписання будь-якого іншого документа на платформі та вже описане в розділі `"Підписання та відправка документа <https://wiki.edin.ua/uk/latest/ClientProcesses/Auchan/Auchan_Instructions/Auchan_comdoc_013_016_condra.html#sign>`__.
 
 .. note::
-   Відмова від підписання документа відбувається аналогічно до відмови будь-якого іншого COMDOC-документа на платформі та вже описане в розділі `"Відмова від підписання документа <https://wiki.edin.ua/uk/latest/ClientProcesses/Auchan/Auchan_Instructions/Auchan_comdoc_013_016_condra.html#reject>`__.
+   Відмова від підписання документа відбувається аналогічно до відмови будь-якого іншого COMDOC-документа на платформі та вже описана в розділі `"Відмова від підписання документа <https://wiki.edin.ua/uk/latest/ClientProcesses/Auchan/Auchan_Instructions/Auchan_comdoc_013_016_condra.html#reject>`__.
 
 .. hint::
    Анулювання підписаного документа відбувається аналогічно до анулювання будь-якого іншого COMDOC-документа на платформі та вже описане в розділі `"Анулювання підписаного документа <https://wiki.edin.ua/uk/latest/ClientProcesses/Auchan/Auchan_Instructions/Auchan_comdoc_013_016_condra.html#repeal>`__.
@@ -141,6 +131,27 @@
 
 .. image:: pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_013.png
    :align: center
+
+Додаткові можливості
+=====================================================================================================================
+
+.. _repeal:
+
+Анулювання підписаного документа
+---------------------------------------------------------------------------
+
+.. include:: /_constant/comdoc_repeal/comdoc_repeal.rst
+   :start-after: .. початок блоку для Comdoc_Repeal
+   :end-before: .. кінець блоку для Comdoc_Repeal
+
+.. _reject:
+
+Відмова від підписання документа
+-------------------------------------------------------------------------------
+
+.. include:: /_constant/comdoc_reject/comdoc_reject.rst
+   :start-after: .. початок блоку для Comdoc_Reject
+   :end-before: .. кінець блоку для Comdoc_Reject
 
 ----------------------------
    

@@ -191,14 +191,14 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_19.png
    :align: center
 
-Якщо розмір файлу більше, ніж 7,5 МБ, то його необхідно видалити і завантажити файл меншого розміру, після чого буде можливість підписати його ЕЦП.
+Якщо розмір файлу більше, ніж 7,5 МБ, то його необхідно видалити і завантажити файл меншого розміру, після чого буде можливість підписати його КЕП.
 
 Якщо необхідно завантажити додаткові файли, (зображення сертифіката знаходиться в декількох файлах), натисніть кнопку «**Додати доп. файли**». Після вибору файлу натисніть кнопку «**Зберегти**»
 
 4. Підписання файлів сертифікатів
 ===========================================================================
 
-Після завантаження файлів сертифікатів, у Вас є можливість підписати ці документи ЕЦП, для цього під кожним файлом натисніть кнопку «**Підписати**»:
+Після завантаження файлів сертифікатів, у Вас є можливість підписати ці документи КЕП, для цього під кожним файлом натисніть кнопку «**Підписати**»:
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_20.png
    :align: center
@@ -215,7 +215,7 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_22.png
    :align: center
 
-Після установки ключів, на сторінці відобразиться інформація про ЕЦП:
+Після установки ключів, на сторінці відобразиться інформація про КЕП:
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_23.png
    :align: center
@@ -236,7 +236,7 @@
 
 При новій сесії користувача, для підписання документа необхідно буде тільки ввести паролі і натиснути кнопку «Зчитати ключі».
 
-Після підписання документа, на сторінці відобразиться інформація про ЕЦП:
+Після підписання документа, на сторінці відобразиться інформація про КЕП:
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_26.png
    :align: center
@@ -291,7 +291,7 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_32_2.png
    :align: center
 
-Стан підпису сертифіката ЕЦП:
+Стан підпису сертифіката КЕП:
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_32_3.png
    :align: center
@@ -346,7 +346,7 @@
 
 Пошук можна проводити по одному або по декількох полях. Після того, як ви внесли умови пошуку, натисніть кнопку «**Пошук**».
  
-10. Друк сертифіката з реквізитами ЕЦП
+10. Друк сертифіката з реквізитами КЕП
 ====================================================================
 
 Для того, щоб роздрукувати підписаний сертифікат, необхідно натиснути кнопку "**переглянути підписи**", яка знаходиться в колонці «**Дії**» списку сертифікатів:
@@ -359,7 +359,7 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_40.png
    :align: center
 
-Відкриється вікно із завантаженою скан-копію сертифіката, де можна додати реквізити ЕЦП. Натиснувши на кнопку "Друк", відкриється меню, з якого можна роздрукувати сертифікат з реквізитами ЕЦП.
+Відкриється вікно із завантаженою скан-копію сертифіката, де можна додати реквізити КЕП. Натиснувши на кнопку "Друк", відкриється меню, з якого можна роздрукувати сертифікат з реквізитами КЕП.
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_41.png
    :align: center
