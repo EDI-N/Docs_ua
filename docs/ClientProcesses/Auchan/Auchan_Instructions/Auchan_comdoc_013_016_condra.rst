@@ -1,7 +1,7 @@
 Інструкція по роботі з мережею "Ашан" на web-платформі EDI Network 2.0 за схемою "Ашан маркетинг"
 ##########################################################################################################################################
 
-.. role:: green
+.. role:: red
 
 .. role:: large
 
@@ -19,6 +19,12 @@
 * `"Рахунок-фактура" (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
 * `"Універсальний/неструктурований документ" (CONDRA) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 
+Загальна схема документообігу:
+
+.. image:: pics_Auchan_comdoc_013_016_condra/Auchan_marketing_schema_v1_1.png
+   :height: 700px
+   :align: center
+
 .. important::
    Мережа "Ашан" є ініціатором документообігу: надсилає ці 3 пов'язаних між собою документа, два з яких (COMDOC) потребують підписання, а "Універсальний документ" (CONDRA) слугує розшифровкою до рахунку.
 
@@ -30,7 +36,7 @@
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_010.png
       :align: center
 
-   :large:`Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:`
+   :red:`Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:`
 
    .. image:: /ClientProcesses/Auchan/Auchan_Instructions/pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_002.png
       :align: center
