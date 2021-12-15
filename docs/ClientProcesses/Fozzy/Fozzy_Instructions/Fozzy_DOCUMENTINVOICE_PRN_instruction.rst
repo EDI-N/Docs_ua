@@ -56,6 +56,9 @@
 .. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_003.png
    :align: center
 
+.. important::
+   Дата "Цінової накладної" повинна співпадати з датою "Накладної за кількістю" (як в випадку передачі "Накладної за кількістю" через платфому EDIN, так і в паперовому вигляді)!
+
 В табличній частині створеного документа знаходяться всі товарні позиції (перенесені з документа-підстави "Замовлення" (ORDER)). Детальну інформацію по позиції можливо переглянути натиснувши на кнопку біля номера позиції:
 
 .. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_005.png
