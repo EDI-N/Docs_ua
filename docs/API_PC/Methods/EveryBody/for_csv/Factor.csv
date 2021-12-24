@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Factor: , Об'єкт **Factor**,,
+accountId,O,long,ідентифікатор акаунта
+name,O,String,назва компанії
+edrpou,O,String,ЄДРПОУ

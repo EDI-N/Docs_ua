@@ -1,0 +1,16 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/factors/requests?limit=21&offset=0**
+URL параметри ,"**statuses** (опціонально) int - пошук заявок в статусі:
+
+* 0 - Чернетка
+* 1 - На розгляді
+* 2 - Прийнято
+* 3 - Відхилено
+
+**limit** (опціонально) int - ліміт вибірки (за замовчуванням=20);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
