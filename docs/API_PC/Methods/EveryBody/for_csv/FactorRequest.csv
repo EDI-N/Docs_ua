@@ -1,0 +1,26 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _FactorRequest: , Об'єкт **FactorRequest**,,
+factorAccountId,M,long,ідентифікатор акаунта фактора
+status,O,int,"статус заявки;
+
+* 0 - Чернетка
+* 1 - На розгляді
+* 2 - Прийнято
+* 3 - Відхилено"
+gln,M,String,GLN відправника заявки
+contractNumber,M,String,№ договору факторингу
+contractDate,M,String,дата договору факторингу
+info,O,String,додаткова інформація
+rejectComment,-/M,String,коментар фактора при відхиленні заявки (поле використовується лише при відхиленні) 
+dateCreated,O,String,дата створення
+fio,M,String,ПІБ відправника заявки
+phone,M,String,контактний номер телефону
+email,M,String,електронна пошта
+bankName,O,String,назва банку
+mfo,O,String,МФО
+accountNumber,O,String,розрахунковий рахунок
+**debts**,M,List<FactorRequestDebt_>,масив об'єктів; дебітори
+requestId,O,long,ідентифікатор заявки
+supplierAccountId,O,long,ідентифікатор акаунта постачальника
+**factor**,O,PartyData_,об'єкт; дані фактора
+**supplier**,O,PartyData_,об'єкт; дані постачальника
