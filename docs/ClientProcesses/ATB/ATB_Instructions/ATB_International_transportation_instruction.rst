@@ -25,21 +25,11 @@
 - `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
 - `Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
 
-Загальна схема документообігу:
+**Загальна схема документообігу:**
 
-.. uml::
-   :scale: 100 %
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_038.png
+   :height: 700px
    :align: center
-
-   @startuml
-
-   АТБ -> Постачальник: Замовлення (ORDER)
-   АТБ <- Постачальник: Підтвердження замовлення (ORDRSP)
-   АТБ <- Постачальник: Повідомлення про відвантаження (DESADV)
-   АТБ <- Постачальник: Універсальний документ (CONDRA)
-   АТБ -> Постачальник: Універсальний документ (CONDRA)
-
-   @enduml
 
 1 Формування "Замовлення" (ORDER) на стороні мережі "АТБ"
 ==================================================================
