@@ -43,18 +43,18 @@
 
 Далі необхідно заповнити форму "Акта виконаних робіт" (обов'язкові поля документа позначені червоною зірочкою :red:`*`): 
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_004.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_033.png
    :align: center
 
 .. hint::
    Таблична частина може бути одразу заповнена, якщо налаштоване `автоматичне підрахування цін <https://wiki.edin.ua/uk/latest/ETTN_2_0/Create_act_at_accepted_work_on_Proposal.html#additional-functionality>`__.
 
-   .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_005.png
+   .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_034.png
       :align: center
 
 Поле "Дані договору" - номер/дата договору, на підставі якого створено документ (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_031.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_035.png
    :align: center
 
 .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_032.png
@@ -65,25 +65,25 @@
 
 Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з документа-підстави: "Заявки на транспортування" (за умови, що в "Замовника" не активовані налаштування *заборони редагування вартості перевезення* [1]_ в "Актах виконаних робіт"):
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_006.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_036.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_007.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_037.png
    :align: center
 
 Після того, як всі обов'язкові поля заповнені можливо **"Зберегти"** документ, в якості чернетки:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_008.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_038.png
    :align: center
 
 До чернетки можливо додати супровідні документи на вантаж через кнопку **"Додати файл"**:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_009.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_039.png
    :align: center
 
 Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву. Після того, як обов'язкові поля документа (позначені червоною зірочкою :red:`*`) будуть заповнені документ за потреби можливо повторно **"Зберегти"** (1) та **"Підписати"** (2):
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_010.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_040.png
    :align: center
 
 .. _sign:
@@ -99,7 +99,7 @@
 
 Після підписання "Акту виконаних робіт" інформація щодо підписанта відображається в блоці "Підписанти", а документ можливо **"Надіслати"**:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_011.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_041.png
    :align: center
 
 У **"Виконавця"** відправлений документ відображається у **"Надіслані"** зі статусом **"Очікує підписання замовником"**.
@@ -109,7 +109,7 @@
 
 Відправлений "Акт виконаних робіт" має наступний вигляд:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_013.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_042.png
    :align: center
 
 На формі "Акта виконаних робіт" у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
@@ -121,7 +121,7 @@
 
 Для того, щоб відхилити документ (доступно **до підписання "Замовником"**) потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_014.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_043.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
@@ -129,7 +129,7 @@
 .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_015.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_016.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_044.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку (**"Скасовано виконавцем"**).
@@ -147,7 +147,7 @@
 
 Вхідний підписаний документ можливо **"Підписати"** чи **"Відхилити"**.
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_018.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_045.png
    :align: center
 
 **2.1 Підписання "Акта виконаних робіт" "Замовником"**
@@ -155,7 +155,7 @@
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_022.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_046.png
    :align: center
 
 .. hint::
@@ -163,7 +163,7 @@
 
 Після підписання документ змінює свій статус на **"Підписано замовником"** система повідомить про завершення документообігу інформаційним повідомленням в формі документу:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_019.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_048.png
    :align: center
 
 **2.2 Відхилення "Акта виконаних робіт" "Замовником"**
@@ -171,7 +171,7 @@
 
 У **"Замовника"** є можливість відхилити "Акт виконаних робіт". Для цього потрібно натиснути на кнопку **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_020.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_047.png
    :align: center
 
 .. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_015.png
@@ -179,7 +179,7 @@
 
 Для відхиленого **"Замовником"** "Акта виконаних робіт" присвоєно статус "Скасовано замовником".
 
-.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_021.png
+.. image:: pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_049.png
    :align: center
 
 Документ з цим статусом відображається у "Вхідних" **"Замовника"** - документообіг завершено.
