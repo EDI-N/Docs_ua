@@ -47,12 +47,12 @@
 
 Далі необхідно заповнити форму "Акта виконаних робіт": 
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_37.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_004.png
    :align: center
 
 Поле "Дані договору" - номер/дата договору, на підставі якого створено документ (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_60.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_001.png
    :align: center
 
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_61.png
@@ -63,20 +63,20 @@
 
 Можливо **"Додати"** дані про новий вантаж або **"Змінити"** / **"Видалити"** дані, що автоматично підтягнулись з е-ТТН (документа-підстави):
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_38.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_005.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_39.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_002.png
    :align: center
 
 Після збереження чернетки (кнопка **"Зберегти"**) можливо додати супровідні документи на вантаж через кнопку **"Додати файл"**:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_57.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_006.png
    :align: center
 
 Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву. Після того, як обов'язкові поля документа (позначені червоною зірочкою :red:`*`) будуть заповнені документ за потреби можливо повторно **"Зберегти"** (1) та **"Підписати"** (2):
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_58.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_007.png
    :align: center
 
 .. _sign:
@@ -92,7 +92,7 @@
 
 Після підписання "Акта виконаних робіт" інформація щодо підписанта відображається в блоці "Підписанти", а документ можливо **"Надіслати"**:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_41.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_003.png
    :align: center
 
 У **"Перевізника"** відправлений документ відображається у **"Надіслані"** зі статусом **"Очікує підписання замовником"**.
@@ -102,7 +102,7 @@
 
 Відправлений "Акт виконаних робіт" має наступний вигляд:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_43.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_008.png
    :align: center
 
 На формі "Акта виконаних робіт" у лівій верхній частині відображаються QR-код та унікальний ідентифікатор документа.
@@ -114,7 +114,7 @@
 
 Для того, щоб відхилити документ (доступно **до підписання "Вантажовідправником"**) потрібно натиснути **"Відхилити"**. 
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_44.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_009.png
    :align: center
 
 Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
@@ -122,7 +122,7 @@
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_20n.png
    :align: center
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_45.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_010.png
    :align: center
 
 На платформі відображається повідомлення та змінюється статус документа в ланцюжку (**"Скасовано виконавцем"**).
@@ -140,7 +140,7 @@
 
 Вхідний підписаний документ можливо "Підписати" чи "Відхилити".
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_47.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_011.png
    :align: center
 
 **2.1 Підписання "Акта виконаних робіт" "Вантажовідправником"**
@@ -148,7 +148,7 @@
 
 Для підписання документу потрібно натиснути на кнопку **"Підписати"**:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_48.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_012.png
    :align: center
 
 .. hint::
@@ -156,7 +156,7 @@
 
 Після підписання документ змінює свій статус на **"Підписано замовником"** система повідомить про завершення документообігу інформаційним повідомленням в формі документу:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_49.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_014.png
    :align: center
 
 **2.2 Відхилення "Акта виконаних робіт" "Вантажовідправником"**
@@ -164,7 +164,7 @@
 
 У **"Вантажовідправника"** є можливість відхилити "Акт виконаних робіт". Для цього потрібно натиснути на кнопку **"Відхилити"**. Після чого в модульному вікні обов'язково потрібно заповнити причину відміни документа:
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_50.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_013.png
    :align: center
 
 .. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_20n.png
@@ -172,7 +172,7 @@
 
 Для відхиленого **"Вантажовідправником"** "Акта виконаних робіт" присвоєно статус "Відхилено".
 
-.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_51.png
+.. image:: pics_Create_act_at_accepted_work/Create_act_at_accepted_work_015.png
    :align: center
 
 Документ з цим статусом відображається у "Вхідних" **"Вантажовідправника"** - документообіг завершено.
