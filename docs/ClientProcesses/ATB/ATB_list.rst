@@ -14,3 +14,4 @@
    ATB_Instructions/ATB_external_EDI_instruction_net
    ATB_Instructions/ATB_external_EDI_instruction_post
    ATB_Instructions/ATB_distribution_centers
+   ATB_Instructions/ATB_storehouse
