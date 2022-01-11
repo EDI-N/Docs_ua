@@ -209,19 +209,19 @@
 Для формування документа, у папці "Вхідні" виберіть небхідний документ від мережі "АТБ". Для полегшення пошуку, достатньо ввести номер документа в полі «Пошук». Документи також можливо шукати за Відправником, Датою документа і Одержувачем (`детальніше <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__). 
 За допомогою фільтру "Усі документи" відфільтруйте необхідний тип документа, у данному випадку - "Повідомлення про повернення". Перейдіть у документ.
 
-.. image:: pics_formirovanie_RETINS_na_EDI_Network_2.0/pics_formirovanie_RETINS_na_EDI_Network_2.0_002.png
+.. image:: pics_ATB_distribution_centers/pics_ATB_distribution_centers_002.png
    :align: center
 
 У документі, що відкрився, виберіть **Інструкція про повернення** на формі-підказці, новий документ створиться автоматично.
 
-.. image:: pics_formirovanie_RETINS_na_EDI_Network_2.0/pics_formirovanie_RETINS_na_EDI_Network_2.0_005.png
+.. image:: pics_ATB_distribution_centers/pics_ATB_distribution_centers_005.png
    :align: center
 
 Деякі поля у створеному документі вже будуть заповнені із документа-основи, без можливості редагування.
 
 Деякі дані можливо редагувати. Обов'язкові поля, позначені червоною зірочкою :red:`*`, мають бути заповнені!
 
-.. image:: pics_formirovanie_RETINS_na_EDI_Network_2.0/pics_formirovanie_RETINS_na_EDI_Network_2.0_006.png
+.. image:: pics_ATB_distribution_centers/pics_ATB_distribution_centers_006.png
    :align: center
 
 #. **№** - номер документа;
@@ -237,14 +237,14 @@
 
 У табличній частині вказано порядковий № позиції, її Найменування, Штрихкод, Кількість до повернення та Одиниці виміру.
 
-.. image:: pics_formirovanie_RETINS_na_EDI_Network_2.0/pics_formirovanie_RETINS_na_EDI_Network_2.0_007.png
+.. image:: pics_ATB_distribution_centers/pics_ATB_distribution_centers_007.png
    :align: center
 
 В Інструкції про повернення можливо змінити тільки кількість товару, що повертаться та переглянути дані позиції, натиснувши на її штрихкод.
 
 Після внесення всіх даних в документ, натисніть кнопку **"Зберегти"**, а потім **"Відправити"**.
 
-.. image:: pics_formirovanie_RETINS_na_EDI_Network_2.0/pics_formirovanie_RETINS_na_EDI_Network_2.0_001.png
+.. image:: pics_ATB_distribution_centers/pics_ATB_distribution_centers_001.png
    :align: center
 
 -------------------------------------
