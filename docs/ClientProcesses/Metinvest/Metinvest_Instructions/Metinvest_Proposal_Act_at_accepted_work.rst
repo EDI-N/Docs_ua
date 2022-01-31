@@ -111,11 +111,6 @@
 .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_011.png
    :align: center
 
-При створенні "Акту виконаних робіт" можливо вибрати 1 або кілька "Заявок на транспортування", на підставі яких він буде створений:
-
-.. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_003.png
-   :align: center
-
 Далі необхідно заповнити форму "Акта виконаних робіт" (обов'язкові поля документа позначені червоною зірочкою :red:`*`). Поле "Дані договору" - номер/дата договору, на підставі якого створено документ (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
 
 .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_031.png
