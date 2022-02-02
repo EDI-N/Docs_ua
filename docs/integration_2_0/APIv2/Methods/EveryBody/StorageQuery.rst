@@ -256,6 +256,6 @@
 
 .. csv-table:: 
   :file: for_csv/sub_doc_type_id.csv
-  :widths:  1, 7, 7
+  :widths:  1, 7, 41
   :header-rows: 1
   :stub-columns: 0
