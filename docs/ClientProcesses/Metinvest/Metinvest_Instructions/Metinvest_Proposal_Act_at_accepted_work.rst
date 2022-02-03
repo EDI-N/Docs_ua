@@ -34,6 +34,9 @@
    :start-after: .. початок блоку для Enter
    :end-before: .. кінець блоку для Enter
 
+.. attention::
+   Перед початком роботи переконайтесь, що у Вашому **"Особистому кабінеті"** заповнені платіжні реквізити (розділ `Налаштування -> Компанії <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#company>`__) - це важливо для подальшого формування документів.
+
 Після успішної авторизації відкриється основне меню для вибору сервісу платформи EDIN "Е-ТТН":
 
 .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_005.png
@@ -118,6 +121,9 @@
 
 .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_032.png
    :align: center
+
+.. attention::
+   При створенні документа шляхом `клонування <https://wiki.edin.ua/uk/latest/ETTN_2_0/Work_with_ETTN.html#doc-clone>`__ поле "Дані договору" заповнюється автоматично лише за наявності цього договору в `"Особистому кабінеті" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#contracts>`__.
 
 В табличній частині потрібно **"Змінити"** Номер та Дату документа-підстави, вказавши там номер та дату "Товарно-транспортної накладної":
 
