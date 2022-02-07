@@ -1,4 +1,5 @@
 Підтип комерційного документа,sub_doc_type_id,Назва та опис документа
+001,1,`Договір (COMDOC_001) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-001>`__
 005,5,`Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-005>`__
 006,6,`Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__
 007,7,`Прибуткова накладна (COMDOC_007) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__
