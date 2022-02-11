@@ -1,0 +1,643 @@
+Назва поля,Тип [1]_,Формат,Опис
+**UAECMR**,M,,(початок документа)
+**eCMR**,M,,(початок змісту документа)
+**ExchangedDocumentContext**,M,,Технічні дані (початок блоку)
+ram:SpecifiedTransactionID,M,string,версія документа
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,M,,"параметр контексту документа, визначений бізнес-процесом (початок блоку)"
+ram:ID,M,string,код документа
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,,,"параметр контексту документа, визначений бізнес-процесом (закінчення блоку)"
+**ram:GuidelineSpecifiedDocumentContextParameter**,M,,"параметр контексту визначеного документа (початок блоку)"
+ram:ID,M,unsignedByte,підтип документа. Тип е-ТТН залежно від виду вантажу: основний (001 - generic (default))
+**ram:GuidelineSpecifiedDocumentContextParameter**,,,"параметр контексту визначеного документа (закінчення блоку)"
+**ExchangedDocumentContext**,,,Технічні дані (закінчення блоку)
+**ExchangedDocument**,M,,Реквізити ТТН (початок блоку)
+ram:ID,M,string,порядковий номер (серія) документа ТТН
+**ram:IssueDateTime**,M,,Дата і час складання документа (виписування ТТН) (початок блоку)
+**udt:DateTime**,,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час складання документа (виписування ТТН)
+**ram:IssueDateTime**,,,Дата і час складання документа (виписування ТТН) (закінчення блоку)
+**ram:IssueLogisticsLocation**,M,,Місце складання документа (початок блоку)
+ram:Name,M,string,Найменування місця складання ТТН
+ram:Description,M,string,Опис (адреса) місця складання ТТН
+**ram:IssueLogisticsLocation**,,,Місце складання документа (закінчення блоку)
+**ExchangedDocument**,,,Реквізити ТТН (закінчення блоку)
+**SpecifiedSupplyChainConsignment**,M,,Інформація про перевезення (початок блоку)
+**ram:GrossWeightMeasure**,M,,"Загальна вага перевезення (маса брутто) в кг з точністю до 0,1 (початок блоку)"
+unitCode,M,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+value,M,decimal,Значення
+**ram:GrossWeightMeasure**,,,"Загальна вага перевезення (маса брутто) в кг з точністю до 0,1 (закінчення блоку)"
+**ram:AssociatedInvoiceAmount**,M,,"Усього відпущено на загальну суму, грн. Загальна вартість відвантажених товарів з урахуванням ПДВ та акцизного збору (якщо останній сплачується) з точністю до 0,01 (початок блоку)"
+currencyID,M,string,Тризначний код валюти (UAH)
+value,M,decimal,Значення
+**ram:AssociatedInvoiceAmount**,,,"Усього відпущено на загальну суму, грн. Загальна вартість відвантажених товарів з урахуванням ПДВ та акцизного збору (якщо останній сплачується) з точністю до 0,01 (закінчення блоку)"
+ram:ConsignmentItemQuantity,M,decimal,Загальна кількість місць вантажу (контейнерів)
+**ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
+**ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
+ram:MinimumValueMeasure,O,string,Мінімальне значення температури
+ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
+**ram:HandlingInstructions**,O,,Інструкції з експлуатації (закінчення блоку)
+**ram:DeliveryInstructions**,O,,Вид перевезень (початок блоку)
+ram:Description,O,string,"Опис (вид роботи перевізника: за відрядним тарифом, за погодинним тарифом, за покілометровим тарифом, централізовані перевезення тощо)"
+ram:DescriptionCode,M,string,Код (TRANSPORTATION_TYPE)
+**ram:DeliveryInstructions**,,,Вид перевезень (закінчення блоку)
+**ram:ConsignorTradeParty**,M,,Вантажовідправник (початок блоку)
+**ram:ID**,M,,"Ідентифікаційний код Вантажовідправника (ЄДРПОУ юридичної особи або РНОКПП фізичної-особи підприємця), що проводить відвантаження (списання) перелічених в ТТН товарно-матеріальних цінностей (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ / РНОКПП
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Вантажовідправника (ЄДРПОУ юридичної особи або РНОКПП фізичної-особи підприємця), що проводить відвантаження (списання) перелічених в ТТН товарно-матеріальних цінностей (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Вантажовідправника (юридичної особи або ПІБ фізичної-особи підприємця), що проводить відвантаження (списання) перелічених в ТТН товарно-матеріальних цінностей"
+ram:RoleCode,M,string,Роль учасника (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:PostalTradeAddress**,M,,Юридична адреса Вантажовідправника (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (початок блоку)
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,Юридична адреса Вантажовідправника (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:ConsignorTradeParty**,,,Вантажовідправник (закінчення блоку)
+**ram:ConsigneeTradeParty**,M,,Вантажоодержувач (початок блоку)
+**ram:ID**,M,,"Ідентифікаційний код Вантажоодержувача (ЄДРПОУ юридичної особи або РНОКПП фізичної-особи підприємця), що проводить одержання (оприбуткування) перелічених в ТТН товарно-матеріальних цінностей (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ / РНОКПП
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Вантажоодержувача (ЄДРПОУ юридичної особи або РНОКПП фізичної-особи підприємця), що проводить одержання (оприбуткування) перелічених в ТТН товарно-матеріальних цінностей (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Вантажоодержувача (юридичної особи або ПІБ фізичної-особи підприємця), що проводить одержання (оприбуткування) перелічених в ТТН товарно-матеріальних цінностей"
+ram:RoleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:PostalTradeAddress**,M,,Юридична адреса Вантажоодержувача (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (початок блоку)
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,Юридична адреса Вантажоодержувача (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:ConsigneeTradeParty**,,,Вантажоодержувач (закінчення блоку)
+**ram:CarrierTradeParty**,M,,Перевізник (початок блоку)
+**ram:ID**,M,,"Ідентифікаційний код Перевізника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ / РНОКПП
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Перевізника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Перевізника (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:PostalTradeAddress**,M,,"Юридична адреса Перевізника (юридична адреса суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або адреса реєстрації фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг) (початок блоку)"
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,"Юридична адреса Перевізника (юридична адреса суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або адреса реєстрації фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг) (закінчення блоку)"
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ водія, що керуватиме ТЗ при перевезенні вантажу"
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,M,string,РНОКПП відповідальної особи (водія)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія (початок блоку)
+ram:.ID,M,string,"Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія (закінчення блоку)
+**ram:CarrierTradeParty**,,,Перевізник (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - FW),M,,Експедитор (початок блоку)
+**ram:ID**,O,,"Ідентифікаційний код Експедитора. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування (початок блоку)"
+schemeAgencyID,O,string,ЄДРПОУ / РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Експедитора. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування (закінчення блоку)"
+ram:Name,O,string,"Повне найменування Експедитора (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування"
+ram:RoleCode,O,string,Роль учасника (Експедитор - FW). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:PostalTradeAddress**,O,,"Юридична адреса Експедитора (юридичної особи або фізичної особи - підприємця) або адреса реєстрації фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування (початок блоку)"
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,"Юридична адреса Експедитора (юридичної особи або фізичної особи - підприємця) або адреса реєстрації фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування (закінчення блоку)"
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - FW),,,Експедитор (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - OB),M,,Замовник (початок блоку)
+**ram:ID**,M,,"Ідентифікаційний код Замовника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, що проводить оплату транспортної роботи і послуг (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ / РНОКПП
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Замовника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, що проводить оплату транспортної роботи і послуг (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Замовника (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, що проводить оплату транспортної роботи і послуг"
+ram:RoleCode,M,string,Роль учасника (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:PostalTradeAddress**,M,,"Юридична адреса Замовника (юридичної особи або фізичної особи - підприємця) або адреса реєстрації фізичної особи, що проводить оплату транспортної роботи і послуг (початок блоку)"
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,"Юридична адреса Замовника (юридичної особи або фізичної особи - підприємця) або адреса реєстрації фізичної особи, що проводить оплату транспортної роботи і послуг (закінчення блоку)"
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - OB),,,Замовник (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - WD),O,,"Проміжний склад. Більш детальна інформація про проміжні перевантаження, якщо вона є, надається Перевізником у блоці **Маршрутизація** (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код Проміжного складу. ЄДРПОУ підприємства (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (початок блоку)"
+schemeAgencyID,O,string,ЄДРПОУ / РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Проміжного складу. ЄДРПОУ підприємства (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (закінчення блоку)"
+ram:Name,O,string,"Повне найменування Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж"
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:PostalTradeAddress**,O,,"Юридична адреса Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (початок блоку)"
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,"Юридична адреса Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (закінчення блоку)"
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - WD),,,"Проміжний склад. Більш детальна інформація про проміжні перевантаження, якщо вона є, надається Перевізником у блоці **Маршрутизація** (закінчення блоку)"
+**ram:NotifiedTradeParty** (роль - COP),O,,"Компанія, що надає охоронні послуги (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код Охоронної компанії. ЄДРПОУ підприємства, що надає охоронні послуги вантажу під час перевезення (початок блоку)"
+schemeAgencyID,O,string,ЄДРПОУ / РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Охоронної компанії. ЄДРПОУ підприємства, що надає охоронні послуги вантажу під час перевезення (закінчення блоку)"
+ram:Name,O,string,"Повне найменування Охоронної компанії, що надає охоронні послуги вантажу під час перевезення"
+ram:RoleCode,M,string,Роль учасника (Охоронна компанія - COP). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,"ПІБ представника Замовника, який уповноважений супроводжувати вантаж, що підлягає спеціальній охороні"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:NotifiedTradeParty** (роль - COP),,,"Компанія, що надає охоронні послуги (закінчення блоку)"
+**ram:CarrierAcceptanceLogisticsLocation**,M,,Пункт навантаження (початок блоку)
+**ram:ID**,M,,"Код КАТОТТГ пункту навантаження відповідно до Кодифікатора адміністративно-територіальних одиниць та територій територіальних громад (початок блоку)"
+schemeAgencyID,M,string,КАТОТТГ
+value,M,decimal,Значення
+**ram:ID**,,,"Код КАТОТТГ пункту навантаження відповідно до Кодифікатора адміністративно-територіальних одиниць та територій територіальних громад (закінчення блоку)"
+ram:TypeCode,M,string,Тип операції: 5 - навантаження; 10 - розвантаження
+ram:Name,M,string,Найменування пункту навантаження
+ram:Description,M,string,Опис (адреса) пункту навантаження
+**ram:PhysicalGeographicalCoordinate**,O,,Географічні координати (початок блоку)
+ram:LatitudeMeasure,O,string,Широта
+ram:LongitudeMeasure,O,string,Довгота
+**ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
+**ram:CarrierAcceptanceLogisticsLocation**,,,Пункт навантаження (закінчення блоку)
+**ram:ConsigneeReceiptLogisticsLocation**,M,,Пункт розвантаження (початок блоку)
+**ram:ID**,M,,"Код КАТОТТГ пункту розвантаження відповідно до Кодифікатора адміністративно-територіальних одиниць та територій територіальних громад (початок блоку)"
+schemeAgencyID,M,string,КАТОТТГ
+value,M,decimal,Значення
+**ram:ID**,,,"Код КАТОТТГ пункту розвантаження відповідно до Кодифікатора адміністративно-територіальних одиниць та територій територіальних громад (закінчення блоку)"
+ram:TypeCode,M,string,Тип операції: 5 - навантаження; 10 - розвантаження
+ram:Name,M,string,Найменування пункту розвантаження
+ram:Description,M,string,Опис (адреса) пункту розвантаження
+**ram:PhysicalGeographicalCoordinate**,O,,Географічні координати (початок блоку)
+ram:LatitudeMeasure,O,string,Широта
+ram:LongitudeMeasure,O,string,Довгота
+**ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
+**ram:ConsigneeReceiptLogisticsLocation**,,,Пункт розвантаження (закінчення блоку)
+**ram:AssociatedReferencedDocument** (TypeCode=723),O,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (початок блоку)"
+ram:TypeCode,O,string,Тип 723 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:ID,O,string,"Номер документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
+ram:Remarks,O,string,"Назва документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
+ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:AssociatedReferencedDocument** (TypeCode=723),,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (закінчення блоку)"
+**ram:AssociatedReferencedDocument** (TypeCode=290),O,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (початок блоку)
+ram:TypeCode,O,string,Тип 290 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:Remarks,O,string,"Передача права на пред'явлення претензії засвідчується написом на ТТН такого змісту: «Право на пред'явлення претензії передане П.І.Б.» (довірена особа)"
+ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:AssociatedReferencedDocument** (TypeCode=290),,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (закінчення блоку)
+**ram:AssociatedReferencedDocument** (TypeCode=916),O,,Супровідні документи на вантаж. Коригуючі акти (початок блоку)
+ram:TypeCode,O,string,Тип 916 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:ID,O,string,"Номер акта"
+ram:Remarks,O,string,"Назва акта"
+ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:AssociatedReferencedDocument** (TypeCode=916),,,Супровідні документи на вантаж. Коригуючі акти (закінчення блоку)
+**ram:AssociatedReferencedDocument**,O,,Інші супровідні документи (початок блоку)
+ram:TypeCode,O,string,Тип (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:ID,O,string,"Номер документа"
+ram:Remarks,O,string,"Назва документа"
+ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:AssociatedReferencedDocument**,,,Інші супровідні документи (закінчення блоку)
+**ram:DeliveryTransportEvent**,M,,Розвантажувальні роботи (початок блоку)
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),M,,"Маса брутто, кг (початок блоку)"
+ram:ContentCode,M,string,Код GROSSWEIGHT
+ram:Content,M,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах з точністю до 0,1"
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
+ram:ActualOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час прибуття автомобіля на розвантаження
+ram:ScheduledOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час вибуття автомобіля з-під розвантаження
+**ram:ApplicableNote** (з кодом DOWNTIME),O,,Час простою (початок блоку)
+ram:ContentCode,O,string,Код DOWNTIME
+ram:Content,O,unsignedByte,Час (години) простою під розвантаженням
+**ram:ApplicableNote** (з кодом DOWNTIME),,,Час простою (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CN),M,,Інформація про відповідальних осіб Вантажоодержувача (початок блоку)
+ram:Name,M,string,Посада матеріально відповідальної особи вантажоодержувача
+ram:RoleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,M,string,ПІБ матеріально відповідальної особи вантажоодержувача
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП матеріально відповідальної особи вантажоодержувача (початок блоку)"
+schemeAgencyID,M,string,РНОКПП
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП матеріально відповідальної особи вантажоодержувача (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CN),,,Інформація про відповідальних осіб Вантажоодержувача (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),O,,Інформація про водія Перевізника (початок блоку)
+ram:Name,O,string,"Посада водія, що здав вантаж"
+ram:RoleCode,O,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,O,string,"ПІБ водія, що здав вантаж"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=DR),,,Інформація про водія Перевізника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),O,,Інформація про відповідальних осіб Перевізника (початок блоку)
+ram:Name,O,string,"Посада відповідальної особи Перевізника"
+ram:RoleCode,O,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,O,string,"ПІБ відповідальної особи Перевізника"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Перевізника (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Перевізника (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CA),,,Інформація про відповідальних осіб Перевізника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=FW),O,,Інформація про відповідальних осіб Експедитора (початок блоку)
+ram:Name,O,string,"Посада відповідальної особи Експедитора"
+ram:RoleCode,O,string,Роль учасника (Експедитор - FW). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,O,string,"ПІБ відповідальної особи Експедитора"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Експедитора (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Експедитора (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=FW),,,Інформація про відповідальних осіб Експедитора (закінчення блоку)
+**ram:DeliveryTransportEvent**,,,Розвантажувальні роботи (закінчення блоку)
+**ram:PickUpTransportEvent**,M,,Навантажувальні роботи (початок блоку)
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),M,,"Маса брутто, кг (початок блоку)"
+ram:ContentCode,M,string,Код GROSSWEIGHT
+ram:Content,M,decimal,"Маса зданого/отриманого для перевезення вантажу в кілограмах з точністю до 0,1"
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
+ram:ActualOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час прибуття автомобіля під навантаження
+ram:ScheduledOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час вибуття автомобіля з-під навантаження
+**ram:ApplicableNote** (з кодом DOWNTIME),O,,Час простою (початок блоку)
+ram:ContentCode,O,string,Код DOWNTIME
+ram:Content,O,unsignedByte,Час (години) простою під навантаженням
+**ram:ApplicableNote** (з кодом DOWNTIME),,,Час простою (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CZ),M,,Інформація про відповідальних осіб Вантажовідправника (початок блоку)
+ram:Name,M,string,"Посада матеріально відповідальної особи, яка відпускає вантаж"
+ram:RoleCode,M,string,Роль учасника (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,M,string,"ПІБ матеріально відповідальної особи, яка відпускає вантаж"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП матеріально відповідальної особи, яка відпускає вантаж (початок блоку)"
+schemeAgencyID,M,string,РНОКПП
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП матеріально відповідальної особи, яка відпускає вантаж (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CZ),,,Інформація про відповідальних осіб Вантажовідправника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),M,,Інформація про водія Перевізника (початок блоку)
+ram:Name,M,string,"Посада водія, що прийняв вантаж"
+ram:RoleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,M,string,"ПІБ водія, що прийняв вантаж"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=DR),,,Інформація про водія Перевізника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),O,,Інформація про відповідальних осіб Перевізника (початок блоку)
+ram:Name,O,string,"Посада відповідальної особи Перевізника"
+ram:RoleCode,O,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,O,string,"ПІБ відповідальної особи Перевізника"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Перевізника (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Перевізника (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CA),,,Інформація про відповідальних осіб Перевізника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=FW),O,,Інформація про відповідальних осіб Експедитора (початок блоку)
+ram:Name,O,string,"Посада відповідальної особи Експедитора"
+ram:RoleCode,O,string,Роль учасника (Експедитор - FW). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:PersonName,O,string,"ПІБ відповідальної особи Експедитора"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Експедитора (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Експедитора (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=FW),,,Інформація про відповідальних осіб Експедитора (закінчення блоку)
+**ram:PickUpTransportEvent**,,,Навантажувальні роботи (закінчення блоку)
+**ram:IncludedSupplyChainConsignmentItem**,M,,Відомості про вантаж (початок блоку)
+ram:SequenceNumeric,M,int,Порядковий номер рядка в таблиці
+**ram:InvoiceAmount**,M,,"Загальна сума з ПДВ в грн з точністю до 0,01 (початок блоку)"
+currencyID,M,string,Тризначний код валюти (UAH)
+value,M,decimal,Значення
+**ram:InvoiceAmount**,,,"Загальна сума з ПДВ в грн з точністю до 0,01 (закінчення блоку)"
+**ram:GrossWeightMeasure**,M,,"Маса брутто вантажу по кожному рядку в кг з точністю до 0,1 (початок блоку)"
+unitCode,M,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+value,M,decimal,Значення
+**ram:GrossWeightMeasure**,,,"Маса брутто вантажу по кожному рядку в кг з точністю до 0,1 (закінчення блоку)"
+**ram:TariffQuantity**,O,,"Ціна без ПДВ за одиницю в грн з точністю до 0,01. Це можуть бути як гривні на кілограм (грн./кг), так і гривні на ящик (грн./ящик) - залежить від зазначеної одиниці виміру (початок блоку)"
+unitCode,O,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+value,O,decimal,Значення
+**ram:TariffQuantity**,,,"Ціна без ПДВ за одиницю в грн з точністю до 0,01. Це можуть бути як гривні на кілограм (грн./кг), так і гривні на ящик (грн./ящик) - залежить від зазначеної одиниці виміру (початок блоку)"
+**ram:GlobalID**,O,string,Код УКТЗЕД продукції (початок блоку)
+schemeAgencyID,O,string,УКТЗЕД
+value,O,string,Значення
+**ram:GlobalID**,,,Код УКТЗЕД продукції (закінчення блоку)
+**ram:NatureIdentificationTransportCargo**,M,,Найменування вантажу
+ram:Identification,M,string,Найменування вантажу
+**ram:NatureIdentificationTransportCargo**,,,Найменування вантажу
+**ram:ApplicableTransportDangerousGoods**,O,,Клас небезпечних речовин (початок блоку)
+ram:UNDGIdentificationCode,O,decimal,"Клас небезпечних речовин, до якого віднесено вантаж (у разі перевезення небезпечних вантажів)"
+**ram:ApplicableTransportDangerousGoods**,,,Клас небезпечних речовин (закінчення блоку)
+**ram:AssociatedReferencedLogisticsTransportEquipment**,O,,"Номер контейнера, в якому завантажено цей вантаж.
+Використовуєься опційно для контейнерих перевезень і має відповідати даним тегу ram:UtilizedLogisticsTransportEquipment (початок блоку)"
+ram: ID,O,string,Номер контейнера
+**ram:AssociatedReferencedLogisticsTransportEquipment**,,,"Номер контейнера, в якому завантажено цей вантаж.
+Використовуєься опційно для контейнерих перевезень і має відповідати даним тегу ram:UtilizedLogisticsTransportEquipment (закінчення блоку)"
+**ram:AssociatedReferencedDocument**,O,,Документи з вантажем (початок блоку)
+ram:ID,O,string,"Номер документа, який водій отримує від вантажовідправника і передає вантажоодержувачеві разом з вантажем (товарні, залізничні накладні, сертифікати, свідоцтва тощо)"
+ram:Remarks,O,string,"Назва документа, який водій отримує від вантажовідправника і передає вантажоодержувачеві разом з вантажем (товарні, залізничні накладні, сертифікати, свідоцтва тощо)"
+**ram:AssociatedReferencedDocument**,,,Документи з вантажем (закінчення блоку)
+**ram:TransportLogisticsPackage**,O,,Транспортно-логістичний пакет. ВАЖЛИВО: в Україні дозволяється лише один LogisticsPackage для одного ConsignmentItem! (початок блоку)
+ram:ItemQuantity,O,decimal,"Кількість місць, які визначаються за кожним найменуванням вантажу (це можуть бути ящики, кошики, мішки тощо; якщо вантаж упаковано на піддонах - вказують кількість піддонів)"
+ram:TypeCode,O,string,Вид пакування (`Довідник видів упаковок <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=1380089959>`__)
+ram:Type,O,string,Одиниця виміру для ItemQuantity
+**ram:PhysicalLogisticsShippingMarks**,O,,Маркування (початок блоку)
+ram:Marking,O,string,"Назва транспортної упаковки (вільна назва), в якій перевозиться вантаж"
+**ram:BarcodeLogisticsLabel**,O,,Штрихкод товару (початок блоку)
+ram:ID,O,string,Штрихкод товару
+**ram:BarcodeLogisticsLabel**,,,Штрихкод товару (закінчення блоку)
+**ram:PhysicalLogisticsShippingMarks**,,,Маркування (закінчення блоку)
+**ram:TransportLogisticsPackage**,,,Транспортно-логістичний пакет (закінчення блоку)
+**ram:ApplicableNote** (з кодом VENDOR_CODE),O,,Артикул товару (початок блоку)
+ram:ContentCode,O,string,Код VENDOR_CODE
+ram:Content,O,string,Артикул товару
+**ram:ApplicableNote** (з кодом VENDOR_CODE),,,Артикул товару (закінчення блоку)
+**ram:ApplicableNote** (з кодом QUANTITY),O,,Кількість товару (початок блоку)
+ram:ContentCode,O,string,Код QUANTITY
+ram:Content,O,string,Кількість товару
+**ram:ApplicableNote** (з кодом QUANTITY),,,Кількість товару (закінчення блоку)
+**ram:ApplicableNote** (з кодом URL),O,,Посилання на документ (початок блоку)
+ram:ContentCode,O,string,Код URL
+ram:Content,O,string,Посилання на документ
+**ram:ApplicableNote** (з кодом URL),,,Посилання на документ (закінчення блоку)
+**ram:ApplicableNote** (з кодом BASE_UOM),O,,Одиниця виміру кількості (початок блоку)
+ram:ContentCode,O,string,Код BASE_UOM
+ram:Content,O,string,Одиниця виміру кількості товару для QUANTITY
+**ram:ApplicableNote** (з кодом BASE_UOM),,,Одиниця виміру кількості (закінчення блоку)
+**ram:ApplicableNote** (з кодом BUYER_CODE),O,,Артикул покупця (початок блоку)
+ram:ContentCode,O,string,Код BUYER_CODE
+ram:Content,O,string,Артикул покупця (використовується для ідентифікації товарної позиції при прийманні)
+**ram:ApplicableNote** (з кодом BUYER_CODE),,,Артикул покупця (закінчення блоку)
+**ram:ApplicableNote** (з кодом PRICE_WITH_VAT),O,,Ціна за одиницю з ПДВ (початок блоку)
+ram:ContentCode,O,string,Код PRICE_WITH_VAT
+ram:Content,O,string,Ціна за одиницю з ПДВ
+**ram:ApplicableNote** (з кодом PRICE_WITH_VAT),,,Ціна за одиницю з ПДВ (закінчення блоку)
+**ram:ApplicableNote** (з кодом SUM_WITHOUT_VAT),O,,Загальна сума без ПДВ (початок блоку)
+ram:ContentCode,O,string,Код SUM_WITHOUT_VAT
+ram:Content,O,string,Загальна сума без ПДВ
+**ram:ApplicableNote** (з кодом SUM_WITHOUT_VAT),,,Загальна сума без ПДВ (закінчення блоку)
+**ram:ApplicableNote** (з кодом RETURN_TARE),O,,"Ознака «зворотня тара» (початок блоку)"
+ram:ContentCode,O,string,Код RETURN_TARE
+ram:Content,O,string,"Ознака «зворотня тара»"
+**ram:ApplicableNote** (з кодом RETURN_TARE),,,"Ознака «зворотня тара» (закінчення блоку)"
+**ram:ApplicableNote** (з кодом NET_WEIGHT),O,,Маса нетто (початок блоку)
+ram:ContentCode,O,string,Код NET_WEIGHT
+ram:Content,O,string,Маса нетто
+**ram:ApplicableNote** (з кодом NET_WEIGHT),,,Маса нетто (закінчення блоку)
+**ram:ApplicableNote** (з кодом RTP_QUANTITY),O,,Кількість транспортної упаковки (початок блоку)
+ram:ContentCode,O,string,Код RTP_QUANTITY
+ram:Content,O,string,Кількість транспортної упаковки (використовується для обліку оборотної тари)
+**ram:ApplicableNote** (з кодом RTP_QUANTITY),,,Кількість транспортної упаковки (закінчення блоку)
+**ram:IncludedSupplyChainConsignmentItem**,,,Відомості про вантаж (закінчення блоку)
+**ram:UtilizedLogisticsTransportEquipment** (CategoryCode=TRUCK),M,,Автомобіль (початок блоку)
+ram:CategoryCode,M,string,Тип автомобіля: TRUCK - Вантажний (якщо відсутній - то вантажний)
+**ram:ApplicableNote** (з кодом BRAND),M,,Марка автомобіля (початок блоку)
+ram:ContentCode,M,string,Код BRAND
+ram:Content,M,string,Марка автомобіля згідно з техпаспортом
+**ram:ApplicableNote** (з кодом BRAND),,,Марка автомобіля (закінчення блоку)
+**ram:ApplicableNote** (з кодом MODEL),M,,Модель автомобіля (початок блоку)
+ram:ContentCode,M,string,Код MODEL
+ram:Content,M,string,Модель автомобіля згідно з техпаспортом
+**ram:ApplicableNote** (з кодом MODEL),,,Модель автомобіля (закінчення блоку)
+**ram:ApplicableNote** (з кодом COLOR),O,,Колір автомобіля (початок блоку)
+ram:ContentCode,O,string,Код COLOR
+ram:Content,O,string,Колір автомобіля згідно з техпаспортом
+**ram:ApplicableNote** (з кодом COLOR),,,Колір автомобіля (закінчення блоку)
+ram:ID,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
+
+* укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
+* єврономери: без валідації"
+**ram:AffixedLogisticsSeal**,O,,Номер пломби (автомобіль) (початок блоку)
+ram:ID,O,string,"Відбиток пломби, якою проводилося пломбування автомобіля"
+**ram:AffixedLogisticsSeal**,,,Номер пломби (автомобіль) (закінчення блоку)
+**ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
+**ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
+ram:MinimumValueMeasure,O,string,Мінімальне значення температури
+ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
+**ram:HandlingInstructions**,,,Інструкції з експлуатації (закінчення блоку)
+**ram:UtilizedLogisticsTransportEquipment** (CategoryCode=TRUCK),,,Автомобіль (закінчення блоку)
+**ram:UtilizedLogisticsTransportEquipment** (CategoryCode=TE),O,,Причіп/напівпричіп (початок блоку)
+ram:CharacteristicCode,O,string,"Код визначення Причіп/напівпричіп:
+
+* 14 - Причіп
+* 17 - Напівпричіп"
+**ram:ApplicableNote** (з кодом BRAND),O,,Марка причіпа/напівпричіпа (початок блоку)
+ram:ContentCode,O,string,Код BRAND
+ram:Content,O,string,Марка причіпа/напівпричіпа згідно з техпаспортом
+**ram:ApplicableNote** (з кодом BRAND),,,Марка причіпа/напівпричіпа (закінчення блоку)
+**ram:ApplicableNote** (з кодом MODEL),O,,Модель причіпа/напівпричіпа (початок блоку)
+ram:ContentCode,O,string,Код MODEL
+ram:Content,O,string,Модель причіпа/напівпричіпа згідно з техпаспортом
+**ram:ApplicableNote** (з кодом MODEL),,,Модель причіпа/напівпричіпа (закінчення блоку)
+**ram:ApplicableNote** (з кодом COLOR),O,,Колір причіпа/напівпричіпа (початок блоку)
+ram:ContentCode,O,string,Код COLOR
+ram:Content,O,string,Колір причіпа/напівпричіпа згідно з техпаспортом
+**ram:ApplicableNote** (з кодом COLOR),,,Колір причіпа/напівпричіпа (закінчення блоку)
+ram:ID,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
+**ram:AffixedLogisticsSeal**,O,,Номер пломби (причіп/напівпричіп) (початок блоку)
+ram:ID,O,string,"Відбиток пломби, якою проводилося пломбування причіпа/напівпричіпа"
+**ram:AffixedLogisticsSeal**,,,Номер пломби (причіп/напівпричіп) (закінчення блоку)
+**ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
+**ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
+ram:MinimumValueMeasure,O,string,Мінімальне значення температури
+ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
+**ram:HandlingInstructions**,,,Інструкції з експлуатації (закінчення блоку)
+**ram:UtilizedLogisticsTransportEquipment** (CategoryCode=TE),,,Причіп/напівпричіп (закінчення блоку)
+**ram:UtilizedLogisticsTransportEquipment** (CategoryCode=CN),O,,Контейнер (початок блоку)
+ram:CharacteristicCode,O,string,"Тип контейнера:
+
+* 21 - 20-футовий
+* 23 - 40-футовий"
+ram:ID,O,string,Ідентифікаційний номер контейнера
+**ram:AffixedLogisticsSeal**,O,,Номер пломби (контейнер) (початок блоку)
+ram:ID,O,string,"Відбиток пломби, якою проводилося пломбування контейнера"
+**ram:AffixedLogisticsSeal**,,,Номер пломби (контейнер) (закінчення блоку)
+**ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
+**ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
+ram:MinimumValueMeasure,O,string,Мінімальне значення температури
+ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
+**ram:HandlingInstructions**,,,Інструкції з експлуатації (закінчення блоку)
+**ram:UtilizedLogisticsTransportEquipment** (CategoryCode=CN),,,Контейнер (закінчення блоку)
+**ram:MainCarriageLogisticsTransportMovement**,O,,Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником (початок блоку)
+ram:ModeCode,,string,"Код=3 (завжди одне значення (3), оскільки використовується лише для дорожніх перевезень)"
+**ram:SpecifiedTransportEvent**,M,,Проміжне розвантаження (початок блоку)
+ram:ID,M,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
+ram:TypeCode,M,string,"Тип операції (розвантаження=5); завжди одне значення (5), оскільки використовується як планові пункти розвантаження"
+ram:Description,O,string,Опис
+**ram:OccurrenceLogisticsLocation**,M,,Місцезнаходження (початок блоку)
+**ram:ID**,M,,"Код КАТОТТГ складу (початок блоку)"
+schemeAgencyID,M,string,Код КАТОТТГ складу тимчасового зберігання відповідно до Кодифікатора адміністративно-територіальних одиниць та територій територіальних громад
+value,M,string,Значення
+**ram:ID**,,,"Код КАТОТТГ складу (закінчення блоку)"
+ram:TypeCode,M,string,"Тип операції (розвантаження=5); завжди одне значення (5), оскільки використовується як планові пункти розвантаження"
+ram:Name,O,string,Найменування та адреса (Місцезнаходження складу)
+ram:Description,O,string,Додаткова інформація складу тимчасового зберігання
+**ram:OccurrenceLogisticsLocation**,,,Місцезнаходження (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WD),M,,Юридична особа Проміжного складу (початок блоку)
+ram:Name,M,string,"Повне найменування Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж"
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:ID**,M,,"Ідентифікаційний код - ЄДРПОУ підприємства (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - ЄДРПОУ підприємства (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (закінчення блоку)"
+**ram:PostalTradeAddress**,M,,"Юридична адреса Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (початок блоку)"
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (Назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (Назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,"Юридична адреса Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж (закінчення блоку)"
+**ram:DefinedTradeContact**,O,,Контакти відповідальні особи Проміжного складу (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідальні особи Проміжного складу (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WD),,,Юридична особа Проміжного складу (закінчення блоку)
+**ram:SpecifiedTransportEvent**,,,Проміжне розвантаження (закінчення блоку)
+**ram:MainCarriageLogisticsTransportMovement**,,,Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником (закінчення блоку)
+**SpecifiedSupplyChainConsignment**,,,Інформація про перевезення (закінчення блоку)
+**eCMR**,,,(закінчення змісту документа)
+
+
+
+
+
+
+
+
+
+
+
+
+
+**UaSignatureStorage**,M,,Підписи (початок блоку)
+**VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
+ram:TypeCode,O,string,Тип (730 - ТТН). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:Remarks,O,string,Графічне зображення е-ТТН в base64
+**VisualReferencedDocument**,,,Графічне відображення документ (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CZ),M,,КЕП Вантажовідправника (початок блоку)
+SigningPartyRoleCode,M,string,Роль підписанта (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (відповідальної особи вантажовідправника)
+Position,O,string,Посада підписанта (відповідальної особи вантажовідправника)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи вантажовідправника (початок блоку)
+ram:ID,M,string,РНОКПП підписанта
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи вантажовідправника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CZ),,,КЕП Вантажовідправника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=DR),M,,КЕП Водія (початок блоку)
+SigningPartyRoleCode,M,string,Роль підписанта (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (Водія)
+Position,O,string,Посада підписанта (Водія)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код Водія (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Водія)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код Водія (закінчення блоку)
+**Signature** (SigningPartyRoleCode=DR),,,КЕП Водія (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CA),M,,КЕП Перевізника (початок блоку)
+SigningPartyRoleCode,M,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (відповідальної особи Перевізника)
+Position,O,string,Посада підписанта (відповідальної особи Перевізника)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи Перевізника (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи Перевізника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CA),,,КЕП Перевізника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CN),M,,КЕП Вантажоодержувача (початок блоку)
+SigningPartyRoleCode,M,string,Роль підписанта (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (відповідальної особи Вантажоодержувача)
+Position,O,string,Посада підписанта (відповідальної особи Вантажоодержувача)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи Вантажоодержувача (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Вантажоодержувача)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи Вантажоодержувача (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CN),,,КЕП Вантажоодержувача (закінчення блоку)
+**UaSignatureStorage**,,,Підписи (закінчення блоку)
+**UAECMR**,,,(закінчення документа)
