@@ -264,32 +264,44 @@ ram:LongitudeMeasure,O,string,Довгота
 ram:TypeCode,O,string,Тип 723 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
 ram:ID,O,string,"Номер документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
 ram:Remarks,O,string,"Назва документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
-ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
+qdt:DateTimeString,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час документа (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=723),,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (закінчення блоку)"
 **ram:AssociatedReferencedDocument** (TypeCode=290),O,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (початок блоку)
 ram:TypeCode,O,string,Тип 290 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
 ram:Remarks,O,string,"Передача права на пред'явлення претензії засвідчується написом на ТТН такого змісту: «Право на пред'явлення претензії передане П.І.Б.» (довірена особа)"
-ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
+qdt:DateTimeString,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час документа (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=290),,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=916),O,,Супровідні документи на вантаж. Коригуючі акти (початок блоку)
 ram:TypeCode,O,string,Тип 916 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
 ram:ID,O,string,"Номер акта"
 ram:Remarks,O,string,"Назва акта"
-ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
+qdt:DateTimeString,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час документа (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=916),,,Супровідні документи на вантаж. Коригуючі акти (закінчення блоку)
 **ram:AssociatedReferencedDocument**,O,,Інші супровідні документи (початок блоку)
 ram:TypeCode,O,string,Тип (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
 ram:ID,O,string,"Номер документа"
 ram:Remarks,O,string,"Назва документа"
-ram:FormattedIssueDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата складання документа
+**ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
+qdt:DateTimeString,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час документа (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument**,,,Інші супровідні документи (закінчення блоку)
 **ram:DeliveryTransportEvent**,M,,Розвантажувальні роботи (початок блоку)
 **ram:ApplicableNote** (з кодом GROSSWEIGHT),M,,"Маса брутто, кг (початок блоку)"
 ram:ContentCode,M,string,Код GROSSWEIGHT
 ram:Content,M,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах з точністю до 0,1"
 **ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
-ram:ActualOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час прибуття автомобіля на розвантаження
-ram:ScheduledOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час вибуття автомобіля з-під розвантаження
+**ram:ActualOccurrenceDateTime**,O,,Дата і час прибуття автомобіля на розвантаження (початок блоку)
+udt:DateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час
+**ram:ActualOccurrenceDateTime**,,,Дата і час прибуття автомобіля на розвантаження (закінчення блоку)
+**ram:ScheduledOccurrenceDateTime**,O,,Дата і час вибуття автомобіля з-під розвантаження (початок блоку)
+udt:DateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час
+**ram:ScheduledOccurrenceDateTime**,,,Дата і час вибуття автомобіля з-під розвантаження (закінчення блоку)
 **ram:ApplicableNote** (з кодом DOWNTIME),O,,Час простою (початок блоку)
 ram:ContentCode,O,string,Код DOWNTIME
 ram:Content,O,unsignedByte,Час (години) простою під розвантаженням
@@ -336,8 +348,12 @@ value,O,decimal,Значення
 ram:ContentCode,M,string,Код GROSSWEIGHT
 ram:Content,M,decimal,"Маса зданого/отриманого для перевезення вантажу в кілограмах з точністю до 0,1"
 **ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
-ram:ActualOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час прибуття автомобіля під навантаження
-ram:ScheduledOccurrenceDateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата і час вибуття автомобіля з-під навантаження
+**ram:ActualOccurrenceDateTime**,O,,Дата і час прибуття автомобіля під навантаження (початок блоку)
+udt:DateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час
+**ram:ActualOccurrenceDateTime**,,,Дата і час прибуття автомобіля під навантаження (закінчення блоку)
+**ram:ScheduledOccurrenceDateTime**,O,,Дата і час вибуття автомобіля з-під навантаження (початок блоку)
+udt:DateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час
+**ram:ScheduledOccurrenceDateTime**,,,Дата і час вибуття автомобіля з-під навантаження (закінчення блоку)
 **ram:ApplicableNote** (з кодом DOWNTIME),O,,Час простою (початок блоку)
 ram:ContentCode,O,string,Код DOWNTIME
 ram:Content,O,unsignedByte,Час (години) простою під навантаженням
