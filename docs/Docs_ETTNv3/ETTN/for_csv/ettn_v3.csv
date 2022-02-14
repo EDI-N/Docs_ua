@@ -585,19 +585,6 @@ ram:ID,O,string,РНОКПП відповідальної особи
 **ram:MainCarriageLogisticsTransportMovement**,,,Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником (закінчення блоку)
 **SpecifiedSupplyChainConsignment**,,,Інформація про перевезення (закінчення блоку)
 **eCMR**,,,(закінчення змісту документа)
-
-
-
-
-
-
-
-
-
-
-
-
-
 **UaSignatureStorage**,M,,Підписи (початок блоку)
 **VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
 ram:TypeCode,O,string,Тип (730 - ТТН). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
