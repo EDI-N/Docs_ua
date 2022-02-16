@@ -291,10 +291,10 @@ ram:Remarks,O,string,"Назва документа"
 qdt:DateTimeString,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час документа (ТТН)
 **ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument**,,,Інші супровідні документи (закінчення блоку)
-**ram:DeliveryTransportEvent**,M,,Розвантажувальні роботи (початок блоку)
-**ram:ApplicableNote** (з кодом GROSSWEIGHT),M,,"Маса брутто, кг (початок блоку)"
-ram:ContentCode,M,string,Код GROSSWEIGHT
-ram:Content,M,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах з точністю до 0,1"
+**ram:DeliveryTransportEvent**,O,,Розвантажувальні роботи (початок блоку)
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),O,,"Маса брутто, кг (початок блоку)"
+ram:ContentCode,O,string,Код GROSSWEIGHT
+ram:Content,O,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах з точністю до 0,1"
 **ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
 **ram:ActualOccurrenceDateTime**,O,,Дата і час прибуття автомобіля на розвантаження (початок блоку)
 udt:DateTime,O,:abbr:`datetime (dd:mm:yyyy hh:mm:ss)`,Дата та час
