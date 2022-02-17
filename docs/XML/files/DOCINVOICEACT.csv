@@ -40,7 +40,7 @@ CityName,O,Рядок(35),Назва міста Покупця
 PostalCode,O,Рядок(17),Поштовий індекс Покупця
 Country,O,Рядок(10),Країна Покупця (згідно ISO 3166)
 VatPayerCertificate,O,Рядок(70),Свідоцтво платника Покупця
-UtilizationRegisterNumber,O,Рядок(70),NIP Покупця
+UtilizationRegisterNumber,M,Рядок(70),NIP Покупця
 **FinancialInformation**,O,,Фінансова інформація (початок блоку)
 BankIdentifierCode,O,Рядок(11),Ідентифікаційний код банку Покупця
 BankAccount,O,Рядок(17),Банківський рахунок Покупця
