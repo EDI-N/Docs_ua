@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _PreviousAdministrativeReferencedDocument:,,Об'єкт **PreviousAdministrativeReferencedDocument**,
+typeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__"
+id,M,string,Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій
+remarks,O,string,Base64 документа попередньої версії
+**formattedIssueDateTime**,O,DateTimeString_,"об'єкт; Дата складання документа, на основі якого складено поточний документ"
+**attachedSpecifiedBinaryFile**,O,AttachedSpecifiedBinaryFile_,"об'єкт; Вкладений бінарний файл документа, на основі якого складено поточний документ"

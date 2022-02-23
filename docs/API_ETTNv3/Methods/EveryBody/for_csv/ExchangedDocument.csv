@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ExchangedDocument:,,Об'єкт **ExchangedDocument**,
+id,M,string,порядковий номер (серія) документа
+**issueDateTime**,M,DateTime_,об'єкт; Дата і час складання документа
+remarks,O,string,Ремарки
+**issueLogisticsLocation**,M,LogisticsLocation_,об'єкт; Місце складання документа

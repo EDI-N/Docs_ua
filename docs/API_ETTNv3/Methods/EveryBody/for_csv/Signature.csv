@@ -4,4 +4,4 @@ signingPartyRoleCode,M,string,"Роль підписанта (наприклад
 partySignature,M,string,Підпис (base64 підпису p7s)
 name,M,string,ПІБ підписанта (відповідальної особи)
 position,O,string,Посада підписанта (відповідальної особи)
-**specifiedTaxRegistration**,M,SimpleIdentity_,об'єкт;Ідентифікаційний код відповідальної особи
+**specifiedTaxRegistration**,M,SimpleIdentity_,об'єкт; Ідентифікаційний код відповідальної особи

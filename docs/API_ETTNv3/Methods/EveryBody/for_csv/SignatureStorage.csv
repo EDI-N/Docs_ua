@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _SignatureStorage:,M,Об'єкт **SignatureStorage**,
+**signatures**,M,List<Signature_>,масив об'єктів; підписи

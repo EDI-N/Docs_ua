@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ApplicableTransportDangerousGoods:,,Об'єкт **ApplicableTransportDangerousGoods**,
+UNDGIdentificationCode,O,decimal,"Клас небезпечних речовин, до якого віднесено вантаж (у разі перевезення небезпечних вантажів). Код UNDG, 0 - якщо не використовується"
+packagingDangerLevelCode,O,decimal,клас небезбечних речовин 1-4
