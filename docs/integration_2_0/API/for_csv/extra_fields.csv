@@ -124,3 +124,9 @@ id параметра, Найменування параметра, Тип, Фо
 142, parent_docs_match,,INT, 0 - comdoc_007 зі зміненими даними для звірки по desadv; 1 - comdoc_007 з коректними / не зміненими даними для звірки по desadv 
 149, post_start_date, ,[yyyy-MM-dd], дата дедлайну для документів Метро 7а
 153, review_deadline_date, ,[yyyy-MM-dd], термін подачі на перегляд для документів Метро 7b (ReviewDeadlineDate)
+, sign_hash,, VARCHAR, хеш підпису
+, draft_date_created,, INT, дата створення чернетки
+, carrier_b_uuid,, BINARY, ідентифікатор перевізника
+, consignee_b_uuid,, BINARY, ідентифікатор вантажоодержувача
+, consignor_b_uuid,, BINARY, ідентифікатор вантажовідправника
+, external_doc_id,, INT, id ТТН документа в ЦБД

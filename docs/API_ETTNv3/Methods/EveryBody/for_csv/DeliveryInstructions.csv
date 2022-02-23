@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DeliveryInstructions:,,Об'єкт **DeliveryInstructions**,
+description,O,string,"Опис (вид роботи перевізника: за відрядним тарифом, за погодинним тарифом, за покілометровим тарифом, централізовані перевезення тощо)"
+descriptionCode,M,string,Код (TRANSPORTATION_TYPE)

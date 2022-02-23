@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ComunicationContact:,,Об'єкт **ComunicationContact**,
+completeNumber,O,string,Контактні дані

@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _MainCarriageLogisticsTransportMovement:,,Об'єкт **MainCarriageLogisticsTransportMovement**,
+specifiedTransportEvents**,M,List<TransportEvent_>,масив об'єктів; Проміжне розвантаження

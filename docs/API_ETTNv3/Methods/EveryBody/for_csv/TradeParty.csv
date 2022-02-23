@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _TradeParty:,M,Об'єкт **TradeParty**,
+**id**,M,EntityId_,об'єкт; Ідентифікаційний код (ЄДРПОУ)
+name,M,string,"Повна назва юридичної, або фізичної особи"
+roleCode,M,string,Роль учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**tradeContact**,O,TradeContact_,об'єкт; Контакти відповідального представника
+**postalTradeAddress**,M,PostalTradeAddress_,"об'єкт; Юридична адреса для юр.особи, або місце реєстрації для фіз.особи"
+**taxRegistration**,O,SimpleIdentity_,об'єкт; Ідентифікаційний код відповідальної особи
+**specifiedGovernmentRegistration**,O/M,SimpleIdentity_,об'єкт; Посвідчення Водія
