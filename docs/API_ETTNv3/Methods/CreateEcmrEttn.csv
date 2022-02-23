@@ -12,5 +12,5 @@ Content-Type  , *application/json* or *application/xml*
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу передається документ в json чи xml форматі:
 
-* xml - `«Електронна товарно-транспортна накладна» (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__
+* xml - `«Електронна товарно-транспортна накладна» (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
 * json - `«Електронна товарно-транспортна накладна» (е-ТТН) <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/UAECMR.html>`__"

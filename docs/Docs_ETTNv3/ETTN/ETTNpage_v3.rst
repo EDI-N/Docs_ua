@@ -5,7 +5,7 @@
 .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1423864081
 
 .. important::
-   Зверніть увагу, що при передачі даних документа в json-форматі в найменуванні тегів приставка ``ram:`` буде відсутньою!
+   Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/UAECMR.html>`__ відрізняються! 
 
 Таблиця 1 - Специфікація "Електронної товарно-транспортної накладної" (XML)
 
