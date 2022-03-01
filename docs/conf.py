@@ -35,6 +35,7 @@ extensions = [
     'sphinxcontrib.contentui',
     'sphinxcontrib.plantuml',
     'notfound.extension',
+    'versionwarning.extension',
 ]
 
 # for 404 page
@@ -401,3 +402,17 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
+
+# -- sphinx-version-warning config ----------------------------------------------
+
+versionwarning_messages = {
+    "latest": (
+        "<strong>Русский военный корабль, иди на х#й!</strong>'
+    ),
+}
+
+# Show warning at top of page
+versionwarning_body_selector = "div.document"
+versionwarning_banner_title = ""
+# For debugging locally
+# versionwarning_project_version = "stable"
