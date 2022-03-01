@@ -407,7 +407,7 @@ epub_exclude_files = ['search.html']
 
 versionwarning_messages = {
     "latest": (
-        "<strong>Русский военный корабль, иди на х#й!</strong>'
+        "<strong>Русский военный корабль, иди на х#й!</strong>"
     ),
 }
 
