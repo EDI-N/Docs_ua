@@ -8,3 +8,4 @@ sphinx_rtd_theme==0.5.2
 sphinx==3.5.3
 # For warning message to new site (versionwarning)
 git+https://github.com/humitos/sphinx-version-warning@master#egg=sphinx-version-warning
+# sphinx-version-warning == 1.1.2
