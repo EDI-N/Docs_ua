@@ -15,3 +15,4 @@
    Pampik/Pampik_list
    Auchan/Auchan_list
    Eva/Eva_list
+   Trans_Logistic/Trans_Logistic_list
