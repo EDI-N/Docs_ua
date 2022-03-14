@@ -8,7 +8,7 @@
    Trans_Logistic_Instructions/Trans_Logistic_COMDOC_013_instruction
 
 .. toctree::
-   :caption: Специфікації документів (XML) для роботи з "Транс Логістик"
+   :caption: Специфікації документів (XML) для роботи з "Транс Логістик" [1]
    :maxdepth: 1
    
    Trans_Logistic_XML-structure

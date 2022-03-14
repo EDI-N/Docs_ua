@@ -11,7 +11,7 @@ Fozzy
    Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction
 
 .. toctree::
-	:caption: Специфікації документів (XML) для роботи з "Fozzy"
+	:caption: Специфікації документів (XML) для роботи з "Fozzy" [1]
    :maxdepth: 1
    
    Fozzy_XML-structure
