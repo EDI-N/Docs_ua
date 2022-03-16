@@ -69,6 +69,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад RECADV<examples/RECADV_example.xml>`
+
 ---------
 
 Рахунок (INVOICE)
