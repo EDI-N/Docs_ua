@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/retailer/settings?gln=9864119011415&retailer_id=7**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**retailer_id** (обов'язково) long - id мережі"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , application/json
