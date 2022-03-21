@@ -275,7 +275,7 @@
 
 Мережа "АТБ" може відправити "Повідомлення про прийом" (RECADV). Документ можливо знайти в ланцюжку документів чи скориставшись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ у папці **"Вхідні"**:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_1000000.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_113.png
    :align: center
 
 "Повідомлення про прийом" (RECADV) використовується для оповіщення постачальників про прийом товарів.
@@ -283,7 +283,7 @@
 .. attention::
    Даний документ при роботі з мережею "АТБ" також відіграє відіграє ключову роль в контролі зобов'язань своєчасної поставки згідно заключеного договору з Постачальниками (передбачені штрафні санкції): 
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_1000000.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_114.png
    :align: center
 
 1.4 Отримання і підписання "Акта приймання товару до ВН" (COMDOC_035). Сторона Постачальника
