@@ -308,7 +308,7 @@
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_post.html#sign>`__.
 
 Після того, як обидві сторони підписали "Акт приймання товару до ВН" (COMDOC_035) мережа "АТБ" може підписати "Видаткову накладну" (COMDOC_006).
 
@@ -368,6 +368,17 @@
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_045.png
    :align: center
+
+Блок **Місце доставки** є обов'язковим до заповнення:
+
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_119.png
+   :align: center
+
+.. important::
+   Зверніть увагу: значення полів "Вулиця", "Місто", "Область" повинні відповідати (бути ідентичними) `налаштуванням вказаного GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln>`__ 
+
+   .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_120.png
+      :align: center
 
 В блок **Параметрів** можливо "Додати" (|плюс|) чи "Видалити" (|мусорка|) власні значення. З документа-підстави автоматично заповнюються обов'язкові **Параметри** доставки - "Точка доставки" та "Адреса доставки":
 
