@@ -369,7 +369,7 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_045.png
    :align: center
 
-Блок **Місце доставки** є обов'язковим до заповнення:
+Блок **Місце доставки** є обов'язковим до заповнення: 
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_119.png
    :align: center
