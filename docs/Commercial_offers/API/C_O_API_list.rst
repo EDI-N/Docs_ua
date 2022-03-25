@@ -58,3 +58,11 @@ API
 
 
 
+.. toctree::
+    :hidden:
+    :glob:
+ 
+    Methods/*
+
+
+
