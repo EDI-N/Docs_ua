@@ -174,11 +174,11 @@
 В залежності від того, який журнал відкрито (**Документи** чи **Позиції**) ключі пошуку будуть відрізнятись:
 
 .. image:: pics_Commercial_offers/Commercial_offers_042.png
-   :width: 350
+   :width: 500
 
 .. image:: pics_Commercial_offers/Commercial_offers_041.png
-   :width: 350
-   
+   :width: 500
+
 Можливо обрати параметр зі списку/підказки чи почати вводити пошукове значення (система автоматично вкаже на можливі параметри): 
 
 .. image:: pics_Commercial_offers/Commercial_offers_043.png
