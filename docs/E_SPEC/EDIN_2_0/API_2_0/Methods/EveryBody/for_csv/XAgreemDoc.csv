@@ -21,7 +21,8 @@ indexes,"Map<String, String>","набір параметрів для фільт
 * flag (0-ні, 1-так) - мітка зафарбований флажок;
 * lastSignDate () - дата останнього підписання;
 * afterDeadline (boolean) - Заявка на участь в акції була подана після встановленого дедлайну;
-* rejection_reason (String) - причина відхилення"
+* rejection_reason (String) - причина відхилення;
+* acceptation_message (String) - коментар при прийнятті"
 childs,List<XAgreemDoc>, дочірні документи
 id,long,id документу
 uuid,UUID,GUID документу
