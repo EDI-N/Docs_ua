@@ -5,7 +5,7 @@
 .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=54298378
 
 .. important::
-   Зверніть увагу, що при передачі даних документа в json-форматі в найменуванні тегів приставка ``ram:`` буде відсутньою!
+   Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/UAECMR_ACT.html>`__ відрізняються!
 
 Таблиця 1 - Специфікація "Акта перевантаження" (XML)
 
@@ -15,7 +15,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-.. :download:`Приклад "Акта перевантаження"<examples/reload_act_v3.xml>`
+:download:`Приклад "Акта перевантаження"<examples/reload_act_v3.xml>`
 
 -------------------------
 
@@ -24,4 +24,3 @@
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
--------------------------
