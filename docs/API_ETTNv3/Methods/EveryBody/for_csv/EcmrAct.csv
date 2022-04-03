@@ -1,0 +1,14 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _EcmrAct:,,Об'єкт **EcmrAct**,
+**documentContext**,M,DocumentContext_,об'єкт; технічні дані
+**exchangedDocument**,M,ExchangedDocument_,об'єкт; реквізити Акта
+**reloadActPayload**,-/M,ReloadActPayload_,об'єкт; інформація про «Акт перевантаження»; обов'язковий для відповідного типу акта
+**adjustmentActPayload**,-/M,AdjustmentActPayload_,об'єкт; інформація про «Акт коригування»; обов'язковий для відповідного типу акта
+**disagreementActPayload**,-/M,DisagreementActPayload_,об'єкт;
+**consigneeChangeActPayload**,-/M,ConsigneeChangeActPayload_,об'єкт;
+**storageDeliveryActPayload**,-/M,StorageDeliveryActPayload_,об'єкт;
+**storagePickupActPayload**,-/M,StoragePickupActPayload_,об'єкт;
+**resealingActPayload**,-/M,ResealingActPayload_,об'єкт;
+**stopActPayload**,-/M,StopActPayload_,об'єкт;
+**rejectActPayload**,-/M,RejectActPayload_,об'єкт;
+**certifyingPartyPayload**,M,CertifyingPartyPayload_,об'єкт; інформація про відповідальних осіб

@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _CertifyingPartyPayload:,,Об'єкт **CertifyingPartyPayload**,
+**certifyingTradeParty**,M/O,List<TradeParty_>,"масив об'єктів;
+
+* Інформація про водія Перевізника, що здає/приймає вантаж (RoleCode = CA/DR) - обов'язково
+* Інформація про відповідальних осіб Перевізника, що здає/приймає вантаж (RoleCode = OV/CH)- опціонально"

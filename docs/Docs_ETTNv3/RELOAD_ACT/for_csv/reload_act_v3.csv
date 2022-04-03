@@ -2,7 +2,7 @@
 **UAECMR_ACT**,M,,(початок документа)
 **ACT**,M,,(початок змісту документа)
 **ExchangedDocumentContext**,M,,Технічні дані (початок блоку)
-ram:SpecifiedTransactionID,M,string,версія документа
+ram:SpecifiedTransactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
 **ram:BusinessProcessSpecifiedDocumentContextParameter**,M,,"параметр контексту документа, визначений бізнес-процесом (початок блоку)"
 ram:ID,M,string,код документа
 **ram:BusinessProcessSpecifiedDocumentContextParameter**,,,"параметр контексту документа, визначений бізнес-процесом (закінчення блоку)"
@@ -29,22 +29,29 @@ ram:ID,M,string,Номер документа-підстави (ТТН); має 
 qdt:DateTimeString,M,:abbr:`datetime (yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime )`,Дата та час документа-підстави (ТТН)
 **ram:FormattedIssueDateTime**,,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (закінчення блоку)
 **PreviousAdministrativeReferencedDocument**,,,"Інформація про е-ТТН, для якої складається акт (закінчення блоку)"
-**ram:CarrierTradeParty**,M,,"Перевізник, що здає вантаж (початок блоку)"
+**PreviousAdministrativeReferencedDocument**,-/M,,"Інформація про попередній акт, у випадку наступної транзакції (початок блоку)"
+ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:ID,M,string,Номер документа-підстави (Акт); має відповідати номеру документа ExchangedDocument.ID Акта
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (Акт); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (початок блоку)
+qdt:DateTimeString,M,:abbr:`datetime (yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime )`,Дата та час документа-підстави (Акта)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (Акта); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (закінчення блоку)
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про попередній акт, у випадку наступної транзакції (закінчення блоку)"
+**CarrierTradeParty**,M,,"Перевізник, що здає вантаж (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код Перевізника (початок блоку)"
 schemeAgencyID,M,string,ЄДРПОУ
 value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Перевізника"
 ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
-**ram:CarrierTradeParty**,,,"Перевізник, що здає вантаж (закінчення блоку)"
-**ram:ConnectingCarrierTradeParty**,M,,"Перевізник, що приймає вантаж (початок блоку)"
+**CarrierTradeParty**,,,"Перевізник, що здає вантаж (закінчення блоку)"
+**ConnectingCarrierTradeParty**,M,,"Перевізник, що приймає вантаж (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код Перевізника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг (початок блоку)"
 schemeAgencyID,M,string,ЄДРПОУ
 value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Перевізника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Перевізника (найменування суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг)"
 ram:RoleCode,M,string,Роль учасника (Перевізник (новий) - СH). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
-**ram:ConnectingCarrierTradeParty**,,,"Перевізник, що приймає вантаж (закінчення блоку)"
+**ConnectingCarrierTradeParty**,,,"Перевізник, що приймає вантаж (закінчення блоку)"
 **CarrierUtilizedLogisticsTransportEquipment** (CategoryCode=TRUCK),M,,"Автомобіль, що розвантажується (початок блоку)"
 ram:ID,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
 

@@ -1,6 +1,6 @@
 **URL**       ,
 Метод запиту  , POST                                          
-URL запиту    ,**/api/ettn/eds/ecmr/transaction?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226**
+URL запиту    ,**/api/ettn/eds/ecmr/act/transaction?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226**
 URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
 
 **doc_uuid** (обов'язково) UUID - ідентифікатор документа"
@@ -8,4 +8,4 @@ URL параметри ,"**company_uuid** (обов'язково) UUID - іде�
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__ "
 Content-Type  , *application/json*
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу (в json форматі) передається транзакція - контент документа без підписів (`об'єкт Ecmr <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/Ecmr.html>`__)"
+JSON Body     ,"В тілі запиту методу (в json форматі) передається транзакція - контент документа без підписів (`об'єкт EcmrAct <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/EcmrAct.html>`__)"
