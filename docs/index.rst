@@ -50,6 +50,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: Є-Товар
+
+   Openprice/Instructions/Openprice_instruction
+
+.. toctree::
+   :maxdepth: 2
    :caption: Дистриб'юшн
 
    Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list
