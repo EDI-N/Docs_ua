@@ -38,6 +38,12 @@
     {% block breadcrumbs_aside %}
       <li class="wy-breadcrumbs-aside">
         {% if hasdoc(pagename) %}
+              <!-- new language switcher -->
+              <select class="wy-breadcrumbs-aside" id="langselect">
+                <option value="uk" selected="selected">Українська</option>
+                <option value="en">English</option>
+              </select>
+              <!-- new language switcher -->
             {% if display_github %}
             {% if check_meta and 'github_url' in meta %}
               <!-- User defined GitHub URL -->

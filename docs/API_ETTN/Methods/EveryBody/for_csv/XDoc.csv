@@ -21,7 +21,8 @@ family,int,"сімейство
 * 6 - ATS
 * 7 - ETTN
 * 8 - DISTRIBUTION
-* 9 - SIMPLEDOC (Вільний)"
+* 9 - SIMPLEDOC (Вільний)
+* 12 - OPENPRICE (Є-Товар)"
 hash,String,"хеш-значення, отримане в результаті обробки"
 type,XDocType_,об'єкт; тип документа
 status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
