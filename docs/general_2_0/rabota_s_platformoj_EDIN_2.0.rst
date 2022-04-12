@@ -11,6 +11,10 @@
 
 .. |лупа| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_010.png
 
+.. |bell| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_021.png
+
+.. |bell| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_019.png
+
 .. role:: red
 
 .. role:: underline
@@ -60,13 +64,22 @@
 
    Детальніше про `Правила користування Платформою «EDI Network» <https://wiki.edin.ua/uk/latest/Legal_info/Rules.html#id5>`__. В особистому кабінеті в розділі `Баланс та вибір тарифу <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#id5>`__ можливо розшири можливості взаємодії с сервісами, докупивши "Додаткові сесії".
 
+.. _header:
+
 **2 Загальний вигляд платформи**
 ================================================
 
-Зовнішній вигляд платформи складається з кількох наступних основних частин: функціонал переходу по каталогами папок (1), журналу документів (2), пошуку документів (3), перехід між сервісами і налаштування (4):
+Незалежно від сервісу, верхня панель складається з:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_07n.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_018.png
    :align: center
+
+#. `Пошуковий рядок <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__;
+#. `Вікіпедія платформи <https://wiki.edin.ua/uk/latest/>`__;
+#. `Повідомлення <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__;
+#. Меню сервісів - відкриває меню для переходу в сервіси платформи;
+#. Перемикач мови;
+#. `Меню користувача <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__.
 
 .. _pers-settings:
 
@@ -224,7 +237,7 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_012.png
    :align: center
 
-   ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_013.gif
    :align: center
@@ -320,9 +333,24 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/20.png
    :align: center
 
+.. _messages:
+
+**10 Повідомлення**
+================================================
+
+Центр повідомлень |bell| - це загальне рішення для всієї платформи, що дозволяє в реальному часі отримувати повідомлення про надходження нового документа, відповіді на документ, зміну статусу документа чи важливі системні повідомлення. Цифрою в правому верхньому куті іконки відображається кількість непрочитаних повідомлень, наприклад: |bell2|, що відображаються списком при натисканні на іконку дзвіночка: 
+
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_020.png
+   :align: center
+
+Всі прочитані повідомлення зберігаються лише на час Вашої сесії, однак при бажанні цей список можливо **"Очистити"** достроково відповідною кнопкою.
+
+.. important::
+   Повідомлення можуть приходити з різних сервісів та для різних GLN! Якщо Ви переходите за посиланням в повідомленні, то перехід до документа сервісу/GLN акаунта виконується автоматично!
+
 .. _product-directory:
 
-**10 Робота з товарним довідником**
+**11 Робота з товарним довідником**
 ================================================
 
 Для додавання товару в довідник необхідно натиснути кнопку - **Додати товар**.
