@@ -32,8 +32,8 @@ FTP/FTPS
 ``comdoc_20210113093935_6d90825f-6743-490f-80f6-9e63565566ba_007.p7s``, де: 
   
 * *comdoc* - `тип документу <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/StorageQuery.html#id8>`__;
-* *20210113093935* - дата та час обробки файлу платформою EDIN Network;
-* *6d90825f-6743-490f-80f6-9e63565566ba* - doc id документу на платформі EDIN Network;
+* *20210113093935* - дата та час обробки файлу платформою EDI Network;
+* *6d90825f-6743-490f-80f6-9e63565566ba* - doc id документу на платформі EDI Network;
 * *007* - підтип Комерційного документа (COMDOC);
 * *p7s* - розширення файлу.
 
@@ -42,8 +42,8 @@ FTP/FTPS
 ``comdoc_20210113093935_6d90825f-6743-490f-80f6-9e63565566ba_450966903100000155349_007.p7s``, де:  
 
 * *comdoc* - `тип документу <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/StorageQuery.html#id8>`__;
-* *20210113093935* - дата та час обробки файлу платформою EDIN Network;
-* *6d90825f-6743-490f-80f6-9e63565566ba* - doc id документу на платформі EDIN Network;
+* *20210113093935* - дата та час обробки файлу платформою EDI Network;
+* *6d90825f-6743-490f-80f6-9e63565566ba* - doc id документу на платформі EDI Network;
 * *450966903100000155349* - номер документу без спец.символів;
 * *007* - підтип Комерційного документа (COMDOC).
 
@@ -54,8 +54,8 @@ FTP/FTPS
 ``desadv_20201229162503_16560359-a263-4f36-99e5-2e3f7ae1aa2e.xml``, де:
 
 * *desadv* - `тип документу <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/StorageQuery.html#id7>`__;
-* *20201229162503* - дата та час обробки файлу платформою EDIN Network;
-* *16560359-a263-4f36-99e5-2e3f7ae1aa2e* - doc id документу на платформі EDIN Network;
+* *20201229162503* - дата та час обробки файлу платформою EDI Network;
+* *16560359-a263-4f36-99e5-2e3f7ae1aa2e* - doc id документу на платформі EDI Network;
 * *xml* - розширення файлу.
 
 -------------------------

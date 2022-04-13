@@ -13,7 +13,7 @@
 
 .. |bell| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_021.png
 
-.. |bell| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_019.png
+.. |bell2| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_019.png
 
 .. role:: red
 
@@ -225,7 +225,7 @@
 **9 Пошук документів**
 ================================================
 
-Пошук документів на платформі **EDIN Network** виконується через рядок **"Пошуку"**:
+Пошук документів на платформі **EDI Network** виконується через рядок **"Пошуку"**:
 
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_017.png
    :align: center

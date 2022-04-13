@@ -16,7 +16,7 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN Network
+   :caption: EDI Network
 
    general_2_0/general_2_0_list
    retail_2.0/retail_2_0_list
