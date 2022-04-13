@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , DELETE                                         
+URL запиту    , **/api/oas/account/contact?contact_id=25636**
+URL параметри ,"**contact_id** (обов'язково) int - ідентифікатор контакту"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , application/json
