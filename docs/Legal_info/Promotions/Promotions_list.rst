@@ -9,5 +9,5 @@
    EDIN_ETTN_promotion
    EDIN_Vilnyi_promotion
    Special_war_promotion
-   
+   EDIN_Openprice_promotion
    
