@@ -27,6 +27,8 @@
 
 .. |star| image:: pics_Commercial_offers/Commercial_offers_038.png
 
+.. |advserch| image:: pics_Commercial_offers/Commercial_offers_060.png
+
 .. role:: red
 
 .. role:: green
@@ -180,18 +182,26 @@
 **Пошук**
 ------------------------------
 
-Функціональне поле **"Пошуку"** використовує наступні Доступні для пошуку ключі:
+Пошук документів/позицій в сервісі **Комерційна пропозиція** виконується через рядок **"Пошуку"**:
+
+.. image:: pics_Commercial_offers/Commercial_offers_066.png
+   :align: center
+
+----------------------------------------------------------------------------------------------------
+
+1) Рядок пошуку можливо заповнити, обираючи **"Доступні для пошуку ключі"**:
 
 .. image:: pics_Commercial_offers/Commercial_offers_056.png
    :align: center
 
-В залежності від того, який журнал відкрито (**Документи** чи **Позиції**) ключі пошуку будуть відрізнятись:
+.. note::
+   В залежності від того, який журнал відкрито (**Документи** чи **Позиції**) ключі пошуку будуть відрізнятись:
 
-.. image:: pics_Commercial_offers/Commercial_offers_057.png
-   :width: 500
+   .. image:: pics_Commercial_offers/Commercial_offers_057.png
+      :width: 500
 
-.. image:: pics_Commercial_offers/Commercial_offers_058.png
-   :width: 500
+   .. image:: pics_Commercial_offers/Commercial_offers_058.png
+      :width: 500
 
 Можливо обрати параметр зі списку/підказки чи почати вводити пошукове значення (система автоматично вкаже на можливі параметри): 
 
@@ -205,6 +215,46 @@
 .. image:: pics_Commercial_offers/Commercial_offers_059.gif
    :align: center
 
+2) Також заповнити рядок пошуку можливо за допомогою набору фільтрів **"Розширеного пошуку"** (|advserch|):
+
+.. note::
+   В залежності від того, який журнал відкрито (**Документи** чи **Позиції**) меню пошуку буде відрізнятись:
+
+   .. image:: pics_Commercial_offers/Commercial_offers_061.png
+      :align: center
+
+   ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+   .. image:: pics_Commercial_offers/Commercial_offers_062.png
+      :align: center
+
+Деякі поля містять підказки, що показуються при наведенні курсора на назву параметра:
+
+.. image:: pics_Commercial_offers/Commercial_offers_063.png
+   :align: center
+
+Пошук працює тільки за повним збігом.
+
+----------------------------------------------------------------------------------------------------
+
+Окремо винесені фільтри документів по даті (**"Сьогодні"**, **"Вчора"**), а останній введений пошук зберігається платформою автоматично і при натисканні кнопки **"Останній фільтр"** він виконується повторно:
+
+.. image:: pics_Commercial_offers/Commercial_offers_064.png
+   :align: center
+
+Також можливо перманентно **Зберегти** данні власного рядку пошуку, натиснувши на іконку дискети. Переглянути збережений пошук можливо в блоці **Збережений пошук**. Вилучити збережений пошук можна за допомогою хрестика.
+
+.. image:: pics_Commercial_offers/Commercial_offers_065.png
+   :align: center
+
 ----------------------------------
 
 .. include:: /_constant/kontakti.rst
+
+
+
+
+
+
+
+
