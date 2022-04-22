@@ -12,6 +12,12 @@
   :widths:  10, 41
   :stub-columns: 0
 
+Приклад запиту:
+
+.. code:: json
+
+   ["Ken", "json", "Stethem"]
+
 **RESPONSE**
 
 В тілі **відповіді** (json) передається масив `створених тегів <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/XTagResponse.html>`__.
