@@ -64,8 +64,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Docs'
-copyright = '2021, EDI-N'
-author = 'EDI-N'
+copyright = '2022, EDIN'
+author = 'EDIN'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
