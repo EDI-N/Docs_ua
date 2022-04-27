@@ -53,6 +53,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Є-Товар
 
    Інструкція <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html>
+   API_Openprice/API_Openprice_list
 
 .. toctree::
    :maxdepth: 2

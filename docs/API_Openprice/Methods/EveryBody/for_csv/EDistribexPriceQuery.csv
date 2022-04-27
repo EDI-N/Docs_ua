@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _EDistribexPriceQuery: , Об'єкт **EDistribexPriceQuery**,
+producerName,String,назва компанії-Продавця (Виробника)
+categoryName,String,лінійка продукції
+**regions**,List<String>,масив; область наявності товару
+**producerIDs**,List<Long>,масив; ідентифікатор компанії-Продавця (Виробника)
+isPickup,boolean,наявність відмітки «Самовивіз!»
+**limit**,Limitation_,об'єкт; фільтр відбору (налаштування виводу даних)
