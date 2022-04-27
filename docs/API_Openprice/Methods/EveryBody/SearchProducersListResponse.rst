@@ -347,7 +347,7 @@
 Таблиця 2 - Опис параметрів об'єкта **Identificator**
 
 .. csv-table:: 
-  :file: ../../../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/Identificator.csv
+  :file: ../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/Identificator.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -355,7 +355,7 @@
 Таблиця 3 - Опис параметрів об'єкта **Limits**
 
 .. csv-table:: 
-  :file: ../../../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/Limits.csv
+  :file: ../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/Limits.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -363,7 +363,7 @@
 Таблиця 4 - Опис параметрів об'єкта **XProductGroup**
 
 .. csv-table:: 
-  :file: ../../../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
+  :file: ../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/XProductGroup.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
