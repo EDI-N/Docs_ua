@@ -1,6 +1,6 @@
 Параметр, Формат, Опис
 .. _SearchProducersListResponse: , Об'єкт,
 **id**,Identificator_,об'єкт; інформація про організацію
-**limit**,Limits_,об'єкт; фільтр відбору (налаштування виводу даних)
+**limit**,Limits_,об'єкт; обмеження
 **regions**,List<String>,масив; область або країна наявності товару
 **categories**,List<XProductGroup_>,масив об'єктів; групи / категорії товарів
