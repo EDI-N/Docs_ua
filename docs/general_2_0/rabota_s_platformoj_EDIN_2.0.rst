@@ -15,6 +15,10 @@
 
 .. |bell2| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_019.png
 
+.. |news| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_023.png
+
+.. |news_c| image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_022.png
+
 .. role:: red
 
 .. role:: underline
