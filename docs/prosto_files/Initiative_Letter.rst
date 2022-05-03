@@ -2,5 +2,5 @@
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/document/d/1AxmEVB6FoV6tOCgfMGgC6Hnh0hzF73Ev/edit" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <iframe align="middle" frameborder="1" height="907px" id="ID" scrolling="auto" src="https://wiki.edin.ua/uk/latest/prosto_files/EDIN___Initiative_Letter.pdf" style="border:1px solid #666CCC" title="PDF" width="99.5%"></iframe>
     </embed>
