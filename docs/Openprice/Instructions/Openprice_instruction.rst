@@ -336,6 +336,15 @@
 .. image:: pics_Openprice_instruction/Openprice_instruction_026.png
    :align: center
 
+.. _transport-search:
+
+4.1 Пошук транспорту (інтеграція з Lardi Trans)
+-------------------------------------------------------------------
+
+.. include:: /Openprice/Instructions/Transport_Search.rst
+   :start-after: .. початок блоку для TransportSearch
+   :end-before: .. кінець блоку для TransportSearch
+
 .. _edi-uzd:
 
 5 Робота з EDI та ЮЗД
