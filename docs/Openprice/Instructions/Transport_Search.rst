@@ -12,7 +12,7 @@
 
 При перегляді `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__ в сервісах **"Є-Товар"** чи **"EDI+ЮЗД"** є можливість **"Знайти транспорт"** в рамках програми інтеграції з логістичною платформою **Lardi Trans**:
 
-.. image:: /_constant/chain/Transport_Search_001.png
+.. image:: /Openprice/Instructions/pics_Transport_Search/Transport_Search_001.png
    :align: center
 
 При первинній реєстрації на веб-сайті нашого партнера Lardi Trans вам потрібно ввести токен авторизації (в вікні введення токена всі дії детально розписані в інструкції):
