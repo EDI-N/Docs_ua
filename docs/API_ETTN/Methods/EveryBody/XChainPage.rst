@@ -100,3 +100,4 @@
   :header-rows: 1
   :stub-columns: 0
 
+.. _XDoc: https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/XDocPage.html

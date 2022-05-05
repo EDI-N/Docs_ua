@@ -6,84 +6,129 @@
 
 **JSON:**
 
-Отримати всі надіслані документи ("statuses": 2,3), що Очікують підпису ("action": 0)
+Отримати всі Надіслані документи ("statuses": 2,3)
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. code:: json
 
-	{
-	  "statuses": [
-	    2,
-	    3
-	  ],
-	  "type": [
-	    {
-	      "type": 0
-	    }
-	  ],
-	  "limit": {
-	    "count": 21,
-	    "offset": "0"
-	  },
-	  "exchangeStatus": [],
-	  "extraParams": [
-	    {
-	      "operator": "AND",
-	      "type": "IN",
-	      "value": "0",
-	      "fieldName": "action"
-	    }
-	  ],
-	  "multiExtraParams": [],
-	  "tags": [],
-	  "archive": false,
-	  "direction": {
-	    "type": "EQ",
-	    "sender": [
-	      "7c30a623-b84f-44d1-bda1-fdcc5f8be3d7"
-	    ],
-	    "receiver": []
-	  },
-	  "loadChain": true,
-	  "family": 9
-	}
+  {
+    "archive": false,
+    "statuses": [
+      2,
+      3
+    ],
+    "type": [
+      {
+        "type": 0,
+        "title": "all",
+        "description": "all"
+      },
+      {
+        "type": 0,
+        "title": "all",
+        "description": "all"
+      }
+    ],
+    "exchangeStatus": [],
+    "extraParams": [],
+    "tags": [],
+    "loadComments": true,
+    "loadTags": true,
+    "loadStatuses": true,
+    "direction": {
+      "type": "EQ",
+      "sender": [
+        "9864066822430"
+      ],
+      "receiver": []
+    },
+    "family": 12
+  }
 
-Отримати всі вхідні документи ("statuses": 4,5) від вказаного відправника/-ів (sender:uuid) 
+Отримати всі Вхідні документи ("statuses": 4,5) від вказаного відправника/-ів (sender:gln) 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. code:: json
 
-	{
-	  "statuses": [
-	    4,
-	    5
-	  ],
-	  "type": [
-	    {
-	      "type": 0
-	    }
-	  ],
-	  "limit": {
-	    "count": 21,
-	    "offset": "0"
-	  },
-	  "exchangeStatus": [],
-	  "extraParams": [],
-	  "multiExtraParams": [],
-	  "tags": [],
-	  "archive": false,
-	  "direction": {
-	    "type": "EQ",
-	    "sender": [
-	      "831714cf-064b-4ce9-bdc4-b6a79784639c"
-	    ],
-	    "receiver": [
-	      "7c30a623-b84f-44d1-bda1-fdcc5f8be3d7"
-	    ]
-	  },
-	  "loadChain": true,
-	  "family": 9
-	}
+  {
+    "archive": false,
+    "statuses": [
+      4,
+      5
+    ],
+    "type": [
+      {
+        "type": 0,
+        "title": "all",
+        "description": "all"
+      },
+      {
+        "type": 0,
+        "title": "all",
+        "description": "all"
+      }
+    ],
+    "exchangeStatus": [],
+    "extraParams": [],
+    "tags": [],
+    "loadComments": true,
+    "loadTags": true,
+    "loadStatuses": true,
+    "direction": {
+      "type": "EQ",
+      "sender": [
+        "9864067620417"
+      ],
+      "receiver": [
+        "9864066822430"
+      ]
+    },
+    "family": 12
+  }
+
+Отримати всі Архівні документи. Оскільки архівними стають Вхідні та Надіслані документи, то вказуються всі статуси, отримувач/відправник=власний GLN 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.. code:: json
+
+  {
+    "archive": true,
+    "statuses": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "type": [
+      {
+        "type": 0,
+        "title": "all",
+        "description": "all"
+      },
+      {
+        "type": 0,
+        "title": "all",
+        "description": "all"
+      }
+    ],
+    "exchangeStatus": [],
+    "extraParams": [],
+    "tags": [],
+    "loadComments": true,
+    "loadTags": true,
+    "loadStatuses": true,
+    "direction": {
+      "type": "OR",
+      "sender": [
+        "9864066822430"
+      ],
+      "receiver": [
+        "9864066822430"
+      ]
+    },
+    "family": 12
+  }
 
 .. _Таблиця_2:
 
