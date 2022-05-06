@@ -1,6 +1,6 @@
 Параметр,Формат,Опис
 .. _XChain: ,Об'єкт **XChain**, 
-id,long,ID шарда
+id,long,ID ланцюжка
 uuid,UUID,UUID ланцюжка документів
 packageID,long,ID пакета
 **type**,XDocType_,об'єкт; тип документа
