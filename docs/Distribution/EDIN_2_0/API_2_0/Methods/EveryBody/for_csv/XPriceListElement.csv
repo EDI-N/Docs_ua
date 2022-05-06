@@ -1,6 +1,6 @@
-Параметр, Формат, Опис
-.. _XPriceListElement: , Об'єкт **XPriceListElement** ,
-category_id,long,ідентифікатор категорії
-category_name,String,назва лінійки/категорії/підкатегорії
-children,List<XPriceListElement_>,масив об'єктів; дані елементу лінійки/категорії
-prods,List<XPriceListProduct_>,масив об'єктів; дані товарів
+Параметр,Тип [1]_,Формат,Опис
+.. _XPriceListElement:,, Об'єкт **XPriceListElement** ,
+category_id,O,long,ідентифікатор категорії
+category_name,M,String,назва лінійки/категорії/підкатегорії
+children,O/M,List<XPriceListElement_>,масив об'єктів; дані елементу лінійки/категорії
+prods,M,List<XPriceListProduct_>,масив об'єктів; дані товарів
