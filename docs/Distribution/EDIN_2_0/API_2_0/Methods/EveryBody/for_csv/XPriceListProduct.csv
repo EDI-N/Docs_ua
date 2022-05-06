@@ -1,39 +1,39 @@
-Параметр, Формат, Опис
-.. _XPriceListProduct: , Об'єкт **XPriceListProduct** ,
-group_id,long,ідентифікатор групи
-article,String,артикул
-name,String,назва товару
-barcode,String,штрихкод
-user_code,String,код УКТ ЗЕД
-unit_weight,String,"вага одиниці товару, кг"
-box_qty,String,одиниць в коробці
-box_weight,String,"вага коробки, кг"
-box_in_layer,String,"кількість коробок в шарі, шт."
-box_in_palette,String,"кількість коробок на палеті, шт."
-palette_weight,String,"вага палети, кг"
-producer_code,String,код Продавця (Виробника)
-min_order_qty,"float (10,3)","Мінімальна кількість замовлення"
-regions,String,областя/країни наявності товару (перелік назв через кому)
-id,long,ідентифікатор товарної позиції
-date_created,long,дата створення запису про товар
-date_changed,long,дата внесених змін в дані товару
-producer_id,long,ідентифікатор Продавця (Виробника)
-product_id,long,ідентифікатор товару
-unit_id,long,"ідентифікатор одиниці виміру; допустимі значення:
+Параметр,Тип [1]_,Формат,Опис
+.. _XPriceListProduct:,, Об'єкт **XPriceListProduct** ,
+group_id,,long,ідентифікатор групи
+article,M,String,артикул
+name,M,String,назва товару
+barcode,M,String,штрихкод
+user_code,O,String,код УКТ ЗЕД
+unit_weight,O,String,"вага одиниці товару, кг"
+box_qty,M,String,одиниць в коробці
+box_weight,O,String,"вага коробки, кг"
+box_in_layer,O,String,"кількість коробок в шарі, шт."
+box_in_palette,O,String,"кількість коробок на палеті, шт."
+palette_weight,O,String,"вага палети, кг"
+producer_code,O,String,код Продавця (Виробника)
+min_order_qty,O,"float (10,3)","Мінімальна кількість замовлення"
+regions,M,String,областя/країни наявності товару (перелік назв через кому)
+id,,long,ідентифікатор товарної позиції
+date_created,,long,дата створення запису про товар
+date_changed,,long,дата внесених змін в дані товару
+producer_id,,long,ідентифікатор Продавця (Виробника)
+product_id,,long,ідентифікатор товару
+unit_id,O,long,"ідентифікатор одиниці виміру; допустимі значення:
 
 - 2 - кілограм;
 
 - 8 - штука"
-price_without_vat,Double,"ціна одиниці без ПДВ, грн"
-vat,int,"ставка ПДВ, %"
-price_with_vat,Double,"ціна одиниці з ПДВ, грн"
-date_from,long,період дії з
-date_to,long,період дії по
-stock_balance,Double,залишок
-comment,String,коментарі
-quota,Double,квота на замовлення
-is_promo,boolean,відмітка «Новинка!»
-is_new,boolean,відмітка «Акція!»
-is_public,boolean,відмітка «Публічна позиція!»
-is_surcharge,boolean,відмітка «Надбавка!»
-is_pickup,boolean,відмітка «Самовивіз!»
+price_without_vat,M,Double,"ціна одиниці без ПДВ, грн"
+vat,O,int,"ставка ПДВ, %"
+price_with_vat,O,Double,"ціна одиниці з ПДВ, грн"
+date_from,,long,період дії з
+date_to,,long,період дії по
+stock_balance,O,Double,залишок
+comment,O,String,коментарі
+quota,O,Double,квота на замовлення
+is_promo,O,boolean,відмітка «Новинка!»
+is_new,O,boolean,відмітка «Акція!»
+is_public,O,boolean,відмітка «Публічна позиція!»
+is_surcharge,O,boolean,відмітка «Надбавка!»
+is_pickup,O,boolean,відмітка «Самовивіз!»
