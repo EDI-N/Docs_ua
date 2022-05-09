@@ -135,7 +135,7 @@
 Таблиця 2 - Опис параметрів об'єкта **StorageQuery**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/StorageQuery.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/StorageQuery.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -143,7 +143,7 @@
 Таблиця 3 - Опис параметрів об'єкта **ExtraQueryParameters**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/ExtraQueryParameters.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/ExtraQueryParameters.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -151,7 +151,7 @@
 Таблиця 4 - Опис параметрів об'єкта **Direction**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/Direction.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/Direction.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -159,7 +159,7 @@
 Таблиця 5 - Опис параметрів об'єкта **Limitation**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/Limitation.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/Limitation.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -167,7 +167,7 @@
 Таблиця 6 - Опис параметрів об'єкта **DateTimeRange**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/DateTimeRange.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/DateTimeRange.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -175,7 +175,7 @@
 Таблиця 7 - Опис параметрів об'єкта **XDocType**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XDocType.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/XDocType.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -185,7 +185,7 @@
 Таблиця 8 - Опис **fieldName** параметрів (объект ExtraQueryParameters_)
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/extra_fields.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/extra_fields.csv
   :widths:  1, 2, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
@@ -195,7 +195,7 @@
 Таблиця 9 - Опис **DocType** параметрів (объект XDocType_)
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/xdoctype_p.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/xdoctype_p.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0

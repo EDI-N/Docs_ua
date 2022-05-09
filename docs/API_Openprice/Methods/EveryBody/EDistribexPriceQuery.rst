@@ -29,7 +29,7 @@
 Таблиця 2 - Опис параметрів об'єкта **Limitation**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/Limitation.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/Limitation.csv
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
