@@ -1,28 +1,29 @@
-Commercial document subtype,sub_doc_type_id,Name and description
-005,5,`Defects Certificate (COMDOC_005) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-005>`__
-006,6,`Delivery document/Goods Delivery Note (COMDOC_006) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__
-007,7,`Receive document/Goods Received Note (COMDOC_007) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__
-008,8,`Product specification (COMDOC_008) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-008>`__
-009,9,`Certificate of Nonconformity/Non-conformance Report (COMDOC_009) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-009>`__
-011,11,`Notice of Return/Return notification (COMDOC_011) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-011>`__
-012,12,`Return Delivery Note (COMDOC_012) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-012>`__
-013,13,`Works Acceptance Certificate (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
-015,15,`Offset Certificate (COMDOC_015) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-015>`__
-016,16,`Invoice (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
-018,18,`Services Acceptance Certificate (COMDOC_018) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__
-019,19,`Annulment (COMDOC_019) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-019>`__
-021,21,`Notice of Refusal to Sign Document (COMDOC_021) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-021>`__
-022,22,`Dispatch invoice/Note for Internal Handling (COMDOC_022) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-022>`__
-023,23,`Transportation services specification (COMDOC_023) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-023>`__
-024,24,`Acquiring accountant report (COMDOC_024) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-024>`__
-025,25,`Acquiring account (COMDOC_025) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-025>`__
-026,26,`Summary of services (COMDOC_026) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-026>`__
-027,27,`Goods invoice/Consignment note (COMDOC_027) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-027>`__
-028,28,`Application for forwarding service (COMDOC_028) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-028>`__
-029,29,`Act of mutual settlements reconciliation (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__
-030,30,`Claim (COMDOC_030) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-030>`__
-031,31,`Returnable packaging invoice (COMDOC_031) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-031>`__
-032,32,`Acceptance-transfer act (Annex 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
-033,33,`Act of acceptance-transfer (Annex 9) (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
-034,34,`The act of disagreement to the Act of transfer (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
-035,35,`Act of acceptance of goods for the consignment note (COMDOC_035) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-035>`__
+Підтип комерційного документа,sub_doc_type_id,Назва та опис документа
+001,1,`Договір (COMDOC_001) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-001>`__
+005,5,`Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-005>`__
+006,6,`Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__
+007,7,`Прибуткова накладна (COMDOC_007) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__
+008,8,`Товарна специфікація (COMDOC_008) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-008>`__
+009,9,`Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-009>`__
+011,11,`Повідомлення про повернення (COMDOC_011) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-011>`__
+012,12,`Накладна на повернення (COMDOC_012) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-012>`__
+013,13,`Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
+015,15,`Акт взаємозаліку (COMDOC_015) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-015>`__
+016,16,`Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
+018,18,`Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__
+019,19,`Анулювання (COMDOC_019) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-019>`__
+021,21,`Повідомлення про відмову від підписання документу (COMDOC_021) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-021>`__
+022,22,`Накладна на переміщення (COMDOC_022) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-022>`__
+023,23,`Специфікація послуг перевізника (COMDOC_023) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-023>`__
+024,24,`Звіт комітенту по еквайрингу (COMDOC_024) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-024>`__
+025,25,`Рахунок по еквайрингу (COMDOC_025) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-025>`__
+026,26,`Зведена специфікація послуг (COMDOC_026) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-026>`__
+027,27,`Товарна накладна (COMDOC_027) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-027>`__
+028,28,`Заявка на транспортно-експедиційне обслуговування (COMDOC_028) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-028>`__
+029,29,`Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__
+030,30,`Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-030>`__
+031,31,`Накладна на зворотну тару (COMDOC_031) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-031>`__
+032,32,`Акт приймання-передачі (додаток 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
+033,33,`Акт приймання-передачі (додаток 9) (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
+034,34,`Акт приймання товару до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
+035,35,`Акт приймання товару до ВН (COMDOC_035) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-035>`__
