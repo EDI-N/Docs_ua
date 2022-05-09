@@ -156,7 +156,7 @@
 Таблиця 1 - Опис параметрів об'єкта **XChain**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XChain.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/XChain.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -164,7 +164,7 @@
 Таблиця 2 - Опис параметрів об'єкта **XChainStatus**
 
 .. csv-table:: 
-  :file: ../../../API_ETTN/Methods/EveryBody/for_csv/XChainStatus.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/XChainStatus.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
