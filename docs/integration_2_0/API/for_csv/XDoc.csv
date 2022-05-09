@@ -1,12 +1,13 @@
 Параметр,Формат,Опис
 .. _XDoc: ,**Об'єкт XDoc** ,
 body,XDocBodyForms_ ,об'єкт; тіла документів
-attachments,List<XDocAttachment_>,масив об'єктів; вкладення (може не використовуватись)
+attachments,List<XDocAttachment_>,масив об'єктів; вкладення (може не використовуватися)
 comments,XDocCommentsList_ ,об'єкт (в якому масив об'єктів); список коментарів
 doc_id,long,id документа
 doc_uuid,UUID,унікальний ідентифікатор документа/квитанції
 uuidSender,String,унікальний ідентифікатор відправника
 uuidReceiver,String,унікальний ідентифікатор одержувача
+uuidReceivers,List<String>,масив унікальних ідентифікаторів одержувачів
 docNumber,String,номер документа
 dateCreated,long,дата створення документа (unix timestamp)
 dateChanged,long,дата останньої зміни документа (unix timestamp)
@@ -23,10 +24,10 @@ family,int,"сімейство
 * 9 - SIMPLEDOC (Вільний)
 * 12 - OPENPRICE (Є-Товар)"
 hash,String,"хеш-значення, отримане в результаті обробки"
-type,XDocType ,об'єкт; тип документа
+type,XDocType_,об'єкт; тип документа
 status,XDocStatus_,об'єкт; статус пари документів у відправника і одержувача
 exchange_status,String,сабстатус документа (`детальніше <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__)
-is_archive,boolean,"відмітка; **"Архівний"** документ чи ні"
+is_archive,boolean,"відмітка; **Архівний** документ чи ні"
 signInfo,XDocSignInfo_,об'єкт; дані про підписи
 chain,XChain,объект; дані пов'язаних ланцюжків
 extraFields,"Map<String, String>",масив об'єктів; набір індексів (аналог індексних таблиць)

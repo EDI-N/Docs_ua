@@ -2,8 +2,11 @@
 .. _XDocAttachment: ,**Об'єкт XDocAttachment** ,
 id,long,id вкладення
 docUUID,UUID,унікальний ідентифікатор документа
+attachmentUUID,UUID,унікальний ідентифікатор вкладення
 fileName,String,найменування файлу
 createDate,long,дата створення вкладення; формат unix timestamp
 type,String,тип вкладення
 base64content,String,зміст вкладення в BASE64
-content,byte[],зміст вкладення в цілочисельному вигляді
+content,transient byte[],байтовий масив контенту
+signs,List<XDocAttachmentSign_>,масив об'єктів; підписи вкладень (файлів)
+signHash,String,хеш підпису

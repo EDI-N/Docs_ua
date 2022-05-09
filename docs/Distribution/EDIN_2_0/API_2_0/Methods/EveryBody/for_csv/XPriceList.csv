@@ -1,5 +1,5 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _XPriceList:,, Об'єкт **XPriceList** ,
-period,O,XPriceListPeriod_,об'єкт; період дії данних по товару
+period,,XPriceListPeriod_,об'єкт; період дії данних по товару
 price,M,List<XPriceListElement_>,масив об'єктів; дані товару Прайс-листа
-distributors,O,List<XPriceListDistributor_>,масив об'єктів; дані Покупців (Дистиб’юторів)
+distributors,,List<XPriceListDistributor_>,масив об'єктів; дані Покупців (Дистиб’юторів)
