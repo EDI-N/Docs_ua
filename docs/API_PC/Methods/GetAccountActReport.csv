@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , GET                                         
+URL запиту    , **/api/oas/account/act/report?year=2022&month=04&yearTo=2022&monthTo=04**
+URL параметри ,"**year** (обов'язково) int - рік початку періоду;
+
+**month** (обов'язково) int - місяць початку періоду;
+
+**yearTo** (опціонально) int - рік закінчення періоду;
+
+**monthTo** (опціонально) int - місяць закінчення періоду."
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , application/json
