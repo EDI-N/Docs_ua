@@ -109,6 +109,11 @@
 .. image:: pics_Commercial_offers/Commercial_offers_047.png
    :align: center
 
+При перегляді комерційної пропозиції її завжди за потреби можливо **"Завантажити в XLS"**:
+
+.. image:: pics_Commercial_offers/Commercial_offers_071.png
+   :align: center
+
 Ознайомившись зі змістом Комерційної пропозиції та її товарними позиціями можливо:
 
 * **"Прийняти"** / **"Відхилити"** товарні позиції (всі одразу чи вибірково |accept| / |decline|);
