@@ -56,6 +56,12 @@
 .. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_003.png
    :align: center
 
+.. attention::
+   Якщо при автоматичному заповненні чи подальшому редагуванні в товарних позиціях виникнуть логічні помилки, то Ви про це будете проінформовані, а позиції в таблиці, що їх налічують будуть виділені жовтим кольором:
+
+   .. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_019.png
+      :align: center
+
 .. important::
    Дата "Цінової накладної" повинна співпадати з датою "Накладної за кількістю" (як в випадку передачі "Накладної за кількістю" через платфому EDIN, так і в паперовому вигляді)!
 
