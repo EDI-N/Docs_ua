@@ -36,7 +36,6 @@ ram:ID,M,string,Номер документа-підстави (Акт); має 
 qdt:DateTimeString,M,:abbr:`datetime (yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime )`,Дата та час документа-підстави (Акта)
 **ram:FormattedIssueDateTime**,,,Дата документа-підстави (Акта); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (закінчення блоку)
 **PreviousAdministrativeReferencedDocument**,,,"Інформація про попередній акт, у випадку наступної транзакції (закінчення блоку)"
-InitiatorTradeParty
 **InitiatorTradeParty**,M,,"Ініціатор акта (Замовник) (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код Замовника (початок блоку)"
 schemeAgencyID,M,string,ЄДРПОУ
