@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DisagreementItemQuantity:,,Об'єкт **DisagreementItemQuantity**,
+originalItemQuantity,M,string,Кількість місць за ТТН
+actualItemQuantity,O,string,Кількість місць фактична
+**deltaItemQuantity**,O,List<DeltaItemQuantity_>,"масив об'єктів; Відхилення"

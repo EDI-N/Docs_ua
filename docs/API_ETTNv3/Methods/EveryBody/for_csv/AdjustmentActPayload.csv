@@ -1,6 +1,6 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _AdjustmentActPayload:,,Об'єкт **AdjustmentActPayload**,
-**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН, для якої складається акт"
+**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН/попередній акт, для якого складається акт"
 **initiatorTradeParty**,M,TradeParty_,"об'єкт; Замовник"
 **consignorTradeParty**,M,TradeParty_,"об'єкт; Вантажовідправник"
 **carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"

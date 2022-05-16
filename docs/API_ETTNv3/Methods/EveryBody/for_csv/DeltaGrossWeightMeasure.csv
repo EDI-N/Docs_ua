@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DeltaGrossWeightMeasure:,,Об'єкт **DeltaGrossWeightMeasure**,
+**measure**,O,EcmrUnitValue_,"об'єкт; Маса брутто за ТТН"
+explanation,O,string,"причина відхилення за масою (недостача/надлишок тощо)"

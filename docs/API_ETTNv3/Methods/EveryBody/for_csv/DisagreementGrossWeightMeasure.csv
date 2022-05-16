@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DisagreementGrossWeightMeasure:,,Об'єкт **DisagreementGrossWeightMeasure**,
+**originalGrossWeightMeasure**,M,EcmrUnitValue_,"об'єкт; Маса брутто за ТТН"
+**actualGrossWeightMeasure**,O,EcmrUnitValue_,"об'єкт; Маса брутто Фактична"
+**deltaGrossWeightMeasure**,O,DeltaGrossWeightMeasure_,"об'єкт; Маса брутто Відхилення. Різниця між фактом та даними з ТТН, розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення"

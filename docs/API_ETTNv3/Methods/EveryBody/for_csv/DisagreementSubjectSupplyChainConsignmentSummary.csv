@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DisagreementSubjectSupplyChainConsignmentSummary:,,Об'єкт **DisagreementSubjectSupplyChainConsignmentSummary**,
+**originalGrossWeightMeasure**,M,EcmrUnitValue_,"об'єкт; Разом Маса брутто за ТТН, кг"
+**deltaGrossWeightMeasure**,M,EcmrUnitValue_,"об'єкт; Разом Маса брутто Відхилення, кг"
+**originalInvoiceAmount**,M,InvoiceAmount_,"об'єкт; Разом Загальна сума з ПДВ за ТТН, грн."
+**deltaInvoiceAmount**,M,InvoiceAmount_,"об'єкт; Разом Загальна сума з ПДВ Відхилення, грн."

@@ -1,0 +1,11 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DisagreementActPayload:,,Об'єкт **DisagreementActPayload**,
+**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН/попередній акт, для якого складається акт"
+**consigneeTradeParty**,M,TradeParty_,"об'єкт; Вантажоодержувач"
+**carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
+**disagreementSubjectSupplyChainConsignmentItems**,M,List<DisagreementSubjectSupplyChainConsignmentItem_>,"масив об'єктів; Розбіжності щодо кількісних характеристик вантажу"
+**disagreementSubjectSupplyChainConsignmentSummary**,M,DisagreementSubjectSupplyChainConsignmentSummary_,"об'єкт; Розбіжності щодо кількісних характеристик вантажу (сумарні показники)"
+qualityCharacteristicsDisagreement,O,QualityCharacteristicsDisagreement_,"об'єкт; Розбіжності щодо якісних характеристик вантажу"
+consigneeNotes,M,string,"Короткий або повний опис причин складання акту (наприклад, виявлено розбіжності щодо якісних та/або кількісних характеристик отриманого вантажу тощо)"
+claimNotes,M,string,"Висновок (вимоги щодо вирішення розбіжностей). Вказується інформація про те, чи слід пред'являти будь-кому претензії і якщо так, то кому саме"
+carrierNotes,O,string,Особливі відмітки (Перевізник). Інформація щодо незгоди зі змістом Акта (Перевізник)
