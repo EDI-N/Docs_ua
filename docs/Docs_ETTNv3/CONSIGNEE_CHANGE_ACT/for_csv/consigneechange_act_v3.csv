@@ -105,7 +105,7 @@ ram:LongitudeMeasure,O,string,Довгота
 **ConsigneeReceiptLogisticsLocation**,,,Пункт розвантаження (закінчення блоку)
 InitiatorNotes,M,string,Короткий або повний опис причин складання акта (Ініціатор)
 CarrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
-ConsigneeNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Замовник)
+CustomerNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Замовник)
 **ConsigneeChangeActPayload**,,,Інформація про Акт (закінчення блоку)
 **CertifyingPartyPayload**,M,,Інформація про відповідальних осіб (початок блоку)
 **ram:CertifyingTradeParty** (RoleCode=CN),O,,"Інформація про відповідальних осіб Вантажоодержувача (початок блоку)"
