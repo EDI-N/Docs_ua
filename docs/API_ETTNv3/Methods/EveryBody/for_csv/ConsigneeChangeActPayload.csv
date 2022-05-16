@@ -1,0 +1,11 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ConsigneeChangeActPayload:,,Об'єкт **ConsigneeChangeActPayload**,
+**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН/попередній акт, для якого складається акт"
+**initiatorTradeParty**,M,TradeParty_,"об'єкт; Ініціатор акта (Вантажоодержувач)"
+**carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
+**customerTradeParty**,M,TradeParty_,"об'єкт; Замовник"
+**consigneeTradeParty**,M,TradeParty_,"об'єкт; Новий Вантажоодержувач"
+**consigneeReceiptLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт розвантаження
+initiatorNotes,M,string,Короткий або повний опис причин складання акта (Ініціатор)
+carrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
+customerNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Замовник)
