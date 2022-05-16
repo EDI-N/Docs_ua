@@ -24,8 +24,8 @@ BuyerOrderNumber, М, Число (6-10), Номер замовлення
 BuyerOrderDate, М, Дата (РРРР-ММ-ДД), Дата замовлення
 **Order**,M,, Замовлення (закінчення блоку)
 **DeliveryNote**,M,, Повідомлення про доставку (початок блоку)
-DeliveryNoteNumber,M,,Номер документу-підстави
-DeliveryNoteDate,M,,Дата складання документу
+DeliveryNoteNumber,M,,Номер документа-підстави
+DeliveryNoteDate,M,,Дата складання документа
 **DeliveryNote**,M,, Повідомлення про доставку (закінчення блоку)
 **Invoice-Reference**,,, Підстава (закінчення блоку)
 **Invoice-Parties**,M,, Блок контрагентів (початок)
