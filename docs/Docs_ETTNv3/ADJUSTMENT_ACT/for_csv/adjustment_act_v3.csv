@@ -411,7 +411,7 @@ value,O,decimal,Значення
 ram:Name,M,string,"Посада відповідальної особи Вантажоодержувача"
 ram:RoleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
-ram:PersonName,M,string,"ПІБ відповідальної особи Перевізника"
+ram:PersonName,M,string,"ПІБ відповідальної особи Вантажоодержувача"
 **ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
 **ram:CertifyingTradeParty** (RoleCode=CN),,,"Інформація про відповідальних осіб Вантажоодержувача (закінчення блоку)"
 **CertifyingPartyPayload**,,,Інформація про відповідальних осіб (закінчення блоку)
