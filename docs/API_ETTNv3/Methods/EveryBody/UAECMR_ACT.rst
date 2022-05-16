@@ -16,6 +16,13 @@
 
        Приклад тимчасово відсутній
 
+.. toggle-header::
+    :header: **JSON «Акта розбіжностей про вантаж:**
+
+    .. code:: json
+
+       Приклад тимчасово відсутній
+
 Таблиця 1 - Опис параметрів об'єкта **UAECMR_ACT**
 
 .. csv-table:: 
@@ -316,6 +323,86 @@
 
 .. csv-table:: 
   :file: for_csv/ShippingMarks.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 38 - Опис параметрів об'єкта **DeltaGrossWeightMeasure**
+
+.. csv-table:: 
+  :file: for_csv/DeltaGrossWeightMeasure.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 39 - Опис параметрів об'єкта **DeltaInvoiceAmount**
+
+.. csv-table:: 
+  :file: for_csv/DeltaInvoiceAmount.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 40 - Опис параметрів об'єкта **DeltaItemQuantity**
+
+.. csv-table:: 
+  :file: for_csv/DeltaItemQuantity.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 41 - Опис параметрів об'єкта **DisagreementActPayload**
+
+.. csv-table:: 
+  :file: for_csv/DisagreementActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 42 - Опис параметрів об'єкта **DisagreementGrossWeightMeasure**
+
+.. csv-table:: 
+  :file: for_csv/DisagreementGrossWeightMeasure.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 43 - Опис параметрів об'єкта **DisagreementInvoiceAmount**
+
+.. csv-table:: 
+  :file: for_csv/DisagreementInvoiceAmount.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 44 - Опис параметрів об'єкта **DisagreementItemQuantity**
+
+.. csv-table:: 
+  :file: for_csv/DisagreementItemQuantity.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 45 - Опис параметрів об'єкта **DisagreementSubjectSupplyChainConsignmentItem**
+
+.. csv-table:: 
+  :file: for_csv/DisagreementSubjectSupplyChainConsignmentItem.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 46 - Опис параметрів об'єкта **DisagreementSubjectSupplyChainConsignmentSummary**
+
+.. csv-table:: 
+  :file: for_csv/DisagreementSubjectSupplyChainConsignmentSummary.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 47 - Опис параметрів об'єкта **QualityCharacteristicsDisagreement**
+
+.. csv-table:: 
+  :file: for_csv/QualityCharacteristicsDisagreement.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0

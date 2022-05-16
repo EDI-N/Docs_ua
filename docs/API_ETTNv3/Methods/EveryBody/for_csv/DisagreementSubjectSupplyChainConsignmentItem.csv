@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DisagreementSubjectSupplyChainConsignmentItem:,,Об'єкт **DisagreementSubjectSupplyChainConsignmentItem**,
+sequenceNumeric,M,int,Порядковий номер рядка в таблиці
+**natureIdentificationTransportCargo**,M,Identification_,"об'єкт; Найменування вантажу (номер контейнера) за ТТН"
+transportLogisticsPackageType,M,string,Одиниця виміру
+**disagreementItemQuantity**,O,DisagreementItemQuantity_,"об'єкт; Відхилення за кількістю місць"
+**disagreementGrossWeightMeasure**,O,DisagreementGrossWeightMeasure_,"об'єкт; Відхилення за масою брутто, кг"
+**disagreementInvoiceAmount**,O,DisagreementInvoiceAmount_,"об'єкт; Відхилення за сумою"
+disagreementOtherNotes,O,string,Інші зауваження. Коментарі щодо виявлених розбіжностей по кожному рядку (найменуванню вантажу)
