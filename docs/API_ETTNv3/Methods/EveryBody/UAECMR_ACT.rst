@@ -23,6 +23,20 @@
 
        Приклад тимчасово відсутній
 
+.. toggle-header::
+    :header: **JSON «Акта про заміну пункту призначення вантажу:**
+
+    .. code:: json
+
+       Приклад тимчасово відсутній
+
+.. toggle-header::
+    :header: **JSON «Акта про відмову вантажити:**
+
+    .. code:: json
+
+       Приклад тимчасово відсутній
+
 Таблиця 1 - Опис параметрів об'єкта **UAECMR_ACT**
 
 .. csv-table:: 
@@ -415,6 +429,13 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 49 - Опис параметрів об'єкта **RejectActPayload**
+
+.. csv-table:: 
+  :file: for_csv/RejectActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 
 -------------------------
