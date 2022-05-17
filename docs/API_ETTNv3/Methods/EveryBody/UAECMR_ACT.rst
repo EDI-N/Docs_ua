@@ -429,6 +429,13 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 49 - Опис параметрів об'єкта **RejectActPayload**
+
+.. csv-table:: 
+  :file: for_csv/RejectActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 
 -------------------------
