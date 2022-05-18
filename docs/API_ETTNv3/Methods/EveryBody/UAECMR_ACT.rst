@@ -37,6 +37,13 @@
 
        Приклад тимчасово відсутній
 
+.. toggle-header::
+    :header: **JSON «Акта перепломбування:**
+
+    .. code:: json
+
+       Приклад тимчасово відсутній
+
 Таблиця 1 - Опис параметрів об'єкта **UAECMR_ACT**
 
 .. csv-table:: 
@@ -433,6 +440,14 @@
 
 .. csv-table:: 
   :file: for_csv/RejectActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 50 - Опис параметрів об'єкта **ResealingActPayload**
+
+.. csv-table:: 
+  :file: for_csv/ResealingActPayload.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
