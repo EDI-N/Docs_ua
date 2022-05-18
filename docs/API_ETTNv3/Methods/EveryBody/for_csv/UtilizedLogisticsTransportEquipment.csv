@@ -14,5 +14,5 @@ characteristicCode,O,string,"Код визначення Причіп/напів
 
 * 14 - Причіп
 * 17 - Напівпричіп"
-**affixedLogisticsSeals**,O,List<SimpleIdentity_>,масив об'єктів; Номера пломб
+**affixedLogisticsSeals**,M/O,List<SimpleIdentity_>,масив об'єктів; Номера пломб. В Акті перепломбування для автомобіля цей об'єкт є обов'язковим
 **applicableNotes**,O,List<ApplicableNote_>,масив об'єктів; Примітки

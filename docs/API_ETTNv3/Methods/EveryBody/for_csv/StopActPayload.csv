@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _StopActPayload:,,Об'єкт **StopActPayload**,
+**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН/попередній акт, для якого складається акт"
+**initiatorTradeParty**,M,TradeParty_,"об'єкт; Замовник"
+**carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
+initiatorNotes,M,string,Короткий або повний опис причин складання акта (Замовник)
+carrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
