@@ -4,11 +4,11 @@
 **exchangedDocument**,M,ExchangedDocument_,об'єкт; реквізити Акта
 **reloadActPayload**,-/M,ReloadActPayload_,об'єкт; інформація про «Акт перевантаження»; обов'язковий для відповідного типу акта
 **adjustmentActPayload**,-/M,AdjustmentActPayload_,об'єкт; інформація про «Акт коригування»; обов'язковий для відповідного типу акта
-**disagreementActPayload**,-/M,DisagreementActPayload_,об'єкт;
-**consigneeChangeActPayload**,-/M,ConsigneeChangeActPayload_,об'єкт;
-**storageDeliveryActPayload**,-/M,StorageDeliveryActPayload_,об'єкт;
-**storagePickupActPayload**,-/M,StoragePickupActPayload_,об'єкт;
-**resealingActPayload**,-/M,ResealingActPayload_,об'єкт;
-**stopActPayload**,-/M,StopActPayload_,об'єкт;
-**rejectActPayload**,-/M,RejectActPayload_,об'єкт;
+**disagreementActPayload**,-/M,DisagreementActPayload_,об'єкт; інформація про «Акт розбіжностей про вантаж»; обов'язковий для відповідного типу акта
+**consigneeChangeActPayload**,-/M,ConsigneeChangeActPayload_,об'єкт; інформація про «Акт про заміну пункту призначення»; обов'язковий для відповідного типу акта
+**storageDeliveryActPayload**,-/M,StorageDeliveryActPayload_,об'єкт; інформація про «Акт розвантаження на проміжному складі»; обов'язковий для відповідного типу акта
+**storagePickupActPayload**,-/M,StoragePickupActPayload_,об'єкт; інформація про «Акт завантаження на проміжному складі»; обов'язковий для відповідного типу акта
+**resealingActPayload**,-/M,ResealingActPayload_,об'єкт; інформація про «Акт перепломбування»; обов'язковий для відповідного типу акта
+**stopActPayload**,-/M,StopActPayload_,об'єкт; інформація про «Акт примусового завершення е-ТТН»; обов'язковий для відповідного типу акта
+**rejectActPayload**,-/M,RejectActPayload_,об'єкт; інформація про «Акт про відмову вантажити»; обов'язковий для відповідного типу акта
 **certifyingPartyPayload**,M,CertifyingPartyPayload_,об'єкт; інформація про відповідальних осіб

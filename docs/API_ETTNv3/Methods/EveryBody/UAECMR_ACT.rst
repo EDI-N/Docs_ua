@@ -44,6 +44,15 @@
 
        Приклад тимчасово відсутній
 
+.. toggle-header::
+    :header: **JSON «Акта примусового завершення е-ТТН:**
+
+    .. code:: json
+
+       Приклад тимчасово відсутній
+
+
+
 Таблиця 1 - Опис параметрів об'єкта **UAECMR_ACT**
 
 .. csv-table:: 
@@ -448,6 +457,14 @@
 
 .. csv-table:: 
   :file: for_csv/ResealingActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 51 - Опис параметрів об'єкта **StopActPayload**
+
+.. csv-table:: 
+  :file: for_csv/StopActPayload.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
