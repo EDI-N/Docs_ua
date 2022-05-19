@@ -1,21 +1,21 @@
 ##########################################################################################################################
-**"Акт примусового завершення е-ТТН"**
+**"Акт розвантаження на проміжному складі"**
 ##########################################################################################################################
 
-.. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=804820694
+.. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1765110305
 
 .. important::
    Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/UAECMR_ACT.html>`__ відрізняються!
 
-Таблиця 1 - Специфікація "Акта примусового завершення е-ТТН" (XML)
+Таблиця 1 - Специфікація "Акта розвантаження на проміжному складі" (XML)
 
 .. csv-table:: 
-  :file: for_csv/stop_act_v3.csv
+  :file: for_csv/storagedelivery_act_v3.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
 
-:download:`Приклад "Акта примусового завершення е-ТТН"<examples/stop_act_v3.xml>`
+:download:`Приклад "Акта розвантаження на проміжному складі"<examples/storagedelivery_act_v3.xml>`
 
 -------------------------
 

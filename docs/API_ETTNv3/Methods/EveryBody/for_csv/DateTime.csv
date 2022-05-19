@@ -1,3 +1,3 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _DateTime:,,Об'єкт **DateTime**,
-dateTime,,:abbr:`datetime (yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime )`,Дата і час складання документа
+dateTime,,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата і час складання документа
