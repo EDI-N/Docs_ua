@@ -17,41 +17,46 @@
        Приклад тимчасово відсутній
 
 .. toggle-header::
-    :header: **JSON «Акта розбіжностей про вантаж:**
+    :header: **JSON «Акта розбіжностей про вантаж»:**
 
     .. code:: json
 
        Приклад тимчасово відсутній
 
 .. toggle-header::
-    :header: **JSON «Акта про заміну пункту призначення вантажу:**
+    :header: **JSON «Акта про заміну пункту призначення вантажу»:**
 
     .. code:: json
 
        Приклад тимчасово відсутній
 
 .. toggle-header::
-    :header: **JSON «Акта про відмову вантажити:**
+    :header: **JSON «Акта про відмову вантажити»:**
 
     .. code:: json
 
        Приклад тимчасово відсутній
 
 .. toggle-header::
-    :header: **JSON «Акта перепломбування:**
+    :header: **JSON «Акта перепломбування»:**
 
     .. code:: json
 
        Приклад тимчасово відсутній
 
 .. toggle-header::
-    :header: **JSON «Акта примусового завершення е-ТТН:**
+    :header: **JSON «Акта примусового завершення е-ТТН»:**
 
     .. code:: json
 
        Приклад тимчасово відсутній
 
+.. toggle-header::
+    :header: **JSON «Акта розвантаження на проміжному складі»:**
 
+    .. code:: json
+
+       Приклад тимчасово відсутній
 
 Таблиця 1 - Опис параметрів об'єкта **UAECMR_ACT**
 
@@ -465,6 +470,14 @@
 
 .. csv-table:: 
   :file: for_csv/StopActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 52 - Опис параметрів об'єкта **StorageDeliveryActPayload**
+
+.. csv-table:: 
+  :file: for_csv/StorageDeliveryActPayload.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0

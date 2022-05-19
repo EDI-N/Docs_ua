@@ -5,7 +5,7 @@
 **consignorTradeParty**,M,TradeParty_,"об'єкт; Вантажовідправник"
 **carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
 **consigneeTradeParty**,M,TradeParty_,"об'єкт; Вантажоодержувач"
-**adjustedSupplyChainConsignment**,M,SpecifiedSupplyChainConsignment_,"об'єкт; Таблиця коигувань"
+**adjustedSupplyChainConsignment**,M,SpecifiedSupplyChainConsignment_,"об'єкт; Таблиця коригувань"
 initiatorNotes,M,string,Короткий або повний опис причин складання акта (Замовник)
 consignorNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Вантажовідправник)
 carrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
