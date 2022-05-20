@@ -15,7 +15,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-.. :download:`Приклад "Акта про відмову вантажити"<examples/loadreject_act_v3.xml>`
+:download:`Приклад "Акта про відмову вантажити"<examples/loadreject_act_v3.xml>`
 
 -------------------------
 
