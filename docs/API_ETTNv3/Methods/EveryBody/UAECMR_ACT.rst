@@ -58,6 +58,13 @@
 
        Приклад тимчасово відсутній
 
+.. toggle-header::
+    :header: **JSON «Акта завантаження на проміжному складі»:**
+
+    .. code:: json
+
+       Приклад тимчасово відсутній
+
 Таблиця 1 - Опис параметрів об'єкта **UAECMR_ACT**
 
 .. csv-table:: 
@@ -482,6 +489,13 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 53 - Опис параметрів об'єкта **StoragePickupActPayload**
+
+.. csv-table:: 
+  :file: for_csv/StoragePickupActPayload.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 -------------------------
 
