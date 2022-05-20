@@ -7,15 +7,25 @@
 .. code:: json
 
 	{
-	    "uuid": "97bd6618-71b1-45a2-91b2-fe7b888ca00d",
-	    "name": "ТОВ \"Перевiзник\"",
-	    "type": 1,
-	    "ipn": "346756763",
-	    "edrpou": "4294967295",
-	    "city": "Kyiv",
-	    "address": "Street",
-	    "addresses": [],
-	    "employees": []
+	  "id": 1,
+	  "uuid": "0855e1ce-46ed-4995-83b6-356127b95226",
+	  "name": "Компанiя \"Вантажовiдправник\"",
+	  "type": 2,
+	  "ipn": "314861591355",
+	  "edrpou": "31600017",
+	  "city": "м. Київ",
+	  "country": "UA",
+	  "address": "вул. М. Донця, 6",
+	  "accountId": 22855,
+	  "isSignConfirm": 0,
+	  "addresses": [],
+	  "employees": [],
+	  "identifiers": {
+	    "1": "9864065737490"
+	  },
+	  "bankName": "Альфа Банк",
+	  "bankMfo": "123456",
+	  "iban": "UA256836356734657386573845632"
 	}
 
 Таблиця 1 - Опис параметрів об'єкта **CompanyV2**

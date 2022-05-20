@@ -14,7 +14,8 @@ accessType,tinyint,"тип доступу:
 offerType,tinyint,"етап:
 
 * 1 - bargaining - Торги
-* 2 - offersCollection - Збір пропозицій"
+* 2 - offersCollection - Збір пропозицій
+* 3 - Оголошення"
 type,tinyint,"тип торгівлі:
 
 * 1 - purchase - Закупівля
