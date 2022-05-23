@@ -95,7 +95,7 @@ ram:ContentCode,O,string,Код COLOR
 ram:Content,O,string,Колір автомобіля згідно з техпаспортом
 **ram:ApplicableNote** (з кодом COLOR),,,Колір автомобіля (закінчення блоку)
 **UtilizedLogisticsTransportEquipment** (CategoryCode=TRUCK),,,"Автомобіль, що розвантажується (закінчення блоку)"
-**CarrierUtilizedLogisticsTransportEquipment** (CategoryCode=TE),O,,"Причіп/напівпричіп, що розвантажується (початок блоку)"
+**UtilizedLogisticsTransportEquipment** (CategoryCode=TE),O,,"Причіп/напівпричіп, що розвантажується (початок блоку)"
 ram:CategoryCode,O,string,Тип TE - Причіп/напівпричіп
 ram:CharacteristicCode,O,string,"Код визначення Причіп/напівпричіп:
 
@@ -117,7 +117,7 @@ ram:ContentCode,O,string,Код COLOR
 ram:Content,O,string,Колір причіпа/напівпричіпа згідно з техпаспортом
 **ram:ApplicableNote** (з кодом COLOR),,,Колір причіпа/напівпричіпа (закінчення блоку)
 ram:ID,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
-**CarrierUtilizedLogisticsTransportEquipment** (CategoryCode=TE),,,"Причіп/напівпричіп, що розвантажується (закінчення блоку)"
+**UtilizedLogisticsTransportEquipment** (CategoryCode=TE),,,"Причіп/напівпричіп, що розвантажується (закінчення блоку)"
 **DeliveryTransportEvent**,O,,Розвантажувальні роботи (початок блоку)
 ram:ID,O,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
 ram:TypeCode,O,string,"Тип операції (розвантаження=5, завантаження=10)"
