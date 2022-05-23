@@ -4,8 +4,7 @@
 **carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
 **storageTradeParty**,M,TradeParty_,"об'єкт; Проміжний склад"
 **storageLogisticsLocation**,M,LogisticsLocation_,"об'єкт; Місцезнаходження складу"
-**utilizedLogisticsTransportEquipment**,M,UtilizedLogisticsTransportEquipment_,"об'єкт; Автомобіль, що розвантажується (CategoryCode=TRUCK)"
-**carrierUtilizedLogisticsTransportEquipment**,O,UtilizedLogisticsTransportEquipment_,"об'єкт; Причіп/напівпричіп, що розвантажується (CategoryCode=TE)"
+**utilizedLogisticsTransportEquipments**,O/M,List<UtilizedLogisticsTransportEquipment_>,масив об'єктів; Запис про автомобіль в перевезенні. Обов'язково заповнюється для Автомобіля (для причепа/напівпричепа опційно)
 **deliveryTransportEvent**,M,TransportEvent_,"об'єкт; Розвантажувальні роботи"
 carrierNotes,M,string,Короткий або повний опис причин складання Акта (Перевізник)
 storageNotes,O,string,Особливі відмітки; Інформація щодо незгоди зі змістом Акта (Проміжний склад)
