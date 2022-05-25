@@ -135,17 +135,17 @@ udt:DateTime,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:1
 **ram:ScheduledOccurrenceDateTime**,O,,Дата і час вибуття автомобіля з-під розвантаження (початок блоку)
 udt:DateTime,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час
 **ram:ScheduledOccurrenceDateTime**,,,Дата і час вибуття автомобіля з-під розвантаження (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=WD),M,,Інформація про відповідальних осіб Проміжного складу (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=WH),M,,Інформація про відповідальних осіб Проміжного складу (початок блоку)
 **ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (початок блоку)"
 schemeAgencyID,O,string,РНОКПП
 value,O,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (закінчення блоку)"
 ram:Name,M,string,"Посада відповідальної особи Проміжного складу"
-ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WH). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
 ram:PersonName,M,string,"ПІБ відповідальної особи Проміжного складу"
 **ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=WD),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WH),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
 **ram:CertifyingTradeParty** (RoleCode=DR),M,,"Інформація про водія Перевізника, що здав вантаж (початок блоку)"
 **ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
 schemeAgencyID,O,string,РНОКПП
@@ -181,17 +181,17 @@ StorageNotes,M,string,Короткий або повний опис причин
 CarrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
 **StoragePickupActPayload**,,,Інформація про Акт (закінчення блоку)
 **CertifyingPartyPayload**,M,,Інформація про відповідальних осіб (початок блоку)
-**ram:CertifyingTradeParty** (RoleCode=WD),M,,Інформація про відповідальних осіб Проміжного складу (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=WH),M,,Інформація про відповідальних осіб Проміжного складу (початок блоку)
 **ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (початок блоку)"
 schemeAgencyID,O,string,РНОКПП
 value,O,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (закінчення блоку)"
 ram:Name,M,string,"Посада відповідальної особи Проміжного складу"
-ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WH). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
 ram:PersonName,M,string,"ПІБ відповідальної особи Проміжного складу"
 **ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=WD),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WH),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
 **ram:CertifyingTradeParty** (RoleCode=DR),M,,"Інформація про водія Перевізника, що здав вантаж (початок блоку)"
 **ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
 schemeAgencyID,O,string,РНОКПП
@@ -224,15 +224,15 @@ ram:PersonName,M,string,"ПІБ водія"
 ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
 ram:Remarks,O,string,Графічне зображення Акта в base64
 **VisualReferencedDocument**,,,Графічне відображення документа (закінчення блоку)
-**Signature** (SigningPartyRoleCode=WD),M,,"КЕП відповідальної особи Проміжного складу, що приймає вантаж (початок блоку)"
-SigningPartyRoleCode,M,string,Роль підписанта (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**Signature** (SigningPartyRoleCode=WH),M,,"КЕП відповідальної особи Проміжного складу, що здає вантаж (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Проміжний склад - WH). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 PartySignature,M,string,Підпис (base64 підпису p7s)
 Name,M,string,ПІБ підписанта (відповідальної особи Проміжного складу)
 Position,O,string,Посада підписанта (відповідальної особи Проміжного складу)
 **ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи Проміжного складу (початок блоку)
 ram:ID,M,string,РНОКПП підписанта (відповідальної особи Проміжного складу)
 **ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи Проміжного складу (закінчення блоку)
-**Signature** (SigningPartyRoleCode=WD),,,"КЕП відповідальної особи Проміжного складу, що приймає вантаж (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=WH),,,"КЕП відповідальної особи Проміжного складу, що здає вантаж (закінчення блоку)"
 **Signature** (SigningPartyRoleCode=DR),M,,"КЕП водія (початок блоку)"
 SigningPartyRoleCode,M,string,Роль підписанта (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 PartySignature,M,string,Підпис (base64 підпису p7s)
