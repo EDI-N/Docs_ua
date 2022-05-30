@@ -43,8 +43,6 @@
 
 .. |green_tag| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_57.png
 
-.. |del_key| image:: signing/del_key2.png
-
 .. |зареєстрований| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_74.png
 
 .. |незареєстрований| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_73.png
@@ -77,10 +75,10 @@
 **1 Вхід на платформу**
 ================================================
 
-Для роботи з WEB сервісом Ви можете використовувати будь-який браузер (рекомендованим є **Google Chrome** останньої версії). Для входу до сервісу платформи необхідно `авторизуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__, перейшовши за посиланням: https://edo-v2.edin.ua/auth.
+Для роботи з WEB сервісом Ви можете використовувати будь-який браузер (рекомендованим є **Google Chrome** останньої версії). Для входу до сервісу платформи необхідно `Авторизуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__, перейшовши за посиланням: https://edo-v2.edin.ua/auth.
 
 .. hint::
-   Нові користувачі можуть самостійно пройти "Реєстрацію" на платформі (детальніше в `інструкції <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__)
+   Нові користувачі можуть самостійно пройти `Реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ на платформі.
 
 Після успішної авторизації відкриється основне меню продуктів та рішень для вибору сервісу платформи EDIN: **"Вільний", "EDI+ЮЗД", "Е-ТТН", "Дистриб'юшн", "Комерційна пропозиція", "Е-Специфікація", "Контрагенти", "Товари", "Tender", "Е-Сертифікати", "White Doc", "Інтеграція"**:
 
@@ -526,10 +524,9 @@
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_136.png
    :align: center
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_127.png
-   :align: center
-
 Віджет можливо згорнути чи закрити навіть під час виконання задач. Віджет можливо відновити, натиснувши на іконку процесу/помилки в нижній частині екрану (віджет з усіма успішно виконаними задачами не відновлюється після закривання):
+
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_127.png
 
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_132.png
 
