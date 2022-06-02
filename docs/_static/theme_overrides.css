@@ -11,7 +11,7 @@
     max-width: 1200px !important;
 }
    
-   .wy-side-nav-search {background-color: #32a55c}
+   .wy-side-nav-search {background-color: #8eafb3}
 
    .wy-table-responsive {
       overflow: visible !important;
@@ -293,7 +293,11 @@
 }
 
 /**
- Это для уведомления на всех страницах: переходите на новый правильный сайт + war
+ (versionwarning) Это для уведомления на всех страницах: переходите на новый правильный сайт + war 
+*/
+
+/**
+ (versionwarning) Это для уведомления на всех страницах: переходите на новый правильный сайт + war 
 */
 
 #version-warning-banner {
@@ -301,13 +305,11 @@
    padding: 10px;
    border-radius: 4px;
  
-   letter-spacing: 1px;
    color: #fff;
-   text-shadow: 0 0 2px #000;
    text-align: center;
    font-size: 0.9em;
  
-   background: #d54526
+   background: #ffd100
      repeating-linear-gradient(
        135deg,
        transparent,
@@ -317,17 +319,12 @@
      );
 }
  
-#version-warning-banner .admonition-title {
-   font-size: inherit;
-   font-weight: bold;
-}
- 
 #version-warning-banner p.admonition-title::after {
    content: none;
 }
  
 #version-warning-banner a {
-   color: #11dad1;
+   color: #1e5faa;
    border-color: #fff;
 }
  

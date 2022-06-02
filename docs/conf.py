@@ -185,12 +185,12 @@ html_theme_options = {
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "_static/logo_edin2.gif"
+html_logo = "_static/logo_edin3.png"
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "_static/edin.ico"
+html_favicon = "_static/favicon-yellow-blue.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -415,7 +415,7 @@ epub_exclude_files = ['search.html']
 
 versionwarning_messages = {
     "latest": (
-        "<strong>Русский военный корабль, иди нах#й!</strong>"
+        "<img src='https://wiki.edin.ua/en/latest/_static/Trident_b.png' alt='alternatetext' style='height:22px;'><strong><a href='https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi'> Допомогти ЗСУ </a></strong>"
     ),
 }
 
