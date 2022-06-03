@@ -229,7 +229,7 @@
 
 .. csv-table:: 
   :file: for_csv/Company.csv
-  :widths:  1, 12, 41
+  :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
 
@@ -237,6 +237,13 @@
 
 .. csv-table:: 
   :file: for_csv/Category.csv
-  :widths:  1, 12, 41
+  :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
+
+-------------------------
+
+.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+
+   * M (mandatory) — обов'язкові до заповнення поля;
+   * O (optional) — необов'язкові (опціональні) до заповнення поля.
