@@ -1,0 +1,12 @@
+Параметр, Формат, Опис
+.. _Attachment: , Об'єкт **Attachment**,
+id,long,id вкладення
+auctionId,long,id тендера
+lotId,long,id лоту
+betId,long,id ставки
+userId,long,id користувача
+**user**,User_,об'єкт; дані користувача
+fileName,String,назва файлу
+description,String,опис
+body,byte[],зміст тіла файлу в цілочисельному вигляді
+size,long,розмір вкладення

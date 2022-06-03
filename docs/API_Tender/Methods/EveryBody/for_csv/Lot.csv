@@ -1,0 +1,29 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Lot: ,, Об'єкт **Lot** ,
+id,,long,id лота
+auctionId,,long,id тендера
+**auction**,O,Auction_,об'єкт; дані тендера
+title,M,String,заголовок лота
+description,M,String,опис лота
+expectedValue,M,double,стартова ціна
+stepValue,M,double,крок ставки
+currencyId,,long,id валюти
+**currency**,M,Currency_,об'єкт; дані про валюту
+quantity,M,double,кількість
+unitId,,long,id одиниці виміру
+**unit**,M,Unit_,об'єкт; одиниці виміру
+deliveryStartDate,O,long,дата початку доставки
+deliveryEndDate,O,long,дата закінчення доставки
+productCode,O,String,код товару
+categoryId,,long,id категорії товару (з довідника CPV)
+**category**,M,Category_,об'єкт; дані категорії товару (з довідника CPV)
+regionId,,long,id області
+**region**,M,Region_,об'єкт; дані областей
+noShowBets,O,boolean,відмітка: Не показувати ставки
+noShowBestBet,O,boolean,відмітка: Не показувати кращу ставку 
+hideParticipantNamesOnly,O,boolean,відмітка: Ховати лише імена учасників
+betsCount,,Integer,кількість ставок
+**bestBet**,,Bet_,об'єкт; краща ставка
+**bets**,,List<Bet_>,масив об'єктів; список ставок
+attachmentsCount,,int,кількість вкладень
+**attachments**,O,List<Attachment_>,масив об'єктів; вкладення

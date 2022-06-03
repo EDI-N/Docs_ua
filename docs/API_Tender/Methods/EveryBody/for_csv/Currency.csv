@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Currency: ,, Об'єкт **Currency**,
+id,M,long,id валюти
+code,,String,код валюти
+name,,String,назва валюти

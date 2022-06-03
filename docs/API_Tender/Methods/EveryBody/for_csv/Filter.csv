@@ -1,4 +1,5 @@
 Параметр, Формат, Опис
+.. _Filter: , Об'єкт **Filter**,
 dateStartFrom,int,початок яких з
 dateStartTo,int,початок яких по
 dateEndFrom,int,завершення яких з
