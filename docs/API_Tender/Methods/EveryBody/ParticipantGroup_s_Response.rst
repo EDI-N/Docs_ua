@@ -241,6 +241,14 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 4 - Опис параметрів об'єкта **Comment**
+
+.. csv-table:: 
+  :file: for_csv/Comment.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
