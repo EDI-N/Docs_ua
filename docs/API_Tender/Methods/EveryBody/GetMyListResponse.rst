@@ -185,10 +185,90 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 11 - Опис параметрів об'єкта **Comment**
+Таблиця 11 - Опис параметрів об'єкта **Lot**
+
+.. csv-table:: 
+  :file: for_csv/Lot.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 12 - Опис параметрів об'єкта **AuctionContacts**
+
+.. csv-table:: 
+  :file: for_csv/AuctionContacts.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 13 - Опис параметрів об'єкта **Attachment**
+
+.. csv-table:: 
+  :file: for_csv/Attachment.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 14 - Опис параметрів об'єкта **Subscribes**
+
+.. csv-table:: 
+  :file: for_csv/Subscribes.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 15 - Опис параметрів об'єкта **Currency**
+
+.. csv-table:: 
+  :file: for_csv/Currency.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 16 - Опис параметрів об'єкта **Unit**
+
+.. csv-table:: 
+  :file: for_csv/Unit.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 17 - Опис параметрів об'єкта **Category**
+
+.. csv-table:: 
+  :file: for_csv/Category.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 18 - Опис параметрів об'єкта **Region**
+
+.. csv-table:: 
+  :file: for_csv/Region.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 19 - Опис параметрів об'єкта **Bet**
+
+.. csv-table:: 
+  :file: for_csv/Bet.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 20 - Опис параметрів об'єкта **Comment**
 
 .. csv-table:: 
   :file: for_csv/Comment.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 21 - Опис параметрів об'єкта **SubscribeToCategory**
+
+.. csv-table:: 
+  :file: for_csv/SubscribeToCategory.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
