@@ -35,7 +35,7 @@
 
 Для роботи з WEB сервісом Ви можете використовувати будь-який браузер (рекомендованим є **Google Chrome** останньої версії). Для входу до сервісу платформи необхідно `Авторизуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__ : перейти за посиланням https://edo-v2.edin.ua/auth, ввести Ваш логін і пароль користувача, натиснути **"Вхід"**, як це зазначено на зображенні нижче:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_06n.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_06n.png 
    :align: center
 
 .. hint::
