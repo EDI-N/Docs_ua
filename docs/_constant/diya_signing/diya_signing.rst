@@ -14,16 +14,21 @@
 Для того аби прочитати qr-код в в мобільному додатку "Дія" потрібно за потреби дозволити додатку використовувати камеру:
 
 .. image:: /_constant/diya_signing/diya_signing_002.png
+   :width: 500 px
 
 .. image:: /_constant/diya_signing/diya_signing_003.png
+   :width: 520 px
 
 Після формування запиту в додатку "Дія" можливо **"Підписати"** документ (потребує підтвердження особи за допомогою камери та введення коду для Дія.Підпис):
 
 .. image:: /_constant/diya_signing/diya_signing_004.png
+   :width: 350 px
 
 .. image:: /_constant/diya_signing/diya_signing_005.png
+   :width: 350 px
 
 .. image:: /_constant/diya_signing/diya_signing_006.png
+   :width: 350 px
 
 Документ підписано.
 
