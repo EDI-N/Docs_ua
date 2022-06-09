@@ -36,7 +36,16 @@ extensions = [
     'sphinxcontrib.plantuml',
     'notfound.extension',
     'versionwarning.extension',
+    'sphinx_tabs.tabs',
 ]
+
+# Tabs. By default, tabs can be closed by selecting the open tab. This functionality can be disabled using the sphinx_tabs_disable_tab_closing configuration option:
+
+sphinx_tabs_disable_tab_closing = True
+
+# Tabs. By default, the extension loads predefined CSS styles for tabs. To disable the CSS from loading, add the following to your conf.py:
+
+sphinx_tabs_disable_css_loading = True
 
 # for 404 page
 notfound_default_language = 'uk'
