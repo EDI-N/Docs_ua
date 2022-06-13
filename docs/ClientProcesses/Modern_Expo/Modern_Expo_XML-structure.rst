@@ -43,7 +43,7 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад INVOICE<examples/INVOICE_MODERN-EXPO_example.xml>`
+:download:`Приклад INVOICE<Modern_Expo_XML/examples/INVOICE_MODERN-EXPO_example.xml>`
 
 ---------
 
@@ -67,7 +67,7 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_008<examples/comdoc_008_MODERN-EXPO_example.xml>`
+:download:`Приклад COMDOC_008<Modern_Expo_XML/examples/comdoc_008_MODERN-EXPO_example.xml>`
 
 -------------------------
 
