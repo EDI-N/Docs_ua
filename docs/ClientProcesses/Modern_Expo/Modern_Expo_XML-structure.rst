@@ -19,7 +19,7 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDER<../../XML/examples/ORDER_example_f.xml>`
+:download:`Приклад ORDER<Modern_Expo_XML/examples/ORDER_MODERN-EXPO_example.xml>`
 
 ---------
 
@@ -31,7 +31,7 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRSP<../../XML/examples/ORDRSP_example.xml>`
+:download:`Приклад ORDRSP<Modern_Expo_XML/examples/ORDRSP_MODERN-EXPO_example.xml>`
 
 ---------
 
