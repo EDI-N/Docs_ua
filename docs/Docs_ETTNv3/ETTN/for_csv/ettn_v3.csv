@@ -494,6 +494,14 @@ ram:Content,O,string,"Ознака «зворотня тара»"
 ram:ContentCode,O,string,Код NET_WEIGHT
 ram:Content,O,string,Маса нетто
 **ram:ApplicableNote** (з кодом NET_WEIGHT),,,Маса нетто (закінчення блоку)
+**ram:ApplicableNote** (з кодом RTP_TYPE),O,,Тип транспортної упаковки (початок блоку)
+ram:ContentCode,O,string,Код RTP_TYPE
+ram:Content,O,string,"Тип транспортної упаковки, наприклад, контейнер"
+**ram:ApplicableNote** (з кодом RTP_TYPE),,,Тип транспортної упаковки (закінчення блоку)
+**ram:ApplicableNote** (з кодом RTP_NAME),O,,Назва транспортної упаковки (початок блоку)
+ram:ContentCode,O,string,Код RTP_NAME
+ram:Content,O,string,"Назва транспортної упаковки, наприклад, контейнер для перевезення сипучих речовин"
+**ram:ApplicableNote** (з кодом RTP_NAME),,,Назва транспортної упаковки (закінчення блоку)
 **ram:ApplicableNote** (з кодом RTP_QUANTITY),O,,Кількість транспортної упаковки (початок блоку)
 ram:ContentCode,O,string,Код RTP_QUANTITY
 ram:Content,O,string,Кількість транспортної упаковки (використовується для обліку оборотної тари)
