@@ -464,18 +464,29 @@
 .. image:: pics_New_balance_tariff/New_balance_tariff_03.png
    :align: center
 
-Для **"Поповнення балансу"** потрібно вказати суму поповнення та натиснути кнопку **"Створити рахунок"**:
+Для **"Поповнення балансу"** потрібно вказати суму (грн) і обрати спосіб поповнення: **"Онлайн оплата"** (LiqPay) або **"Створити рахунок"**.
 
 .. image:: pics_New_balance_tariff/New_balance_tariff_04.png
    :align: center
 
-Після чого системою автоматино створюється рахунок-фактура (детальніше в описі розділу меню `"Рахунки" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#invoice>`__):
+.. tabs::
 
-.. image:: pics_PCInstruction/PCInstruction_008.png
-   :align: center
+   .. tab:: Онлайн оплата
 
-.. hint::
-   При створенні рахунку він також автоматично відправляється на пошту.
+      При **"Онлайн оплаті"** відбувається переадресація на сторінку для введення даних карти, використання Google Pay / Apple Pay / Приват24 чи в **"Інший спосіб"**, що доступний на цій сторінці:
+
+      .. image:: pics_PCInstruction/PCInstruction_258.png
+         :align: center
+
+   .. tab:: Створити рахунок
+
+      Після натискання на кнопку **"Створити рахунок"** системою автоматино створюється рахунок-фактура (детальніше в описі розділу меню `"Рахунки" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#invoice>`__):
+
+      .. image:: pics_PCInstruction/PCInstruction_008.png
+         :align: center
+
+      .. hint::
+         При створенні рахунку він також автоматично відправляється на пошту.
 
 По всім здійсненим операціям з балансом ведеться **"Історія операцій"** (має зручний пошук):
 
