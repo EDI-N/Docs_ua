@@ -466,7 +466,7 @@
 
 Для **"Поповнення балансу"** потрібно вказати суму (грн) і обрати спосіб поповнення: **"Онлайн оплата"** (LiqPay) або **"Створити рахунок"**.
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_04.png
+.. image:: pics_New_balance_tariff/New_balance_tariff_04n.png
    :align: center
 
 .. tabs::
