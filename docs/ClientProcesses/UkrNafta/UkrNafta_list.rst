@@ -5,7 +5,7 @@
    :caption: Специфікації документів (XML) для роботи з "Укрнафта" [1]
    :maxdepth: 1
    
-   Trans_Logistic_XML-structure
+   UkrNafta_XML-structure
 
 -------------------------
 
