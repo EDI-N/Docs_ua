@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається `інформація про торгові мережі <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetRetailersListResponse.html>`__ (масив об'єктів **Retailer**).
+В тілі **відповіді** передається `інформація про торгові мережі <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/GetRetailersListResponse.html>`__ (масив об'єктів **Retailer**).
 
