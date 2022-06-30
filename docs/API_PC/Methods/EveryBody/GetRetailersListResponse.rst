@@ -65,7 +65,7 @@
 Таблиця 1 - Опис параметрів об'єкта **Retailer**
 
 .. csv-table:: 
-  :file: ../../../../API_PC/Methods/EveryBody/for_csv/Retailer.csv
+  :file: for_csv/Retailer.csv
   :widths:  1, 5, 19, 41
   :header-rows: 1
   :stub-columns: 0
