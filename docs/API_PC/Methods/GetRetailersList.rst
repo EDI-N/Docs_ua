@@ -1,14 +1,15 @@
 ######################################################################
-**Отримати список договорів (GLN)**
+**Отримання переліку торгових мереж**
 ######################################################################
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__.
 
 .. csv-table:: 
-  :file: GetIdentifiersAgreements.csv
+  :file: GetRetailersList.csv
   :widths:  10, 41
   :stub-columns: 0
 
 **RESPONSE**
 
-В тілі **відповіді** (json) передаються `дані договорів (GLN) <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/IdentifiersAgreementsResponse.html>`__ у вигляді масиву об'єктів.
+В тілі **відповіді** передається `інформація про торгові мережі <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetRetailersListResponse.html>`__ (масив об'єктів **Retailer**).
+
