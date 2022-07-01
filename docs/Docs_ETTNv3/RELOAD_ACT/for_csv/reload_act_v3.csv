@@ -51,6 +51,25 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Перевізника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Перевізника (найменування суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг)"
 ram:RoleCode,M,string,Роль учасника (Перевізник (новий) - СH). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:PostalTradeAddress**,M,,Юридична адреса Перевізника (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (початок блоку)
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,Юридична адреса Перевізника (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
 **ConnectingCarrierTradeParty**,,,"Перевізник, що приймає вантаж (закінчення блоку)"
 **CarrierUtilizedLogisticsTransportEquipment** (CategoryCode=TRUCK),M,,"Автомобіль, що розвантажується (початок блоку)"
 ram:ID,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
