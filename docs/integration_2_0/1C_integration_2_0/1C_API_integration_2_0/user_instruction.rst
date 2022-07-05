@@ -108,18 +108,17 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 «Архів» - це розділ, журнал якого містить архівні документи (аналог такого ж розділу, як і у веб інтерфейсі).
 
-.. image:: pics_user_instruction/user_instruction_16.jpg
+.. image:: pics_user_instruction/user_instruction_16n.jpg
    :align: center
 
 Основні можливості даного розділу - це перегляд і завантаження та розархівування документів, які були опрацьовані і відправлені в архів за допомогою веб платформи або ж через обробку ОС.
 
-.. image:: pics_user_instruction/user_instruction_17.jpg
-
-.. image:: pics_user_instruction/user_instruction_18.jpg
+.. image:: pics_user_instruction/user_instruction_17n.jpg
+   :align: center
 
 Для того щоб додати документ до архіву безпосередньо в обробці ОС потрібно скористатись кнопкою «Архівувати», яка доступна на панелі інструментів вкладки «Вхідні» та «Вихідні». Для перенесення документу в архів потрібно його відмітити і натиснути відповідну кнопку:
 
-.. image:: pics_user_instruction/user_instruction_19.jpg
+.. image:: pics_user_instruction/user_instruction_19n.jpg
 
 Всі відмічені документи потраплять в «Архів».
 
@@ -161,7 +160,7 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 1. **Підтвердження замовлення (ORDRSP)** – можливо підтвердити поставку, або відмовитись від поставки повністю. Для того щоб підтвердити поставку частково потрібно створити замовлення покупця і базі ОС і внести необхідні зміни в документі, а потім підтверджувати поставку. Якщо при підтвердженні поставки не створено жодного документу в ОС, тоді буде відправлено підтвердження у повному об'ємі вказаному в замовленні. Якщо при підтвердженні поставки відповідні документи ОС створені, тоді кількість заповнюється з них;
 
-.. image:: pics_user_instruction/user_instruction_20.jpg
+.. image:: pics_user_instruction/user_instruction_20n.jpg
    :align: center
 
 2. **Повідомлення про відвантаження (DESADV)** – створюється тільки при наявності відповідного документу в ОС;
@@ -211,22 +210,22 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 Для налаштувань різних схем роботи з документами (різні контрагенти) потрібно заповнити формат вивантаження. Для цього відмічаємо потрібні мережі:
 
-.. image:: pics_user_instruction/user_instruction_21.jpg
+.. image:: pics_user_instruction/user_instruction_21n.jpg
    :align: center
 
 Далі відкриваємо форму прив’язки контрагентів бази ОС до GLN контрагентів мережі:
 
-.. image:: pics_user_instruction/user_instruction_22.jpg
+.. image:: pics_user_instruction/user_instruction_22n.jpg
    :align: center
 
 Відкриється форма налаштувань, де для початку ми знаходимо потрібний GLN і підв’язуємо його контрагенту з бази ОС:
 
-.. image:: pics_user_instruction/user_instruction_23.jpg
+.. image:: pics_user_instruction/user_instruction_23n.jpg
    :align: center
 
 Далі заповнюємо формат вивантаження відповідно до обраної мережі (в нашому випадку це АТБ):
 
-.. image:: pics_user_instruction/user_instruction_24.jpg
+.. image:: pics_user_instruction/user_instruction_24n.jpg
    :align: center
 
 Після цих маніпуляцій, система буде знати що даний контрагент бази ОС відноситься до мережі (в нашому випадку АТБ) і працює по схемі процесів цієї мережі.
@@ -239,29 +238,29 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 Для активації схеми документообігу мережі "Fozzy" потрібно для початку зробити налаштування формату вивантаження для контрагентів цієї мережі. Налаштування описані в пункті `Комерційні документи (COMDOC). Налаштування схеми документообігу <https://wiki.edin.ua/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/user_instruction.html#comdoc-settings>`__. Після підтвердження замовлення у нас є можливість відправити документ "Інструкція з транспортування":
 
-.. image:: pics_user_instruction/user_instruction_25.jpg
+.. image:: pics_user_instruction/user_instruction_25n.jpg
    :align: center
 
 Але перед відправкою користувачеві буде запропоновано заповнити дані з транспортування:
 
-.. image:: pics_user_instruction/user_instruction_26.jpg
+.. image:: pics_user_instruction/user_instruction_26n.jpg
    :align: center
 
 Відкриється форма заповнення:
 
-.. image:: pics_user_instruction/user_instruction_27.jpg
+.. image:: pics_user_instruction/user_instruction_27n.jpg
    :align: center
 
 після заповнення форми натискаємо «ОК» і документ буде відправлено.
 
 При відправці "Товарної накладної" за схемою "Fozzy" маємо розділення окремо на цінову накладну і кількісну:
 
-.. image:: pics_user_instruction/user_instruction_28.jpg
+.. image:: pics_user_instruction/user_instruction_28n.jpg
    :align: center
 
 При відправці користувачу буде запропоновано вибрати, яку саме накладну відправляти, або відправити обидві відразу:
 
-.. image:: pics_user_instruction/user_instruction_29.jpg
+.. image:: pics_user_instruction/user_instruction_29n.jpg
    :align: center
 
 Після відмітки необхідних документів натискаємо «ОК» для відправки документа/-ів.
@@ -271,22 +270,22 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 Для активації схеми документообігу мережі "АТБ" потрібно для початку зробити налаштування формату вивантаження для контрагентів цієї мережі. Налаштування описані в пункті `Комерційні документи (COMDOC). Налаштування схеми документообігу <https://wiki.edin.ua/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/user_instruction.html#comdoc-settings>`__. При відправці "Повідомлення про відвантаження" (DESADV):
 
-.. image:: pics_user_instruction/user_instruction_30.jpg
+.. image:: pics_user_instruction/user_instruction_30n.jpg
    :align: center
 
 користувачу буде запропоновано вибрати варіант поставки (в залезності від вибору "АТБ" буде знати чи це буде пряма поставка чи зі складу "Логістик Юніон"):
 
-.. image:: pics_user_instruction/user_instruction_31.jpg
+.. image:: pics_user_instruction/user_instruction_31n.jpg
    :align: center
 
 Якщо це пряма поставка то далі потрібно відправити "Видаткову накладну" (COMDOC_006):
 
-.. image:: pics_user_instruction/user_instruction_32.jpg
+.. image:: pics_user_instruction/user_instruction_32n.jpg
    :align: center
 
 Якщо це поставка зі складу "Логістик Юніон", то потрібно окрім "Видаткової накладної" (COMDOC_006) відправити "Акт приймання-передачі (додаток 8)" (COMDOC_032):
 
-.. image:: pics_user_instruction/user_instruction_33.jpg
+.. image:: pics_user_instruction/user_instruction_33n.jpg
    :align: center
 
 6.3.3 Схема Леруа Мерлен
@@ -295,12 +294,12 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 Якщо таблиця мереж буде пуста, то потрібно натиснути «Заповнити таблицю доступних мереж»:
 
-.. image:: pics_user_instruction/user_instruction_34.jpg
+.. image:: pics_user_instruction/user_instruction_34n.jpg
    :align: center
 
 Далі відмічаємо потрібну нам мережу і вказуємо, в якому полі знаходиться GLN контрагента:
 
-.. image:: pics_user_instruction/user_instruction_35.jpg
+.. image:: pics_user_instruction/user_instruction_35n.jpg
    :align: center
 
 Після цих налаштувань система буде розуміти де знаходиться потрібний GLN для пошуку контрагента для подальшого використання його в створені документів облікової системи.
