@@ -18,10 +18,14 @@ chain_uuid,UUID,унікальний ідентифікатор ланцюжка
 family,int,"сімейство
 
 * 1 - EDI
+* 2 - UZD
+* 4 - CERTIFICATS
 * 6 - ATS
 * 7 - ETTN
 * 8 - DISTRIBUTION
 * 9 - SIMPLEDOC (Вільний)
+* 10 - TENDER
+* 11 - AGREEMENT
 * 12 - OPENPRICE (Є-Товар)"
 hash,String,"хеш-значення, отримане в результаті обробки"
 type,XDocType_,об'єкт; тип документа
