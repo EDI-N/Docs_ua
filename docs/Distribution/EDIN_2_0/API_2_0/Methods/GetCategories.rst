@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** у вигляді масиву об'єктів передаються `категорії товарів <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XProductGroup.html>`__ для вказаного "Дистриб'ютора"
+В тілі **відповіді** у вигляді масиву об'єктів передаються `категорії товарів <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XProductGroup.html>`__ Прайс-листа для вказаної пари "Дистриб'ютор"-"Виробник".
 
