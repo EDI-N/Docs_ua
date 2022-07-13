@@ -15,6 +15,30 @@ XML Специфікації для роботи з Мережею "Укрнаф
 
 :download:`Приклад "Видаткової накладної" (DOCUMENTINVOICE)<UkrNafta_XML/examples/DOCUMENTINVOICE_example.xml>`
 
+---------
+
+Підтвердження замовлення (ORDRSP)
+========================================
+
+.. csv-table:: Підтвердження замовлення (ORDRSP)
+  :file: UkrNafta_XML/files/ORDRSP.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад Підтвердження замовлення (ORDRSP)<UkrNafta_XML/examples/ORDRSP_example.xml>`
+
+---------
+
+Повідомлення про відвантаження (DESADV)
+===============================================
+
+.. csv-table:: Повідомлення про відвантаження (DESADV)
+  :file: UkrNafta_XML/files/DESADV.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад Повідомлення про відвантаження (DESADV)<UkrNafta_XML/examples/DESADV_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:

@@ -213,4 +213,4 @@ EDIN Оновлення UUID – відмітка для оновлення UUID
 
 -------------------------------------
 
-.. include:: /_static/files/kontakti.rst
+.. include:: /_constant/kontakti.rst
