@@ -36,4 +36,4 @@
 
 -------------------------------------
 
-.. include:: /_static/files/kontakti.rst
+.. include:: /_constant/kontakti.rst

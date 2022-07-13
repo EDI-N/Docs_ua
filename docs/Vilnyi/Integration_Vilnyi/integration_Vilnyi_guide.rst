@@ -162,5 +162,5 @@ API (application programming interface) - набір визначених мет
 
 -------------------------------------
 
-.. include:: /_static/files/kontakti.rst
+.. include:: /_constant/kontakti.rst
 
