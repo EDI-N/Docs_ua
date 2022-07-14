@@ -1,14 +1,14 @@
 ########################################################################################################################
-Документообіг з мережею "Укрнафта" на платформі EDI Network 2.0. Інструкція Постачальника
+Документообіг з мережею "BOX Market" на платформі EDI Network 2.0. Інструкція Постачальника
 ########################################################################################################################
 
-.. дууууже схожа інструкція в Бокс маркета
+.. дууууже схожа інструкція в Укрнафти
 
 .. сюда закину немного картинок для текста
 
-.. |лупа| image:: pics_UkrNafta_Standard/UkrNafta_Standard_003.png
+.. |лупа| image:: pics_BOX_Market_Standard/BOX_Market_Standard_003.png
 
-.. |будинок| image:: pics_UkrNafta_Standard/UkrNafta_Standard_004.png
+.. |будинок| image:: pics_BOX_Market_Standard/BOX_Market_Standard_004.png
 
 .. role:: red
 
@@ -20,37 +20,37 @@
 Вступ
 ====================================
 
-Дана інструкція описує порядок документообігу з мережею "Укрнафта" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
+Дана інструкція описує порядок документообігу з мережею "BOX Market" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
 - `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/ClientProcesses/UkrNafta/UkrNafta_XML-structure.html#ordrsp>`__
-- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/UkrNafta/UkrNafta_XML-structure.html#desadv>`__
+- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
 - `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
-- `Видаткова накладна (DOCUMENTINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/UkrNafta/UkrNafta_XML-structure.html#documentinvoice>`__
+- `Видаткова накладна (DOCUMENTINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/BOX_Market/BOX_Market_XML-structure.html#documentinvoice>`__
 - при необхідності також `Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-009>`__
 
 **Загальна схема документообігу:**
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_001.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_001.png
    :height: 700px
    :align: center
 
 1 Формування "Підтвердження замовлення" (ORDRSP) у відповідь на вхідне "Замовлення" (ORDER)
 =========================================================================================================================
 
-Мережа "Укрнафта" формує і відправляє "Замовлення" (ORDER). Для формування "Підтвердження замовлення" (ORDRSP) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+Мережа "BOX Market" формує і відправляє "Замовлення" (ORDER). Для формування "Підтвердження замовлення" (ORDRSP) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_005.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_005.png
    :align: center
 
-Для формування "Підтвердження замовлення" (ORDRSP) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "Укрнафта" - документ створиться автоматично.
+Для формування "Підтвердження замовлення" (ORDRSP) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "BOX Market" - документ створиться автоматично.
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_006.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_006.png
    :align: center
 
 У відкритій формі "Підтвердження замовлення" (ORDRSP) всі обов'язкові до заповнення поля (позначені червоною зірочкою :red:`*`) заповнюються автоматично з пов'язаного "Замовлення":
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_007.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_007.png
    :align: center
 
 #. **Одержувач** - дані одержувача (мережі), не підлягають редагуванню
@@ -68,7 +68,7 @@
 
 Зміни за позиціями можливо виконувати в табличній частині в колонках "Ціна без ПДВ", "Підтверджена кількість" або за конкретною позицією, натиснувши на штрихкод позиції:
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_008.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_008.png
    :align: center
 
 Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**.
@@ -78,12 +78,12 @@
 
 Після внесення всіх даних в документ, натисніть кнопку **"Зберегти"** (1), потім **"Відправити"** (2).
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_009.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_009.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходиться в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із "Замовленням" (ORDER).
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_010.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_010.png
    :align: center
 
 2 Формування "Повідомлення про відвантаження" (DESADV)
@@ -91,17 +91,17 @@
 
 Створити "Повідомлення про відвантаження" (DESADV) можливо одразу на підставі вхідного "Замовлення" (ORDER) або відправленого "Підтвердження замовлення" (ORDRSP). Для створення відвантаження за вже підтвердженими позиціями потрібно у папці **"Надіслані"** обрати "Підтвердження замовлення" (ORDRSP), за яким потрібно зробити відвантаження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_011.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_011.png
    :align: center
 
-Для формування "Повідомлення про відвантаження" (DESADV) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "Укрнафта" - документ створиться автоматично.
+Для формування "Повідомлення про відвантаження" (DESADV) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "BOX Market" - документ створиться автоматично.
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_012.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_012.png
    :align: center
 
 У відкритій формі "Повідомлення про відвантаження" (DESADV) деякі поля заповнюються автоматично з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_013.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_013.png
    :align: center
 
 #. **Одержувач** - дані одержувача (мережі); заповнюється автоматично, можливо змінити за допомогою кнопки "Пошук контрагента" (|лупа|);
@@ -120,12 +120,12 @@
 .. hint::
    За допомогою кнопки **"Пошук контрагента"** (|лупа|) або ж за допомогою кнопки **"Вказати себе"** (|будинок|) можливо вказати чи змінити дані Покупця або Постачальника. Для пошуку введіть назву компанії, GLN або ІПН:
 
-   .. image:: pics_UkrNafta_Standard/UkrNafta_Standard_002.png
+   .. image:: pics_BOX_Market_Standard/BOX_Market_Standard_002.png
       :align: center
 
 Блоки **Додаткова інформація** та **Транспортування** необов'язкові для заповнення і "згорнуті" за замовчуванням. Блок **Разом** розраховується автоматично після заповнення позицій.
 
-   .. image:: pics_UkrNafta_Standard/UkrNafta_Standard_014.png
+   .. image:: pics_BOX_Market_Standard/BOX_Market_Standard_014.png
       :align: center
 
 Перелік товарних позицій (які були замовлені), їх кількість, що постачається повинні збігатись. Система автоматично заповнює значення за позиціями з раніше відправленого документа "Підтвердження замовлення" (ORDRSP), на основі якого був створений документ "Повідомлення про відвантаження" (DESADV). Можливо вносити зміни в кількість і ціну позицій.
@@ -134,12 +134,12 @@
 
 Зміни за позиціями можливо виконувати в табличній частині в колонках "Кількість, що постачається", "Ціна без ПДВ", "Ціна з ПДВ", "Ставка ПДВ" або за конкретною позицією, натиснувши на штрихкод позиції:
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_015.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_015.png
    :align: center
 
 Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**.
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_018.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_018.png
    :align: center
 
 .. important::
@@ -150,12 +150,12 @@
 
 Після внесення всіх даних в документ, натисніть кнопку **"Зберегти"** (1), потім **"Відправити"** (2).
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_016.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_016.png
    :align: center
    
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із "Замовленням" і "Підтвердженням замовлення".
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_017.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_017.png
    :align: center
 
 --------------------------------------------------------------------------------------------------
@@ -168,37 +168,37 @@
 
 "Видаткова накладна" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) може бути сформована на підставі "Повідомлення про відвантаження" (DESADV). Для формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) потрібно перейти в папку **"Надіслані"** та обрати документ-підставу (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_019.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_019.png
    :align: center
 
 Для формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарна накладна"(DOCUMENTINVOICE).
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_020.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_020.png
    :align: center
 
-При цьому для мережі "Укрнафта" автоматично створюється саме "Видаткова накладна" (DOCUMENTINVOICE.DocumentFunctionCode = DRN):
+При цьому для мережі "BOX Market" автоматично створюється саме "Видаткова накладна" (DOCUMENTINVOICE.DocumentFunctionCode = DRN):
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_021.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_021.png
    :align: center
 
 У відкритій формі "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) деякі поля заповнюються автоматично з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`). Про необхідність заповнення та інші помилки в табличній частині документа Ви будете проінформовані (вказується номер позиції та невідповідність), а також рядок позиції виділяється помаранчевим кольором:
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_022.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_022.png
    :align: center
 
 Зміни за позиціями можливо виконувати в табличній частині в колонках "Код УКТ ЗЕД", "Кількість", "Ціна без ПДВ", "Ставка ПДВ" або за конкретною позицією, натиснувши на штрихкод позиції:
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_023.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_023.png
    :align: center
 
 Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**.
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_024.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_024.png
    :align: center
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_025.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_025.png
    :align: center
 
 .. _sign:
@@ -212,23 +212,23 @@
 
 Після підписання "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) документ потрібно **"Відправити"**:
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_026.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_026.png
    :align: center
 
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа "Укрнафта" зі своєї сторони переглядає та підписує документ.
+Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа "BOX Market" зі своєї сторони переглядає та підписує документ.
 
 4 Обробка вхідного документа "Акт невідповідності" (COMDOC_009)
 ====================================================================================================================================
 
 У випадку розходження між відправленною і фактично прийнятою кількістю товару чи виникненням цінової розбіжності – мережа надсилає Вам "Акт невідповідності" (COMDOC_009). У вхідному документі в табличній частині будуть зазначені кількісні чи цінові розбіжності по кожному товару та причина невідповідності, наприклад:
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_027.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_027.png
    :align: center
 
-.. image:: pics_UkrNafta_Standard/UkrNafta_Standard_028.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_028.png
    :align: center
 
-Після ознайомлення з документом необхідно заново сформувати "Видаткову накладну" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) на підставі раніше відправленого "Повідомлення про відвантаження" (DESADV) з правками кількості/ціни згідно розбіжностей вказаних в "Акті невідповідності" (COMDOC 009) мережі "Укрнафта".
+Після ознайомлення з документом необхідно заново сформувати "Видаткову накладну" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) на підставі раніше відправленого "Повідомлення про відвантаження" (DESADV) з правками кількості/ціни згідно розбіжностей вказаних в "Акті невідповідності" (COMDOC 009) мережі "BOX Market".
 
 ------------------------------------------------
 
