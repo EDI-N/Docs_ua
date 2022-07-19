@@ -12,7 +12,7 @@ consignmentItemQuantity,M,decimal,Загальна кількість місць
 **associatedReferencedDocuments**,O,List<ReferencedDocument_>,масив об'єктів; Супровідні документи на вантаж
 **handlingInstructions**,O,HandlingInstructions_,об'єкт; Інструкції з експлуатації
 **deliveryTransportEvent**,O,TransportEvent_,об'єкт; Розвантажувальні роботи
-**pickUpTransportEvent**,M,TransportEvent_,об'єкт; Навантажувальні роботи
+**pickUpTransportEvent**,O/M,TransportEvent_,об'єкт; Навантажувальні роботи
 **includedSupplyChainConsignmentItems**,M,List<IncludedSupplyChainConsignmentItem_>,масив об'єктів; Відомості про вантаж
 **utilizedLogisticsTransportEquipments**,O/M,List<UtilizedLogisticsTransportEquipment_>,масив об'єктів; Запис про автомобіль в перевезенні. Обов'язково заповнюється для Автомобіля (для причепа/напівпричепа опційно)
 **mainCarriageLogisticsTransportMovement**,O,MainCarriageLogisticsTransportMovement_,об'єкт; Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником

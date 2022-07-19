@@ -351,9 +351,9 @@ ram:ContentCode,O,string,Код DOWNTIME
 ram:Content,O,unsignedByte,Час (години) простою під розвантаженням
 **ram:ApplicableNote** (з кодом DOWNTIME),,,Час простою (закінчення блоку)
 **ram:DeliveryTransportEvent**,,,Розвантажувальні роботи (закінчення блоку)
-**ram:PickUpTransportEvent**,M,,Навантажувальні роботи (початок блоку)
-ram:ID,M,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
-ram:TypeCode,M,string,"Тип операції (розвантаження=5, завантаження=10)"
+**ram:PickUpTransportEvent**,O,,Навантажувальні роботи (початок блоку)
+ram:ID,O,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
+ram:TypeCode,O,string,"Тип операції (розвантаження=5, завантаження=10)"
 ram:Description,O,string,Опис
 **ram:ActualOccurrenceDateTime**,O,,Дата і час прибуття автомобіля під навантаження (початок блоку)
 udt:DateTime,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час
