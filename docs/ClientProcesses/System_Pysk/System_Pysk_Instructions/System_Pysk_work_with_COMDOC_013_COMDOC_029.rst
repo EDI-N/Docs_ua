@@ -34,20 +34,28 @@
 1 Робота з "Актом виконаних робіт" (COMDOC_013)
 ==============================================================
 
-У папці "Вхідні" виберіть та перейдіть у небхідний документ:
+У папці **"Вхідні"** виберіть та перейдіть у небхідний документ (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_03.png
+.. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_07.png
    :align: center
 
-Ви можете ознайомитись з відкритим документом та якщо згодні з його змістом натиснути кнопку **"Підписати та відправити"** або на формі-підказці натиснути **"Редагувати"**.
+Ви можете ознайомитись з відкритим документом та якщо згодні з його змістом натиснути кнопку **"Підписати"**:
+
+.. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_06.png
+   :align: center
 
 .. note::
-    При **"Редагуванні"** доступно змінити лише номер та дату документу непідписаного документа:
+   Для того аби **відредагувати** документ потрібно перервати (закрити) процес підписання:
+   
+   .. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_08.gif
+      :align: center
+   
+   До зміни доступні лише номер та дата непідписаного документа:
 
-    .. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_04.png
-       :align: center
+   .. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_04.png
+      :align: center
     
-    Після внесених змін потрібно **"Зберегти"**, **"Підписати"** та **"Відправити"** документ.
+   Після внесених змін потрібно **"Зберегти"**, **"Підписати"** та **"Відправити"** документ.
 
 .. _sign:
 
