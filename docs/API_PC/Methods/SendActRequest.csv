@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , POST                                         
+URL запиту    , **/api/oas/personal/docs/request**
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , application/json
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту передається `об'єкт з даними запиту по акту <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/ActRequest.html>`__"
