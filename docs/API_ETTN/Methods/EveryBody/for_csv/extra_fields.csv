@@ -131,3 +131,6 @@ id параметра, Найменування параметра,Обов'яз
 , consignee_b_uuid,, BINARY, ідентифікатор вантажоодержувача
 , consignor_b_uuid,, BINARY, ідентифікатор вантажовідправника
 , external_doc_id,, INT, id ТТН документа в ЦБД
+, orderpartner_uuid,, BINARY, ідентифікатор замовника
+, invoicepartner_uuid,, BINARY, ідентифікатор платника
+, finalrecipient_uuid,, BINARY, ідентифікатор кінцевого консигнатора
