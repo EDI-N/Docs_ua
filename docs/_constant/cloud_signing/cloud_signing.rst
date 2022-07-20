@@ -17,49 +17,51 @@
 
 Після того, як Ви обрали провайдера хмарного підписання, генерується qr-код для переходу в мобільний додаток відповідного провайдера підписання.
 
-.. admonition:: Підписання від "ПриватБанку"
+.. tabs::
 
-   .. image:: /_constant/cloud_signing/cloud_signing_002.png
-      :align: center
+   .. tab:: Підписання від "ПриватБанку"
 
-   Для того аби підписати документ на платформі EDIN 2.0 потрібно прочитати qr-код в мобільному додатку **"Privat24"**, використовуючи "Сканер" (потребує використання камери) та пройти авторизацію **"SmartID"**:
+      .. image:: /_constant/cloud_signing/cloud_signing_002.png
+         :align: center
 
-   .. image:: /_constant/cloud_signing/cloud_signing_003.png
-      :align: center
+      Для того аби підписати документ на платформі EDIN 2.0 потрібно прочитати qr-код в мобільному додатку **"Privat24"**, використовуючи "Сканер" (потребує використання камери) та пройти авторизацію **"SmartID"**:
 
-   Платформа EDIN 2.0 автоматично підтягне Вашу КЕП. Потрібно обрати додану КЕП та **"Підписати"**:
+      .. image:: /_constant/cloud_signing/cloud_signing_003.png
+         :align: center
 
-   .. image:: /_constant/cloud_signing/cloud_signing_004.png
-      :align: center
+      Платформа EDIN 2.0 автоматично підтягне Вашу КЕП. Потрібно обрати додану КЕП та **"Підписати"**:
 
-   Далі потрібно ще раз відсканувати qr-код в мобільному додатку **"Privat24"** (описано вище).
+      .. image:: /_constant/cloud_signing/cloud_signing_004.png
+         :align: center
 
-   .. image:: /_constant/cloud_signing/cloud_signing_005.png
-      :align: center
+      Далі потрібно ще раз відсканувати qr-код в мобільному додатку **"Privat24"** (описано вище).
 
-   Документ підписано.
+      .. image:: /_constant/cloud_signing/cloud_signing_005.png
+         :align: center
 
-.. admonition:: Підписання від "CloudKey"
+      Документ підписано.
 
-   .. image:: /_constant/cloud_signing/cloud_signing_006.png
-      :align: center
+   .. tab:: Підписання від "CloudKey"
 
-   В додатку "CloudKey" потрібно "Додати сертифікат" (первинні налаштування). Для того аби підписати документ на платформі EDIN 2.0 потрібно прочитати qr-код в мобільному додатку **"CloudKey"** потрібно використати "Сканер" (потребує використання камери), обрати КЕП для підписання, **"Ввести пароль"** та **"Підтвердити"** дію підписання:
+      .. image:: /_constant/cloud_signing/cloud_signing_006.png
+         :align: center
 
-   .. image:: /_constant/cloud_signing/cloud_signing_007.png
-      :align: center
+      В додатку "CloudKey" потрібно "Додати сертифікат" (первинні налаштування). Для того аби підписати документ на платформі EDIN 2.0 потрібно прочитати qr-код в мобільному додатку **"CloudKey"** потрібно використати "Сканер" (потребує використання камери), обрати КЕП для підписання, **"Ввести пароль"** та **"Підтвердити"** дію підписання:
 
-   Платформа EDIN 2.0 автоматично підтягне Вашу КЕП. Потрібно обрати додану КЕП та **"Підписати"**:
+      .. image:: /_constant/cloud_signing/cloud_signing_007.png
+         :align: center
 
-   .. image:: /_constant/cloud_signing/cloud_signing_008.png
-      :align: center
-   
-   Далі потрібно ще раз відсканувати qr-код в мобільному додатку **"CloudKey"** (описано вище).
-   
-   .. image:: /_constant/cloud_signing/cloud_signing_009.png
-      :align: center
+      Платформа EDIN 2.0 автоматично підтягне Вашу КЕП. Потрібно обрати додану КЕП та **"Підписати"**:
 
-   Документ підписано.
+      .. image:: /_constant/cloud_signing/cloud_signing_008.png
+         :align: center
+      
+      Далі потрібно ще раз відсканувати qr-код в мобільному додатку **"CloudKey"** (описано вище).
+      
+      .. image:: /_constant/cloud_signing/cloud_signing_009.png
+         :align: center
+
+      Документ підписано.
 
 .. кінець блоку для CloudSign
 
