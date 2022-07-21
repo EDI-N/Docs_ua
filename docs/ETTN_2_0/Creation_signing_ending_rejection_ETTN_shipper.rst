@@ -308,9 +308,19 @@
 .. image:: pics_Creation_signing_ending_rejection_ETTN_shipper/Creation_signing_ending_rejection_ETTN_shipper_71.png
    :align: center
 
-.. include:: /_constant/signing/signing.rst
-   :start-after: .. початок блоку для Signing
-   :end-before: .. кінець блоку для Signing
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
 
 Після підписання е-ТТН відображається інформація щодо підписантів. Для відправки е-ТТН необхідно натинути на кнопку "Надіслати".
 

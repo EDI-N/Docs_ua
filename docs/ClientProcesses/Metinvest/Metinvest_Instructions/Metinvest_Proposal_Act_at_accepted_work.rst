@@ -75,9 +75,19 @@
 
 .. загальне підписання на платформі
 
-.. include:: /_constant/signing/signing.rst
-   :start-after: .. початок блоку для Signing
-   :end-before: .. кінець блоку для Signing
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
 
 Після підписання "Заявки на транспортування" її статус змінюється на **"Підписано перевізником"**, в інформації про підписантів відображаються дані двох підписів (обох сторін):
 
