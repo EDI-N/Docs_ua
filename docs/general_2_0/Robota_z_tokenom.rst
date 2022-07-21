@@ -3,10 +3,6 @@
 
 .. сюда закину немного картинок для текста
 
-.. |drop_pass| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/drop_pass.png
-
-.. |del_key| image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/del_key.png
-
 .. contents:: Зміст:
    :depth: 3
 
@@ -66,7 +62,7 @@
 
 2) автоматично при першому "Підписанні" (розширення ІІТ запитає дозвіл на доступ)
 
-Для початку потрібно зайти на платформу EDI-N
+Для початку потрібно зайти на платформу EDIN 2.0
 
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_32.png
    :align: center
@@ -137,45 +133,18 @@
 .. image:: pics_Robota_z_tokenom/Robota_z_tokenom_17.png
    :align: center
 
-**4 Робота з токеном на web-платформі EDI-N**
-===========================================================
+**4 Підписання за допомогою токена на web-платформі EDIN 2.0**
+===========================================================================================
 
-1) Вставте токен у USB порт для роботи з необхідним ключом електроного підпису (далі —  КЕП)
+.. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
+   :start-after: .. початок блоку для Enter
+   :end-before: .. кінець блоку для Enter
 
-2) Зайдіть на платформу EDI-N
-
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_32.png
-   :align: center
-
-3) Встановлена на комп'ютері web-бібліотека підпису користувача ЦСК повинна бути запущена:
-
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_25.png
-   :align: center
-
-4) При першій ініціалізації бібліотеки підписання підтвердіть дозвіл web-сайту до бібліотеки підпису користувача ЦСК, натисніть — "OK"
-
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_020.png
-   :align: center
-
-.. image:: pics_Robota_z_tokenom/Robota_z_tokenom_33.png
-   :align: center
-
-5) Далі потрібно за необхідності додати токен (1), обрати ключ (2), ввести пароль (3), **"Считати"** (4) та **"Додати"** активний ключ: 
-
-.. image:: pics_Robota_z_tokenom/token2.png
-   :align: center
-
-.. important::
-   Якщо підписання цим ключем вже було здійснено або знайдена невідповідність даних ЄДРПОУ/ІПН (перевірка), то підписання блокується, а користувачу виводиться відповідне повідомлення:
-
-.. image:: pics_Robota_z_tokenom/wrong_key.png
-   :align: center
-
-Додатково в вікні підписання можливо натиснути **"Детальніше"** для того, щоб переглянути інформацію про підписанта, обрати за необхідності посаду, скинути пароль активного ключа (|drop_pass|) чи видалити помилкові (|del_key|).
-
-При подальшій роботі з раніше доданим ключем/-ами потрібно вводити лише пароль для обраного ключа (пункти 2-4 на рисунку).
+.. include:: /_constant/token_signing/token_signing.rst
+   :start-after: .. початок блоку для TokenSign
+   :end-before: .. кінець блоку для TokenSign
 
 ---------------------
 
-.. include:: kontakti.rst
+.. include:: /_constant/kontakti.rst
 
