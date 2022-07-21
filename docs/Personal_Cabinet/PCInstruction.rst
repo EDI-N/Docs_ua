@@ -655,9 +655,19 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 .. загальне підписання на платформі
 
-.. include:: /_constant/signing/signing.rst
-   :start-after: .. початок блоку для Signing
-   :end-before: .. кінець блоку для Signing
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
 
 Після підписання документа його статус змінюється на **"Необхідний підпис провайдера"**, а при перегляді детальної інформації додатково відображається інформація щодо підписантів:
 

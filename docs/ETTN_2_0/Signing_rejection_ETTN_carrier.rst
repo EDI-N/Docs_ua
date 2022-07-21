@@ -74,6 +74,12 @@
          :start-after: .. початок блоку для DiyaPidps
          :end-before: .. кінець блоку для DiyaPidps
 
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
 Після підписання е-ТТН додається інформація щодо підписантів документа, документ змінює свій статус на **"Очікує підписання вантажоодержувачем"**:
 
 .. image:: pics_Signing_rejection_ETTN_carrier/Signing_rejection_ETTN_carrier_17.png
