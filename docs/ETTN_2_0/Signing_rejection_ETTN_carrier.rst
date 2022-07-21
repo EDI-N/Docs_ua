@@ -68,6 +68,12 @@
          :start-after: .. початок блоку для Signing
          :end-before: .. кінець блоку для Signing
 
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
    .. tab:: Дія.Підпис
 
       .. include:: /_constant/diya_signing/diya_signing.rst
