@@ -62,12 +62,12 @@
 
 Для початку роботи з сервісом необхідно виконати вхід в систему за допомогою наданих логіна і пароля. Далі серед доступних сервісів обрати **Е-СПЕЦИФІКАЦІЯ**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_53.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_53n.png
    :align: center
 
 Основне вікно сервісу **Е-СПЕЦИФІКАЦІЯ** містить:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_15.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_15n.png
    :align: center
 
 1. Розділ для роботи з документами (узгодження цін, комерційні пропозиції);
