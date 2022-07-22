@@ -7,79 +7,77 @@
 .. code:: json
 
 	{
-	  "id": 5020571,
-	  "accountId": 29824,
-	  "login": "uaEDSsender",
-	  "stringEmails": "test@qw.we",
-	  "emails": [
-	    "test@qw.we"
-	  ],
-	  "blocked": 0,
-	  "allowFTP": 1,
-	  "autoSending": true,
-	  "statusFile": 1,
-	  "isAdmin": false,
-	  "account": {
-	    "platform": "EVO",
-	    "id": 29824,
-	    "name": "Test_EDS1",
-	    "ownership": "#",
-	    "inn": "1010101010",
-	    "kpp": "100000001",
-	    "mail": "test@qw.we",
-	    "phone": "12345678901",
-	    "ndsNumber": "#",
-	    "bankAccount": "#",
-	    "bankName": "#",
-	    "bankMfo": "#",
-	    "bankAddress": "#",
-	    "identificators": [],
-	    "companies": [],
-	    "users": []
-	  },
-	  "identificators": [
-	    {
-	      "guid": {},
-	      "manager": "#",
-	      "id": 133187,
-	      "gln": "9864065702429",
-	      "companyId": 29824,
-	      "retailerId": 0,
-	      "name": "EDS_1",
-	      "companyType": "jur",
-	      "companyInn": "1010101010",
-	      "companyKpp": "90000031",
-	      "zip": "112233",
-	      "city": "г. Львов",
-	      "street": "ул. Хмурится, 6",
-	      "phone": "#",
-	      "otherInfo": "[]",
-	      "account": {
-	        "platform": "EVO",
-	        "id": 29824,
-	        "name": "Test_EDS1",
-	        "ownership": "#",
-	        "inn": "1010101010",
-	        "kpp": "100000001",
-	        "mail": "test@qw.we",
-	        "phone": "12345678901",
-	        "ndsNumber": "#",
-	        "bankAccount": "#",
-	        "bankName": "#",
-	        "bankMfo": "#",
-	        "bankAddress": "#",
-	        "identificators": [],
-	        "companies": [],
-	        "users": []
-	      }
-	    }
-	  ]
+		"blockedServices": [],
+		"role": 0,
+		"roleAccess": 0,
+		"accountRole": 4,
+		"access": {},
+		"identificators": [],
+		"filters": [],
+		"id": 77016,
+		"accountId": 40692,
+		"login": "FelexSpec1",
+		"stringEmails": "docerrors@edi-n.com",
+		"emails": [
+			"docerrors@edi-n.com"
+		],
+		"blocked": 0,
+		"allowFTP": 1,
+		"autoSending": true,
+		"statusFile": 0,
+		"isNotificationEnabled": 4,
+		"isSatusFromOut": false,
+		"isAdmin": false,
+		"isSpecXML": false,
+		"isCerts": 0,
+		"XMLConv": 0,
+		"account": {},
+		"employee": {},
+		"isStatusNotification": false,
+		"isPasswordChange": false,
+		"isSpecification": 1,
+		"statusNotifyTypes": [],
+		"otherInfo": {
+			"needOriginalFilename": 0
+		}
 	}
 
-Таблиця 1 - Опис параметрів **відповіді** методу
+Таблиця 1 - Опис параметрів об'єкта **User**
 
 .. csv-table:: 
   :file: for_csv/User.csv
+  :widths:  1, 19, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 2 - Опис параметрів об'єкта **Identificator**
+
+.. csv-table:: 
+  :file: for_csv/Identificator.csv
+  :widths:  1, 19, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 3 - Опис параметрів об'єкта **Account**
+
+.. csv-table:: 
+  :file: for_csv/Account.csv
+  :widths:  1, 19, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 4 - Опис параметрів об'єкта **Company**
+
+.. csv-table:: 
+  :file: for_csv/Company.csv
+  :widths:  1, 19, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 5 - Опис параметрів об'єкта **Employee**
+
+.. csv-table:: 
+  :file: ../../../../API_ETTN/Methods/EveryBody/for_csv/Employee.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0

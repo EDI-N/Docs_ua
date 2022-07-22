@@ -91,7 +91,7 @@
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_36.png
    :align: center
 
-В списку вказується ПІБ, e-mail, логін коистувача, а також доступ до сервісу **Е-СПЕЦИФІКАЦІЯ**. За допомогою лівої кнопки миші по коистувачу відбувається перехід до його налаштувань:
+В списку вказується ПІБ, e-mail, логін коистувача, а також доступ до сервісу **Е-СПЕЦИФІКАЦІЯ**. За допомогою лівої кнопки миші по користувачу відбувається перехід до його налаштувань:
 
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_37.png
    :align: center
