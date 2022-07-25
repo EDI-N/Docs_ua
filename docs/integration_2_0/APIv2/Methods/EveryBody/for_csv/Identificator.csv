@@ -5,7 +5,7 @@ taxNum, String(50), Податковий ідентифікаційний ном
 ndsNum, String(50), № свідоцтва ПДВ
 manager, String(100), ПІБ менеджера
 accountant, String(100), ПІБ бухгалтера
-id, long, ID користувача
+id, long, GLN ID
 gln, String(13),GLN організації
 companyId, long, id аккаунта
 retailerId, long, id мережі (ритейлера)
