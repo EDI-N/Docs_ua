@@ -347,7 +347,7 @@
 Таблиця 2 - Опис параметрів об'єкта **Identificator**
 
 .. csv-table:: 
-  :file: ../../../Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/for_csv/Identificator.csv
+  :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/Identificator.csv
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
