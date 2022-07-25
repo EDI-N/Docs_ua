@@ -1,0 +1,22 @@
+Параметр, Формат, Опис
+.. _SpecStatus: , Об'єкт **SpecStatus** ,
+userId,long,ID користувача
+isSpecification,int,доступ до сервісу Е-Специфікація (0-ні; 1-так)
+isContractDivide,boolean,"підв'язаний контракт (за GLN роздрібної мережі)"
+isViewStatusDivide,boolean,"відображати документи"
+writeStatuses,"Map<String, Integer>","підтип документа:
+
+* regular - Регулярна ціна
+* promo - Промо ціна
+* promo_compensation - Компенсація
+* promo_combo - Комбо
+
++ `Статуси документів <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Instruction_merezha.html#work-with-docs>`__"
+workStatuses,"Map<String, Integer>","підтип документа:
+
+* regular - Регулярна ціна
+* promo - Промо ціна
+* promo_compensation - Компенсація
+* promo_combo - Комбо
+
++ `Статуси документів <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Instruction_merezha.html#work-with-docs>`__"

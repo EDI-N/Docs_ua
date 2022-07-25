@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі відповіді в json-форматі передається `інформація про пов'язані GLN <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/EveryBody/RetailerEsSettings.html>`__ (масив об’єктів Identificator).
+В тілі відповіді в json-форматі передається `інформація про пов'язані GLN <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/EveryBody/SpecAllGlns.html>`__ (масив об’єктів Identificator).
