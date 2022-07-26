@@ -952,7 +952,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 При :underline:`редагуванні GLN` відбувається перехід в `Форму редагування GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-form>`__.
 
-При :underline:`додаванні зв'язку користувача з GLN` потрібно вибрати один з раніше доданих `GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln>`__:
+При :underline:`додаванні зв'язку користувача з GLN` потрібно вибрати один з раніше доданих `GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__:
 
 .. image:: pics_PCInstruction/PCInstruction_236.gif
    :align: center
@@ -1066,7 +1066,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_030.png
    :align: center
 
-.. _gln: 
+.. _gln-main: 
 
 **2.4 GLN**
 ----------------------------------
@@ -1432,7 +1432,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. hint::
    Процес підписання типовий для платформи та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#sign>`__. Якщо ЄДРПОУ ключа співпадає з ЄДРПОУ акаунта, то автоматично "підтверджується" й акаунт.
 
-Однак підписання під час формування запиту не потрібне, якщо обрати GLN, що вже був `підтверджений за допомогою КЕП <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln>`__:
+Однак підписання під час формування запиту не потрібне, якщо обрати GLN, що вже був `підтверджений за допомогою КЕП <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__:
 
 .. image:: pics_PCInstruction/PCInstruction_151.png
    :align: center
@@ -1499,7 +1499,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_194.png
    :align: center
 
-З міркувань безпеки та коректної ідентифікації Постачальника/Мережі заявка відправляється тільки після `підтвердження GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln>`__ Відправника (ЄДРПОУ в КЕП повинен відповідати ЄДРПОУ вказаному в GLN).
+З міркувань безпеки та коректної ідентифікації Постачальника/Мережі заявка відправляється тільки після `підтвердження GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__ Відправника (ЄДРПОУ в КЕП повинен відповідати ЄДРПОУ вказаному в GLN).
 
 .. image:: pics_PCInstruction/PCInstruction_188.png
    :align: center
@@ -1507,7 +1507,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. hint::
    Процес підтвердження подібний до типового підписання на платформі та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#sign>`__. Якщо ЄДРПОУ ключа співпадає з ЄДРПОУ акаунта, то автоматично "підтверджується" й акаунт.
 
-Однак підписання під час формування запиту не потрібне, якщо обрати GLN, що вже був `підтверджений за допомогою КЕП <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln>`__:
+Однак підписання під час формування запиту не потрібне, якщо обрати GLN, що вже був `підтверджений за допомогою КЕП <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__:
 
 .. image:: pics_PCInstruction/PCInstruction_195.png
    :align: center
