@@ -44,12 +44,9 @@
 1 Отримання "Видаткової накладної" (COMDOC_006). Сторона мережі "АТБ"
 =========================================================================================================================
 
-Документ "Видаткова накладна" (COMDOC_006) на стороні мережі знаходиться у папці **"Вхідні"**. Для пошуку достатньо ввести коректний номер документа в полі «Пошук». Документи також можливо шукати за **Відправником**, **Датою документа** і **Одержувачем**.
+Документ "Видаткова накладна" (COMDOC_006) для мережі знаходиться у папці **"Вхідні"** (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_098.png
-   :align: center
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_099.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_122.png
    :align: center
 
 .. important::
@@ -59,7 +56,7 @@
    2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь "Акт приймання товару до ВН" - COMDOC_035; при підписанні документа з обох сторін вхідна "Видаткова накладна" переглядається і виконуються дії згідно п.1; 
    3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#reject>`__).
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_101.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_123.png
    :align: center
 
 .. _to006:
@@ -69,33 +66,33 @@
 
 Для підписання потрібно натиснути на кнопку **"Підписати і відправити у відповідь"**:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_102.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_124.png
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__.
 
 За потреби можливо створити **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#repeal>`__)):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_104.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_125.png
    :align: center
 
 1.2 Формування у відповідь "Акта приймання товару до ВН" (COMDOC_035). Сторона мережі "АТБ"
 ----------------------------------------------------------------------------------------------------------------------------
 
-Для формування "Акта приймання товару до ВН" (COMDOC_035) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
+Для формування "Акта приймання товару до ВН" (COMDOC_035) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" потрібно натиснути **"Створити документ"** (документ створиться автоматично):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_100.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_126.png
    :align: center
 
 У відкритій формі "Акта приймання товару до ВН" (COMDOC_035) всі поля заповнюються автоматично з пов'язаного документа-підстави. Блок табличної частини з переліком позицій також заповнюються автоматично з документа-основи. Документ засвідчує невідповідність кількості товарних позицій:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_105.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_127.png
    :align: center
 
 Після внесення змін в документ, натисніть кнопку **"Зберегти"** (1), **"Підписати"** (2) та **"Відправити"** (3):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_106.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_128.png
    :align: center
 
 .. hint::
@@ -111,12 +108,9 @@
 2 Отримання "Акта приймання-передачі (додаток 8)" (COMDOC_032). Сторона "Логістик Юніон"
 =========================================================================================================================
 
-У від відповідь на вхідний (папка **"Вхідні"**) "Акт приймання-передачі (додаток 8)" (COMDOC_032) формується "Акт приймання-передачі (додаток 9)" (COMDOC_033) чи "Акт приймання товару до АПП" (COMDOC_034). Для пошуку потрібного документа достатньо ввести коректний номер документа в полі «Пошук». Документи також можливо шукати за **Відправником**, **Датою документа** і **Одержувачем**.
+У відповідь на вхідний (папка **"Вхідні"**) "Акт приймання-передачі (додаток 8)" (COMDOC_032) формується "Акт приймання-передачі (додаток 9)" (COMDOC_033) чи "Акт приймання товару до АПП" (COMDOC_034). "Акт приймання-передачі (додаток 8)" (COMDOC_032) легко знайти за допомогою зручного `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_052.png
-   :align: center
-
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_051.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_129.png
    :align: center
 
 .. important::
@@ -126,7 +120,7 @@
    2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь "Акт приймання товару до АПП" (COMDOC_034); при підписанні документа з обох сторін вхідний акт переглядається і виконуються дії згідно п.1; 
    3. якщо невірно вказані дані в полях документа, то формує "Відмову від підписання" - COMDOC_021 квитанція №13 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#reject>`__).
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_053.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_130.png
    :align: center
 
 .. _to033:
@@ -136,29 +130,31 @@
 
 Перед тим, як сформувати "Акт приймання-передачі (додаток 9)" (COMDOC_033) компанія "Логістик Юніон" підписує вхідний акт. Для підписання потрібно натиснути на кнопку **"Підписати і відправити у відповідь"**:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_054.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_131.png
    :align: center
 
 .. hint::
-   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+   Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__.
 
 Після того, як документ підписано можливо сформувати **"Акт приймання-передачі (додаток 9)"** чи **"Запит на анулювання"** вже підписаного документа (COMDOC_019 квитанція №11 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#repeal>`__)):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_055.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_132.png
    :align: center
 
 2.1.1 Формування "Акта приймання-передачі (додаток 9)" (COMDOC_033). Сторона "Логістик Юніон"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Для формування "Акта приймання-передачі (додаток 9)" (COMDOC_033) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
+Для формування "Акта приймання-передачі (додаток 9)" (COMDOC_033) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" натисніть **"Створити документ"** (документ створиться автоматично):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_056.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_133.png
    :align: center
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_057.png
+У відкритій формі "Акта приймання-передачі (додаток 9)" (COMDOC_033) всі поля заповнюються автоматично з пов'язаного документа-підстави:
+
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_134.png
    :align: center
 
-У відкритій формі "Акта приймання-передачі (додаток 9)" (COMDOC_033) всі поля заповнюються автоматично з пов'язаного документа-підстави. Блок табличної частини з переліком позицій також заповнюються автоматично з документа-основи. Можливо вносити зміни в дані позиції (кількість, базову ціну позицій) чи "Видалити" обрані позиції:
+Блок табличної частини з переліком позицій також заповнюються автоматично з документа-основи. Можливо вносити зміни в дані позиції (кількість, базову ціну позицій) чи "Видалити" обрані позиції:
 
 :red:`Всі зміни за позиціями тільки після узгодження з мережею!`
 
@@ -170,7 +166,7 @@
 
 Після внесення змін в документ, натисніть кнопку **"Зберегти"** (1), **"Підписати"** (2) та **"Відправити"** (3):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_059.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_135.png
    :align: center
 
 .. hint::
@@ -178,22 +174,27 @@
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_060.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_136.png
    :align: center
 
 Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
 
-2.2 Формування у відповідь "Акта приймання товару до АПП" (COMDOC_034). Сторона "Логістик Юніон"
+2.2 Формування "Акта приймання товару до АПП" (COMDOC_034). Сторона "Логістик Юніон"
 ----------------------------------------------------------------------------------------------------------------------------
 
-Для формування "Акта приймання товару до АПП" (COMDOC_034) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
+"Акт приймання товару до АПП" (COMDOC_034) формується у відповідь на вхідний (папка **"Вхідні"**) "Акт приймання-передачі (додаток 8)" (COMDOC_032). "Акт приймання-передачі (додаток 8)" (COMDOC_032) легко знайти за допомогою зручного `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_081.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_129.png
+   :align: center
+
+Для формування "Акта приймання товару до АПП" (COMDOC_034) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" натисніть **"Створити документ"** (документ створиться автоматично):
+
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_137.png
    :align: center
 
 У відкритій формі "Акта приймання товару до АПП" (COMDOC_034) всі поля заповнюються автоматично з пов'язаного документа-підстави. Блок табличної частини з переліком позицій також заповнюються автоматично з документа-основи. Документ засвідчує невідповідність кількості товарних позицій:
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_082.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_138.png
    :align: center
 
 .. attention::
@@ -201,7 +202,7 @@
 
 Після внесення змін в документ, натисніть кнопку **"Зберегти"** (1), **"Підписати"** (2) та **"Відправити"** (3):
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_083.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_139.png
    :align: center
 
 .. hint::
@@ -209,10 +210,12 @@
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
-.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_084.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_140.png
    :align: center
 
 Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
+
+------------------------------------------------
 
 .. _sign:
 
@@ -239,6 +242,8 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
+------------------------------------------------
+
 .. _revoke:
 
 Відкликання підпису комерційних документів (COMDOC)
@@ -247,6 +252,8 @@
 .. include:: /_constant/comdoc_revoke/comdoc_revoke.rst
    :start-after: .. початок блоку для Comdoc_Revoke
    :end-before: .. кінець блоку для Comdoc_Revoke
+
+------------------------------------------------
 
 .. _repeal:
 
@@ -257,6 +264,8 @@
    :start-after: .. початок блоку для Comdoc_Repeal
    :end-before: .. кінець блоку для Comdoc_Repeal
 
+------------------------------------------------
+
 .. _reject:
 
 Відмова від підписання комерційних документів (COMDOC)
@@ -265,7 +274,6 @@
 .. include:: /_constant/comdoc_reject/comdoc_reject.rst
    :start-after: .. початок блоку для Comdoc_Reject
    :end-before: .. кінець блоку для Comdoc_Reject
-
 
 ------------------------------------------------
 
