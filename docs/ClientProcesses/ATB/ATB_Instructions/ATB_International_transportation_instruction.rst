@@ -18,7 +18,7 @@
 Вступ
 ====================================
 
-Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0 за схемою передбаченою для міжнородних перевезень. В документообігу приймають участь наступні документи:
+Дана інструкція описує порядок документообігу з мережею "АТБ" на платформі EDI Network 2.0 за схемою передбаченою для міжнародних перевезень. В документообігу приймають участь наступні документи:
 
 - `Замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
 - `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#ordrsp>`__
@@ -31,7 +31,7 @@
    :height: 700px
    :align: center
 
-1 Формування "Замовлення" (ORDER) на стороні мережі "АТБ"
+1 Формування "Замовлення" (ORDER). Сторона мережі "АТБ"
 ==================================================================
 
 Для формування "Замовлення" (ORDER) користувачу мережі "АТБ" в меню сервісу потрібно натиснути кнопку **"Створити"** та обрати документ "Замовлення" (для зручності можливо скористатись пошуком за назвою документа):
@@ -41,7 +41,7 @@
 
 У відкритій формі документа всі обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`.
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_002.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_039.png
    :align: center
 
 #. **Відправник** - дані відправника документу (мережі) - заповнюються автоматично; не підлягають редагуванню;
@@ -53,8 +53,7 @@
 #. **Покупець** - заповнюється за допомогою кнопки "Пошук контрагента" (|лупа|), або за допомогою кнопки "Вказати себе" (|будинок|);
 #. **Місце доставки** - заповнюється за допомогою кнопки "Пошук контрагента" (|лупа|), або за допомогою кнопки "Вказати себе" (|будинок|);
 #. **Поставка відбудеться** - дата та час доставки;
-#. **За договором на поставку №** - номер договору на поставку;
-#. **Валюта замовлення** - Євро / Гривня / Долар США
+#. **За договором на поставку №** - номер договору на поставку.
 
 .. hint::
    За допомогою кнопки **"Пошук контрагента"** (|лупа|) або ж за допомогою кнопки **"Вказати себе"** (|будинок|) можливо вказати чи змінити дані Покупця або Постачальника. Для пошуку введіть назву компанії, GLN або ІПН:
@@ -74,7 +73,7 @@
 
 При ручному введенні через форму через кнопку **"+Додати"** товарні позиції заповнюються з товарного довідника (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_008.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_040.png
    :align: center
 
 Завантажити позиції списком можливо за допомогою .XLS файлу Excel. Для коректного заповнення таблиці можливо скористатись шаблоном (кнопка **"Зберегти шаблон Excel"** для скачування шаблону у форматі .xls). Відкрийте та заповніть файл Excel. Колонки виділенні зеленим кольором - **обов'язкові для заповнення**! Деякі стовпці мають підказки до заповнення - наведіть курсор у верхній куток назви стовпця для відображення підказки: 
@@ -103,30 +102,22 @@
 .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_012.png
    :align: center
 
-На формі відправленого "Замовлення" Ви можете замінити дане "Замовлення" *Новим*, можливо залишити комментар, який відобразиться контрагенту в формі "Замовленням", завантажити чи роздрукувати "Замовлення":
-
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_013.png
-   :align: center
-
 2 Формування "Підтвердження замовлення" (ORDRSP) у відповідь на вхідне "Замовлення" (ORDER). Сторона Постачальника
 =========================================================================================================================
 
-Для формування "Підтвердження замовлення" (ORDRSP) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження. Для пошуку достатньо ввести коректний номер документа в полі «Пошук». Документи також можливо шукати за **Відправником**, **Датою документа** і **Одержувачем**.
+Для формування "Підтвердження замовлення" (ORDRSP) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження. Документ відображається у **"Вхідних"** (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_015.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_041.png
    :align: center
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_014.png
-   :align: center
+Потрібно відкрити вхідне "Замовлення" (ORDER) лівою кнопкою миші та створити "Підтвердження замовлення" (ORDRSP) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" за допомогою кнопки **"Створити документ"** (документ створиться автоматично):
 
-Для формування "Підтвердження замовлення" (ORDRSP) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
-
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_016.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_042.png
    :align: center
 
 У відкритій формі "Підтвердження замовлення" (ORDRSP) деякі поля заповнюються автоматично з пов'язаного "Замовлення" (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_017.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_043.png
    :align: center
 
 #. **Одержувач** - дані одержувача (мережі), не підлягають редагуванню
@@ -154,7 +145,7 @@
 
 Після того, як товарні позиції будуть обрані (відмічені чекером) над ними доступні наступні **"Дії над вибраними"** : **Буде доставлено** або **Відмовлено**. У колонці **Дії** - відображається статус дії в обраній позиції. Можливі наступні статуси: **Буде доставлено, Зміни кількості**, або **Відмовлено**.
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_019.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_044.png
    :align: center
   
 Постачальник може редагувати позиції, наприклад, у випадку коли необхідно змінити кількість підтвердженого товару. Для цього внесіть кількість товару, що підтверджується в колонці **Підтверджена кількість**. Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**.
@@ -180,20 +171,20 @@
 3 Формування "Повідомлення про відвантаження" (DESADV). Сторона Постачальника
 =========================================================================================================================
 
-Для формування "Повідомлення про відвантаження" (DESADV) потрібно у папці **"Надіслані"** обрати "Підтвердження замовлення" (ORDRSP), за яким потрібно зробити відвантаження. Для пошуку достатньо ввести коректний номер документа в полі «Пошук». Документи також можливо шукати за **Відправником**, **Датою документа** і **Одержувачем**.
+Для формування "Повідомлення про відвантаження" (DESADV) потрібно у папці **"Надіслані"** обрати "Підтвердження замовлення" (ORDRSP), за яким потрібно зробити відвантаження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_024.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_045.png
    :align: center
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_025.png
-   :align: center
+Потрібно відкрити надіслане "Підтвердження замовлення" (ORDRSP) лівою кнопкою миші та створити "Повідомлення про відвантаження" (DESADV) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" за допомогою кнопки **"Створити документ"** (документ створиться автоматично):
 
-Для формування "Повідомлення про відвантаження" (DESADV) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
-
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_023.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_046.png
    :align: center
 
 У відкритій формі "Повідомлення про відвантаження" (DESADV) деякі поля заповнюються автоматично з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
+
+.. note::
+   Документ "Повідомлення про відвантаження" (DESADV) підтримує версійність (на рівні одного `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__). Якщо мережа відхиляє сформовану ТТН, необхідно переробити весь ланцюжок документів, починаючи з "Повідомлення про відвантаження" (DESADV). При заміні документа (номер документа зберігається) потрібно збільшувати значення **"Версії"** документа на одиницю (n+1).
 
 .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_027.png
    :align: center
@@ -261,17 +252,14 @@
 4 Формування "Універсального документа" (CONDRA). Сторона Постачальника
 =========================================================================================================================
 
-Для формування "Універсального документа" (CONDRA) потрібно у папці **"Надіслані"** обрати "Повідомлення про відвантаження" (DESADV). Для пошуку достатньо ввести коректний номер документа в полі «Пошук». Документи також можливо шукати за **Відправником**, **Датою документа** і **Одержувачем**.
+Для формування "Універсального документа" (CONDRA) потрібно у папці **"Надіслані"** обрати "Повідомлення про відвантаження" (DESADV) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_031.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_047.png
    :align: center
 
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_032.png
-   :align: center
+Потрібно відкрити надіслане "Повідомлення про відвантаження" (DESADV) лівою кнопкою миші та створити "Універсальний документ" (CONDRA) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" за допомогою кнопки **"Створити документ"** (документ створиться автоматично):
 
-Для формування "Універсального документа" (CONDRA) виберіть відповідний документ на формі-підказці - документ створиться автоматично.
-
-.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_033.png
+.. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_048.png
    :align: center
 
 У відкритій формі "Універсального документа" (CONDRA) деякі поля заповнюються автоматично з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
