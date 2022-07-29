@@ -61,6 +61,8 @@
 2.1 Формування "Повідомлення про відвантаження" (DESADV). Сторона Постачальника
 -----------------------------------------------------------------------------------------------------------------------------
 
+.. початок блоку для ATB_storehouse_DESADV
+
 Мережа "АТБ" є ініціатором документообігу: мережа надсилає документ "Замовлення" (ORDER), за яким потрібно зробити відвантаження. Документ відображається у **"Вхідних"** (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_015n.png
@@ -126,6 +128,8 @@
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_020n.png
    :align: center
+
+.. кінець блоку для ATB_storehouse_DESADV
 
 ---------------------------------
 
