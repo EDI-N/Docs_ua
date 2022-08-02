@@ -8,10 +8,18 @@
 
 	{
 	  "receivers": [
-	    "831714cf-064b-4ce9-bdc4-b6a79784639c"
+	    "85e32f82-9d86-4c36-8b3f-54eccf13b09c"
 	  ],
-	  "title": "rock&roll123",
-	  "text": "text povidomlennya"
+	  "date": "2022-08-02",
+	  "title": "SomeSome",
+	  "googleFileName": "SomeSome.pdf",
+	  "handleDocumentRule": 2,
+	  "dateUpdate": 1659454506,
+	  "recipientEDRPOU": "12345678",
+	  "senderEDRPOU": "12345678",
+	  "number": "Number",
+	  "sum": "50.26",
+	  "text": "Message"
 	}
 
 Таблиця 1 - Опис параметрів

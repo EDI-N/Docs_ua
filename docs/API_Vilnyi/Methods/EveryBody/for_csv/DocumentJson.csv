@@ -1,5 +1,17 @@
 Параметр,Тип [1]_,Формат,Опис
 receivers,M,List<String>,"масив з UUID-ами отримувачів документа; для незареєстрованих на платформі користувачів передаються email адреси"
-title,M,String,тема документа
-text,O,String,текст повідомлення
+number,O,String,номер документа
 date,O,String,дата документа
+sum,O,String,Сума (грн)
+text,O,String,текст повідомлення
+title,M,String,тема документа
+recipientEDRPOU,O,String,ЄДРПОУ отримувача
+senderEDRPOU,O,String,ЄДРПОУ відправника
+googleFileName,O,String,назва документа на Google Диску (відправка документа через віджет `«EDIN еПідпис» <https://workspace.google.com/u/0/marketplace/app/edin_%D0%B5%D0%BF%D1%96%D0%B4%D0%BF%D0%B8%D1%81/587777684212>`__)
+handleDocumentRule,M,int,"код правила обробки документа отримувачами:
+
+* 0 - Всі отримувачі мають підписати документ;
+* 1 - Один з отримувачів має підписати документ;
+* 2 - Всі отримувачі мають прийняти документ;
+* 3 - Один з отримувачів має прийняти документ"
+dateUpdate,O,long,дата оновлення (unix timestamp)
