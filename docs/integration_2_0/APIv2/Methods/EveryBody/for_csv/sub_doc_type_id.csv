@@ -1,4 +1,4 @@
-Підтип комерційного документа,sub_doc_type_id,Назва та опис документа
+Підтип комерційного документа (COMDOC),sub_doc_type_id,Назва та опис документа
 001,1,`Договір (COMDOC_001) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-001>`__
 005,5,`Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-005>`__
 006,6,`Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__
@@ -27,3 +27,9 @@
 033,33,`Акт приймання-передачі (додаток 9) (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
 034,34,`Акт приймання товару до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
 035,35,`Акт приймання товару до ВН (COMDOC_035) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-035>`__
+**Підтип накладної (DOCUMENTINVOICE.DocumentFunctionCode)**,**sub_doc_type_id**,**Назва та опис документа**
+TN,0,`Товарна накладна / Накладна за кількістю (для Метро та Леруа Мерлен) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+СTN,1,`Коригування товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+TN,1,`Накладна за кількістю <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+PRN,2,`Цінова Накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+DRN,3,`Видаткова Накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
