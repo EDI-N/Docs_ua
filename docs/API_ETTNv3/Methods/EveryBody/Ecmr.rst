@@ -264,6 +264,22 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 33 - Опис параметрів об'єкта **includedNote**
+
+.. csv-table:: 
+  :file: for_csv/includedNote.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 34 - Опис параметрів об'єкта **ContentCode**
+
+.. csv-table:: 
+  :file: for_csv/ContentCode.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:

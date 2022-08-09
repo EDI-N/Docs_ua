@@ -16,6 +16,13 @@ ram:ID,M,string,порядковий номер (серія) документа 
 **udt:DateTime**,,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата і час складання документа (виписування ТТН)
 **ram:IssueDateTime**,,,Дата і час складання документа (виписування ТТН) (закінчення блоку)
 ram:Remarks,O,string,Ремарки
+**ram:IncludedNote**,M,,Додані записи (початок блоку)
+**ram:ContentCode**,M,,Контент запису (початок блоку)
+listAgencyID,M,String,Ідентифікатор (GLN)
+value,M,String,значення ідентифікатора
+**ram:ContentCode**,,,Контент запису (закінчення блоку)
+ram:Content,M,String,Код ролі учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:IncludedNote**,,,Додані записи (закінчення блоку)
 **ram:IssueLogisticsLocation**,M,,Місце складання документа (початок блоку)
 ram:Name,M,string,Найменування місця складання ТТН
 ram:Description,M,string,Опис (адреса) місця складання ТТН

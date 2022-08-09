@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _EttnV3Document:,,Об'єкт **EttnV3Document**,
+mimeType,,String,`MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+size,,long,розмір
+url,,String,посилання на документ
+signature,,String,SHA-256 cheksum документа
+id,,UUID,ідентифікатор документа
+version,,String,Номер поточної версії документа
+origin,,String,"Номер версії документа, на основі якої створений даний документ"

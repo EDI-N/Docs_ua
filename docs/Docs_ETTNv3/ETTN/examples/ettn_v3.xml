@@ -10,13 +10,25 @@
 			</ram:GuidelineSpecifiedDocumentContextParameter>
 		</ExchangedDocumentContext>
 		<ExchangedDocument>
-			<ram:ID>мск-80</ram:ID>
+			<ram:ID>TEST_EDIN_001</ram:ID>
 			<ram:IssueDateTime>
-				<udt:DateTime>2022-03-25T11:22:33+02:00</udt:DateTime>
+				<udt:DateTime>2021-12-03T21:32:52+02:00</udt:DateTime>
 			</ram:IssueDateTime>
+			<ram:IncludedNote>
+				<ram:ContentCode listAgencyID="GLN">3333333333333</ram:ContentCode>
+				<ram:Content>CA</ram:Content>
+			</ram:IncludedNote>
+			<ram:IncludedNote>
+				<ram:ContentCode listAgencyID="GLN">11111111111111</ram:ContentCode>
+				<ram:Content>CZ</ram:Content>
+			</ram:IncludedNote>
+			<ram:IncludedNote>
+				<ram:ContentCode listAgencyID="GLN">22222222222222</ram:ContentCode>
+				<ram:Content>CN</ram:Content>
+			</ram:IncludedNote>
 			<ram:IssueLogisticsLocation>
 				<ram:Name>Місце складання документу</ram:Name>
-				<ram:Description>Київ</ram:Description>
+				<ram:Description>79000, м.Львів, вул. Словацького, 1</ram:Description>
 			</ram:IssueLogisticsLocation>
 		</ExchangedDocument>
 		<SpecifiedSupplyChainConsignment>
