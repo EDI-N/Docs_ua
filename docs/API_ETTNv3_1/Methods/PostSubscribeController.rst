@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передаються дані підписки (`об'єкт mintransSubscription <https://wiki.edin.ua/uk/latest/Docs_ETTNv3_1/Methods/EveryBody/mintransSubscription.html>`__).
+У тілі **відповіді** передаються дані підписки (`об'єкт mintransSubscription <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/EveryBody/mintransSubscription.html>`__).
 
