@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передаються дані документа з ЦБД (`об'єкт EttnV3MintransDoc <https://wiki.edin.ua/uk/latest/Docs_ETTNv3_1/Methods/EveryBody/EttnV3MintransDoc.html>`__).
+У тілі **відповіді** передаються дані документа з ЦБД (`об'єкт EttnV3MintransDoc <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/EveryBody/EttnV3MintransDoc.html>`__).
 

@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-У тілі **відповіді** передаються дані подій з ЦБД (`масив об'єктів EttnV3Event <https://wiki.edin.ua/uk/latest/Docs_ETTNv3_1/Methods/EveryBody/EttnV3Event.html>`__).
+У тілі **відповіді** передаються дані подій з ЦБД (`масив об'єктів EttnV3Event <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/EveryBody/EttnV3Event.html>`__).
 
