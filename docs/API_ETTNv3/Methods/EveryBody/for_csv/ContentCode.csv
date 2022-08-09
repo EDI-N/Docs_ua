@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ContentCode:,,Об'єкт **ContentCode**,
+listAgencyID,M,String,Ідентифікатор (GLN)
+value,M,String,значення ідентифікатора

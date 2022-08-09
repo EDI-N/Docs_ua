@@ -3,4 +3,5 @@
 id,M,string,порядковий номер (серія) документа
 **issueDateTime**,M,DateTime_,об'єкт; Дата і час складання документа
 remarks,O,string,Ремарки
+**includedNote**,M/O,List<IncludedNote_>,масив об'єктів; Додані записи. Поле обов'язкове для е-ТТН документа
 **issueLogisticsLocation**,M,LogisticsLocation_,об'єкт; Місце складання документа

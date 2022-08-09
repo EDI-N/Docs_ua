@@ -1,0 +1,12 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/eds/doc/ettn/sign?doc_uuid=060bacde-9162-4873-8beb-e3a2af4dd767&gln=9864065732327**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__ "
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається `масив об'єктів Signature <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/SignatureList.html>`__. Кожен об'єкт Signature повинен містити файл підпису вказаного в запиті документа (файл підпису p7s в base64 форматі) в полі partySignature."

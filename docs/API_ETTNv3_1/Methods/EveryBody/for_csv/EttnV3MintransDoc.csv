@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _EttnV3MintransDoc:,,Об'єкт **EttnV3MintransDoc**,
+**document**,,EttnV3Document_,об'єкт; дані документа
+token,,String,токен
