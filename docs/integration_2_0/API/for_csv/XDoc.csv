@@ -9,7 +9,7 @@ uuidSender,String,унікальний ідентифікатор відправ
 uuidReceiver,String,унікальний ідентифікатор одержувача
 uuidReceivers,List<String>,масив унікальних ідентифікаторів одержувачів
 docNumber,String,номер документа
-dateCreated,long,дата створення документа (unix timestamp)
+dateCreated,long,дата створення документа (unix timestamp); після відправки: дата відправки/отримання документа
 dateChanged,long,дата останньої зміни документа (unix timestamp)
 dateRead,long,дата прочитання документа (unix timestamp)
 docDate,long,"дата документа, зазначена в документі"
