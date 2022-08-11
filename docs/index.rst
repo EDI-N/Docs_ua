@@ -83,7 +83,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Вільний
 
    Vilnyi/Work_with_Vilnyi
-   Vilnyi/Integration_Vilnyi/Widget_Vilnyi
+   Vilnyi/Widget_Vilnyi
    Vilnyi/Integration_Vilnyi/integration_Vilnyi_list
    API_Vilnyi/API_Vilnyi_list
 
