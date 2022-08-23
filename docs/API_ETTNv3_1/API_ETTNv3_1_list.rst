@@ -1,4 +1,4 @@
-API "ETTN" v3_1
+API "ETTN" v3
 ################
 
 .. hint::
