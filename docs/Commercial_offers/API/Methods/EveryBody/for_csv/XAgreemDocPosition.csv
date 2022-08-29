@@ -1,0 +1,14 @@
+Параметр, Формат, Опис
+.. _XAgreemDocPosition: , Об'єкт **XAgreemDocPosition** ,
+id,long,ідентифікатор позиції
+uuid,UUID,унікальний ідентифікатор позиції
+name,String,найменування позиції
+barcode,String,штрихкод позиції
+status,int,статус позиції (0 - чернетка; 1 - прийнято; 2 - відхилено; 3 - на узгодженні)
+content,byte[],контент (байтовий масив)
+doc_id,long,ідентифікатор Комерційної пропозиції
+doc_uuid,UUID,унікальний ідентифікатор Комерційної пропозиції
+sender_id,long,ідентифікатор відправника
+senderGln,String,GLN відправника
+recipient_id,long,ідентифікатор отримувача
+recipientGln,String,GLN отримувача
