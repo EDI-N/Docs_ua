@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/es/position/image?gln=9864067620417&position_id=746&image_type=logo**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**position_id** (обов'язково) String - ідентифікатор товарної позиції;
+
+**image_type** (обов'язково) String - тип зображення:
+
+* icon - маленький логотип
+* logo - великий логотип (оригінальний розмір)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__"
+Content-Type  , application/json
