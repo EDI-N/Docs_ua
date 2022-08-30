@@ -29,7 +29,7 @@ DELIVERYTERMS, O, Число, "Допустимі значення:
 **POSITION**,,, Товарні позиції (початок блоку)
 POSITIONNUMBER, O, Число позитивне, Номер товарної позиції
 PRODUCT, M, "Число (8, 10, 14)", Штрихкод продукту
-PRODUCTIDSUPPLIER, O, Рядок (16), Артикул в БД
+PRODUCTIDSUPPLIER, M, Рядок (16), Артикул в БД
 IDPRODUCER, O, Рядок (8), Код Виробника
 ORDEREDQUANTITY, M, Число позитивне, Замовлена ​​кількість (к-ть одиниць)
 ORDERUNIT, M, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/units_distr.html>`__
