@@ -60,6 +60,28 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Проміжного складу (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Проміжного складу (підприємства, що приймає від Перевізника на тимчасове зберігання вантаж)"
 ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника Проміжного складу (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника Проміжного складу (закінчення блоку)
+**ram:PostalTradeAddress**,O,,Юридична адреса Проміжного складу (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (початок блоку)
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,Юридична адреса Проміжного складу (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
 **StorageTradeParty**,,,"Проміжний склад (закінчення блоку)"
 **StorageLogisticsLocation**,M,,"Місцезнаходження складу (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код складу тимчасового зберігання (початок блоку)"
@@ -217,7 +239,7 @@ ram:PersonName,M,string,"ПІБ відповідальної особи Пром
 ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
 ram:Remarks,O,string,Графічне зображення Акта в base64
 **VisualReferencedDocument**,,,Графічне відображення документа (закінчення блоку)
-**Signature** (SigningPartyRoleCode=DR),M,,"КЕП водія (початок блоку)"
+**Signature** (SigningPartyRoleCode=DR),M,,"КЕП водія, що здає вантаж (початок блоку)"
 SigningPartyRoleCode,M,string,Роль підписанта (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 PartySignature,M,string,Підпис (base64 підпису p7s)
 Name,M,string,ПІБ підписанта (водія)
@@ -225,7 +247,7 @@ Position,O,string,Посада підписанта (водія)
 **ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код водія (початок блоку)
 ram:ID,M,string,РНОКПП підписанта (водія)
 **ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код водія (закінчення блоку)
-**Signature** (SigningPartyRoleCode=DR),,,"КЕП водія (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=DR),,,"КЕП водія, що здає вантаж (закінчення блоку)"
 **Signature** (SigningPartyRoleCode=CA),O,,"КЕП Перевізника, що здає вантаж (початок блоку)"
 SigningPartyRoleCode,O,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 PartySignature,O,string,Підпис (base64 підпису p7s)
