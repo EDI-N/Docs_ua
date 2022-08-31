@@ -21,8 +21,8 @@
 28,comdoc,`Комерційний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__
 29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__
 30,condra,`Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
-35,metro_7a,`Додаток до договору 7А <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
-39,metro_7b,`Додаток до договору 7Б <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
+35,metro7a,`Додаток до договору 7А <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
+39,metro7b,`Додаток до договору 7Б <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
 40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#productlist>`__
 41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__
 42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
@@ -48,3 +48,13 @@
 129,ettn_stop,Акт примусового завершення ТТН
 130,resealing,Акт переопломбування
 131,load_reject,Акт відмови завантаження
+132,ttn_ecmr,ETTN (v3)
+133,reload_ecmr,Акт перевантаження (v3)
+134,disagreement_ecmr,Акт розбіжностей (v3)
+135,consignee_change_ecmr,Акт зміни пункту призначення (v3)
+136,storage_delivery_ecmr,Акт розвантаження на проміжному складі (v3)
+137,adjustment_ecmr,Акт коригування (v3)
+138,storage_pickup_ecmr,Акт завантаження на проміжному складі (v3)
+139,resealing_ecmr,Акт перепломбування (v3)
+140,load_reject_ecmr,Акт відмови завантаження (v3)
+141,stop_ecmr,Акт примусового завершення е-ттн (v3)

@@ -59,10 +59,10 @@ ram:Identification,M,string,Найменування вантажу
 **NatureIdentificationTransportCargo**,,,Найменування вантажу (номер контейнера) за ТТН (закінчення блоку)
 TransportLogisticsPackageType,M,string,Одиниця виміру
 **DisagreementItemQuantity**,O,,Відхилення за кількістю місць (початок блоку)
-OriginalItemQuantity,M,string,Кількість місць за ТТН
-ActualItemQuantity,O,string,Кількість місць фактична
+OriginalItemQuantity,M,decimal,Кількість місць за ТТН
+ActualItemQuantity,O,decimal,Кількість місць фактична
 **DeltaItemQuantity**,O,,Відхилення (початок блоку)
-Quantity,O,string,"Кількість місць Відхилення. Різниця між фактом та даними з ТТН - розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення"
+Quantity,O,decimal,"Кількість місць Відхилення. Різниця між фактом та даними з ТТН - розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення"
 Explanation,O,string,"причина відхилення за кількістю місць (недостача/надлишок, бій тощо)"
 **DeltaItemQuantity**,,,Відхилення (закінчення блоку)
 **DisagreementItemQuantity**,,,Відхилення за кількістю місць (закінчення блоку)
