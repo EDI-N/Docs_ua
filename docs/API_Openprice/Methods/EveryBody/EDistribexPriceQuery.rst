@@ -33,3 +33,11 @@
   :widths:  1, 7, 12, 41
   :header-rows: 1
   :stub-columns: 0
+
+Таблиця 3 - Опис параметрів об'єкта **EDistribexRegion**
+
+.. csv-table:: 
+  :file: for_csv/EDistribexRegion.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
