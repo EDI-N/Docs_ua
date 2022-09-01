@@ -368,7 +368,13 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 5 - Опис параметрів об'єкта **ProductCategory**
 
+.. csv-table:: 
+  :file: for_csv/ProductCategory.csv
+  :widths:  1, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
 
 
 
