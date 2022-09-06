@@ -116,7 +116,7 @@ TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, ARE
 * BUYER_CODE - Артикул покупця,
 * UKTZED - Код УКТ ЗЕД,
 * PRICE_WITH_VAT - Ціна з ПДВ,
-* SUM_WITHOUT_VAT - Ціна без ПДВ,
+* SUM_WITHOUT_VAT - Сума без ПДВ,
 * RETURN_TARE - Тара на повернення,
 * ORDER_NO - Номер замовлення,
 * ORDER_DATE - Дата замовлення,
