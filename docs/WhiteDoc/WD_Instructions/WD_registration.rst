@@ -29,6 +29,12 @@
 .. image:: pics_WD_registration/WD_registration_001.png
    :align: center
 
+.. note::
+   Для зручності можливо встановити авторизацію через SSO (систему єдиного входу) для своїх корпоративних користувачів (детальніше в описі `Налаштувань доменів акаунта <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/WD_admin_panel.html#domain>`__):
+
+   .. image:: pics_WD_admin_panel/WD_admin_panel_088.gif
+      :align: center
+
 **1 Реєстрація**
 ================================================
 
