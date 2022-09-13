@@ -334,6 +334,10 @@
 
 .. _sign:
 
+.. include:: /_constant/atb_check/atb_check.rst
+   :start-after: .. початок блоку для ATB_check
+   :end-before: .. кінець блоку для ATB_check
+
 .. tabs::
 
    .. tab:: Файловий ключ
