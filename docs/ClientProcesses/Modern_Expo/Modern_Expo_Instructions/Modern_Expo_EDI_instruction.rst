@@ -196,6 +196,17 @@
 .. image:: pics_Modern_Expo_EDI_instruction/Modern_Expo_EDI_instruction_018.png
    :align: center
 
+.. hint::
+   **На підставі** - поле для вибору типу документа-підстави. Заповнюється автоматично з документа-підстави ("Повідомлення про відвантаження" (DESADV)). Якщо ці дані повністю чи частково відсутні, то при виборі "Договір" можливо обрати зі списку один із договорів з цим контрагентом (**Особистий кабінет->Налаштування->GLN->перегляд GLN->`Договори <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-contracts>`__**):
+
+   .. image:: pics_Modern_Expo_EDI_instruction/Modern_Expo_EDI_instruction_028.png
+      :align: center
+
+   або ж **"Додати"** новий договір (після відправки документа дані договору зберігаються автоматично):
+
+   .. image:: pics_Modern_Expo_EDI_instruction/Modern_Expo_EDI_instruction_029.png
+      :align: center
+
 Обов'язкові дані блоків Відправника та Покупця заповнюються автоматично, однак за потреби їх можливо відредагувати (кнопка **"Редагувати"**):
 
 .. image:: pics_Modern_Expo_EDI_instruction/Modern_Expo_EDI_instruction_019.png
