@@ -151,7 +151,7 @@ def setup(app):
 
 html_js_files = [
     'lang.js',
-    'ultra_custom.js',
+    'ultra_customs.js',
 ]
 
 
