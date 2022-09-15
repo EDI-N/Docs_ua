@@ -141,7 +141,7 @@ todo_include_todos = False
 html_theme = 'sphinx_rtd_theme'
 
 def setup(app):
-    app.add_stylesheet('theme_overrides1.css')
+    app.add_stylesheet('theme_overrides.css')
 
 # old js was added like this
 #def setup(app):
