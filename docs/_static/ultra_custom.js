@@ -1,4 +1,4 @@
-// Jivosite Chat
+// Jivosite Chat (не використовується) - віджет підтримки переїхав в templates/layout
 (function () {
     d = document;
     s = d.createElement("script");

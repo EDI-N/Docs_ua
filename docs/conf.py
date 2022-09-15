@@ -149,9 +149,14 @@ def setup(app):
 #    app.add_javascript('ultra_custom.js')
 #    app.add_javascript('galaga.js')
 
+#html_js_files = [
+#    'lang.js',
+#    'ultra_custom.js',
+#]
+
+
 html_js_files = [
     'lang.js',
-    'ultra_custom.js',
 ]
 
 # Для Сворачивания текста: если вдруг contentui.js перестанет отрабатывать, то можно еще добавить в список app.add_javascript('ShowHide.js')
