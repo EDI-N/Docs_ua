@@ -13,6 +13,7 @@
 
 
 // Інтеграшка HelpCrunch JS для підтримки
+
 (function(w, d) {
     w.HelpCrunch = function() {
         w.HelpCrunch.q.push(arguments)
@@ -23,7 +24,7 @@
         var s = document.createElement('script');
         s.async = 1;
         s.type = 'text/javascript';
-        s.src='https://widget.helpcrunch.com/';(d.body%7C%7Cd.head).appendChild(s);
+        s.src='https://widget.helpcrunch.com/';(d.body||d.head).appendChild(s);
     }
     if (w.attachEvent) {
         w.attachEvent('onload', r)
