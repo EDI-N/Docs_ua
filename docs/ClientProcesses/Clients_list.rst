@@ -18,3 +18,4 @@
    Trans_Logistic/Trans_Logistic_list
    UkrNafta/UkrNafta_list
    BOX_Market/BOX_Market_list
+   GS1/GS1_list
