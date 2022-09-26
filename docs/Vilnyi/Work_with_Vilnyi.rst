@@ -324,6 +324,12 @@
          :start-after: .. початок блоку для TokenSign
          :end-before: .. кінець блоку для TokenSign
 
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
    .. tab:: Дія.Підпис
 
       .. include:: /_constant/diya_signing/diya_signing.rst

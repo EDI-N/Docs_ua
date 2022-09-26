@@ -669,6 +669,12 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
          :start-after: .. початок блоку для TokenSign
          :end-before: .. кінець блоку для TokenSign
 
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
    .. tab:: Cloud
 
       .. include:: /_constant/cloud_signing/cloud_signing.rst
