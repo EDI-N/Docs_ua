@@ -225,6 +225,47 @@
 
 Всі відмічені документи в обраному форматі завантажуються одним архівом (zip) - потрібно обрати місце на локальному носії для його збереження.
 
+.. _create-ordrsp:
+
+7 Створення "Підтвердження замовлення" (ORDRSP)
+============================================================================================================
+
+Масове створення "Підтверджень замовлень" (`ORDRSP <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__) можливо виконати на підставі вхідних "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__): потрібно обрати бажані документи (для зручності можливо скористатись фільтром за типом документа чи `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) у папці **"Вхідні"** та в **"Дії з обраними документами"** обрати **"Створити підтвердження замовлення"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_022.png
+   :align: center
+
+Платформа повідомить про успішне створення документів повідомленням (у папці **"Масові дії"** відображається результат виконання операції), а самі документи з’являться в папці **"Чернетки"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_023.png
+   :align: center
+
+.. image:: pics_massovi_operacii/massovi_operacii_024.png
+   :align: center
+
+.. _create-and-send-ordrsp:
+
+8 Створення та відправка "Підтвердження замовлення" (ORDRSP)
+============================================================================================================
+
+Масове створення та відправку "Підтверджень замовлень" (`ORDRSP <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__) можливо виконати на підставі вхідних "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__): потрібно обрати бажані документи (для зручності можливо скористатись фільтром за типом документа чи `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) у папці **"Вхідні"** та в **"Дії з обраними документами"** обрати **"Відправити підтвердження замовлення"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_025.png
+   :align: center
+
+Після чого потрібно підтвердити (кнопка **"Так"**) автоматичне створення та відправку документів контрагенту/-ам:
+
+.. image:: pics_massovi_operacii/massovi_operacii_026.png
+   :align: center
+
+Після підтвердження операції платформа повідомить про успішне створення та відправку документів (у папці **"Масові дії"** результат виконання операції також відображається), а самі документи з’являться в папці **"Надіслані"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_027.png
+   :align: center
+
+.. image:: pics_massovi_operacii/massovi_operacii_028.png
+   :align: center
+
 -----------------------------------
 
 .. include:: /_constant/kontakti.rst
