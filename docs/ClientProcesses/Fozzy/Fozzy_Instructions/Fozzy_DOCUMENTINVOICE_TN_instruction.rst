@@ -41,6 +41,10 @@
 .. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_002.png
    :align: center
 
+.. include:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard.rst
+   :start-after: .. початок блоку для ForAllDOCUMENTINVOICE
+   :end-before: .. кінець блоку для ForAllDOCUMENTINVOICE
+
 Дані позицій можливо відредагувати та **"Змінити"** через pop-up вікно, що відкривається по кліку на штрихкод товару:
 
 .. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_003.png
