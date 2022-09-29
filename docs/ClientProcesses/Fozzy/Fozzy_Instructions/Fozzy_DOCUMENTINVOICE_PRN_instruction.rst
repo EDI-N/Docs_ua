@@ -56,6 +56,10 @@
 .. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_003.png
    :align: center
 
+.. include:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard.rst
+   :start-after: .. початок блоку для ForAllDOCUMENTINVOICE
+   :end-before: .. кінець блоку для ForAllDOCUMENTINVOICE
+
 .. attention::
    Якщо при автоматичному заповненні чи подальшому редагуванні в товарних позиціях виникнуть логічні помилки, то Ви про це будете проінформовані, а позиції в таблиці, що їх налічують будуть виділені жовтим кольором:
 
