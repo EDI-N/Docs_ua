@@ -157,35 +157,22 @@
    :start-after: .. початок блоку для Comdoc_Repeal
    :end-before: .. кінець блоку для Comdoc_Repeal
 
-2.5 Підтвердження запиту на анулювання комерційного документа (COMDOC)
--------------------------------------------------------------------------------
+.. _repeal-accept:
 
-.. important::
-    Підтвердження запиту на анулювання комерційного документа формується на основі `Запиту на анулювання <https://wiki.edin.ua/uk/latest/general_2_0/instruktsiyi_po_dodavannyu_klyuchiv.html#repeal>`__.
+2.4.1 Підтвердження запиту на анулювання комерційного документа (COMDOC)
+``````````````````````````````````````````````````````````````````````````````
+.. include:: /_constant/comdoc_repeal_accept/comdoc_repeal_accept.rst
+   :start-after: .. початок блоку для Comdoc_RepealAccept
+   :end-before: .. кінець блоку для Comdoc_RepealAccept
 
-Для підтвердження запиту на анулювання підписаного комерційного документа необхідно:
+.. _repeal-reject:
 
-1) Відкрити документ у "Надісланих"
+2.4.2 Відмова від анулювання комерційних документів (COMDOC)
+``````````````````````````````````````````````````````````````````````````````
 
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_16n.png
-   :align: center
-
-2) Натиснути — **"Підтвердження запиту на анулювання"**
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_17n.png
-   :align: center
-
-3) `Додати ключ для підписання <https://wiki.edin.ua/uk/latest/general_2_0/instruktsiyi_po_dodavannyu_klyuchiv.html#sign>`__ (за необхідністю)
-
-4) Вибрати необхідний ключ та натиснути — **"Підписати"**
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/file3.png
-   :align: center
-
-Запиту на анулювання підтверджено, документообіг завершено (останній тікет на схемі стане жовтого кольору):
-
-.. image:: pics_instruktsiyi_po_dodavannyu_klyuchiv/dodavannyu_klyuchiv_18n.png
-   :align: center
+.. include:: /_constant/comdoc_repeal_reject/comdoc_repeal_reject.rst
+   :start-after: .. початок блоку для Comdoc_RepealReject
+   :end-before: .. кінець блоку для Comdoc_RepealReject
 
 ------------------------------------------------
 
