@@ -570,6 +570,23 @@
    :start-after: .. початок блоку для Comdoc_Repeal
    :end-before: .. кінець блоку для Comdoc_Repeal
 
+.. _repeal-accept:
+
+Підтвердження запиту на анулювання комерційного документа (COMDOC)
+------------------------------------------------------------------------------------------------------------
+.. include:: /_constant/comdoc_repeal_accept/comdoc_repeal_accept.rst
+   :start-after: .. початок блоку для Comdoc_RepealAccept
+   :end-before: .. кінець блоку для Comdoc_RepealAccept
+
+.. _repeal-reject:
+
+Відмова від анулювання комерційних документів (COMDOC)
+------------------------------------------------------------------------------------------------------------
+
+.. include:: /_constant/comdoc_repeal_reject/comdoc_repeal_reject.rst
+   :start-after: .. початок блоку для Comdoc_RepealReject
+   :end-before: .. кінець блоку для Comdoc_RepealReject
+
 ------------------------------------------------------
 
 .. _reject:
