@@ -518,6 +518,12 @@
 Підписання на платформі EDIN 2.0
 =========================================================================================================================
 
+.. warning::
+   У відправника `Акта приймання-передачі (додаток 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html>`__ під час підписання діє перевірка на **відповідність ІПН підпису та даних відповідальної особи**:
+   
+   .. image:: /_constant/atb_check/atb_check_002.png
+      :align: center
+
 .. include:: /_constant/atb_check/atb_check.rst
    :start-after: .. початок блоку для ATB_check
    :end-before: .. кінець блоку для ATB_check
