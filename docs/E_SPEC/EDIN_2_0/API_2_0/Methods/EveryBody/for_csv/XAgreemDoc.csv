@@ -33,7 +33,11 @@ recipient,long,"GLN одержувача; число"
 retailerId,long,"id мережі (ритейлера); число"
 contractUUID,UUID,"GUID контракту / договору"
 status,XAgreemDocStatus_ ,"статус узгодження; число"
-type,int,"тип документа (статус документообігу); 1-AGREEM; 2-AGREEM (Add SKU); 3-PRODLIST; 4-COMDOC; число"
+type,int,"тип документа; число
+
+* 1 - AGREEM
+* 2 - COMDOC_008
+* 3 - NOVELTY"
 dateCreated,long,"дата створення документа; число"
 dateChanged,long,"дата зміни документа; число"
 docDate,long,"дата з документу; число"
