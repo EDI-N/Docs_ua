@@ -723,6 +723,18 @@ XML Специфікації
 
 :download:`Приклад METRO_7B<examples/METRO_7B_example.xml>`
 
+---------
+
+Додаток до договору 7Ц (METRO_7C)
+=============================================
+
+.. csv-table:: Додаток до договору 7Ц (METRO_7C)
+  :file: files/METRO_7C.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад METRO_7C<examples/METRO_7C_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
