@@ -28,6 +28,7 @@
 42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
 59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
+72,metro7c,`Додаток до договору 7Ц <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__
 98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#quotes>`__
 111,transhipment,`Акт перевантаження товарів <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__
 117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/AcceptancePage_v2.html>`__
