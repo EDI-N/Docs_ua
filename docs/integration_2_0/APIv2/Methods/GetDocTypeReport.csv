@@ -1,0 +1,26 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/eds/doc/reports/doctype?gln=9864065732181&doc_type_id=2&date_from=1663102800&date_to=1665608400&recipient=9864067307424**
+URL параметри ,"**gln** (обов'язково) - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта;
+АБО
+**guid** (обов'язково) - рядок; унікальний ідентифікатор організації в системі
+
+**doc_type_id** (обов'язково) - число; `id типу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/DocType.html>`__. Доступні значення: 1,2,3,4,5,28,59,67
+
+**sub_doc_type_id** (опціонально) - число; `id підтипу документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/ExtraQueryParameters_fieldName_sub_doc_type_id.html>`__
+
+**date_from** (опціонально) - початок періоду виборки в UNIX-форматі (якщо не вказано, то поточна дата мінус 31 день)
+
+**date_to** (опціонально) - кінець періоду виборки в UNIX-форматі (якщо не вказано, то поточна дата)
+
+**sender** (обов'язково) - рядок (13); номер GLN відправника документів
+АБО
+**recipient** (обов'язково) - рядок (13); номер GLN отримувача документів
+АБО
+**partner** (обов'язково) - id рітейлера (торгової мережі)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json
+
+
+

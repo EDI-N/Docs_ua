@@ -26,7 +26,7 @@
 40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#productlist>`__
 41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__
 42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
-59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+59,documentinvoice,`Накладні <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
 72,metro7c,`Додаток до договору 7Ц <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__
 98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#quotes>`__
