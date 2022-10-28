@@ -65,6 +65,8 @@
 .. image:: pics_Vydatkova_comdoc_na_EDI_Network_2.0/Vydatkova_comdoc_na_EDI_Network_2.0_004.png
    :align: center
 
+.. початок блоку для ForAllCOMDOC_006/032 todo someday
+
 .. hint::
    **На підставі** - поле для вибору типу документа-підстави. Заповнюється автоматично з документа-підстави ("Повідомлення про відвантаження" (DESADV)). Якщо ці дані повністю чи частково відсутні, то при виборі "Договір" можливо обрати зі списку один із :underline:`"Договорів поставки"` з цим контрагентом (**Особистий кабінет->Налаштування->GLN->перегляд GLN->** `Договори <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-contracts>`__):
 
@@ -75,6 +77,8 @@
 
    .. image:: pics_Vydatkova_comdoc_na_EDI_Network_2.0/Vydatkova_comdoc_na_EDI_Network_2.0_017.png
       :align: center
+
+.. кінець блоку для ForAllCOMDOC_006/032
 
 Третій блок містить інформацію про одержувача та відправника Комерційного документа, дані заповнюються автоматично з документа підстави.
 
