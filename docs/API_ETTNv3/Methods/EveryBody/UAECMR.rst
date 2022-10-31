@@ -291,7 +291,7 @@
 Таблиця 36 - Опис параметрів об'єкта **includedNote**
 
 .. csv-table:: 
-  :file: for_csv/includedNote.csv
+  :file: for_csv/IncludedNote.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
