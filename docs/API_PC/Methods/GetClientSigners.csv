@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET                                         
+URL запиту    , **/api/oas/personal/signers?is_actual=true**
+URL параметри ,"**is_actual** (опціонально) boolean - актуальність (true за замовчуванням). Актальними вважаються останні вказані дані (решта записів зберігаються для історії змін)."
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , application/json
