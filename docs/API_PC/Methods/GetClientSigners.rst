@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** (json) передаються `дані підписантів <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/ClientSigner.html>`__.
+В тілі **відповіді** (json) передаються `дані підписантів <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/ClientSignerResponse.html>`__.
