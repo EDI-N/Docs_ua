@@ -1036,22 +1036,9 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_240.gif
    :align: center
 
-.. _user-notifications: 
-
-**2.1.1.3 Керування сповіщеннями**
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-За замовчуванням (якщо нічого не вибрано) сповіщення відправляються за всіма доступними користувачу сервісами. Підрозділ дозволяє адміністраторам (`"Ролі користувачів" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__) налаштувати сповіщення на e-mail та в `"Центр повідомлень" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__ (в системі платформи EDI Network) за допомогою відміток: 
-
-.. image:: pics_PCInstruction/PCInstruction_262.png
-   :align: center
-
-.. note::
-   Повідомлення в системі (`"Центрі повідомлень" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__) відображаються лише під час `сесії користувача <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#session-management>`__, тобто для того, щоб їх отримувати потібно бути "онлайн".
-
 .. _shard-entrance:
 
-**2.1.1.4 "Вільний" для користувача**
+**2.1.1.3 "Вільний" для користувача**
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Для того аби налаштувати доступ до документів сервісу **"Вільний"** інших співробітників компанії потрібно в формі створеного співробітника у вкладці налаштувань **"Доступ до документів Вільного"** -> **"Відкрити доступ до документів співробітника"** (цьому співробітнику буде відкритий доступ до документів вказаних співробітників):
@@ -1739,6 +1726,19 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 .. image:: pics_PCInstruction/PCInstruction_203.png
    :align: center
+
+.. _user-notifications: 
+
+**4 Керування сповіщеннями**
+================================================
+
+За замовчуванням (якщо нічого не вибрано) сповіщення відправляються за всіма доступними користувачу сервісами. Підрозділ дозволяє адміністраторам (`"Ролі користувачів" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__) налаштувати сповіщення на e-mail та в `"Центр повідомлень" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__ (в системі платформи EDI Network) за допомогою відміток: 
+
+.. image:: pics_PCInstruction/PCInstruction_270.png
+   :align: center
+
+.. note::
+   Повідомлення в системі (`"Центрі повідомлень" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__) відображаються лише під час `сесії користувача <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#session-management>`__, тобто для того, щоб їх отримувати потібно бути "онлайн".
 
 -------------------------------------
 
