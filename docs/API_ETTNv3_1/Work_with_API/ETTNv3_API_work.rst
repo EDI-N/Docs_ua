@@ -70,11 +70,11 @@
 
 3.2 `Отримання тіла документа (рекомендовано в json) для подальшого доповнення документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
 
-3.3 `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
+3.3 `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
 
-3.4 `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+3.4 `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
 
-3.5 `Підписання е-ТТН Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+3.5 `Підписання е-ТТН Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
 
 3.6 `Відправка нової транзакції до е-ТТН документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__
 
