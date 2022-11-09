@@ -34,3 +34,8 @@ TN,0,`Товарна накладна / Накладна за кількістю
 TN,1,`Накладна за кількістю <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 PRN,2,`Цінова Накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 DRN,3,`Видаткова Накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+**Підтип ТТН (DECLARHEAD.C_DOC)**,**sub_doc_type_id**,**Назва та опис документа**
+T01,1,зовнішня ТТН
+T51,51,внутрішня ТТН
+T52,52,внутрішня ТТН (алкоголь)
+T53,53,внутрішня ТТН (тютюн)
