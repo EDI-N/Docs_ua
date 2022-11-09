@@ -11,7 +11,7 @@
 
 ----------------------------------------------------
 
-.. image:: pics/ETTNv3_API_schema.png
+.. image:: pics/ETTNv3_API_schema_01.png
    :align: center
 
 ----------------------------------------------------
@@ -42,15 +42,15 @@
    :height: 31px
    :width: 31px
 
-2.1 `Авторизація Перевізника <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__
+2.1 `Авторизація Водія <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__
 
 2.2 `Отримання тіла документа (рекомендовано в json) для подальшого доповнення документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
 
-2.3 `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
+2.3 `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Водієм <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
 
-2.4 `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+2.4 `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Водієм <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
 
-2.5 `Підписання е-ТТН Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+2.5 `Підписання е-ТТН Водієм <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
 
 2.6 `Відправка нової транзакції до е-ТТН документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__
 
