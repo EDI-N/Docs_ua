@@ -1,6 +1,11 @@
 API "ETTN" v3
 ################
 
+.. toctree::
+   :maxdepth: 1
+   
+   Work_with_API/ETTNv3_API_work
+
 .. hint::
     Всі запити нижче перерахованих API методів сервісу "ЕТТН" направляються на адресу: https://edo-v2.edin.ua 
 
