@@ -133,7 +133,35 @@ id параметра, Найменування параметра, Тип, Фо
 , consignee_b_uuid,, BINARY, ідентифікатор вантажоодержувача
 , consignor_b_uuid,, BINARY, ідентифікатор вантажовідправника
 , external_doc_id,, INT, id ТТН документа в ЦБД
-, orderpartner_uuid,, BINARY, ідентифікатор замовника
-, invoicepartner_uuid,, BINARY, ідентифікатор платника
-, finalrecipient_uuid,, BINARY, ідентифікатор кінцевого консигнатора
+, orderpartner_uuid,, BINARY, ідентифікатор замовника (для документа ORDER з поля ORDERPARTNER)
+, invoicepartner_uuid,, BINARY, ідентифікатор платника (для документа ORDER з поля INVOICEPARTNER)
+, finalrecipient_uuid,, BINARY, ідентифікатор кінцевого консигнатора (для документів ORDER та DESADV з поля FINALRECIPIENT)
 , is_offline_sign,, INT, документ з офлайн підписом (мітка часу не підтверджена); 0-ні / 1-так
+, car_number,, VARCHAR, номер авто
+, carrier,, VARCHAR,GLN перевізника
+, carrier_signed,, INT, відмітка підписання перевізником (0-ні; 1-так)
+, consignee,, VARCHAR,GLN вантажоодержувача
+, consignee_signed,, INT, відмітка підписання вантажоодержувачем (0-ні; 1-так)
+, consignor,, VARCHAR,GLN вантажовідправника
+, consignor_signed,, INT, відмітка підписання вантажовідправником (0-ні; 1-так)
+, customer,, VARCHAR,GLN замовника
+, driver,, VARCHAR,GLN водія
+, gross_weight,, INT,маса брутто (кг)
+, load_point,, VARCHAR,GLN пункту завантаження
+, sub_status_next,, INT,
+, trailer_number,, VARCHAR, номер причіпа
+, unload_point,, VARCHAR,GLN пункту розвантаження
+, family,, INT,"сімейство
+
+* 1 - EDI
+* 2 - UZD
+* 4 - CERTIFICATS
+* 6 - ATS
+* 7 - ETTN
+* 8 - DISTRIBUTION
+* 9 - SIMPLEDOC (Вільний)
+* 10 - TENDER
+* 11 - AGREEMENT
+* 12 - OPENPRICE (Є-Товар)"
+, hash,, VARCHAR,хеш документа
+, is_archive,, VARCHAR, документ перенесено в архів (true / false)
