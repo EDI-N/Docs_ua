@@ -11,7 +11,7 @@
 
 ----------------------------------------------------
 
-.. image:: pics/ETTNv3_API_schema_01.png
+.. image:: pics/ETTNv3_API_schema_19.png
    :align: center
 
 ----------------------------------------------------
@@ -77,12 +77,5 @@
 3.5 `Підписання е-ТТН Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
 
 3.6 `Відправка нової транзакції до е-ТТН документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__
-
-.. image:: pics/ETTNv3_API_work_14.png
-   :height: 31px
-   :width: 31px
-
-3.2* `Відмовити в підписанні документа сервісу «ЕТТН» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectEcmr.html>`__
-
 
 
