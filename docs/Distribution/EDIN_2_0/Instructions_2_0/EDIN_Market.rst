@@ -72,7 +72,7 @@
 .. image:: pics_EDIN_Market/EDIN_Market_005.png
    :align: center
 
-* Ваші "Відправлені" Замовлення чи "Чернетки", створені шляхом `"Повтору замовлення" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/EDIN_Market.html#order-repeat>`__:
+* Ваші "Відправлені" Замовлення чи "Чернетки" (чернетки замовлень створюються виключно шляхом `"Повтору замовлення" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/EDIN_Market.html#order-repeat>`__):
 
 .. image:: pics_EDIN_Market/EDIN_Market_006.png
    :align: center
