@@ -318,6 +318,8 @@
 .. attention::
    При масовому підписанні наноситься лише один підпис за раз. При додаванні/видаленні файлів в/з документа - раніше накладені підписи видаляються!
 
+.. кінець блоку для Metro
+
 .. початок блоку для GS1_sign
 
 .. tabs::
@@ -351,6 +353,8 @@
       .. include:: /_constant/cloud_signing/cloud_signing.rst
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
+
+.. кінець блоку для Metro
 
 .. _signing-watermark:
 

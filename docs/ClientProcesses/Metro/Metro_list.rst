@@ -2,6 +2,12 @@ Metro
 #############################################
 
 .. toctree::
+   :caption: Сервіс "Вільний"
+   :maxdepth: 1
+   
+   Metro_Instructions/Metro_Vilnyi_schema
+
+.. toctree::
    :caption: Робота в сервісі "EDI+ЮЗД"
    :maxdepth: 1
    
