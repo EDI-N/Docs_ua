@@ -56,7 +56,7 @@
 
 Після чого потрібно заповнити поля документа, чітко притримуючись наступних вказівок:
 
-.. image:: pics_Metro_Vilnyi_schema/Metro_Vilnyi_schema_009.png
+.. image:: pics_Metro_Vilnyi_schema/Metro_Vilnyi_schema_010.png
    :align: center
 
 1. ЄДРПОУ отримувача: 32049199
