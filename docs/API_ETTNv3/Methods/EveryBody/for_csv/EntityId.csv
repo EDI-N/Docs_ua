@@ -1,4 +1,4 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _EntityId:,,Об'єкт **EntityId**,
-schemeAgencyID,M,string,КАТОТТГ
+schemeAgencyID,M,string,КАТОТТГ/GLN
 value,M,decimal,Значення

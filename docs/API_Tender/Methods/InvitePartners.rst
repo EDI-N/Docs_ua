@@ -20,7 +20,7 @@
 
 	[
 	  {"email": "test@edin.ua", "code": "999321453"},
-	  {"email": "test2@edin.ua", "code": "4343434"}
+	  {"email": "test2@edin.ua", "code": "4343434", "add": true}
 	]
 
 **RESPONSE**

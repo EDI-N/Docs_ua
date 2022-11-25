@@ -85,9 +85,13 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код складу тимчасового зберігання (закінчення блоку)"
 ram:Name,M,string,Найменування складу тимчасового зберігання
 ram:Description,M,string,Опис (адреса) складу тимчасового зберігання
-**ram:PhysicalGeographicalCoordinate**,O,,Географічні координати (початок блоку)
+**ram:PhysicalGeographicalCoordinate**,M,,Географічні координати (початок блоку)
 ram:LatitudeMeasure,O,string,Широта
 ram:LongitudeMeasure,O,string,Довгота
+**ram:SystemID**,M,,"Код GLN (початок блоку)"
+schemeAgencyID,M,string,GLN
+value,M,decimal,Значення
+**ram:SystemID**,,,"Код GLN (закінчення блоку)"
 **ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
 **StorageLogisticsLocation**,,,"Місцезнаходження складу (закінчення блоку)"
 **UtilizedLogisticsTransportEquipment** (CategoryCode=TRUCK),M,,"Автомобіль, що завантажується (початок блоку)"

@@ -244,9 +244,13 @@ value,M,decimal,Значення
 ram:Name,M,string,Найменування пункту навантаження
 ram:TypeCode,M,string,Тип операції: 5 - навантаження; 10 - розвантаження
 ram:Description,M,string,Опис (адреса) пункту навантаження
-**ram:PhysicalGeographicalCoordinate**,O,,Географічні координати (початок блоку)
+**ram:PhysicalGeographicalCoordinate**,M,,Географічні координати (початок блоку)
 ram:LatitudeMeasure,O,string,Широта
 ram:LongitudeMeasure,O,string,Довгота
+**ram:SystemID**,M,,"Код GLN (початок блоку)"
+schemeAgencyID,M,string,GLN
+value,M,decimal,Значення
+**ram:SystemID**,,,"Код GLN (закінчення блоку)"
 **ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
 **ram:CarrierAcceptanceLogisticsLocation**,,,Пункт навантаження (закінчення блоку)
 **ram:ConsigneeReceiptLogisticsLocation**,O,,Пункт розвантаження (початок блоку)
@@ -257,9 +261,13 @@ value,M,decimal,Значення
 ram:Name,M,string,Найменування пункту розвантаження
 ram:TypeCode,M,string,Тип операції: 5 - навантаження; 10 - розвантаження
 ram:Description,M,string,Опис (адреса) пункту розвантаження
-**ram:PhysicalGeographicalCoordinate**,O,,Географічні координати (початок блоку)
+**ram:PhysicalGeographicalCoordinate**,M,,Географічні координати (початок блоку)
 ram:LatitudeMeasure,O,string,Широта
 ram:LongitudeMeasure,O,string,Довгота
+**ram:SystemID**,M,,"Код GLN (початок блоку)"
+schemeAgencyID,M,string,GLN
+value,M,decimal,Значення
+**ram:SystemID**,,,"Код GLN (закінчення блоку)"
 **ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
 **ram:ConsigneeReceiptLogisticsLocation**,,,Пункт розвантаження (закінчення блоку)
 **ram:DeliveryTransportEvent**,O,,Розвантажувальні роботи (початок блоку)

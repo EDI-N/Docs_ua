@@ -17,4 +17,4 @@ consignmentItemQuantity,M,decimal,Загальна кількість місць
 **utilizedLogisticsTransportEquipments**,O/M,List<UtilizedLogisticsTransportEquipment_>,масив об'єктів; Запис про автомобіль в перевезенні. Обов'язково заповнюється для Автомобіля (для причепа/напівпричепа опційно)
 **mainCarriageLogisticsTransportMovement**,O,MainCarriageLogisticsTransportMovement_,об'єкт; Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником
 **deliveryInstructions**,O,DeliveryInstructions_,об'єкт; Вид перевезень
-**previousAdministrativeReferencedDocument**,-/M,PreviousAdministrativeReferencedDocument_,"об'єкт; Попередній документ ECMR, на основі якого складено поточний документ. Блок не вказується, якщо документ створено з «нуля»"
+**previousAdministrativeReferencedDocument**,-/M,PreviousAdministrativeReferencedDocument_,"об'єкт; Попередня транзакція ECMR, на основі якої складено поточний документ. Блок не вказується, якщо документ створено з «нуля»"
