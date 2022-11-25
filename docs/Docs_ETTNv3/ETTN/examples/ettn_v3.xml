@@ -111,6 +111,7 @@
 				<ram:PhysicalGeographicalCoordinate>
 					<ram:LatitudeMeasure>50.4489298</ram:LatitudeMeasure>
 					<ram:LongitudeMeasure>30.5194162</ram:LongitudeMeasure>
+					<ram:SystemID schemeAgencyID="GLN">123456789123</ram:SystemID>
 				</ram:PhysicalGeographicalCoordinate>
 			</ram:ConsigneeReceiptLogisticsLocation>
 			<ram:HandlingInstructions>
