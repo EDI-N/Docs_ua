@@ -1,6 +1,12 @@
 API
 ###########
 
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/*
+
 .. hint::
     Всі запити нижче перерахованих API методів "Особистого кабінету" направляються на адресу: https://edo-v2.edin.ua 
 
@@ -109,8 +115,3 @@ API
 
 
 
-.. toctree::
-   :hidden:
-   :glob:
-
-   Methods/*
