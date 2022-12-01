@@ -1,22 +1,39 @@
-Формування Товарного довідника
+Формування "Товарного довідника"
 ############################################
 
 .. role:: red
 
 .. contents:: Зміст:
-   :depth: 2
+   :depth: 4
 
 ---------
 
-**Вступ**
-====================================
+Дана інструкція описує порядок заповнення "Товарного довідника", а також обов'язкових для заповнення полів для додавання позицій.
 
-Дана інструкція описує порядок заповнення **"Товарного Довідника"**, а також обов'язкових для заповнення полів для додавання позицій.
+Після успішної `авторизації <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__ перейти до товарного довідника можливо через основне меню, де у вкладці **"Особистий кабінет"** EDIN потрібно обрати **"Довідники"**:
+
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_23.png
+   :align: center
+
+або в два кліки з іконки користувача:
+
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_22.png
+   :align: center
+
+.. початок блоку для PCinstruction
+
+При переході в **"Довідники"** за замовчуванням відкривається вкладка **"Товарного довідника"**. **"Товарний довідник"** дозволяє створювати, редагувати, шукати товари в журналі товарів. Журнал вже може бути заповнений товарами, якщо їх дані були вказані при обміні документами з Вашими контрагентами:
+
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_02.png
+   :align: center
+
+.. note::
+   Якщо у Вас декілька компаній під одним акаунтом, перевірте чи вибрано бажана компанія! У різних компаній відображаються різні товари.
 
 .. _filling:
 
 **1 Наповнення Товарного довідника**
-==================================================
+````````````````````````````````````````````````````
 
 Заповнити Товарний Довідник на Web-платформі можливо:
 
@@ -26,29 +43,11 @@
 .. _hand-filling:
 
 **1.1 Внесення даних нової товарної позиції (ручне заповнення форми)**
---------------------------------------------------------------------------------------------------
-
-Після успішної `авторизації <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__ перейти до товарного довідника можливо через основне меню, де у вкладці **"Особистий кабінет"** EDIN потрібно обрати **"Товари"**:
-
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_11.png
-   :align: center
-
-або в два кліки з іконки користувача:
-
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_22.png
-   :align: center
-
-Відкриється розділ довідника з товарами:
-
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_02.png
-   :align: center
-
-.. note::
-   Якщо  вас декілька акаунтів під однією компанією, перевірте чи вибрано правильний акаунт! У різних акаунтів відображаються різні товари.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Для того щоб додати товарної позиції, натисніть на кнопку **«+Додати товар»**. Після чого у Вас відкриється форма додавання товарної позиції:
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_12.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_12.png
    :align: center
 
 Всі обов'язкові до заповнення поля (позначені червоною зірочкою :red:`*`):
@@ -60,44 +59,44 @@
 5. ПДВ :red:`*` - оберіть зі списку ставку ПДВ.
 
 .. note::
-   Зверніть увагу, що для коректного автоматичного заповнення деяких документів, наприклад, `"Товарної накладної" (DOCUMENTINVOICE) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__, необхідно заповнити *Код УКТ ЗЕД*.
+   Зверніть увагу, що для коректного автоматичного заповнення деяких документів, наприклад, `"Товарної накладної" (DOCUMENTINVOICE) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__, необхідно заповнити **Код УКТ ЗЕД**.
 
 Для Алкогольної продукції є можливість вказати додаткові дані:
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_14.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_14.png
    :align: center
 
 Після заповнення обов'язкових полів натисніть на кнопку **«Додати товар в довідник»**:
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_13.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_13.png
    :align: center
 
 Позиція буде збережена і буде відображатись, як "Загальний товар". Після збереження можливо переглянути товар, натиснувши на штрихкод та у формі перегляду **Внести зміни** (редагувати інформацію) або **"Видалити товар"**:
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_15.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_15.png
    :align: center
 
 Також можливо масово відмітити та **"Видалити"** обрані позиції з журналу товарів:
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_16.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_16.png
    :align: center
 
 .. _xls-filling:
 
 **1.2 Заповнення Товарного довідника за допомогою .XLS шаблону**
---------------------------------------------------------------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Розділ **«Масове завантаження»** дозволяє масово заванажити товари за допомогою шаблону Excel. Розділ містить **Інструкцію** з правилами коректного заповнення шаблону. Для початку потрібно **«Зберегти шаблон Excel»** (1) та після його заповнення **«Завантажити позиції з Excel»** (2):
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_17.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_17.png
    :align: center
 
 .. important::
    Зверніть увагу! Видаляти, міняти місцями колонки в шаблоні не можна. Колонки виділенні зеленим кольором - **обов'язкові до заповнення**.
 
-Якщо якусь з колонок заповнено некоректно, позиція зафарбується помаранчевим кольором та з'явиться повідомлення про помилку, у якій буде вказано, який саме стовбець заповнено неправильно: 
+Якщо певні колонки було заповнено некоректно, такі позиції зафарбуються помаранчевим кольором та з'явиться повідомлення про помилку, у якій буде вказано, який саме стовбець заповнено неправильно: 
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_08.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_08.png
    :align: center
 
 .. hint::
@@ -105,7 +104,7 @@
 
 Якщо всі дані заповнено вірно, перед вами відобразиться список доданих товарів. Відмітьте чекером усі товари, які Ви хочете додати в свій довідник. Товари можуть бути "загальними" чи відноситись до вказаної Мережі. Перед тим, як **"Створити"** обрані товарні позиції за потреби потрібно вказати приналежність до Мережі (впливає на пошук та додавання товарів в документах на web-платформі при роботі з Мережами):
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_18.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_18.png
    :align: center
 
 .. hint::
@@ -114,7 +113,7 @@
 .. _belong-to:
 
 **2 Задати приналежність до Мережі (скопіювати "Загальні товари")**
-=================================================================================
+``````````````````````````````````````````````````````````````````````````````
 
 Для того аби задати приналежність загальних товарів до Мережі (пошук та додавання товарів з довідника при роботі з Мережами) потрібно:
 
@@ -123,23 +122,25 @@
 3. Обрати Мережу зі списку;
 4. **"Копіювати"** товари з прив'язкою до Мережі. 
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_19.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_19.png
    :align: center
 
-.. _search:
+.. _catalogue-search:
 
 **3 Пошук**
-====================================
+```````````````````````````````````````
 
 Додані в довідник товари мають свій набір Характеристик (штрихкод, назву, чи артикул) та приналежність до "Загальних товарів" чи "Мережі". За цими параметрами легко та зручно відібрати чи знайти вже додані товари у Вашому довіднику:
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_20.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_20.png
    :align: center
 
-.. image:: pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_21.gif
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_21.gif
    :align: center
 
 З загальними принципами роботи пошукового рядка Ви можите ознайомитись за `посиланням <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__.
+
+.. кінець блоку для PCinstruction
 
 ----------------------------
    

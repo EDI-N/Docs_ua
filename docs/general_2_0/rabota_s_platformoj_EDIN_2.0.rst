@@ -52,9 +52,9 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_001.png
    :align: center
 
-Розділ "Особистого кабінету" складається з розділів: **"Акаунт"** і **"Налаштування"**: 
+Розділ "Особистого кабінету" складається з розділів: **"Акаунт"**, **"Налаштування"** і **"Довідники"** : 
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_008.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_038.png
    :align: center
 
 При переході до відповідного сервісу (продукту) відкривається інтерфейс відповідного сервісу для роботи.
