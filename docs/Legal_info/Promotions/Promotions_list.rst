@@ -11,4 +11,5 @@
    Special_promotion
    EDIN_Openprice_promotion
    EDIN_Network_integration_promotion
+   WhiteDoc_New_Year_promotion
    
