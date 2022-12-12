@@ -133,11 +133,6 @@
 .. image:: pics_WD_candidate_questionnaire/WD_candidate_questionnaire_018.png
    :align: center
 
-По кліку на поле відкриваєть модальне вікно підписання:
-
-.. image:: pics_WD_candidate_questionnaire/WD_candidate_questionnaire_019.png
-   :align: center
-
 .. include:: /WhiteDoc/WD_Instructions/WD_signing/WD_signing.rst
    :start-after: .. початок блоку для WD_candidate_questionnaire
    :end-before: .. кінець блоку для WD_candidate_questionnaire
