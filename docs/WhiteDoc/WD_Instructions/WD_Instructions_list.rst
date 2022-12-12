@@ -10,4 +10,7 @@
    WD_user_profile
    WD_admin_panel
 
-Розділ в процесі наповнення новими інструкціями по роботі з сервісом WhiteDoc
+.. toctree::
+   :maxdepth: 1
+   
+   WD_candidate_questionnaire
