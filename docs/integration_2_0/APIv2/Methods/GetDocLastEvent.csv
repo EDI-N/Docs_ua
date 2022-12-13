@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/eds/docs/event/last?gln=9864065732211&doc_id=3229**
+URL параметри ,"**gln** (обов'язково) - рядок (13); номер GLN Вашої організації (пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта);
+
+**doc_id** (обов'язково) long - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json
