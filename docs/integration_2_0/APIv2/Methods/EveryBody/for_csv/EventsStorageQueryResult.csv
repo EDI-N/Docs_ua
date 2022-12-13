@@ -5,6 +5,6 @@ lastEventId,long,ідентифікатор останньої події
 loadBody,boolean,передавати у відповіді пошуку тіло документа (параметр вказаний в тілі запиту)
 loadComments,boolean,передавати у відповіді пошуку коментарі документа (параметр вказаний в тілі запиту)
 loadStatuses,boolean,передавати у відповіді пошуку статуси документа (параметр вказаний в тілі запиту)
-loadTags,boolean,"передавати у відповіді пошуку `теги документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/APIv2_list.html#tags>`__ (параметр вказаний в тілі запиту)" 
+loadTags,boolean,"передавати у відповіді пошуку `теги документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/APIv2_list.html#tags>`__ (параметр вказаний в тілі запиту)"
 loadChain,boolean,"передавати у відповіді пошуку `дані пов'язаного ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ (параметр вказаний в тілі запиту)"
 loadAttachments,boolean,передавати у відповіді пошуку вкладення до документа (параметр вказаний в тілі запиту)
