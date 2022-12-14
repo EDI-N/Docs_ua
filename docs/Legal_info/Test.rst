@@ -73,16 +73,44 @@ Test
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/viewer?url=**https://www.fsc.esn.ac.lk/sites/default/files/2021-10/AcSchedule.pdf**&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+   <iframe src="https://docs.google.com/viewer?url=https://www.fsc.esn.ac.lk/sites/default/files/2021-10/AcSchedule.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
 
 11
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/%D0%A2%D0%B8%D0%BF%D1%83%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+   <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/ТипуДокумент.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
 
 12
 
 .. raw:: html
 
    <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/ТипуДокумент.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+
+13
+
+.. raw:: html
+
+   <embed src="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/ТипуДокумент.pdf" type="application/pdf" width="100%" height="100%">
+
+14
+
+.. raw:: html
+
+   <embed src="../_static/files/ТипуДокумент.pdf" type="application/pdf" width="100%" height="100%">
+
+15
+
+.. raw:: html
+
+   <object data="ТипуДокумент.pdf" type="application/pdf" width="100%" height="100%">
+   <p>Alternative text - include a link <a href="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/ТипуДокумент.pdf">to the PDF!</a></p>
+   </object>
+
+16
+
+.. raw:: html
+
+   <object data="ТипуДокумент.pdf" type="application/pdf" width="100%" height="100%">
+   <p>Alternative text - include a link <a href="https://github.com/EDI-N/Docs_ua/blob/master/docs/_static/files/ТипуДокумент.pdf">to the PDF!</a></p>
+   </object>
