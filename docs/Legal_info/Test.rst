@@ -115,21 +115,23 @@ Test
    <p>Alternative text - include a link <a href="https://github.com/EDI-N/Docs_ua/blob/master/docs/_static/files/DDD.pdf">to the PDF!</a></p>
    </object>
 
-17JS
+..
 
-.. raw:: html
+   17JS
 
-   <div id="example1"></div>
-   <script src="pdfobject.js"></script>
-   <script>PDFObject.embed("../_static/files/DDD.pdf", "#example1");</script>
+   .. raw:: html
 
-18JS
+      <div id="example1"></div>
+      <script src="pdfobject.js"></script>
+      <script>PDFObject.embed("../_static/files/DDD.pdf", "#example1");</script>
 
-.. raw:: html
+   18JS
 
-   <div id="example2"></div>
-   <script src="pdfobject.js"></script>
-   <script>PDFObject.embed("/_static/files/DDD.pdf", "#example2");</script>
+   .. raw:: html
+
+      <div id="example2"></div>
+      <script src="pdfobject.js"></script>
+      <script>PDFObject.embed("/_static/files/DDD.pdf", "#example2");</script>
 
 ..
 
@@ -155,24 +157,25 @@ Test
       </head>
       </html>
 
-18JS
 
-.. raw:: html
+   18JS
 
-   <div id="example5"></div>
-   <script src="pdfobject.js"></script>
-   <script>PDFObject.embed("https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf", "#example5");</script>
+   .. raw:: html
 
-no JS
+      <div id="example5"></div>
+      <script src="pdfobject.js"></script>
+      <script>PDFObject.embed("https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf", "#example5");</script>
 
-.. raw:: html
+   no JS
 
-   <object data='https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf' 
-         type='application/pdf' 
-         width='100%' 
-         height='100%'>
-   <p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf">Download PDF</a></p>
-   </object>
+   .. raw:: html
+
+      <object data='https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf' 
+            type='application/pdf' 
+            width='100%' 
+            height='100%'>
+      <p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf">Download PDF</a></p>
+      </object>
 
 JS pro
 
