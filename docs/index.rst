@@ -123,4 +123,5 @@ EDIN | Електронний документообіг для бізнесу
    :caption: Законодавство
 
    Zakon/Zakonodavcha_baza
+   Legal_info/Test
 
