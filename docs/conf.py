@@ -152,6 +152,7 @@ def setup(app):
 html_js_files = [
     'lang.js',
     'ultra_customs2.js',
+    'pdfobject.js',
 ]
 
 
