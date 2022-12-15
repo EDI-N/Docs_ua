@@ -10,6 +10,7 @@ Test
    </embed>
 
 10
+.. to preview content(PPT, XLS, XLSX, PDF, etc..)
 
 .. raw:: html
 
@@ -19,49 +20,9 @@ Test
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+   <iframe src="https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf" style="width:99.5%; height:907px;" frameborder="1"></iframe>
 
 
 13
 
-.. raw:: html
 
-   <embed src="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf" type="application/pdf" width="100%" height="100%">
-
-14
-
-.. raw:: html
-
-   <embed src="../_static/files/DDD.pdf" type="application/pdf" width="100%" height="100%">
-
-15
-
-.. raw:: html
-
-   <object data="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf" type="application/pdf" width="100%" height="100%">
-   <p>Alternative text - include a link <a href="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf">to the PDF!</a></p>
-   </object>
-
-16
-
-.. raw:: html
-
-   <object data="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf" type="application/pdf" width="100%" height="100%">
-   <p>Alternative text - include a link <a href="https://github.com/EDI-N/Docs_ua/blob/master/docs/_static/files/DDD.pdf">to the PDF!</a></p>
-   </object>
-
-
-
-
-
-
-no JS
-
-.. raw:: html
-
-   <object data='https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf' 
-         type='application/pdf' 
-         width='100%' 
-         height='100%'>
-   <p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf">Download PDF</a></p>
-   </object>
