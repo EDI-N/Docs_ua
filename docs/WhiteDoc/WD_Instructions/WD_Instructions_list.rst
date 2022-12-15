@@ -2,6 +2,7 @@
 ##################
 
 .. toctree::
+   :caption: Загальні інструкції
    :maxdepth: 1
    
    WD_registration
@@ -11,6 +12,14 @@
    WD_admin_panel
 
 .. toctree::
+   :caption: Конкретні документи
    :maxdepth: 1
    
    WD_candidate_questionnaire
+
+.. toctree::
+   :caption: Інтеграція
+   :maxdepth: 1
+   
+   integration_WD_guide
+   user_instruction_WD
