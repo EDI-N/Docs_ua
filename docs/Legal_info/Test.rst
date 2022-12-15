@@ -15,7 +15,7 @@ Test
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf&embedded=true" style="width:100%; height:500px;" aria-hidden="false" tabindex="0" frameborder="0"></iframe>
+   <iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/DDD.pdf&embedded=true" style="width:100%; height:1000px;" aria-hidden="false" tabindex="0" frameborder="0"></iframe>
 
 11
 
