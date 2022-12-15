@@ -5,7 +5,7 @@
    :caption: Робота в сервісі "EDI+ЮЗД"
    :maxdepth: 1
    
-   UkrNafta_Instructions/UkrNafta_Standard.rst
+   UkrNafta_Instructions/UkrNafta_Standard
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з "Укрнафта" [1]
