@@ -107,13 +107,7 @@
 	        "multiExtraFields": {}
 	      }
 	    }
-	  ],
-	  "loadBody": false,
-	  "loadComments": false,
-	  "loadStatuses": false,
-	  "loadTags": false,
-	  "loadChain": false,
-	  "loadAttachments": false
+	  ]
 	}
 
 Таблиця 1 - Опис параметрів об'єкта EventsStorageQueryResult
