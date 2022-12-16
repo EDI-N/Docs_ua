@@ -100,6 +100,7 @@ EDIN | Електронний документообіг для бізнесу
 
    WhiteDoc/WD_Instructions/WD_Instructions_list
    API <https://wd-api.edin.ua/swagger-ui/#/>
+   WhiteDoc/API/errors
 
 .. toctree::
    :maxdepth: 2
