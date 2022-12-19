@@ -17,9 +17,20 @@
    
    WD_candidate_questionnaire
 
+.. list manipulations - to main list
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :glob:
+
+   instruction_integration_list
+
+.. list manipulations - to this list
+
 .. toctree::
    :caption: Інтеграція
    :maxdepth: 1
    
-   integration_WD_guide
-   user_instruction_WD
+   Короткий посібник з інтеграції сервісу EDIN "WhiteDoc" з обліковими системи 1C | BAS <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/integration_WD_guide.html>
+   Інструкція користувача <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html>
