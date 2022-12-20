@@ -13,6 +13,14 @@ API
 | POST      | ``/api/authorization`` | `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ |
 +-----------+------------------------+-----------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+
 Налаштування рівнів погодження (тільки для Мережі)
 =========================================================
 
@@ -36,6 +44,21 @@ API
 | POST      | ``/api/es/user/spec_status``        | `Вказати нові дії узгодження для вказаного користувача в розрізі кожного підтипу документа AGREEM <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/PostSpecStatusController.html>`__         |
 +-----------+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   /integration_2_0/APIv2/Methods/GetCompanyUsers
+   Methods/GetSpecAllGlns
+   Methods/GetSpecViewStatusesController
+   Methods/GetSpecViewGlnsController
+   Methods/GetSpecStatusController
+   Methods/PostSpecViewStatusesController
+   Methods/PostSpecViewGlnsController
+   Methods/PostSpecStatusController
+
 Робота з контрактами / специфікаціями
 ================================================
 
@@ -54,6 +77,19 @@ API
 +-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 | POST      | ``/api/es/contracts/search`` | `Пошук контрактів/специфікацій (з фільтрацією) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/SearchContracts.html>`__          |
 +-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostContractController
+   Methods/PutContractController
+   Methods/GetContracts
+   Methods/GetContract
+   Methods/RemoveContractData
+   Methods/SearchContracts
 
 Робота з пропозиціями
 ============================
@@ -110,6 +146,36 @@ API
 | GET       | ``/api/v2/es/agreement/comdoc``    | `Отримати XML контента документа «Товарна специфікація» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreementComdoc.html>`__                                                |
 +-----------+------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetAgreements
+   Methods/GetRetailerEsSettings
+   Methods/GetAgreement
+   Methods/CreateAgreement
+   Methods/UpdateAgreement
+   Methods/CreateAgreementBody2
+   Methods/GetAgreementBody
+   Methods/UpdateAgreementBody
+   Methods/DeleteAgreement
+   Methods/DeleteAgreementAttachment
+   Methods/GetAgreementAttachment
+   Methods/GetAgreementAttachmentBody
+   Methods/PostAgreementAttachment
+   Methods/SendAgreement
+   Methods/SendAgreementComdoc
+   Methods/GetAgreementSigners
+   Methods/CopyAgreement
+   Methods/SearchAgreements
+   Methods/GetAgreementExcel
+   Methods/AgreementPositionAction
+   Methods/AgreementReject
+   Methods/PostAgreementComdoc
+   Methods/PatchAgreementComdoc
+   Methods/GetAgreementComdoc
 
 Робота з коментарями
 ============================
@@ -122,6 +188,15 @@ API
 | GET       | ``/api/es/agreement/comments`` | `Переглянути коментарі <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreementComments.html>`__                                      |
 +-----------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateAgreementComment
+   Methods/GetAgreementComments
+
 Робота зі статусами
 ============================
 
@@ -133,12 +208,21 @@ API
 | PUT       | ``/api/es/agreement/sub_status`` | `Оновити внутрішній статус пропозиції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/UpdateAgreementSubStatus.html>`__                                  |
 +-----------+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
+.. beauty list
 
 .. toctree::
+   :hidden:
+   :glob:
+
+   Methods/UpdateAgreementStatus
+   Methods/UpdateAgreementSubStatus
+
+.. old auto list (deprecated)
+
+    .. toctree::
     :hidden:
     :glob:
- 
+
     Methods/*
 
 
