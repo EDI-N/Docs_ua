@@ -13,6 +13,14 @@ API
 | POST      | ``/api/authorization`` | `Авторизація <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__ |
 +-----------+------------------------+---------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+
 Робота з Комерційними пропозиціями
 ========================================================
 
@@ -38,6 +46,21 @@ API
 | POST      | ``/api/es/agreement/body``        | `Створити тіло документа (комерційної пропозиції / товарного узгодження) / Додати обгрунтування до пропозиції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreementBody2.html>`__ |
 +-----------+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetAgreements
+   Methods/CreateAgreement
+   Methods/GetAgreement
+   Methods/UpdateAgreement
+   Methods/DeleteAgreement
+   Methods/SendAgreement
+   Methods/UpdateAgreementStatus
+   Methods/GetAgreementOfferExcel
+   Methods/CreateAgreementBody2
 
 .. Більше не використовуються (дивись таблицю вище)
     +-----------+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -83,6 +106,21 @@ API
 | DELETE    | ``/api/es/position/image``  | `Видалити зображення до товарної позиції (чернетка Комерційної пропозиції) <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/DelAgreementPositionImage.html>`__ |
 +-----------+-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostAgreementPosition
+   Methods/GetAgreementPosition
+   Methods/AgreementPositionSearch
+   Methods/PutAgreementPosition
+   Methods/DelAgreementPosition
+   Methods/PostAgreementPositionImage
+   Methods/GetAgreementPositionImage
+   Methods/DelAgreementPositionImage
+
 Робота з категоріями/групами
 ========================================================
 
@@ -98,17 +136,23 @@ API
 | DELETE    | ``/api/products/group`` | `Видалити групу / категорію (Мережа) <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/DelGroup.html>`__       |
 +-----------+-------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
-
-
-
-
-
-
+.. beauty list
 
 .. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetGroup
+   Methods/PutGroup
+   Methods/PostGroup
+   Methods/DelGroup
+
+.. old auto list (deprecated)
+
+    .. toctree::
     :hidden:
     :glob:
- 
+
     Methods/*
 
 
