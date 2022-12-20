@@ -267,7 +267,7 @@ value,M,decimal,Значення
 **ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
 **ram:ConsigneeReceiptLogisticsLocation**,,,Пункт розвантаження (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=723),O,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (початок блоку)"
-ram:TypeCode,M,string,Тип 723 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:TypeCode,M,string,"Тип 723 - використовується при зазначенні документа, що підтверджує надання спеціальних охоронних послуг (`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 ram:ID,M,string,"Номер документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
@@ -275,14 +275,14 @@ qdt:DateTimeString,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-1
 **ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=723),,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (закінчення блоку)"
 **ram:AssociatedReferencedDocument** (TypeCode=290),O,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (початок блоку)
-ram:TypeCode,M,string,Тип 290 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:TypeCode,M,string,Тип 290 - використовується при зазначенні передачі права предʼявлення претензії (`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
 qdt:DateTimeString,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час складання супровідного документа
 **ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=290),,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=916),O,,Супровідні документи на вантаж. Коригуючі акти (початок блоку)
-ram:TypeCode,M,string,Тип 916 (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:TypeCode,M,string,"Тип 916 - використовується при формуванні актів, для вказання попередньої транзакції поточного акту (`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 ram:ID,M,string,"Номер акта"
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
@@ -290,7 +290,16 @@ qdt:DateTimeString,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-1
 **ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=916),,,Супровідні документи на вантаж. Коригуючі акти (закінчення блоку)
 **ram:AssociatedReferencedDocument**,O,,Інші супровідні документи (початок блоку)
-ram:TypeCode,O,string,Тип (`довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__)
+ram:TypeCode,O,string,"Тип 
+
+* код 730 використовується для вказання попередніх транзакцій типу е-ТТН
+* код 730 також використовується при створенні актів для вказання е-ТТН до якого створюється акт
+* код 916 використовується при формуванні актів, для вказання попередньої транзакції поточного акту
+* код 723 при зазначенні документа, що підтверджує надання спеціальних охоронних послуг
+* код 290 при зазначенні передачі права предʼявлення претензії
+* код 119 при операціях з актом навантаження на проміжному складі, для зазначення попереднього акту розвантаження на цьому ж складі
+
+(`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 ram:ID,O,string,"Номер документа"
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)

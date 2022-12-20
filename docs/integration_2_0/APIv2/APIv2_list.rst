@@ -15,6 +15,15 @@ API v2
 | GET       | ``/api/auth_check``         | `Перевірка активності сесії <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/AuthCheck.html>`__ |
 +-----------+-----------------------------+--------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+   Methods/AuthCheck
+
 Робота з довідниками
 ============================
 
@@ -37,6 +46,21 @@ API v2
 +-----------+--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | GET       | ``/api/oas/identifiers``             | `Отримання інформації про організацію по Назві/ІПН/КПП/GLN <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/OasIdentifiers.html>`__                                            |
 +-----------+--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/OasUser
+   Methods/GetCompanyUsers
+   Methods/AccountIdentifiers
+   Methods/OasRetailers
+   Methods/RetailerIdentificators
+   Methods/Allretailers
+   Methods/OasUnits
+   Methods/OasIdentifiers
 
 Робота з документами
 ============================
@@ -89,6 +113,35 @@ API v2
 | GET       | ``/api/eds/doc/reports/doctype``           | `Отримати реєстр документів в xls форматі <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocTypeReport.html>`__                                                              |
 +-----------+--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateDocumentV2
+   Methods/SendDocument
+   Methods/SendDocumentWithoutDraft
+   Methods/DocsSearch
+   Methods/GetDocument
+   Methods/EdsChain
+   Methods/DocBody
+   Methods/GetXML
+   Methods/DownloadDocument
+   Methods/GetCondraFile
+   Methods/SendCondraDocument
+   Methods/CondraCreate
+   Methods/CondraCreateAndSend
+   Methods/PostDocStatuses
+   Methods/GetDocStatuses
+   Methods/AddDocumentBody
+   Methods/CreateDocument
+   Methods/GetOfficeUuid
+   Methods/SignCondraBody
+   Methods/UpdateExtraFields
+   Methods/ArchiveChain
+   Methods/GetDocTypeReport
+
 Робота з квитанціями
 ============================
 
@@ -124,14 +177,26 @@ API v2
 | POST      | ``/api/v2/eds/doc/reject``           | `Відмова від підписання (створення квитанції №13) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocReject.html>`__                                                          |
 +-----------+--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Робота в особистому кабінеті
-===================================
+.. beauty list
 
-+-----------+--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Метод** |            **URL запиту**            |                                                                    **Опис**                                                                    |
-+===========+======================================+================================================================================================================================================+
-| GET       | ``/api/oas/personal/tariff/balance`` | `Отримання даних по балансу, тарифам, історії транзакцій <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetBalanceData.html>`__ |
-+-----------+--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetTickets
+   Methods/GetSignersInfo
+   Methods/GetTicketBody
+   Methods/GetRepealTicketBody
+   Methods/GetRejectTicketBody
+   Methods/GetDocReject
+   Methods/CreateTicketV2
+   Methods/ComdocAccept
+   Methods/RepealRequest
+   Methods/RepealAccept
+   Methods/ComdocReject
+   Methods/ComdocRevoke
+   Methods/RepealReject
+   Methods/DocReject
 
 .. _tags:
 
@@ -153,6 +218,19 @@ API v2
 +-----------+-----------------------+--------------------------------------------------------------------------------------------------------------------+
 | DELETE    | ``/api/eds/doc/tags`` | `Вилучити теги з документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DropDocumentTags.html>`__ |
 +-----------+-----------------------+--------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateTags
+   Methods/GetTags
+   Methods/EditTags
+   Methods/DropTags
+   Methods/AddDocumentTags
+   Methods/DropDocumentTags
 
 .. _events:
 
@@ -182,10 +260,20 @@ API v2
 | POST      | ``/api/eds/docs/events``     | `Пошук подій <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocEvents.html>`__                            |
 +-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 
-
+.. beauty list
 
 .. toctree::
    :hidden:
    :glob:
 
-   Methods/*
+   Methods/GetDocLastEvent
+   Methods/GetDocEvents
+   Methods/PostDocEvents
+
+.. old auto list (deprecated)
+
+    .. toctree::
+    :hidden:
+    :glob:
+
+    Methods/*
