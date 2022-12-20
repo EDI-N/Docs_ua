@@ -15,6 +15,15 @@ API
 | GET       | ``/api/auth_check``         | `Перевірка активності сесії <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/AuthCheck.html>`__ |
 +-----------+-----------------------------+-------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+   Methods/AuthCheck
+
 Робота з е-ТТН
 ============================
 
@@ -38,7 +47,20 @@ API
 | POST      | ``/api/ettn/v2/eds/doc/processing_status`` | `Відправка статуса обробки документа ТТН <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/SetProcessingStatus.html>`__                                    |
 +-----------+--------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
 
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateConsignorETTN
+   Methods/CreateEttnV2XML
+   Methods/GetDocumentBodyV2
+   Methods/GetDocArchive
+   Methods/SaveEttnV2Sign
+   Methods/MarkDocumentAsRead
+   Methods/GetEttnBodyFinal
+   Methods/SetProcessingStatus
 
 Робота з іншими документами сервісу "ЕТТН"
 ============================================
@@ -101,6 +123,40 @@ API
 | GET       | ``/api/ettn/eds/doc/comments``         | `Отримання коментарів до документу сервісу "ЕТТН" <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetComments.html>`__                                |
 +-----------+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateDocAttachment
+   Methods/GetDocAttachment
+   Methods/DelDocAttachment
+   Methods/CreateBooking
+   Methods/CreateBookingConfirmation
+   Methods/CreateAcceptance
+   Methods/CreateDiscrepancy
+   Methods/CreateCompletion
+   Methods/CreateFromDraftDocument
+   Methods/DocSend
+   Methods/DelDocs
+   Methods/DocClone
+   Methods/GetDoc
+   Methods/GetChain
+   Methods/GetDocBody
+   Methods/GetSignersInfo
+   Methods/GetLinks
+   Methods/GetTicket
+   Methods/GetTickets
+   Methods/DocConfirm
+   Methods/DocReject
+   Methods/GetChainsList
+   Methods/GetDocList
+   Methods/SaveSignedData
+   Methods/ArcChains
+   Methods/AddComment
+   Methods/GetComments
+
 Робота з актами ("Акт перевантаження", "Акт розбіжностей до ТТН")
 ----------------------------------------------------------------------------------------------------
 
@@ -124,6 +180,21 @@ API
 | PUT       | ``/api/ettn/eds/act/reject``       | `Відхилити "Акт" <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/RejectAct.html>`__                                                                                  |
 +-----------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateReload
+   Methods/CreateDisagreement
+   Methods/CreateWarehouseChange
+   Methods/CreateAdjustment
+   Methods/CreateActXml
+   Methods/SaveActSign
+   Methods/SendAct
+   Methods/RejectAct
+
 Робота з довідниками
 ============================
 
@@ -145,10 +216,25 @@ API
 | GET       | ``/api/oas/invitation``                  | `Отримання запрошення для незареєстрованого користувача в сервісі ЕТТН <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetInvitation.html>`__                               |
 +-----------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
 
 .. toctree::
    :hidden:
    :glob:
 
-   Methods/*
+   Methods/ExtraData
+   Methods/CompanySearch
+   Methods/EmployeesSearch
+   Methods/AddressesSearch
+   Methods/SearchKatottg
+   Methods/GetCompany
+   Methods/GetInvitation
+
+.. old auto list (deprecated)
+
+    .. toctree::
+    :hidden:
+    :glob:
+
+    Methods/*
 

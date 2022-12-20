@@ -1,9 +1,19 @@
 Інструкції
 ##################
 
-.. не используется так, как пока что только одна инструкция - нет смысла
-
 .. toctree::
+   :caption: Функціонал сервісу
    :maxdepth: 1
    
    Work_with_Vilnyi
+
+Інтеграція
+==============
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Integration_Vilnyi/integration_Vilnyi_list
