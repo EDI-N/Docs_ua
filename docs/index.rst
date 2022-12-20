@@ -94,7 +94,7 @@ EDIN | Електронний документообіг для бізнесу
    API_PC/API_PC_list
 
 .. toctree::
-   :titlesonly:
+   :maxdepth: 2
    :caption: WhiteDoc
 
    WhiteDoc/WD_Instructions/WD_Instructions_list
