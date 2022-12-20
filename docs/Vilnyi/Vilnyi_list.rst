@@ -10,10 +10,8 @@
 Інтеграція
 ==============
 
-.. beauty list
-
 .. toctree::
-   :hidden:
-   :glob:
+   :maxdepth: 1
 
-   Integration_Vilnyi/integration_Vilnyi_list
+   Integration_Vilnyi/integration_Vilnyi_guide
+   Integration_Vilnyi/user_instruction_Vilnyi
