@@ -74,7 +74,7 @@
 .. image:: pics_user_instruction_WD/user_instruction_WD_003.png
    :align: center
 
-Функціональні кнопки для роботи з Конвертами (`"Скачати архів" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#arch-download>`__, `"Відхилити" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#env-decline`__, `"Підписати конверт" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#create-and-send>`__,) відображаються для всіх каталогів розділу, однак ці дії мають логічні обмеження (сповіщення про успішне виконання чи помилку з описом відображаються в "Службових повідомленнях"):
+Функціональні кнопки для роботи з Конвертами (`"Скачати архів" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#arch-download>`__, `"Відхилити" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#env-decline>`__, `"Підписати конверт" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#create-and-send>`__,) відображаються для всіх каталогів розділу, однак ці дії мають логічні обмеження (сповіщення про успішне виконання чи помилку з описом відображаються в "Службових повідомленнях"):
 
 .. image:: pics_user_instruction_WD/user_instruction_WD_004.png
    :align: center
