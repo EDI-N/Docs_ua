@@ -15,6 +15,15 @@ API
 | GET       | ``/api/auth_check``         | `Перевірка активності сесії <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/AuthCheck.html>`__ |
 +-----------+-----------------------------+------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+   Methods/AuthCheck
+
 Контрагенти
 ============================
 
@@ -23,6 +32,15 @@ API
 +===========+=====================================+=================================================================================================================================================================+
 | POST      | ``/api/distribex/producers/search`` | `Пошук контрагентів за назвою компанії, лінійкою та області наявності товару <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/SearchProducersList.html>`__ |
 +-----------+-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/SearchProducersList
+
 
 .. блок, що нижче має багато спільного з методами аналогічного блоку Дистриб"юшин
 
@@ -41,6 +59,17 @@ API
 | DELETE    | ``/api/distribex/epricelist`` | `Видалити товарну позицію з власного "Прайс-листа" / Видалити власний "Прайс-лист" <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/EPriceListDelete.html>`__ |
 +-----------+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/AddEPriceList
+   Methods/EPriceListEdit
+   Methods/EPriceListGet
+   Methods/EPriceListDelete
+
 Робота з документами
 ======================================
 
@@ -54,6 +83,16 @@ API
 | GET       | ``/api/eds/doc``             | `Отримання даних про документ (Замовлення) <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/GetDocument.html>`__                                               |
 +-----------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/DistribexOrder
+   Methods/SearchChains
+   Methods/GetDocument
+
 Довідники
 ======================================
 
@@ -63,10 +102,18 @@ API
 | POST      | ``/api/oas/categories/search`` | `Дерево категорій <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/SearchCategories.html>`__ |
 +-----------+--------------------------------+---------------------------------------------------------------------------------------------------+
 
-
+.. beauty list
 
 .. toctree::
    :hidden:
    :glob:
 
-   Methods/*
+   Methods/SearchCategories
+
+.. old auto list (deprecated)
+
+    .. toctree::
+    :hidden:
+    :glob:
+
+    Methods/*
