@@ -32,7 +32,7 @@
 * **"Документи ОС"** - розділ для роботи з документами ОС та їх швидкої відправки через модуль.
 
 .. hint::
-   Розділ **"Налаштування"** описано в `Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/integration_WD_guide.html>`__
+   Розділ **"Налаштування"** описано в `Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/integration_WD_guide.html>`__
 
 -------------------------------------
 
@@ -52,7 +52,7 @@
 1 Скринька
 =======================
 
-**"Скринька"** - це розділ, в журналі якого відображаються Конверти [3]_, якими з Вами обмінюються обрані Контрагенти на рівні обраного Мейлбокса [2]_ (`Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/integration_WD_guide.html>`__). В розділі відображаються Конверти відповідно до обраного журналу: 
+**"Скринька"** - це розділ, в журналі якого відображаються Конверти [3]_, якими з Вами обмінюються обрані Контрагенти на рівні обраного Мейлбокса [2]_ (`Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/integration_WD_guide.html>`__). В розділі відображаються Конверти відповідно до обраного журналу: 
 
 .. image:: pics_user_instruction_WD/user_instruction_WD_001.png
    :align: center
@@ -74,31 +74,31 @@
 .. image:: pics_user_instruction_WD/user_instruction_WD_003.png
    :align: center
 
-Функціональні кнопки для роботи з Конвертами (`"Скачати архів" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#arch-download>`__, `"Відхилити" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#env-decline>`__, `"Підписати конверт" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#create-and-send>`__,) відображаються для всіх каталогів розділу, однак ці дії мають логічні обмеження (сповіщення про успішне виконання чи помилку з описом відображаються в "Службових повідомленнях"):
+Функціональні кнопки для роботи з Конвертами (`"Скачати архів" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/user_instruction_WD.html#arch-download>`__, `"Відхилити" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/user_instruction_WD.html#env-decline>`__, `"Підписати конверт" <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/user_instruction_WD.html#create-and-send>`__,) відображаються для всіх каталогів розділу, однак ці дії мають логічні обмеження (сповіщення про успішне виконання чи помилку з описом відображаються в "Службових повідомленнях"):
 
 .. image:: pics_user_instruction_WD/user_instruction_WD_004.png
    :align: center
 
-За допомогою кнопки **"Швидка відправка"** можливо швидко створити та відправити конверт Вашим контрагентам (детальніше в розділі `Формування та відправки конверта <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#create-and-send>`__)
+За допомогою кнопки **"Швидка відправка"** можливо швидко створити та відправити конверт Вашим контрагентам (детальніше в розділі `Формування та відправки конверта <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/user_instruction_WD.html#create-and-send>`__)
 
 .. _OS-doc:
 
 2 Документи ОС
 =======================
 
-**"Документи ОС"** - це розділ, в журналі якого відображаються документи Вашої облікової системи згідно Налаштувань документів і Кнтагентів (`Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/integration_WD_guide.html>`__). Розділ містить фільтри за датою документа (поля "Дата з" / "по"):
+**"Документи ОС"** - це розділ, в журналі якого відображаються документи Вашої облікової системи згідно Налаштувань документів і Контрагентів (`Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/integration_WD_guide.html>`__). Розділ містить фільтри за датою документа (поля "Дата з" / "по"):
 
 .. image:: pics_user_instruction_WD/user_instruction_WD_012.png
    :align: center
 
-Документи, за якими вже було сформовано та відправлено Конверти відображаються зі `статусами <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#env-statuses>`__ цих Конвертів.
+Документи, за якими вже було сформовано та відправлено Конверти відображаються зі `статусами <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/user_instruction_WD.html#env-statuses>`__ цих Конвертів.
 
 Будь-який конверт журналу (на якому стоїть курсор) можливо переглянути в браузері за допомогою кнопки **"Переглянути конверт на веб-платформі"**:
 
 .. image:: pics_user_instruction_WD/user_instruction_WD_013.png
    :align: center
 
-Про підписання та відправку Конвертів з розділу "Документів ОС" детально описано `за посиланням <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/user_instruction_WD.html#OS-create-and-send>`__.
+Про підписання та відправку Конвертів з розділу "Документів ОС" детально описано `за посиланням <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/user_instruction_WD.html#OS-create-and-send>`__.
 
 .. _create-and-send:
 
@@ -143,7 +143,7 @@
 .. image:: pics_integration_WD_guide/integration_WD_guide_007.png
    :align: center
 
-Всі відправлені документи будуть відображатись в розділі **"Відправлені"**. Відправлені документи недоступні до редагування (редактировати можливо лише документ-чернетку).
+Всі відправлені документи будуть відображатись в журналі **"Відправлених"** розділу **"Скриньки"**. Відправлені документи недоступні до редагування (редагувати можливо лише документ-чернетку).
 
 .. _OS-create-and-send:
 
@@ -166,7 +166,7 @@
    "Відправник: Назва
    Отримувач: Повна назва
    Сума документа (якщо поле заповнене в документі ОС)";
-* формується pdf документа згідно налаштувань форм друку для вивантаження даного докумемнта ОС (`Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/integration_WD_guide.html>`__) та вкладається до Конверта;
+* формується pdf документа згідно налаштувань форм друку для вивантаження даного докумемнта ОС (`Інструкції по налаштуванню <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Integration/integration_WD_guide.html>`__) та вкладається до Конверта;
 * Конверт підписується (за потреби) та відправляється. 
 
 При першому підписанні за поточну сесію потрібно ввести пароль ключа підписанта:
@@ -174,7 +174,7 @@
 .. image:: pics_integration_WD_guide/integration_WD_guide_007.png
    :align: center
 
-Всі відправлені документи будуть відображатись в розділі **"Відправлені"**. Відправлені документи недоступні до редагування (редактировати можливо лише документ-чернетку).
+Всі відправлені документи будуть відображатись в розділі **"Відправлені"**. Відправлені документи недоступні до редагування (редагувати можливо лише документ-чернетку).
 
 .. _arch-download:
 
@@ -189,7 +189,7 @@
 .. image:: pics_user_instruction_WD/user_instruction_WD_005.png
    :align: center
 
-Завантажуються конверти у вигляді zip-архівів (найменування архіву = Темі конверта). Кожен з архівів містить каталоги (найменування=назві документа) для кожного документа, а також протокол подій конверта (AuditTrail.pdf). Кожен каталог зовнішнього документа містить:
+Завантажуються конверти у вигляді zip-архівів (найменування архіву згідно шаблону: "arch_ПоточнаДата_UUIDКонверта.zip"). Кожен з архівів містить каталоги (найменування=назві документа) для кожного документа, а також протокол подій конверта (AuditTrail.pdf). Кожен каталог зовнішнього документа містить:
 
    * Якщо документ не потребував підпису:
 
@@ -208,7 +208,7 @@
 
 Відправлений Конверт в статусі "В обробці" чи "Очікує на вас" (вхідний документ) можливо **"Відхилити"**. Для цього обов'язково потрібно відмітити конверт, вказати причину відхилення і підтвердити відхилення (**"ОК"**):
 
-.. image:: pics_user_instruction_WD/user_instruction_WD_005.png
+.. image:: pics_user_instruction_WD/user_instruction_WD_014.png
    :align: center
 
 Після чого Конверт змінює свій статус на "Скасовано", а причина відхилення відображається учасникам в детялях Конверта. Документообіг завершено.
