@@ -15,6 +15,15 @@ API
 | GET       | ``/api/auth_check``         | `Перевірка активності сесії <https://wiki.edin.ua/uk/latest/API_PC/Methods/AuthCheck.html>`__ |
 +-----------+-----------------------------+-----------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+   Methods/AuthCheck
+
 Робота з Налаштуваннями
 ============================
 
@@ -37,6 +46,21 @@ API
 +-----------+-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 | GET       | ``/api/oas/identifiers/agreements`` | `Отримати список договорів (GLN) <https://wiki.edin.ua/uk/latest/API_PC/Methods/GetIdentifiersAgreements.html>`__ |
 +-----------+-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostCompanyAgreementControl
+   Methods/GetCompanyAgreementControl
+   Methods/DelCompanyAgreementControl
+   Methods/CompaniesAgreements
+   Methods/PostIdentifierAgreementControl
+   Methods/GetIdentifierAgreementControl
+   Methods/DelIdentifierAgreementControl
+   Methods/GetIdentifiersAgreements
 
 Контрагенти. Факторинг
 ============================
@@ -67,6 +91,24 @@ API
 | POST      | ``/api/oas/factors/request/result`` | `Прийняти/відхилити заявку на факторинг (Фактор) <https://wiki.edin.ua/uk/latest/API_PC/Methods/PostFactorRequestResult.html>`__                             |
 +-----------+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostFactorsRequest
+   Methods/PutFactorsRequest
+   Methods/GetFactorsRequest
+   Methods/DelFactorsRequest
+   Methods/GetFactorRequestPDF
+   Methods/PostFactorRequestAttachments
+   Methods/GetFactorRequestAttachments
+   Methods/DelFactorRequestAttachments
+   Methods/GetFactors
+   Methods/GetFactorRequestS
+   Methods/PostFactorRequestResult
+
 Робота з контактами акаунта
 ======================================
 
@@ -81,6 +123,17 @@ API
 +-----------+-------------------------------+--------------------------------------------------------------------------------------------------------------+
 | GET       | ``/api/oas/account/contacts`` | `Отримати список всіх контактів акаунта <https://wiki.edin.ua/uk/latest/API_PC/Methods/ContactsList.html>`__ |
 +-----------+-------------------------------+--------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostContacts
+   Methods/GetContacts
+   Methods/DelContacts
+   Methods/ContactsList
 
 Документи АТС
 ============================
@@ -97,6 +150,17 @@ API
 | POST      | ``/api/oas/personal/signers``      | `Вказати/редагувати дані підписантів <https://wiki.edin.ua/uk/latest/API_PC/Methods/PostClientSigners.html>`__             |
 +-----------+------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetAccountActReport
+   Methods/SendActRequest
+   Methods/GetClientSigners
+   Methods/PostClientSigners
+
 Контрагенти. Мережі
 ============================
 
@@ -105,6 +169,14 @@ API
 +===========+=============================+=============================================================================================================+
 | GET       | ``/api/oas/retailers/list`` | `Отримання переліку торгових мереж <https://wiki.edin.ua/uk/latest/API_PC/Methods/GetRetailersList.html>`__ |
 +-----------+-----------------------------+-------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetRetailersList
 
 Баланс та вибір тарифу
 ===================================
@@ -115,9 +187,18 @@ API
 | GET       | ``/api/oas/personal/tariff/balance`` | `Отримання даних по балансу, тарифам, історії транзакцій <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetBalanceData.html>`__ |
 +-----------+--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
 
 .. toctree::
    :hidden:
    :glob:
 
-   Methods/*
+   /integration_2_0/APIv2/Methods/GetBalanceData
+
+.. old auto list (deprecated)
+
+    .. toctree::
+    :hidden:
+    :glob:
+
+    Methods/*
