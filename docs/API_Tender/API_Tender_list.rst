@@ -15,6 +15,15 @@ API
 | GET       | ``/api/auth_check``         | `Перевірка активності сесії <https://wiki.edin.ua/uk/latest/API_Tender/Methods/AuthCheck.html>`__ |
 +-----------+-----------------------------+---------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+   Methods/AuthCheck
+
 Робота зі ставками
 ============================
 
@@ -25,6 +34,15 @@ API
 +-----------+-----------------------------+-----------------------------------------------------------------------------------------------------------------------+
 | DELETE    | ``/api/v1/tender/lot/bets`` | `Видалити ставку по лоту тендера (Організатор) <https://wiki.edin.ua/uk/latest/API_Tender/Methods/DeleteBets.html>`__ |
 +-----------+-----------------------------+-----------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/AddBets
+   Methods/DeleteBets
 
 Робота з тендерами
 ============================
@@ -53,6 +71,23 @@ API
 | POST      | ``/api/v1/tender/auction/access/invite`` | `Запросити компанії взяти участь в тендері (Організатор) <https://wiki.edin.ua/uk/latest/API_Tender/Methods/InvitePartners.html>`__     |
 +-----------+------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateAuction
+   Methods/PublishAuction
+   Methods/GetSingle
+   Methods/GetDraftsList
+   Methods/GetMyList
+   Methods/GetAllList
+   Methods/GetAuctionViews
+   Methods/GetAllListGuest
+   Methods/CloseAuction
+   Methods/InvitePartners
+
 Вкладення
 ============================
 
@@ -68,6 +103,17 @@ API
 | DELETE    | ``/api/v1/tender/attachment``  | `Видалити вкладення до тендера / лота (Організатор) <https://wiki.edin.ua/uk/latest/API_Tender/Methods/DeleteAttachments.html>`__                                     |
 +-----------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/CreateAttachments
+   Methods/GetListAttachments
+   Methods/GetFileAttachments
+   Methods/DeleteAttachments
+
 Робота з підписками
 ============================
 
@@ -80,6 +126,16 @@ API
 +-----------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | DELETE    | ``/api/v1/tender/user/subscribes`` | `Видалити підписку на користувача (Адміністратор акаунта) <https://wiki.edin.ua/uk/latest/API_Tender/Methods/DelSubscribe.html>`__                        |
 +-----------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetSubscribe
+   Methods/PostSubscribe
+   Methods/DelSubscribe
 
 Довідники
 ============================
@@ -96,6 +152,16 @@ API
 | GET       | ``/api/v1/tender/units``      | `Отримати довідник одиниць виміру <https://wiki.edin.ua/uk/latest/API_Tender/Methods/GetUnits.html>`__ |
 +-----------+-------------------------------+--------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetCategories
+   Methods/GetCurrency
+   Methods/GetRegions
+   Methods/GetUnits
 
 Довідник учасників
 ============================
@@ -112,14 +178,24 @@ API
 | DELETE    | ``/api/v1/tender/participant_group``      | `Видалити групу учасників <https://wiki.edin.ua/uk/latest/API_Tender/Methods/DelParticipantGroupController.html>`__             |
 +-----------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
 
-
+.. beauty list
 
 .. toctree::
    :hidden:
    :glob:
 
-   Methods/*
+   Methods/ParticipantGroups
+   Methods/GetParticipantGroupController
+   Methods/PostParticipantGroupController
+   Methods/DelParticipantGroupController
 
+.. old auto list (deprecated)
+
+    .. toctree::
+    :hidden:
+    :glob:
+
+    Methods/*
 
 
 

@@ -15,6 +15,15 @@ API
 | GET       | ``/api/auth_check``         | `Перевірка активності сесії <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/AuthCheck.html>`__ |
 +-----------+-----------------------------+---------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/Authorization
+   Methods/AuthCheck
+
 Робота з документами
 ============================
 
@@ -44,6 +53,23 @@ API
 | PATCH     | ``/api/sd/eds/doc/send/recipients`` | `Додати отримувача до відправленого документа <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/SendToNewRecipients.html>`__ |
 +-----------+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostDocument
+   Methods/GetDocument
+   Methods/PatchDocument
+   Methods/DelDocument
+   Methods/DeclineDocument
+   Methods/DocumentZip
+   Methods/GetDocumentBody
+   Methods/SendDocument
+   Methods/SetImportant
+   Methods/SearchDocuments
+   Methods/SendToNewRecipients
 
 Робота з файлами (вкладення до документа)
 ========================================================
@@ -58,6 +84,16 @@ API
 | DELETE    | ``/api/sd/eds/doc/attachment`` | `Видалити файл-вкладення (чернетка) <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/DelAttachment.html>`__ |
 +-----------+--------------------------------+---------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostAttachment
+   Methods/GetAttachment
+   Methods/DelAttachment
+
 Підписання
 ============================
 
@@ -71,6 +107,16 @@ API
 | POST      | ``/api/sd/eds/doc/create_and_send`` | `Створення та відправка документа (без створення чернетки) <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/CreateAndSend.html>`__ |
 +-----------+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostSign
+   Methods/GetSign
+   Methods/CreateAndSend
+
 Робота з довідниками
 ========================================================
 
@@ -79,6 +125,14 @@ API
 +===========+==================================+=============================================================================================================================================================+
 | GET       | ``/api/oas/v2/employees/search`` | `Отримання даних контрагента за ім'ям / ІПН / email / ЄДРПОУ / номером телефону <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/SearchEmployees.html>`__ |
 +-----------+----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/SearchEmployees
 
 Контрагенти
 ============================
@@ -96,6 +150,18 @@ API
 +-----------+------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | POST      | ``/api/oas/partners/invite`` | `Відправити запрошення контрагентам <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/SendPartnersInvitation.html>`__                                   |
 +-----------+------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/PostPartnerController
+   Methods/GetPartnerController
+   Methods/PostPartnerList
+   Methods/GetPartnerList
+   Methods/SendPartnersInvitation
 
 Робота з тегами
 ============================
@@ -116,11 +182,23 @@ API
 | DELETE    | ``/api/sd/eds/doc/tags``      | `Вилучити теги з документа <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/DelDocumentTags.html>`__ |
 +-----------+-------------------------------+--------------------------------------------------------------------------------------------------------+
 
-
-
+.. beauty list
 
 .. toctree::
    :hidden:
    :glob:
 
-   Methods/*
+   Methods/PostTags
+   Methods/GetTags
+   Methods/PutTags
+   Methods/DelTags
+   Methods/PostDocumentTags
+   Methods/DelDocumentTags
+
+.. old auto list (deprecated)
+
+    .. toctree::
+    :hidden:
+    :glob:
+
+    Methods/*
