@@ -9,4 +9,4 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__ "
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу передається `масив об'єктів Signature <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/SignatureList.html>`__. Кожен об'єкт Signature повинен містити файл підпису вказаного в запиті документа (файл підпису p7s в base64 форматі) в полі partySignature."
+JSON Body     ,"В тілі запиту методу передається масив файлів підпису p7s в base64 форматі."

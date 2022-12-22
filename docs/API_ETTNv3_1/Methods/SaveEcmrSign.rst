@@ -18,6 +18,12 @@
   :widths:  10, 41
   :stub-columns: 0
 
+Приклад тіла запиту:
+
+.. code:: json
+
+   ["ZGZkZmRmZGZkZmRmdnh2dmM==", "ZGZkZmRmZGZkZmRmdnh2dmM=="]
+
 **RESPONSE**
 
 Код сервера 200 (ok).
