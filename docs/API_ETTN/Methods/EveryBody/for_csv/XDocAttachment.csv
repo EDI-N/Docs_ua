@@ -5,8 +5,8 @@ docUUID,UUID,унікальний ідентифікатор документа
 attachmentUUID,UUID,унікальний ідентифікатор вкладення
 fileName,String,найменування файлу
 createDate,long,дата створення вкладення; формат unix timestamp
-type,String,тип вкладення; це можу бути числове значення (1-25) з довідника `DICT.01.10 <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=0>`__
+type,String,тип вкладення; це може бути числове значення (1-25) з довідника `DICT.01.10 <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=0>`__
 base64content,String,зміст вкладення в BASE64
 content,transient byte[],байтовий масив контенту
 signs,List<XDocAttachmentSign_>,масив об'єктів; підписи вкладень (файлів)
-signHash,String,хеш підпису
+signHash,String,хеш тіла вкладення (в base64) для формування підпису
