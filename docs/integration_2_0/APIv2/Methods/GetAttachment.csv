@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                         
+URL запиту    , **/api/eds/doc/attachment?gln=9864065732211&attachment_uuid=b7e53a94-dd61-4e8b-bc98-44100e434efb**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі;
+
+**attachment_uuid** (обов'язково) UUID - ідентифікатор файла-вкладення (параметр attachmentUUID в тілі відповіді при `додаванні файла <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostAttachment.html>`__)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , `MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__ згідно типу файлу-вкладення
