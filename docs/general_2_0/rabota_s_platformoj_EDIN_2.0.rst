@@ -96,7 +96,7 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_003.png
    :align: center
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_283.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_039.png
    :align: center
 
 В профілі користувача відображаються блоки:
