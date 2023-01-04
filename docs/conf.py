@@ -73,7 +73,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Docs'
-copyright = '2022, EDIN'
+copyright = '2023, EDIN'
 author = 'EDIN'
 
 # The version info for the project you're documenting, acts as replacement for
