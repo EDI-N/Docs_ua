@@ -6,10 +6,12 @@
 
 .. code:: json
 
-	{
-	  "all": true,
-	  "withSubCategories": true
-	}
+  {
+    "all": true,
+    "withSubCategories": true,
+    "ids": [ 1, 15, 18 ],
+    "names": [ "Хліб", "Масло", "Ковбаса" ]
+  }
 
 Таблиця 1 - Опис параметрів об'єкта **XSearchCategories**
 
