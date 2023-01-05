@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** (json) передаються `дані договору (GLN) <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/IdentificatorAgreement.html>`__.
+В тілі **відповіді** (json) передаються `дані договору (GLN) <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/IdentifierAgreementResponse.html>`__.

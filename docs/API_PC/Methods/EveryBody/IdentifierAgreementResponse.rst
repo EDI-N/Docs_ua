@@ -7,14 +7,32 @@
 .. code:: json
 
 	{
-	  "date": 1672869600,
+	  "id": 447,
 	  "gln": "9864067143367",
-	  "number": "100500",
 	  "partner": {
-	    "id": 13201459
+	    "id": 13201459,
+	    "companyId": 0,
+	    "retailerId": 0,
+	    "isUzdAts": 0,
+	    "isFinCrypt": 0,
+	    "countryId": 0,
+	    "isERNN": 0,
+	    "dpiCReg": 0,
+	    "dpiCRaj": 0,
+	    "isDeclarDateNumRequired": false,
+	    "distribexUser": 0,
+	    "isWithoutTax": false,
+	    "taxSource": 0,
+	    "isSignConfirm": 0,
+	    "isSpecification": 0,
+	    "isCompany": 0,
+	    "parentId": 0
 	  },
-	  "prolongation": 1,
-	  "type": 1
+	  "date": 1672869600,
+	  "expiredDate": 0,
+	  "number": "100500",
+	  "type": 1,
+	  "prolongation": 1
 	}
 
 Таблиця 1 - Опис параметрів об'єкта **IdentificatorAgreement**
@@ -25,7 +43,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 2 - Опис параметрів об'єкта **Identificator** (в запиті важливо передати лише **id** компанії-партнера (решта не обов'язково))
+Таблиця 2 - Опис параметрів об'єкта **Identificator**
 
 .. csv-table:: 
   :file: ../../../integration_2_0/APIv2/Methods/EveryBody/for_csv/Identificator.csv

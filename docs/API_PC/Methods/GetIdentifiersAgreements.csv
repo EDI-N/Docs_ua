@@ -1,6 +1,7 @@
 **URL**       ,
 Метод запиту  , GET                                         
 URL запиту    , **/api/oas/identifiers/agreements**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
 Content-Type  , application/json

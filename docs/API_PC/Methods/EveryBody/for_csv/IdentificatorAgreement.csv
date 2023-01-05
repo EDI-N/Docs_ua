@@ -2,12 +2,18 @@
 .. _IdentificatorAgreement: , Об'єкт **IdentificatorAgreement**,,
 id,,long,id договору
 gln,M,String,GLN
-retailerId,M,long,id мережі
+**partner**,M,Identificator_,об'єкт; дані партнера
 date,M,long,дата договору (Unix timestamp)
+expiredDate,O,long,дата закінчення договору (Unix timestamp)
 number,M,String,номер договору
 type,O,int,"id типу договору; число
 
 * 0 - не выбрано
 * 1 - Договір поставки
-* 2 - Договір маркетингу
-* 3 - Договір послуг"
+* 2 - Договір перевезень
+* 3 - Договір послуг
+* 4 - Договір факторингу"
+prolongation,O,int,"автоматична пролонгація
+
+* 0 - ні
+* 1 - так"
