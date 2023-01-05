@@ -11,8 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** (json) передається об'єкт з id договору ( **agreement_id** ), наприклад:
-
-.. code:: json
-
-	{"agreement_id":73}
+В тілі **відповіді** (json) передається `об'єкт з даними створеного договору (GLN) <https://wiki.edin.ua/uk/latest/API_PC/Methods/EveryBody/IdentifierAgreementResponse.html>`__.
