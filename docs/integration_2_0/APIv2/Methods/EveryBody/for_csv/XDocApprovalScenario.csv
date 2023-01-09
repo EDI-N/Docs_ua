@@ -1,0 +1,10 @@
+Параметр,Формат,Опис
+.. _XDocApprovalScenario: ,**Об'єкт XDocApprovalScenario** ,
+id,long,id сценарію
+actual,boolean,"актуальність
+
+* true - актуальний
+* false - архівний"
+userId,long,id користувача
+name,String,назва сценарію
+body,List<XDocApprovalStep_>,масив об'єктів; тіло сценарію (кроки погодження документів)

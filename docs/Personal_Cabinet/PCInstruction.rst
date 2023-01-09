@@ -581,7 +581,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_13.png
    :align: center
 
-#. Папка "Вхідні" містить всі вхідні документи від компанії-провайдера для їх подальшого підписання ("Акти наданих послуг" (`COMDOC_018 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__) та "Податкові накладні" (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__)).
+#. Папка "Вхідні" містить всі вхідні документи від компанії-провайдера для їх подальшого підписання ("Акти наданих послуг" (`COMDOC_018 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__), "Акти коригування" (`COMDOC_036 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-036>`__) та "Податкові накладні" (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__)).
 #. Папка "Надіслані" містить всі відправлені документи для компанії-провайдера.
 #. Папка "Архів" містить всі архівні і оброблені документи, які перенесені в архів.
 #. Папка "Рахунки" містить рахунки від компанії-провайдера для своєчасної оплати доступу.
