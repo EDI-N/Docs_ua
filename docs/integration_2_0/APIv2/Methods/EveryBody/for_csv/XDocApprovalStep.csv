@@ -1,0 +1,14 @@
+Параметр,Формат,Опис
+.. _XDocApprovalStep: ,**Об'єкт XDocApprovalStep** ,
+docId,long,id документа
+scenarioId,long,id сценарію
+stepId,int,id кроку погодження
+userId,long,id користувача
+stepStatus,int,"статус кроку погодження (TO DO ЧИ ТОЧНО ТАК?)
+
+* 0 - на погодженні
+* 1 - погоджено
+* 2 - відхилено"
+operationType,int,тип операції (TO DO: 1 - , 2 - )
+stepInfo,String,інфо кроку погодження
+dateChanged,long,дата останньої зміни (unix timestamp)
