@@ -72,7 +72,7 @@
 * Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__)
 * Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__)
 * Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
-* Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
+* Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
 * Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)).
 
 У "Чернетках" доступне **Масове підписання / відправка**:
@@ -82,7 +82,7 @@
 * Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__)
 * Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__)
 * Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
-* Акт наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
+* Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
 * Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)
 
 .. note::

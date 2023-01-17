@@ -35,7 +35,7 @@
 113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BOOKINGpage_v2.html>`__
 114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BookingConfirmationPage_v2.html>`__
 112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__
-118,docinvoiceact,`Акт наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
+118,docinvoiceact,`Акт приймання наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__
 120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#contrl>`__
 121,ttn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__

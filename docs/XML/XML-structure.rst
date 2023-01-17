@@ -689,10 +689,10 @@ XML Специфікації
 
 ---------
 
-Акт виконаних робіт (DOCINVOICEACT)
+Акт приймання наданих послуг (DOCINVOICEACT)
 =============================================
 
-.. csv-table:: Акт виконаних робіт (DOCINVOICEACT)
+.. csv-table:: Акт приймання наданих послуг (DOCINVOICEACT)
   :file: files/DOCINVOICEACT.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
