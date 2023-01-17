@@ -25,6 +25,7 @@ dirFirstName, String(150), ім'я директора
 director,String(100),ПІБ директора
 apartment, String(20), квартира
 zip, String(20), поштовий індекс
+katottg, String(20), код КАТОТТГ
 city, String(50), місто
 street, String(100), назва вулиці
 regionCode, String(3), код регіону
