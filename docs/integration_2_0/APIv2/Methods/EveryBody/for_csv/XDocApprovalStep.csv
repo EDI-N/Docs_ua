@@ -4,11 +4,14 @@ docId,long,id документа
 scenarioId,long,id сценарію
 stepId,int,id кроку погодження
 userId,long,id користувача
-stepStatus,int,"статус кроку погодження (TO DO ЧИ ТОЧНО ТАК?)
+stepStatus,int,"статус кроку погодження
 
 * 0 - на погодженні
 * 1 - погоджено
 * 2 - відхилено"
-operationType,int,тип операції (TO DO: 1 - , 2 - )
-stepInfo,String,інфо кроку погодження
+operationType,int,"тип операції
+
+* 1 - проходження проміжного погодження
+* 2 - завершення кінцевого погодження"
+stepInfo,String,інфо кроку погодження (текст причини відхилення на даному кроці)
 dateChanged,long,дата останньої зміни (unix timestamp)

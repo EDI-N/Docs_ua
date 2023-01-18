@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються `дані сценарію/-їв <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetXDocApprovalScenario.html>`__ (об'єкт / масив об'єктів XDocApprovalScenario).
+В тілі **відповіді** передаються `дані сценарію <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetXDocApprovalScenario.html>`__ (об'єкт / масив об'єктів XDocApprovalScenario).
