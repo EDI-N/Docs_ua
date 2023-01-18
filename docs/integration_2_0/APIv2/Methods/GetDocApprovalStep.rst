@@ -11,4 +11,4 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються `дані кроків погодження <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetXDocApprovalStep.html>`__ (масив об'єктів XDocApprovalStep).
+В тілі **відповіді** передаються `дані кроків погодження <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetXDocApprovalStep.html>`__ (об'єкт з масивами об'єктів XDocApprovalStep).
