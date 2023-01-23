@@ -14,4 +14,4 @@ subContractNumber,String,номер договору
 **expireDate**,DateTimeRange_,об'єкт; дата закінчення специфікації (в форматі UNIX-timestamp) з / по
 **subContractExpireDate**,DateTimeRange_,об'єкт; дата договору (в форматі UNIX-timestamp) з / по
 **changeDate**,DateTimeRange_,об'єкт; дата зміни специфікації (в форматі UNIX-timestamp) з / по
-**limit**,Limitation_,объект; фільтр відбору (налаштування виводу даних)
+**limit**,Limitation_,об'єкт; фільтр відбору (налаштування виводу даних)

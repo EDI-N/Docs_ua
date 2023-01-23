@@ -291,7 +291,7 @@
 
 .. _fieldName:
 
-Таблиця 8 - Опис **fieldName** параметрів (объект ExtraQueryParameters_)
+Таблиця 8 - Опис **fieldName** параметрів (об'єкт ExtraQueryParameters_)
 
 .. csv-table:: 
   :file: for_csv/extra_fields.csv
@@ -301,7 +301,7 @@
 
 .. _опис_параметрів:
 
-Таблиця 9 - Опис **DocType** параметрів (объект XDocType_)
+Таблиця 9 - Опис **DocType** параметрів (об'єкт XDocType_)
 
 .. csv-table:: 
   :file: for_csv/xdoctype_p.csv

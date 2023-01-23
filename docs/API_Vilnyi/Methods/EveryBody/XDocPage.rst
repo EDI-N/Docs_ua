@@ -193,7 +193,7 @@
 
 .. _опис_параметрів:
 
-Таблиця 14 - Опис **DocType** параметрів (объект XDocType_)
+Таблиця 14 - Опис **DocType** параметрів (об'єкт XDocType_)
 
 .. csv-table:: 
   :file: ../../../API_ETTN/Methods/EveryBody/for_csv/xdoctype_p.csv
