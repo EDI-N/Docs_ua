@@ -33,7 +33,7 @@ status,XDocStatus_,об'єкт; статус пари документів у в
 exchange_status,String,сабстатус документа (`детальніше <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__)
 is_archive,boolean,"відмітка; **Архівний** документ чи ні"
 signInfo,XDocSignInfo_,об'єкт; дані про підписи
-chain,XChain,объект; дані пов'язаних ланцюжків
+chain,XChain,об'єкт; дані пов'язаних ланцюжків
 extraFields,"Map<String, String>",масив об'єктів; набір індексів (аналог індексних таблиць)
 tags,List<XTag_>,масив об'єктів; прикріплені теги
 statuses,List<XStatus_>,масив об'єктів; статуси обробки відправлених документів

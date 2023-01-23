@@ -34,7 +34,7 @@ contractGlnIDs,List<Integer>,"масив; id Gln-нів контрагентів
 **dateCreated**,DateTimeRange_,об'єкт; дата створення документа (в форматі UNIX-timestamp) з / по
 **dateChanged**,DateTimeRange_,об'єкт; дата зміни документа (в форматі UNIX-timestamp) з / по
 **docDate**,DateTimeRange_,об'єкт; дата документа (в форматі UNIX-timestamp) з / по
-**limit**,Limitation_,объект; фільтр відбору (налаштування виводу даних)
+**limit**,Limitation_,об'єкт; фільтр відбору (налаштування виводу даних)
 docNumber,String,номер документа
 archive,Boolean,"відмітка про те, що документ оброблений (архівний)"
 withChilds,Boolean,"відмітка про наявність дочірніх документів"

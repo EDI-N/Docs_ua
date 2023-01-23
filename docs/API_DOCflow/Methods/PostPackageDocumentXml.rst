@@ -22,7 +22,7 @@
 
 ``REQUEST``
 
-В тілі **запиту** в form-data передається файл xml та параметри JSON объекта documentStore в полі document_store.
+В тілі **запиту** в form-data передається файл xml та параметри JSON об'єкта documentStore в полі document_store.
 
 Таблиця 1 - Опис json-параметрів **запиту** метода API (дані комплекту - об'єкт **DocumentStore** )
 
