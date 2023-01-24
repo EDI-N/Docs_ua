@@ -4,7 +4,7 @@
 **Індиксація CONDRA (додавання / оновлення полей екстрапараметрів)**
 #########################################################################
 
-**JSON:**
+**Приклад CONDRA:**
 
 .. code:: json
 
@@ -21,3 +21,25 @@
       "delivery_place_uuid": "4820000000000", // gln місця доставки
       "file_name": "77f00932fd46bf24ec6046f373898fd7.gif" // повне ім'я файлу без дерикторії, але з розширенням.
     }
+
+**Приклад TRANSPORTATIONORDER:**
+
+.. code:: json
+
+	{
+	  "carrier_uuid": "9864065747215",
+	  "partner_id": "0",
+	  "sub_doc_type_id": "1",
+	  "sender": "9864065737773",
+	  "doc_num": "Zaya_001",
+	  "customer_uuid": "9864065737773",
+	  "doc_date": 1674424800,
+	  "draft_date_created": "1674484067",
+	  "recipient": "9864065747215",
+	  "doc_process": "0",
+	  "driver_uuid": "null",
+	  "car_number": "null",
+	  "trailer_number": "null",
+	  "semitrailer_number": "null"
+	}
+
