@@ -55,6 +55,7 @@
         <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
         <InvoiceUnitNetPrice>12.00000</InvoiceUnitNetPrice>
         <TaxRate>20</TaxRate>
+        <TaxCategoryCode>S</TaxCategoryCode>
         <GrossAmount>43.20</GrossAmount>
         <TaxAmount>7.20</TaxAmount>
         <NetAmount>36.00</NetAmount>
@@ -71,6 +72,7 @@
         <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
         <InvoiceUnitNetPrice>5.68000</InvoiceUnitNetPrice>
         <TaxRate>20</TaxRate>
+        <TaxCategoryCode>S</TaxCategoryCode>
         <GrossAmount>20.46</GrossAmount>
         <TaxAmount>3.42</TaxAmount>
         <NetAmount>17.04</NetAmount>
