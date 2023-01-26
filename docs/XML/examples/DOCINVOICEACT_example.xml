@@ -70,8 +70,8 @@
 					<UnitOfMeasure>грн.</UnitOfMeasure>
 					<UnitNetPrice>-8000020</UnitNetPrice>
 					<UnitGrossPrice>-9600024</UnitGrossPrice>
-					<TaxRate>20%</TaxRate>
-					<TaxCategoryCode/>
+					<TaxRate>20</TaxRate>
+					<TaxCategoryCode>S</TaxCategoryCode>
 					<NetAmount>-8000020</NetAmount>
 					<GrossAmount>-9600424</GrossAmount>
 					<TaxAmount>-1600004</TaxAmount>
