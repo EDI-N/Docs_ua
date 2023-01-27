@@ -1,0 +1,12 @@
+Параметр,Тип [1]_,Формат,Опис
+**Для name=TRANSPORT:**,,,
+isTrailer,M,int,"тип транспортного засобу:
+
+* 0 - автомобіль
+* 1 - причіп
+* 2 - напівпричіп"
+number,M,String,реєстраційний номер
+brand,M,String,марка
+model,M,String,модель
+type,M,String,тип
+color,O,String,колір
