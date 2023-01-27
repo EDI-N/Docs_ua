@@ -16,5 +16,5 @@ ipn,M,String,IПН
 position,M,String,Посада
 phone,M,String,Телефон
 email,O,String,E-mail
-isPartner,M,String,"чи є представником Мережі: 0 -ні, 1-так" 
+isPartner,M,String,"чи є представником Мережі: 0 -ні, 1-так"
 companyGln,M,String,GLN компанії
