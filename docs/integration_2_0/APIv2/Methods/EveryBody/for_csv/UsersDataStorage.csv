@@ -1,0 +1,8 @@
+Параметр,Формат,Опис
+.. _UsersDataStorage: ,Об'єкт **UsersDataStorage**,
+id,long,ідентифікатор довідника
+name,String,"назва довідника; допустимі значення:
+
+* TRANSPORT - транспортні засоби
+* TTN_RESPONSIBLE_PERSONS - відповідальні особи"
+values,text,"json = набір полів, як значення довідника"
