@@ -10,3 +10,11 @@ brand,M,String,марка
 model,M,String,модель
 type,M,String,тип
 color,O,String,колір
+**Для name=TTN_RESPONSIBLE_PERSONS:**,,,
+name,M,String,ПІБ
+ipn,M,String,IПН
+position,M,String,Посада
+phone,M,String,Телефон
+email,O,String,E-mail
+isPartner,M,String,"чи є представником Мережі: 0 -ні, 1-так" 
+companyGln,M,String,GLN компанії

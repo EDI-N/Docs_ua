@@ -10,6 +10,12 @@
 	  "{\"isTrailer\":0,\"number\":\"AA0000AA\",\"brand\":\"Ferrari\",\"model\":\"F40\",\"type\":\"гоночна\",\"color\":\"червона\"}"
 	]
 
+.. code:: json
+
+	[
+	  "{\"name\":\"Антимоскаль Іван Микитович\",\"ipn\":\"1234568445\",\"position\":\"артилерист\",\"phone\":\"380562351849\",\"email\":\"xevesid221@breazeim.com\",\"isPartner\":false,\"companyGln\":\"9864065732181\"}"
+	]
+
 Таблиця 1 - Опис значень **values**
 
 .. csv-table:: 
