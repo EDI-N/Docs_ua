@@ -1,11 +1,10 @@
 #############################################################
-**Перегляд пропозиції (Response)**
+**Перегляд пропозиції / узгодження (Response)**
 #############################################################
 
-**JSON body_type=1 (Документ AGREEM):**
+**JSON body_type=1 (Документ AGREEM / NOVELTY):**
 
-`Специфікація AGREEM <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__ .
-
+`Специфікація "Товарного узгодження" (AGREEM) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__.
 
 .. code:: json
 
@@ -79,8 +78,42 @@
       }
     ]
   }
- 
 
+`Специфікація "Комерційна пропозиція" (NOVELTY) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#novelty>`__.
+
+.. code:: json
+
+    {
+      "SENDER": "9864067620417",
+      "RECIPIENT": "9864119011415",
+      "NUMBER": "1123",
+      "DATE": "Fri Jan 27 2023 16:38:33 GMT+0200 (за східноєвропейським стандартним часом)",
+      "CATEGORY": "Бакалія",
+      "GROUP1": "Обіди швидкого приготування",
+      "GROUP2": "Бульони, супи швидкого приготування",
+      "GROUP_ID": "Крем-суп",
+      "POSTPONEMENT": "15",
+      "MARKETING": {
+        "PROMOTION": "23",
+        "LOGISTICS": "20",
+        "DAMAGE": "4",
+        "TPR": "10"
+      },
+      "RESPONSIBLE_OFFICER": {
+        "SURNAME": "Тест",
+        "NAME": "Александр",
+        "MIDDLENAME": "Володимирович",
+        "EMAIL": "1@2.ua",
+        "PHONE": "380962386999",
+        "UUID": "c50d78d1-7a91-48f7-b789-a96eaa1fb6bf"
+      },
+      "STORAGE_CONDITIONS": "Умови зберігання товару",
+      "RETURN_CONDITIONS": "Умови повернення товару",
+      "DELIVERY_OPTION": "3",
+      "MINIMAL_AMOUNT": "50000",
+      "DELIVERY_REGION": "Донецька,Житомирська,Закарпатська",
+      "POSITION": []
+    }
 
 **JSON body_type=2 (налаштування ритейлера/мережі - лише перегляд):**
 

@@ -45,6 +45,10 @@ API
 +-----------+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | POST      | ``/api/es/agreement/body``        | `Створити тіло документа (комерційної пропозиції / товарного узгодження) / Додати обгрунтування до пропозиції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreementBody2.html>`__ |
 +-----------+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GET       | ``/api/es/agreement/body``        | `Отримати тіло документа (комерційної пропозиції / товарного узгодження) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreementBody.html>`__                                          |
++-----------+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PUT       | ``/api/es/agreement/body``        | `Оновити тіло документа (комерційної пропозиції / товарного узгодження) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/UpdateAgreementBody.html>`__                                        |
++-----------+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. beauty list
 
@@ -52,15 +56,17 @@ API
    :hidden:
    :glob:
 
-   Methods/GetAgreements
-   Methods/CreateAgreement
-   Methods/GetAgreement
-   Methods/UpdateAgreement
-   Methods/DeleteAgreement
-   Methods/SendAgreement
-   Methods/UpdateAgreementStatus
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreements
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreement
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreement
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/UpdateAgreement
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/DeleteAgreement
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/SendAgreement
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/UpdateAgreementStatus
    Methods/GetAgreementOfferExcel
-   Methods/CreateAgreementBody2
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreementBody2
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreementBody
+   /E_SPEC/EDIN_2_0/API_2_0/Methods/UpdateAgreementBody
 
 .. Більше не використовуються (дивись таблицю вище)
     +-----------+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
