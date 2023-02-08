@@ -17,6 +17,7 @@
 19,iftmbf,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbf>`__
 20,partin,`Інформація про контрагента для постачальника <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#partin>`__
 21,mscons,`Звіт про надані послуги <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#mscons>`__
+22,transportationorder,`Заявка на транспортування / Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 25,retins,`Інструкція з повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retins>`__
 28,comdoc,`Комерційний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__
 29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__
