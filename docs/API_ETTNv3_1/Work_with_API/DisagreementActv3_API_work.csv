@@ -15,11 +15,11 @@
 
 :green:`2.5` `Підписання «Акта розбіжностей про вантаж» Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
 
-:green:`2.6` `Відправка «Акта розбіжностей про вантаж» Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutActTransaction.html>`__",:red:`2.2` `Відхилення «Акта розбіжностей про вантаж» Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectAct.html>`__
-":green:`3.1` `Авторизація Вантажовідправника <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+:green:`2.6` `Відправка «Акта розбіжностей про вантаж» Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutActTransaction.html>`__",:red:`2.2*` `Відхилення «Акта розбіжностей про вантаж» Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectAct.html>`__
+":purple:`3.1` `Авторизація Вантажовідправника <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
 
-:green:`3.2` `Отримання контенту (ecmr) «Акта розбіжностей про вантаж» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ 
+:purple:`3.2` `Отримання контенту (ecmr) «Акта розбіжностей про вантаж» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ 
 
-:green:`3.3` `Підписання «Акта розбіжностей про вантаж» Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+:purple:`3.3` `Підписання «Акта розбіжностей про вантаж» Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
 
-:green:`3.4` `Відправка «Акта розбіжностей про вантаж» Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutActTransaction.html>`__",
+:purple:`3.4` `Відправка «Акта розбіжностей про вантаж» Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutActTransaction.html>`__",
