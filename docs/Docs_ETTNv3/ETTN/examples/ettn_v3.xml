@@ -114,12 +114,6 @@
 					<ram:SystemID schemeAgencyID="GLN">123456789123</ram:SystemID>
 				</ram:PhysicalGeographicalCoordinate>
 			</ram:ConsigneeReceiptLogisticsLocation>
-			<ram:HandlingInstructions>
-				<ram:ApplicableTransportSettingTemperature>
-					<ram:MinimumValueMeasure unitCode="CEL">30</ram:MinimumValueMeasure>
-					<ram:MaximumValueMeasure unitCode="CEL">40</ram:MaximumValueMeasure>
-				</ram:ApplicableTransportSettingTemperature>
-			</ram:HandlingInstructions>
 			<ram:DeliveryTransportEvent>
 				<ram:Description>Розвантаження</ram:Description>
 				<ram:ActualOccurrenceDateTime>
