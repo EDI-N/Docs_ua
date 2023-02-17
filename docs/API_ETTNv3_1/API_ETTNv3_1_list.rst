@@ -69,8 +69,8 @@ API "ETTN" v3
 
    Methods/GetEcmrDocumentBody
    Methods/SaveEcmrSign
-   Methods/GetTickets
-   Methods/GetDocument
+   /integration_2_0/APIv2/Methods/GetTickets
+   /integration_2_0/APIv2/Methods/GetDocument
 
 .. _ecmr-ttn:
 
