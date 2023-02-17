@@ -11,9 +11,9 @@ Cхема документообігу "Акт розвантаження на �
 
 ----------------------------------------------------
 
-.. image:: pics/StorageDeliveryActv3_API_work_001.png
+.. image:: pics/StorageDeliveryActv3_API_work_002.png
    :align: center
-   :width: 800px
+   :width: 600px
 
 ----------------------------------------------------
 
