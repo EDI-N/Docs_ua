@@ -51,7 +51,7 @@ Cхеми документообігу "Акт про заміну пункту 
 
 .. image:: pics/ConsigneeChangeActv3_API_work_003.png
    :align: center
-   :width: 800px
+   :width: 600px
 
 .. csv-table:: 
   :file: ConsigneeChangeActv3_API_work_003.csv
@@ -64,7 +64,7 @@ Cхеми документообігу "Акт про заміну пункту 
 
 .. image:: pics/ConsigneeChangeActv3_API_work_004.png
    :align: center
-   :width: 800px
+   :width: 600px
 
 .. csv-table:: 
   :file: ConsigneeChangeActv3_API_work_004.csv
