@@ -10,7 +10,6 @@ consignmentItemQuantity,M,decimal,Загальна кількість місць
 **carrierAcceptanceLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт навантаження
 **consigneeReceiptLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт розвантаження
 **associatedReferencedDocuments**,O,List<ReferencedDocument_>,масив об'єктів; Супровідні документи на вантаж
-**handlingInstructions**,O,HandlingInstructions_,об'єкт; Інструкції з експлуатації
 **deliveryTransportEvent**,O,TransportEvent_,об'єкт; Розвантажувальні роботи
 **pickUpTransportEvent**,O/M,TransportEvent_,об'єкт; Навантажувальні роботи
 **includedSupplyChainConsignmentItems**,M,List<IncludedSupplyChainConsignmentItem_>,масив об'єктів; Відомості про вантаж

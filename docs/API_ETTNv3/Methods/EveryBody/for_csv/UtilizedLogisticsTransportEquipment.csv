@@ -15,5 +15,5 @@ characteristicCode,O,string,"Код визначення Причіп/напів
 * 14 - Причіп
 * 17 - Напівпричіп"
 **affixedLogisticsSeals**,M/O,List<SimpleIdentity_>,масив об'єктів; Номера пломб. В Акті перепломбування для автомобіля цей об'єкт є обов'язковим
-**settingTransportSettingTemperature**,O,ApplicableTransportSettingTemperature_,"об'єкт; Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур"
+**handlingInstructions**,O,HandlingInstructions_,об'єкт; Інструкції з експлуатації
 **applicableNotes**,M/O,List<ApplicableNote_>,масив об'єктів; Примітки
