@@ -13,6 +13,12 @@
   :widths:  10, 41
   :stub-columns: 0
 
+Приклад для відправки «Заявки на транспортування» (TRANSPORTATIONORDER):
+
+.. code:: json
+
+	{"extra_fields":{"sub_status_id":"1"}}
+
 **RESPONSE**
 
 Код сервера 200 (ok).
