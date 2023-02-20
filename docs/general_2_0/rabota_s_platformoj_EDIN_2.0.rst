@@ -186,7 +186,9 @@
 **7 Погодження**
 ================================================
 
-В сервісі **"EDI+ЮЗД"** можливо налаштувати ланцюжок послідовного погодження вхідних документів (**сценарії**) перед підписанням. На даний момент доступні до погодження наступні типи документів (список буде розширюватись):
+.. початок блоку для Block_to_ATS_001
+
+В сервісі **"EDI+ЮЗД"** та в **"Особистому кабінеті" ("Документи АТС")** можливо налаштувати ланцюжок послідовного погодження вхідних документів (**сценарії**) перед підписанням. На даний момент доступні до погодження наступні типи документів (список буде розширюватись):
 
 * `Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__
 * `Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
@@ -195,14 +197,24 @@
 
 Ви можете побудувати послідовний "сценарій погодження" між будь-якими користувачами компанії, в яких є доступ до документа на рівні GLN. Процес погодження запускає **Ініціатор погодження** (перший користувач в послідовності). Тобто схематично послідовність виглядає так: ``"Ініціатор погодження"->"Користувач 1"->"Користувач 2"->"Користувач N"``. Про всі етапи проходження погодження учасники будуть проінформовані, якщо в них налаштовані сповіщення на "Погодження документів" для EDI+ЮЗД сервісу (детальніше про `Керування сповіщеннями <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-notifications>`__).
 
+.. hint::
+   Для зручності фільтрування документів рекомендуємо користуватись ключем пошуку ``#На погодженні`` чи відповідним полем розширеного `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__.
+
+.. кінець блоку для Block_to_ATS_001
+
 .. _approval-start:
 
 **7.1 Запуск документа на погодження**
 ---------------------------------------------------------
 
+.. початок блоку для Block_to_ATS_002
+
+.. important::
+   Направити на погодження можливо документи, що не були підписані обома контрагентами та за якими не розпочаті процедури `Відкликання <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__ / `Анулювання <https://wiki.edin.ua/uk/latest/_constant/comdoc_repeal/comdoc_repeal.html>`__!
+
 Для запуску погодження **Ініціатору** потрібно перейти у вхідний документ (один з вище зазначеного переліку), натиснути **"Направити на погодження"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_052.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_052.png
    :align: center
 
 і далі можливо:
@@ -212,17 +224,17 @@
 
 Для того, щоб **Запустити раніше створений сценарій** потрібно в модальному вікні обрати сценарій та **"Запустити погодження"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_041.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_041.png
    :align: center
 
 Для того, щоб **Створити та одразу запустити створений сценарій погодження** потрібно в модальному вікні натиснути на **"Налаштувати новий сценарій"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_053.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_053.png
    :align: center
 
 Далі в модальному вікні налаштувань нового сценарію вказати його назву, обрати зі списку відповідальних за крок погодження `користувачів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#users>`__, обрати роль (**Погодити** - проміжний крок погодження; **Підписати** - кінцевий крок погодження):
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_054.gif
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_054.gif
    :align: center
 
 .. note::
@@ -230,7 +242,7 @@
 
 Після запуску документа на погодження він відображається :underline:`в журналі всіх учасників погодження (лише в учасників)` в розділі **"Погодження"**, для ініціатора даний сценарій погодження відображається зі статусом :orange:`На погодженні`:  
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_042.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_042.png
    :align: center
 
 .. important::
@@ -242,7 +254,7 @@
 
 В документі при цьому відображається блок **Протокол погодження**, в якому відображаються всі кроки, їх статуси, логіни користувачів, що беруть участь в погодженні:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_043.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_043.png
    :align: center
 
 .. important::
@@ -256,30 +268,34 @@
 
 За кожен наступний крок погодження відповідає прив'язаний до цього кроку сценарію користувач. Для цього користувача статус сценарію документа :red:`Очікує мого погодження`:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_044.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_044.png
    :align: center
 
 Лише відповідальному учаснику погодження на формі перегляду документа відображаються кнопки прийняття рішення (**"Погодити"** та **"Відхилити"**):
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_045.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_045.png
    :align: center
+
+.. кінець блоку для Block_to_ATS_002
 
 .. _approval-ok:
 
-**7.1 Погодити документ**
+**7.2 Погодити документ**
 ---------------------------------------------------------
+
+.. початок блоку для Block_to_ATS_003
 
 Для погодження документа відповідальному учаснику (сценарій в статусі :red:`Очікує мого погодження`) потрібно перейти в документ та натиснути **"Погодити"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_046.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_046.png
    :align: center
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_047.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_047.png
    :align: center
 
 Після чого крок погодження змінює свій статус на :green:`Погоджено`:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_048.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_048.png
    :align: center
 
 Для учасника, що виконав свою роль в процесі погодження сценарій змінює свій статус на :orange:`На погодженні`.
@@ -287,30 +303,36 @@
 .. note::
    Останній крок погодження (при натисканні на кнопку **"Погодити"**) потребує `підписання <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#sign>`__! Після чого сценарій змінює свій статус на :green:`Погодження завершено`.
 
+.. кінець блоку для Block_to_ATS_003
+
 .. _approval-no:
 
-**7.2 Відхилити документ**
+**7.3 Відхилити документ**
 ---------------------------------------------------------
+
+.. початок блоку для Block_to_ATS_004
 
 Для відхилення документа відповідальному учаснику (сценарій в статусі :red:`Очікує мого погодження`) потрібно перейти в документ та натиснути **"Відхилити"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_049.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_049.png
    :align: center
 
 Перед тим як **"Відхилити погодження"** потрібно вказати причину відхилення (текст):
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_050.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_050.png
    :align: center
 
 Після чого крок погодження змінює свій статус на :red:`Відхилено` та містить текст причини:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_051.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_051.png
    :align: center
 
 Для учасника, що виконав свою роль в процесі погодження сценарій змінює свій статус на :orange:`На погодженні`.
 
 .. note::
    Не зважаючи на те, що один чи кілька проміжних учасників відхилили документ процес погодження продовжується поки останній учасник не прийме остаточне рішення. На останньому кроці погодження (при натисканні на кнопку **"Відхилити"**) сценарій змінює свій статус на :green:`Погодження завершено`.
+
+.. кінець блоку для Block_to_ATS_004
 
 .. _doc-journal:
 
