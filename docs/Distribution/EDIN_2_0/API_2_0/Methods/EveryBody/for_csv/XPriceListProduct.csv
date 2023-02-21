@@ -14,6 +14,7 @@ palette_weight,O,String,"вага палети, кг"
 producer_code,O,String,код Продавця (Виробника)
 min_order_qty,O,"float (10,3)","Мінімальна кількість замовлення"
 regions,M,String,областя/країни наявності товару (перелік назв через кому)
+characteristics,O,Сharacteristics_,об'єкт; додаткові характеристики продукта
 id,,long,ідентифікатор товарної позиції
 date_created,,long,дата створення запису про товар
 date_changed,,long,дата внесених змін в дані товару

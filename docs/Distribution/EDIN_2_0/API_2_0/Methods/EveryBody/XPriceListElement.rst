@@ -410,6 +410,14 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 3 - Опис параметрів об'єкта Сharacteristics
+
+.. csv-table:: 
+  :file: for_csv/Сharacteristics.csv
+  :widths:  1, 2, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
