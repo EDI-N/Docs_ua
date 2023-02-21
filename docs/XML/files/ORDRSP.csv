@@ -62,6 +62,7 @@ PRODUCTIDSUPPLIER, O, Рядок (16), Артикул в БД постачаль
 ORDRSPUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 CUSTOMSTARIFFNUMBER, О, Число позитивне,Код УКТЗЕД для кожної позиції
 DESCRIPTION, O, Рядок (70), Опис продукту
+MAXORDERPRICE, O, Число десяткове, Максимальна роздрібна ціна
 PRICE, O, Число десяткове, Ціна продукту без ПДВ
 PRICEWITHVAT, O, Число десяткове, Ціна продукту з ПДВ
 DISCOUNT, О, Число позитивне, Знижка
