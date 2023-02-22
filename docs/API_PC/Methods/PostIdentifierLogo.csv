@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , POST                                         
+URL запиту    , **/api/oas/identifier/logo?logo_gln=9864065748878**
+URL параметри ,"**logo_gln** (обов'язково) String - основний GLN Компанії, до якого прикріпляється логотип"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , image/jpeg
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту передається jpeg-файл (зображення) в вигляді набору байтів."
