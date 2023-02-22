@@ -222,6 +222,37 @@ API
    Methods/PutNotificationsSettings
    Methods/DelNotificationsSettings
 
+.. _gln-logo:
+
+Керування логотипами GLN
+============================
+
++-----------+------------------------------+----------------------------------------------------------------------------------------------------------+
+| **Метод** |        **URL запиту**        |                                                 **Опис**                                                 |
++===========+==============================+==========================================================================================================+
+| GET       | ``/api/oas/identifier/logo`` | `Отримати логотипи GLN <https://wiki.edin.ua/uk/latest/API_PC/Methods/GetIdentifierLogo.html>`__         |
++-----------+------------------------------+----------------------------------------------------------------------------------------------------------+
+| POST      | ``/api/oas/identifier/logo`` | `Додати / оновити логотип GLN <https://wiki.edin.ua/uk/latest/API_PC/Methods/PostIdentifierLogo.html>`__ |
++-----------+------------------------------+----------------------------------------------------------------------------------------------------------+
+| DELETE    | ``/api/oas/identifier/logo`` | `Видалити логотип GLN <https://wiki.edin.ua/uk/latest/API_PC/Methods/DelIdentifierLogo.html>`__          |
++-----------+------------------------------+----------------------------------------------------------------------------------------------------------+
+
+.. beauty list
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   Methods/GetIdentifierLogo
+   Methods/PostIdentifierLogo
+   Methods/DelIdentifierLogo
+
+
+
+
+
+
+
 
 
 .. old auto list (deprecated)
