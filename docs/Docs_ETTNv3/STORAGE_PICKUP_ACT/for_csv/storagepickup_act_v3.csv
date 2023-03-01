@@ -28,6 +28,12 @@ ram:ID,M,string,Номер документа-підстави (ТТН); має 
 **ram:FormattedIssueDateTime**,M,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (початок блоку)
 qdt:DateTimeString,M,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час документа-підстави (ТТН)
 **ram:FormattedIssueDateTime**,,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (закінчення блоку)
+**ram:AttachedSpecifiedBinaryFile**,M,,"Дані е-ТТН, для якої складається акт (початок блоку)"
+ram:ID,M,string,Ідентифікатор (guid) документа-підстави (ТТН); має відповідати document.id еТТН в ЦБД (значення **ettnId** з методу `Отримання списку подій з ЦБД  <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/MintransEvents.html>`__ = значення **external_doc_id** `Отримання документа сервісу <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/GetDoc.html>`__)
+ram:URIID,O,string,посилання на документ
+ram:MIMECode,O,string,`MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+ram:SizeMeasure,O,long,розмір файлу в байтах
+**ram:AttachedSpecifiedBinaryFile**,,,"Дані е-ТТН, для якої складається акт (закінчення блоку)"
 **PreviousAdministrativeReferencedDocument**,,,"Інформація про е-ТТН, для якої складається акт (закінчення блоку)"
 **PreviousAdministrativeReferencedDocument**,M,,"Інформація про Акт розвантаження, до якого складається цей акт (початок блоку)"
 ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
