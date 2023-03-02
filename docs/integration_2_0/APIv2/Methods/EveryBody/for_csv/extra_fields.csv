@@ -13,7 +13,7 @@ id параметра, Найменування параметра,Обов'яз
 9, inv_num ,, VARCHAR, номер документа invrpt (Звіт про інвентаризацію)
 10, error_code ,, INT, код помилки документообігу
 11, sub_doc_type_id ,, INT, id підтипу документа ( опис_підтипів_ )
-12, sub_status_id ,, INT, id статусу документа (`детальніше <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__); характеризує стан ланцюжка документів 
+12, sub_status_id ,, INT, id статусу документа (`опис <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__ + `опис для ETTN v3 <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/EveryBody/extraFields_sub_status_v3.html>`__); характеризує стан ланцюжка документів 
 13, action ,, VARCHAR, "статус/стан документа за здійсненими діями користувача;
 
 Для EDI:
