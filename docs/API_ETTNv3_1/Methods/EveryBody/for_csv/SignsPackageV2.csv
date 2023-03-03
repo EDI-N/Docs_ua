@@ -1,0 +1,4 @@
+Параметр,Формат,Опис
+carrier,List<ExEndUserSignInfo_>,масив об'єктів; дані підписів Перевізника
+consignee,List<ExEndUserSignInfo_>,масив об'єктів; дані підписів Вантажоодержувача
+consignor,List<ExEndUserSignInfo_>,масив об'єктів; дані підписів Вантажовідправника
