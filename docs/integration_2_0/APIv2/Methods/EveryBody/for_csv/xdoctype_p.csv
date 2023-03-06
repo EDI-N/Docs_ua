@@ -35,6 +35,7 @@
 117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/AcceptancePage_v2.html>`__
 113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BOOKINGpage_v2.html>`__
 114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BookingConfirmationPage_v2.html>`__
+115,ordrpt,`Повідомлення про штрафні санкції <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
 112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__
 118,docinvoiceact,`Акт приймання наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__

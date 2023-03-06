@@ -201,6 +201,7 @@
 
 * `Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__
 * `Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
+* `Акт виконаних робіт (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
 * `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 * `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
 

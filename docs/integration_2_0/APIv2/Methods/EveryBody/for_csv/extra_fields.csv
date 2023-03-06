@@ -81,7 +81,7 @@ id параметра, Найменування параметра,Обов'яз
 24, order_number, О, VARCHAR, номер замовлення
 25, order_date ,, INT, дата замовлення
 26, return_date ,, INT, дата повернення
-27, summ ,, VARCHAR, сума з ПДВ
+27, summ ,, VARCHAR, сума з ПДВ / загальна сума штрафу (ORDRPT)
 28, parent_chain_hash ,, MD5, хеш ланцюжка
 29, period ,, VARCHAR, крайня дата підпису документа
 31, trans_id ,, VARCHAR, id транзакції
