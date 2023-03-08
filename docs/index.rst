@@ -26,7 +26,7 @@ EDIN | Електронний документообіг для бізнесу
    Docs_ETTNv3/Docs_ETTNv3_list
 
 .. toctree::
-   :caption: Е-ТТН
+   :caption: Е-ТТН (ТТН v2)
    :titlesonly:
 
    ETTN_2_0/ETTN_2_0_list
