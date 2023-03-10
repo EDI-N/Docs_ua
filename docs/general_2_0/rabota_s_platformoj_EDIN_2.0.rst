@@ -205,7 +205,7 @@
 * `Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
 * `Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__
 * `Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-030>`__
-* `Акт виконаних робіт (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
+* `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
 * `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 * `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
 
