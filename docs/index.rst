@@ -24,6 +24,7 @@ EDIN | Електронний документообіг для бізнесу
    XML/XML-structure
    API_ETTNv3_1/API_ETTNv3_1_list
    Docs_ETTNv3/Docs_ETTNv3_list
+   ETTN_3_0/ETTN_3_0_list
 
 .. toctree::
    :caption: Е-ТТН (ТТН v2)
