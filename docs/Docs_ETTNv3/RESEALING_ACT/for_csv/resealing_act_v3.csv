@@ -148,7 +148,7 @@ schemeAgencyID,O,string,РНОКПП
 value,O,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
 ram:Name,M,string,"Посада Замовника"
-ram:RoleCode,M,string,Роль учасника (Замовник - ОВ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:RoleCode,M,string,Роль учасника (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
 ram:PersonName,M,string,"ПІБ Замовника"
 **ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)

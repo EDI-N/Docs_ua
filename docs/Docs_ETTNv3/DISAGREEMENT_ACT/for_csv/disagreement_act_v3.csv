@@ -56,7 +56,7 @@ schemeAgencyID,M,string,ЄДРПОУ
 value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Перевізника"
-ram:RoleCode,M,string,Роль учасника (Перевізник - СА). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **CarrierTradeParty**,,,"Перевізник (закінчення блоку)"
 **DisagreementSubjectSupplyChainConsignmentItem**,M,,"Розбіжності щодо кількісних характеристик вантажу (початок блоку)"
 SequenceNumeric,M,int,Порядковий номер рядка в таблиці
