@@ -45,6 +45,8 @@
 
 .. |info| image:: pics_PCInstruction/PCInstruction_218.png
 
+.. |approval| image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_065.png
+
 .. contents:: Зміст:
    :depth: 4
 
