@@ -17,7 +17,7 @@
 
 :green:`2.6` `Відправка «Підтвердження транспортування» Перевізником <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocument.html>`__",":red:`2.2*` `Відкликання «Заявки на транспортування» Перевізником <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
 
-:red:`2.7*` `Відкликання «Підтвердження транспортування» Перевізником <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
+:red:`2.7*` `Відкликання «Підтвердження транспортування» Перевізником <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__"
 ":green:`3.1` `Авторизація Замовника <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
 
 :green:`3.2` `Отримання контенту «Підтвердження транспортування» <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocBody.html>`__
