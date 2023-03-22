@@ -257,7 +257,7 @@
 .. image:: pics_Work_with_Proposal/Work_with_Proposal_032.png
    :align: center
 
-В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не створив та відправив "Підтвердженням заявки на транспортування" у відповідь (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/_constant/chain/??????????????????????????.html>`__).
+В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html>`__).
 
 ---------------------------------
 
