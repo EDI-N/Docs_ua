@@ -16,8 +16,16 @@
    :maxdepth: 1
    :caption: Заявка на транспортування
    
-   Work_with_Proposal
+   Create_Proposal
    Proposal_Reject
+
+.. _proposal-confirmation:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Підтвердження заявки на транспортування
+   
+   Create_Proposal_Confirmation_from
 
 
 .. для красивих посилань на документи треба місце для скролу:

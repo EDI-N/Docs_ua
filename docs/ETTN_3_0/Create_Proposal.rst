@@ -22,7 +22,7 @@
 
 Ініціатором документообігу "Заявка на транспортування" -> "Підтвердженням заявки на транспортування" виступає користувач з роллю **"Замовник"** (при роботі з транспортними документами передбачені 4 основні ролі учасників документообігу: **"Замовник"**, **"Вантажовідправник"**, **"Перевізник"**, **"Вантажоотримувач"**). Обмін документами здійснюється між **"Замовником"** та **"Перевізником"**:
 
-:green:`"Замовник" -> "Перевізник" -> "Замовник"`
+:green:`"Замовник" -> "Перевізник"`
 
 .. hint::
    При роботі з "Заявкою на транспортування" можливо організувати:
@@ -35,12 +35,12 @@
 
 Для створення "Заявки на транспортування" в сервісі **"EDI+ЮЗД"** **"Замовнику"** необхідно натиснути на кнопку **"Створити"**, вибрати **"Заявка на транспортування"**, як тип створюваного документа в модальному вікні (для зручності можливо скористатись рядком пошуку):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_001.png
+.. image:: pics_Create_Proposal/Create_Proposal_001.png
    :align: center
 
 Після чого відкривається готова до заповнення порожня форма документа "Заявка на транспортування":
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_002.png
+.. image:: pics_Create_Proposal/Create_Proposal_002.png
    :align: center
 
 .. hint::
@@ -48,30 +48,30 @@
 
 Заповнити дані **"Автомобільного Перевізника"** (обов'язково) та **"Вантажовідправника"** (опціонально) можливо за допомогою кнопки **"Пошук контрагента"** (|лупа|) або ж за допомогою кнопки **"Вказати себе"** (|будинок|):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_003.png
+.. image:: pics_Create_Proposal/Create_Proposal_003.png
    :align: center
 
 Для пошуку контрагента в модальному вікні потрібно ввести назву компанії, GLN або ІПН:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_004.png
+.. image:: pics_Create_Proposal/Create_Proposal_004.png
    :align: center
 
 -------------------------------
 
 Є можливість **"Вказати дані по авто і водієві"**, якщо відомо хто буде здійснювати поставку (за замовчуванням блок згорнутий):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_005.png
+.. image:: pics_Create_Proposal/Create_Proposal_005.png
    :align: center
 
 Для автомобілів та причепів реалізований Ваш особистий довідник, що автоматично формується при додаванні нового транспортного засобу (кнопка **"+Новий транспортний засіб"**). При додаванні нового транспортного засобу в модальному вікні потрібно заповнити "Реєстраційний номер", "Марка", "Модель", "Тип":
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_006.png
+.. image:: pics_Create_Proposal/Create_Proposal_006.png
    :align: center
 
 .. hint::
    Для раніше введеного реєстрайійного номеру, наприклад, **АА0001АА** користувач може скористатись пошуком, наприклад, ``АА0, 001, 1АА, 01...``:
 
-   .. image:: pics_Work_with_Proposal/Work_with_Proposal_007.png
+   .. image:: pics_Create_Proposal/Create_Proposal_007.png
       :align: center
 
 Після додавання чи вибору транспортного засобу з'являються кнопки:
@@ -80,7 +80,7 @@
 * **"Змінити"** - редагування даних обраного транспортного засобу (редагування довідника);
 * **"Очистити"** - видалити введені в рядок дані.
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_008.png
+.. image:: pics_Create_Proposal/Create_Proposal_008.png
    :align: center
 
 .. note::
@@ -88,35 +88,35 @@
 
 Принцип заповнення причіпа/напівпричіпа теж реалізований через довідник (аналогічно додаванню даних про автомобіль): 
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_009.png
+.. image:: pics_Create_Proposal/Create_Proposal_009.png
    :align: center
 
 По кожному вказаному транспорному засобу є можливість зазначити (опціонально) температурний режим:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_010.png
+.. image:: pics_Create_Proposal/Create_Proposal_010.png
    :align: center
 
 Дані **"Водія"** можливо обрати за допомогою кнопки **"Пошук контрагента"** (|лупа|) за ПІБ / ІПН / даними водійського посвідчення:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_011.png
+.. image:: pics_Create_Proposal/Create_Proposal_011.png
    :align: center
 
 .. note::
    За потреби можливо **"Очистити дані по авто і водієві"** за допомогою відповідної кнопки - ця дія зготає блок з полями:
 
-   .. image:: pics_Work_with_Proposal/Work_with_Proposal_012.png
+   .. image:: pics_Create_Proposal/Create_Proposal_012.png
       :align: center
 
 ---------------------------------
 
 Якщо з обраним контрагентом вже був заключений договір (є **договір поставки** в `"Довіднику для Договорів" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-contracts>`__ в Особистому кабінеті), то поле "Дані договору" заповнюється автоматично в якості даних номера/дати договору, на підставі якого створюється даний документ. Якщо договорів з обраним контрагентом кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_013.png
+.. image:: pics_Create_Proposal/Create_Proposal_013.png
    :align: center
 
 Завжди можливо **"Обрати"** новий договір:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_014.png
+.. image:: pics_Create_Proposal/Create_Proposal_014.png
    :align: center
 
 .. поки не реалізовано - взято з v2
@@ -125,29 +125,29 @@
 
 Далі потрібно обрати з випадаючого списку **"Вид перевезень"**:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_015.png
+.. image:: pics_Create_Proposal/Create_Proposal_015.png
    :align: center
 
 В залежності від обраного значення поля **"Спосіб тарифікації"** змінюється набір обов'язкових до заповненння полів:
 
 * **без способу тарифікації** (порожнє поле) - в загальних даних вантажу обов'язково заповнюється "маса брутто, кг": 
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_025.png
+.. image:: pics_Create_Proposal/Create_Proposal_025.png
    :align: center
 
 * "Спосіб тарифікації" = **за кілометаж** - в загальних даних вантажу обов'язково заповнюється "маса брутто, кг" та "відстань перевезення": 
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_026.png
+.. image:: pics_Create_Proposal/Create_Proposal_026.png
    :align: center
 
 * "Спосіб тарифікації" = **фіксована вартість** - в загальних даних вантажу обов'язково заповнюється "маса брутто, кг", вартість перевезення "без ПДВ" та "з ПДВ":
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_027.png
+.. image:: pics_Create_Proposal/Create_Proposal_027.png
    :align: center
 
 * "Спосіб тарифікації" = **за тоннаж** - в загальних даних вантажу обов'язково заповнюється "маса брутто, кг":
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_028.png
+.. image:: pics_Create_Proposal/Create_Proposal_028.png
    :align: center
 
 .. _customer-table:
@@ -157,54 +157,54 @@
 
 Для заповнення табличної частини документа потрібно натиснути на кнопку **"+Додати"**, після чого відкриється модальне вікно "Інформація про маршрут і вантаж" (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*` ):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_016.png
+.. image:: pics_Create_Proposal/Create_Proposal_016.png
    :align: center
 
 Вікно розділено на блоки з даними про маршрут (Навантаження і Розвантаження) та блок з інформацією про вантаж. Для блоків Навантаження та Розвантаження дані "Адрес" необхідно обрати з випадаючого списку, користуючись пошуком (для Навантаження значення підтягуються з довідника **"Вантажовідправника"**, а для Розвантаження - **"Вантажоодержувача"**):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_017.png
+.. image:: pics_Create_Proposal/Create_Proposal_017.png
    :align: center
 
 За потреби можливо додати дату та час **"Обравши"** значення кінцевих термінів, в рамках яких потрібно здійснити доставку вантажу:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_018.png
+.. image:: pics_Create_Proposal/Create_Proposal_018.png
    :align: center
 
 Дані відповідальних осіб **"Вантажовідправника"** / **"Вантажоодержувача"** можливо обрати з віртуального довідника (присутній пошук):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_019.png
+.. image:: pics_Create_Proposal/Create_Proposal_019.png
    :align: center
 
 Довідник автоматично наповнюється при додаванні нового відповідального (кнопка **"+Додати особу"**). При додаванні нового відповідального в модальному вікні потрібно заповнити обов'язкові контактні дані (обов'язкові поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_020.gif
+.. image:: pics_Create_Proposal/Create_Proposal_020.gif
    :align: center
 
 Редагувати дані раніше введених осіб можливо за допомогою кнопки **"Змінити"**:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_021.gif
+.. image:: pics_Create_Proposal/Create_Proposal_021.gif
    :align: center
 
 Заповнене поле документа даними відповідальної особи можливо **"Очистити"** за потреби чи **"Обрати"** іншу особу. 
 
 Дані пункту **"Розвантаження"** заповнюються аналогічно після вибору **Вантажоодержувача** за допомогою пошуку за назвою компанії чи GLN:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_022.png
+.. image:: pics_Create_Proposal/Create_Proposal_022.png
    :align: center
 
 Для редагування інформації щодо вантажу необхідно навести курсор на рядок цього вантажу та натиснути **"Змінити"**, для видалення – **"Видалити"**:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_023.png
+.. image:: pics_Create_Proposal/Create_Proposal_023.png
    :align: center
 
 Для збереження "Заявка на транспортування" необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_024.png
+.. image:: pics_Create_Proposal/Create_Proposal_024.png
    :align: center
 
 Після того, як усі обов'язкові поля заповнені та збережені документ можливо **"Підписати"**:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_029.png
+.. image:: pics_Create_Proposal/Create_Proposal_029.png
    :align: center
 
 .. _sign:
@@ -244,17 +244,17 @@
 
 Після підписання "Заявки на транспортування" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_030.png
+.. image:: pics_Create_Proposal/Create_Proposal_030.png
    :align: center
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Відправленій **"Замовником"** "Заявці на транспортування" присвоюється статус :orange:`"Очікує підписання перевізником"`:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_031.png
+.. image:: pics_Create_Proposal/Create_Proposal_031.png
    :align: center
 
 Відправлена "Заявка на транспортування" має наступний вигляд:
 
-.. image:: pics_Work_with_Proposal/Work_with_Proposal_032.png
+.. image:: pics_Create_Proposal/Create_Proposal_032.png
    :align: center
 
 В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html>`__).
