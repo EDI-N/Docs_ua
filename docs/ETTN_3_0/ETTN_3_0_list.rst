@@ -9,6 +9,7 @@
    
    Create_ETTN
    Create_ETTN_from
+   ETTN_Reject
 
 .. _proposal:
 
