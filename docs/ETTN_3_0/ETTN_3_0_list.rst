@@ -26,6 +26,7 @@
    :caption: Підтвердження заявки на транспортування
    
    Create_Proposal_Confirmation_from
+   Proposal_Confirmation_Reject
 
 
 .. для красивих посилань на документи треба місце для скролу:
