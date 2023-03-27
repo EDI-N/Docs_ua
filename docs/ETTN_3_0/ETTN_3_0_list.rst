@@ -29,6 +29,16 @@
    Create_Proposal_Confirmation_from
    Proposal_Confirmation_Reject
 
+.. _comdoc-037:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт виконаних робіт (Логістика)
+   
+   Create_COMDOC_037_from
+
+
+
 
 .. для красивих посилань на документи треба місце для скролу:
 
