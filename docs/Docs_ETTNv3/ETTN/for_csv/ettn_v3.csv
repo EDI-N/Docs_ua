@@ -18,8 +18,16 @@ ram:ID,M,string,порядковий номер (серія) документа 
 ram:Remarks,O,string,Ремарки
 **ram:IncludedNote**,M,,Додані записи (початок блоку)
 **ram:ContentCode**,M,,Контент запису (початок блоку)
-listAgencyID,M,String,Ідентифікатор (GLN)
-value,M,String,значення ідентифікатора
+listAgencyID,"M для GLN
+
+O для transportation_max_temperature / logger_return",String,"Ідентифікатор:
+
+* GLN
+* transportation_max_temperature (Максимальна температура під час перевезення)
+* logger_return (Повернення логера)"
+value,M,"* для GLN = Число (13)
+* для transportation_max_temperature = Число (3)
+* для logger_return = «Так» / «Ні»",значення ідентифікатора
 **ram:ContentCode**,,,Контент запису (закінчення блоку)
 ram:Content,M,String,Код ролі учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:IncludedNote**,,,Додані записи (закінчення блоку)
