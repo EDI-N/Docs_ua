@@ -9,8 +9,12 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 
 **branch_uuid** (опціонально) UUID - ідентифікатор «гілки поставки» (для мережі АТБ). Використовується для об'єднання документів однієї поставки (ланцюжок документів з «Повідомленням про відвантаження» (DESADV)). Якщо в запиті параметр branch_uuid не передається, то значення цього параметра автоматично формується платформою EDI Network на підставі даних з `тіла документа е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__:
 
-* AssociatedReferencedDocument.Remarks <== Назва та номер документа DESADV.NUMBER
-* AssociatedReferencedDocument.FormattedIssueDateTime.DateTimeString <== Дата документа DESADV.DATE"
+* AssociatedReferencedDocument.TypeCode=220
+   * AssociatedReferencedDocument.ID <== Номер документа з ORDER.NUMBER
+   * AssociatedReferencedDocument.FormattedIssueDateTime.DateTimeString <== Дата документа з ORDER.DATE
+* AssociatedReferencedDocument.TypeCode=351
+   * AssociatedReferencedDocument.ID <== Номер документа з DESADV.NUMBER
+   * AssociatedReferencedDocument.FormattedIssueDateTime.DateTimeString <== Дата документа з DESADV.DATE"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__"
 Content-Type  , application/json                            
