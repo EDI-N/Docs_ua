@@ -1,4 +1,14 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _ContentCode:,,Об'єкт **ContentCode**,
-listAgencyID,M,String,Ідентифікатор (GLN)
-value,M,String,значення ідентифікатора
+listAgencyID,"M для GLN
+
+O для transportation_max_temperature / logger_return",String,"Ідентифікатор:
+
+* GLN
+* transportation_max_temperature (Максимальна температура під час перевезення)
+* logger_return (Повернення логера).
+
+Ідентифікатори transportation_max_temperature та logger_return вказуються контрагентом з роллю «Вантажоодержувач»"
+value,M,"* для GLN = Число (13)
+* для transportation_max_temperature = Число (3)
+* для logger_return = «Так» / «Ні»",значення ідентифікатора
