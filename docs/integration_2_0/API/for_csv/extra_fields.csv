@@ -121,7 +121,7 @@ id параметра, Найменування параметра, Тип, Фо
 , tax_summ, , INT, сума ПДВ
 , summ, , INT, сума з ПДВ
 129, receiving_note_number, , VARCHAR, Номер повідомлення про прийом (DOCUMENTINVOICE...ReceivingAdviceNumber)
-137, branch_uuid,, VARCHAR, uuid «гілки поставки» (АТБ COMDOC<=DESADV+ORDER / TTNv3<=DESADV+ORDER)
+137, branch_uuid,, VARCHAR,"uuid «гілки поставки» для мережі АТБ (документи однієї поставки). Використовується для COMDOC та ETTNv3  документів. Поле заповнюється при `відправці е-ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__ чи фомується автоматично платформою EDI Network на підставі даних з документа-основи: «Повідомлення про відвантаження» (DESADV.NUMBER + DESADV.DATE + DESADV.ORDERNUMBER + DESADV.ORDERDATE)."
 , parent_doc_uuid, ,VARCHAR, uuid початкової е-ТТН (записується при заміні відправленої чернетки)
 139, format_version, ,VARCHAR, номер версії (поле C_DOC_VER) з Податкової накладної (DECLAR) чи Коригування до податкової накладної (DECLARj12)
 142, parent_docs_match,,INT, 0 - comdoc_007 зі зміненими даними для звірки по desadv; 1 - comdoc_007 з коректними / не зміненими даними для звірки по desadv 
