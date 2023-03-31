@@ -34,6 +34,7 @@ TN,0,`Товарна накладна / Накладна за кількістю
 СTN,1,`Коригування товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 TN,1,`Накладна за кількістю <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 PRN,2,`Цінова Накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
+CVN,2,`Коригування видаткової накладної (для ТМ ЕПІЦЕНТР) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
 DRN,3,`Видаткова Накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 **Підтип ТТН (DECLARHEAD.C_DOC)**,**sub_doc_type_id**,**Назва та опис документа**
 T01,1,зовнішня ТТН
