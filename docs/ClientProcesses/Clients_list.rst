@@ -21,3 +21,4 @@
    GS1/GS1_list
    TurboUA/TurboUA_list
    Epicentr/Epicentr_list
+   Comfy/Comfy_list

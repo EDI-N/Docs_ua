@@ -29,6 +29,7 @@
 035,35,`Акт приймання товару до ВН (COMDOC_035) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-035>`__
 036,36,`Акт коригування (COMDOC_036) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-036>`__
 037,37,`Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
+038,38,`Коригування видаткової накладної (COMDOC_038) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-038>`__
 **Підтип накладної (DOCUMENTINVOICE.DocumentFunctionCode)**,**sub_doc_type_id**,**Назва та опис документа**
 TN,0,`Товарна накладна / Накладна за кількістю (для Метро та Леруа Мерлен) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
 СTN,1,`Коригування товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
