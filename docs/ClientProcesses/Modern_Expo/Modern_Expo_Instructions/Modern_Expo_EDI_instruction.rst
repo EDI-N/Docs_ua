@@ -28,9 +28,9 @@
    :start-after: .. початок блоку для Enter
    :end-before: .. кінець блоку для Enter
 
-Після успішної авторизації відкриється основне меню для вибору сервісу платформи EDIN "EDI+ЮЗД":
+Після успішної авторизації відкриється основне меню, де у вкладці **"Продукти та рішення"** EDIN потрібно обрати сервіс **"EDI+ЮЗД"**:
 
-.. image:: pics_Modern_Expo_EDI_instruction/Modern_Expo_EDI_instruction_001.png
+.. image:: /_constant/pics_landing/landing_edi.png
    :align: center
 
 2 Формування "Підтвердження замовлення" (ORDRSP) на підставі вхідного "Попереднього замовлення" (ORDER)
