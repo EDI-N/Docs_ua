@@ -8,6 +8,12 @@
 
 .. |будинок| image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_004.png
 
+.. |прокрутка1| image:: /retail_2.0/pics_formuvannia_Condra/formuvannia_Condra_026.png
+
+.. |прокрутка2| image:: /retail_2.0/pics_formuvannia_Condra/formuvannia_Condra_027.png
+
+.. |trash| image:: /retail_2.0/pics_formuvannia_Condra/formuvannia_Condra_025.png
+
 .. role:: red
 
 .. contents:: Зміст:
