@@ -5,16 +5,33 @@ XML Специфікації схеми "Міжнародні перевезен
 
 -------------------------
 
-
-
-
 .. include:: /ClientProcesses/ATB/ATB_XML-structure.rst
    :start-after: .. початок блоку для International_transportation_specs1
    :end-before: .. кінець блоку для International_transportation_specs1
 
+-------------------------
 
+Рахунок (INVOICE)
+==============
 
+.. csv-table:: **Рахунок (INVOICE)** є повідомленням; в якому містяться дані по оплаті наданих послуг і товарів. В **Рахунку** обов'язково вказується ціна продукту без ПДВ; ставка ПДВ для кожної товарної позиції і підраховується сумарна вартість **Замовлення**.
+  :file: ../../XML/files/INVOICE.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
 
+:download:`Приклад INVOICE</XML/examples/INVOICE_example.xml>`
+
+-------------------------
+
+Універсальний/неструктурований документ (CONDRA)
+===================================================
+
+.. csv-table:: 
+  :file: ../../XML/files/CONDRA.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад CONDRA</XML/examples/CONDRA_example.xml>`
 
 -------------------------
 
