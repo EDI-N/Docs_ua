@@ -12,3 +12,13 @@
    Instruktsiya_po_zavantazhennyu_reyestru_komdok
    massovi_operacii_EDIN_2.0
    Spravochnik_torgovyh_setej_Ukraina
+
+.. toctree::
+   :caption: Схема "Міжнародні перевезення"
+   :maxdepth: 2
+   
+   International_transportation/International_transportation_instruction
+   International_transportation/International_transportation_specs
+
+
+

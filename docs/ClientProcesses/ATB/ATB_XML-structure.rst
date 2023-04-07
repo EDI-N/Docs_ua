@@ -19,15 +19,17 @@ XML Специфікації для роботи з "АТБ"
 
 ---------------------------------------------------------
 
+.. початок блоку для International_transportation_specs1
+
 Замовлення (ORDER)
 ==========================
 
 .. csv-table:: Замовлення (ORDER) на поставку відправляє покупець постачальнику, вказуючи штрих-код продукту, його опис, замовлену кількість, ціну та іншу необхідну інформацію.
-  :file: ATB_XML/files/ORDER.csv
+  :file: /ClientProcesses/ATB/ATB_XML/files/ORDER.csv
   :widths:  20, 7, 29, 37
   :header-rows: 1
 
-:download:`Приклад ORDER<ATB_XML/examples/ORDERS_example.xml>`
+:download:`Приклад ORDER</ClientProcesses/ATB/ATB_XML/examples/ORDERS_example.xml>`
 
 ---------
 
@@ -35,11 +37,11 @@ XML Специфікації для роботи з "АТБ"
 ========================================
 
 .. csv-table:: Підтвердження замовлення (ORDRSP) відправляється у відповідь на прийнятий документ Замовлення (ORDER). Основною особливістю Підтвердження замовлення є уточнення про постачання по кожній товарній позиції: чи буде товар доставлений; чи змінилася кількість/ціна чи буде відмова від поставки товарної позиції
-  :file: ATB_XML/files/ORDRSP.csv
+  :file: /ClientProcesses/ATB/ATB_XML/files/ORDRSP.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRSP<ATB_XML/examples/ORDRSP_example.xml>`
+:download:`Приклад ORDRSP</ClientProcesses/ATB/ATB_XML/examples/ORDRSP_example.xml>`
 
 ---------
 
@@ -47,11 +49,13 @@ XML Специфікації для роботи з "АТБ"
 ===============================================
 
 .. csv-table:: **Повідомлення про відвантаження (DESADV)** відправляє постачальник у відповідь на **Замовлення (ORDER)**. При цьому постачальник може змінити кількість замовлених товарних позицій, що поставляються, дату і час поставки, додаткові відомості. Даний документ є аналогом товарно-транспортної накладної (ТТН)
-  :file: ATB_XML/files/DESADV.csv
+  :file: /ClientProcesses/ATB/ATB_XML/files/DESADV.csv
   :widths:  20, 7, 29, 37
   :header-rows: 1
 
-:download:`Приклад DESADV<ATB_XML/examples/DESADV_example.xml>`
+:download:`Приклад DESADV</ClientProcesses/ATB/ATB_XML/examples/DESADV_example.xml>`
+
+.. кінець блоку для International_transportation_specs1
 
 ---------
 
