@@ -15,7 +15,7 @@
 
 .. toctree::
    :caption: Схема "Міжнародні перевезення"
-   :maxdepth: 2
+   :maxdepth: 1
    
    International_transportation/International_transportation_instruction
    International_transportation/International_transportation_specs
