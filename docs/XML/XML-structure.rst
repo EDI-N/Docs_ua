@@ -608,6 +608,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад CONDRA<examples/CONDRA_example.xml>`
+
 ---------
 
 Електронна специфікація (PRODUCTLIST)
