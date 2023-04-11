@@ -18,7 +18,7 @@
    :maxdepth: 1
    
    International_transportation/International_deliveries_instruction
-   International_transportation/International_transportation_specs
+   International_transportation/International_deliveries_specs
 
 
 
