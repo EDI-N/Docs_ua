@@ -4,9 +4,9 @@
 
 .. сюда закину немного картинок для текста
 
-.. |лупа| image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_003.png
+.. |лупа| image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_003.png
 
-.. |будинок| image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_004.png
+.. |будинок| image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_004.png
 
 .. |прокрутка1| image:: /retail_2.0/pics_formuvannia_Condra/formuvannia_Condra_026.png
 
@@ -36,13 +36,13 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_International_transportation_instruction/International_transportation_instruction_001.png
+.. image:: pics_International_deliveries_instruction/International_deliveries_instruction_001.png
    :height: 700px
    :align: center
 
 .. зараз все стандартно, тому копіпастимо сюди:
 
-.. include:: /ClientProcesses/ATB/ATB_Instructions/ATB_International_transportation_instruction.rst
+.. include:: /ClientProcesses/ATB/ATB_Instructions/ATB_International_deliveries_instruction.rst
    :start-after: .. початок блоку для Universal_International_transportation
    :end-before: .. кінець блоку для Universal_International_transportation
 

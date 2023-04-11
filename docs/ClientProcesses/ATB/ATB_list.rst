@@ -10,7 +10,7 @@
 .. toctree::
    :maxdepth: 1
    
-   ATB_Instructions/ATB_International_transportation_instruction
+   ATB_Instructions/ATB_International_deliveries_instruction
    ATB_Instructions/ATB_external_EDI_instruction_net
    ATB_Instructions/ATB_external_EDI_instruction_post
    ATB_Instructions/ATB_distribution_centers
