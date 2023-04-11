@@ -14,7 +14,7 @@
    Spravochnik_torgovyh_setej_Ukraina
 
 .. toctree::
-   :caption: Схема "Міжнародні перевезення"
+   :caption: Схема "Міжнародні поставки"
    :maxdepth: 1
    
    International_transportation/International_transportation_instruction
