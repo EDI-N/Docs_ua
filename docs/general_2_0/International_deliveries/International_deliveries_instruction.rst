@@ -28,11 +28,11 @@
 
 Дана інструкція описує порядок документообігу на платформі EDI Network 2.0 за схемою передбаченою для міжнародних перевезень. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/general_2_0/International_transportation/International_transportation_specs.html#order>`__
-- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/general_2_0/International_transportation/International_transportation_specs.html#ordrsp>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/general_2_0/International_transportation/International_transportation_specs.html#desadv>`__
-- `Рахунок <https://wiki.edin.ua/uk/latest/general_2_0/International_transportation/International_transportation_specs.html#invoice>`__
-- `Універсальний документ <https://wiki.edin.ua/uk/latest/general_2_0/International_transportation/International_transportation_specs.html#condra>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/general_2_0/International_deliveries/International_deliveries_specs.html#order>`__
+- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/general_2_0/International_deliveries/International_deliveries_specs.html#ordrsp>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/general_2_0/International_deliveries/International_deliveries_specs.html#desadv>`__
+- `Рахунок <https://wiki.edin.ua/uk/latest/general_2_0/International_deliveries/International_deliveries_specs.html#invoice>`__
+- `Універсальний документ <https://wiki.edin.ua/uk/latest/general_2_0/International_deliveries/International_deliveries_specs.html#condra>`__
 
 **Загальна схема документообігу:**
 
@@ -43,8 +43,8 @@
 .. зараз все стандартно, тому копіпастимо сюди:
 
 .. include:: /ClientProcesses/ATB/ATB_Instructions/ATB_International_deliveries_instruction.rst
-   :start-after: .. початок блоку для Universal_International_transportation
-   :end-before: .. кінець блоку для Universal_International_transportation
+   :start-after: .. початок блоку для Universal_International_deliveries
+   :end-before: .. кінець блоку для Universal_International_deliveries
 
 -------------------------------------
 
