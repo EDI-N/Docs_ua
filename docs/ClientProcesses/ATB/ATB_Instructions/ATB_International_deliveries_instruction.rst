@@ -38,7 +38,7 @@
    :height: 700px
    :align: center
 
-.. початок блоку для Universal_International_transportation
+.. початок блоку для Universal_International_deliveries
 
 1 Вхід на платформу
 ====================================
@@ -244,7 +244,7 @@
 
 За потреби Мережа може створити у відповідь "Універсальний документ" (CONDRA) разом з запропонованими правками і коментарями.
 
-.. кінець блоку для Universal_International_transportation
+.. кінець блоку для Universal_International_deliveries
 
 -------------------------------------
 
