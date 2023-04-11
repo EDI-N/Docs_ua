@@ -50,17 +50,17 @@
 
 Для формування "Підтвердження замовлення" (ORDRSP) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження. Документ відображається у **"Вхідних"** (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_041.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_041.png
    :align: center
 
 Потрібно відкрити вхідне "Замовлення" (ORDER) лівою кнопкою миші та створити "Підтвердження замовлення" (ORDRSP) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" за допомогою кнопки **"Створити документ"** (документ створиться автоматично):
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_042.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_042.png
    :align: center
 
 У відкритій формі "Підтвердження замовлення" (ORDRSP) деякі поля заповнюються автоматично з пов'язаного "Замовлення" (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_049.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_049.png
    :align: center
 
 #. **Одержувач** - дані одержувача (мережі), не підлягають редагуванню
@@ -74,12 +74,12 @@
 .. hint::
    За допомогою кнопки **"Пошук контрагента"** (|лупа|) або ж за допомогою кнопки **"Вказати себе"** (|будинок|) можливо вказати чи змінити дані Покупця або Постачальника. Для пошуку введіть назву компанії, GLN або ІПН:
 
-   .. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_005.png
+   .. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_005.png
       :align: center
 
 .. вирішили прибрати, але для інших інструкцій ок - Блоки **Додаткова інформація** та **Рампи** необов'язкові для заповнення і "згорнуті" за замовчуванням. Блок **Разом** розраховується автоматично після заповнення позицій.
 
-   .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_018.png
+   .. image:: pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_018.png
       :align: center
 
 В табличній частині відображається основна інформація по замовлених **товарних позиціях**. **Товарні позиції** переносяться з Замовлення: їх можна додати, змінити, підтвердити/відхилити чи видалити.
@@ -88,17 +88,17 @@
 
 Після того, як товарні позиції будуть обрані (відмічені чекером) над ними доступні наступні **"Дії над вибраними"** : **Буде доставлено** або **Відмовлено**. У колонці **Дії** - відображається статус дії в обраній позиції. В залежності від обраної дії за позицією закріпляється відповідний статус (статус **Зміни кількості** проставляється автоматично, якщо "Підтверджена кількість" відрізняється від "Замовленої кількості").
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_050.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_050.png
    :align: center
   
 Постачальник може редагувати позиції прямо в таблиці чи в розширеній формі "Дані товару" після натискання на штрихкод позиції:
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_051.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_051.png
    :align: center
 
 Також можливо **"Клонувати"** позиції в таблицю в яких можливо буде вказати різні (старі/нові) значення "Максимальної роздрібної ціни" (МРЦ):
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_052.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_052.png
    :align: center
 
 .. note::
@@ -106,7 +106,7 @@
 
 .. вирішили прибрати, але для інших інструкцій ок - Можливо також додати іншу позицію з Товарного довідника, заповнивши форму **Додати позицію** через кнопку **"+Додати"** (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`).
 
-   .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_020.png
+   .. image:: pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_020.png
       :align: center
 
 .. attention::
@@ -114,12 +114,12 @@
 
 Після внесення всіх даних в документ, натисніть кнопку **"Зберегти"** (1), потім **"Відправити"** (2).
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_021.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_021.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходиться в ланцюжку документів разом із "Замовленням".
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_022.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_022.png
    :align: center
 
 3 Формування "Повідомлення про відвантаження" (DESADV). Сторона Постачальника
@@ -127,12 +127,12 @@
 
 Для формування "Повідомлення про відвантаження" (DESADV) потрібно у папці **"Надіслані"** обрати "Підтвердження замовлення" (ORDRSP), за яким потрібно зробити відвантаження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_045.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_045.png
    :align: center
 
 Потрібно відкрити надіслане "Підтвердження замовлення" (ORDRSP) лівою кнопкою миші та створити "Повідомлення про відвантаження" (DESADV) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" за допомогою кнопки **"Створити документ"** (документ створиться автоматично):
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_046.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_046.png
    :align: center
 
 У відкритій формі "Повідомлення про відвантаження" (DESADV) деякі поля заповнюються автоматично з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
@@ -140,7 +140,7 @@
 .. note::
    Документ "Повідомлення про відвантаження" (DESADV) підтримує версійність (на рівні одного `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__). Якщо мережа відхиляє сформовану ТТН, необхідно переробити весь ланцюжок документів, починаючи з "Повідомлення про відвантаження" (DESADV). При заміні документа (номер документа зберігається) потрібно збільшувати значення **"Версії"** документа на одиницю (n+1).
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_027.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_027.png
    :align: center
 
 #. **Одержувач** - дані одержувача (мережі), компанія;
@@ -157,12 +157,12 @@
 .. hint::
    За допомогою кнопки **"Пошук контрагента"** (|лупа|) або ж за допомогою кнопки **"Вказати себе"** (|будинок|) можливо вказати чи змінити дані Покупця або Постачальника. Для пошуку введіть назву компанії, GLN або ІПН:
 
-   .. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_005.png
+   .. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_005.png
       :align: center
 
 .. вирішили прибрати, але для інших інструкцій ок - Блоки **Додаткова інформація** та **Транспортування** необов'язкові для заповнення і "згорнуті" за замовчуванням. Блок **Разом** розраховується автоматично після заповнення позицій.
 
-   .. image:: pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_026.png
+   .. image:: pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_026.png
       :align: center
 
 .. important::
@@ -172,7 +172,7 @@
 
 :red:`Всі зміни за позиціями тільки після узгодження з мережею!`
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_028.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_028.png
    :align: center
 
 .. important::
@@ -187,12 +187,12 @@
 
 Після внесення всіх даних в документ, натисніть кнопку **"Зберегти"** (1), потім **"Відправити"** (2).
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_029.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_029.png
    :align: center
    
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в ланцюжку документів разом із "Замовленням" і "Підтвердженням замовлення".
 
-.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_transportation_instruction/ATB_International_transportation_instruction_030.png
+.. image:: /ClientProcesses/ATB/ATB_Instructions/pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_030.png
    :align: center
 
 --------------------------------------
