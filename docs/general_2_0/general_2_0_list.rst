@@ -17,8 +17,8 @@
    :caption: Схема "Міжнародні поставки"
    :maxdepth: 1
    
-   International_transportation/International_deliveries_instruction
-   International_transportation/International_deliveries_specs
+   International_deliveries/International_deliveries_instruction
+   International_deliveries/International_deliveries_specs
 
 
 
