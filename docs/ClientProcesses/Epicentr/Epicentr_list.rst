@@ -2,6 +2,13 @@
 #############################################
 
 .. toctree::
+   :caption: Робота в сервісі "EDI+ЮЗД"
+   :maxdepth: 1
+   
+   Epicentr_Instructions/Epicentr_EDI_instruction_retailer
+   Epicentr_Instructions/Epicentr_EDI_instruction_supplier
+
+.. toctree::
    :caption: Специфікації документів (XML) для роботи з "Епіцентром" [1]
    :maxdepth: 1
    
@@ -15,3 +22,5 @@
    * для `"Е-ТТН" <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ сервісу;
    * для `"Е-Специфікація" <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/XML/XML_structure.html>`__ сервісу;
    * для `"Дистриб’юшн" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html>`__ сервісу.
+
+/home/bezginn/Work/FromVScode/Docs_ua_Kolya/Docs_ua/docs/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_retailer.rst

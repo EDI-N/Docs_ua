@@ -23,41 +23,43 @@
 1 Створення "Замовлення" (ORDER)
 ==================================================================
 
+.. початок блоку для Order_from_zero
+
 Для формування "Замовлення" (ORDER) користувачу в меню сервісу **"EDI+ЮЗД"** потрібно натиснути кнопку **"Створити"** та обрати документ "Замовлення" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_011.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_011.png
    :align: center
 
 Відкриється порожня форма документа, в якій всі обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_012.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_012.png
    :align: center
 
-Дані **Відправника** - це Ваші дані, що заповнюються автоматично і не підлягають редагуванню. Зповнити дані **Одержувача** можливо за допомогою кнопки **"Пошук контрагента"** (|лупа|).
+Дані **Відправника** - це Ваші дані, що заповнюються автоматично і не підлягають редагуванню. Заповнити дані **Одержувача** можливо за допомогою кнопки **"Пошук контрагента"** (|лупа|).
 
 .. hint::
    За допомогою кнопки **"Пошук контрагента"** (|лупа|) або ж за допомогою кнопки **"Вказати себе"** (|будинок|) можливо вказати чи змінити дані Покупця або Постачальника. Для пошуку введіть назву компанії, GLN або ІПН:
 
-   .. image:: pics_ATB_International_deliveries_instruction/ATB_International_deliveries_instruction_005.png
+   .. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_024.png
       :align: center
 
 За замовчуванням **Тип документа** зазначається як "Оригінал замовлення"; за потреби **Тип документа** можливо переобрати з випадаючого списку: *Оригінал замовлення*, *Заміна*, *Видалення*, *Фіктивність замовлення*, *Передзамовлення*, *Замовлення на послугу/маркетинг*:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_013.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_013.png
    :align: center
 
 Потрібно заповнити **№** - номер замовлення (поле **від** за замовчуванням заповнюється поточною датою). Дані **Постачальника** / **Покупця** / **Місця доставки** за допомогою кнопки **"Пошук контрагента"** (|лупа|), або за допомогою кнопки **"Вказати себе"** (|будинок|). В такий же спосіб можливо опціонально додати інформацію про **Кінцевого одержувача**, **Замовника**, **Вантажоодержувача**, **Платника**.
 
 Важливо зазначити дату поставки (поле **"Поставка відбудеться"**), а також номер договору на поставку (поле **"За договором на поставку №"**):
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_014.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_014.png
    :align: center
 
 Блоки **Додаткова інформація** та **Транспортування** необов'язкові для заповнення і "згорнуті" за замовчуванням. Блок **Разом** розраховується автоматично після заповнення табличних позицій.
 
 В табличній частині відображається основна інформація за замовленими **товарними позиціями**. Заповнити таблицю можливо 2-ма способами:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_015.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_015.png
    :align: center
 
 -------------------------------
@@ -66,17 +68,17 @@
 
 "Додати позицію" можливо за допомогою кнопки **"+Додати"** (обов'язкові до заповнення поля форми позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_016.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_016.png
    :align: center
 
 Для заповнення потрібно почати вводити назву / штрих-код товарної позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_017.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_017.png
    :align: center
 
 Далі потрібно запонити всі обов'язкові поля позиції та **"Додати"** в таблицю документа:  
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_018.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_018.png
    :align: center
 
 -------------------------------
@@ -85,7 +87,7 @@
 
 Також для додавання табличних даних масово є можливість скористатись шаблоном. Для цього над таблицею необхідно натиснути **"Зберегти шаблон Excel"** (1):
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_019.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_019.png
    :align: center
 
 На Ваш пристрій буде завантажено файл з назвою **orders_products_sample.xls**. Відкривши його, необхідно внести інформацію про товарні позиції: обов’язкові до заповнення поля в файлі відмічені зеленим кольором (є підказки).
@@ -102,23 +104,29 @@
 
 Можливо редагувати замовлену "Кількість" прямо в таблиці чи **"Змінити"** "Дані позиції" в розширеній формі після натискання на штрих-код позиції:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_020.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_020.png
    :align: center
 
 Для видалення позиції потрібно відзначити позицію чекером та натиснути кнопку **"Видалити"**:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_021.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_021.png
    :align: center
 
 Після внесення всіх даних потрібно **"Зберегти"** (1) документ, після чого його можливо **"Відправити"** (2):
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_022.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_022.png
    :align: center
 
 Після збереження документ можливо знайти в папці **"Чернетки"**. Відправлений документ автоматично потрапляє в папку **"Надіслані"**:
 
-.. image:: pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_023.png
+.. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_023.png
    :align: center
+
+.. кінець блоку для Order_from_zero
+
+
+
+
 
 .. інфо 4-ьох річної давнини - ми так зараз не робимо (за потреби винести)
 
