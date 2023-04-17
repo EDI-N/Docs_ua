@@ -142,7 +142,7 @@
 
 При введених значеннях, що відповідають квотам/обмеженням документ `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ при **"+Створенні замовлення"** потрібно на "Формі замовлення" заповнити всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
 
-.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_027.png
+.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_032.png
    :align: center
 
 - №* - доступно для редагування (за відсутності відмітки);
