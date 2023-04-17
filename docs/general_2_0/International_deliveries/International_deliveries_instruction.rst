@@ -36,7 +36,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_International_deliveries_instruction/International_deliveries_instruction_001.png
+.. image:: pics_International_deliveries_instruction/International_deliveries_instruction_002.png
    :height: 700px
    :align: center
 
