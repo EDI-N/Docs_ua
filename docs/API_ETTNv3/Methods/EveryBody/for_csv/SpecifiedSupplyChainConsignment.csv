@@ -1,7 +1,7 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _SpecifiedSupplyChainConsignment:,M,Об'єкт **SpecifiedSupplyChainConsignment**,
 **grossWeightMeasure**,M,EcmrUnitValue_,"Загальна вага перевезення (маса брутто) в кг"
-**associatedInvoiceAmount**,M,InvoiceAmount_,"Усього відпущено на загальну суму, грн"
+**associatedInvoiceAmount**,O,InvoiceAmount_,"Усього відпущено на загальну суму, грн"
 consignmentItemQuantity,M,decimal,Загальна кількість місць вантажу (контейнерів)
 **consignor**,M,TradeParty_,Вантажовідправник
 **consignee**,M,TradeParty_,Вантажоодержувач
