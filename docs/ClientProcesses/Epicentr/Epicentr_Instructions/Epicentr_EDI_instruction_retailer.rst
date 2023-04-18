@@ -28,7 +28,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_001.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_028.png
    :height: 700px
    :align: center
 
