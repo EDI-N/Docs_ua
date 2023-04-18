@@ -29,3 +29,4 @@ isProlonged,,boolean,автопродовження тендера
 lotsCount,,Integer,кількість лотів
 betsCount,,Integer,кількість ставок
 **attachments**,,List<Attachment_>,масив об'єктів; вкладення
+**companyAccessRequestStatus**,,CompanyAccessRequestStatus_,об'єкт; статус заявки на участь в закритому тендері і коментарями Організатора. Об'єкт доступний лише закритим тендерам для Організатора чи Учасника цього тендера.

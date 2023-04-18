@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _CompanyAccessRequestStatus: ,, Об'єкт **CompanyAccessRequestStatus**,
+id,,long,ідентифікатор запису
+**status**,,Status_,об'єкт; статус
+**accessLog**,,List<AccessLog_>,масив об'єктів; перебіг (лог) отримання доступу до аукціону (тендера)
