@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/v1/tender/auction/access/company/outgoing?company_id=3627&auction_id=5799**
+URL параметри ,"**auction_id** (опціонально) long - ідентифікатор аукціона (тендера)
+
+**company_id** (обов'язково) long - ідентифікатор компанії, від якої здійснюється запит"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Tender/Methods/Authorization.html>`__ "
+Content-Type  , application/json
