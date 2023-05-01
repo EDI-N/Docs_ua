@@ -37,7 +37,14 @@
    
    Create_COMDOC_037_from
 
+.. _disagreement-act:
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт розбіжностей про вантаж
+   
+   Create_Disagreement_Act_from
+   Disagreement_Act_Reject
 
 
 .. для красивих посилань на документи треба місце для скролу:
