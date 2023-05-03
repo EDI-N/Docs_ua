@@ -46,6 +46,17 @@
    Create_Disagreement_Act_from
    Disagreement_Act_Reject
 
+.. _consignee-change-act:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт про заміну пункту призначення вантажу
+   
+   Create_Consignee_Change_Act_from
+   Consignee_Change_Act_Reject
+
+
+
 
 .. для красивих посилань на документи треба місце для скролу:
 

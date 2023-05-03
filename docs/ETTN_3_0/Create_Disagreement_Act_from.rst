@@ -98,7 +98,7 @@
 
 Після того, як обов'язкові дані будуть введені потрібно **"Зберегти"** (1), **"Підписати"** (2) та **"Надіслати"** (3) документ:
 
-.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_012.png
+.. image:: pics_Create_Consignee_Change_Act_from/Create_Consignee_Change_Act_from_012.png
    :align: center
 
 .. _sign:
