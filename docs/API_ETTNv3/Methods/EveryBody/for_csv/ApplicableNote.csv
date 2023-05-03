@@ -2,7 +2,7 @@
 .. _ApplicableNote:,,Об'єкт **ApplicableNote**,
 contentCode,O/M,string,"Код:
 
-* GROSSWEIGHT - Маса брутто (кг) з точністю до 0,1;
+* GROSSWEIGHT - Маса брутто (кг);
 * DOWNTIME - Час простою (години);
 * VENDOR_CODE - Артикул товару;
 * QUANTITY - Кількість товару;
