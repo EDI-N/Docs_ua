@@ -195,7 +195,7 @@ ram:PersonName,M,string,"ПІБ відповідальної особи Пром
 **ram:CertifyingTradeParty** (RoleCode=WD),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
 **ram:ApplicableNote** (з кодом GROSSWEIGHT),O,,"Маса брутто, кг (початок блоку)"
 ram:ContentCode,O,string,Код GROSSWEIGHT
-ram:Content,O,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах з точністю до 0,1"
+ram:Content,O,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах"
 **ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
 **ram:ApplicableNote** (з кодом DOWNTIME),O,,Час простою (початок блоку)
 ram:ContentCode,O,string,Код DOWNTIME
