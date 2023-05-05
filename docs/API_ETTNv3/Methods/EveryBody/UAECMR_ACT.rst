@@ -497,10 +497,10 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 54 - Опис параметрів об'єкта **includedNote**
+Таблиця 54 - Опис параметрів об'єкта **IncludedNote**
 
 .. csv-table:: 
-  :file: for_csv/includedNote.csv
+  :file: for_csv/IncludedNote.csv
   :widths:  1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0

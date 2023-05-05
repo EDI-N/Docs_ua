@@ -288,7 +288,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-Таблиця 36 - Опис параметрів об'єкта **includedNote**
+Таблиця 36 - Опис параметрів об'єкта **IncludedNote**
 
 .. csv-table:: 
   :file: for_csv/IncludedNote.csv
