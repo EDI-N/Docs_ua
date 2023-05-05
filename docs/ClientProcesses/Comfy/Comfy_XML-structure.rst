@@ -15,6 +15,8 @@ XML Специфікації для роботи з Мережею "Comfy"
 
 :download:`Приклад "Підтвердження замовлення" (ORDRSP)<Comfy_XML/examples/ORDRSP_example.xml>`
 
+---------
+
 Прайс-лист (PRICAT)
 ====================
 
@@ -24,6 +26,18 @@ XML Специфікації для роботи з Мережею "Comfy"
   :header-rows: 1
 
 :download:`Приклад "Прайс-листа" (PRICAT)<Comfy_XML/examples/PRICAT_example.xml>`
+
+---------
+
+Видаткова накладна (COMDOC_006)
+========================================
+
+.. csv-table:: Видаткова накладна (COMDOC_006)
+  :file: Comfy_XML/files/COMDOC_006.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад "Видаткової накладної" (COMDOC_006)<Comfy_XML/examples/comdoc_006_example.xml>`
 
 -------------------------
 
