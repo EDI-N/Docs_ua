@@ -11,7 +11,6 @@ EDIN | Електронний документообіг для бізнесу
 .. toctree::
    :titlesonly:
    
-   WHATS_NEW
    ClientProcesses/Clients_list
 
 .. toctree::
