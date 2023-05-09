@@ -338,7 +338,7 @@ schemeAgencyID,M,string,РНОКПП
 value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП матеріально відповідальної особи вантажоодержувача (закінчення блоку)"
 **ram:CertifyingTradeParty** (RoleCode=CN),,,Інформація про відповідальних осіб Вантажоодержувача (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=DR),M/O,,Інформація про водія Перевізника. Обов'язково має передаватись один з двох блоків: про Водія або відповідальну особу Перевізника (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),M,,Інформація про водія Перевізника
 ram:Name,M,string,"Посада водія, що здав вантаж"
 ram:RoleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
@@ -349,7 +349,7 @@ schemeAgencyID,O,string,РНОКПП
 value,O,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
 **ram:CertifyingTradeParty** (RoleCode=DR),,,Інформація про водія Перевізника (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=CA),M/O,,Інформація про відповідальних осіб Перевізника. Обов'язково має передаватись один з двох блоків: про Водія або відповідальну особу Перевізника (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),O,,Інформація про відповідальних осіб Перевізника
 ram:Name,M,string,"Посада відповідальної особи Перевізника"
 ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
@@ -398,7 +398,7 @@ schemeAgencyID,M,string,РНОКПП
 value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП матеріально відповідальної особи, яка відпускає вантаж (закінчення блоку)"
 **ram:CertifyingTradeParty** (RoleCode=CZ),,,Інформація про відповідальних осіб Вантажовідправника (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=DR),M,,Інформація про водія Перевізника (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),M/O,,Інформація про водія Перевізника. Обов'язково має передаватись один з двох блоків: про Водія або про відповідальну особу Перевізника (початок блоку)
 ram:Name,M,string,"Посада водія, що прийняв вантаж"
 ram:RoleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
@@ -409,7 +409,7 @@ schemeAgencyID,O,string,РНОКПП
 value,O,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
 **ram:CertifyingTradeParty** (RoleCode=DR),,,Інформація про водія Перевізника (закінчення блоку)
-**ram:CertifyingTradeParty** (RoleCode=CA),O,,Інформація про відповідальних осіб Перевізника (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),M/O,,Інформація про відповідальних осіб Перевізника. Обов'язково має передаватись один з двох блоків: про Водія або про відповідальну особу Перевізника (початок блоку)
 ram:Name,M,string,"Посада відповідальної особи Перевізника"
 ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
