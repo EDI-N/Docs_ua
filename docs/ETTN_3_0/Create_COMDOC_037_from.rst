@@ -3,9 +3,13 @@
 
 .. сюда закину немного картинок для текста + юзаєм спільні зображення
 
-.. |лупа| image:: pics_Create_ETTN/Create_ETTN_013.png
+.. |лупа| image:: /_constant/icons/magnifying_glass.png
 
-.. |будинок| image:: pics_Create_ETTN/Create_ETTN_014.png
+.. |будинок| image:: /_constant/icons/house.png
+
+.. |trash| image:: /_constant/icons/trash.png
+
+.. |download| image:: /_constant/icons/download.png
 
 .. role:: red
 
@@ -96,9 +100,25 @@
 
 Також можливо **"+Додати"** нову позицію в таблицю та внести всі дані вручну. За потреби табличні позиції можливо **"Видалити"**.
 
-Після того, як всі обов'язкові дані були внесені/змінені (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`), документ можливо **"Зберегти"**, **"Підписати"** та **"Відправити"**:
+Після того, як всі обов'язкові дані були внесені/змінені (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`), документ можливо **"Зберегти"**:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_006.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_014.png
+   :align: center
+
+.. hint::
+   До чернетки (збережений невідправлений документ) можливо **"+Додати файл"** - супровідний документ (вкладення в pdf форматі не має перевищувати 25MB):
+
+   .. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_015.png
+      :align: center
+
+   Додані файли відображаються в правому верхньому куті документа, їх можливо переглянути, натиснувши на назву файлу, зберегти (|download|) чи видалити (|trash|):
+
+   .. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_016.png
+      :align: center
+
+:underline:`Після Зберігання документа` його потрібно **"Підписати"** та **"Відправити"** контрагентам:
+
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_017.png
    :align: center
 
 .. кінець блоку для ManyToOneDoc

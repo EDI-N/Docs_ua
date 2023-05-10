@@ -9,6 +9,10 @@
 
 .. сюда закину немного картинок для текста
 
+.. |trash| image:: /_constant/icons/trash.png
+
+.. |download| image:: /_constant/icons/download.png
+
 .. contents:: Зміст:
    :depth: 3
 
