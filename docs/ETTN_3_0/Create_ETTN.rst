@@ -11,9 +11,9 @@
 
 .. сюда закину немного картинок для текста
 
-.. |лупа| image:: pics_Create_ETTN/Create_ETTN_013.png
+.. |лупа| image:: /_constant/icons/magnifying_glass.png
 
-.. |будинок| image:: pics_Create_ETTN/Create_ETTN_014.png
+.. |будинок| image:: /_constant/icons/house.png
 
 .. |pencil| image:: pics_Create_ETTN/Create_ETTN_020.png
 
@@ -23,7 +23,9 @@
 
 .. |лупа2| image:: pics_Create_ETTN/Create_ETTN_035.png
 
-.. |trash| image:: pics_Create_ETTN/Create_ETTN_040.png
+.. |trash| image:: /_constant/icons/trash.png
+
+.. |download| image:: /_constant/icons/download.png
 
 .. contents:: Зміст:
    :depth: 6
@@ -253,9 +255,9 @@
 .. image:: pics_Create_ETTN/Create_ETTN_037.png
    :align: center
 
-Додані файли відображаються в правому верхньому куті документа, їх можливо видалити (|trash|) чи зберегти, натиснувши на назву файлу:
+Додані файли відображаються в правому верхньому куті документа, їх можливо **переглянути**, натиснувши на назву файлу, **зберегти** (|download|) чи **видалити** (|trash|):
 
-.. image:: pics_Create_ETTN/Create_ETTN_041.png
+.. image:: pics_Create_ETTN/Create_ETTN_054.png
    :align: center
 
 .. hint::
