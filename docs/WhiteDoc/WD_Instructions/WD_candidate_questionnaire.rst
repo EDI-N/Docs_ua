@@ -32,7 +32,7 @@
 .. image:: pics_WD_candidate_questionnaire/WD_candidate_questionnaire_001.png
    :align: center
 
-Ви будете переадресовані на сторінку сервісу **WhiteDoc** https://wd.edin.ua.
+Ви будете переадресовані на сторінку сервісу **WhiteDoc** https://edo.whitedoc.ua.
 
 .. hint::
    Для зручності можливо одразу обрати мову інтерфейсу:

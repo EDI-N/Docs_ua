@@ -34,7 +34,7 @@ API (application programming interface) - набір визначених мет
 - **ідентифікатор мейлбокса** - унікальний на рівні сервісу ідентифікатор **Мейлбокса** [2]_ .
 
 .. hint::
-   Обрати та скопіювати потрібний Вам ідентифікатор можливо після авторизації на сторінці сервісу (https://wd.edin.ua/login) :
+   Обрати та скопіювати потрібний Вам ідентифікатор можливо після авторизації на сторінці сервісу (https://edo.whitedoc.ua/login) :
 
    .. image:: pics_integration_WD_guide/integration_WD_guide_001.png
       :align: center
@@ -63,7 +63,7 @@ API (application programming interface) - набір визначених мет
 
 При першому запуску інтеграційного модуля сервісу EDIN "WhiteDoc" автоматично відкривається розділ **"Налаштування"**:
 
-.. image:: pics_integration_WD_guide/integration_WD_guide_004.png
+.. image:: pics_integration_WD_guide/integration_WD_guide_014.png
    :align: center 
 
 Розділ містить 3 вкладки:
@@ -90,7 +90,7 @@ API (application programming interface) - набір визначених мет
 
 Після того, як дані користувача були введені можливо здійснити перевірку введених даних кнопкою **"Перевірити підключення користувачів"**, попередньо встановивши відмітку в колонці "Вибрати". 
 
-.. image:: pics_integration_WD_guide/integration_WD_guide_005.png
+.. image:: pics_integration_WD_guide/integration_WD_guide_015.png
    :align: center
 
 В результаті перевірки отриманий **Токен** свідчить про коректно заповнені дані, пройдену авторизацію на платформі електронного документообігу. Також модуль відображає статусні повідомлення про успішність чи помилки, що можуть виникнути у користувача при роботі з модулем.
