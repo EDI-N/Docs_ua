@@ -6,5 +6,5 @@ description,O/-,string,Опис
 **actualOccurrenceDateTime**,O,DateTime_,об'єкт; Дата і час прибуття автомобіля на розвантаження
 **scheduledOccurrenceDateTime**,O,DateTime_,об'єкт; Дата і час вибуття автомобіля з-під розвантаження
 **occurrenceLogisticsLocation**,O/M,LogisticsLocation_,об'єкт; Місцезнаходження
-**certifyingTradeParties**,O/M,List<TradeParty_>,масив об'єктів; Інформація про відповідальних осіб
+**certifyingTradeParties**,O/M,List<TradeParty_>,"масив об'єктів; Інформація (РНОКПП) про відповідальних осіб (підписантів), що передбачені логікою документообігу"
 **applicableNotes**,O,List<ApplicableNote_>,масив об'єктів; Примітки
