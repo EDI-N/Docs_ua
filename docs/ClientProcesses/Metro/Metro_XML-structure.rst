@@ -15,6 +15,18 @@ XML Специфікації для роботи з мережею "МЕТРО"
 
 :download:`Приклад "Транспортної накладної" (DOCUMENTINVOICE_TNN)<Metro_XML/examples/DOCUMENTINVOICE_TNN_example.xml>`
 
+---------
+
+Акт розбіжностей до транспортної накладної (DOCUMENTINVOICE_DTN)
+===========================================================================
+
+.. csv-table:: Акт розбіжностей до транспортної накладної (DOCUMENTINVOICE_DTN)
+  :file: Metro_XML/files/DOCUMENTINVOICE_DTN.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`Приклад "Акта розбіжностей до транспортної накладної" (DOCUMENTINVOICE_DTN)<Metro_XML/examples/DOCUMENTINVOICE_DTN_example.xml>`
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
