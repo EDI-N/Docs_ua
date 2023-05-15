@@ -6,7 +6,7 @@ consignmentItemQuantity,M,decimal,Загальна кількість місць
 **consignor**,M,TradeParty_,Вантажовідправник
 **consignee**,M,TradeParty_,Вантажоодержувач
 **carrier**,M,TradeParty_,Перевізник
-**notifiedTradeParties**,M/O,List<TradeParty_>,"масив об'єктів; Компанія, що причасна до перевезення (визначається роллю)"
+**notifiedTradeParties**,M/O,List<TradeParty_>,"масив об'єктів; інформація (ЄДРПОУ / РНОКПП) про учасників перевезення. Детальніше в `специфікації відповідного документа <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Docs_ETTNv3_list.html>`__."
 **carrierAcceptanceLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт навантаження
 **consigneeReceiptLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт розвантаження
 **associatedReferencedDocuments**,O,List<ReferencedDocument_>,масив об'єктів; Супровідні документи на вантаж
