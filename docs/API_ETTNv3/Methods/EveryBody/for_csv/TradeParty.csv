@@ -3,6 +3,9 @@
 **id**,M/O,EntityId_,"об'єкт;
 
 * Ідентифікаційний код (ЄДРПОУ / РНОКПП), є обов'язковим для:
+   * consignor
+   * consignee
+   * carrier
    * initiatorTradeParty
    * consignorTradeParty
    * carrierTradeParty
