@@ -29,7 +29,7 @@ Cхеми документообігу "Акт про заміну пункту 
 
 1)
 
-.. image:: pics/ConsigneeChangeActv3_API_work_001.png
+.. image:: pics/ConsigneeChangeActv3_API_work_005.png
    :align: center
    :width: 800px
 
@@ -42,7 +42,7 @@ Cхеми документообігу "Акт про заміну пункту 
 
 2)
 
-.. image:: pics/ConsigneeChangeActv3_API_work_002.png
+.. image:: pics/ConsigneeChangeActv3_API_work_006.png
    :align: center
    :width: 800px
 
@@ -55,7 +55,7 @@ Cхеми документообігу "Акт про заміну пункту 
 
 3)
 
-.. image:: pics/ConsigneeChangeActv3_API_work_003.png
+.. image:: pics/ConsigneeChangeActv3_API_work_007.png
    :align: center
    :width: 600px
 
@@ -68,7 +68,7 @@ Cхеми документообігу "Акт про заміну пункту 
 
 4)
 
-.. image:: pics/ConsigneeChangeActv3_API_work_004.png
+.. image:: pics/ConsigneeChangeActv3_API_work_008.png
    :align: center
    :width: 600px
 

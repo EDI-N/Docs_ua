@@ -18,7 +18,7 @@ Cхема документообігу "Акт коригування" (Adjustme
 
 Схема роботи з "Актом коригування", створеного на підставі типової е-ТТН, виглядатиме наступним чином:
 
-.. image:: pics/AdjustmentActv3_API_work_001.png
+.. image:: pics/AdjustmentActv3_API_work_002.png
    :align: center
    :width: 800px
 
