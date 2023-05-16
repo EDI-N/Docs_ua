@@ -11,7 +11,7 @@ Cхема документообігу "Акт перепломбування" (
 
 ----------------------------------------------------
 
-.. image:: pics/ResealingActv3_API_work_002.png
+.. image:: pics/ResealingActv3_API_work_003.png
    :align: center
    :width: 600px
 

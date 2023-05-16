@@ -11,7 +11,7 @@ Cхема документообігу "Акт перевантаження" (Re
 
 ----------------------------------------------------
 
-.. image:: pics/ReloadActv3_API_work_002.png
+.. image:: pics/ReloadActv3_API_work_003.png
    :align: center
    :width: 600px
 

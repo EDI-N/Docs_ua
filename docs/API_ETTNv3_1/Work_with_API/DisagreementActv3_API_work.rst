@@ -11,7 +11,7 @@ Cхема документообігу "Акта розбіжностей про
 
 ----------------------------------------------------
 
-.. image:: pics/DisagreementActv3_API_work_002.png
+.. image:: pics/DisagreementActv3_API_work_003.png
    :align: center
    :width: 800px
 
