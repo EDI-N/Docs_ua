@@ -20,7 +20,6 @@
 
 .. image:: pics/AdjustmentActv3_API_work_002.png
    :align: center
-   :width: 800px
 
 -----------------------------------------------
 

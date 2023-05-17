@@ -15,7 +15,7 @@
 
 .. image:: pics/COMDOC_006_API_work_001.png
    :align: center
-   :width: 600px
+   :width: 900px
 
 ----------------------------------------------------
 
