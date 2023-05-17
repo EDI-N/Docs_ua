@@ -13,7 +13,7 @@
 
 .. image:: pics/ResealingActv3_API_work_003.png
    :align: center
-   :width: 600px
+   :width: 900px
 
 ----------------------------------------------------
 
