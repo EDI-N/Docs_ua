@@ -1,6 +1,29 @@
 API v2
 ###########
 
+.. image:: Work_with_API/pics/Basic_001.png
+   :align: center
+   :height: 700px
+
+   Стандартна схема документообігу
+
+Алгоритми обміну документами
+====================================
+
+.. toctree::
+   :maxdepth: 1
+   
+   Work_with_API/PRICAT_API_work
+   Work_with_API/ORDER_API_work
+   Work_with_API/ORDRSP_API_work
+   Work_with_API/DESADV_API_work
+   Work_with_API/RECADV_API_work
+   Work_with_API/COMDOC_006_API_work
+   Work_with_API/COMDOC_005_API_work
+   Work_with_API/COMDOC_038_API_work
+
+-------------------------------
+
 .. hint::
     Всі запити нижче перерахованих API методів платформи EDIN 2.0 направляються на адресу: https://edo-v2.edin.ua
 
@@ -211,6 +234,8 @@ API v2
    Methods/GetAttachment
    Methods/PostAttachment
    Methods/DeleteDocuments
+
+.. _tickets:
 
 Робота з квитанціями
 ============================
