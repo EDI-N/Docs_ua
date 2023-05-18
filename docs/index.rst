@@ -6,6 +6,11 @@
 EDIN | Електронний документообіг для бізнесу
 ===============================
 
+.. сюда закину немного картинок для текста
+
+.. |edi| image:: /_constant/icons/service-edi.png
+
+
 Зміст:
 
 .. toctree::
@@ -18,7 +23,7 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDI Network
+   :caption: |edi| EDI Network
 
    general_2_0/general_2_0_list
    retail_2.0/retail_2_0_list
