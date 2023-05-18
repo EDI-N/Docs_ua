@@ -6,11 +6,6 @@
 EDIN | Електронний документообіг для бізнесу
 ===============================
 
-.. сюда закину немного картинок для текста
-
-.. |edi| image:: /_constant/icons/service-edi.png
-
-
 Зміст:
 
 .. toctree::
@@ -23,7 +18,7 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: |edi| EDI Network
+   :caption: 🛒 EDI Network
 
    general_2_0/general_2_0_list
    retail_2.0/retail_2_0_list
@@ -34,7 +29,7 @@ EDIN | Електронний документообіг для бізнесу
    ETTN_3_0/ETTN_3_0_list
 
 .. toctree::
-   :caption: Е-ТТН (ТТН v2)
+   :caption: 🚛 Е-ТТН (ТТН v2)
    :titlesonly:
 
    ETTN_2_0/ETTN_2_0_list
@@ -45,14 +40,14 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Комерційна пропозиція
+   :caption: 🫱‍🫲 Комерційна пропозиція
 
    Commercial_offers/Instructions/C_O_instructions_list
    Commercial_offers/API/C_O_API_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Е-Специфікація
+   :caption: 📋 Е-Специфікація
 
    E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
    E_SPEC/EDIN_2_0/API_2_0/E_SPEC_API_2_0_list
@@ -60,14 +55,14 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Є-Товар
+   :caption: 🛍️ Є-Товар
 
    Інструкція <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html>
    API_Openprice/API_Openprice_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Дистриб'юшн
+   :caption: 🏭 Дистриб'юшн
 
    Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list
    Distribution/EDIN_2_0/API_2_0/Distribution_API_2_0_list
@@ -75,20 +70,20 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Е-Сертифікати
+   :caption: 📑 Е-Сертифікати
 
    Certificate/EDIN/Certificate_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Тендер
+   :caption: 📢 Тендер
 
    Tender_2_0/Work_with_Tender
    API_Tender/API_Tender_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Вільний
+   :caption: 🌟 Вільний
 
    Vilnyi/Vilnyi_list
    Vilnyi/Widget_Vilnyi
@@ -96,14 +91,14 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Особистий кабінет
+   :caption: 🔐 Особистий кабінет
 
    Personal_Cabinet/PCInstruction
    API_PC/API_PC_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: WhiteDoc
+   :caption: 💎 WhiteDoc
 
    WhiteDoc/WD_Instructions/WD_Instructions_list
    API <https://wd-api.edin.ua/swagger-ui/#/>
@@ -111,7 +106,7 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Юридична інформація
+   :caption: 👨‍⚖️ Юридична інформація
 
    Legal_info/Rules
    Legal_info/Oferta
@@ -122,13 +117,13 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :titlesonly: 
-   :caption: Вебінари
+   :caption: 📺 Вебінари
    
    Webinars/Videos
 
 .. toctree::
    :maxdepth: 2
-   :caption: Законодавство
+   :caption: 👮 Законодавство
 
    Zakon/Zakonodavcha_baza
    Legal_info/Test
