@@ -13,7 +13,7 @@
 
 ----------------------------------------------------
 
-.. image:: pics/PRICAT_API_work_001.png
+.. image:: pics/PRICAT_API_work_002.png
    :align: center
    :width: 800px
 
