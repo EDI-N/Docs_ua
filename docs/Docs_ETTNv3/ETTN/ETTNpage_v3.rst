@@ -15,7 +15,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-:download:`Приклад ЕТТН<examples/ettn_v3.xml>`
+:download:`Приклад ЕТТН<examples/ettn_v3n.xml>`
 
 -------------------------
 
