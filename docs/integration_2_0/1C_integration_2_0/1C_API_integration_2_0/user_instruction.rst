@@ -42,7 +42,7 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 .. hint::
     Розділ **"Налаштування"** описано в `Інструкції оператора. Первинні налаштування <https://wiki.edin.ua/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/operator_instruction.html#id4>`__
 
-.. image:: pics_user_instruction/user_instruction_01.jpg
+.. image:: pics_user_instruction/user_instruction_001.png
    :align: center
 
 2 "Вхідні"
