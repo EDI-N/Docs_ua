@@ -18,6 +18,7 @@
    :caption: Заявка на транспортування
    
    Create_Proposal
+   Create_Proposal_from
    Proposal_Reject
 
 .. _proposal-confirmation:
