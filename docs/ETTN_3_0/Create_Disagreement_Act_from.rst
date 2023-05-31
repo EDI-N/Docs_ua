@@ -7,9 +7,9 @@
 
 .. |будинок| image:: pics_Create_ETTN/Create_ETTN_014.png
 
-.. |pencil_stencil| image:: pics_Create_ETTN/Create_ETTN_033.png
+.. |pencil_stencil| image:: /_constant/icons/pencil_stencil.png
 
-.. |лупа2| image:: pics_Create_ETTN_from/Create_ETTN_from_035.png
+.. |лупа2| image:: /_constant/icons/magnifying_glass2.png
 
 .. role:: red
 

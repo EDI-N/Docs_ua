@@ -1,11 +1,11 @@
 Створення "Підтвердження заявки на транспортування" на базі інших електронних документів
 ###################################################################################################
 
-.. сюда закину немного картинок для текста + юзаєм спільні зображення
+.. картинки в текст
 
-.. |лупа| image:: pics_Create_ETTN/Create_ETTN_013.png
+.. |лупа| image:: /_constant/icons/magnifying_glass.png
 
-.. |будинок| image:: pics_Create_ETTN/Create_ETTN_014.png
+.. |будинок| image:: /_constant/icons/house.png
 
 .. role:: red
 
@@ -29,42 +29,44 @@
 **1 Створення "Підтвердження заявки на транспортування" на підставі "Заявки на транспортування"**
 ====================================================================================================================================
 
+.. початок блоку для Proposal_Confirmation_from_Proposal
+
 Для створення "Підтвердження заявки на транспортування" на підставі "Заявки на транспортування" в сервісі "EDI+ЮЗД" **Перевізнику** потрібно перейти у **"Вхідні"** та вибрати **"Заявку на транспортування"** в статусі :green:`"Підписано перевізником"` чи :orange:`"Очікує підписання перевізником"` (для зручності можливо скористатись рядком пошуку):
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_001.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_001.png
    :align: center
 
 .. note::
    **"Заявку на транспортування"** в статусі :orange:`"Очікує підписання перевізником"` попередньо потрібно **"Підписати"**: 
 
-   .. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_002.png
+   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_002.png
       :align: center
 
 У відкритому документі натисніть **"Створити документ"** "Підтвердження заявки на транспортування" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ :
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_003.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_003.png
    :align: center
 
 Відкриється форма редагування документа "Підтвердження заявки на транспортування", що включає в собі дані "Заявки на транспортування":
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_004.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_004.png
    :align: center
 
 .. hint::
    Якщо **"Замовник"** знав хто буде здійснювати поставку і заповнив дані по авто і водієві в "Заявці на транспортування", то блок "Підтвердження заявки на транспортування" автоматично заповнюється цим даними (поля доступні до редагування/доповнення):
 
-   .. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_005.png
+   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_005.png
       :align: center
 
 Для автомобілів та причепів реалізований Ваш особистий довідник, що автоматично формується при додаванні нового транспортного засобу (кнопка **"+Новий транспортний засіб"**). При додаванні нового транспортного засобу в модальному вікні потрібно заповнити "Реєстраційний номер", "Марка", "Модель", "Тип":
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_006.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_006.png
    :align: center
 
 .. hint::
    Для раніше введеного реєстрайійного номеру, наприклад, **АА0001АА** користувач може скористатись пошуком, наприклад, ``АА0, 001, 1АА, 01...``:
 
-   .. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_007.png
+   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_007.png
       :align: center
 
 Після додавання чи вибору транспортного засобу з'являються кнопки:
@@ -73,7 +75,7 @@
 * **"Змінити"** - редагування даних обраного транспортного засобу (редагування довідника);
 * **"Очистити"** - видалити введені в рядок дані.
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_008.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_008.png
    :align: center
 
 .. note::
@@ -81,23 +83,25 @@
 
 Принцип заповнення причіпа/напівпричіпа теж реалізований через довідник (аналогічно додаванню даних про автомобіль): 
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_009.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_009.png
    :align: center
 
 По кожному вказаному транспорному засобу є можливість зазначити (опціонально) температурний режим:
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_010.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_010.png
    :align: center
 
 Дані **"Водія"** можливо обрати за допомогою кнопки **"Пошук контрагента"** (|лупа|) за ПІБ / ІПН / даними водійського посвідчення:
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_011.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_011.png
    :align: center
 
 Після того, як всі обов'язкові дані були внесені/змінені (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*` ), документ можливо **"Зберегти"**, **"Підписати"** та **"Відправити"**:
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_012.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_012.png
    :align: center
+
+.. кінець блоку для Proposal_Confirmation_from_Proposal
 
 .. _sign:
 
@@ -134,22 +138,26 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
+.. початок блоку для Proposal_Confirmation_from_Proposal2
+
 Після підписання "Підтвердження заявки на транспортування" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_013.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_013.png
    :align: center
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Відправленому **"Перевізником"** "Підтвердженню заявки на транспортування" присвоюється статус :orange:`"Очікує підписання замовником"`:
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_014.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_014.png
    :align: center
 
 Відправлене "Підтвердження заявки на транспортування" має наступний вигляд:
 
-.. image:: pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_015.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_015.png
    :align: center
 
 В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Confirmation_Reject.html>`__).
+
+.. кінець блоку для Proposal_Confirmation_from_Proposal2
 
 ---------------------------------
 

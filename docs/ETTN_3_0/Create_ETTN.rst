@@ -19,9 +19,9 @@
 
 .. |x| image:: pics_Create_ETTN/Create_ETTN_021.png
 
-.. |pencil_stencil| image:: pics_Create_ETTN/Create_ETTN_033.png
+.. |pencil_stencil| image:: /_constant/icons/pencil_stencil.png
 
-.. |лупа2| image:: pics_Create_ETTN/Create_ETTN_035.png
+.. |лупа2| image:: /_constant/icons/magnifying_glass2.png
 
 .. |trash| image:: /_constant/icons/trash.png
 
@@ -216,22 +216,26 @@
 .. image:: pics_Create_ETTN/Create_ETTN_030.gif
    :align: center
 
+.. початок блоку для TTN_to_Processing
+
 Дані раніше доданих відповідальних осіб можливо обрати з віртуального довідника:
 
-.. image:: pics_Create_ETTN/Create_ETTN_031.png
+.. image:: /ETTN_3_0/pics_Create_ETTN/Create_ETTN_031.png
    :align: center
 
 Довідник автоматично наповнюється при додаванні нового відповідального (кнопка **"+Додати особу"**). При додаванні нового відповідального в модальному вікні потрібно заповнити обов'язкові контактні дані (обов'язкові поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_Create_ETTN/Create_ETTN_032.png
+.. image:: /ETTN_3_0/pics_Create_ETTN/Create_ETTN_032.png
    :align: center
 
 Редагувати дані раніше введених осіб можливо за допомогою кнопки **"Змінити"** (|pencil_stencil|):
 
-.. image:: pics_Create_ETTN/Create_ETTN_034.png
+.. image:: /ETTN_3_0/pics_Create_ETTN/Create_ETTN_034.png
    :align: center
 
 За потреби можливо **"Обрати"** (|лупа2|) іншу особу замість обраної/доданої раніше. 
+
+.. кінець блоку для TTN_to_Processing
 
 **1.1.3 Додаткові дані**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
