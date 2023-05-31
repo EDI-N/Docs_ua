@@ -61,25 +61,27 @@
 **2 Створення "е-ТТН" на підставі «Підтвердження заявки на транспортування» (TRANSPORTATIONORDER з SUBDOCTYPE = 2)**
 ==========================================================================================================================
 
+.. початок блоку для ETTN_from_Proposal_Confirmation
+
 Для створення "е-ТТН" на підставі «Підтвердження заявки на транспортування» (TRANSPORTATIONORDER з SUBDOCTYPE = 2) в сервісі "EDI+ЮЗД" **Вантажовідправнику** потрібно перейти у **"Вхідні"** та вибрати «Підтвердження заявки на транспортування» (для зручності можливо скористатись рядком пошуку):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_004.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_004.png
    :align: center
 
 У відкритому документі натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарно-транспортна накладна"(ETTN):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_005.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_005.png
    :align: center
 
 .. note::
    Якщо в "Заявці на транспортування" вказано кілька **Вантажоодержувачів**, то згідно з правилами оформлення електронної ТТН, тільки одна адреса навантаження та розвантаження може бути використана (в модальному вікні потрібно обрати одну адресу з переліку, для котрої буде створено ТТН):
 
-   .. image:: pics_Create_ETTN_from/Create_ETTN_from_011.png
+   .. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_011.png
       :align: center
 
 Відкриється форма редагування документа "е-ТТН", що вже заповнена даними з документа-підстави:
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_006.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_006.png
    :align: center
 
 Дані, що переносяться з "Підтвердження заявки на транспортування" доступні до редагування.
@@ -87,25 +89,27 @@
 .. tip::
    "Підтвердження заявки на транспортування", на базі якої була заповнена створена "е-ТТН" не містить інформацію про товарні позиції, однак якщо в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ присутній відправлений **Вантажовідправником** документ "Повідомлення про відвантаження" (DESADV):
 
-   .. image:: pics_Create_ETTN_from/Create_ETTN_from_007.png
+   .. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_007.png
       :align: center
 
    То в такому випадку при створенні "е-ТТН" **Вантажовідправником** на формі редагування документа можливо **"Додати дані з DESADV"**:
 
-   .. image:: pics_Create_ETTN_from/Create_ETTN_from_008.png
+   .. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_008.png
       :align: center
 
    Якщо в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ кілька "Повідомлень про відвантаження" (DESADV), то при натисканні на кнопку **"Додати дані з DESADV"** можливо обрати один або ж декілька документів, з яких Ви бажаєте підтягнути дані у Товарно-транспортну накладну:
 
-   .. image:: pics_Create_ETTN_from/Create_ETTN_from_009.png
+   .. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_009.png
       :align: center
 
    В супровідних документах при цьому відображаються дані документа-підстави ("Підтвердження заявки на транспортування") та всіх обраних до додавання "Повідомлень про відвантаження":
 
-   .. image:: pics_Create_ETTN_from/Create_ETTN_from_010.png
+   .. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_010.png
       :align: center
 
 Після того, як всі обов'язкові поля на формі редагування "е-ТТН" будуть заповнені (позначені червоною зірочкою :red:`*`) документ можливо **"Зберегти"**, **"Підписати"** та **"Надіслати"**. Процеси `заповнення/редагування даних чернетки "е-ТТН", підписання та відправка <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_ETTN.html#consignor-create>`__ детально описані в окремій інструкції.
+
+.. кінець блоку для ETTN_from_Proposal_Confirmation
 
 .. _create-from-desadv:
 

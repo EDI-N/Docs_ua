@@ -27,23 +27,23 @@
 .. _create-from-proposal:
 
 **1 Створення "Заявки на транспортування" на підставі "Замовлення" (ORDER)**
-====================================================================================================================================
+==============================================================================================================================
 
 .. початок блоку для Proposal_from_Order
 
 Для створення "Заявки на транспортування" на підставі "Замовлення" (ORDER) в сервісі "EDI+ЮЗД" **Замовнику** потрібно перейти у **"Вхідні"** та вибрати "Замовлення" (ORDER), за яким потрібно зробити заявку (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Create_Proposal_from/Create_Proposal_from_001.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_001.png
    :align: center
 
 У відкритому документі натисніть **"Створити документ"** "Заявка на транспортування" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ :
 
-.. image:: pics_Create_Proposal_from/Create_Proposal_from_003.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_003.png
    :align: center
 
 У відкритій формі "Заявки на транспортування" поля, що стосуються **Замовника** та **Вантажоодержувача** (таблична частина) заповнюються автоматично з пов'язаного "Замовлення" (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_Create_Proposal_from/Create_Proposal_from_004.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_004.png
    :align: center
 
 .. include:: /ETTN_3_0/Create_Proposal.rst
@@ -57,7 +57,7 @@
 
 В табличну частину документа дані **Вантажоодержувача** підтягуються автоматично з документа підстави ("Замовлення"), однак дані про маршрут та вантаж не є повними - потрібно обрати маршрут мишкою та натиснути на кнопку **"Змінити"** (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*` ):
 
-.. image:: pics_Create_Proposal_from/Create_Proposal_from_005.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_005.png
    :align: center
 
 .. note::
@@ -69,12 +69,12 @@
 
 Відправлений документ автоматично потрапляє в папку "Надіслані" і буде знаходиться в ланцюжку документів разом із "Замовленням". Відправленій **"Замовником"** "Заявці на транспортування" присвоюється статус :orange:`"Очікує підписання перевізником"`:
 
-.. image:: pics_Create_Proposal_from/Create_Proposal_from_006.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_006.png
    :align: center
 
 Відправлена "Заявка на транспортування" має наступний вигляд:
 
-.. image:: pics_Create_Proposal_from/Create_Proposal_from_007.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_007.png
    :align: center
 
 В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html>`__).
