@@ -66,7 +66,7 @@
 .. image:: /ETTN_3_0/pics_Processing_ETTN/Processing_ETTN_003.png
    :align: center
 
- .. hint::
+.. hint::
    Після Зберігання в документ вносяться додаткові дані, які до Підписання можливо **"Очистити"**:
 
    .. image:: /ETTN_3_0/pics_Processing_ETTN/Processing_ETTN_004.png
@@ -155,7 +155,7 @@
 .. image:: /ETTN_3_0/pics_Processing_ETTN/Processing_ETTN_010.png
    :align: center
 
- .. hint::
+.. hint::
    Після Зберігання в документ вносяться додаткові дані, які до Підписання можливо **"Очистити"**:
 
    .. image:: /ETTN_3_0/pics_Processing_ETTN/Processing_ETTN_011.png

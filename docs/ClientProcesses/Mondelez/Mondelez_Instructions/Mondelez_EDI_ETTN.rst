@@ -1,0 +1,238 @@
+########################################################################################################################
+Документообіг з ПрАТ "Монделіс Україна" на платформі EDI Network 2.0
+########################################################################################################################
+
+.. картинки в текст
+
+.. |лупа| image:: /_constant/icons/magnifying_glass.png
+
+.. |будинок| image:: /_constant/icons/house.png
+
+.. |плюс| image:: pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_029.png
+
+.. |мусорка| image:: pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_030.png
+
+.. |info| image:: pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_064.png
+
+.. role:: red
+
+.. role:: underline
+
+.. contents:: Зміст:
+   :depth: 5
+
+---------
+
+Вступ
+====================================
+
+Дана інструкція описує порядок документообігу з ПрАТ "Монделіс Україна" на платформі EDI Network 2.0. В типовому документообігу з ПрАТ "Монделіс Україна" приймають участь наступні документи:
+
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
+- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
+- `Заявка на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=1) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+- `Підтвердження заявки на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=2) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+- `Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
+- `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
+
+Документообіг здійснюється між трьома Учасниками, де ініціатором виступає Постачальник-Вантажоодержувач.
+
+**Загальна схема документообігу:**
+
+.. image:: pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_001.png
+   :height: 700px
+   :align: center
+
+.. attention::
+   Якщо в процесі обробки "е-ТТН" створюється і затверджується "Акт перевантаження" (ReloadAct) чи "Акт про заміну пункту призначення вантажу" (ConsigneeChangeAct), то для внесення змін до кінцевого "Акту виконаних робіт" (COMDOC_037) ПрАТ "Монделіс Україна" створює новий документ "Заявка на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE=1) і схема матиме наступний вигляд:
+
+   .. image:: pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_002.png
+      :height: 700px
+      :align: center
+
+1 Вхід на платформу
+====================================
+
+.. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
+   :start-after: .. початок блоку для Enter
+   :end-before: .. кінець блоку для Enter
+
+Після успішної авторизації відкриється основне меню, де у вкладці **"Продукти та рішення"** EDIN потрібно обрати сервіс **"EDI+ЮЗД"**:
+
+.. image:: /_constant/pics_landing/landing_edi.png
+   :align: center
+
+.. _order-create:
+
+2 Створення та відправка "Замовлення" (ORDER) Постачальником-Вантажоодержувачем
+==============================================================================================================
+
+.. include:: /retail_2.0/formirovanie_otpravka_ORDER_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Order_from_zero
+   :end-before: .. кінець блоку для Order_from_zero
+
+.. _ordrsp-create:
+
+3 Створення та відправка "Підтвердження замовлення" (ORDRSP) ПрАТ "Монделіс Україна"
+==============================================================================================================
+
+.. include:: /retail_2.0/ORDRSP_na_EDI_Network.rst
+   :start-after: .. початок блоку для Ordrsp_from_docs
+   :end-before: .. кінець блоку для Ordrsp_from_docs
+
+.. _desadv-create:
+
+4 Створення та відправка "Повідомлення про відвантаження" (DESADV) ПрАТ "Монделіс Україна"
+==============================================================================================================
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Desadv_from_Order
+   :end-before: .. кінець блоку для Desadv_from_Order
+
+.. _proposal-create:
+
+5 Створення та відправка "Заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 1) ПрАТ "Монделіс Україна"
+==========================================================================================================================
+
+.. include:: /ETTN_3_0/Create_Proposal_from.rst
+   :start-after: .. початок блоку для Proposal_from_Order
+   :end-before: .. кінець блоку для Proposal_from_Order
+
+.. _proposal-confirmation-create:
+
+6 Створення та відправка "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2) Перевізником
+==========================================================================================================================
+
+.. include:: /ETTN_3_0/Create_Proposal_Confirmation_from.rst
+   :start-after: .. початок блоку для Proposal_Confirmation_from_Proposal
+   :end-before: .. кінець блоку для Proposal_Confirmation_from_Proposal
+
+.. hint::
+   Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
+
+.. include:: /ETTN_3_0/Create_Proposal_Confirmation_from.rst
+   :start-after: .. початок блоку для Proposal_Confirmation_from_Proposal2
+   :end-before: .. кінець блоку для Proposal_Confirmation_from_Proposal2
+
+.. _ettn-create:
+
+7 Створення та відправка "е-ТТН" ПрАТ "Монделіс Україна"
+==========================================================================================================================
+
+.. include:: /ETTN_3_0/Create_ETTN_from.rst
+   :start-after: .. початок блоку для ETTN_from_Proposal_Confirmation
+   :end-before: .. кінець блоку для ETTN_from_Proposal_Confirmation
+
+.. _ettn-to-processing:
+
+8 Обробка вхідного "е-ТТН" документа на стороні Перевізника (Водія)
+==========================================================================================================================
+
+.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+   :start-after: .. початок блоку для from_Consignor_to_Carrier
+   :end-before: .. кінець блоку для from_Consignor_to_Carrier
+
+.. hint::
+   Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
+
+.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+   :start-after: .. початок блоку для from_Consignor_to_Carrier2
+   :end-before: .. кінець блоку для from_Consignor_to_Carrier2
+
+.. _ettn-to-processing2:
+
+9 Обробка вхідного "е-ТТН" документа на стороні Вантажоодержувача
+==========================================================================================================================
+
+.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+   :start-after: .. початок блоку для from_Carrier_to_Consignee
+   :end-before: .. кінець блоку для from_Carrier_to_Consignee
+
+.. hint::
+   Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
+
+.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+   :start-after: .. початок блоку для from_Carrier_to_Consignee2
+   :end-before: .. кінець блоку для from_Carrier_to_Consignee2
+
+.. _comdoc037-create:
+
+10 Створення та відправка "Акта виконаних робіт (Логістика)" (COMDOC_037) Перевізником
+==========================================================================================================================
+
+За документообігу транспортними документами без коригуючих актів "Акт виконаних робіт (Логістика)" (COMDOC_037) створюється на підставі відправленого "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2). Однак, якщо в процесі обробки "е-ТТН" створювалися і затверджувалися "Акт перевантаження" (ReloadAct) чи "Акт про заміну пункту призначення вантажу" (ConsigneeChangeAct), то для внесення змін до кінцевого "Акту виконаних робіт" (COMDOC_037) ПрАТ "Монделіс Україна" створює новий документ "Заявка на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE=1), на підставі якого і створюється "Акт виконаних робіт (Логістика)" (COMDOC_037).
+
+**Перевізнику** для створення в сервісі "EDI+ЮЗД" **"Акта виконаних робіт (Логістика)"** :
+
+* :underline:`на підставі "Заявки на транспортування"` потрібно перейти у **"Вхідні"** та вибрати "Заявку на транспортування" в статусі :green:`"Підписано перевізником"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__);
+* :underline:`на підставі "Підтвердження заявки на транспортування"` потрібно перейти у **"Надіслані"** та вибрати "Підтвердження заявки на транспортування" в статусі :green:`"Підписано замовником"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_001.png
+   :align: center
+
+.. hint::
+   Також на підставі :underline:`підписаних з обох сторін` "Заявок на транспортування", "Підтверджень заявок на транспортування" та  :underline:`підписаних контрагентами (з трьох сторін)` "е-ТТН" доступне `масове створення чернеток "Актів виконаних робіт (Логістика)" <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#create-comdoc-037>`__. 
+
+У відкритому документі натисніть **"Створити документ"** "Акт виконаних робіт (Логістика)" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__, наприклад:
+
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_002.png
+   :align: center
+
+.. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
+   :start-after: .. початок блоку для ManyToOneDoc
+   :end-before: .. кінець блоку для ManyToOneDoc
+
+.. hint::
+   Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
+
+.. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
+   :start-after: .. початок блоку для ManyToOneDoc2
+   :end-before: .. кінець блоку для ManyToOneDoc2
+
+------------------------------------------------------
+
+.. _sign:
+
+Підписання на платформі EDIN 2.0
+=========================================================================================================================
+
+.. warning::
+   У відправника `Акта приймання-передачі (додаток 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html>`__ під час підписання діє перевірка на **відповідність ІПН підпису та даних відповідальної особи**:
+   
+   .. image:: /_constant/atb_check/atb_check_002.png
+      :align: center
+
+.. include:: /_constant/atb_check/atb_check.rst
+   :start-after: .. початок блоку для ATB_check
+   :end-before: .. кінець блоку для ATB_check
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
+------------------------------------------------
+
+.. include:: /_constant/kontakti.rst
