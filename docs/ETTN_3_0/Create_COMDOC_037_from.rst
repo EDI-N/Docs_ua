@@ -158,27 +158,31 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
+.. початок блоку для ManyToOneDoc2
+
 Після підписання "Акта виконаних робіт (Логістика)" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
 
-.. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_007.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_007.png
    :align: center
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Відправленому **"Перевізником"** "Акту виконаних робіт (Логістика)" присвоюється статус :orange:`"Потребує підписання отримувачем"`:
 
-.. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_008.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_008.png
    :align: center
 
 Відправлений "Акт виконаних робіт (Логістика)" має наступний вигляд:
 
-.. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_009.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_009.png
    :align: center
 
 В верхній частині над документом відображається блок з перебігом документообігу, в правій частині дані про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. При натисканні на зелену іконку документа відображаються підписанти даного документа:
 
-.. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_010.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_010.png
    :align: center
 
 Можливо виконати **"Відхилення підпису"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__).
+
+.. кінець блоку для ManyToOneDoc2
 
 ---------------------------------
 
