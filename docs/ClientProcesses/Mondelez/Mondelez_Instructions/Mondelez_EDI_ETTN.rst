@@ -129,14 +129,14 @@
 8 Обробка вхідного "е-ТТН" документа на стороні Перевізника (Водія)
 ==========================================================================================================================
 
-.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+.. include:: /ETTN_3_0/Processing_ETTN.rst
    :start-after: .. початок блоку для from_Consignor_to_Carrier
    :end-before: .. кінець блоку для from_Consignor_to_Carrier
 
 .. hint::
    Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
 
-.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+.. include:: /ETTN_3_0/Processing_ETTN.rst
    :start-after: .. початок блоку для from_Consignor_to_Carrier2
    :end-before: .. кінець блоку для from_Consignor_to_Carrier2
 
@@ -145,14 +145,14 @@
 9 Обробка вхідного "е-ТТН" документа на стороні Вантажоодержувача
 ==========================================================================================================================
 
-.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+.. include:: /ETTN_3_0/Processing_ETTN.rst
    :start-after: .. початок блоку для from_Carrier_to_Consignee
    :end-before: .. кінець блоку для from_Carrier_to_Consignee
 
 .. hint::
    Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
 
-.. include:: /ETTN_3_0/Processing_ETTN_from.rst
+.. include:: /ETTN_3_0/Processing_ETTN.rst
    :start-after: .. початок блоку для from_Carrier_to_Consignee2
    :end-before: .. кінець блоку для from_Carrier_to_Consignee2
 
@@ -189,49 +189,6 @@
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
    :start-after: .. початок блоку для ManyToOneDoc2
    :end-before: .. кінець блоку для ManyToOneDoc2
-
-------------------------------------------------------
-
-.. _sign:
-
-Підписання на платформі EDIN 2.0
-=========================================================================================================================
-
-.. warning::
-   У відправника `Акта приймання-передачі (додаток 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html>`__ під час підписання діє перевірка на **відповідність ІПН підпису та даних відповідальної особи**:
-   
-   .. image:: /_constant/atb_check/atb_check_002.png
-      :align: center
-
-.. include:: /_constant/atb_check/atb_check.rst
-   :start-after: .. початок блоку для ATB_check
-   :end-before: .. кінець блоку для ATB_check
-
-.. tabs::
-
-   .. tab:: Файловий ключ
-
-      .. include:: /_constant/signing/signing.rst
-         :start-after: .. початок блоку для Signing
-         :end-before: .. кінець блоку для Signing
-
-   .. tab:: Token
-
-      .. include:: /_constant/token_signing/token_signing.rst
-         :start-after: .. початок блоку для TokenSign
-         :end-before: .. кінець блоку для TokenSign
-
-   .. tab:: Гряда
-
-      .. include:: /_constant/gryada_signing/gryada_signing.rst
-         :start-after: .. початок блоку для GryadaSign
-         :end-before: .. кінець блоку для GryadaSign
-
-   .. tab:: Cloud
-
-      .. include:: /_constant/cloud_signing/cloud_signing.rst
-         :start-after: .. початок блоку для CloudSign
-         :end-before: .. кінець блоку для CloudSign
 
 ------------------------------------------------
 
