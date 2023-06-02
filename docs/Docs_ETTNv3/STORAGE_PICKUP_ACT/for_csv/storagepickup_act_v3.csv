@@ -23,7 +23,7 @@ ram:Description,M,string,Опис (адреса) місця складання �
 **ExchangedDocument**,,,Реквізити Акта (закінчення блоку)
 **StoragePickupActPayload**,M,,Інформація про Акт (початок блоку)
 **PreviousAdministrativeReferencedDocument**,M,,"Інформація про е-ТТН, для якої складається акт (початок блоку)"
-ram:TypeCode,M,string,Тип документа (730 - ТТН). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:TypeCode,M,string,Тип документа (730 - ТТН). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
 ram:ID,M,string,Номер документа-підстави (ТТН); має відповідати номеру документа ExchangedDocument.ID еТТН
 **ram:FormattedIssueDateTime**,M,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (початок блоку)
 qdt:DateTimeString,M,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час документа-підстави (ТТН)
@@ -36,14 +36,14 @@ ram:SizeMeasure,O,long,розмір файлу в байтах
 **ram:AttachedSpecifiedBinaryFile**,,,"Дані е-ТТН, для якої складається акт (закінчення блоку)"
 **PreviousAdministrativeReferencedDocument**,,,"Інформація про е-ТТН, для якої складається акт (закінчення блоку)"
 **PreviousAdministrativeReferencedDocument**,M,,"Інформація про Акт розвантаження, до якого складається цей акт (початок блоку)"
-ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
 ram:ID,M,string,Номер документа-підстави (Акт); має відповідати номеру документа ExchangedDocument.ID Акта розвантаження
 **ram:FormattedIssueDateTime**,M,,Дата документа-підстави (Акт); має відповідати даті документа ExchangedDocument.IssueDateTime Акта розвантаження (початок блоку)
 qdt:DateTimeString,M,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час документа-підстави (Акта)
 **ram:FormattedIssueDateTime**,,,Дата документа-підстави (Акта); має відповідати даті документа ExchangedDocument.IssueDateTime Акта розвантаження (закінчення блоку)
 **PreviousAdministrativeReferencedDocument**,,,"Інформація про Акт розвантаження, до якого складається цей акт (закінчення блоку)"
 **PreviousAdministrativeReferencedDocument**,-/M,,"Інформація про попередній акт, у випадку наступної транзакції (початок блоку)"
-ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
 ram:ID,M,string,Номер документа-підстави (Акт); має відповідати номеру документа ExchangedDocument.ID Акта
 **ram:FormattedIssueDateTime**,M,,Дата документа-підстави (Акт); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (початок блоку)
 qdt:DateTimeString,M,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час документа-підстави (Акта)
@@ -240,7 +240,7 @@ ram:PersonName,M,string,"ПІБ водія"
 **ACT**,,,(закінчення змісту документа)
 **UaSignatureStorage**,M,,Підписи (початок блоку)
 **VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
-ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
 ram:Remarks,O,string,Графічне зображення Акта в base64
 **VisualReferencedDocument**,,,Графічне відображення документа (закінчення блоку)
 **Signature** (SigningPartyRoleCode=WH),M,,"КЕП відповідальної особи Проміжного складу, що здає вантаж (початок блоку)"
