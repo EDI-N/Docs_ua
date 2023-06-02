@@ -281,7 +281,7 @@ value,M,decimal,Значення
 **ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
 **ram:ConsigneeReceiptLogisticsLocation**,,,Пункт розвантаження (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=723),O,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (початок блоку)"
-ram:TypeCode,M,string,"Тип 723 - використовується при зазначенні документа, що підтверджує надання спеціальних охоронних послуг (`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
+ram:TypeCode,M,string,"Тип 723 - використовується при зазначенні документа, що підтверджує надання спеціальних охоронних послуг (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 ram:ID,M,string,"Номер документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
@@ -289,14 +289,14 @@ qdt:DateTimeString,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-1
 **ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=723),,,"Супровідні документи на вантаж. Документ, що підтверджує охоронні послуги (закінчення блоку)"
 **ram:AssociatedReferencedDocument** (TypeCode=290),O,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (початок блоку)
-ram:TypeCode,M,string,Тип 290 - використовується при зазначенні передачі права предʼявлення претензії (`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)
+ram:TypeCode,M,string,Тип 290 - використовується при зазначенні передачі права предʼявлення претензії (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
 qdt:DateTimeString,O,:abbr:`datetime ((yyyy-mm-ddThh:mm:ss+zz:zz) like 2021-12-13T14:19:23+02:00 ( https://www.w3.org/TR/xmlschema-2/#dateTime))`,Дата та час складання супровідного документа
 **ram:FormattedIssueDateTime**,,,Дата складання документа (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=290),,,Супровідні документи на вантаж. Запис про передачу права на пред'явлення претензії (закінчення блоку)
 **ram:AssociatedReferencedDocument** (TypeCode=916),O,,Супровідні документи на вантаж. Коригуючі акти (початок блоку)
-ram:TypeCode,M,string,"Тип 916 - використовується при формуванні актів, для вказання попередньої транзакції поточного акту (`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
+ram:TypeCode,M,string,"Тип 916 - використовується при формуванні актів, для вказання попередньої транзакції поточного акту (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 ram:ID,M,string,"Номер акта"
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
@@ -313,7 +313,7 @@ ram:TypeCode,O,string,"Тип
 * код 290 при зазначенні передачі права предʼявлення претензії
 * код 119 при операціях з актом навантаження на проміжному складі, для зазначення попереднього акту розвантаження на цьому ж складі
 
-(`довідник кодів документів МІУ <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
+(`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 ram:ID,O,string,"Номер документа"
 ram:Remarks,O,string,"UUID супровідного документа"
 **ram:FormattedIssueDateTime**,O,,Дата складання документа (початок блоку)
@@ -475,7 +475,7 @@ ram:Remarks,O,string,"UUID супровідного документа"
 **ram:AssociatedReferencedDocument**,,,Документи з вантажем (закінчення блоку)
 **ram:TransportLogisticsPackage**,O,,Транспортно-логістичний пакет. ВАЖЛИВО: в Україні дозволяється лише один LogisticsPackage для одного ConsignmentItem! (початок блоку)
 ram:ItemQuantity,O,decimal,"Кількість місць, які визначаються за кожним найменуванням вантажу (це можуть бути ящики, кошики, мішки тощо; якщо вантаж упаковано на піддонах - вказують кількість піддонів)"
-ram:TypeCode,O,string,Вид пакування (`Довідник видів упаковок <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=1380089959>`__)
+ram:TypeCode,O,string,Вид пакування (`Довідник видів упаковок <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#packaging-types>`__)
 ram:Type,O,string,Одиниця виміру для ItemQuantity
 **ram:PhysicalLogisticsShippingMarks**,O,,Маркування (початок блоку)
 ram:Marking,O,string,"Назва транспортної упаковки (вільна назва), в якій перевозиться вантаж"
@@ -665,7 +665,7 @@ ram:Description,O,string,"Опис (вид роботи перевізника: 
 ram:DescriptionCode,M,string,Код (TRANSPORTATION_TYPE)
 **ram:DeliveryInstructions**,,,Вид перевезень (закінчення блоку)
 **ram:PreviousAdministrativeReferencedDocument**,-/M,,"Попередня транзакція ECMR, на основі якої складено поточний документ. Блок не вказується, якщо документ створено з «нуля» (початок блоку)"
-ram:TypeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__"
+ram:TypeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__"
 ram:ID,M,string,Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій
 ram:Remarks,O,string,Base64 документа попередньої версії
 **ram:FormattedIssueDateTime**,O,,"Дата складання документа, на основі якого складено поточний документ (початок блоку)"
@@ -682,7 +682,7 @@ ram:SizeMeasure,M,Long,Розмір файлу
 **eCMR**,,,(закінчення змісту документа)
 **UaSignatureStorage**,M,,Підписи (початок блоку)
 **VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
-ram:TypeCode,M,string,Тип (730 - ТТН). `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__
+ram:TypeCode,M,string,Тип (730 - ТТН). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
 ram:Remarks,O,string,Графічне зображення е-ТТН в base64
 **VisualReferencedDocument**,,,Графічне відображення документ (закінчення блоку)
 **Signature** (SigningPartyRoleCode=CZ),M,,КЕП Вантажовідправника (початок блоку)

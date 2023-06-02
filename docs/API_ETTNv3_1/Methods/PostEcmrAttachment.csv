@@ -7,7 +7,7 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 
 **doc_uuid** (обов'язково) UUID - ідентифікатор документа
 
-**type** (обов'язково) String - тип вкладення (число 1-25) з довідника `DICT.01.10 <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=0>`__"
+**type** (обов'язково) String - тип вкладення (число 1-25) з довідника `DICT.01.10 <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#accompanying-documents>`__"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__"
 Content-Type  , `multipart/form-data <https://tools.ietf.org/html/rfc7578>`__

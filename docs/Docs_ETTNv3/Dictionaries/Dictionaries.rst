@@ -5,7 +5,7 @@
 .. https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=0
 
 .. contents:: Зміст:
-   :depth: 1
+   :depth: 2
 
 .. _accompanying-documents:
 
@@ -69,7 +69,7 @@
 
 .. csv-table:: 
   :file: for_csv/cargo_types.csv
-  :widths:  1, 5, 41
+  :widths:  1, 40, 41
   :header-rows: 1
   :stub-columns: 0
 

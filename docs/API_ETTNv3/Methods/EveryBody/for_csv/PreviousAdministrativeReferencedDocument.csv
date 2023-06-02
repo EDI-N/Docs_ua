@@ -1,6 +1,6 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _PreviousAdministrativeReferencedDocument:,,Об'єкт **PreviousAdministrativeReferencedDocument**,
-typeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit#gid=723047960>`__"
+typeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__"
 id,M,string,Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій
 remarks,O,string,Base64 документа попередньої версії
 **formattedIssueDateTime**,O,DateTimeString_,"об'єкт; Дата складання документа, на основі якого складено поточний документ"
