@@ -22,3 +22,4 @@
    TurboUA/TurboUA_list
    Epicentr/Epicentr_list
    Comfy/Comfy_list
+   Mondelez/Mondelez_list
