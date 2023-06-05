@@ -27,24 +27,24 @@
 
 Щоб сформувати "Підтвердження замовлення" (ORDRSP) на підставі "Замовлення" (ORDER) Вам потрібно в меню сервісу **"EDI+ЮЗД"** увійти в папку "Вхідні" і обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_001.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_001.png
    :align: center
    
 Потрібно відкрити вхідне "Замовлення" (ORDER) лівою кнопкою миші та створити "Підтвердження замовлення" (ORDRSP) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ за допомогою кнопки **"Створити документ"**:
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_002.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_002.png
    :align: center
 
 У відкритій формі "Підтвердження замовлення" (ORDRSP) значна частина полів заповнюються автоматично з пов'язаного "Замовлення" (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_003.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_003.png
    :align: center
 
 Дані **Відправника** та **Одержувача** - це Ваші дані та дані Вашого Контрагента, що заповнюються з документа підстави автоматично і не підлягають редагуванню.
 
 За замовчуванням **Тип документа** зазначається як "Підтвердження замовлення"; за потреби **Тип документа** можливо переобрати з випадаючого списку: *Підтвердження замовлення*, *Заміна підтвердження замовлення*, *Видалення підтвердження замовлення*:
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_004.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_004.png
    :align: center
 
 **Номер**, **Дата** / час документа заповнюються автоматично, але доступні до редагування за потреби. Дані **Покупець**, **Постачальник**, **Місце доставки** також заповнюються автоматично - їх можливо редагувати за допомогою кнопок "Пошук контрагента" (|лупа|) чи "Вказати себе" (|будинок|);
@@ -63,39 +63,39 @@
 
 **Товарні позиції** переносяться з "Замовлення". Можливо коригувати значення **Ціна без ПДВ** та **Підтверджена кількість** товару прямо в таблиці чи **"Змінити"** "Дані позиції" в розширеній формі після натискання на штрих-код позиції:
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_005.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_005.png
    :align: center
 
 :red:`Всі зміни за позиціями потребують узгодження з Вашим Контрагентом!`
 
 При редагуванні **Підтвердженої кількості** позиції (**Замовлена кількість** та **Підтверджена кількість** відрізняються) її статус автоматично змінюється на **"Зміна кількості"**:
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_008.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_008.png
    :align: center
 
 За замовчуванням всі табличні позиції **"Будуть доставлені"** (колонка **Дія**). Для зміни даних підтвердження поставки потрібно обрати (відмітити галочкою) позиції в таблиці та в **"Дії над вибраними"** обрати: **"Буде доставлено"** або **"Відмовлено"**:
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_006.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_006.png
    :align: center
 
 Після чого **Підтверджена кількість** за "Відмовленими" позиціями буде рівною нулю. В колонці **Дії** - буде відображатись поточний статус дії за позиціями. Якщо якась із позицій відсутня і поставлятися не буде, її необхідно відзначити галочкою і **"Видалити"**:
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_007.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_007.png
    :align: center
 
 Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_009.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_009.png
    :align: center
 
 Після внесення всіх даних потрібно **"Зберегти"** (1) документ, після чого його можливо **"Відправити"** (2):
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_010.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_010.png
    :align: center
 
 Після збереження документ можливо знайти в папці **"Чернетки"**. Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходиться в ланцюжку документів разом із "Замовленням":
 
-.. image:: pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_011.png
+.. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_011.png
    :align: center
 
 .. кінець блоку для Ordrsp_from_docs
