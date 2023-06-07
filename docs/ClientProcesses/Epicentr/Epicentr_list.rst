@@ -7,6 +7,7 @@
    
    Epicentr_Instructions/Epicentr_EDI_instruction_retailer
    Epicentr_Instructions/Epicentr_EDI_instruction_supplier
+   Epicentr_Instructions/Epicentr_MHP_3PL_scheme
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з "Епіцентром" [1]
