@@ -10,7 +10,7 @@
    formirovanie_otpravka_dokumenta_Schetfaktura_INVOICE_na_EDI_Network_2.0
    formirovanie_IFTMIN_na_EDI_Network_2.0
    formirovanie_RECADV_na_EDI_Network_2.0
-   formirovanie_INSDES_na_EDI_Network_2.0
+   INSDES_na_EDI_Network
    formirovanie_otpravka_RETINS_na_EDI_Network_2.0
    formuvannia_universalnoho_dokumenta_Condra
    formirovanie_otpravka_dokumenta_Vydatkova_Nakladna_na_EDI_Network_2.0
