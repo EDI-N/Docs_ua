@@ -23,3 +23,4 @@
    Epicentr/Epicentr_list
    Comfy/Comfy_list
    Mondelez/Mondelez_list
+   MHP/MHP_list
