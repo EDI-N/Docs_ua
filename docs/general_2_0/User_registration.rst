@@ -29,7 +29,7 @@
 
 Для початку роботи з платформою **EDI Network** потрібно здійснити авторизований вхід (https://edo-v2.edin.ua/auth). Вже зареєстрованим користувачам потрібно ввести логін (email) та пароль (встановлюється при `Реєстрації <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ чи `Відновленні/зміні пароля <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#pass-recovery>`__) і натиснути **"Вхід"**:
 
-.. image:: pics_User_registration/User_registration_009.png
+.. image:: pics_User_registration/User_registration_021.png
    :align: center
 
 .. _register:
@@ -39,7 +39,7 @@
 
 Реєстрація користувача - це перший крок до отримання доступу до платформи EDI Network. Для реєстрації на платформі натисніть кнопку "Реєстрація" або перейдіть за посиланням https://edo-v2.edin.ua/register :
 
-.. image:: pics_User_registration/User_registration_007.png
+.. image:: pics_User_registration/User_registration_022.png
    :align: center
 
 Після натискання кнопки **"Реєстрація"** користувачу потрібно:
@@ -48,12 +48,12 @@
 * Придумати Пароль (має бути не менше ніж 8 символів) - потребує повторного введення (підтвердження);
 * Погодитись з офертою та політикою конфіденційності – встановіть позначку про підтвердження.
 
-.. image:: pics_User_registration/User_registration_008.png
+.. image:: pics_User_registration/User_registration_023.png
    :align: center
 
 Для продовження реєстрації натисніть **"Реєстрація"**. Після чого система проінформує, що відправила листа на раніше вказану адресу:
 
-.. image:: pics_User_registration/User_registration_10.png
+.. image:: pics_User_registration/User_registration_024.png
    :align: center
 
 Очікуйте на лист - він потрібен для підтвердження email!
@@ -63,13 +63,13 @@
 
 Після отримання листа, перейдіть за посиланням (дійсне 72 години) в ньому щоб підтвердити email:
 
-.. image:: pics_User_registration/User_registration_010.png
+.. image:: pics_User_registration/User_registration_027.png
    :align: center
 
 .. hint::
    Після підтвердження email відкривається доступ до сервісу `"Вільний" <https://wiki.edin.ua/uk/latest/Vilnyi/Work_with_Vilnyi.html>`__. Таким чином вже є змога безкоштовного обміну довільними файлами/документами з вашими партнерами, клієнтами, постачальниками.
 
-   .. image:: pics_User_registration/User_registration_011.png
+   .. image:: /_constant/pics_landing/landing_vilnyi.png
       :align: center
 
 .. note::
@@ -118,7 +118,7 @@
 
 По завершенню реєстрації створюється обліковий запис (акаунт) та надається доступ до платформи **EDI Network** відповідно до `договору оферти <https://wiki.edin.ua/uk/latest/Legal_info/Oferta.html>`__ та `політикою конфіденційності <https://wiki.edin.ua/uk/latest/Legal_info/Politic.html>`__. Користувач, який пройшов реєстрацію, стає власником облікового запису (акаунту) та наділяється максимальними повноваженнями щодо керування обліковим записом (акаунтом).
 
-Після реєстрації доступний демо режим у використанні платформи на протязі 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#balans-tariff>`__ користувача):
+Після реєстрації доступний демо режим у використанні платформи протягом 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#balans-tariff>`__ користувача):
 
 .. image:: pics_User_registration/User_registration_26.png
    :align: center
@@ -192,7 +192,7 @@
 
 По завершенню реєстрації створюється обліковий запис (акаунт) та надається доступ до платформи **EDI Network** відповідно до `договору оферти <https://wiki.edin.ua/uk/latest/Legal_info/Oferta.html>`__ та `політикою конфіденційності <https://wiki.edin.ua/uk/latest/Legal_info/Politic.html>`__. Користувач, який пройшов реєстрацію, стає власником облікового запису (акаунту) та наділяється максимальними повноваженнями щодо керування обліковим записом (акаунтом).
 
-Після реєстрації доступний демо режим у використанні платформи на протязі 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#balans-tariff>`__ користувача):
+Після реєстрації доступний демо режим у використанні платформи протягом 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#balans-tariff>`__ користувача):
 
 .. image:: pics_User_registration/User_registration_26.png
    :align: center
@@ -218,7 +218,7 @@
 
 Після **"Додавання"/"Відхилення"** користувачу, що реєструвався на пошту відправляється лист-повідомлення про рішення адміністратора компанії.
 
-Після реєстрації доступний демо режим у використанні платформи на протязі 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#balans-tariff>`__ користувача):
+Після реєстрації доступний демо режим у використанні платформи протягом 30 днів, про що інформує підказка в верхній частині екрану (текст підказки є посиланням в `"Особистий кабінет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#balans-tariff>`__ користувача):
 
 .. image:: pics_User_registration/User_registration_26.png
    :align: center
@@ -230,7 +230,7 @@
 
 В разі якщо ви забули свій пароль є можливість його відновити. Для відновлення пароля потрібно натиснути на кнопку **"Забули пароль?"**:
 
-.. image:: pics_User_registration/User_registration_28.png
+.. image:: pics_User_registration/User_registration_025.png
    :align: center
 
 Далі в вікні ввести свою пошту, скориставшись кнопкою **"Відновити"**:
@@ -238,22 +238,22 @@
 .. important::
    Відновлення пароля можливе тільки для користувачів в яких в якості логіну використовується email. В разі якщо логін відрізняється від email для відновлення пароля прохання звернутися до технічної підтримки!
 
-.. image:: pics_User_registration/User_registration_19.png
+.. image:: pics_User_registration/User_registration_026.png
    :align: center
 
 Після чого система проінформує про відправку листа для відновлення пароля на раніше вказану адресу:
 
-.. image:: pics_User_registration/User_registration_20.png
+.. image:: pics_User_registration/User_registration_028.png
    :align: center
 
 На пошту прийде лист з посиланням для переходу на форму введення нового пароля:
 
-.. image:: pics_User_registration/User_registration_019.png
+.. image:: pics_User_registration/User_registration_029.png
    :align: center
 
 При переході за посиланням вкажіть новий пароль та підтвердіть його:
 
-.. image:: pics_User_registration/User_registration_020.png
+.. image:: pics_User_registration/User_registration_030.png
    :align: center
 
 Після введення нового пароля одразу можливо здійснювати авторизацію до платформи **EDI Network**.
