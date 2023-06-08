@@ -98,6 +98,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: 🧲 ERP Connector
+
+   ERP_Connector/ERP_Connector_instruction
+
+.. toctree::
+   :maxdepth: 2
    :caption: 💎 WhiteDoc
 
    WhiteDoc/WD_Instructions/WD_Instructions_list
