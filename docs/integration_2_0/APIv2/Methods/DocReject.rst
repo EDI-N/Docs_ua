@@ -1,11 +1,15 @@
 ############################################################################################
-**Відмова від підписання (створення квитанції №13)**
+**Відправка відмови від підписання (створення квитанції №13)**
 ############################################################################################
+
+.. role:: red
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
 .. note::
-   Метод може бути виконаний в режимі автоматичного формування "Повідомлення про відмову від підписання документа" (`COMDOC_021 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-021>`__). Метод може бути використаний для **Відмови від підписання** : `DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__, `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__, `Додаток до договору 7Б (METRO_7B) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__, `Додаток до договору 7Ц (METRO_7C) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__.
+   Метод може бути використаний для відправки **Відмови від підписання** : `DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__, `DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__, `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__, `Додаток до договору 7Б (METRO_7B) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__, `Додаток до договору 7Ц (METRO_7C) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__ документів.
+	
+	Для `DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__ та `DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__ (і лише для цих документів) метод може бути виконаний в режимі автоматичного формування і відправки "Повідомлення про відмову від підписання документа" (`COMDOC_021 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-021>`__) при наявності **autoGenerate** параметра. 
 
 .. csv-table:: 
   :file: DocReject.csv
