@@ -57,7 +57,13 @@
    Create_Consignee_Change_Act_from
    Consignee_Change_Act_Reject
 
+.. _reload-act:
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт перевантаження
+   
+   Create_Reload_Act_from
 
 
 .. для красивих посилань на документи треба місце для скролу:
