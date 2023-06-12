@@ -65,6 +65,17 @@
    
    Create_Reload_Act_from
 
+.. _resealing-act:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт перепломбування
+   
+   Create_Resealing_Act_from
+
+
+
+
 
 .. для красивих посилань на документи треба місце для скролу:
 
