@@ -125,12 +125,12 @@
 
 Після відправки автоматично відкривається папка **"Надіслані"**, де надісланий акт відображається зі статусом **"Очікує підписання отримувачем"**:
 
-.. image:: pics_Create_Resealing_Act_from/Create_Resealing_Act_from_008.png
+.. image:: pics_Create_Resealing_Act_from/Create_Resealing_Act_from_010.png
    :align: center
 
 Після відправки у пов'язаного документа "е-ТТН" при його перегляді в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ відобрається створений Акт і виводиться повідомлення про обмежені дії з документом до кінця життєвого циклу акта (поки **"Перевізник"** не підпише або відхилить створений "Акт перепломбування"):
 
-.. image:: pics_Create_Resealing_Act_from/Create_Resealing_Act_from_009.png
+.. image:: pics_Create_Resealing_Act_from/Create_Resealing_Act_from_011.png
    :align: center
 
 -------------------------------------
