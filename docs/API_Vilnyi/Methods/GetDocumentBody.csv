@@ -1,7 +1,9 @@
 **URL**       ,
 Метод запиту  , GET                                         
-URL запиту    , **/api/sd/eds/doc/body?doc_uuid=aa0c929d-f7b3-437a-aa55-edf61ea11805&body_type=json**
-URL параметри ,"**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+URL запиту    , **/api/sd/eds/doc/body?doc_uuid=aa0c929d-f7b3-437a-aa55-edf61ea11805**
+URL параметри ,"**doc_uuid** (обов'язково) UUID - ідентифікатор документа;
+
+**employee_uuid** (опціонально) UUID - ідентифікатор співробітника, під яким виконуються обробка документа;
 
 **response_type** (опціонально) String - формат очікуваної відповіді; можливі варіанти:
 
