@@ -264,7 +264,7 @@ GLN - (Global Location Number) глобальний номер місцезна�
 
 `Опис конфігураційного файлу Config.txt модуля для інтеграції з платформою EDI-NETWORK <https://wiki.edin.ua/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/config_description.html>`__ .
 
-`Опис файлу користувацьких налаштувань UserSettinsg.txt модуля для інтеграції з платформою EDI-NETWORK <https://wiki.edin.ua/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/UserSettings_description.html>`__ .
+`Опис файлу користувацьких налаштувань UserSettings.txt модуля для інтеграції з платформою EDI-NETWORK <https://wiki.edin.ua/uk/latest/integration_2_0/1C_integration_2_0/1C_API_integration_2_0/UserSettings_description.html>`__ .
 
 -------------------------------------
 
