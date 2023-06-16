@@ -43,6 +43,7 @@ PRODUCT, M,"Число (8, 10, 14)", Штрихкод продукту
 PRODUCTIDSUPPLIER, O, Рядок (16), Артикул в БД постачальника
 IDPRODUCER, O, Рядок (8), Код виробника
 PRODUCTIDBUYER, O, Рядок (16), Артикул в БД покупця
+BUYERNUMBER, О, Число ціле (16), Внутрішній системний номер артикулу в БД покупця
 DELIVEREDQUANTITY, M, Число позитивне,"кількість, що поставляється"
 DELIVEREDUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 ORDEREDQUANTITY, O, Число позитивне, Замовлена кількість
