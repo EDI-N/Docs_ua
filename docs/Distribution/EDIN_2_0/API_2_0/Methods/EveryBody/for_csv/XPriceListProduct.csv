@@ -38,3 +38,4 @@ is_new,O,boolean,відмітка «Акція!»
 is_public,O,boolean,відмітка «Публічна позиція!»
 is_surcharge,O,boolean,відмітка «Надбавка!»
 is_pickup,O,boolean,відмітка «Самовивіз!»
+is_bestseller,O,boolean,відмітка «Хіт продажу!»

@@ -59,7 +59,6 @@
         <LineNumber>1</LineNumber>
         <EAN>11100033311117777</EAN>
         <BuyerItemCode>5454454</BuyerItemCode>
-        <ExternalItemCode>1234567891</ExternalItemCode>
         <ItemDescription>Product test edi 4076</ItemDescription>
         <CountPiecesInBox>3</CountPiecesInBox>
         <BoxesCount>3</BoxesCount>
