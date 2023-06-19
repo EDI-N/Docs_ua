@@ -227,8 +227,8 @@ WEB сервісом підтримуються **Google Chrome** та **Safari*
 
 В наступному вікні заповнюються дані зв'язку з платформою WhiteDoc:
 
-* ACS URL = https://edo.whitedoc.ua/saml/SSO
-* Entity ID = https://edo.whitedoc.ua/saml/metadata
+* ACS URL = https://api.whitedoc.ua/saml/SSO
+* Entity ID = https://api.whitedoc.ua/saml/metadata
 
 Також обирається ідентифікатор назв (в нашому випадку це e-mail) та **"Продовжуємо"** налаштування:
 
