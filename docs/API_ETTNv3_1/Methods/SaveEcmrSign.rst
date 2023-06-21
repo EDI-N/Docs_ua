@@ -7,7 +7,7 @@
 .. hint::
    Підписання в сервісі "ЕТТН" можливо здійснити двома способами:
 
-   1. `Отримати тіло документа сервісу "ЕТТН" в ECMR форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/GetEcmrDocumentBody.html>`__ -> Підписати отримане ECMR тіло (отримуємо p7s файл підпису) -> Конвертуємо p7s в base64 формат - це буде зміст в масиві тіла запиту.
+   1. `Отримати тіло документа сервісу "ЕТТН" в ECMR форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ -> Підписати отримане ECMR тіло (отримуємо p7s файл підпису) -> Конвертуємо p7s в base64 формат - це буде зміст в масиві тіла запиту.
    2. `Отримати sign_hash (extra_fields) документа сервісу "ЕТТН" <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocument.html>`__ -> Підписати отримане значення sign_hash (отримуємо p7s файл підпису) -> Конвертуємо p7s в base64 формат - це буде зміст в масиві тіла запиту.
 
 .. note::
