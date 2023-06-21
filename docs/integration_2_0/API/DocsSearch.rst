@@ -423,8 +423,7 @@
                 "statuses": [],
                 "multiExtraFields": {}
             }
-        ],
-        "totalCount": 0
+        ]
     } 
 
 
