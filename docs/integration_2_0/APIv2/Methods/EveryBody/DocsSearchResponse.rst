@@ -56,8 +56,7 @@
                 "statuses": [],
                 "multiExtraFields": {}
             }
-        ],
-        "totalCount": 0
+        ]
     }
 
 Таблиця 0 - Опис параметрів **відповіді**
