@@ -9,7 +9,7 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 
 **rejected_by** (обов'язково) String - ПІБ співробітника"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 Content-Type  , *application/json*
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу (в json форматі) передається причина відхилення документа в текстовому вигляді."

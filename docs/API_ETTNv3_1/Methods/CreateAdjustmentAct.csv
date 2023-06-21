@@ -9,7 +9,7 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 
 **new_doc_uuid** (опціонально) UUID - ідентифікатор створюваного документа (може передаватись і бути назначеним при створенні документа зі сторони Вашого клієнта)"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__"
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
 Content-Type  , *application/json* or *application/xml*                             
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу передається тіло документа `Акта коригування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ADJUSTMENT_ACT/ADJUSTMENT_ACTpage_v3.html>`__ в форматі json чи xml в залежності від Content-Type. **Важливо:** в тілі Акта має передаватись ідентифікатор (guid) е-ТТН (детальніше за посиланням вище)."

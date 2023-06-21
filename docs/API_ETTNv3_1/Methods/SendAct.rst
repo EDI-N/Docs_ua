@@ -5,7 +5,7 @@
 .. note::
    Відправити можливо лише підписаний документ! Цим методом відправляється лише новий документ (подальше внесення доповнень/змін в документ та їх відправка виконуються за допомогою **/api/eds/doc/ettn/act/transaction** методів)! 
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__.
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
 .. csv-table:: 
   :file: SendAct.csv
