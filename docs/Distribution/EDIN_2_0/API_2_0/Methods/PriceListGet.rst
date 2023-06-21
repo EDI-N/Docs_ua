@@ -23,6 +23,9 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані по товарам "Прайс-листа" (масив об'єктів `XPriceListElement <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XPriceListElement.html>`__) для вказаного "Дистриб'ютора"
+В тілі **відповіді** передаються дані по товарам "Прайс-листа":
+
+* або у вигляді масива об'єктів `XPriceListElement <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XPriceListElement.html>`__ для вказаного "Дистриб'ютора";
+* або у вигляді об'єкта зі списком ідентифікаторів "Дистриб'юторів", що входять до вказаної групи (access_groups_id), та "Прайс-листом" для кожного знайденого "Дистриб'ютора" (масива об'єктів `XPriceListElement <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XPriceListElement.html>`__). 
 
 
