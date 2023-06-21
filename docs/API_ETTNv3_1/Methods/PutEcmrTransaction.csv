@@ -18,5 +18,5 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 
 **update_doc_state** (опціонально) boolean - true за замовчуванням; значення false використовується для внесення учасником змін в уже відправлену транзакцію (коригування) без зміни статуса документообігу (sub_status_id). Якщо передати update_doc_state=false то транзакція віправиться без зміни статусу ТТН."
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 Content-Type  , *application/json*

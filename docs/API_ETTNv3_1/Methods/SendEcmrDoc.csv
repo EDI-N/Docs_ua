@@ -16,5 +16,5 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
    * AssociatedReferencedDocument.ID <== Номер документа з DESADV.NUMBER
    * AssociatedReferencedDocument.FormattedIssueDateTime.DateTimeString <== Дата документа з DESADV.DATE"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__"
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
 Content-Type  , application/json                            

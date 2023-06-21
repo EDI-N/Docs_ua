@@ -22,6 +22,6 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 
 **doc_uuid** (обов'язково) UUID - ідентифікатор документа"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу передається масив файлів підпису p7s в base64 форматі."

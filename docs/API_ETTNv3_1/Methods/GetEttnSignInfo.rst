@@ -2,7 +2,7 @@
 **Отримання інформації про підписантів е-ТТН та Актів v3 (family=7)**
 #######################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/Authorization.html>`__.
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
 .. csv-table:: 
   :file: GetEttnSignInfo.csv
