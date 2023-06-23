@@ -1,0 +1,20 @@
+#############################################
+Схема документообігу №1
+#############################################
+
+.. image:: pics_EDINProcesses/EDINProcesses_N_1_001.png
+   :height: 700px
+   :align: center
+
+.. csv-table:: 
+  :file: N_1.csv
+  :widths:  7, 42, 21
+  :header-rows: 1
+  :stub-columns: 0
+
+
+
+
+
+
+
