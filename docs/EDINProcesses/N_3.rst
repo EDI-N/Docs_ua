@@ -1,0 +1,13 @@
+#############################################
+Схема документообігу №3
+#############################################
+
+.. image:: pics_EDINProcesses/EDINProcesses_N_3_001.png
+   :height: 700px
+   :align: center
+
+.. csv-table:: 
+  :file: N_3.csv
+  :widths:  7, 42, 7, 21
+  :header-rows: 1
+  :stub-columns: 0

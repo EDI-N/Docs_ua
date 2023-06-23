@@ -13,8 +13,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: 🚀 Побудовані процеси
    
    ClientProcesses/Clients_list
-
-.. todo стандартні / базові процеси
+   EDINProcesses/EDINProcesses_list
 
 .. toctree::
    :maxdepth: 2

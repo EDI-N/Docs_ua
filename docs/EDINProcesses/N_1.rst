@@ -8,7 +8,7 @@
 
 .. csv-table:: 
   :file: N_1.csv
-  :widths:  7, 42, 21
+  :widths:  7, 42, 7, 21
   :header-rows: 1
   :stub-columns: 0
 
