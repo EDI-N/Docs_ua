@@ -28,7 +28,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_028.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_032.png
    :height: 700px
    :align: center
 
@@ -128,8 +128,8 @@
 =========================================================================================================================
 
 .. include:: /retail_2.0/formirovanie_RECADV_na_EDI_Network_2.0.rst
-   :start-after: .. початок блоку для Recadv_from_docs
-   :end-before: .. кінець блоку для Recadv_from_docs
+   :start-after: .. початок блоку для Recadv_from_desadv
+   :end-before: .. кінець блоку для Recadv_from_desadv
 
 ------------------------------------------------
 

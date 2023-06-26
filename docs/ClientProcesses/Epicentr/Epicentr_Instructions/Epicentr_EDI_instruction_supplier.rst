@@ -28,7 +28,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_028.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_032.png
    :height: 700px
    :align: center
 
@@ -111,24 +111,33 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_011.png
    :align: center
 
-.. _documentinvoice-create:
+.. _desadv-create:
 
-3 Формування "Видаткової накладної" (DOCUMENTINVOICE)
+3 Формування "Повідомлення про відвантаження" (DESADV)
 =========================================================================================================================
 
-Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Desadv_from_Ordrsp
+   :end-before: .. кінець блоку для Desadv_from_Ordrsp
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_002.png
+.. _documentinvoice-create:
+
+4 Формування "Видаткової накладної" (DOCUMENTINVOICE)
+=========================================================================================================================
+
+Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Надіслані"** обрати "Повідомлення про відвантаження" (DESADV) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_029.png
    :align: center
 
-Потрібно відкрити вхідне "Замовлення" (ORDER) лівою кнопкою миші та створити "Видаткову накладну" (DOCUMENTINVOICE) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для Мережі за допомогою кнопки **"Створити документ"**:
+Потрібно відкрити надіслане "Повідомлення про відвантаження" (DESADV) лівою кнопкою миші та створити "Видаткову накладну" (DOCUMENTINVOICE) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для Мережі за допомогою кнопки **"Створити документ"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_012.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_030.png
    :align: center
 
 У відкритій формі "Видаткової накладної" (DOCUMENTINVOICE) багато даних автоматично переносяться з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_013.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_031.png
    :align: center
 
 Дані **Відправника** та **Одержувача** заповнюються автоматично з обраної компанії та документа-підстави відповідно і не підлягають редагуванню. **Номер** документа співпадає з номером документа-підстави, **Дата** документа заповнюються автоматично поточною датою, але доступна до редагування за потреби. Дані **Точки доставки** також заповнюються автоматично з документа-підстави.
@@ -159,9 +168,54 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
    :align: center
 
+.. there was a scheme DOCUMENTINVOICE from ORDER
+
+   Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_002.png
+      :align: center
+
+   Потрібно відкрити вхідне "Замовлення" (ORDER) лівою кнопкою миші та створити "Видаткову накладну" (DOCUMENTINVOICE) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для Мережі за допомогою кнопки **"Створити документ"**:
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_012.png
+      :align: center
+
+   У відкритій формі "Видаткової накладної" (DOCUMENTINVOICE) багато даних автоматично переносяться з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_013.png
+      :align: center
+
+   Дані **Відправника** та **Одержувача** заповнюються автоматично з обраної компанії та документа-підстави відповідно і не підлягають редагуванню. **Номер** документа співпадає з номером документа-підстави, **Дата** документа заповнюються автоматично поточною датою, але доступна до редагування за потреби. Дані **Точки доставки** також заповнюються автоматично з документа-підстави.
+
+   .. include:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard.rst
+      :start-after: .. початок блоку для ForAllDOCUMENTINVOICE
+      :end-before: .. кінець блоку для ForAllDOCUMENTINVOICE
+
+   **Номер** та **Дата** "Замовлення" також переносяться автоматично. Блок **Додаткова інформація** необов'язковий до заповнення і "згорнутий" за замовчуванням. Блок **Разом** розраховується автоматично за табличнии позиціями.
+
+   Про необхідність заповнення та інші помилки в табличній частині документа Ви будете проінформовані (вказується номер позиції та невідповідність), а також рядок позиції виділяється помаранчевим кольором:
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_014.png
+      :align: center
+
+   **"Змінити"** дані позиції можливо в розширеній формі "Дані товару" після натискання на штрихкод позиції:
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_015.png
+      :align: center
+
+   Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**. Також можливо **"+Додати"** нові товарні позиції, але ці дії потрібно узгоджувати з мережею.
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_016.png
+      :align: center
+
+   Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
+
+   .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
+      :align: center
+
 .. _sign:
 
-3.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE)
+4.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE)
 --------------------------------------------------------------------------------------------------
 
 .. tabs::
@@ -194,7 +248,7 @@
 
 Після підписання "Видаткової накладної" (DOCUMENTINVOICE) документ потрібно **"Відправити"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_018.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ або формує у відповідь "Коригування видаткової накладної" (DOCCORINVOICE) у разі незгоди.
