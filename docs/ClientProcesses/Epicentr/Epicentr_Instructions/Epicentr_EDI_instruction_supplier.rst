@@ -22,6 +22,7 @@
 
 - `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
 - `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
 - `Видаткова накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice>`__
 - `Коригування видаткової накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
 - `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
