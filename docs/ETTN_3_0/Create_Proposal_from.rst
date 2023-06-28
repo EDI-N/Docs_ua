@@ -7,6 +7,8 @@
 
 .. |будинок| image:: /_constant/icons/house.png
 
+.. |drag_dots| image:: /_constant/icons/drag_dots.png
+
 .. role:: red
 
 .. role:: green

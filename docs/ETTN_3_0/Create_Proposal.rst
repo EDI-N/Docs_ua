@@ -7,6 +7,8 @@
 
 .. |будинок| image:: /_constant/icons/house.png
 
+.. |drag_dots| image:: /_constant/icons/drag_dots.png
+
 .. role:: red
 
 .. role:: green
@@ -203,7 +205,12 @@
 .. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_023.png
    :align: center
 
-Для збереження "Заявка на транспортування" необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**:
+Перевізники, отримавши "Заявку на транспортування", орієнтуються на послідовність вказаних в ній маршрутів. До відправки документа можливо змінити послідовність маршрутів, перетягнувши позицію лівою кнпкою миші за |drag_dots|:
+
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_033.gif
+   :align: center
+
+Для збереження "Заявки на транспортування" необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**:
 
 .. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_024.png
    :align: center
