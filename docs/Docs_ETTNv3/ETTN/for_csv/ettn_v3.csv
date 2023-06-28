@@ -455,7 +455,7 @@ unitCode,O,string,Код одиниці виміру («UAH»)
 value,O,decimal,Значення
 **ram:TariffQuantity**,,,"Ціна без ПДВ за одиницю в грн. Це можуть бути як гривні на кілограм (грн./кг), так і гривні на ящик (грн./ящик) - залежить від зазначеної одиниці виміру (закінчення блоку)"
 **ram:GlobalID**,O,,Код УКТЗЕД продукції (початок блоку)
-schemeAgencyID,O,string,УКТЗЕД
+schemeAgencyID,O,string(min 4 - max 10),УКТЗЕД
 value,O,string,Значення
 **ram:GlobalID**,,,Код УКТЗЕД продукції (закінчення блоку)
 **ram:NatureIdentificationTransportCargo**,M,,Найменування вантажу
