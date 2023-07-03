@@ -7,9 +7,8 @@ I,**ecmr**,M, ,Початок змісту документа
 2.1,**exchangedDocument**.id,M,string,порядковий номер (серія) документа
 2.2.1,**exchangedDocument**.**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа
 2.3,**exchangedDocument**.remarks,O,string,Ремарки
-2.4.1.1,**exchangedDocument**.**includedNote**.**contentCode**.listAgencyID,"M для GLN (решта O)",String,"Ідентифікатор:
+2.4.1.1,**exchangedDocument**.**includedNote**.**contentCode**.listAgencyID,"O",String,"Ідентифікатор:
 
-* GLN
 * transportation_max_temperature (Максимальна температура під час перевезення)
 * logger_return (Повернення логера)
 * logistic_unit_number_with_logger (Номер логістичної одиниці з термологером)
@@ -17,8 +16,7 @@ I,**ecmr**,M, ,Початок змісту документа
 * logger_number (Номер термологера).
 
 Ідентифікатори logistic_unit_number_with_logger / gps_number / logger_number вказуються контрагентом з роллю «Вантажовідправник». Ідентифікатори transportation_max_temperature та logger_return вказуються контрагентом з роллю «Вантажоодержувач»"
-2.4.1.2,**exchangedDocument**.**includedNote**.**contentCode**.value,M,"* для GLN = Число (13)
-* для transportation_max_temperature = Число (3)
+2.4.1.2,**exchangedDocument**.**includedNote**.**contentCode**.value,M,"* для transportation_max_temperature = Число (3)
 * для logger_return = «Так» / «Ні»
 * для logistic_unit_number_with_logger = Рядок
 * для gps_number = Рядок
@@ -53,7 +51,13 @@ I,**ecmr**,M, ,Початок змісту документа
 3.4.5.3,.cityName,M,string,Місто (назва населеного пункту)
 3.4.5.4,.countryID,M,string,Країна (UA)
 3.4.5.5,.countrySubDivisionName,O,string,Область та район (за наявності)
-3.4.6,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+3.4.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+3.4.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Вантажовідправника"
+3.4.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+
+
 3.,**consignee**.**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Вантажоодержувача
 3.,**consignee**.**id**.value,M,decimal,Значення
 3.,**consignee**.name,M,string,"Повне найменування Вантажоодержувача (юридичної особи або ПІБ фізичної-особи підприємця), що проводить одержання (оприбуткування) перелічених в ТТН товарно-матеріальних цінностей"
@@ -68,6 +72,12 @@ I,**ecmr**,M, ,Початок змісту документа
 3.,**consignee**.**postalTradeAddress**.countryID,M,string,Країна (UA)
 3.,**consignee**.**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
 3.,**consignee**.**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+
+3.5.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Вантажоодержувача"
+3.5.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+
 3.,**carrier**.**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Перевізника
 3.,**carrier**.**id**.value,M,decimal,Значення
 3.,**carrier**.name,M,string,"Повне найменування Перевізника (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг"
@@ -82,7 +92,13 @@ I,**ecmr**,M, ,Початок змісту документа
 3.,**carrier**.**postalTradeAddress**.countryID,M,string,Країна (UA)
 3.,**carrier**.**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
 3.,**carrier**.**taxRegistration**.id,M,string,РНОКПП відповідальної особи (водія)
-3.,**carrier**.**specifiedGovernmentRegistration**.id,M,string,"Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``"
+3.,**carrier**.**specifiedGovernmentRegistrations**.id,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+3.,**carrier**.**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
 3.,**notifiedTradeParties**(роль - FW).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Експедитора
 3.,**notifiedTradeParties**(роль - FW).**id**.value,M,decimal,Значення
 3.,**notifiedTradeParties**(роль - FW).name,M,string,"Повне найменування Експедитора (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування"
@@ -97,6 +113,12 @@ I,**ecmr**,M, ,Початок змісту документа
 3.,**notifiedTradeParties**(роль - FW).**postalTradeAddress**.countryID,M,string,Країна (UA)
 3.,**notifiedTradeParties**(роль - FW).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
 3.,**notifiedTradeParties**(роль - FW).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+
+3.7.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Експедитора"
+3.7.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+
 3.,**notifiedTradeParties**(роль - OB).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Замовника
 3.,**notifiedTradeParties**(роль - OB).**id**.value,M,decimal,Значення
 3.,**notifiedTradeParties**(роль - OB).name,M,string,"Повне найменування Замовника (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, що проводить оплату транспортної роботи і послуг"
@@ -111,6 +133,12 @@ I,**ecmr**,M, ,Початок змісту документа
 3.,**notifiedTradeParties**(роль - OB).**postalTradeAddress**.countryID,M,string,Країна (UA)
 3.,**notifiedTradeParties**(роль - OB).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
 3.,**notifiedTradeParties**(роль - OB).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+
+3.8.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Замовника"
+3.8.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+
 3.,**notifiedTradeParties**(роль - WD).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Проміжного складу
 3.,**notifiedTradeParties**(роль - WD).**id**.value,M,decimal,Значення
 3.,**notifiedTradeParties**(роль - WD).name,M,string,"Повне найменування Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж"
@@ -125,6 +153,12 @@ I,**ecmr**,M, ,Початок змісту документа
 3.,**notifiedTradeParties**(роль - WD).**postalTradeAddress**.countryID,M,string,Країна (UA)
 3.,**notifiedTradeParties**(роль - WD).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
 3.,**notifiedTradeParties**(роль - WD).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+
+3.9.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Проміжного складу"
+3.9.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+
 3.,**notifiedTradeParties**(роль - COP).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Охоронної компанії
 3.,**notifiedTradeParties**(роль - COP).**id**.value,M,decimal,Значення
 3.,**notifiedTradeParties**(роль - COP).name,M,string,"Повне найменування Охоронної компанії, що надає охоронні послуги вантажу під час перевезення"

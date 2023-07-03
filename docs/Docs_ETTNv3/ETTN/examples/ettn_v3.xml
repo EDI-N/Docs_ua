@@ -1,348 +1,242 @@
 <UAECMR xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
-	<eCMR>
-		<ExchangedDocumentContext>
-			<ram:SpecifiedTransactionID>0</ram:SpecifiedTransactionID>
-			<ram:BusinessProcessSpecifiedDocumentContextParameter>
-				<ram:ID>urn:ua:e-transport.gov.ua:ettn:01</ram:ID>
-			</ram:BusinessProcessSpecifiedDocumentContextParameter>
-			<ram:GuidelineSpecifiedDocumentContextParameter>
-				<ram:ID>urn:ua:e-transport.gov.ua:ettn:01:generic:001</ram:ID>
-			</ram:GuidelineSpecifiedDocumentContextParameter>
-		</ExchangedDocumentContext>
-		<ExchangedDocument>
-			<ram:ID>TEST_EDIN_001</ram:ID>
-			<ram:IssueDateTime>
-				<udt:DateTime>2021-12-03T21:32:52+02:00</udt:DateTime>
-			</ram:IssueDateTime>
-			<ram:IncludedNote>
-				<ram:ContentCode listAgencyID="GLN">3333333333333</ram:ContentCode>
-				<ram:Content>CA</ram:Content>
-			</ram:IncludedNote>
-			<ram:IncludedNote>
-				<ram:ContentCode listAgencyID="GLN">11111111111111</ram:ContentCode>
-				<ram:Content>CZ</ram:Content>
-			</ram:IncludedNote>
-			<ram:IncludedNote>
-				<ram:ContentCode listAgencyID="GLN">22222222222222</ram:ContentCode>
-				<ram:Content>CN</ram:Content>
-			</ram:IncludedNote>
-			<ram:IssueLogisticsLocation>
-				<ram:Name>Місце складання документу</ram:Name>
-				<ram:Description>79000, м.Львів, вул. Словацького, 1</ram:Description>
-			</ram:IssueLogisticsLocation>
-		</ExchangedDocument>
-		<SpecifiedSupplyChainConsignment>
-			<ram:GrossWeightMeasure unitCode="KGM">100</ram:GrossWeightMeasure>
-			<ram:AssociatedInvoiceAmount currencyID="UAH">10000</ram:AssociatedInvoiceAmount>
-			<ram:ConsignmentItemQuantity>60</ram:ConsignmentItemQuantity>
-			<ram:ConsignorTradeParty>
-				<ram:ID schemeAgencyID="ЄДРПОУ">36286002</ram:ID>
-				<ram:Name>МСК Отправитель</ram:Name>
-				<ram:RoleCode>CZ</ram:RoleCode>
-				<ram:PostalTradeAddress>
-					<ram:PostcodeCode>01001</ram:PostcodeCode>
-					<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-					<ram:CityName>Київ</ram:CityName>
-					<ram:CountryID>UA</ram:CountryID>
-				</ram:PostalTradeAddress>
-			</ram:ConsignorTradeParty>
-			<ram:ConsigneeTradeParty>
-				<ram:ID schemeAgencyID="ЄДРПОУ">101010141</ram:ID>
-				<ram:Name>МСК Получатель 1</ram:Name>
-				<ram:RoleCode>CN</ram:RoleCode>
-				<ram:PostalTradeAddress>
-					<ram:PostcodeCode>01001</ram:PostcodeCode>
-					<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-					<ram:CityName>Київ</ram:CityName>
-					<ram:CountryID>UA</ram:CountryID>
-				</ram:PostalTradeAddress>
-				<ram:SpecifiedGovernmentRegistration>
-					<ram:ID>101010141</ram:ID>
-				</ram:SpecifiedGovernmentRegistration>
-			</ram:ConsigneeTradeParty>
-			<ram:CarrierTradeParty>
-				<ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
-				<ram:Name>ettn-test-consignor</ram:Name>
-				<ram:RoleCode>CA</ram:RoleCode>
-				<ram:DefinedTradeContact>
-					<ram:PersonName>ettn-test ettn-test ettn-test</ram:PersonName>
-					<ram:TelephoneUniversalCommunication>
-						<ram:CompleteNumber>0441112233</ram:CompleteNumber>
-					</ram:TelephoneUniversalCommunication>
-					<ram:EmailURIUniversalCommunication>
-						<ram:CompleteNumber>ettn-test@mail.com</ram:CompleteNumber>
-					</ram:EmailURIUniversalCommunication>
-				</ram:DefinedTradeContact>
-				<ram:PostalTradeAddress>
-					<ram:PostcodeCode>01001</ram:PostcodeCode>
-					<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-					<ram:CityName>Київ</ram:CityName>
-					<ram:CountryID>UA</ram:CountryID>
-				</ram:PostalTradeAddress>
-				<ram:SpecifiedGovernmentRegistration>
-					<ram:ID>ZZZ324232</ram:ID>
-				</ram:SpecifiedGovernmentRegistration>
-			</ram:CarrierTradeParty>
-						<ram:NotifiedTradeParty>
-				<ram:ID schemeAgencyID="ЄДРПОУ">101010142</ram:ID>
-				<ram:Name>МСК Заказчик</ram:Name>
-				<ram:RoleCode>OB</ram:RoleCode>
-				<ram:PostalTradeAddress>
-					<ram:PostcodeCode>01001</ram:PostcodeCode>
-					<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-					<ram:CityName>Київ</ram:CityName>
-					<ram:CountryID>UA</ram:CountryID>
-				</ram:PostalTradeAddress>
-				<ram:SpecifiedGovernmentRegistration>
-					<ram:ID>101010142</ram:ID>
-				</ram:SpecifiedGovernmentRegistration>
-			</ram:NotifiedTradeParty>
-			<ram:CarrierAcceptanceLogisticsLocation>
-				<ram:ID schemeAgencyID="КАТОТТГ">UA460602500100</ram:ID>
-				<ram:Name>Головна пошта м.Львів</ram:Name>
-				<ram:TypeCode>5</ram:TypeCode>
-				<ram:Description>79000, м.Львів, вул. Словацького, 1</ram:Description>
-			</ram:CarrierAcceptanceLogisticsLocation>
-			<ram:ConsigneeReceiptLogisticsLocation>
-				<ram:ID schemeAgencyID="КАТОТТГ">UA800000000000</ram:ID>
-				<ram:Name>Головпоштампт м.Київ </ram:Name>
-				<ram:TypeCode>10</ram:TypeCode>
-				<ram:Description>02100, м.Київ, вул. Хрещатик, 26</ram:Description>
-				<ram:PhysicalGeographicalCoordinate>
-					<ram:LatitudeMeasure>50.4489298</ram:LatitudeMeasure>
-					<ram:LongitudeMeasure>30.5194162</ram:LongitudeMeasure>
-					<ram:SystemID schemeAgencyID="GLN">123456789123</ram:SystemID>
-				</ram:PhysicalGeographicalCoordinate>
-			</ram:ConsigneeReceiptLogisticsLocation>
-			<ram:DeliveryTransportEvent>
-				<ram:Description>Розвантаження</ram:Description>
-				<ram:ActualOccurrenceDateTime>
-					<udt:DateTime>2022-01-11T23:19:23+02:00</udt:DateTime>
-				</ram:ActualOccurrenceDateTime>
-				<ram:ScheduledOccurrenceDateTime>
-					<udt:DateTime>2022-01-11T23:19:23+02:00</udt:DateTime>
-				</ram:ScheduledOccurrenceDateTime>
-				<ram:CertifyingTradeParty>
-					<ram:Name>Комірник</ram:Name>
-					<ram:RoleCode>CN</ram:RoleCode>
-					<ram:DefinedTradeContact>
-						<ram:PersonName>Котик Васька</ram:PersonName>
-						<ram:TelephoneUniversalCommunication>
-							<ram:CompleteNumber>0441112233</ram:CompleteNumber>
-						</ram:TelephoneUniversalCommunication>
-						<ram:EmailURIUniversalCommunication>
-							<ram:CompleteNumber>kotik_vasika@yahoo.com</ram:CompleteNumber>
-						</ram:EmailURIUniversalCommunication>
-					</ram:DefinedTradeContact>
-					<ram:PostalTradeAddress>
-						<ram:PostcodeCode>01001</ram:PostcodeCode>
-						<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-						<ram:CityName>Київ</ram:CityName>
-						<ram:CountryID>UA</ram:CountryID>
-					</ram:PostalTradeAddress>
-					<ram:SpecifiedGovernmentRegistration>
-						<ram:ID>101010141</ram:ID>
-					</ram:SpecifiedGovernmentRegistration>
-				</ram:CertifyingTradeParty>
-			</ram:DeliveryTransportEvent>
-			<ram:PickUpTransportEvent>
-				<ram:Description>Навантаження</ram:Description>
-				<ram:ActualOccurrenceDateTime>
-					<udt:DateTime>2022-01-11T22:19:23+02:00</udt:DateTime>
-				</ram:ActualOccurrenceDateTime>
-				<ram:ScheduledOccurrenceDateTime>
-					<udt:DateTime>2022-01-11T22:19:23+02:00</udt:DateTime>
-				</ram:ScheduledOccurrenceDateTime>
-				<ram:CertifyingTradeParty>
-					<ram:Name>Комірник</ram:Name>
-					<ram:RoleCode>CZ</ram:RoleCode>
-					<ram:DefinedTradeContact>
-						<ram:PersonName>Котик Пашка</ram:PersonName>
-						<ram:MobileTelephoneUniversalCommunication>
-							<ram:CompleteNumber>0931112233</ram:CompleteNumber>
-						</ram:MobileTelephoneUniversalCommunication>
-						<ram:EmailURIUniversalCommunication>
-							<ram:CompleteNumber>kotik_pashka@yahoo.com</ram:CompleteNumber>
-						</ram:EmailURIUniversalCommunication>
-					</ram:DefinedTradeContact>
-					<ram:PostalTradeAddress>
-						<ram:PostcodeCode>01001</ram:PostcodeCode>
-						<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-						<ram:CityName>Київ</ram:CityName>
-						<ram:CountryID>UA</ram:CountryID>
-					</ram:PostalTradeAddress>
-					<ram:SpecifiedGovernmentRegistration>
-						<ram:ID>36286002</ram:ID>
-					</ram:SpecifiedGovernmentRegistration>
-				</ram:CertifyingTradeParty>
-			</ram:PickUpTransportEvent>
-			<ram:IncludedSupplyChainConsignmentItem>
-				<ram:SequenceNumeric>1</ram:SequenceNumeric>
-				<ram:InvoiceAmount currencyID="UAH">200</ram:InvoiceAmount>
-				<ram:GrossWeightMeasure unitCode="KGM">200</ram:GrossWeightMeasure>
-				<ram:TariffQuantity unitCode="UAH">500</ram:TariffQuantity>
-				<ram:GlobalID schemeAgencyID="УКТЗЕД">0101 30 00 00</ram:GlobalID>
-				<ram:NatureIdentificationTransportCargo>
-					<ram:Identification>Опис елементу 1 вантажу</ram:Identification>
-				</ram:NatureIdentificationTransportCargo>
-				<ram:ApplicableTransportDangerousGoods>
-					<ram:UNDGIdentificationCode>0</ram:UNDGIdentificationCode>
-					<ram:PackagingDangerLevelCode>1</ram:PackagingDangerLevelCode>
-				</ram:ApplicableTransportDangerousGoods>
-				<ram:AssociatedReferencedLogisticsTransportEquipment>
-					<ram:ID>123456789-123</ram:ID>
-				</ram:AssociatedReferencedLogisticsTransportEquipment>
-				<ram:TransportLogisticsPackage>
-					<ram:ItemQuantity>100</ram:ItemQuantity>
-					<ram:TypeCode>SA</ram:TypeCode>
-					<ram:Type>кг</ram:Type>
-					<ram:PhysicalLogisticsShippingMarks>
-						<ram:Marking>Упаковано в мішки</ram:Marking>
-						<ram:BarcodeLogisticsLabel>
-							<ram:ID>Упаковано в мішки</ram:ID>
-						</ram:BarcodeLogisticsLabel>
-					</ram:PhysicalLogisticsShippingMarks>
-				</ram:TransportLogisticsPackage>
-				<ram:ApplicableNote>
-					<ram:ContentCode>VENDOR_CODE</ram:ContentCode>
-					<ram:Content>123123</ram:Content>
-				</ram:ApplicableNote>
-				<ram:ApplicableNote>
-					<ram:ContentCode>URL</ram:ContentCode>
-					<ram:Content>https://name.domain.com</ram:Content>
-				</ram:ApplicableNote>
-			</ram:IncludedSupplyChainConsignmentItem>
-			<ram:IncludedSupplyChainConsignmentItem>
-				<ram:SequenceNumeric>2</ram:SequenceNumeric>
-				<ram:InvoiceAmount currencyID="UAH">500</ram:InvoiceAmount>
-				<ram:GrossWeightMeasure unitCode="KGM">500</ram:GrossWeightMeasure>
-				<ram:TariffQuantity unitCode="UAH">100</ram:TariffQuantity>
-				<ram:GlobalID schemeAgencyID="УКТЗЕД">0101 30 00 00</ram:GlobalID>
-				<ram:NatureIdentificationTransportCargo>
-					<ram:Identification>Опис елементу 2 вантажу</ram:Identification>
-				</ram:NatureIdentificationTransportCargo>
-				<ram:ApplicableTransportDangerousGoods>
-					<ram:UNDGIdentificationCode>0</ram:UNDGIdentificationCode>
-					<ram:PackagingDangerLevelCode>1</ram:PackagingDangerLevelCode>
-				</ram:ApplicableTransportDangerousGoods>
-				<ram:AssociatedReferencedLogisticsTransportEquipment>
-					<ram:ID>123456789-456</ram:ID>
-				</ram:AssociatedReferencedLogisticsTransportEquipment>
-				<ram:TransportLogisticsPackage>
-					<ram:ItemQuantity>200</ram:ItemQuantity>
-					<ram:TypeCode>SA</ram:TypeCode>
-					<ram:Type>кг</ram:Type>
-					<ram:PhysicalLogisticsShippingMarks>
-						<ram:Marking>Упаковано в коробки</ram:Marking>
-						<ram:BarcodeLogisticsLabel>
-							<ram:ID>Упаковано в коробки</ram:ID>
-						</ram:BarcodeLogisticsLabel>
-					</ram:PhysicalLogisticsShippingMarks>
-				</ram:TransportLogisticsPackage>
-				<ram:ApplicableNote>
-					<ram:ContentCode>VENDOR_CODE</ram:ContentCode>
-					<ram:Content>456456</ram:Content>
-				</ram:ApplicableNote>
-			</ram:IncludedSupplyChainConsignmentItem>
-			<ram:UtilizedLogisticsTransportEquipment>
-				<ram:ID>АА1234ВВ</ram:ID>
-				<ram:ApplicableNote>
-					<ram:ContentCode>BRAND</ram:ContentCode>
-					<ram:Content>VOLVO</ram:Content>
-				</ram:ApplicableNote>
-				<ram:ApplicableNote>
-					<ram:ContentCode>MODEL</ram:ContentCode>
-					<ram:Content>Truck</ram:Content>
-				</ram:ApplicableNote>
-			</ram:UtilizedLogisticsTransportEquipment>
-			<ram:UtilizedLogisticsTransportEquipment>
-				<ram:ID>АА1234ВВ</ram:ID>
-				<ram:CategoryCode>TE</ram:CategoryCode>
-				<ram:CharacteristicCode>14</ram:CharacteristicCode>
-				<ram:AffixedLogisticsSeal>
-					<ram:ID>123123</ram:ID>
-				</ram:AffixedLogisticsSeal>
-				<ram:AffixedLogisticsSeal>
-					<ram:ID>23456</ram:ID>
-				</ram:AffixedLogisticsSeal>
-				<ram:ApplicableNote>
-					<ram:ContentCode>BRAND</ram:ContentCode>
-					<ram:Content>VOLVO</ram:Content>
-				</ram:ApplicableNote>
-				<ram:ApplicableNote>
-					<ram:ContentCode>MODEL</ram:ContentCode>
-					<ram:Content>Super Trailer</ram:Content>
-				</ram:ApplicableNote>
-			</ram:UtilizedLogisticsTransportEquipment>
-			<ram:MainCarriageLogisticsTransportMovement>
-				<ram:SpecifiedTransportEvent>
-					<ram:ID>1</ram:ID>
-					<ram:TypeCode>5</ram:TypeCode>
-					<ram:Description>Розвантаження на проміжному складі у м.Рівне</ram:Description>
-					<ram:CertifyingTradeParty>
-						<ram:ID schemeAgencyID="ЄДРПОУ">101010164</ram:ID>
-						<ram:Name>МСК Склад</ram:Name>
-						<ram:RoleCode>WD</ram:RoleCode>
-						<ram:DefinedTradeContact>
-							<ram:PersonName>Васильченко Василь Васильович</ram:PersonName>
-							<ram:TelephoneUniversalCommunication>
-								<ram:CompleteNumber>0441112233</ram:CompleteNumber>
-							</ram:TelephoneUniversalCommunication>
-							<ram:MobileTelephoneUniversalCommunication>
-								<ram:CompleteNumber>0931112233</ram:CompleteNumber>
-							</ram:MobileTelephoneUniversalCommunication>
-							<ram:EmailURIUniversalCommunication>
-								<ram:CompleteNumber>vasyl@yahoo.com</ram:CompleteNumber>
-							</ram:EmailURIUniversalCommunication>
-						</ram:DefinedTradeContact>
-						<ram:PostalTradeAddress>
-							<ram:PostcodeCode>01001</ram:PostcodeCode>
-							<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-							<ram:CityName>Київ</ram:CityName>
-							<ram:CountryID>UA</ram:CountryID>
-						</ram:PostalTradeAddress>
-						<ram:SpecifiedGovernmentRegistration>
-							<ram:ID>101010164</ram:ID>
-						</ram:SpecifiedGovernmentRegistration>
-					</ram:CertifyingTradeParty>
-				</ram:SpecifiedTransportEvent>
-				<ram:SpecifiedTransportEvent>
-					<ram:ID>2</ram:ID>
-					<ram:TypeCode>5</ram:TypeCode>
-					<ram:Description>Навантаження на проміжному складі у м.Рівне</ram:Description>
-					<ram:CertifyingTradeParty>
-						<ram:ID schemeAgencyID="ЄДРПОУ">101010164</ram:ID>
-						<ram:Name>МСК Склад</ram:Name>
-						<ram:RoleCode>WD</ram:RoleCode>
-						<ram:DefinedTradeContact>
-							<ram:PersonName>Васильченко Василь Васильович</ram:PersonName>
-							<ram:TelephoneUniversalCommunication>
-								<ram:CompleteNumber>0441112233</ram:CompleteNumber>
-							</ram:TelephoneUniversalCommunication>
-							<ram:MobileTelephoneUniversalCommunication>
-								<ram:CompleteNumber>0931112233</ram:CompleteNumber>
-							</ram:MobileTelephoneUniversalCommunication>
-							<ram:EmailURIUniversalCommunication>
-								<ram:CompleteNumber>vasyl@yahoo.com</ram:CompleteNumber>
-							</ram:EmailURIUniversalCommunication>
-						</ram:DefinedTradeContact>
-						<ram:PostalTradeAddress>
-							<ram:PostcodeCode>01001</ram:PostcodeCode>
-							<ram:StreetName>вул.Хрещатик, 22</ram:StreetName>
-							<ram:CityName>Київ</ram:CityName>
-							<ram:CountryID>UA</ram:CountryID>
-						</ram:PostalTradeAddress>
-						<ram:SpecifiedGovernmentRegistration>
-							<ram:ID>101010164</ram:ID>
-						</ram:SpecifiedGovernmentRegistration>
-					</ram:CertifyingTradeParty>
-				</ram:SpecifiedTransportEvent>
-			</ram:MainCarriageLogisticsTransportMovement>
-			<ram:DeliveryInstructions>
-				<ram:Description>за відрядним тарифом</ram:Description>
-				<ram:DescriptionCode>TRANSPORTATION_TYPE</ram:DescriptionCode>
-			</ram:DeliveryInstructions>
-		</SpecifiedSupplyChainConsignment>
-        
-	</eCMR>
+    <eCMR>
+        <ExchangedDocumentContext>
+            <ram:SpecifiedTransactionID>0</ram:SpecifiedTransactionID>
+            <ram:BusinessProcessSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:ettn:01</ram:ID>
+            </ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:GuidelineSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:ettn:01:generic:001</ram:ID>
+            </ram:GuidelineSpecifiedDocumentContextParameter>
+        </ExchangedDocumentContext>
+        <ExchangedDocument>
+            <ram:ID>3739 всі різні</ram:ID>
+            <ram:IssueDateTime>
+                <udt:DateTime>2023-06-28T12:08:00.000Z</udt:DateTime>
+            </ram:IssueDateTime>
+            <ram:IssueLogisticsLocation>
+                <ram:Name>Місце складання документу</ram:Name>
+                <ram:Description>київ</ram:Description>
+            </ram:IssueLogisticsLocation>
+        </ExchangedDocument>
+        <SpecifiedSupplyChainConsignment>
+            <ram:GrossWeightMeasure unitCode="KGM">333</ram:GrossWeightMeasure>
+            <ram:AssociatedInvoiceAmount currencyID="UAH">333</ram:AssociatedInvoiceAmount>
+            <ram:ConsignmentItemQuantity>333</ram:ConsignmentItemQuantity>
+            <ram:ConsignorTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010139</ram:ID>
+                <ram:Name>МСК ВантВідправник</ram:Name>
+                <ram:RoleCode>CZ</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>19114</ram:PostcodeCode>
+                    <ram:StreetName>вул. Миру, буд. 15, офіс 22</ram:StreetName>
+                    <ram:CityName>c. Оржів</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Житомирська обл,  Коростенський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065741329</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ram:ConsignorTradeParty>
+            <ram:ConsigneeTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010140</ram:ID>
+                <ram:Name>МСК ВантОдержувач</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>24452</ram:PostcodeCode>
+                    <ram:StreetName>вул. Івана Франка, 20, офіс 101 а</ram:StreetName>
+                    <ram:CityName>м. Хуст</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Закарпатська обл,  Хустський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737957</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ram:ConsigneeTradeParty>
+            <ram:CarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>МСК Перевізник</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Перший Водій Батькович</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380544472828</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:CompleteNumber>vod01@test.tst</ram:CompleteNumber>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>74589</ram:PostcodeCode>
+                    <ram:StreetName>пл. Тараса Чмута, буд. 1, офіс 1</ram:StreetName>
+                    <ram:CityName>м. Буськ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Львівська обл,  Золочівський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>1111111101</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>VOD010101</ram:ID>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745952</ram:ID>
+                    <ram:TypeCode>DRIVER_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745709</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ram:CarrierTradeParty>
+            <ram:NotifiedTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">65900960</ram:ID>
+                <ram:Name>МСК Замовник</ram:Name>
+                <ram:RoleCode>OB</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Саймон Кет</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380444444444</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>84579</ram:PostcodeCode>
+                    <ram:StreetName>вул. Свободи, буд. 11, офіс 155</ram:StreetName>
+                    <ram:CityName>м. Київ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>м. Київ</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>444444444444</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737902</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ram:NotifiedTradeParty>
+            <ram:NotifiedTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010182</ram:ID>
+                <ram:Name>МСК Експедитор</ram:Name>
+                <ram:RoleCode>FW</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>12345</ram:PostcodeCode>
+                    <ram:StreetName>Юридична адреса експедитора</ram:StreetName>
+                    <ram:CityName>м. Хуст</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Закарпатська обл,  Хустський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745891</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ram:NotifiedTradeParty>
+            <ram:CarrierAcceptanceLogisticsLocation>
+                <ram:ID schemeAgencyID="КАТОТТГ">UA80000000000875983</ram:ID>
+                <ram:Name>адреса Свят</ram:Name>
+                <ram:TypeCode>5</ram:TypeCode>
+                <ram:Description>Україна, м. Київ, провулок Святошинський 22</ram:Description>
+                <ram:PhysicalGeographicalCoordinate>
+                    <ram:SystemID schemeAgencyID="GLN">9864065741015</ram:SystemID>
+                </ram:PhysicalGeographicalCoordinate>
+            </ram:CarrierAcceptanceLogisticsLocation>
+            <ram:ConsigneeReceiptLogisticsLocation>
+                <ram:ID schemeAgencyID="КАТОТТГ">UA32080110010033149</ram:ID>
+                <ram:Name>адреса Гост</ram:Name>
+                <ram:TypeCode>10</ram:TypeCode>
+                <ram:Description>Україна, Київська обл,  Бучанський р-н, смт. Гостомель, вул. Дружби, 33</ram:Description>
+                <ram:PhysicalGeographicalCoordinate>
+                    <ram:SystemID schemeAgencyID="GLN">9864065741022</ram:SystemID>
+                </ram:PhysicalGeographicalCoordinate>
+            </ram:ConsigneeReceiptLogisticsLocation>
+            <ram:DeliveryTransportEvent></ram:DeliveryTransportEvent>
+            <ram:PickUpTransportEvent>
+                <ram:CertifyingTradeParty>
+                    <ram:ID schemeAgencyID="РНОКПП">111111111111</ram:ID>
+                    <ram:Name>в.о. Вантажовідправника</ram:Name>
+                    <ram:RoleCode>CZ</ram:RoleCode>
+                    <ram:DefinedTradeContact>
+                        <ram:PersonName>котик Пашка</ram:PersonName>
+                        <ram:MobileTelephoneUniversalCommunication>
+                            <ram:CompleteNumber>380111111111</ram:CompleteNumber>
+                        </ram:MobileTelephoneUniversalCommunication>
+                    </ram:DefinedTradeContact>
+                </ram:CertifyingTradeParty>
+            </ram:PickUpTransportEvent>
+            <ram:IncludedSupplyChainConsignmentItem>
+                <ram:SequenceNumeric>1</ram:SequenceNumeric>
+                <ram:InvoiceAmount currencyID="UAH">111</ram:InvoiceAmount>
+                <ram:GrossWeightMeasure unitCode="KGM">111</ram:GrossWeightMeasure>
+                <ram:NatureIdentificationTransportCargo>
+                    <ram:Identification>товар №1</ram:Identification>
+                </ram:NatureIdentificationTransportCargo>
+                <ram:TransportLogisticsPackage>
+                    <ram:ItemQuantity>111</ram:ItemQuantity>
+                    <ram:Type>штука</ram:Type>
+                </ram:TransportLogisticsPackage>
+            </ram:IncludedSupplyChainConsignmentItem>
+            <ram:IncludedSupplyChainConsignmentItem>
+                <ram:SequenceNumeric>2</ram:SequenceNumeric>
+                <ram:InvoiceAmount currencyID="UAH">222</ram:InvoiceAmount>
+                <ram:GrossWeightMeasure unitCode="KGM">222</ram:GrossWeightMeasure>
+                <ram:NatureIdentificationTransportCargo>
+                    <ram:Identification>товар №2</ram:Identification>
+                </ram:NatureIdentificationTransportCargo>
+                <ram:TransportLogisticsPackage>
+                    <ram:ItemQuantity>222</ram:ItemQuantity>
+                    <ram:Type>штука</ram:Type>
+                </ram:TransportLogisticsPackage>
+            </ram:IncludedSupplyChainConsignmentItem>
+            <ram:UtilizedLogisticsTransportEquipment>
+                <ram:ID>аа0101аа</ram:ID>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>пл-авто-ттн</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:SettingTransportSettingTemperature>
+                    <ram:MinimumValueMeasure unitCode="CEL">-22</ram:MinimumValueMeasure>
+                    <ram:MaximumValueMeasure unitCode="CEL">-15</ram:MaximumValueMeasure>
+                </ram:SettingTransportSettingTemperature>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>COLOR</ram:ContentCode>
+                    <ram:Content>колір авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип авто</ram:Content>
+                </ram:ApplicableNote>
+            </ram:UtilizedLogisticsTransportEquipment>
+            <ram:UtilizedLogisticsTransportEquipment>
+                <ram:ID>нп1717нп</ram:ID>
+                <ram:CategoryCode>TE</ram:CategoryCode>
+                <ram:CharacteristicCode>17</ram:CharacteristicCode>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>пл-нп-ттн</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+            </ram:UtilizedLogisticsTransportEquipment>
+            <ram:DeliveryInstructions>
+                <ram:Description>покілометровий тариф</ram:Description>
+                <ram:DescriptionCode>TRANSPORTATION_TYPE</ram:DescriptionCode>
+            </ram:DeliveryInstructions>
+        </SpecifiedSupplyChainConsignment>
+    </eCMR>
 </UAECMR>
