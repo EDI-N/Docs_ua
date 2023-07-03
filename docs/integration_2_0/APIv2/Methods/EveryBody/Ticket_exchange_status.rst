@@ -10,4 +10,12 @@
   :header-rows: 1
   :stub-columns: 0
 
+Для різних видів накладних (DOCUMENTINVOICE/DOCCORINVOICE):
+
+.. csv-table:: 
+  :file: for_csv/DOCUMENTINVOICE_exchange_status.csv
+  :widths:  7, 19, 5, 20, 20
+  :header-rows: 1
+  :stub-columns: 0
+
 .. don't forgot renew xwiki bit_mask page
