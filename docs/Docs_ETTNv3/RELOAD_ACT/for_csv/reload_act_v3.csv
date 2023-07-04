@@ -49,6 +49,15 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Перевізника"
 ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
 **CarrierTradeParty**,,,"Перевізник, що здає вантаж (закінчення блоку)"
 **ConnectingCarrierTradeParty**,M,,"Перевізник, що приймає вантаж (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код Перевізника. ЄДРПОУ суб’єкта господарювання (юридичної особи або фізичної особи - підприємця) або РНОКПП фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг (початок блоку)"
@@ -76,6 +85,15 @@ ram:CityName,M,string,Місто (назва населеного пункту)
 ram:CountryID,M,string,Країна (UA)
 ram:CountrySubDivisionName,O,string,Область та район (за наявності)
 **ram:PostalTradeAddress**,,,Юридична адреса Перевізника (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
 **ConnectingCarrierTradeParty**,,,"Перевізник, що приймає вантаж (закінчення блоку)"
 **CarrierUtilizedLogisticsTransportEquipment**,M,,"Автомобіль, що розвантажується (початок блоку)"
 ram:ID,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом

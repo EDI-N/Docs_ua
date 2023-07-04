@@ -15,7 +15,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-:download:`Приклад "Акта перевантаження"<examples/reload_act_v3.xml>`
+:download:`Приклад "Акта перевантаження"<examples/reload_act_v3n.xml>`
 
 -------------------------
 

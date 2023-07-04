@@ -56,6 +56,12 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Проміжного складу (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Проміжного складу (підприємства, що приймає від Перевізника на тимчасове зберігання вантаж)"
 ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,GLN Проміжного складу (початок блоку)
+ram:ID,M,string,"GLN компанії-учасника"
+ram:TypeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,GLN Проміжного складу (закінчення блоку)
 **StorageTradeParty**,,,"Проміжний склад (закінчення блоку)"
 **CarrierTradeParty**,M,,"Перевізник (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код Перевізника (початок блоку)"
@@ -83,6 +89,15 @@ ram:CityName,M,string,Місто (назва населеного пункту)
 ram:CountryID,M,string,Країна (UA)
 ram:CountrySubDivisionName,O,string,Область та район (за наявності)
 **ram:PostalTradeAddress**,,,Юридична адреса Перевізника (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
 **CarrierTradeParty**,,,"Перевізник (закінчення блоку)"
 **StorageLogisticsLocation**,M,,"Місцезнаходження складу (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код складу тимчасового зберігання (початок блоку)"
