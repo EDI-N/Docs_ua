@@ -49,6 +49,12 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Вантажоодержувача (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Вантажоодержувача"
 ram:RoleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,GLN Вантажоодержувача (початок блоку)
+ram:ID,M,string,"GLN компанії-учасника"
+ram:TypeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,GLN Вантажоодержувача (закінчення блоку)
 **ConsigneeTradeParty**,,,"Вантажоодержувач (закінчення блоку)"
 **CarrierTradeParty**,M,,"Перевізник (початок блоку)"
 **ram:ID**,M,,"Ідентифікаційний код Перевізника (початок блоку)"
@@ -57,6 +63,15 @@ value,M,decimal,Значення
 **ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
 ram:Name,M,string,"Повне найменування Перевізника"
 ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
 **CarrierTradeParty**,,,"Перевізник (закінчення блоку)"
 **DisagreementSubjectSupplyChainConsignmentItem**,M,,"Розбіжності щодо кількісних характеристик вантажу (початок блоку)"
 SequenceNumeric,M,int,Порядковий номер рядка в таблиці

@@ -1,0 +1,189 @@
+<UAECMR_ACT xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
+    <ACT>
+        <ExchangedDocumentContext>
+            <ram:SpecifiedTransactionID>0</ram:SpecifiedTransactionID>
+            <ram:BusinessProcessSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01</ram:ID>
+            </ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:GuidelineSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01:disagreement:001</ram:ID>
+            </ram:GuidelineSpecifiedDocumentContextParameter>
+        </ExchangedDocumentContext>
+        <ExchangedDocument>
+            <ram:ID>3739 всі різні</ram:ID>
+            <ram:IssueDateTime>
+                <udt:DateTime>2023-06-29T08:01:00.000Z</udt:DateTime>
+            </ram:IssueDateTime>
+            <ram:IssueLogisticsLocation>
+                <ram:Name>Місце складання документу</ram:Name>
+                <ram:Description>ккк</ram:Description>
+            </ram:IssueLogisticsLocation>
+        </ExchangedDocument>
+        <DisagreementActPayload>
+            <PreviousAdministrativeReferencedDocument>
+                <ram:TypeCode>730</ram:TypeCode>
+                <ram:ID>1b9b021e-c3fd-4b89-a858-af25d67db3ab</ram:ID>
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString>2023-06-29T07:58:00.000Z</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+            </PreviousAdministrativeReferencedDocument>
+            <ConsigneeTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010140</ram:ID>
+                <ram:Name>МСК ВантОдержувач</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>24452</ram:PostcodeCode>
+                    <ram:StreetName>вул. Івана Франка, 20, офіс 101 а</ram:StreetName>
+                    <ram:CityName>м. Хуст</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Закарпатська обл,  Хустський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737957</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ConsigneeTradeParty>
+            <CarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>МСК Перевізник</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Перший Водій Батькович</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380544472828</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:CompleteNumber>vod01@test.tst</ram:CompleteNumber>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>74589</ram:PostcodeCode>
+                    <ram:StreetName>пл. Тараса Чмута, буд. 1, офіс 1</ram:StreetName>
+                    <ram:CityName>м. Буськ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Львівська обл,  Золочівський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>1111111101</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>VOD010101</ram:ID>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745952</ram:ID>
+                    <ram:TypeCode>DRIVER_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745709</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </CarrierTradeParty>
+            <ConsignorTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010139</ram:ID>
+                <ram:Name>МСК ВантВідправник</ram:Name>
+                <ram:RoleCode>CZ</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>19114</ram:PostcodeCode>
+                    <ram:StreetName>вул. Миру, буд. 15, офіс 22</ram:StreetName>
+                    <ram:CityName>c. Оржів</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Житомирська обл,  Коростенський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065741329</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ConsignorTradeParty>
+            <DisagreementSubjectSupplyChainConsignmentItem>
+                <SequenceNumeric>1</SequenceNumeric>
+                <NatureIdentificationTransportCargo>
+                    <ram:Identification>товар №1</ram:Identification>
+                </NatureIdentificationTransportCargo>
+                <TransportLogisticsPackageType>штука</TransportLogisticsPackageType>
+                <DisagreementItemQuantity>
+                    <OriginalItemQuantity>111</OriginalItemQuantity>
+                    <ActualItemQuantity>111</ActualItemQuantity>
+                    <DeltaItemQuantity>
+                        <Quantity>0</Quantity>
+                    </DeltaItemQuantity>
+                </DisagreementItemQuantity>
+                <DisagreementGrossWeightMeasure>
+                    <OriginalGrossWeightMeasure unitCode="KGM">111</OriginalGrossWeightMeasure>
+                    <ActualGrossWeightMeasure unitCode="KGM">111</ActualGrossWeightMeasure>
+                    <DeltaGrossWeightMeasure>
+                        <Measure unitCode="KGM">0</Measure>
+                    </DeltaGrossWeightMeasure>
+                </DisagreementGrossWeightMeasure>
+                <DisagreementInvoiceAmount>
+                    <OriginalInvoiceAmount currencyID="UAH">111</OriginalInvoiceAmount>
+                    <ActualInvoiceAmount currencyID="UAH">111</ActualInvoiceAmount>
+                    <DeltaInvoiceAmount>
+                        <Amount currencyID="UAH">0</Amount>
+                    </DeltaInvoiceAmount>
+                </DisagreementInvoiceAmount>
+            </DisagreementSubjectSupplyChainConsignmentItem>
+            <DisagreementSubjectSupplyChainConsignmentItem>
+                <SequenceNumeric>2</SequenceNumeric>
+                <NatureIdentificationTransportCargo>
+                    <ram:Identification>товар №2</ram:Identification>
+                </NatureIdentificationTransportCargo>
+                <TransportLogisticsPackageType>штука</TransportLogisticsPackageType>
+                <DisagreementItemQuantity>
+                    <OriginalItemQuantity>222</OriginalItemQuantity>
+                    <ActualItemQuantity>222</ActualItemQuantity>
+                    <DeltaItemQuantity>
+                        <Quantity>0</Quantity>
+                    </DeltaItemQuantity>
+                </DisagreementItemQuantity>
+                <DisagreementGrossWeightMeasure>
+                    <OriginalGrossWeightMeasure unitCode="KGM">222</OriginalGrossWeightMeasure>
+                    <ActualGrossWeightMeasure unitCode="KGM">222</ActualGrossWeightMeasure>
+                    <DeltaGrossWeightMeasure>
+                        <Measure unitCode="KGM">0</Measure>
+                    </DeltaGrossWeightMeasure>
+                </DisagreementGrossWeightMeasure>
+                <DisagreementInvoiceAmount>
+                    <OriginalInvoiceAmount currencyID="UAH">222</OriginalInvoiceAmount>
+                    <ActualInvoiceAmount currencyID="UAH">222</ActualInvoiceAmount>
+                    <DeltaInvoiceAmount>
+                        <Amount currencyID="UAH">0</Amount>
+                    </DeltaInvoiceAmount>
+                </DisagreementInvoiceAmount>
+            </DisagreementSubjectSupplyChainConsignmentItem>
+            <DisagreementSubjectSupplyChainConsignmentSummary>
+                <OriginalGrossWeightMeasure unitCode="KGM">333.00</OriginalGrossWeightMeasure>
+                <DeltaGrossWeightMeasure unitCode="KGM">0</DeltaGrossWeightMeasure>
+                <OriginalInvoiceAmount currencyID="UAH">333.00</OriginalInvoiceAmount>
+                <DeltaInvoiceAmount currencyID="UAH">0</DeltaInvoiceAmount>
+            </DisagreementSubjectSupplyChainConsignmentSummary>
+            <QualityCharacteristicsDisagreement>
+                <AffixedLogisticsSeal>
+                    <ram:ID>пл-авто-ттн</ram:ID>
+                </AffixedLogisticsSeal>
+                <AffixedLogisticsSeal>
+                    <ram:ID>пл-нп-ттн</ram:ID>
+                </AffixedLogisticsSeal>
+                <ApplicableTransportSettingTemperature>
+                    <ram:MinimumValueMeasure unitCode="CEL">-22</ram:MinimumValueMeasure>
+                    <ram:MaximumValueMeasure unitCode="CEL">-15</ram:MaximumValueMeasure>
+                </ApplicableTransportSettingTemperature>
+                <OtherDisagreementNotes>щось мене не влаштовує</OtherDisagreementNotes>
+            </QualityCharacteristicsDisagreement>
+            <ConsigneeNotes>щось мене не влаштовує</ConsigneeNotes>
+            <ClaimNotes>щось мене не влаштовує</ClaimNotes>
+        </DisagreementActPayload>
+        <CertifyingPartyPayload>
+            <CertifyingTradeParty>
+                <ram:ID schemeAgencyID="РНОКПП">333333333333</ram:ID>
+                <ram:Name>в.о. Вантажоодержувача</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>котик Васька</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380333333333</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+            </CertifyingTradeParty>
+        </CertifyingPartyPayload>
+    </ACT>
+</UAECMR_ACT>
