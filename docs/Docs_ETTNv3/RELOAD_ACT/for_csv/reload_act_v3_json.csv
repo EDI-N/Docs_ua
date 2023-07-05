@@ -6,7 +6,7 @@ I,**act**,M,,(початок змісту документа)
 1.3.1,**documentSubCode**.id,M,string,підтип документа
 2,**exchangedDocument**,M,,Реквізити Акта
 2.1,id,M,string,номер документа
-2.2.1,**issueDateTime**.dateTime,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання Акта
+2.2.1,**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання Акта
 2.3,remarks,O,string,Інші примітки
 2.4.1,**issueLogisticsLocation**.name,M,string,Найменування місця складання Акта
 2.4.2,**issueLogisticsLocation**.description,M,string,Опис (адреса) місця складання Акта
