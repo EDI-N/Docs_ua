@@ -1,13 +1,16 @@
 № з/п,Параметр,Тип [1]_,Формат,Опис
 ,**UAECMR**,M, ,Початок документа
 I,**ecmr**,M, ,Початок змісту документа
-1.1,**documentContext**.transactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
-1.2.1,**documentContext**.**documentCode**.id,M,string,код типу документа
-1.3.1,**documentContext**.**documentSubCode**.id,M,string,код підтипу документа
-2.1,**exchangedDocument**.id,M,string,порядковий номер (серія) документа
-2.2.1,**exchangedDocument**.**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа
-2.3,**exchangedDocument**.remarks,O,string,Ремарки
-2.4.1.1,**exchangedDocument**.**includedNote**.**contentCode**.listAgencyID,"O",String,"Ідентифікатор:
+1,**documentContext**,M, ,Технічні дані
+1.1,transactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
+1.2.1,**documentCode**.id,M,string,код типу документа
+1.3.1,**documentSubCode**.id,M,string,код підтипу документа
+2,**exchangedDocument**,M, ,Реквізити ТТН
+2.1,id,M,string,порядковий номер (серія) документа
+2.2.1,**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа
+2.3,remarks,O,string,Ремарки
+2.4,**includedNote**,M, ,Додані записи
+2.4.1.1,**contentCode**.listAgencyID,"O",String,"Ідентифікатор:
 
 * transportation_max_temperature (Максимальна температура під час перевезення)
 * logger_return (Повернення логера)
@@ -16,19 +19,19 @@ I,**ecmr**,M, ,Початок змісту документа
 * logger_number (Номер термологера).
 
 Ідентифікатори logistic_unit_number_with_logger / gps_number / logger_number вказуються контрагентом з роллю «Вантажовідправник». Ідентифікатори transportation_max_temperature та logger_return вказуються контрагентом з роллю «Вантажоодержувач»"
-2.4.1.2,**exchangedDocument**.**includedNote**.**contentCode**.value,M,"* для transportation_max_temperature = Число (3)
+2.4.1.2,**contentCode**.value,M,"* для transportation_max_temperature = Число (3)
 * для logger_return = «Так» / «Ні»
 * для logistic_unit_number_with_logger = Рядок
 * для gps_number = Рядок
 * для logger_number = Рядок",значення ідентифікатора
-2.4.2,**exchangedDocument**.**includedNote**.content,M,string,"Код ролі учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+2.4.2,content,M,string,"Код ролі учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 
 * перевізник - CA
 * новий перевізник - CH
 * водій - DR
 * новий водій - DRS"
-2.5.1,**exchangedDocument**.**issueLogisticsLocation**.name,M,string,Найменування місця складання ТТН
-2.5.2,**exchangedDocument**.**issueLogisticsLocation**.description,M,string,Опис (адреса) місця складання ТТН
+2.5.1,**issueLogisticsLocation**.name,M,string,Найменування місця складання ТТН
+2.5.2,**issueLogisticsLocation**.description,M,string,Опис (адреса) місця складання ТТН
 3,**specifiedSupplyChainConsignment**,M, ,Інформація про перевезення
 3.1.1,**grossWeightMeasure**.unitCode,M,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 3.1.2,**grossWeightMeasure**.value,M,decimal,Значення
