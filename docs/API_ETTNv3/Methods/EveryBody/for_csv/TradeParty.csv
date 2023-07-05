@@ -21,4 +21,4 @@ roleCode,M,string,Роль учасника. `Довідник ролей <https
 **tradeContact**,O,TradeContact_,об'єкт; Контакти відповідального представника
 **postalTradeAddress**,O/M,PostalTradeAddress_,"об'єкт; Юридична адреса для юр.особи, або місце реєстрації для фіз.особи"
 **taxRegistration**,O,SimpleIdentity_,об'єкт; Ідентифікаційний код відповідальної особи
-**specifiedGovernmentRegistration**,O/M,SimpleIdentity_,об'єкт; Посвідчення Водія
+**specifiedGovernmentRegistrations**,O/M,SimpleIdentity_,об'єкт; Посвідчення Водія

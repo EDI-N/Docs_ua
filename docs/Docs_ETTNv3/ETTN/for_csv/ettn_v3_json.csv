@@ -1,5 +1,4 @@
 № з/п,Параметр,Тип [1]_,Формат,Опис
-,**UAECMR**,M, ,Початок документа
 I,**ecmr**,M, ,Початок змісту документа
 1,**documentContext**,M, ,Технічні дані
 1.1,transactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
@@ -103,8 +102,8 @@ I,**ecmr**,M, ,Початок змісту документа
 3.6.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.6.6.1,**taxRegistration**.id,M,string,РНОКПП відповідальної особи (водія)
 3.6.7.1,**specifiedGovernmentRegistrations**.id,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
-* для ram:TypeCode=DRIVER_GLN - GLN Водія
-* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+* для typeCode=DRIVER_GLN - GLN Водія
+* для typeCode=TRADEPARTY_GLN - GLN компанії-учасника"
 3.6.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * DRIVER_GLN
@@ -301,7 +300,7 @@ I,**ecmr**,M, ,Початок змісту документа
 3.19.3.2,**grossWeightMeasure**.value,M,decimal,Маса брутто вантажу по кожному рядку в кг. Значення
 3.19.4.1,**tariffQuantity**.unitCode,O,string,Ціна без ПДВ за одиницю в грн. Це можуть бути як гривні на кілограм (грн./кг) так і гривні на ящик (грн./ящик) - залежить від зазначеної одиниці виміру. Код одиниці виміру («UAH»)
 3.19.4.2,**tariffQuantity**.value,O,decimal,Значення
-3.19.5.1,**globalID**.schemeAgencyID,O,string(min 4 - max 10),УКТЗЕД (код продукції)
+3.19.5.1,**globalID**.schemeAgencyID,O,string (min 4 - max 10),УКТЗЕД (код продукції)
 3.19.5.2,**globalID**.value,O,string,Значення
 3.19.6.1,**natureIdentificationTransportCargo**.identification,M,string,Найменування вантажу
 3.19.7.1,**applicableTransportDangerousGoods**.UNDGIdentificationCode,O,decimal,"Клас небезпечних речовин, до якого віднесено вантаж (у разі перевезення небезпечних вантажів). Код UNDG, 0 - якщо не використовується"
