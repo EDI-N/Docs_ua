@@ -76,7 +76,7 @@
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.countryID,M,string,Країна (UA)
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**taxRegistration**.id,M,string,РНОКПП відповідальної особи (водія)
-**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**specifiedGovernmentRegistration**.id,M,string,"Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**specifiedGovernmentRegistrations**.id,M,string,"Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``"
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Експедитора
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**id**.value,M,decimal,Значення
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).name,M,string,"Повне найменування Експедитора (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування"

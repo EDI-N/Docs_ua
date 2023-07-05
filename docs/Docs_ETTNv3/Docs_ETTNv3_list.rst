@@ -2,6 +2,7 @@
 #################################
 
 .. toctree::
+   :caption: XML:
    :maxdepth: 1
    
    ETTN/ETTNpage_v3
@@ -15,3 +16,10 @@
    STORAGE_DELIVERY_ACT/STORAGE_DELIVERY_ACTpage_v3
    STORAGE_PICKUP_ACT/STORAGE_PICKUP_ACTpage_v3
    TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3
+
+.. toctree::
+   :caption: JSON:
+   :maxdepth: 1
+   
+   ETTN/ETTNpage_v3_json
+   RELOAD_ACT/RELOAD_ACTpage_v3_json
