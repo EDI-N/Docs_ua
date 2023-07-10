@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    , **/api/oas/v2/employee/join/company?company_uuid={{company_uuid}}&employee_uuid={{employee_uuid}}&type=link|unlink**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії;
+
+**employee_uuid** (обов'язково) UUID - ідентифікатор співробітника;
+
+**type** (обов'язково) String - тип дії:
+
+* link - приєднати співробітника до компанії;
+* unlink - від'єднати співробітника від компанії"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__"
+Content-Type  , application/json
