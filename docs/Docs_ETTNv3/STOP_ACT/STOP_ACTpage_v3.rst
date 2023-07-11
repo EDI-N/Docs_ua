@@ -5,7 +5,7 @@
 .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=804820694
 
 .. important::
-   Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/UAECMR_ACT.html>`__ відрізняються!
+   Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STOP_ACT/STOP_ACTpage_v3_json.html>`__ відрізняються!
 
 Таблиця 1 - Специфікація "Акта примусового завершення е-ТТН" (XML)
 

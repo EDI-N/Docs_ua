@@ -5,7 +5,7 @@
 .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1897571119
 
 .. important::
-   Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/UAECMR_ACT.html>`__ відрізняються!
+   Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/LOAD_REJECT_ACT/LOAD_REJECT_ACTpage_v3_json.html>`__ відрізняються!
 
 Таблиця 1 - Специфікація "Акт про відмову вантажити" (XML)
 
