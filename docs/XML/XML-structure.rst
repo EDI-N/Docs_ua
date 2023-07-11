@@ -171,6 +171,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад COMDOC_009<examples/comdoc_009_example.xml>`
+
 ---------
 
 Повідомлення про повернення (COMDOC_011)
