@@ -1,11 +1,9 @@
 ##########################################################################################################################
-**"Акт розвантаження на проміжному складі"**
+**"Заявка на транспортування" / "Підтвердження заявки на транспортування"**
 ##########################################################################################################################
 
-.. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1765110305
-
 .. important::
-   Зверніть увагу, що поля в json та `в xml форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STORAGE_DELIVERY_ACT/STORAGE_DELIVERY_ACTpage_v3.html>`__ відрізняються! 
+   Зверніть увагу, що поля в json та `в xml форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__ відрізняються! 
 
 **JSON:**
 
@@ -13,10 +11,10 @@
 
    Приклад тимчасово відсутній
 
-Таблиця 1 - Специфікація "Акта розвантаження на проміжному складі" (JSON)
+Таблиця 1 - Специфікація "Заявки на транспортування" / "Підтвердження заявки на транспортування" (JSON)
 
 .. csv-table:: 
-  :file: for_csv/storagedelivery_act_v3_json.csv
+  :file: for_csv/transportationorder_v3_json.csv
   :widths:  1, 1, 5, 12, 41
   :header-rows: 1
   :stub-columns: 0
