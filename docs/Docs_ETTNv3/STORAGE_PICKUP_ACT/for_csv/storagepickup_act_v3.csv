@@ -159,7 +159,7 @@ ram:Content,O,string,Колір причіпа/напівпричіпа згід
 **ram:ApplicableNote** (з кодом COLOR),,,Колір причіпа/напівпричіпа (закінчення блоку)
 ram:ID,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
 **UtilizedLogisticsTransportEquipment** (CategoryCode=TE),,,"Причіп/напівпричіп, що завантажується (закінчення блоку)"
-**PickupTransportEvent**,O,,Розвантажувальні роботи (початок блоку)
+**PickupTransportEvent**,O,,Навантажувальні роботи (початок блоку)
 ram:ID,O,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
 ram:TypeCode,O,string,"Тип операції (розвантаження=5, завантаження=10)"
 ram:Description,O,string,Опис
@@ -210,7 +210,7 @@ ram:Content,O,decimal,"Маса брутто отриманого вантажу
 ram:ContentCode,O,string,Код DOWNTIME
 ram:Content,O,unsignedByte,Час (години) простою під розвантаженням
 **ram:ApplicableNote** (з кодом DOWNTIME),,,Час простою (закінчення блоку)
-**PickupTransportEvent**,,,Розвантажувальні роботи (закінчення блоку)
+**PickupTransportEvent**,,,Навантажувальні роботи (закінчення блоку)
 StorageNotes,M,string,Короткий або повний опис причин складання акта (Проміжний склад)
 CarrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
 **StoragePickupActPayload**,,,Інформація про Акт (закінчення блоку)
