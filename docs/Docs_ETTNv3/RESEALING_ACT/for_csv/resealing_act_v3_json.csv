@@ -54,10 +54,17 @@ I,**act**,M,,(початок змісту документа)
 * укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
 * єврономери: без валідації"
 3.5.2.1,**affixedLogisticsSeals**.id,M,string,"Номер пломби, якою проводилося пломбування автомобіля"
-3.5.3.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
-3.5.3.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
-3.5.4.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
-3.5.4.2,**applicableNotes** (з кодом MODEL).content,M,string,Модель автомобіля згідно з техпаспортом
+3.5.3,**settingTransportSettingTemperature**,O, ,Інструкції з експлуатації
+3.5.3.1,**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.5.3.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.5.3.1.2,value,O,decimal,"Значення"
+3.5.3.2,**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.5.3.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.5.3.2.2,value,O,decimal,"Значення"
+3.5.4.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
+3.5.4.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
+3.5.5.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
+3.5.5.2,**applicableNotes** (з кодом MODEL).content,M,string,Модель автомобіля згідно з техпаспортом
 3.6,**originalUtilizedLogisticsTransportEquipment** (CategoryCode=TE),O, ,"Причіп/напівпричіп, що розвантажується"
 3.6.1,id,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
 3.6.2,categoryCode,O,string,Тип TE - Причіп/напівпричіп
@@ -66,20 +73,34 @@ I,**act**,M,,(початок змісту документа)
 * 14 - Причіп
 * 17 - Напівпричіп"
 3.6.4.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування причіпа/напівпричіпа"
-3.6.5.1,**applicableNotes** (з кодом BRAND).contentCode,O,string,Код BRAND
-3.6.5.2,**applicableNotes** (з кодом BRAND).content,O,string,Марка причіпа/напівпричіпа згідно з техпаспортом
-3.6.6.1,**applicableNotes** (з кодом MODEL).contentCode,O,string,Код MODEL
-3.6.6.2,**applicableNotes** (з кодом MODEL).content,O,string,Модель причіпа/напівпричіпа згідно з техпаспортом
+3.6.5,**settingTransportSettingTemperature**,O, ,Інструкції з експлуатації
+3.6.5.1,**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.6.5.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.6.5.1.2,value,O,decimal,"Значення"
+3.6.5.2,**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.6.5.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.6.5.2.2,value,O,decimal,"Значення"
+3.6.6.1,**applicableNotes** (з кодом BRAND).contentCode,O,string,Код BRAND
+3.6.6.2,**applicableNotes** (з кодом BRAND).content,O,string,Марка причіпа/напівпричіпа згідно з техпаспортом
+3.6.7.1,**applicableNotes** (з кодом MODEL).contentCode,O,string,Код MODEL
+3.6.7.2,**applicableNotes** (з кодом MODEL).content,O,string,Модель причіпа/напівпричіпа згідно з техпаспортом
 3.7,**resealedUtilizedLogisticsTransportEquipment**,M,,"Автомобіль, що завантажується"
 3.7.1,id,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
 
 * укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
 * єврономери: без валідації"
 3.7.2.1,**affixedLogisticsSeals**.id,M,string,"Номер пломби, якою проводилося пломбування автомобіля"
-3.7.3.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
-3.7.3.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
-3.7.4.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
-3.7.4.2,**applicableNotes** (з кодом MODEL).content,M,string,Модель автомобіля згідно з техпаспортом
+3.7.3,**settingTransportSettingTemperature**,O, ,Інструкції з експлуатації
+3.7.3.1,**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.7.3.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.7.3.1.2,value,O,decimal,"Значення"
+3.7.3.2,**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.7.3.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.7.3.2.2,value,O,decimal,"Значення"
+3.7.4.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
+3.7.4.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
+3.7.5.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
+3.7.5.2,**applicableNotes** (з кодом MODEL).content,M,string,Модель автомобіля згідно з техпаспортом
 3.8,**resealedUtilizedLogisticsTransportEquipment** (CategoryCode=TE),O, ,"Причіп/напівпричіп, що завантажується"
 3.8.1,id,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
 3.8.2,categoryCode,O,string,Тип TE - Причіп/напівпричіп
@@ -88,10 +109,17 @@ I,**act**,M,,(початок змісту документа)
 * 14 - Причіп
 * 17 - Напівпричіп"
 3.8.4.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування причіпа/напівпричіпа"
-3.8.5.1,**applicableNotes** (з кодом BRAND).contentCode,O,string,Код BRAND
-3.8.5.2,**applicableNotes** (з кодом BRAND).content,O,string,Марка причіпа/напівпричіпа згідно з техпаспортом
-3.8.6.1,**applicableNotes** (з кодом MODEL).contentCode,O,string,Код MODEL
-3.8.6.2,**applicableNotes** (з кодом MODEL).content,O,string,Модель причіпа/напівпричіпа згідно з техпаспортом
+3.8.5,**settingTransportSettingTemperature**,O, ,Інструкції з експлуатації
+3.8.5.1,**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.8.5.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.8.5.1.2,value,O,decimal,"Значення"
+3.8.5.2,**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.8.5.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.8.5.2.2,value,O,decimal,"Значення"
+3.8.6.1,**applicableNotes** (з кодом BRAND).contentCode,O,string,Код BRAND
+3.8.6.2,**applicableNotes** (з кодом BRAND).content,O,string,Марка причіпа/напівпричіпа згідно з техпаспортом
+3.8.7.1,**applicableNotes** (з кодом MODEL).contentCode,O,string,Код MODEL
+3.8.7.2,**applicableNotes** (з кодом MODEL).content,O,string,Модель причіпа/напівпричіпа згідно з техпаспортом
 3.9,customerNotes,M,string,"Короткий або повний опис причин складання Акта (Замовник)"
 3.10,carrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
 4,**certifyingPartyPayload**,M, ,Інформація про відповідальних осіб

@@ -12,7 +12,7 @@
 
 Після успішної `авторизації <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__ перейти до товарного довідника можливо через основне меню, де у вкладці **"Особистий кабінет"** EDIN потрібно обрати **"Довідники"**:
 
-.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_23.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_001.png
    :align: center
 
 або в два кліки з іконки користувача:
@@ -47,7 +47,7 @@
 
 Для того щоб додати товарної позиції, натисніть на кнопку **«+Додати товар»**. Після чого у Вас відкриється форма додавання товарної позиції:
 
-.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_12.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_002.png
    :align: center
 
 Всі обов'язкові до заповнення поля (позначені червоною зірочкою :red:`*`):
@@ -63,22 +63,22 @@
 
 Для Алкогольної продукції є можливість вказати додаткові дані:
 
-.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_14.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_003.png
    :align: center
 
 Після заповнення обов'язкових полів натисніть на кнопку **«Додати товар в довідник»**:
 
-.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_13.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_004.png
    :align: center
 
 Позиція буде збережена і буде відображатись, як "Загальний товар". Після збереження можливо переглянути товар, натиснувши на штрихкод та у формі перегляду **Внести зміни** (редагувати інформацію) або **"Видалити товар"**:
 
-.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_15.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_005.png
    :align: center
 
 Також можливо масово відмітити та **"Видалити"** обрані позиції з журналу товарів:
 
-.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_16.png
+.. image:: /retail_2.0/pics_formirovanie_Tovarnogo_dovidnyka/formirovanie_Tovarnogo_dovidnyka_006.png
    :align: center
 
 .. _xls-filling:
