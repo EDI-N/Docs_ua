@@ -344,13 +344,13 @@ I,**ecmr**,M, ,Початок змісту документа
 * укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
 * єврономери: без валідації"
 3.20.2.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування автомобіля"
-3.20.3,**handlingInstructions**,O, ,Інструкції з експлуатації
-3.20.3.1.1,**applicableTransportSettingTemperature**.**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
-3.20.3.1.1.1,unitCode,O,string,код одиниці виміру (CEL)
-3.20.3.1.1.2,value,O,decimal,"Значення"
-3.20.3.1.2,**applicableTransportSettingTemperature**.**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
-3.20.3.1.2.1,unitCode,O,string,код одиниці виміру (CEL)
-3.20.3.1.2.2,value,O,decimal,"Значення"
+3.20.3,**settingTransportSettingTemperature**,O, ,Інструкції з експлуатації
+3.20.3.1,**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.20.3.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.20.3.1.2,value,O,decimal,"Значення"
+3.20.3.2,**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.20.3.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.20.3.2.2,value,O,decimal,"Значення"
 3.20.4.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
 3.20.4.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
 3.20.5.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
@@ -367,13 +367,13 @@ I,**ecmr**,M, ,Початок змісту документа
 * 14 - Причіп
 * 17 - Напівпричіп"
 3.21.4.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування причіпа/напівпричіпа"
-3.21.5,**handlingInstructions**,O, ,Інструкції з експлуатації
-3.21.5.1.1,**applicableTransportSettingTemperature**.**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
-3.21.5.1.1.1,unitCode,O,string,код одиниці виміру (CEL)
-3.21.5.1.1.2,value,O,decimal,"Значення"
-3.21.5.1.2,**applicableTransportSettingTemperature**.**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
-3.21.5.1.2.1,unitCode,O,string,код одиниці виміру (CEL)
-3.21.5.1.2.2,value,O,decimal,"Значення"
+3.21.5,**settingTransportSettingTemperature**,O, ,Інструкції з експлуатації
+3.21.5.1,**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.21.5.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.21.5.1.2,value,O,decimal,"Значення"
+3.21.5.2,**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.21.5.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.21.5.2.2,value,O,decimal,"Значення"
 3.21.6.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
 3.21.6.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка причіпа/напівпричіпа згідно з техпаспортом
 3.21.7.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
