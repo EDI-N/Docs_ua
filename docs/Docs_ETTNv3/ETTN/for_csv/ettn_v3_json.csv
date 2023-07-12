@@ -8,8 +8,8 @@ I,**ecmr**,M, ,Початок змісту документа
 2.1,id,M,string,порядковий номер (серія) документа
 2.2.1,**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа
 2.3,remarks,O,string,Ремарки
-2.4,**includedNote**,M, ,Додані записи
-2.4.1.1,**contentCode**.listAgencyID,"O",String,"Ідентифікатор:
+2.4,**includedNote**,O, ,Додані записи
+2.4.1.1,**contentCode**.listAgencyID,M,String,"Ідентифікатор:
 
 * transportation_max_temperature (Максимальна температура під час перевезення)
 * logger_return (Повернення логера)
