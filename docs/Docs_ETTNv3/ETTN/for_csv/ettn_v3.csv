@@ -18,7 +18,7 @@ ram:ID,M,string,порядковий номер (серія) документа 
 ram:Remarks,O,string,Ремарки
 **ram:IncludedNote**,O,,Додані записи (початок блоку)
 **ram:ContentCode**,M,,Контент запису (початок блоку)
-listAgencyID,"O",String,"Ідентифікатор:
+listAgencyID,M,String,"Ідентифікатор:
 
 * transportation_max_temperature (Максимальна температура під час перевезення)
 * logger_return (Повернення логера)
