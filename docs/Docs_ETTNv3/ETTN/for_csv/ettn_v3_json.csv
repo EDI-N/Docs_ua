@@ -345,8 +345,12 @@ I,**ecmr**,M, ,Початок змісту документа
 * єврономери: без валідації"
 3.20.2.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування автомобіля"
 3.20.3,**handlingInstructions**,O, ,Інструкції з експлуатації
-3.20.3.1.1,**applicableTransportSettingTemperature**.minimum,O,string,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
-3.20.3.1.2,**applicableTransportSettingTemperature**.maximum,O,string,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.20.3.1.1,**applicableTransportSettingTemperature**.**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.20.3.1.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.20.3.1.1.2,value,O,decimal,"Значення"
+3.20.3.1.2,**applicableTransportSettingTemperature**.**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.20.3.1.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.20.3.1.2.2,value,O,decimal,"Значення"
 3.20.4.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
 3.20.4.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
 3.20.5.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
@@ -364,8 +368,12 @@ I,**ecmr**,M, ,Початок змісту документа
 * 17 - Напівпричіп"
 3.21.4.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування причіпа/напівпричіпа"
 3.21.5,**handlingInstructions**,O, ,Інструкції з експлуатації
-3.21.5.1.1,**applicableTransportSettingTemperature**.minimum,O,string,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
-3.21.5.1.2,**applicableTransportSettingTemperature**.maximum,O,string,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.21.5.1.1,**applicableTransportSettingTemperature**.**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.21.5.1.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.21.5.1.1.2,value,O,decimal,"Значення"
+3.21.5.1.2,**applicableTransportSettingTemperature**.**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.21.5.1.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.21.5.1.2.2,value,O,decimal,"Значення"
 3.21.6.1,**applicableNotes** (з кодом BRAND).contentCode,M,string,Код BRAND
 3.21.6.2,**applicableNotes** (з кодом BRAND).content,M,string,Марка причіпа/напівпричіпа згідно з техпаспортом
 3.21.7.1,**applicableNotes** (з кодом MODEL).contentCode,M,string,Код MODEL
@@ -383,8 +391,12 @@ I,**ecmr**,M, ,Початок змісту документа
 3.22.3,id,M,string,Ідентифікаційний номер контейнера
 3.22.4.1,**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування контейнера"
 3.22.5,**handlingInstructions**,O, ,Інструкції з експлуатації
-3.22.5.1.1,**applicableTransportSettingTemperature**.minimum,O,string,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
-3.22.5.1.2,**applicableTransportSettingTemperature**.maximum,O,string,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.22.5.1.1,**applicableTransportSettingTemperature**.**minimum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+3.22.5.1.1.1,unitCode,O,string,код одиниці виміру (CEL)
+3.22.5.1.1.2,value,O,decimal,"Значення"
+3.22.5.1.2,**applicableTransportSettingTemperature**.**maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+3.22.5.1.2.1,unitCode,O,string,код одиниці виміру (CEL)
+3.22.5.1.2.2,value,O,decimal,"Значення"
 3.23,**mainCarriageLogisticsTransportMovement**,O, ,Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником
 3.23.1,**specifiedTransportEvents**,M, ,Проміжне розвантаження
 3.23.1.1,id,M,string,Порядковий номер проміжного розвантаження події (події завжди нумеруються в порядку поступового зростання за принципом N+1)

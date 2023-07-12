@@ -16,7 +16,7 @@ ram:ID,M,string,порядковий номер (серія) документа 
 **udt:DateTime**,,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа (виписування ТТН)
 **ram:IssueDateTime**,,,Дата і час складання документа (виписування ТТН) (закінчення блоку)
 ram:Remarks,O,string,Ремарки
-**ram:IncludedNote**,M,,Додані записи (початок блоку)
+**ram:IncludedNote**,O,,Додані записи (початок блоку)
 **ram:ContentCode**,M,,Контент запису (початок блоку)
 listAgencyID,"O",String,"Ідентифікатор:
 
@@ -577,8 +577,14 @@ ram:ID,O,string,"Відбиток пломби, якою проводилося 
 **ram:AffixedLogisticsSeal**,,,Номер пломби (автомобіль) (закінчення блоку)
 **ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
 **ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
-ram:MinimumValueMeasure,O,string,Мінімальне значення температури
-ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:MinimumValueMeasure**,O,,"Температурний режим від (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MinimumValueMeasure**,,,"Температурний режим від (закінчення блоку)"
+**ram:MaximumValueMeasure**,O,,"Температурний режим до (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MaximumValueMeasure**,,,"Температурний режим до (закінчення блоку)"
 **ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
 **ram:HandlingInstructions**,O,,Інструкції з експлуатації (закінчення блоку)
 **ram:ApplicableNote** (з кодом BRAND),M,,Марка автомобіля (початок блоку)
@@ -609,8 +615,14 @@ ram:ID,O,string,"Відбиток пломби, якою проводилося 
 **ram:AffixedLogisticsSeal**,,,Номер пломби (причіп/напівпричіп) (закінчення блоку)
 **ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
 **ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
-ram:MinimumValueMeasure,O,string,Мінімальне значення температури
-ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:MinimumValueMeasure**,O,,"Температурний режим від (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MinimumValueMeasure**,,,"Температурний режим від (закінчення блоку)"
+**ram:MaximumValueMeasure**,O,,"Температурний режим до (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MaximumValueMeasure**,,,"Температурний режим до (закінчення блоку)"
 **ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
 **ram:HandlingInstructions**,O,,Інструкції з експлуатації (закінчення блоку)
 **ram:ApplicableNote** (з кодом BRAND),M,,Марка причіпа/напівпричіпа (початок блоку)
@@ -643,8 +655,14 @@ ram:ID,O,string,"Відбиток пломби, якою проводилося 
 **ram:AffixedLogisticsSeal**,,,Номер пломби (контейнер) (закінчення блоку)
 **ram:HandlingInstructions**,O,,Інструкції з експлуатації (початок блоку)
 **ram:ApplicableTransportSettingTemperature**,O,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (початок блоку)"
-ram:MinimumValueMeasure,O,string,Мінімальне значення температури
-ram:MaximumValueMeasure,O,string,Максимальне значення температури
+**ram:MinimumValueMeasure**,O,,"Температурний режим від (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MinimumValueMeasure**,,,"Температурний режим від (закінчення блоку)"
+**ram:MaximumValueMeasure**,O,,"Температурний режим до (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MaximumValueMeasure**,,,"Температурний режим до (закінчення блоку)"
 **ram:ApplicableTransportSettingTemperature**,,,"Температурний режим, необхідний для перевезення вантажу. Зазначається діапазон температур (закінчення блоку)"
 **ram:HandlingInstructions**,O,,Інструкції з експлуатації (закінчення блоку)
 **ram:UtilizedLogisticsTransportEquipment** (CategoryCode=CN),,,Контейнер (закінчення блоку)
