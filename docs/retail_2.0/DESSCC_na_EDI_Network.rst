@@ -27,17 +27,17 @@
 
 Щоб сформувати "Повідомлення про відвантаження для розподільного центру" (DESSCC) на підставі "Інструкції з доставки" (INSDES) Вам потрібно в меню сервісу **"EDI+ЮЗД"** увійти в папку "Вхідні" і обрати "Інструкцію з доставки" (INSDES), за яким потрібно зробити повідомлення (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_001.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_014.png
    :align: center
    
 Потрібно відкрити вхідну "Інструкцію з доставки" (INSDES) лівою кнопкою миші та створити "Повідомлення про відвантаження для розподільного центру" (DESSCC) в блоці-підказці, натиснувши на його назву:
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_002.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_015.png
    :align: center
 
 У відкритій формі "Повідомлення про відвантаження для розподільного центру" (DESSCC) значна частина полів заповнюються автоматично з пов'язаної "Інструкції з доставки" (INSDES) (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_003.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_016.png
    :align: center
 
 Дані **Відправника** - це Ваші дані, що заповнюються автоматично і не підлягають редагуванню. Змінити дані **Одержувача** можливо за допомогою кнопки **"Пошук контрагента"** (|лупа|).
@@ -54,17 +54,17 @@
 
 В таблиці відображаються палети, що містять інформацію про точку доставки та товарні позиції цієї палети. Якщо комірки перенесених товарних позицій відображаються помаранчевим кольором, то дані про такі товарні позиції потрібно доповнити, натиснувши на штрихкод та **"Змінити"** (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_004.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_017.png
    :align: center
 
 Можливо **"+Додати палету"** - додається ще одна палета, в якій проставляється точка доставки, що була зазначена в документі-підставі:
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_005.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_018.png
    :align: center
 
 **Місце доставки палети** можливо змінити за допомогою кнопки **"Пошук контрагента"** (|лупа|), а товарні позиції можливо додати кнопкою **"+Додати позицію"**:  
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_006.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_019.png
    :align: center
 
 Для заповнення потрібно почати вводити назву / штрих-код товарної позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__ (товарні позиції потрібно спочатку додати в довідник):
@@ -79,17 +79,17 @@
 
 Вже додані товарні позиції можливо **Скопіювати на іншу палету**. Для цього потрібно обрати позиції (1), натиснути на кнопку **"Скопіювати на палету"** (2), обрати палету, на яку будуть скопійовані позиції (3) та **"Скопіювати"**:
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_009.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_020.png
    :align: center
 
 За потреби завжди можливо **"Видалити"**, обравши будь-яку позицію в таблиці:
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_010.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_021.png
    :align: center
 
 Чи **"Видалити палету"**, в якій відображається кнопка:
 
-.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_011.png
+.. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_022.png
    :align: center
 
 Після внесення всіх даних потрібно **"Зберегти"** (1) документ, після чого його можливо **"Відправити"** (2):
