@@ -204,7 +204,7 @@
 
 В сервісі **"EDI+ЮЗД"** та в **"Особистому кабінеті" ("Документи АТС")** можливо налаштувати ланцюжок послідовного погодження вхідних документів (**сценарії**) перед підписанням. **"Погодження"** містить 3 підтеки, в яких документи згруповані по статусу:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_055.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_075.png
    :align: center
 
 * "Очікують погодження" - документи, які Вам потрібно погодити/відхилити (мають статус :red:`Очікує мого погодження`);
@@ -223,6 +223,9 @@
 * `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 * `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
 
+.. hint::
+   Налаштувати сценарії погодження та їх автоматичний запуск можливо в розділі **Особистий кабінет->Налаштування->GLN->Форма редагування GLN->** `Сценарії погодження <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#doc-approval-set>`__)
+
 Ви можете побудувати послідовний "сценарій погодження" між будь-якими користувачами компанії, в яких є доступ до документа на рівні GLN. Процес погодження запускає **Ініціатор погодження** (перший користувач в послідовності). Тобто схематично послідовність виглядає так: ``"Ініціатор погодження"->"Користувач 1"->"Користувач 2"->"Користувач N"``. Про всі етапи проходження погодження учасники будуть проінформовані, якщо в них налаштовані сповіщення на "Погодження документів" для EDI+ЮЗД сервісу (детальніше про `Керування сповіщеннями <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-notifications>`__).
 
 .. hint::
@@ -240,9 +243,9 @@
 .. important::
    Направити на погодження можливо документи, що не були підписані обома контрагентами та за якими не розпочаті процедури `Відкликання <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__ / `Анулювання <https://wiki.edin.ua/uk/latest/_constant/comdoc_repeal/comdoc_repeal.html>`__!
 
-Для запуску погодження **Ініціатору** потрібно перейти у вхідний документ (один з вище зазначеного переліку), натиснути **"Направити на погодження"**:
+Для запуску погодження **Ініціатору** потрібно перейти у вхідний документ (один з вище зазначеного переліку) та в блоці **Погодження документа** натиснути **"Направити на погодження"**:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_052.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_076.png
    :align: center
 
 і далі можливо:
@@ -252,12 +255,12 @@
 
 Для того, щоб **Запустити раніше створений сценарій** потрібно в модальному вікні обрати сценарій (Ви можете переглянути всі кроки обраного сценарію) та **"Запустити погодження"**:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_056.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_078.png
    :align: center
 
 Для того, щоб **Створити та одразу запустити створений сценарій погодження** потрібно в модальному вікні натиснути на **"Налаштувати новий сценарій"**:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_053.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_077.png
    :align: center
 
 Далі в модальному вікні налаштувань нового сценарію вказати його назву, обрати зі списку відповідальних за крок погодження користувачів (`Пов'язані користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-user>`__ з GLN), обрати роль (**Погодити** - проміжний крок погодження; **Підписати** - кінцевий крок погодження):
@@ -270,12 +273,12 @@
 
 Після запуску документа на погодження він відображається для ініціатора :underline:`в журналі теки "На погодженні"` в розділі **"Погодження"** зі статусом :orange:`На погодженні`:  
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_057.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_079.png
    :align: center
 
-В документі при цьому відображається блок **Протокол погодження**, в якому відображаються всі кроки, їх статуси, логіни користувачів, що беруть участь в погодженні:
+В документі при цьому в блоці **Погодження документа** можливо розгорнути **Протокол погодження**, де будуть відображатись всі кроки, їх статуси, логіни користувачів, що беруть участь в погодженні:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_043.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_085.png
    :align: center
 
 .. important::
@@ -287,14 +290,14 @@
 
 -----------------------------------------------
 
-За кожен наступний крок погодження відповідає прив'язаний до цього кроку сценарію користувач. Для цього користувача статус сценарію документа :red:`Очікує мого погодження`:
+За кожен наступний крок погодження відповідає прив'язаний до цього кроку сценарію користувач. Для перегляду всіх документів, що очікують саме Вашої дії (статус сценарію документа :red:`Очікує мого погодження`) перейдіть в підрозділ **"Очікують погодження"**:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_044.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_080.png
    :align: center
 
-Лише відповідальному учаснику погодження на формі перегляду документа відображаються кнопки прийняття рішення (**"Погодити"** та **"Відхилити"**):
+Лише відповідальному учаснику погодження на формі перегляду документа відображаються кнопки прийняття рішення (**"Погодити"** чи **"Відхилити"**):
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_045.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_081.png
    :align: center
 
 .. кінець блоку для Block_to_ATS_002
@@ -308,15 +311,15 @@
 
 Для погодження документа відповідальному учаснику (сценарій в статусі :red:`Очікує мого погодження`) потрібно перейти в документ та натиснути **"Погодити"**:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_046.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_082.png
    :align: center
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_047.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_084.png
    :align: center
 
 Після чого крок погодження змінює свій статус на :green:`Погоджено`:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_048.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_083.png
    :align: center
 
 Для учасника, що виконав свою роль в процесі погодження сценарій змінює свій статус на :orange:`На погодженні`.
@@ -335,7 +338,7 @@
 
 Для відхилення документа відповідальному учаснику (сценарій в статусі :red:`Очікує мого погодження`) потрібно перейти в документ та натиснути **"Відхилити"**:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_049.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_086.png
    :align: center
 
 Перед тим як **"Відхилити погодження"** потрібно вказати причину відхилення (текст):
@@ -345,7 +348,7 @@
 
 Після чого крок погодження змінює свій статус на :red:`Відхилено` та містить текст причини:
 
-.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_051.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_087.png
    :align: center
 
 Для учасника, що виконав свою роль в процесі погодження сценарій змінює свій статус на :orange:`На погодженні`.
