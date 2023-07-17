@@ -47,6 +47,14 @@
 
 .. |comment| image:: pics_Work_with_Tender/Work_with_Tender_139.png
 
+.. |waiting| image:: pics_Work_with_Tender/Work_with_Tender_144.png
+
+.. |approved+| image:: pics_Work_with_Tender/Work_with_Tender_145.png
+
+.. |rejected| image:: pics_Work_with_Tender/Work_with_Tender_146.png
+
+.. |approved| image:: pics_Work_with_Tender/Work_with_Tender_147.png
+
 .. contents:: Зміст:
    :depth: 6
 
@@ -60,7 +68,7 @@
 .. image:: pics_Work_with_Tender/Work_with_Tender_91.png
    :align: center
 
-.. image:: pics_Work_with_Tender/Work_with_Tender_74.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_072.png 
    :align: center
 
 Новим користувачам, що бажають працювати на платформі потрібно пройти "Реєстрацію" (детальніше в окремій `інструкції <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__).
@@ -683,6 +691,21 @@
 Після чого відкриється модальне вікно з Вашими контактними даними (їх можливо змінити) та полем для коментаря Організатору аукціону. Після того, як Ви подасте заявку на екрані з'явиться повідомлення про те, що Ваша заявка була успішно відправлена Організатору, а у вкладці **"Зявки на участь"** Ви можете переглянути дані своєї заявки:
 
 .. image:: pics_Work_with_Tender/Work_with_Tender_137.png
+   :align: center
+
+В розділі **"Мої тендери"** за усіма відправленими заявками відображається іконка-статус зі спливаючою підказкою:
+
+.. image:: pics_Work_with_Tender/Work_with_Tender_148.png
+   :align: center
+
+* |waiting| - заявка відправлена і очікує відповіді Організатора
+* |approved| - заявка прийнята Організатором
+* |approved+| - заявка прийнята Організатором (з коментарем)
+* |rejected| - заявка відхилена Організатором (містить коментар)
+
+Для ознайомлення з коментарем Організатора за заявкою потрібно натиснути мишкою на відповідну іконку:
+
+.. image:: pics_Work_with_Tender/Work_with_Tender_149.png
    :align: center
 
 У Організатора в тендері, на який була подана заявка у вкладці **"Заявки на участь"** відображається кількість запитів, що очікують відповіді:
