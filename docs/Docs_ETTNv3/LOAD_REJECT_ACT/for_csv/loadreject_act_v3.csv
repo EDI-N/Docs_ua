@@ -50,7 +50,7 @@ value,M,decimal,Значення
 ram:Name,M,string,"Повне найменування Вантажовідправника"
 ram:RoleCode,M,string,Роль учасника (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:SpecifiedGovernmentRegistration**,M,,GLN Вантажовідправника (початок блоку)
-ram:ID,M,string,"GLN компанії-учасника"
+ram:ID,M/O,string,"GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
 ram:TypeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
@@ -64,9 +64,9 @@ value,M,decimal,Значення
 ram:Name,M,string,"Повне найменування Перевізника"
 ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 **ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
-ram:ID,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
-* для ram:TypeCode=DRIVER_GLN - GLN Водія
-* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+ram:ID,M/O,string,"* Серія та номер водійського посвідчення Водія (поле обов'язкове до заповнення). Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія (поле опціональне до заповнення)
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника (поле опціональне до заповнення)"
 ram:TypeCode,O,string,"Код типу:
 
 * DRIVER_GLN
