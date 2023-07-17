@@ -31,7 +31,7 @@ I,**act**,M,,(початок змісту документа)
 3.3.2,name,M,string,"Повне найменування Замовника"
 3.3.3,roleCode,M,string,Роль учасника (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 3.3.4,**specifiedGovernmentRegistrations**,M,,GLN Замовника
-3.3.4.1,id,M,string,"GLN компанії-учасника"
+3.3.4.1,id,M/O,string,"GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
 3.3.4.2,typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
@@ -41,9 +41,9 @@ I,**act**,M,,(початок змісту документа)
 3.4.2,name,M,string,"Повне найменування Перевізника"
 3.4.3,roleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 3.4.4,**specifiedGovernmentRegistrations**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника
-3.4.4.1,id,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
-* для typeCode=DRIVER_GLN - GLN Водія
-* для typeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+3.4.4.1,id,M/O,string,"* Серія та номер водійського посвідчення Водія (поле обов'язкове до заповнення). Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для typeCode=DRIVER_GLN - GLN Водія (поле опціональне до заповнення)
+* для typeCode=TRADEPARTY_GLN - GLN компанії-учасника (поле опціональне до заповнення)"
 3.4.4.2,typeCode,O,string,"Код типу:
 
 * DRIVER_GLN

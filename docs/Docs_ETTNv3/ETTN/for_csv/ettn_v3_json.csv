@@ -58,7 +58,7 @@ I,**ecmr**,M, ,Початок змісту документа
 3.4.5.4,countryID,M,string,Країна (UA)
 3.4.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.4.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
-3.4.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Вантажовідправника"
+3.4.7.1,**specifiedGovernmentRegistrations**.id,M/O,string,"GLN Вантажовідправника (поле обов'язкове до заповнення для відправника транзакції)"
 3.4.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
@@ -79,11 +79,10 @@ I,**ecmr**,M, ,Початок змісту документа
 3.5.5.4,countryID,M,string,Країна (UA)
 3.5.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.5.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
-3.5.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Вантажоодержувача"
+3.5.7.1,**specifiedGovernmentRegistrations**.id,M/O,string,"GLN Вантажоодержувача (поле обов'язкове до заповнення для відправника транзакції)"
 3.5.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
-
 3.6,**carrier**,M, ,Перевізник
 3.6.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Перевізника
 3.6.1.2,**id**.value,M,decimal,Значення
@@ -101,14 +100,13 @@ I,**ecmr**,M, ,Початок змісту документа
 3.6.5.4,countryID,M,string,Країна (UA)
 3.6.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.6.6.1,**taxRegistration**.id,M,string,РНОКПП відповідальної особи (водія)
-3.6.7.1,**specifiedGovernmentRegistrations**.id,M,string,"* Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
-* для typeCode=DRIVER_GLN - GLN Водія
-* для typeCode=TRADEPARTY_GLN - GLN компанії-учасника"
+3.6.7.1,**specifiedGovernmentRegistrations**.id,M/O,string,"* Серія та номер водійського посвідчення Водія (поле обов'язкове до заповнення). Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для typeCode=DRIVER_GLN - GLN Водія (поле опціональне до заповнення)
+* для typeCode=TRADEPARTY_GLN - GLN компанії-учасника (поле опціональне до заповнення)"
 3.6.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * DRIVER_GLN
 * TRADEPARTY_GLN"
-
 3.7,**notifiedTradeParties** (роль - FW),O, ,Експедитор
 3.7.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Експедитора
 3.7.1.2,**id**.value,M,decimal,Значення
@@ -126,7 +124,7 @@ I,**ecmr**,M, ,Початок змісту документа
 3.7.5.4,countryID,M,string,Країна (UA)
 3.7.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.7.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
-3.7.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Експедитора"
+3.7.7.1,**specifiedGovernmentRegistrations**.id,M/O,string,"GLN Експедитора (поле обов'язкове до заповнення для відправника транзакції)"
 3.7.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
@@ -147,7 +145,7 @@ I,**ecmr**,M, ,Початок змісту документа
 3.8.5.4,countryID,M,string,Країна (UA)
 3.8.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.8.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
-3.8.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Замовника"
+3.8.7.1,**specifiedGovernmentRegistrations**.id,M/O,string,"GLN Замовника (поле обов'язкове до заповнення для відправника транзакції)"
 3.8.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
@@ -168,7 +166,7 @@ I,**ecmr**,M, ,Початок змісту документа
 3.9.5.4,countryID,M,string,Країна (UA)
 3.9.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.9.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
-3.9.7.1,**specifiedGovernmentRegistrations**.id,M,string,"GLN Проміжного складу"
+3.9.7.1,**specifiedGovernmentRegistrations**.id,M/O,string,"GLN Проміжного складу (поле обов'язкове до заповнення для відправника транзакції)"
 3.9.7.2,**specifiedGovernmentRegistrations**.typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
