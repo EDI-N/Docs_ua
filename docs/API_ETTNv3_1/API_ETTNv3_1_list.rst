@@ -220,7 +220,7 @@ API "ETTN" v3
 
 .. csv-table:: 
   :file: new_ttn_errors.csv
-  :widths:  10, 40, 40
+  :widths:  10, 20, 20, 40
   :stub-columns: 0
 
 Помилки, що можуть виникнути на стороні ЦБД:
