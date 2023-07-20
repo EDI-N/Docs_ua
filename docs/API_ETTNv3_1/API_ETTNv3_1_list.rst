@@ -219,9 +219,14 @@ API "ETTN" v3
 =========================================================================================
 
 .. csv-table:: 
-  :file: ttn_errors.csv
-  :widths:  40, 10, 40, 40
+  :file: new_ttn_errors.csv
+  :widths:  10, 40, 40
   :stub-columns: 0
 
+Помилки, що можуть виникнути на стороні ЦБД:
 
+.. csv-table:: 
+  :file: mintrans_errors.csv
+  :widths:  10, 40, 40
+  :stub-columns: 0
 
