@@ -1,0 +1,180 @@
+Код відповіді,Текст помилки,Опис
+400,SETUP_DOC_NUMBER_ERROR,"Setup document number [%s]
+
+Заповніть номер документу [%s]"
+400,SETUP_DOC_DATE_ERROR,"Setup document date [%s]
+
+Заповніть дату документу [%s]"
+400,SETUP_ETTN_REF_ERROR,"Setup reference to ettn
+
+Заповніть посилання на ТТН"
+400,EMPTY_GLN_FIELD_ERROR,"[%s] is not filled in gln [%s]
+
+[%s] не заповнено в  gln  [%s]"
+400,TRADE_PARTY_ID_NOT_FILED_ERROR,"Field [id.value] in trade party for role [%s]  is not filled
+
+Поле [id.value] учасника ролі [%s] не заповнено"
+400,EMPTY_FIELD_ERROR,"field [%s] is not filled
+
+Поле [%s] не заповнене"
+400,UNKNOWN_INITIATOR_ERROR,"Unknown initiator
+
+Невідомий ініціатор"
+400,UNKNOWN_CARRIER_ERROR,"Unknown carrier
+
+Невідомий перевізник"
+400,UNKNOWN_UNLOAD_STORAGE,"Unknown unload storage
+
+Невідомий склад розвантаження"
+400,UNKNOWN_LOAD_STORAGE,"Unknown load storage
+
+Невідомий склад навантаження"
+400,UNKNOWN_CONSIGNOR_ERROR,"Unknown consignor
+
+Невідомий вантажовідправник"
+400,UNKNOWN_CONSIGNEE_ERROR,"Unknown consignee
+
+Невідомий вантажоотримувач"
+400,UNKNOWN_CUSTOMER_ERROR,"Unknown customer
+
+Невідомий замовний"
+400,UNKNOWN_NEW_CONSIGNEE_ERROR,"Unknown new consignee
+
+Невідомий новий вантажоотримувач"
+400,UNKNOWN_NEW_CARRIER_ERROR,"Unknown new carrier
+
+Невідомий новий перевізник"
+400,UNKNOWN_DRIVER_ERROR,"Unknown driver
+
+Невідомий водій"
+400,UNKNOWN_NEW_DRIVER_ERROR,"Unknown new driver
+
+Невідомий новий водій"
+400,UNKNOWN_INITIATOR_GLN_ERROR,"Unknown initiator gln [%s]
+
+Невідомий ініціатор gln [%s]"
+400,DETERMINE_GLN_ERROR,"Failed to determine gln for trade party [%s]
+
+Не вдалося визначити gln для учасника [%s]"
+400,DETERMINE_DRIVER_GLN_ERROR,"Failed to determine gln for driver [%s]
+
+Не вдалося визначити gln для водія [%s]"
+400,DETERMINE_TRADE_PARTY_ERROR,"Failed to determine trading party for gln [%s]
+
+Не вдалося визначити учасника для gln [%s]"
+400,GLN_TRADEPARTY_ERROR,"Unknown gln [%s] for tradeParty with role: [%s], and name [%s]
+
+Невідомий gln [%s] для учасника з роллю: [%s] і назвою [%s]"
+400,IS_NOT_DRIVER_GLN_ERROR,"gln [%s] is not driver gln
+
+gln [%s] не є gln-ом водія"
+400,INCORRECT_DRIVER_TIN,"Incorrect driver TIN in field [taxRegistration.id], expected [%s]
+
+Неправильний ІПН водія в полі [taxRegistration.id], очікується [%s]"
+400,EDRPOU_MISMATCH,"Edrpou [%s] in gln [%s] and document [%s] are different
+
+ЄДРПОУ [%s] в gln [%s] та документі [%s] відрізняються"
+400,TIN_MISMATCH,"TIN [%s] in gln [%s] and document [%s] are different
+
+ІПН [%s] в gln [%s] та документі [%s] відрізняються"
+400,PARENT_ETTN_NOT_FOUND_ERROR,"Parent ettn not found
+
+Документ підстава (ТТН) не знайдено"
+400,PARENT_STORAGE_DELIVERY_DOC_FOUND_ERROR,"Parent storage delivery doc not found
+
+Документ підстава (акт розвантаження на проміжному складі) не знайдено"
+400,PARENT_ETTN_STATUS_ERROR,"Parent TTN has incorrect status
+
+Документ підстава (ТТН) має некоректний статус"
+400,ETTN_ONSTORAGE_ERROR,"TTN status «ONSTORAGE» can be changed automatically only after the completion of the life cycle of the storage pick up act or the stop TTN act
+
+Статус ТТН «ONSTORAGE» може бути змінено автоматично лише після завершення життєвого циклу акта завантаження на складі або акту зупинки ТТН"
+400,ACT_IN_PROCESS_ERROR,"Work with TTN is temporarily unavailable. Due to the unfinished process of working with the act [%s] to this TTN. Wait for the completion of work on it.
+
+Робота з ТТН тимчасово недоступна. У зв'язку з незавершеним процесом роботи з актом [%s] до цієї ТТН. Дочекайтеся завершення роботи над ним."
+400,WAITING_FOR_TTN_UPDATE_ERROR,"We have already created a new transaction for TTN. Please use API method GET, \""/api/eds/doc/ettn/body\"" for receiving this new transaction.
+
+Ми вже створили нову транзакцію для ТТН. Будь ласка, використовуйте метод API GET, \""/api/eds/doc/ettn/body\"" для отримання цієї нової транзакції."
+400,KEY_BLOCKED_ERROR,"Key blocked. EDRPOU/TIN mismatch.
+
+Ключ заблоковано. Невідповідність ЄДРПОУ/ІПН."
+400,CONTENT_FOR_SIGN_IS_NOT_CREATED_ERROR,"No signature content created. Resave document
+
+Вміст для підписання не створено. Збережіть документ повторно"
+400,SIGN_HASH_ERROR,"sign_hash is broken, resave document
+
+невідповідний sign_hash, повторно збережіть документ"
+400,ONLY_SIGNED_STAMP_ERROR,"The document cannot be signed only with the stamp. Sign the document with your signature.
+
+Документ не може бути підписаний лише печаткою. Підпишіть документ своїм підписом."
+400,INCORRECT_CONTENT_TYPE_ERROR,"Setup correct content type in request. Use 'application/json' or 'application/xml'
+
+Вкажіть content type в запиті. Використовуйте «application/json» або «application/xml»."
+400,ACTION_NOT_AVAILABLE,"Action not available.
+
+Дія недоступна."
+400,DOCUMENT_NOT_FOUND_ERROR,"Document not found
+
+Документ не знайдено"
+400,TICKET_NOT_FOUND_ERROR,"The required ticket was not found
+
+Необхідна квитанція не знайдена"
+400,ROLE_MISMATCH_ERROR,"The company role specified in the URL parameter does not match the role of this company in the document structure
+
+Вказана в URL-параметрі роль компанії не відповідає ролі цієї компанії в структурі документа"
+400,UNSUPPORTED_DOC_TYPE_ERROR,"Unknown or unsupported doc type.
+
+Невідомий або непідтримуваний тип документа."
+400,MINTRANS_STATUS_ERROR,"Mintrans status error. expected: [%s], actual: [%s]
+
+Невідповідність статусу від Мінтранс. Очікуваний [%s],  фактичний [%s]."
+400,INITIATOR_ROLE_ERROR,"Invalid initiator role
+
+Некоректна роль ініціатора"
+400,TTN_ACT_INP_ROCESS_ERROR,"Act for TTN is in process
+
+Присутній незавершенний акт до ТТН"
+400,TEMPLATE_DOC_UUID_PARAMS_ERROR,"\""template_doc_uuid\"" and  \""doc_uuid\"" parameters cannot be set at the same time
+
+Параметри \""template_doc_uuid\"" і \""doc_uuid\"" не можна встановити одночасно"
+400,INCORRECT_DOC_STATUS,"Incorrect doc status
+
+Неправильний статус документа"
+400,UNSUPPORTED_ROLE_CODE,"Unknown or unsupported role_code [%s]
+
+Невідомий або непідтримуваний role_code [%s]"
+400,UNSUPPORTED_FORMAT_ERROR,"Unsupported format [%s]
+
+Непідтримуваний формат [%s]"
+400,UNSUPPORTED_RESPONSE_TYPE_ERROR,"Unsupported response_type [%s]
+
+Непідтримуваний response_type [%s]"
+400,INCORRECT_SUBSTATUS_ERROR,"Detect sub_status error. Current sub_status: [%s]
+
+Некорекнтий сабстатус. Поточний сабстатус: [%s]"
+400,ACT_IS_COMPLETED_ERROR,"Act is completed
+
+Акт завершено"
+400,DELIVERY_COMPLETED_ERROR,"Delivery is completed
+
+Поставку завершено"
+400,ATTACHMENT_TYPE_ERROR,"Incorrect attachment type: [%s] one of:  [%s] expected
+
+Неправильний тип вкладення: очікується [%s] один із: [%s]."
+400,ATTACHMENT_FILE_TYPE_ERROR,"Unsupported file type [%s]
+
+Непідтримуваний тип файлу [%s]."
+400,ATTACHMENT_FILE_COUNT_ERROR,"Expected 1 file in multipart/form data
+
+Очікується 1 файл у  multipart/form data"
+400,ATTACHMENT_NOT_FOUND_ERROR,"Attachment not found
+
+Вкладення не знайдено"
+400,PARENT_DOC_PARTICIPANTS_MISMATCHED,"The list of participants in the basis document does not correspond to the list of participants in the current document
+
+Перелік учасників документа підстави не відповідає переліку учасників поточного документа"
+400,MINTRANS_ERROR,"MINTRANS_ERROR: [%s]
+
+Помилка від Мінтранс: [%s]"
+500,Internal server error: sd898sdf63,"Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної пдтримки)
+.. include:: /_constant/kontakti.rst"

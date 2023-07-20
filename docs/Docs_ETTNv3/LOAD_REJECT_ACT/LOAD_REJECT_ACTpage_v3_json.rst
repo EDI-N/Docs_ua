@@ -11,7 +11,109 @@
 
 .. code:: json
 
-   Приклад тимчасово відсутній
+  {
+    "ram": "urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103",
+    "udt": "urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27",
+    "qdt": "urn:un:unece:uncefact:data:standard:QualifiedDataType:103",
+    "uas": "urn:ua:signatures:SignaturesExtensions:1",
+    "act": {
+      "documentContext": {
+        "transactionID": "0",
+        "documentCode": {
+          "id": "urn:ua:e-transport.gov.ua:act:01"
+        },
+        "documentSubCode": {
+          "id": "urn:ua:e-transport.gov.ua:act:01:reject:001"
+        }
+      },
+      "exchangedDocument": {
+        "id": "123123",
+        "issueDateTime": {
+          "dateTime": "2022-10-26T18:32:52+02:00"
+        },
+        "issueLogisticsLocation": {
+          "name": "Місце складання документу",
+          "description": "79000, м.Львів, вул. Словацького, 1"
+        },
+        "includedNote": []
+      },
+      "rejectActPayload": {
+        "previousAdministrativeReferencedDocuments": [
+          {
+            "typeCode": "730",
+            "id": "0d39da11-087f-4a4e-8728-d9fba1df526e",
+            "formattedIssueDateTime": {
+              "dateTime": "2023-07-18T19:17:00.000Z"
+            }
+          }
+        ],
+        "consignorTradeParty": {
+          "id": {
+            "schemeAgencyID": "ЄДРПОУ",
+            "value": "85854949"
+          },
+          "name": "ТОВ \"ТЕСТ\"",
+          "roleCode": "CZ",
+          "postalTradeAddress": {
+            "postCode": "01001",
+            "streetName": "вул.Хрещатик, 22",
+            "cityName": "Київ",
+            "countryID": "UA",
+            "countrySubDivisionName": "м.Київ"
+          },
+          "specifiedGovernmentRegistrations": [
+            {
+              "id": "9864065738701",
+              "typeCode": "TRADEPARTY_GLN"
+            }
+          ]
+        },
+        "carrierTradeParty": {
+          "id": {
+            "schemeAgencyID": "ЄДРПОУ",
+            "value": "85854949"
+          },
+          "name": "ТОВ \"ТЕСТ 2\"",
+          "roleCode": "CA"
+        },
+        "specifiedGovernmentRegistrations": [
+          {
+            "id": "9864065738701",
+            "typeCode": "TRADEPARTY_GLN"
+          }
+        ],
+        "utilizedLogisticsTransportEquipment": {
+          "id": "АА1234ВВ",
+          "applicableNotes": [
+            {
+              "contentCode": "BRAND",
+              "content": "VOLVO"
+            },
+            {
+              "contentCode": "MODEL",
+              "content": "КЕ-578"
+            }
+          ]
+        },
+        "consignorNotes": "Несправне авто"
+      },
+      "certifyingPartyPayload": {
+        "certifyingTradeParty": [
+          {
+            "id": {
+              "schemeAgencyID": "РНОКПП",
+              "value": "1111111111"
+            },
+            "name": "Комірник",
+            "roleCode": "CZ",
+            "tradeContact": {
+              "personName": "Тест Тест Тест"
+            }
+          }
+        ]
+      }
+    }
+  }
 
 Таблиця 1 - Специфікація "Акта про відмову вантажити" (JSON)
 
