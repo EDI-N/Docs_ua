@@ -176,4 +176,4 @@ gln [%s] не є gln-ом водія"
 400,MINTRANS_ERROR,"MINTRANS_ERROR: [%s]
 
 Помилка від Мінтранс: [%s]"
-500,Internal server error: sd898sdf63,"Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної пдтримки: `support@edin.ua <mailto:support@edin.ua>`__)"
+500,Internal server error: sd898sdf63,"Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної підтримки: `support@edin.ua <mailto:support@edin.ua>`__)"
