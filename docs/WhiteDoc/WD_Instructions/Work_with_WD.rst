@@ -1195,7 +1195,7 @@ WEB сервісом підтримуються **Google Chrome** та **Safari*
    :align: center
 
 .. tip::
-   Якщо у шаблоні, за яким створювався конверт, у `властивостях Поля <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Work_with_WD.html#properties` активне налаштування **"Пошук"**, то це поле можливо додати в список колонок, виконавши пошук за назвою поля (інформація з цього поля буде виводитись в журналі):
+   Якщо у шаблоні, за яким створювався конверт, у `властивостях Поля <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Work_with_WD.html#properties>`__ активне налаштування **"Пошук"**, то це поле можливо додати в список колонок, виконавши пошук за назвою поля (інформація з цього поля буде виводитись в журналі):
 
    .. image:: pics_Work_with_WD/Work_with_WD_306.gif
       :align: center
@@ -1225,7 +1225,7 @@ WEB сервісом підтримуються **Google Chrome** та **Safari*
 Додані фільтри видаляються з панелі за допомогою |хрестик|.
 
 .. tip::
-   Якщо у шаблоні, за яким створювався конверт, у `властивостях Поля <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Work_with_WD.html#properties` активне налаштування **"Пошук"**, то це поле можливо додати, як фільтр (пошук за його назвою):
+   Якщо у шаблоні, за яким створювався конверт, у `властивостях Поля <https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/Work_with_WD.html#properties>`__ активне налаштування **"Пошук"**, то це поле можливо додати, як фільтр (пошук за його назвою):
 
    .. image:: pics_Work_with_WD/Work_with_WD_305.gif
       :align: center
