@@ -42,7 +42,7 @@ BUYERCODE, O, Рядок (35), Код покупця
 DELIVERYPLACE, М, Число (13), GLN місця доставки
 FINALRECIPIENT, O, Число (13), GLN кінцевого отримувача
 LOGISTICPARTNER, O, Число (13), GLN перевізника
-SENDER, О, Число (13), GLN відправника
+SENDER, M, Число (13), GLN відправника
 SENDERNAME, O, Рядок (70), Ім'я відправника
 SENDERPHONE, O, Рядок (35), Телефон відправника
 SENDERCITY, O, Рядок (70), Місто відправника
