@@ -28,16 +28,6 @@ EDIN | Електронний документообіг для бізнесу
    ETTN_3_0/ETTN_3_0_list
 
 .. toctree::
-   :caption: 🚛 Е-ТТН (ТТН v2)
-   :titlesonly:
-
-   ETTN_2_0/ETTN_2_0_list
-   integration_ETTN/integration_ETTN_list
-   API_ETTN/API_ETTN_list
-   API_ETTN/Work_with_API/Work_with_API_list
-   Docs_ETTNv2/Docs_ETTNv2_list
-
-.. toctree::
    :maxdepth: 2
    :caption: 🫱‍🫲 Комерційна пропозиція
 
@@ -93,6 +83,16 @@ EDIN | Електронний документообіг для бізнесу
    :caption: 🔐 Особистий кабінет
 
    Personal_Cabinet/PCInstruction
+
+.. toctree::
+   :caption: 🚛 Е-ТТН (ТТН v2)
+   :titlesonly:
+
+   ETTN_2_0/ETTN_2_0_list
+   integration_ETTN/integration_ETTN_list
+   API_ETTN/API_ETTN_list
+   API_ETTN/Work_with_API/Work_with_API_list
+   Docs_ETTNv2/Docs_ETTNv2_list
 
 .. toctree::
    :maxdepth: 2
