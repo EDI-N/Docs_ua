@@ -71,7 +71,7 @@ id параметра, Найменування параметра, Тип, Фо
 14, buyer_uuid ,, VARCHAR, відправник документа
 15, consignee_uuid ,, VARCHAR, вантажоодержувач
 16, consignor_uuid ,, VARCHAR, вантажовідправник
-17, customer_uuid ,, VARCHAR, покупець
+17, customer_uuid ,, VARCHAR, Покупець / Замовник
 18, performer_uuid ,, VARCHAR, виконавець
 19, supplier_uuid ,, VARCHAR, постачальник
 20, delivery_place_uuid ,, VARCHAR, місце доставки
@@ -182,3 +182,5 @@ id параметра, Найменування параметра, Тип, Фо
 Розблокування дій з ТТН виконується автоматично після завершення життєвого циклу Акта."
 , carrier_uuid,, VARCHAR,GLN перевізника (він же sender Акта Виконаних Робіт (Логістика))
 , driver_switch_uuid,, VARCHAR,GLN нового водія (Акт перевантаження)
+, driver_uuid,,VARCHAR,Водій
+, load_place_uuid,,VARCHAR,Місце завантаження
