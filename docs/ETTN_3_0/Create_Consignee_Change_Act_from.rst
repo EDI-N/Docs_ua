@@ -3,9 +3,9 @@
 
 .. сюда закину немного картинок для текста + юзаєм спільні зображення
 
-.. |лупа| image:: pics_Create_ETTN/Create_ETTN_013.png
+.. |лупа| image:: /_constant/icons/magnifying_glass.png
 
-.. |будинок| image:: pics_Create_ETTN/Create_ETTN_014.png
+.. |будинок| image:: /_constant/icons/house.png
 
 .. |pencil_stencil| image:: /_constant/icons/pencil_stencil.png
 

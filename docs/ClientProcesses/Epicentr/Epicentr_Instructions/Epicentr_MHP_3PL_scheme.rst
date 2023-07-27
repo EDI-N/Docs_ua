@@ -26,6 +26,7 @@
 - `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
 - `Інструкція з доставки (INSDES) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#insdes>`__
 - `Повідомлення про відвантаження для розподільного центру (DESSCC) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desscc>`__
+- `Повідомлення про повернення (RETANN) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retann>`__
 
 **Загальна схема документообігу:**
 
