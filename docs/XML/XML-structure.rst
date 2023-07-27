@@ -25,6 +25,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад PRICAT (XML)<examples/PRICAT_example.xml>`
+
+:download:`Приклад PRICAT (JSON)<examples/PRICAT.json>`
+
 ---------
 
 Замовлення (ORDER)
@@ -35,7 +39,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDER<examples/ORDER_example_f.xml>`
+:download:`Приклад ORDER (XML)<examples/ORDER_example_n.xml>`
+
+:download:`Приклад ORDER (JSON)<examples/ORDER.json>`
 
 ---------
 
@@ -47,7 +53,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRSP<examples/ORDRSP_example.xml>`
+:download:`Приклад ORDRSP (XML)<examples/ORDRSP_example_n.xml>`
+
+:download:`Приклад ORDRSP (JSON)<examples/ORDRSP.json>`
 
 ---------
 
@@ -59,6 +67,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад DESADV (XML)<examples/DESADV_example.xml>`
+
+:download:`Приклад DESADV (JSON)<examples/DESADV.json>`
+
 ---------
 
 Повідомлення про прийом (RECADV)
@@ -69,7 +81,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад RECADV<examples/RECADV_example.xml>`
+:download:`Приклад RECADV (XML)<examples/RECADV_example_n.xml>`
+
+:download:`Приклад RECADV (JSON)<examples/RECADV.json>`
 
 ---------
 
@@ -81,7 +95,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад INVOICE<examples/INVOICE_example.xml>`
+:download:`Приклад INVOICE (XML)<examples/INVOICE_example_n.xml>`
+
+:download:`Приклад INVOICE (JSON)<examples/INVOICE.json>`
 
 ---------
 
@@ -92,6 +108,10 @@ XML Специфікації
   :file: files/KORINVOICE.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`Приклад KORINVOICE (XML)<examples/KORINVOICE_example.xml>`
+
+:download:`Приклад KORINVOICE (JSON)<examples/KORINVOICE.json>`
 
 ---------
 
@@ -111,7 +131,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_001<examples/comdoc_001_example.xml>`
+:download:`Приклад COMDOC_001 (XML)<examples/comdoc_001_example.xml>`
+
+:download:`Приклад COMDOC_001 (JSON)<examples/COMDOC_001.json>`
 
 ---------
 
@@ -123,7 +145,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_005<examples/comdoc_005_example.xml>`
+:download:`Приклад COMDOC_005 (XML)<examples/comdoc_005_example_n.xml>`
+
+:download:`Приклад COMDOC_005 (JSON)<examples/COMDOC_005.json>`
 
 ---------
 
@@ -135,7 +159,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_006<examples/comdoc_006_example.xml>`
+:download:`Приклад COMDOC_006 (XML)<examples/comdoc_006_example_n.xml>`
+
+:download:`Приклад COMDOC_006 (JSON)<examples/COMDOC_006.json>`
 
 ---------
 
@@ -147,7 +173,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_007<examples/comdoc_007_example.xml>`
+:download:`Приклад COMDOC_007 (XML)<examples/comdoc_007_example.xml>`
+
+:download:`Приклад COMDOC_007 (JSON)<examples/COMDOC_007.json>`
 
 ---------
 
@@ -159,7 +187,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_008<examples/comdoc_008_example_1.xml>`
+:download:`Приклад COMDOC_008 (XML)<examples/comdoc_008_example_n.xml>`
+
+:download:`Приклад COMDOC_008 (JSON)<examples/COMDOC_008.json>`
 
 ---------
 
@@ -171,7 +201,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_009<examples/comdoc_009_example.xml>`
+:download:`Приклад COMDOC_009 (XML)<examples/comdoc_009_example.xml>`
+
+:download:`Приклад COMDOC_009 (JSON)<examples/COMDOC_009.json>`
 
 ---------
 
@@ -183,7 +215,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_011<examples/comdoc_011_example.xml>`
+:download:`Приклад COMDOC_011 (XML)<examples/comdoc_011_example_n.xml>`
+
+:download:`Приклад COMDOC_011 (JSON)<examples/COMDOC_011.json>`
 
 ---------
 
@@ -195,7 +229,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_012<examples/comdoc_012_example.xml>`
+:download:`Приклад COMDOC_012 (XML)<examples/comdoc_012_example.xml>`
+
+:download:`Приклад COMDOC_012 (JSON)<examples/COMDOC_012.json>`
 
 ---------
 
@@ -207,7 +243,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_013<examples/comdoc_013_018_example.xml>`
+:download:`Приклад COMDOC_013 (XML)<examples/comdoc_013_example.xml>`
+
+:download:`Приклад COMDOC_013 (JSON)<examples/COMDOC_013.json>`
 
 ---------
 
@@ -219,7 +257,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_015<examples/comdoc_015_example.xml>`
+:download:`Приклад COMDOC_015 (XML)<examples/comdoc_015_example_n.xml>`
+
+:download:`Приклад COMDOC_015 (JSON)<examples/COMDOC_015.json>`
 
 ---------
 
@@ -231,7 +271,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_016<examples/comdoc_016_example.xml>`
+:download:`Приклад COMDOC_016 (XML)<examples/comdoc_016_example.xml>`
+
+:download:`Приклад COMDOC_016 (JSON)<examples/COMDOC_016.json>`
 
 ---------
 
@@ -243,7 +285,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_018<examples/comdoc_013_018_example.xml>`
+:download:`Приклад COMDOC_018 (XML)<examples/comdoc_018_example.xml>`
+
+:download:`Приклад COMDOC_018 (JSON)<examples/COMDOC_018.json>`
 
 ---------
 
@@ -255,7 +299,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_019<examples/comdoc_anuluvannya.xml>`
+:download:`Приклад COMDOC_019 (XML)<examples/comdoc_019_example_n.xml>`
+
+:download:`Приклад COMDOC_019 (JSON)<examples/COMDOC_019.json>`
 
 ---------
 
@@ -267,7 +313,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_020<examples/comdoc_020_example.xml>`
+:download:`Приклад COMDOC_020 (XML)<examples/comdoc_020_example_n.xml>`
+
+:download:`Приклад COMDOC_020 (JSON)<examples/COMDOC_020.json>`
 
 ---------
 
@@ -279,7 +327,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_021<examples/comdoc_021_example+.xml>`
+:download:`Приклад COMDOC_021 (XML)<examples/comdoc_021_example+.xml>`
+
+:download:`Приклад COMDOC_021 (JSON)<examples/COMDOC_021.json>`
 
 ---------
 
@@ -291,7 +341,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_022<examples/comdoc_022_example.xml>`
+:download:`Приклад COMDOC_022 (XML)<examples/comdoc_022_example_n.xml>`
+
+:download:`Приклад COMDOC_022 (JSON)<examples/COMDOC_022.json>`
 
 ---------
 
@@ -303,7 +355,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_023<examples/comdoc_023_example.xml>`
+:download:`Приклад COMDOC_023 (XML)<examples/comdoc_023_example_n.xml>`
+
+:download:`Приклад COMDOC_023 (JSON)<examples/COMDOC_023.json>`
 
 ---------
 
@@ -315,7 +369,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_024<examples/comdoc_024_example.xml>`
+:download:`Приклад COMDOC_024 (XML)<examples/comdoc_024_example_n.xml>`
+
+:download:`Приклад COMDOC_024 (JSON)<examples/COMDOC_024.json>`
 
 ---------
 
@@ -327,7 +383,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_025<examples/comdoc_025_example.xml>`
+:download:`Приклад COMDOC_025 (XML)<examples/comdoc_025_example_n.xml>`
+
+:download:`Приклад COMDOC_025 (JSON)<examples/COMDOC_025.json>`
 
 ---------
 
@@ -339,7 +397,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_026<examples/comdoc_026_example.xml>`
+:download:`Приклад COMDOC_026 (XML)<examples/comdoc_026_example.xml>`
+
+:download:`Приклад COMDOC_026 (JSON)<examples/COMDOC_026.json>`
 
 ---------
 
@@ -351,7 +411,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_027<examples/comdoc_027_example.xml>`
+:download:`Приклад COMDOC_027 (XML)<examples/comdoc_027_example.xml>`
+
+:download:`Приклад COMDOC_027 (JSON)<examples/COMDOC_027.json>`
 
 ---------
 
@@ -363,7 +425,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_028<examples/comdoc_028_example.xml>`
+:download:`Приклад COMDOC_028 (XML)<examples/comdoc_028_example_n.xml>`
+
+:download:`Приклад COMDOC_028 (JSON)<examples/COMDOC_028.json>`
 
 ---------
 
@@ -375,7 +439,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_029<examples/comdoc_029_example.xml>`
+:download:`Приклад COMDOC_029 (XML)<examples/comdoc_029_example_n.xml>`
+
+:download:`Приклад COMDOC_029 (JSON)<examples/COMDOC_029.json>`
 
 ---------
 
@@ -387,7 +453,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_030<examples/comdoc_030_example.xml>`
+:download:`Приклад COMDOC_030 (XML)<examples/comdoc_030_example.xml>`
+
+:download:`Приклад COMDOC_030 (JSON)<examples/COMDOC_030.json>`
 
 ---------
 
@@ -399,7 +467,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_031<examples/comdoc_031_example.xml>`
+:download:`Приклад COMDOC_031 (XML)<examples/comdoc_031_example.xml>`
+
+:download:`Приклад COMDOC_031 (JSON)<examples/COMDOC_031.json>`
 
 ---------
 
@@ -411,7 +481,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_036<examples/comdoc_036_example.xml>`
+:download:`Приклад COMDOC_036 (XML)<examples/comdoc_036_example_n.xml>`
+
+:download:`Приклад COMDOC_036 (JSON)<examples/COMDOC_036.json>`
 
 ---------
 
@@ -423,7 +495,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_037<examples/comdoc_037_example.xml>`
+:download:`Приклад COMDOC_037 (XML)<examples/comdoc_037_example.xml>`
+
+:download:`Приклад COMDOC_037 (JSON)<examples/COMDOC_037.json>`
 
 ---------
 
@@ -435,7 +509,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_038<examples/comdoc_038_example.xml>`
+:download:`Приклад COMDOC_038 (XML)<examples/comdoc_038_example.xml>`
+
+:download:`Приклад COMDOC_038 (JSON)<examples/COMDOC_038.json>`
 
 ---------
 
@@ -465,6 +541,10 @@ XML Специфікації
   :file: files/DECLAR.csv
   :widths:  25, 25, 50
   :header-rows: 1
+
+:download:`Приклад DECLAR (XML)<examples/DECLAR_example.xml>`
+
+:download:`Приклад DECLAR (JSON)<examples/DECLAR.json>`
 
 ---------
 
@@ -516,6 +596,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад COMDIS (XML)<examples/COMDIS_example_n.xml>`
+
+:download:`Приклад COMDIS (JSON)<examples/COMDIS.json>`
+
 ---------
 
 Інструкція з доставки (INSDES)
@@ -525,6 +609,10 @@ XML Специфікації
   :file: files/INSDES.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`Приклад INSDES (XML)<examples/INSDES_example_n.xml>`
+
+:download:`Приклад INSDES (JSON)<examples/INSDES.json>`
 
 ---------
 
@@ -536,6 +624,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад COACSU (XML)<examples/COACSU_example_n.xml>`
+
+:download:`Приклад COACSU (JSON)<examples/COACSU.json>`
+
 ---------
 
 Інструкція з транспортування (IFTMIN)
@@ -546,7 +638,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад IFTMIN<examples/IFTMIN_example.xml>`
+:download:`Приклад IFTMIN (XML)<examples/IFTMIN_example_n.xml>`
+
+:download:`Приклад IFTMIN (JSON)<examples/IFTMIN.json>`
 
 ---------
 
@@ -557,6 +651,10 @@ XML Специфікації
   :file: files/RETANN.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`Приклад RETANN (XML)<examples/RETANN_example.xml>`
+
+:download:`Приклад RETANN (JSON)<examples/RETANN.json>`
 
 ---------
 
@@ -569,6 +667,10 @@ XML Специфікації
   :file: files/RETINS.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`Приклад RETINS (XML)<examples/RETINS_example.xml>`
+
+:download:`Приклад RETINS (JSON)<examples/RETINS.json>`
 
 ---------
 
@@ -600,6 +702,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад MSCONS (XML)<examples/MSCONS_example.xml>`
+
+:download:`Приклад MSCONS (JSON)<examples/MSCONS.json>`
+
 ---------
 
 Універсальний/неструктурований документ (CONDRA)
@@ -610,7 +716,7 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад CONDRA<examples/CONDRA_example.xml>`
+:download:`Приклад CONDRA (XML)<examples/CONDRA_example_n.xml>`
 
 .. note::
   При відправці CONDRA-документа через FTP необхідно вивантажувати zip-архів з назвою, що відповідає формату ``condra_УнікальнийUUID.zip``. При цьому zip-архів має містити:
@@ -630,7 +736,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад PRODUCTLIST<../E_SPEC/EDIN_2_0/XML/examples/productlist_example.xml>`
+:download:`Приклад PRODUCTLIST (XML)<../E_SPEC/EDIN_2_0/XML/examples/productlist_example_n.xml>`
+
+:download:`Приклад PRODUCTLIST (JSON)<examples/PRODUCTLIST.json>`
 
 ---------
 
@@ -645,7 +753,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад AGREEM<../E_SPEC/EDIN_2_0/XML/examples/agreem_example.xml>`
+:download:`Приклад AGREEM (XML)<../E_SPEC/EDIN_2_0/XML/examples/agreem_example_n.xml>`
+
+:download:`Приклад AGREEM (JSON)<examples/AGREEM.json>`
 
 ---------
 
@@ -657,7 +767,7 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад NOVELTY<../E_SPEC/EDIN_2_0/XML/examples/novelty_example.xml>`
+:download:`Приклад NOVELTY (XML)<../E_SPEC/EDIN_2_0/XML/examples/novelty_example_n.xml>`
 
 ---------
 
@@ -669,6 +779,10 @@ XML Специфікації
   :widths:  30, 7, 10, 10, 43
   :header-rows: 1
 
+:download:`Приклад DECLARj12 (XML)<examples/DECLARj12_example.xml>`
+
+:download:`Приклад DECLARj12 (JSON)<examples/DECLARj12.json>`
+
 ---------
 
 Товарна накладна/коригувальна товарна накладна/цінова накладна/видаткова накладна (DOCUMENTINVOICE)
@@ -678,6 +792,10 @@ XML Специфікації
   :file: files/DOCUMENTINVOICE.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`Приклад DOCUMENTINVOICE (XML)<examples/DOCUMENTINVOICE_example_n.xml>`
+
+:download:`Приклад DOCUMENTINVOICE (JSON)<examples/DOCUMENTINVOICE.json>`
 
 ---------
 
@@ -689,6 +807,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад DOCCORINVOICE (XML)<examples/DOCCORINVOICE_example.xml>`
+
+:download:`Приклад DOCCORINVOICE (JSON)<examples/DOCCORINVOICE.json>`
+
 ---------
 
 Додаток до повідомлення про відвантаження (QUOTES)
@@ -698,6 +820,10 @@ XML Специфікації
   :file: files/QUOTES.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`Приклад QUOTES (XML)<examples/QUOTES_example_n.xml>`
+
+:download:`Приклад QUOTES (JSON)<examples/QUOTES.json>`
 
 ---------
 
@@ -709,6 +835,8 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад STATUS (XML)<examples/STATUS_example.xml>`
+
 ---------
 
 Повідомлення про штрафні санкції (ORDRPT)
@@ -719,7 +847,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRPT<examples/ORDRPT_example.xml>`
+:download:`Приклад ORDRPT (XML)<examples/ORDRPT_example.xml>`
+
+:download:`Приклад ORDRPT (JSON)<examples/ORDRPT.json>`
 
 ---------
 
@@ -731,6 +861,10 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`Приклад DESSCC (XML)<examples/DESSCC_example.xml>`
+
+:download:`Приклад DESSCC (JSON)<examples/DESSCC.json>`
+
 ---------
 
 Акт приймання наданих послуг (DOCINVOICEACT)
@@ -741,7 +875,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад DOCINVOICEACT<examples/DOCINVOICEACT_example.xml>`
+:download:`Приклад DOCINVOICEACT (XML)<examples/DOCINVOICEACT_example_n.xml>`
+
+:download:`Приклад DOCINVOICEACT (JSON)<examples/DOCINVOICEACT.json>`
 
 ---------
 
@@ -753,7 +889,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад METRO_7A<examples/METRO_7A_example.xml>`
+:download:`Приклад METRO_7A (XML)<examples/METRO_7A_example_n.xml>`
+
+:download:`Приклад METRO_7A (JSON)<examples/METRO7A.json>`
 
 ---------
 
@@ -765,7 +903,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад METRO_7B<examples/METRO_7B_example.xml>`
+:download:`Приклад METRO_7B (XML)<examples/METRO_7B_example_n.xml>`
+
+:download:`Приклад METRO_7B (JSON)<examples/METRO7B.json>`
 
 ---------
 
@@ -777,7 +917,9 @@ XML Специфікації
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад METRO_7C<examples/METRO_7C_example.xml>`
+:download:`Приклад METRO_7C (XML)<examples/METRO_7C_example_n.xml>`
+
+:download:`Приклад METRO_7C (JSON)<examples/METRO7C.json>`
 
 -------------------------
 

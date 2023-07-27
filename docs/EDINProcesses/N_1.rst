@@ -12,7 +12,7 @@
   :header-rows: 1
   :stub-columns: 0
 
-
+:download:`Завантажити колекцію методів для Postman (EDI + COMDOC_007)<PostmanCollections/EDI + COMDOC_007.postman_collection.json>`
 
 
 

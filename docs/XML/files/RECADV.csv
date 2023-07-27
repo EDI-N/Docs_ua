@@ -68,6 +68,7 @@ ACCEPTEDQUANTITY, М, Число позитивне, Прийнята кільк
 ACCEPTEDUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 DELIVERQUANTITY, М, Число позитивне,"Кількість товару, що поставляється"
 ORDERQUANTITY, М, Число позитивне, Замовлена кількість товару
+ORDERUNIT, O, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 DELTAQUANTITY, O, Число позитивне, Розбіжність
 PRICE, O, Число десяткове, Ціна однієї одиниці продукції без ПДВ
 PRICEWITHVAT, O, Число десяткове, Ціна однієї одиниці продукції з ПДВ
