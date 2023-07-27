@@ -16,7 +16,7 @@ XML Специфікації
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад AGREEM<examples/agreem_example.xml>`
+:download:`Приклад AGREEM<examples/agreem_example_n.xml>`
 
 ---------
 
@@ -40,7 +40,7 @@ XML Специфікації
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад PRODUCTLIST<examples/productlist_example.xml>`
+:download:`Приклад PRODUCTLIST<examples/productlist_example_n.xml>`
 
 ---------
 

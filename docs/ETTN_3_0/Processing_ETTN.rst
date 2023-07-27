@@ -47,7 +47,7 @@
    .. image:: /ETTN_3_0/pics_Processing_ETTN/Processing_ETTN_007.png
       :align: center
 
-Для обробки "е-ТТН" **Перевізником (Водієм)** в сервісі "EDI+ЮЗД" потрібно перейти у **"Вхідні"** та вибрати **"Товарно транспортну накладну (е-ТТН)"** в статусі :orange:`"Очікує підписання водієм"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+Для обробки "е-ТТН" **Перевізником (Водієм)** в сервісі "EDI+ЮЗД" потрібно перейти у **"Вхідні"** та вибрати **"Товарно транспортну накладну (е-ТТН)"** в статусі :orange:`"Очікує на підписання водієм/перевізником"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: /ETTN_3_0/pics_Processing_ETTN/Processing_ETTN_001.png
    :align: center

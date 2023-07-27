@@ -11,3 +11,5 @@
   :widths:  7, 42, 7, 21
   :header-rows: 1
   :stub-columns: 0
+
+:download:`Завантажити колекцію методів для Postman (EDI без ЮЗД)<PostmanCollections/EDI без ЮЗД.postman_collection.json>`
