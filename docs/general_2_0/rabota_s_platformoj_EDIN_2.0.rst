@@ -222,6 +222,9 @@
 * `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
 * `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
 * `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
+* `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
+* `Додаток до договору 7Б (METRO_7B) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
+* `Додаток до договору 7Ц (METRO_7C) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__
 
 .. hint::
    Налаштувати сценарії погодження та їх автоматичний запуск можливо в розділі **Особистий кабінет->Налаштування->GLN->Форма редагування GLN->** `Сценарії погодження <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#doc-approval-set>`__)
