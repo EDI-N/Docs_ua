@@ -65,7 +65,7 @@
 
 Для продовження потрібно **"Вибрати"** один із способів для ідентифікації за Вашим КЕП:
 
-.. image:: pics_Driver_registration/Driver_registration_002.png
+.. image:: pics_Driver_registration/Driver_registration_007.png
    :align: center
 
 .. tabs::
@@ -87,6 +87,12 @@
       .. include:: /_constant/gryada_signing/gryada_signing.rst
          :start-after: .. початок блоку для GryadaSign
          :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Дія.Підпис
+
+      .. include:: /_constant/diya_signing/diya_signing.rst
+         :start-after: .. початок блоку для DiyaPidps
+         :end-before: .. кінець блоку для DiyaPidps
 
    .. tab:: Cloud
 
