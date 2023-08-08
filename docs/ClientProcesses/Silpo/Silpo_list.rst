@@ -2,7 +2,7 @@
 #############################################
 
 .. toctree::
-   :caption: Робота в сервісі "EDI+ЮЗД"
+   :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
    Silpo_Instructions/Robota_s_Fozzy_EDI-N_2.0
@@ -25,7 +25,7 @@
 
 .. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
 
-   * для `"EDI+ЮЗД" <https://wiki.edin.ua/uk/latest/XML/XML-structure.html>`__ сервісу;
+   * для `"EDI Network" <https://wiki.edin.ua/uk/latest/XML/XML-structure.html>`__ сервісу;
    * для `"Е-Специфікація" <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/XML/XML_structure.html>`__ сервісу;
    * для `"Дистриб’юшн" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html>`__ сервісу.
 

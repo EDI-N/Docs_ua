@@ -1,14 +1,10 @@
 № з/п,Параметр [2]_,Тип [1]_,Формат,Опис
 I,**ecmr**,M, ,**Початок змісту документа**
-,,,,
 1,**documentContext**,M, ,**Технічні дані**
-,,,,
 1.1,transactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
 1.2.1,**documentCode**.id,M,string,код типу документа
 1.3.1,**documentSubCode**.id,M,string,код підтипу документа
-,,,,
 2,**exchangedDocument**,M, ,**Реквізити ТТН**
-,,,,
 2.1,id,M,string,порядковий номер (серія) документа
 2.2.1,**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа
 2.3,remarks,O,string,Ремарки
@@ -39,17 +35,12 @@ I,**ecmr**,M, ,**Початок змісту документа**
 * новий водій - DRS"
 2.5.1,**issueLogisticsLocation**.name,M,string,Найменування місця складання ТТН
 2.5.2,**issueLogisticsLocation**.description,M,string,Опис (адреса) місця складання ТТН
-,,,,
 3,**specifiedSupplyChainConsignment**,M, ,**Інформація про перевезення**
-,,,,
 3.1.1,**grossWeightMeasure**.unitCode,M,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
 3.1.2,**grossWeightMeasure**.value,M,decimal,Значення
-,,,,
 3.2.1,**associatedInvoiceAmount**.currencyId,M,string,Тризначний код валюти (UAH)
 3.2.2,**associatedInvoiceAmount**.value,M,decimal,Значення
-,,,,
 3.3,consignmentItemQuantity,M,decimal,Загальна кількість місць вантажу (контейнерів)
-,,,,
 3.4,**consignor**,M, ,**Вантажовідправник**
 3.4.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Вантажовідправника
 3.4.1.2,**id**.value,M,decimal,Значення
@@ -72,7 +63,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.4.7.2,typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
-,,,,
 3.5,**consignee**,M, ,**Вантажоодержувач**
 3.5.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Вантажоодержувача
 3.5.1.2,**id**.value,M,decimal,Значення
@@ -95,7 +85,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.5.7.2,typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
-,,,,
 3.6,**carrier**,M, ,**Перевізник**
 3.6.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Перевізника
 3.6.1.2,**id**.value,M,decimal,Значення
@@ -121,7 +110,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 
 * DRIVER_GLN
 * TRADEPARTY_GLN"
-,,,,
 3.7,:green:`notifiedTradeParties` (роль - FW),O, ,**Експедитор**
 3.7.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Експедитора
 3.7.1.2,**id**.value,M,decimal,Значення
@@ -144,7 +132,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.7.7.2,typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
-,,,,
 3.8,:green:`notifiedTradeParties` (роль - OB),M, ,**Замовник**
 3.8.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Замовника
 3.8.1.2,**id**.value,M,decimal,Значення
@@ -167,7 +154,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.8.7.2,typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
-,,,,
 3.9,:green:`notifiedTradeParties` (роль - WD),O, ,**Проміжний склад**
 3.9.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Проміжного складу
 3.9.1.2,**id**.value,M,decimal,Значення
@@ -190,7 +176,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.9.7.2,typeCode,O,string,"Код типу:
 
 * TRADEPARTY_GLN"
-,,,,
 3.10,:green:`notifiedTradeParties` (роль - COP),O, ,**Охоронна компанія**
 3.10.1.1,**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Охоронної компанії
 3.10.1.2,**id**.value,M,decimal,Значення
@@ -198,7 +183,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.10.3,roleCode,M,string,Роль учасника (Охоронна компанія - COP). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 3.10.4,**tradeContact**,O, ,Контакти відповідального представника
 3.10.4.1,personName,O,string,"ПІБ представника Замовника, який уповноважений супроводжувати вантаж, що підлягає спеціальній охороні"
-,,,,
 3.11,**carrierAcceptanceLogisticsLocation**,M, ,**Пункт навантаження** 
 3.11.1.1,**id**.schemeAgencyID,M,string,КАТОТТГ пункту навантаження
 3.11.1.2,**id**.value,M,decimal,Значення
@@ -210,7 +194,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.11.5.2,longitudeMeasure,O,string,Географічні координати (Довгота)
 3.11.5.3.1,**systemId**.schemeAgencyID,M,string,GLN
 3.11.5.3.2,**systemId**.value,M,decimal,Значення
-,,,,
 3.12,**consigneeReceiptLogisticsLocation**,M, ,**Пункт розвантаження** 
 3.12.1.1,**id**.schemeAgencyID,M,string,КАТОТТГ пункту розвантаження
 3.12.1.2,**id**.value,M,decimal,Значення
@@ -222,25 +205,21 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.12.5.2,longitudeMeasure,O,string,Географічні координати (Довгота)
 3.12.5.3.1,**systemId**.schemeAgencyID,M,string,GLN
 3.12.5.3.2,**systemId**.value,M,decimal,Значення
-,,,,
 3.13,:green:`associatedReferencedDocuments` (TypeCode=723),O, ,"Супровідні документи на вантаж. **Документ, що підтверджує охоронні послуги**"
 3.13.1,typeCode,M,string,"Тип 723 - використовується при зазначенні документа, що підтверджує надання спеціальних охоронних послуг (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 3.13.2,id,M,string,"Номер документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
 3.13.3,remarks,O,string,"UUID супровідного документа"
 3.13.4.1,**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
-,,,,
 3.14,:green:`associatedReferencedDocuments` (TypeCode=290),O, ,"Супровідні документи на вантаж. **Запис про передачу права на пред’явлення претензії**"
 3.14.1,typeCode,M,string,Тип 290 - використовується при зазначенні передачі права предʼявлення претензії (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)
 3.14.2,id,O,string,Номер документа
 3.14.3,remarks,O,string,"UUID супровідного документа"
 3.14.4.1,**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
-,,,,
 3.15,:green:`associatedReferencedDocuments` (TypeCode=916),O, ,"Супровідні документи на вантаж. **Коригуючі акти**"
 3.15.1,typeCode,M,string,"Тип 916 - використовується при формуванні актів, для вказання попередньої транзакції поточного акту (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
 3.15.2,id,M,string,Номер акта
 3.15.3,remarks,O,string,"UUID супровідного документа"
 3.15.4.1,**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
-,,,,
 3.16,:green:`associatedReferencedDocuments` (інші),O, ,**Інші супровідні документи**
 3.16.1,typeCode,O,string,"Тип 
 
@@ -255,7 +234,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.16.2,id,O,string,"Номер документа"
 3.16.3,remarks,O,string,"UUID супровідного документа"
 3.16.4.1,**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
-,,,,
 3.17,**deliveryTransportEvent**,M, ,**Розвантажувальні роботи**
 3.17.1.1,**actualOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час прибуття автомобіля на розвантаження
 3.17.2.1,**scheduledOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час вибуття автомобіля з-під розвантаження
@@ -287,7 +265,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.17.7.2,:green:`applicableNotes` (з кодом GROSSWEIGHT).content,O,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах"
 3.17.8.1,:green:`applicableNotes` (з кодом DOWNTIME).contentCode,O,string,Код DOWNTIME
 3.17.8.2,:green:`applicableNotes` (з кодом DOWNTIME).content,O,unsignedByte,Час (години) простою під розвантаженням
-,,,,
 3.18,**pickUpTransportEvent**,O, ,**Навантажувальні роботи**
 3.18.1.1,**actualOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час прибуття автомобіля під навантаження
 3.18.2.1,**scheduledOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час вибуття автомобіля з-під навантаження
@@ -319,7 +296,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.18.7.2,:green:`applicableNotes` (з кодом GROSSWEIGHT).content,M,decimal,"Маса брутто зданого/отриманого вантажу в кілограмах"
 3.18.8.1,:green:`applicableNotes` (з кодом DOWNTIME).contentCode,O,string,Код DOWNTIME
 3.18.8.2,:green:`applicableNotes` (з кодом DOWNTIME).content,O,unsignedByte,Час простою
-,,,,
 3.19,:green:`includedSupplyChainConsignmentItems`,M, ,**Відомості про вантаж**
 3.19.1,sequenceNumeric,M,int,Порядковий номер рядка в таблиці
 3.19.2.1,**invoiceAmount**.currencyId,M,string,Загальна сума з ПДВ. Тризначний код валюти (UAH)
@@ -366,7 +342,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.19.21.2,:green:`applicableNotes` (з кодом RTP_NAME).content,O,string,"Назва транспортної упаковки, наприклад, контейнер для перевезення сипучих речовин"
 3.19.22.1,:green:`applicableNotes` (з кодом RTP_QUANTITY).contentCode,O,string,Код RTP_QUANTITY
 3.19.22.2,:green:`applicableNotes` (з кодом RTP_QUANTITY).content,O,string,Кількість транспортної упаковки (використовується для обліку оборотної тари)
-,,,,
 3.20,:green:`utilizedLogisticsTransportEquipments`,M, ,**Автомобіль**
 3.20.1,id,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
 
@@ -388,7 +363,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.20.6.2,:green:`applicableNotes` (з кодом COLOR).content,O,string,Колір автомобіля згідно з техпаспортом
 3.20.7.1,:green:`applicableNotes` (з кодом TYPE).contentCode,O,string,Код TYPE
 3.20.7.2,:green:`applicableNotes` (з кодом TYPE).content,O,string,Тип автомобіля згідно з техпаспортом
-,,,,
 3.21,:green:`utilizedLogisticsTransportEquipments` (CategoryCode=TE),O, ,**Причіп/напівпричіп**
 3.21.1,id,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
 3.21.2,categoryCode,M,string,Тип TE - Причіп/напівпричіп
@@ -412,7 +386,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.21.8.2,:green:`applicableNotes` (з кодом COLOR).content,O,string,Колір причіпа/напівпричіпа згідно з техпаспортом
 3.21.9.1,:green:`applicableNotes` (з кодом TYPE).contentCode,O,string,Код TYPE
 3.21.9.2,:green:`applicableNotes` (з кодом TYPE).content,O,string,Тип причіпа/напівпричіпа згідно з техпаспортом
-,,,,
 3.22,:green:`utilizedLogisticsTransportEquipments` (CategoryCode=CN),O, ,**Контейнер**
 3.22.1,categoryCode,M,string,Тип CN - Контейнер
 3.22.2,characteristicCode,M,string,"Тип контейнера:
@@ -428,7 +401,6 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.22.5.1.2,**applicableTransportSettingTemperature**. **maximum**,O, ,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
 3.22.5.1.2.1,unitCode,O,string,код одиниці виміру (CEL)
 3.22.5.1.2.2,value,O,decimal,"Значення"
-,,,,
 3.23,**mainCarriageLogisticsTransportMovement**,O, ,**Маршрутизація (проміжні пункти перевантаження)**. Заповнюється Перевізником
 3.23.1,**specifiedTransportEvents**,M, ,Проміжне розвантаження
 3.23.1.1,id,M,string,Порядковий номер проміжного розвантаження події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
@@ -457,11 +429,9 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.23.1.5.5.4,countryID,M,string,Країна (UA)
 3.23.1.5.5.5,countrySubDivisionName,O,string,Область та район (за наявності)
 3.23.1.5.6.1,**taxRegistration**.id,O,string,РНОКПП відповідальної особи
-,,,,
 3.24,**deliveryInstructions**,M, ,**Вид перевезень**
 3.24.1,description,O,string,"Опис (вид роботи перевізника: за відрядним тарифом, за погодинним тарифом, за покілометровим тарифом, централізовані перевезення тощо)"
 3.24.2,descriptionCode,M,string,Код (TRANSPORTATION_TYPE)
-,,,,
 3.25,**previousAdministrativeReferencedDocument**,-/M, ,"**Попередня транзакція ECMR, на основі якої складено поточний документ**. Блок не вказується, якщо документ створено з «нуля»"
 3.25.1,typeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__"
 3.25.2,id,M,string,Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій
@@ -472,35 +442,26 @@ I,**ecmr**,M, ,**Початок змісту документа**
 3.25.5.2,uriid,M,string,Посилання на документ
 3.25.5.3,MIMECode,O,string,Код `MIME типізації <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
 3.25.5.4,SizeMeasure,M,Long,Розмір файлу
-,,,,
 II,**signatureStorage**,M, ,**Підписи**
-,,,,
 4,**signatures** (SigningPartyRoleCode=CZ),M, ,**КЕП Вантажовідправника**
-,,,,
 4.1,signingPartyRoleCode,M,string,Роль підписанта (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 4.2,partySignature,M,string,Підпис (base64 підпису p7s)
 4.3,name,M,string,ПІБ підписанта (відповідальної особи вантажовідправника)
 4.4,position,O,string,Посада підписанта (відповідальної особи вантажовідправника)
 4.5.1,**specifiedTaxRegistration**.id,M,string,РНОКПП відповідальної особи вантажовідправника
-,,,,
 5,**signatures** (SigningPartyRoleCode=DR),M, ,**КЕП Водія**
-,,,,
 5.1,signingPartyRoleCode,M,string,Роль підписанта (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 5.2,partySignature,M,string,Підпис (base64 підпису p7s)
 5.3,name,M,string,ПІБ підписанта (Водія)
 5.4,position,O,string,Посада підписанта (Водія)
 5.5.1,**specifiedTaxRegistration**.id,M,string,РНОКПП підписанта (Водія)
-,,,,
 6,**signatures** (SigningPartyRoleCode=CA),M, ,**КЕП Перевізника**
-,,,,
 6.1,signingPartyRoleCode,M,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 6.2,partySignature,M,string,Підпис (base64 підпису p7s)
 6.3,name,M,string,ПІБ підписанта (відповідальної особи Перевізника)
 6.4,position,O,string,Посада підписанта (відповідальної особи Перевізника)
 6.5.1,**specifiedTaxRegistration**.id,M,string,РНОКПП підписанта (Перевізника)
-,,,,
 7,**signatures** (SigningPartyRoleCode=CN),M, ,**КЕП Вантажоодержувача**
-,,,,
 7.1,signingPartyRoleCode,M,string,Роль підписанта (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
 7.2,partySignature,M,string,Підпис (base64 підпису p7s)
 7.3,name,M,string,ПІБ підписанта (відповідальної особи Вантажоодержувача)

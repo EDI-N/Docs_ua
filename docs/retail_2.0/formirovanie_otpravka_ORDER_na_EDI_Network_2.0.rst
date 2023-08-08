@@ -25,7 +25,7 @@
 
 .. початок блоку для Order_from_zero
 
-Для формування "Замовлення" (ORDER) користувачу в меню сервісу **"EDI+ЮЗД"** потрібно натиснути кнопку **"Створити"** та обрати документ "Замовлення" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
+Для формування "Замовлення" (ORDER) користувачу в меню сервісу **"EDI Network"** потрібно натиснути кнопку **"Створити"** та обрати документ "Замовлення" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
 
 .. image:: /retail_2.0/pics_formirovanie_ORDERS_na_EDI_Network_2.0/ORDERS_na_EDI_Network_2.0_011.png
    :align: center

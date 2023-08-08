@@ -2,7 +2,7 @@ Mondelez
 #############################################
 
 .. toctree::
-   :caption: Робота в сервісі "EDI+ЮЗД"
+   :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
    Mondelez_Instructions/Mondelez_EDI_ETTN

@@ -25,7 +25,7 @@
 
 .. початок блоку для Ordrsp_from_docs
 
-Щоб сформувати "Підтвердження замовлення" (ORDRSP) на підставі "Замовлення" (ORDER) Вам потрібно в меню сервісу **"EDI+ЮЗД"** увійти в папку "Вхідні" і обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+Щоб сформувати "Підтвердження замовлення" (ORDRSP) на підставі "Замовлення" (ORDER) Вам потрібно в меню сервісу **"EDI Network"** увійти в папку "Вхідні" і обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_001.png
    :align: center

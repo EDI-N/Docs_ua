@@ -25,7 +25,7 @@
 
 .. початок блоку для Pricat_from_zero
 
-Для формування "Прайс-листа" (PRICAT) користувачу в меню сервісу **"EDI+ЮЗД"** потрібно натиснути кнопку **"Створити"** та обрати документ "Прайс-лист" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
+Для формування "Прайс-листа" (PRICAT) користувачу в меню сервісу **"EDI Network"** потрібно натиснути кнопку **"Створити"** та обрати документ "Прайс-лист" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
 
 .. image:: /retail_2.0/pics_PRICAT_na_EDI_Network/PRICAT_na_EDI_Network_001.png
    :align: center

@@ -25,7 +25,7 @@
 
 .. початок блоку для Desadv_from_Order
 
-Щоб сформувати "Повідомлення про відвантаження" (DESADV) на підставі "Замовлення" (ORDER) Вам потрібно в меню сервісу **"EDI+ЮЗД"** увійти в папку "Вхідні" і обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+Щоб сформувати "Повідомлення про відвантаження" (DESADV) на підставі "Замовлення" (ORDER) Вам потрібно в меню сервісу **"EDI Network"** увійти в папку "Вхідні" і обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0/DESADV_na_EDI_Network_001.png
    :align: center
@@ -94,7 +94,7 @@
 
 .. початок блоку для Desadv_from_Ordrsp
 
-Щоб сформувати "Повідомлення про відвантаження" (DESADV) на підставі "Підтвердження замовлення" (ORDRSP) Вам потрібно в меню сервісу **"EDI+ЮЗД"** увійти в папку "Надіслані" і обрати "Підтвердження замовлення" (ORDRSP) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+Щоб сформувати "Повідомлення про відвантаження" (DESADV) на підставі "Підтвердження замовлення" (ORDRSP) Вам потрібно в меню сервісу **"EDI Network"** увійти в папку "Надіслані" і обрати "Підтвердження замовлення" (ORDRSP) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0/DESADV_na_EDI_Network_009.png
    :align: center

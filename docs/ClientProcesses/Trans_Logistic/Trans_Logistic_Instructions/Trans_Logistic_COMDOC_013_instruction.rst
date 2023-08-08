@@ -22,9 +22,9 @@
    :start-after: .. початок блоку для Enter
    :end-before: .. кінець блоку для Enter
 
-Після успішної авторизації відкриється основне меню для вибору сервісу платформи EDIN "EDI+ЮЗД":
+Після успішної авторизації відкриється основне меню, де у вкладці **"Продукти та рішення"** EDIN потрібно обрати сервіс **"EDI Network"**:
 
-.. image:: pics_Trans_Logistic_COMDOC_013_instruction/Trans_Logistic_COMDOC_013_instruction_001.png
+.. image:: /_constant/pics_landing/landing_edi.png
    :align: center
 
 2 Формування "Акта виконаних робіт" (COMDOC_013) Постачальником
