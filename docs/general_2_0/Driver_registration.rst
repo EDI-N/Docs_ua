@@ -110,7 +110,7 @@
 .. image:: pics_Driver_registration/Driver_registration_004.png
    :align: center
 
-По закінченню реєстрації автоматично відкривається сторінка сервісу **"EDI+ЮЗД"** (детальніше про функціонал сервісу ви можете дізнатись з нашої `інструкції <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#gln>`__). 
+По закінченню реєстрації автоматично відкривається сторінка сервісу **"EDI Network"** (детальніше про функціонал сервісу ви можете дізнатись з нашої `інструкції <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#gln>`__). 
 
 .. кінець блоку для RegisterThroughCarrier
 

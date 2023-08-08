@@ -33,7 +33,7 @@
 
 .. початок блоку для Proposal_from_Order
 
-Для створення "Заявки на транспортування" на підставі "Замовлення" (ORDER) в сервісі "EDI+ЮЗД" **Замовнику** потрібно перейти у **"Вхідні"** та вибрати "Замовлення" (ORDER), за яким потрібно зробити заявку (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+Для створення "Заявки на транспортування" на підставі "Замовлення" (ORDER) в сервісі "EDI Network" **Замовнику** потрібно перейти у **"Вхідні"** та вибрати "Замовлення" (ORDER), за яким потрібно зробити заявку (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_001.png
    :align: center

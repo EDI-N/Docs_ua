@@ -327,7 +327,7 @@
 .. admonition::
    Для **Покупця**:
 
-   На формі перегляду документа можливо замінити дане `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ **"Новим"** (1) - клонування змісту документа для його подальшого редагування - такий документ додається в ланцюжок документів автоматично (`детальніше <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html#edi-uzd>`__ про інтеграцію з сервісом **"EDI+ЮЗД"**):
+   На формі перегляду документа можливо замінити дане `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ **"Новим"** (1) - клонування змісту документа для його подальшого редагування - такий документ додається в ланцюжок документів автоматично (`детальніше <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html#edi-uzd>`__ про інтеграцію з сервісом **"EDI Network"**):
 
    .. image:: pics_Openprice_instruction/Openprice_instruction_023.png
       :align: center
@@ -335,7 +335,7 @@
 .. admonition::
    Для **Продавця**:
 
-   На формі перегляду документа можливо Ви можете створити **"Підтвердження замовлення" (ORDRSP), "Повідомлення про відвантаження" (DESADV), "Повідомлення про прийом" (RECADV), "Рахунок" (INVOICE), "Видаткову накладну" (COMDOC_006)** (`детальніше <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html#edi-uzd>`__ про інтеграцію з сервісом **"EDI+ЮЗД"**):
+   На формі перегляду документа можливо Ви можете створити **"Підтвердження замовлення" (ORDRSP), "Повідомлення про відвантаження" (DESADV), "Повідомлення про прийом" (RECADV), "Рахунок" (INVOICE), "Видаткову накладну" (COMDOC_006)** (`детальніше <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html#edi-uzd>`__ про інтеграцію з сервісом **"EDI Network"**):
 
    .. image:: pics_Openprice_instruction/Openprice_instruction_042.png
       :align: center

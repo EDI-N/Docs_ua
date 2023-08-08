@@ -57,9 +57,9 @@
    :start-after: .. початок блоку для Enter
    :end-before: .. кінець блоку для Enter
 
-Після успішної авторизації відкриється основне меню, де у вкладці **"Продукти та рішення"** EDIN потрібно обрати сервіс **"EDI+ЮЗД"**:
+Після успішної авторизації відкриється основне меню, де у вкладці **"Продукти та рішення"** EDIN потрібно обрати сервіс **"EDI Network"**:
 
-.. image:: pics_Auchan_comdoc_013_016_condra/Auchan_comdoc_013_016_condra_001.png
+.. image:: /_constant/pics_landing/landing_edi.png
    :align: center
 
 2 Отримання "Рахунку-фактури" (COMDOC_016)

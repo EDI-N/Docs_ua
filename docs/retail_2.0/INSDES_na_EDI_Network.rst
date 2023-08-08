@@ -26,7 +26,7 @@
 
 .. початок блоку для Insdes_from_zero
 
-Для формування "Інструкції з доставки" (INSDES) користувачу в меню сервісу **"EDI+ЮЗД"** потрібно натиснути кнопку **"Створити"** та обрати документ "Інструкція з доставки" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
+Для формування "Інструкції з доставки" (INSDES) користувачу в меню сервісу **"EDI Network"** потрібно натиснути кнопку **"Створити"** та обрати документ "Інструкція з доставки" (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за назвою документа):
 
 .. image:: /retail_2.0/pics_INSDES_na_EDI_Network/INSDES_na_EDI_Network_001.png
    :align: center
