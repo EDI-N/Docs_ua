@@ -118,7 +118,7 @@
 Таблиця 7 - Опис параметрів об'єкта **XDocAttachment**
 
 .. csv-table:: 
-  :file: for_csv/XDocAttachment.csv
+  :file: ../../../../API_ETTN/Methods/EveryBody/for_csv/XDocAttachment.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
@@ -188,7 +188,7 @@
 Таблиця 15 - Опис параметрів об'єкта **XDocAttachmentSign**
 
 .. csv-table:: 
-  :file: for_csv/XDocAttachmentSign.csv
+  :file: ../../../../API_ETTN/Methods/EveryBody/for_csv/XDocAttachmentSign.csv
   :widths:  1, 19, 41
   :header-rows: 1
   :stub-columns: 0
