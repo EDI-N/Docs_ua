@@ -1668,11 +1668,6 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: pics_PCInstruction/PCInstruction_341.png
    :align: center
 
-Відібрати всіх :green:`Підключених` / :red:`Не підключених` до платформи **Водіїв** зручно за допомогою фільтра:
-
-.. image:: pics_PCInstruction/PCInstruction_323.png
-   :align: center
-
 .. _catalogues: 
 
 **3 Довідники**
