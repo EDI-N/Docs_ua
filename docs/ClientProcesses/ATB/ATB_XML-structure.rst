@@ -29,7 +29,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 7, 29, 37
   :header-rows: 1
 
-:download:`Приклад ORDER</ClientProcesses/ATB/ATB_XML/examples/ORDERS_example.xml>`
+:download:`XML-Приклад ORDER</ClientProcesses/ATB/ATB_XML/examples/ORDERS_example.xml>`
+
+:download:`JSON-Приклад ORDER</ClientProcesses/ATB/ATB_XML/examples/ORDERS.json>`
 
 ---------
 
@@ -41,7 +43,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRSP</ClientProcesses/ATB/ATB_XML/examples/ORDRSP_example.xml>`
+:download:`XML-Приклад ORDRSP</ClientProcesses/ATB/ATB_XML/examples/ORDRSP_example.xml>`
+
+:download:`JSON-Приклад ORDRSP</ClientProcesses/ATB/ATB_XML/examples/ORDRSP.json>`
 
 ---------
 
@@ -53,7 +57,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 7, 29, 37
   :header-rows: 1
 
-:download:`Приклад DESADV</ClientProcesses/ATB/ATB_XML/examples/DESADV_example.xml>`
+:download:`XML-Приклад DESADV</ClientProcesses/ATB/ATB_XML/examples/DESADV_example.xml>`
+
+:download:`JSON-Приклад DESADV</ClientProcesses/ATB/ATB_XML/examples/DESADV.json>`
 
 .. кінець блоку для International_transportation_specs1
 
@@ -67,7 +73,7 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_035<ATB_XML/examples/COMDOC_035.xml>`
+:download:`XML-Приклад COMDOC_035<ATB_XML/examples/COMDOC_035.xml>`
 
 ---------
 
@@ -79,7 +85,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_006<ATB_XML/examples/COMDOC_006.xml>`
+:download:`XML-Приклад COMDOC_006<ATB_XML/examples/COMDOC_006.xml>`
+
+:download:`JSON-Приклад COMDOC_006<ATB_XML/examples/COMDOC_006.json>`
 
 ---------
 
@@ -91,7 +99,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_019<ATB_XML/examples/comdoc_019_anuluvannya.xml>`
+:download:`XML-Приклад COMDOC_019<ATB_XML/examples/comdoc_019_anuluvannya.xml>`
+
+:download:`JSON-Приклад COMDOC_019<ATB_XML/examples/COMDOC_019.json>`
 
 ---------
 
@@ -103,9 +113,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_021 - відмова від підписання<ATB_XML/examples/comdoc_021_otkaz+.xml>`
+:download:`XML-Приклад COMDOC_021 - відмова від підписання<ATB_XML/examples/comdoc_021_otkaz+.xml>`
 
-:download:`Приклад COMDOC_021 - відклик підпису<ATB_XML/examples/comdoc_021_otziv+.xml>`
+:download:`XML-Приклад COMDOC_021 - відклик підпису<ATB_XML/examples/comdoc_021_otziv+.xml>`
 
 ---------
 
@@ -117,7 +127,7 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_032<ATB_XML/examples/COMDOC_032.xml>`
+:download:`XML-Приклад COMDOC_032<ATB_XML/examples/COMDOC_032.xml>`
 
 ---------
 
@@ -129,7 +139,7 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_033<ATB_XML/examples/COMDOC_033.xml>`
+:download:`XML-Приклад COMDOC_033<ATB_XML/examples/COMDOC_033.xml>`
 
 ---------
 
@@ -141,7 +151,7 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`Приклад COMDOC_034<ATB_XML/examples/COMDOC_034.xml>`
+:download:`XML-Приклад COMDOC_034<ATB_XML/examples/COMDOC_034.xml>`
 
 -------------------------
 

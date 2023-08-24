@@ -25,6 +25,7 @@
       <TaxID>1010101016</TaxID>
       <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
       <Name>FelEx_1</Name>
+      <IBAN>UA613808050000000026004439987</IBAN>
     </Seller>
     <DeliveryPoint>
       <ILN>4824034000005</ILN>
@@ -58,25 +59,9 @@
         <NetAmount>36.00</NetAmount>
       </Line-Item>
     </Line>
-    <Line>
-      <Line-Item>
-        <LineNumber>2</LineNumber>
-        <EAN>4820000000001</EAN>
-        <BuyerItemCode>212121212</BuyerItemCode>
-        <ExternalItemCode>1233</ExternalItemCode>
-        <ItemDescription>Пив ко</ItemDescription>
-        <InvoiceQuantity>3</InvoiceQuantity>
-        <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
-        <InvoiceUnitNetPrice>5.68000</InvoiceUnitNetPrice>
-        <TaxRate>20</TaxRate>
-        <GrossAmount>20.46</GrossAmount>
-        <TaxAmount>3.42</TaxAmount>
-        <NetAmount>17.04</NetAmount>
-      </Line-Item>
-    </Line>
   </Invoice-Lines>
   <Invoice-Summary>
-    <TotalLines>2</TotalLines>
+    <TotalLines>1</TotalLines>
     <TotalNetAmount>53.04</TotalNetAmount>
     <TotalTaxAmount>10.62</TotalTaxAmount>
     <TotalGrossAmount>63.66</TotalGrossAmount>

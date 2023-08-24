@@ -6,18 +6,15 @@
     <DocumentFunctionCode>DRN</DocumentFunctionCode>
     <ContractNumber>102030</ContractNumber>
     <ContractDate>2022-06-28</ContractDate>
-    <InvoiceQuantity>3</InvoiceQuantity>
-    <InvoiceSequences>3</InvoiceSequences>
   </Invoice-Header>
   <Invoice-Reference>
     <Order>
       <BuyerOrderNumber>951_ord</BuyerOrderNumber>
       <BuyerOrderDate>2022-06-28</BuyerOrderDate>
     </Order>
-    <Invoice>
-      <OriginalInvoiceNumber>123457</OriginalInvoiceNumber>
-      <OriginalInvoiceDate>2022-01-24</OriginalInvoiceDate>
-    </Invoice>
+  <DespatchAdvice>
+      <DespatchAdviceNumber>2936_des_1</DespatchAdviceNumber>
+  </DespatchAdvice>
   </Invoice-Reference>
   <Invoice-Parties>
     <Buyer>
@@ -42,10 +39,6 @@
     </DeliveryPoint>
     <Payer>
       <ILN>9864065732211</ILN>
-      <Name>FelEx_2</Name>
-      <CityName>г. Николаев</CityName>
-      <StreetAndNumber>ул. Вуличка, 7</StreetAndNumber>
-      <PostalCode></PostalCode>
     </Payer>
   </Invoice-Parties>
   <Invoice-Lines>
@@ -59,33 +52,16 @@
         <InvoiceQuantity>1</InvoiceQuantity>
         <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
         <InvoiceUnitGrossPrice>16.28</InvoiceUnitGrossPrice>
-        <InvoiceUnitNetPrice>13.57000</InvoiceUnitNetPrice>
-        <TaxRate>20.00</TaxRate>
+        <InvoiceUnitNetPrice>13.57</InvoiceUnitNetPrice>
+        <TaxRate>20</TaxRate>
         <GrossAmount>48.84</GrossAmount>
         <TaxAmount>8.13</TaxAmount>
         <NetAmount>40.71</NetAmount>
       </Line-Item>
     </Line>
-    <Line>
-      <Line-Item>
-        <LineNumber>2</LineNumber>
-        <EAN>4820000000001</EAN>
-        <BuyerItemCode>212121212</BuyerItemCode>
-        <ExternalItemCode>1233</ExternalItemCode>
-        <ItemDescription>Пив ко</ItemDescription>
-        <InvoiceQuantity>3</InvoiceQuantity>
-        <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
-        <InvoiceUnitGrossPrice>6.82</InvoiceUnitGrossPrice>
-        <InvoiceUnitNetPrice>5.68000</InvoiceUnitNetPrice>
-        <TaxRate>20</TaxRate>
-        <GrossAmount>20.46</GrossAmount>
-        <TaxAmount>3.42</TaxAmount>
-        <NetAmount>17.04</NetAmount>
-      </Line-Item>
-    </Line>
   </Invoice-Lines>
   <Invoice-Summary>
-    <TotalLines>2</TotalLines>
+    <TotalLines>1</TotalLines>
     <TotalNetAmount>57.75</TotalNetAmount>
     <TotalTaxAmount>11.55</TotalTaxAmount>
     <TotalGrossAmount>69.30</TotalGrossAmount>
