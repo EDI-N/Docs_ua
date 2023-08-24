@@ -19,7 +19,9 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDER<Modern_Expo_XML/examples/ORDER_MODERN-EXPO_example.xml>`
+:download:`XML-Приклад ORDER<Modern_Expo_XML/examples/ORDER_MODERN-EXPO_example.xml>`
+
+:download:`JSON-Приклад ORDER<Modern_Expo_XML/examples/ORDER_MODERN-EXPO.json>`
 
 ---------
 
@@ -31,7 +33,9 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRSP<Modern_Expo_XML/examples/ORDRSP_MODERN-EXPO_example.xml>`
+:download:`XML-Приклад ORDRSP<Modern_Expo_XML/examples/ORDRSP_MODERN-EXPO_example.xml>`
+
+:download:`JSON-Приклад ORDRSP<Modern_Expo_XML/examples/ORDRSP_MODERN-EXPO.json>`
 
 ---------
 
@@ -43,7 +47,9 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад INVOICE<Modern_Expo_XML/examples/INVOICE_MODERN-EXPO_example.xml>`
+:download:`XML-Приклад INVOICE<Modern_Expo_XML/examples/INVOICE_MODERN-EXPO_example.xml>`
+
+:download:`JSON-Приклад INVOICE<Modern_Expo_XML/examples/INVOICE_MODERN-EXPO.json>`
 
 ---------
 
@@ -55,7 +61,11 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_006<../../XML/examples/comdoc_006_example.xml>`
+:download:`XML-Приклад COMDOC_006<Modern_Expo_XML/examples/COMDOC_006_MODERN-EXPO_example.xml>`
+
+:download:`JSON-Приклад COMDOC_006<Modern_Expo_XML/examples/COMDOC_006_MODERN-EXPO.json>`
+
+.. old :download:`Приклад COMDOC_006<../../XML/examples/comdoc_006_example.xml>`
 
 ---------
 
@@ -67,7 +77,9 @@ XML Специфікації для роботи з мережею "Modern-Expo"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад COMDOC_008<Modern_Expo_XML/examples/comdoc_008_MODERN-EXPO_example.xml>`
+:download:`XML-Приклад COMDOC_008<Modern_Expo_XML/examples/comdoc_008_MODERN-EXPO_example.xml>`
+
+:download:`JSON-Приклад COMDOC_008<Modern_Expo_XML/examples/COMDOC_008_MODERN-EXPO.json>`
 
 -------------------------
 

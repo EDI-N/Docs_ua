@@ -13,7 +13,9 @@ XML Специфікації для роботи з Мережею "Укрнаф
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Видаткової накладної" (DOCUMENTINVOICE)<UkrNafta_XML/examples/DOCUMENTINVOICE_example.xml>`
+:download:`XML-Приклад "Видаткової накладної" (DOCUMENTINVOICE)<UkrNafta_XML/examples/DOCUMENTINVOICE_example.xml>`
+
+:download:`JSON-Приклад "Видаткової накладної" (DOCUMENTINVOICE)<UkrNafta_XML/examples/DOCUMENTINVOICE.json>`
 
 ---------
 
@@ -25,7 +27,9 @@ XML Специфікації для роботи з Мережею "Укрнаф
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад Підтвердження замовлення (ORDRSP)<UkrNafta_XML/examples/ORDRSP_example.xml>`
+:download:`XML-Приклад Підтвердження замовлення (ORDRSP)<UkrNafta_XML/examples/ORDRSP_example.xml>`
+
+:download:`JSON-Приклад Підтвердження замовлення (ORDRSP)<UkrNafta_XML/examples/ORDRSP.json>`
 
 ---------
 
@@ -37,7 +41,9 @@ XML Специфікації для роботи з Мережею "Укрнаф
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад Повідомлення про відвантаження (DESADV)<UkrNafta_XML/examples/DESADV_example.xml>`
+:download:`XML-Приклад Повідомлення про відвантаження (DESADV)<UkrNafta_XML/examples/DESADV_example.xml>`
+
+:download:`JSON-Приклад Повідомлення про відвантаження (DESADV)<UkrNafta_XML/examples/DESADV.json>`
 
 -------------------------
 

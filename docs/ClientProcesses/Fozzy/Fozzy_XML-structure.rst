@@ -13,7 +13,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDER<Fozzy_XML/examples/ORDERS_example.xml>`
+:download:`XML-Приклад ORDER<Fozzy_XML/examples/ORDERS_example.xml>`
+
+:download:`JSON-Приклад ORDER<Fozzy_XML/examples/ORDERS.json>`
 
 ---------
 
@@ -25,7 +27,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад ORDRSP<Fozzy_XML/examples/ORDRSP_example.xml>`
+:download:`XML-Приклад ORDRSP<Fozzy_XML/examples/ORDRSP_example.xml>`
+
+:download:`JSON-Приклад ORDRSP<Fozzy_XML/examples/ORDRSP.json>`
 
 ---------
 
@@ -37,7 +41,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад IFTMIN<Fozzy_XML/examples/IFTMIN_example.xml>`
+:download:`XML-Приклад IFTMIN<Fozzy_XML/examples/IFTMIN_example.xml>`
+
+:download:`JSON-Приклад IFTMIN<Fozzy_XML/examples/IFTMIN.json>`
 
 ---------
 
@@ -49,7 +55,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)<Fozzy_XML/examples/DOCUMENTINVOICE_TN_example.xml>`
+:download:`XML-Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)<Fozzy_XML/examples/DOCUMENTINVOICE_TN_example.xml>`
+
+:download:`JSON-Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)<Fozzy_XML/examples/DOCUMENTINVOICE_TN.json>`
 
 ---------
 
@@ -61,7 +69,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN_example.xml>`
+:download:`XML-Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN_example.xml>`
+
+:download:`JSON-Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN.json>`
 
 ---------
 
@@ -73,7 +83,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Акта невідповідності" (COMDOC_009)<Fozzy_XML/examples/COMDOC_009_example.xml>`
+:download:`XML-Приклад "Акта невідповідності" (COMDOC_009)<Fozzy_XML/examples/COMDOC_009_example.xml>`
+
+:download:`JSON-Приклад "Акта невідповідності" (COMDOC_009)<Fozzy_XML/examples/COMDOC_009.json>`
 
 ---------
 
@@ -85,7 +97,9 @@ XML Специфікації для роботи з мережею "Фоззі"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад DOCCORINVOICE<Fozzy_XML/examples/DOCCORINVOICE_example.xml>`
+:download:`XML-Приклад DOCCORINVOICE<Fozzy_XML/examples/DOCCORINVOICE_example.xml>`
+
+:download:`JSON-Приклад DOCCORINVOICE<Fozzy_XML/examples/DOCCORINVOICE.json>`
 
 -------------------------
 

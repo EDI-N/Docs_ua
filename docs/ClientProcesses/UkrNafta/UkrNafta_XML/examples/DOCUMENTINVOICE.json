@@ -1,0 +1,70 @@
+{
+    "Document-Invoice": {
+        "Invoice-Header": {
+            "InvoiceNumber": "ftp_951_DRN_4",
+            "InvoiceDate": "2022-06-28",
+            "DocumentFunctionCode": "DRN",
+            "ContractNumber": "102030",
+            "ContractDate": "2022-06-28"
+        },
+        "Invoice-Reference": {
+            "Order": {
+                "BuyerOrderNumber": "951_ord",
+                "BuyerOrderDate": "2022-06-28"
+            },
+            "DespatchAdvice": {
+                "DespatchAdviceNumber": "2936_des_1"
+            }
+        },
+        "Invoice-Parties": {
+            "Buyer": {
+                "ILN": "9864065732211",
+                "TaxID": "1234445670",
+                "UtilizationRegisterNumber": "12345670",
+                "Name": "FelEx_2"
+            },
+            "Seller": {
+                "ILN": "9864065732181",
+                "TaxID": "1010101016",
+                "IBAN": "UA903052992990004149123456789",
+                "UtilizationRegisterNumber": "34554363",
+                "Name": "FelEx_1"
+            },
+            "DeliveryPoint": {
+                "ILN": "9864065732211",
+                "Name": "FelEx_2",
+                "CityName": "г. Николаев",
+                "StreetAndNumber": "ул. Вуличка, 7",
+                "PostalCode": ""
+            },
+            "Payer": {
+                "ILN": "9864065732211"
+            }
+        },
+        "Invoice-Lines": {
+            "Line": {
+                "Line-Item": {
+                    "LineNumber": "1",
+                    "EAN": "1234567890000",
+                    "BuyerItemCode": "2222222220",
+                    "ExternalItemCode": "1111",
+                    "ItemDescription": "Вот ка",
+                    "InvoiceQuantity": "1",
+                    "BuyerUnitOfMeasure": "шт",
+                    "InvoiceUnitGrossPrice": "16.28",
+                    "InvoiceUnitNetPrice": "13.57",
+                    "TaxRate": "20",
+                    "GrossAmount": "48.84",
+                    "TaxAmount": "8.13",
+                    "NetAmount": "40.71"
+                }
+            }
+        },
+        "Invoice-Summary": {
+            "TotalLines": "1",
+            "TotalNetAmount": "57.75",
+            "TotalTaxAmount": "11.55",
+            "TotalGrossAmount": "69.30"
+        }
+    }
+}

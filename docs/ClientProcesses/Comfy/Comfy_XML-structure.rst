@@ -13,7 +13,9 @@ XML Специфікації для роботи з Мережею "Comfy"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Підтвердження замовлення" (ORDRSP)<Comfy_XML/examples/ORDRSP_example.xml>`
+:download:`XML-Приклад "Підтвердження замовлення" (ORDRSP)<Comfy_XML/examples/ORDRSP_example.xml>`
+
+:download:`JSON-Приклад "Підтвердження замовлення" (ORDRSP)<Comfy_XML/examples/ORDRSP.json>`
 
 ---------
 
@@ -25,7 +27,9 @@ XML Специфікації для роботи з Мережею "Comfy"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Прайс-листа" (PRICAT)<Comfy_XML/examples/PRICAT_example.xml>`
+:download:`XML-Приклад "Прайс-листа" (PRICAT)<Comfy_XML/examples/PRICAT_example.xml>`
+
+:download:`JSON-Приклад "Прайс-листа" (PRICAT)<Comfy_XML/examples/PRICAT.json>`
 
 ---------
 
@@ -37,7 +41,9 @@ XML Специфікації для роботи з Мережею "Comfy"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Видаткової накладної" (COMDOC_006)<Comfy_XML/examples/comdoc_006_example.xml>`
+:download:`XML-Приклад "Видаткової накладної" (COMDOC_006)<Comfy_XML/examples/comdoc_006_example.xml>`
+
+:download:`JSON-Приклад "Видаткової накладної" (COMDOC_006)<Comfy_XML/examples/comdoc_006.json>`
 
 -------------------------
 

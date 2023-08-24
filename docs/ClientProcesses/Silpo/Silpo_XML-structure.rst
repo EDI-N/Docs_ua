@@ -21,6 +21,10 @@ XML Специфікації для роботи з Сільпо
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`XML-Приклад ORDER<Silpo_XML/examples/ORDER.xml>`
+
+:download:`JSON-Приклад ORDER<Silpo_XML/examples/ORDER.json>`
+
 ---------
 
 Підтвердження замовлення (ORDRSP)
@@ -30,6 +34,10 @@ XML Специфікації для роботи з Сільпо
   :file: Silpo_XML/files/ORDRSP.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`XML-Приклад ORDRSP<Silpo_XML/examples/ORDRSP.xml>`
+
+:download:`JSON-Приклад ORDRSP<Silpo_XML/examples/ORDRSP.json>`
 
 ---------
 
@@ -41,6 +49,10 @@ XML Специфікації для роботи з Сільпо
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
+:download:`XML-Приклад DESADV<Silpo_XML/examples/DESADV.xml>`
+
+:download:`JSON-Приклад DESADV<Silpo_XML/examples/DESADV.json>`
+
 ---------
 
 Повідомлення про прийом (RECADV)
@@ -50,6 +62,10 @@ XML Специфікації для роботи з Сільпо
   :file: Silpo_XML/files/RECADV.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`XML-Приклад RECADV<Silpo_XML/examples/RECADV.xml>`
+
+:download:`JSON-Приклад RECADV<Silpo_XML/examples/RECADV.json>`
 
 ---------
 
@@ -61,7 +77,9 @@ XML Специфікації для роботи з Сільпо
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад IFTMIN<Silpo_XML/examples/IFTMIN_example.xml>`
+:download:`XML-Приклад IFTMIN<Silpo_XML/examples/IFTMIN_example.xml>`
+
+:download:`JSON-Приклад IFTMIN<Silpo_XML/examples/IFTMIN.json>`
 
 ---------
 
@@ -75,6 +93,10 @@ XML Специфікації для роботи з Сільпо
 
 .. include:: units_comdoc.rst
 
+:download:`XML-Приклад COMDOC_009<Silpo_XML/examples/COMDOC_009.xml>`
+
+:download:`JSON-Приклад COMDOC_009<Silpo_XML/examples/COMDOC_009.json>`
+
 ---------
 
 Звіт про відвантаження (CONTRL)
@@ -84,6 +106,10 @@ XML Специфікації для роботи з Сільпо
   :file: Silpo_XML/files/CONTRL.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+:download:`XML-Приклад CONTRL<Silpo_XML/examples/CONTRL.xml>`
+
+:download:`JSON-Приклад CONTRL<Silpo_XML/examples/CONTRL.json>`
 
 .. сеть запретила следующий документ
   Накладна за кількістю (DOCUMENTINVOICE)
