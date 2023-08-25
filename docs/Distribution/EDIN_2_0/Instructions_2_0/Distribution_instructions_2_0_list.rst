@@ -3,13 +3,13 @@
    
 .. toctree::
    :maxdepth: 1
-   :caption: EDIN-Distribution
+   :caption: EDIN Маркет (web)
    
    Instruktsiia_dlia_vyrobnyka
    Instruktsiia_dlia_dystrybiutora
    
 .. toctree::
    :maxdepth: 1
-   :caption: EDIN Market
+   :caption: EDIN Market (app)
    
    EDIN_Market
