@@ -13,7 +13,9 @@ XML Специфікації для роботи з компанією "Тран
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Акта виконаних робіт" (COMDOC_013)<Trans_Logistic_XML/examples/COMDOC_013_example.xml>`
+:download:`XML-Приклад "Акта виконаних робіт" (COMDOC_013)<Trans_Logistic_XML/examples/COMDOC_013_example.xml>`
+
+:download:`JSON-Приклад "Акта виконаних робіт" (COMDOC_013)<Trans_Logistic_XML/examples/COMDOC_013_example.json>`
 
 -------------------------
 
