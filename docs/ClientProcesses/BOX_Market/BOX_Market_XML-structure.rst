@@ -13,7 +13,9 @@ XML Специфікації для роботи з Мережею "BOX Market"
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Видаткової накладної" (DOCUMENTINVOICE)<BOX_Market_XML/examples/DOCUMENTINVOICE_example.xml>`
+:download:`XML-Приклад "Видаткової накладної" (DOCUMENTINVOICE)<BOX_Market_XML/examples/DOCUMENTINVOICE_example.xml>`
+
+:download:`JSON-Приклад "Видаткової накладної" (DOCUMENTINVOICE)<BOX_Market_XML/examples/DOCUMENTINVOICE_example.json>`
 
 -------------------------
 

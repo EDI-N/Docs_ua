@@ -29,7 +29,7 @@
 **1 Самостійна реєстрація Водія**
 ================================================
 
-Для самостійної реєстрації на платформі EDI Network **Водію** необхідно перейти за посиланням https://edo-v2.edin.ua/driver-register :
+Для самостійної реєстрації на платформі EDI Network **Водію** необхідно перейти за `посиланням <https://edo-v2.edin.ua/driver-register?source=driver_wiki>`__:
 
 .. image:: pics_User_registration/User_registration_023.png
    :align: center
