@@ -53,6 +53,8 @@
 
 .. |edit_pencil| image:: /_constant/icons/edit_pencil.png
 
+.. |delegation| image:: /_constant/icons/delegation.png
+
 .. contents:: Зміст:
    :depth: 4
 

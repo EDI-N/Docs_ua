@@ -37,6 +37,8 @@
 
 .. |bad_doc| image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_066.png
 
+.. |delegation| image:: /_constant/icons/delegation.png
+
 .. role:: red
 
 .. role:: green
@@ -298,9 +300,22 @@
 .. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_080.png
    :align: center
 
-Лише відповідальному учаснику погодження на формі перегляду документа відображаються кнопки прийняття рішення (**"Погодити"** чи **"Відхилити"**):
+Лише відповідальному учаснику на його кроці погодження на формі перегляду документа відображаються кнопки прийняття рішення (**"Погодити"** чи **"Відхилити"**):
 
 .. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_081.png
+   :align: center
+
+Також лише відповідальному учаснику на його кроці погодження доступне делегування (|delegation|). При натисканні на кнопку відкривається модальне вікно зі списком усіх користувачів (без поточного), що мають прив'язку до одного GLN (**Особистий кабінет->Налаштування->GLN->Форма редагування GLN->** `Пов'язані користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-user>`__), на яких можливо перекласти прийняття рішення Погодження:
+
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_093.png
+   :align: center
+
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_094.png
+   :align: center
+
+Після делегування змінюється відповідальний учасник (лише йому відобраються кнопки прийняття рішення **"Погодити"** / **"Відхилити"**), відображається "Список попередніх делегатів":
+
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_095.png
    :align: center
 
 .. кінець блоку для Block_to_ATS_002
