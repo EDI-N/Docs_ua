@@ -127,7 +127,7 @@
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**id**.schemeAgencyID,M,string,КАТОТТГ пункту навантаження
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**id**.value,M,decimal,Значення
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.name,M,string,Найменування пункту навантаження
-**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.typeCode,M,string,Тип операції: 5 - навантаження; 10 - розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.typeCode,M,string,Тип операції: 10 - навантаження; 5 - розвантаження
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.description,M,string,Опис (адреса) пункту навантаження
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**physicalGeographicalCoordinate**.latitudeMeasure,O,string,Географічні координати (Широта)
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**physicalGeographicalCoordinate**.longitudeMeasure,O,string,Географічні координати (Довгота)
@@ -136,7 +136,7 @@
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**id**.schemeAgencyID,M,string,КАТОТТГ пункту розвантаження
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**id**.value,M,decimal,Значення
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.name,M,string,Найменування пункту розвантаження
-**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.typeCode,M,string,Тип операції: 5 - навантаження; 10 - розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.typeCode,M,string,Тип операції: 10 - навантаження; 5 - розвантаження
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.description,M,string,Опис (адреса) пункту розвантаження
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**physicalGeographicalCoordinate**.latitudeMeasure,O,string,Географічні координати (Широта)
 **UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**physicalGeographicalCoordinate**.longitudeMeasure,O,string,Географічні координати (Довгота)

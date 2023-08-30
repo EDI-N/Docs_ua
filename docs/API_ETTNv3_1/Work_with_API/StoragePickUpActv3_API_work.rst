@@ -11,7 +11,7 @@
 
 ----------------------------------------------------
 
-.. image:: pics/StoragePickUpActv3_API_work_003.png
+.. image:: pics/StoragePickUpActv3_API_work_004.png
    :align: center
    :width: 900px
 
