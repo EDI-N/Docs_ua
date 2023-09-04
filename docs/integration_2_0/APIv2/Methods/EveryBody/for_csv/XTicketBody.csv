@@ -14,9 +14,13 @@ transactionType,int,"тип транзакції
 * 14 - відкликати підписання
 * 15 - відмова від анулювання
 
-Для ЕТТН:
+Для ЕТТН v2:
 
-значення співпадають з `sub_status_id <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__, однак в квитанціях використовуються не всі"
+значення співпадають з `sub_status_id <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/extraFields_sub_status.html>`__, однак в квитанціях використовуються не всі
+
+Для ЕТТН v3:
+
+значення співпадають з `sub_status_id <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/EveryBody/extraFields_sub_status_v3.html>`__"
 type,int,тип квитанції 
 version,int,версія; використовується для підрахунку кількості анулювань
 content,byte[],вміст тіла квитанції 
