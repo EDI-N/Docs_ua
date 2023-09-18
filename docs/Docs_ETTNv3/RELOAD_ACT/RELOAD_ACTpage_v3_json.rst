@@ -236,7 +236,7 @@
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPbzkPgNe3yqDqIzd_3PyYlNGPbaL27tiF7z5CPd5iexGV74qv6KkAGquRrJL9OQ/pubhtml?gid=254043882&single=true" width="1100" height="8700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPbzkPgNe3yqDqIzd_3PyYlNGPbaL27tiF7z5CPd5iexGV74qv6KkAGquRrJL9OQ/pubhtml?gid=254043882&single=true" width="1100" height="5100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 -------------------------
@@ -469,10 +469,10 @@
 
 .. old style
 
-Таблиця 1 - Специфікація "Акта перевантаження" (JSON)
+    Таблиця 1 - Специфікація "Акта перевантаження" (JSON)
 
-.. csv-table:: 
-  :file: for_csv/reload_act_v3_json.csv
-  :widths:  1, 1, 5, 12, 41
-  :header-rows: 1
-  :stub-columns: 0
+    .. csv-table:: 
+    :file: for_csv/reload_act_v3_json.csv
+    :widths:  1, 1, 5, 12, 41
+    :header-rows: 1
+    :stub-columns: 0
