@@ -42,12 +42,14 @@ EDIN | Електронний документообіг для бізнесу
    E_SPEC/EDIN_2_0/API_2_0/E_SPEC_API_2_0_list
    E_SPEC/EDIN_2_0/XML/XML_structure
 
-.. toctree::
-   :maxdepth: 2
-   :caption: 🛍️ Є-Товар
+.. deprecated
 
-   Інструкція <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html>
-   API_Openprice/API_Openprice_list
+   .. toctree::
+      :maxdepth: 2
+      :caption: 🛍️ Є-Товар
+
+      Інструкція <https://wiki.edin.ua/uk/latest/Openprice/Instructions/Openprice_instruction.html>
+      API_Openprice/API_Openprice_list
 
 .. toctree::
    :maxdepth: 2
