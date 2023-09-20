@@ -176,4 +176,37 @@ gln [%s] не є gln-ом водія"
 400,MINTRANS_ERROR,TTN_ERR-59,"MINTRANS_ERROR: [%s]
 
 Помилка від Мінтранс: [%s]"
+400,FAIL_TO_PARSE_CONTENT,TTN_ERR-60,"Fail to parse content in field [%s]
+
+Не вдалося опрацювати контент у полі [%s]"
+400,INVALID_SIGN_FORMAT_ERROR,TTN_ERR-61,"INVALID_SIGN_FORMAT, CADES_X_LONG is expected
+
+Некоректний форма підпису, допустимий лише CADES_X_LONG"
+400,GLN_ADDRESS_NOT_FOUND,TTN_ERR-62,"Gln for address [%s] not found
+
+Не вдалося визначити gln для адреси [%s]"
+400,KATOTTG_MISMATCH,TTN_ERR-63,"katottg [%s] in gln [%s] and document [%s] are different
+
+катоттг [%s] в gln [%s] та документі [%s] відрізняються"
+400,SIGN_CONTAINER_IS_EMPTY,TTN_ERR-64,"Signs not found
+
+В документі відсутні підписи"
+400,XSD_VALIDATION_ERROR,TTN_ERR-65,"xsd validation error: [%s]
+
+Помилка при валідації за xsd: [%s]"
+400,APPLICATION_XML_CONTENT_TYPE_EXPECTED,TTN_ERR-66,"Setup correct content type in request. Use 'application/xml'
+
+Вкажіть content type в запиті. Використовуйте  «application/xml»."
+400,XML_BODY_IS_NOT_CANONICAL,TTN_ERR-67,"xml body is not canonical or invalid
+
+xml тіло не канонізоване або некоректне"
+400,DOCUMENT_VALIDATION_ERROR,TTN_ERR-68,"Validation document errors: [%s]
+
+Документ містить помилки: [%s]"
+400,DOCUMENT_XSD_VALIDATION_ERROR,TTN_ERR-69,"XSD Validation document error: [%s]
+
+Помилка валідації документа за XSD: [%s]"
+400,DRIVER_RESP_PERSON_NTO_FOUND,TTN_ERR-70,"No person with the driver's TIN was found among the responsible persons of the carrier
+
+Серед відповідальних осіб перевізника не знайдено особу з ІПН водія"
 500,Internal server error: sd898sdf63,,Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної підтримки: `support@edin.ua <mailto:support@edin.ua>`__)
