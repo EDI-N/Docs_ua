@@ -29,6 +29,12 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
+   :caption: 🚚 EDIN Driver
+
+   Driver/Instructions_list
+
+.. toctree::
+   :maxdepth: 2
    :caption: 🫱‍🫲 Комерційна пропозиція
 
    Commercial_offers/Instructions/C_O_instructions_list
