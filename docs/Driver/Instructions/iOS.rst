@@ -9,10 +9,10 @@
 .. |green_trash| image:: /_constant/icons/green_trash.png
 
 .. |apple_logo| image:: /_constant/icons/apple_logo.png
-                  :height: 16px
+                  :height: 30px
 
 .. |app-store| image:: /_constant/icons/app-store.png
-                  :height: 16px
+                  :height: 35px
                   :target: https://apps.apple.com/ua/app/edin-driver-signing-waybill/id1658986357
 
 .. contents:: Зміст:
