@@ -13,6 +13,7 @@
 
 .. |google-play| image:: /_constant/icons/google-play.png
                   :height: 16px
+                  :target: https://play.google.com/store/apps/details?id=org.edin.edin_driver
 
 .. contents:: Зміст:
    :depth: 5
@@ -27,7 +28,7 @@
 1 Встановлення додатка **"EDIN Driver"**
 ==============================================
 
-Для встановлення додатка **"EDIN Driver"** натисніть на кнопку `|google-play| <https://play.google.com/store/apps/details?id=org.edin.edin_driver>`__ чи самостійно знайдіть віджет за назвою в **"Google Play Market"**. Далі потрібно **"Установити"** додаток:
+Для встановлення додатка **"EDIN Driver"** натисніть на кнопку |google-play| чи самостійно знайдіть віджет за назвою в **"Google Play Market"**. Далі потрібно **"Установити"** додаток:
 
 .. image:: pics_Android/Android_001.png
    :align: center

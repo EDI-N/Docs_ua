@@ -8,11 +8,12 @@
 
 .. |green_trash| image:: /_constant/icons/green_trash.png
 
-.. |apple_logo| image:: /_constant/icons/iOS_logo.png
+.. |apple_logo| image:: /_constant/icons/apple_logo.png
                   :height: 16px
 
 .. |app-store| image:: /_constant/icons/app-store.png
                   :height: 16px
+                  :target: https://apps.apple.com/ua/app/edin-driver-signing-waybill/id1658986357
 
 .. contents:: Зміст:
    :depth: 5
@@ -27,7 +28,7 @@
 1 Встановлення додатка **"EDIN Driver"**
 ==============================================
 
-Для встановлення додатка **"EDIN Driver"** натисніть на кнопку `|app-store| <https://apps.apple.com/ua/app/edin-driver-signing-waybill/id1658986357>`__ чи самостійно знайдіть віджет за назвою в **"Apple App Store"**. Далі потрібно **"Отримати"** додаток (потребує підтвердження):
+Для встановлення додатка **"EDIN Driver"** натисніть на кнопку |app-store| чи самостійно знайдіть віджет за назвою в **"Apple App Store"**. Далі потрібно **"Отримати"** додаток (потребує підтвердження):
 
 .. image:: pics_iOS/iOS_001.png
    :align: center
