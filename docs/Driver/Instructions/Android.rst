@@ -9,10 +9,10 @@
 .. |green_trash| image:: /_constant/icons/green_trash.png
 
 .. |android_logo| image:: /_constant/icons/android_logo.png
-                  :height: 16px
+                  :height: 20px
 
 .. |google-play| image:: /_constant/icons/google-play.png
-                  :height: 16px
+                  :height: 35px
                   :target: https://play.google.com/store/apps/details?id=org.edin.edin_driver
 
 .. contents:: Зміст:
