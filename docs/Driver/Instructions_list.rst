@@ -7,4 +7,4 @@
 .. toctree::
    :maxdepth: 1
    
-   Instructions/Android
+   |android_logo| Instructions/Android
