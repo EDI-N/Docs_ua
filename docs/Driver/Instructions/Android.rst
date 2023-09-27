@@ -221,11 +221,7 @@
 
 Якщо Перевізник заблокував Водія то при відображенні ТТН для користувача буде відображатись повідомлення "Перевізник обмежив доступ до документа":
 
-.. image:: /Driver/Instructions/pics_Android/Android_040.png
-   :height: 500px
-   :align: center
-
-.. image:: /Driver/Instructions/pics_Android/Android_041.png
+.. image:: /Driver/Instructions/pics_Android/Android_042.png
    :height: 500px
    :align: center
 
