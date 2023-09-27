@@ -17,8 +17,8 @@ date_to,long,період дії по
 stock_balance,Double,залишок
 comment,String,коментарі
 quota,Double,квота на замовлення
-is_promo,boolean,відмітка «Новинка!»
-is_new,boolean,відмітка «Акція!»
+is_promo,boolean,відмітка «Акція!»
+is_new,boolean,відмітка «Новинка!»
 is_public,boolean,відмітка «Публічна позиція!»
 is_surcharge,boolean,відмітка «Надбавка!»
 is_bestseller,boolean,відмітка «Хіт продажу!»
