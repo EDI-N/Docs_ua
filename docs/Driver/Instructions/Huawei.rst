@@ -50,20 +50,47 @@ RAW
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
-
-
 
 
 
 Посилання на https://m.ourplay.net
 
 
+1111111111111111111
+
+.. raw:: html
+
+    <embed>
+        <div align="center">
+            <source src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" type="video/mp4">
+         </video>
+      </div>
+    </embed>
 
 
+22222222222222222222
 
+.. raw:: html
 
+    <embed>
+        <div align="center">
+        <video width="470" height="255" oster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" controls>
+            <source src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" type="video/mp4">
+         </video>
+      </div>
+    </embed>
+
+333333333333333333333333
+
+.. raw:: html
+
+    <embed>
+        <video width="470" height="255" oster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" controls>
+            <source src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" type="video/mp4">
+         </video>
+    </embed>
 
 
 
