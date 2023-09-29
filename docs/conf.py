@@ -16,6 +16,10 @@
 import sys
 import os
 
+# for videos import needs these two
+import requests
+import shutil
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -435,3 +439,27 @@ versionwarning_body_selector = "div.document"
 versionwarning_banner_title = ""
 # For debugging locally
 # versionwarning_project_version = "stable"
+
+
+# For videos from another storage
+# source, destination
+video_files = [
+    ("https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/full.mp4", "som.mp4")
+]
+
+def download_file(url, local_filename):
+    with requests.get(url, stream=True) as r:
+        with open(local_filename, 'wb') as f:
+            shutil.copyfileobj(r.raw, f)
+
+    return local_filename
+
+rootdir = os.path.dirname(os.path.realpath(__file__))
+videodir = os.path.join(rootdir, "_static", "videos")
+
+if not os.path.exists(videodir):
+    os.makedirs(videodir)
+
+for source, dest in video_files:
+    dest_path = os.path.join(videodir, dest)
+    download_file(source, dest_path)
