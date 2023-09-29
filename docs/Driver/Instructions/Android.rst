@@ -20,6 +20,8 @@
 
 ---------
 
+.. початок блоку для Android_to_Huawei_001
+
 .. attention::
    Для коректної роботи сервісу додаток **"EDIN Driver"** та всі додатки, від яких залежить підписання мають бути оновлені до останньої версії!
 
@@ -30,12 +32,12 @@
 
 Для встановлення додатка **"EDIN Driver"** натисніть на кнопку |google-play| чи самостійно знайдіть віджет за назвою в **"Google Play Market"**. Далі потрібно **"Установити"** додаток:
 
-.. image:: pics_Android/Android_001.png
+.. image:: /Driver/Instructions/pics_Android/Android_001.png
    :align: center
 
 Встановлений додаток **"EDIN Driver"** можливо одразу **"Відкрити"** з **"Google Play Market"** чи знайти серед встановлених додатків на Вашому пристрої за назвою:
 
-.. image:: pics_Android/Android_002.png
+.. image:: /Driver/Instructions/pics_Android/Android_002.png
    :align: center
 
 .. початок блоку для Android_to_iOS_001
@@ -279,6 +281,8 @@
       :align: center
 
 .. кінець блоку для Android_to_iOS_001
+
+.. кінець блоку для Android_to_Huawei_001
 
 ---------------------------------
 
