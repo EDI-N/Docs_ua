@@ -1,5 +1,5 @@
 ########################################################################################################################
-|apple_logo| **iOS** | Робота в додатку "EDIN Driver" (інструкція для Водіїв)
+|huawei_logo| **Huawei** | Робота в додатку "EDIN Driver" (інструкція для Водіїв)
 ########################################################################################################################
 
 .. сюда закину немного картинок для текста
@@ -8,12 +8,12 @@
 
 .. |green_trash| image:: /_constant/icons/green_trash.png
 
-.. |apple_logo| image:: /_constant/icons/apple_logo.png
+.. |huawei_logo| image:: /_constant/icons/huawei_logo.png
                   :height: 30px
 
-.. |app-store| image:: /_constant/icons/app-store.png
+.. |google-play| image:: /_constant/icons/google-play.png
                   :height: 35px
-                  :target: https://apps.apple.com/ua/app/edin-driver-signing-waybill/id1658986357
+                  :target: https://play.google.com/store/apps/details?id=org.edin.edin_driver
 
 .. contents:: Зміст:
    :depth: 5
@@ -25,75 +25,26 @@
 
 .. _app-install:
 
-1 Встановлення додатка **"EDIN Driver"**
+Як завантажити "Play Market" на Huawei?
 ==============================================
 
-Для встановлення додатка **"EDIN Driver"** натисніть на кнопку |app-store| чи самостійно знайдіть віджет за назвою в **"Apple App Store"**. Далі потрібно **"Отримати"** додаток (потребує підтвердження):
-
-.. image:: pics_iOS/iOS_001.png
-   :align: center
-
-Встановлений додаток **"EDIN Driver"** можливо одразу **"Відкрити"** з **"Apple App Store"** чи знайти серед встановлених додатків на Вашому пристрої за назвою:
-
-.. image:: pics_iOS/iOS_002.png
-   :align: center
-
-.. include:: /Driver/Instructions/Android.rst
-   :start-after: .. початок блоку для Android_to_iOS_001
-   :end-before: .. кінець блоку для Android_to_iOS_001
-
-
-
-
-RAW
+Якщо **"Google Play Market"** у Вас вже встановлений, то переходьте до встановлення додатка **"EDIN Driver"** (наступного розділу), якщо ж ні, то дана відеоінструкція буде для Вас корисною:
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-
+    <embed>
+        <div align="center">
+        <video width="800" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/for_Huawei.png" controls>
+            <source src="https://wiki.edin.ua/uk/latest/_static/videos/huawei.mp4" type="video/mp4">
+         </video>
+      </div>
+    </embed>
 
 Посилання на https://m.ourplay.net
 
-
-1111111111111111111
-
-.. raw:: html
-
-    <embed>
-        <div align="center">
-            <source src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" type="video/mp4">
-         </video>
-      </div>
-    </embed>
-
-
-22222222222222222222
-
-.. raw:: html
-
-    <embed>
-        <div align="center">
-        <video width="470" height="255" oster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" controls>
-            <source src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" type="video/mp4">
-         </video>
-      </div>
-    </embed>
-
-333333333333333333333333
-
-.. raw:: html
-
-    <embed>
-        <video width="470" height="255" oster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" controls>
-            <source src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" type="video/mp4">
-         </video>
-    </embed>
-
-
-
+.. include:: /Driver/Instructions/Android.rst
+   :start-after: .. початок блоку для Android_to_Huawei_001
+   :end-before: .. кінець блоку для Android_to_Huawei_001
 
 ---------------------------------
 

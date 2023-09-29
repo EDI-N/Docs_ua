@@ -444,7 +444,7 @@ versionwarning_banner_title = ""
 # For videos from another storage
 # source, destination
 video_files = [
-    ("https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/full.mp4", "som.mp4")
+    ("https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/Huawei.mp4", "huawei.mp4")
 ]
 
 def download_file(url, local_filename):

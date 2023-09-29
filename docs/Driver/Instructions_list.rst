@@ -6,3 +6,4 @@
    
    Instructions/Android
    Instructions/iOS
+   Instructions/Huawei
