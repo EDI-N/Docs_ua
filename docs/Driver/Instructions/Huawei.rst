@@ -50,21 +50,14 @@ RAW
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://wiki.edin.ua/uk/latest/_static/videos/som.mp4" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/placeholder.png" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-nice
-
-.. video:: https://wiki.edin.ua/uk/latest/_static/videos/som.mp4
-    :width: 100%
-    :height: 300
 
 
 
 
-
-
-
+Посилання на https://m.ourplay.net
 
 
 
