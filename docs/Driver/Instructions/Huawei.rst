@@ -34,7 +34,7 @@
 
     <embed>
         <div align="center">
-        <video width="800" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/for_Huawei.png" controls>
+        <video width="100%" poster="https://raw.githubusercontent.com/EDI-N/For_Video/main/docs/Videos/for_Huawei.png" controls>
             <source src="https://wiki.edin.ua/uk/latest/_static/videos/huawei.mp4" type="video/mp4">
          </video>
       </div>
