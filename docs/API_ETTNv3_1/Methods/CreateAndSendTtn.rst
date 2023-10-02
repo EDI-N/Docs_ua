@@ -10,7 +10,8 @@
   :stub-columns: 0
 
 .. code:: xml
-	<UAECMR
+	
+   <UAECMR
 		xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103"
 		xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103"
 		xmlns:uas="urn:ua:signatures:SignaturesExtensions:1"
