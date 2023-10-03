@@ -1,7 +1,7 @@
 🚛 API "ETTN" v3
 ####################
 
-.. image:: Work_with_API/pics/Main_API_001.png
+.. image:: Work_with_API/pics/Main_API_002.png
    :align: center
    :height: 700px
    :alt: Стандартна схема документообігу
