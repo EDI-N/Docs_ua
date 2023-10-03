@@ -27,6 +27,17 @@
 
 ----------------------------------------------------
 
+.. raw:: html
+
+    <embed>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4frexHTOelX507gkoPfGk_2ewyRR5FHCiEneMoo1khyjPVcV9631kkj-SbkVgtEJj5LZnhVP4B2qb/pubhtml?gid=397674501&single=true&range=A2:E8" width="1100" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </embed>
+
+.. important::
+   Повний опис всіх додаткових транзакцій та змін, що вносяться в ТТН при формуванні Актів за `посиланням <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Additional_transactions.html>`__.
+
+----------------------------------------------------
+
 1)
 
 .. image:: pics/ConsigneeChangeActv3_API_work_005.png
