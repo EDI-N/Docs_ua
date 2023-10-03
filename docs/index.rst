@@ -23,8 +23,7 @@ EDIN | Електронний документообіг для бізнесу
    retail_2.0/retail_2_0_list
    integration_2_0/integration_2_0_list
    XML/XML-structure
-   API_ETTNv3_1/API_ETTNv3_1_list
-   Docs_ETTNv3/Docs_ETTNv3_list
+   Integration_ETTNv3/Integration_ETTNv3_list
    ETTN_3_0/ETTN_3_0_list
 
 .. toctree::
