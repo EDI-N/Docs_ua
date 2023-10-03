@@ -8,8 +8,16 @@
    :maxdepth: 1
    
    Work_with_API/ETTNv3_API_work
-      Additional_transactions
+   Additional_transactions
+
+.. toctree::
+   :maxdepth: 1
+
    Work_with_API/Proposalv3_API_work
+
+.. toctree::
+   :maxdepth: 1
+
    Work_with_API/DisagreementActv3_API_work
    Work_with_API/LoadRejectActv3_API_work
    Work_with_API/StopActv3_API_work
