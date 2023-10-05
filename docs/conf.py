@@ -59,11 +59,11 @@ notfound_default_language = 'uk'
 templates_path = ['_templates']
 
 # добавил для возможности использования файлов .md
-from recommonmark.parser import CommonMarkParser
+# from recommonmark.parser import CommonMarkParser
 
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
-}
+# source_parsers = {
+#    '.md': 'recommonmark.parser.CommonMarkParser',
+# }
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
