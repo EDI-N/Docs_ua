@@ -13,3 +13,5 @@ git+https://github.com/humitos/sphinx-version-warning@master#egg=sphinx-version-
 # Tabs
 # git+https://github.com/executablebooks/sphinx-tabs@master#egg=sphinx-tabs
 sphinx-tabs==3.1.0
+# Dropdowns, badges, icons, buttons
+sphinx-design

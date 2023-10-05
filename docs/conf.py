@@ -41,6 +41,7 @@ extensions = [
     'notfound.extension',
     'versionwarning.extension',
     'sphinx_tabs.tabs',
+    'sphinx_design',
 ]
 
 # Tabs. By default, tabs can be closed by selecting the open tab. This functionality can be disabled using the sphinx_tabs_disable_tab_closing configuration option:

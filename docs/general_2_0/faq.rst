@@ -9,114 +9,192 @@ F.A.Q.
 **Щоб почати роботу на платформі:**
 ================================================
 
-1. Як зареєструватись на платформі EDIN?
+.. dropdown:: 1. Як зареєструватись на платформі EDIN?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб зареєструватись на платформі, перейдіть за цим `посиланням <https://edo-v2.edin.ua/register?redirect_link=/service/edi&source=ettn-edi-site>`__.
+   Щоб зареєструватись на платформі, перейдіть за цим `посиланням <https://edo-v2.edin.ua/register?redirect_link=/service/edi&source=ettn-edi-site>`__.
 
-2. Як відновити пароль?
+.. dropdown:: 2. Як відновити пароль?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб відновити пароль, у вікні авторизації натисніть “Забули пароль” та слідуйте подальшим крокам для відновлення.
+   Щоб відновити пароль, у вікні авторизації натисніть “Забули пароль” та слідуйте подальшим крокам для відновлення.
 
-3. Як заповнити особисту інформацію для подальшої роботи на платформі?
+.. dropdown:: 3. Як заповнити особисту інформацію для подальшої роботи на платформі?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Для подальшої роботи на платформі потрібно після реєстрації заповнити дані свого акаунту, детальніше за `посиланням <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#account-profile>`__.
+   Для подальшої роботи на платформі потрібно після реєстрації заповнити дані свого акаунту, детальніше за `посиланням <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#account-profile>`__.
 
-4. Як відредагувати/створити GLN?
+.. dropdown:: 4. Як відредагувати/створити GLN?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
-*GLN - Глобальний номер місця знаходження або Глобальний ідентифікаційний номер. Міжнародний спеціальний код застосовується в системах електронного обміну даними та e-commerce, визначає точне розташування юридичних осіб, фізичних об’єктів (приміщення, транспорт) та функціональних підрозділів.
+   *GLN - Глобальний номер місця знаходження або Глобальний ідентифікаційний номер. Міжнародний спеціальний код застосовується в системах електронного обміну даними та e-commerce, визначає точне розташування юридичних осіб, фізичних об’єктів (приміщення, транспорт) та функціональних підрозділів.
 
--  Щоб відредагувати або створити GLN, крокуйте в налаштування, розділ GLN та натисніть на потрібний вам GLN, можете скористатись покроковою `інструкцією <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__.
+   Щоб відредагувати або створити GLN, крокуйте в налаштування, розділ GLN та натисніть на потрібний вам GLN, можете скористатись покроковою `інструкцією <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__.
 
-5. Як звернутись до технічної підтримки?
+.. dropdown:: 5. Як звернутись до технічної підтримки?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб звернутись до технічної підтримки зателефонуйте за цим номером телефону 044 359 01 12 або надішліть електронний лист на пошту support@edin.ua.
-
+   Щоб звернутись до технічної підтримки зателефонуйте за цим номером телефону 044 359 01 12 або надішліть електронний лист на пошту support@edin.ua.
+ 
 **Робота перевізника на платформі:**
 ================================================
 
-6. Як додавати водіїв?
+.. dropdown:: 6. Як додавати водіїв?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб додати водіїв до свого особистого кабінету можете перейти в розділ Водії у своєму особистому кабінеті, детальний опис роботи з розділом Водії описаний `тут <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#drivers>`__.
+   Щоб додати водіїв до свого особистого кабінету можете перейти в розділ Водії у своєму особистому кабінеті, детальний опис роботи з розділом Водії описаний `тут <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#drivers>`__.
 
-7. Як отримати електронний підпис?
+.. dropdown:: 7. Як отримати електронний підпис?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Електронний підпис (КЕП) можна оформити у `Дії <https://paperless.diia.gov.ua/instruction/yak-otrimati-diyapidpis>`__. Альтернативно, можна оформити ел. підпис SmartID від `Приватбанку <https://prozakupki.prom.ua/yak-fizichniy-osobi-otrimati-elektronniy-tsifroviy-pidpis-etsp/>`__ через сервіс Приват24. Для оформлення корпоративного підпису необхідно звернутись в один з `центрів <https://czo.gov.ua/ca-registry>`__ сертифікації ключів.
+   Електронний підпис (КЕП) можна оформити у `Дії <https://paperless.diia.gov.ua/instruction/yak-otrimati-diyapidpis>`__. Альтернативно, можна оформити ел. підпис SmartID від `Приватбанку <https://prozakupki.prom.ua/yak-fizichniy-osobi-otrimati-elektronniy-tsifroviy-pidpis-etsp/>`__ через сервіс Приват24. Для оформлення корпоративного підпису необхідно звернутись в один з `центрів <https://czo.gov.ua/ca-registry>`__ сертифікації ключів.
 
-8. Як додати водія на моменті створення ТТН v3 ?
+.. dropdown:: 8. Як додати водія на моменті створення ТТН v3 ?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб додати водія при створенні ТТН v3 потрібно просто в полі водій, на вікні вибору водія натиснути кнопку “Додати”.
+   Щоб додати водія при створенні ТТН v3 потрібно просто в полі водій, на вікні вибору водія натиснути кнопку “Додати”.
 
-9. Як працювати з документом ТТН v3 перевізнику?
+.. dropdown:: 9. Як працювати з документом ТТН v3 перевізнику?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб працювати з документом ТТН v3 потрібно для початку ознайомитись з `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Processing_ETTN.html#from-consignor-to-carrier>`__.
+   Щоб працювати з документом ТТН v3 потрібно для початку ознайомитись з `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Processing_ETTN.html#from-consignor-to-carrier>`__.
 
-10. Як відхилити ТТН v3?
+.. dropdown:: 10. Як відхилити ТТН v3?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб відхилити ТТН v3 потрібно просто натиснути кнопку Відхилити та вказати причину відхилення, можете скористатись покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/ETTN_Reject.html#carrier-reject>`__.
+   Щоб відхилити ТТН v3 потрібно просто натиснути кнопку Відхилити та вказати причину відхилення, можете скористатись покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/ETTN_Reject.html#carrier-reject>`__.
 
-11. Як відхилити заявку на транспортування?
+.. dropdown:: 11. Як відхилити заявку на транспортування?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб відхилити заявку на транспортування натисніть кнопку Відхилити та вкажіть причини відхилення, скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html#carrier-reject>`__.
+   Щоб відхилити заявку на транспортування натисніть кнопку Відхилити та вкажіть причини відхилення, скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html#carrier-reject>`__.
 
-12. Як підписати та відправити документ підтвердження на транспортування?
+.. dropdown:: 12. Як підписати та відправити документ підтвердження на транспортування?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб підписати та відправити документ підтвердження на транспортування прочитайте покрокову `інструкцію <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_Proposal_Confirmation_from.html#sign>`__.
+   Щоб підписати та відправити документ підтвердження на транспортування прочитайте покрокову `інструкцію <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_Proposal_Confirmation_from.html#sign>`__.
 
-13. Як відхилити документ підтвердження заявки на транспортування?
+.. dropdown:: 13. Як відхилити документ підтвердження заявки на транспортування?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб відхилити документ підтвердження заявки на транспортування натисніть кнопку Відхилити та вкажіть причину відхилення, щоб дізнатись деталі скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Confirmation_Reject.html#carrier-reject>`__.
+   Щоб відхилити документ підтвердження заявки на транспортування натисніть кнопку Відхилити та вкажіть причину відхилення, щоб дізнатись деталі скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Confirmation_Reject.html#carrier-reject>`__.
 
-14. Як створити акт виконаних робіт перевізнику?
+.. dropdown:: 14. Як створити акт виконаних робіт перевізнику?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб створити акт виконаних робіт (Логістика) скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_COMDOC_037_from.html#create-from-proposal-ttn>`__.
+   Щоб створити акт виконаних робіт (Логістика) скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_COMDOC_037_from.html#create-from-proposal-ttn>`__.
 
-15. Як відхилити акт розбіжностей перевізнику?
+.. dropdown:: 15. Як відхилити акт розбіжностей перевізнику?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб відхилити акт розбіжностей перевізнику потрібно натиснути кнопку Відхилити та вказати причину відхилення, для деталей скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Disagreement_Act_Reject.html#carrier-reject>`__.
+   Щоб відхилити акт розбіжностей перевізнику потрібно натиснути кнопку Відхилити та вказати причину відхилення, для деталей скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Disagreement_Act_Reject.html#carrier-reject>`__.
 
-16. Як відхилити акт про заміну пункту призначення ініціатором або отримувачем з роллю перевізник?
+.. dropdown:: 16. Як відхилити акт про заміну пункту призначення ініціатором або отримувачем з роллю перевізник?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб відхилити акт про заміну пункту призначення для `ініціатора <https://wiki.edin.ua/uk/latest/ETTN_3_0/Consignee_Change_Act_Reject.html#initiator-reject>`__ та `отримувача <https://wiki.edin.ua/uk/latest/ETTN_3_0/Consignee_Change_Act_Reject.html#receiver-reject>`__ натисніть кнопку Відхилити, вкажіть причину відхилення, а для детального опису скористайтесь інструкціями.
+   Щоб відхилити акт про заміну пункту призначення для `ініціатора <https://wiki.edin.ua/uk/latest/ETTN_3_0/Consignee_Change_Act_Reject.html#initiator-reject>`__ та `отримувача <https://wiki.edin.ua/uk/latest/ETTN_3_0/Consignee_Change_Act_Reject.html#receiver-reject>`__ натисніть кнопку Відхилити, вкажіть причину відхилення, а для детального опису скористайтесь інструкціями.
 
-17. Як створити акт перевантаження?
+.. dropdown:: 17. Як створити акт перевантаження?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб створити акт перевантаження до ТТН v3 скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_Reload_Act_from.html#create-from-ttn>`__.
+   Щоб створити акт перевантаження до ТТН v3 скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_Reload_Act_from.html#create-from-ttn>`__.
 
-18. Щоб підписати акт перевантаження?
+.. dropdown:: 18. Щоб підписати акт перевантаження?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб підписати акт перевантаження до ТТН v3 натисніть кнопку Підписати, оберіть ключ для підписання та скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_Reload_Act_from.html#sign>`__.
+   Щоб підписати акт перевантаження до ТТН v3 натисніть кнопку Підписати, оберіть ключ для підписання та скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_Reload_Act_from.html#sign>`__.
 
-19. Що таке опційний підпис?
+.. dropdown:: 19. Що таке опційний підпис?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Опційним підписом вважається момент підписання ТТН який надалі не змінить її статус.
+   Опційним підписом вважається момент підписання ТТН який надалі не змінить її статус.
 
 **Робота водія в EDIN Driver:**
 ================================================
 
-20. Як отримати електронний підпис?
+.. dropdown:: 20. Як отримати електронний підпис?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Електронний підпис (КЕП) можна оформити у `Дії <https://paperless.diia.gov.ua/instruction/yak-otrimati-diyapidpis>`__. Альтернативно, можна оформити ел. підпис SmartID від `Приватбанку <https://prozakupki.prom.ua/yak-fizichniy-osobi-otrimati-elektronniy-tsifroviy-pidpis-etsp/>`__ через сервіс Приват24.
+   Електронний підпис (КЕП) можна оформити у `Дії <https://paperless.diia.gov.ua/instruction/yak-otrimati-diyapidpis>`__. Альтернативно, можна оформити ел. підпис SmartID від `Приватбанку <https://prozakupki.prom.ua/yak-fizichniy-osobi-otrimati-elektronniy-tsifroviy-pidpis-etsp/>`__ через сервіс Приват24.
 
-21. Як встановити додаток EDIN Driver?
+.. dropdown:: 21. Як встановити додаток EDIN Driver?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб встановити додаток EDIN Driver можна перейти за посиланнями (для `iOS <https://apps.apple.com/ua/app/edin-driver-%D0%BF%D1%96%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8F-%D1%82%D1%82%D0%BD/id1658986357?l=ru>`__ або `Android <https://play.google.com/store/apps/details?id=org.edin.edin_driver>`__) або скористатись пошуком у відкритому доступі магазинів додатків Play Market та Apple Store.
+   Щоб встановити додаток EDIN Driver можна перейти за посиланнями (для `iOS <https://apps.apple.com/ua/app/edin-driver-%D0%BF%D1%96%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8F-%D1%82%D1%82%D0%BD/id1658986357?l=ru>`__ або `Android <https://play.google.com/store/apps/details?id=org.edin.edin_driver>`__) або скористатись пошуком у відкритому доступі магазинів додатків Play Market та Apple Store.
 
-22. Як зареєструватись в додатку EDIN Driver?
+.. dropdown:: 22. Як зареєструватись в додатку EDIN Driver?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Для реєстрації в додатку потрібно вказати електронну пошту, вигадати пароль та обов’язково мати електронний підпис. Для покрокової реєстрації прочитайте `інструкцію <https://wiki.edin.ua/uk/latest/Driver/Instructions_list.html>`__.
+   Для реєстрації в додатку потрібно вказати електронну пошту, вигадати пароль та обов’язково мати електронний підпис. Для покрокової реєстрації прочитайте `інструкцію <https://wiki.edin.ua/uk/latest/Driver/Instructions_list.html>`__.
 
-23. Як встановити додаток на телефон Huawei?
+.. dropdown:: 23. Як встановити додаток на телефон Huawei?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Щоб встановити додаток на телефон Huawei скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/Driver/Instructions/Huawei.html>`__.
+   Щоб встановити додаток на телефон Huawei скористайтесь `інструкцією <https://wiki.edin.ua/uk/latest/Driver/Instructions/Huawei.html>`__.
 
-24. Чому не вдається підписати документ?
+.. dropdown:: 24. Чому не вдається підписати документ?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Для підписання документів через Дію чи ПриватБанк потрібно в налаштуваннях дозволити відкривати додатки за замовченням та перевірити що в довірених посиланнях є Дія та Приват24 `(http://www.privat24.ua/ <http://www.privat24.ua/>`__), в `інструкції <https://wiki.edin.ua/uk/latest/Driver/Instructions/Android.html>`__ по роботі з додатком описані кроки. Також обов’язково оновіть всі додатки до останньої версії.
+   Для підписання документів через Дію чи ПриватБанк потрібно в налаштуваннях дозволити відкривати додатки за замовченням та перевірити що в довірених посиланнях є Дія та Приват24 `(http://www.privat24.ua/ <http://www.privat24.ua/>`__), в `інструкції <https://wiki.edin.ua/uk/latest/Driver/Instructions/Android.html>`__ по роботі з додатком описані кроки. Також обов’язково оновіть всі додатки до останньої версії.
 
-25. Що робити якщо зареєстрував акаунт не водія а за допомогою `посилання <https://edo-v2.edin.ua/register?redirect_link=/service/edi&source=ettn-edi-site>`__?
+.. dropdown:: 25. Що робити якщо зареєстрував акаунт не водія а за допомогою `посилання <https://edo-v2.edin.ua/register?redirect_link=/service/edi&source=ettn-edi-site>`__?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Якщо ви пройшли звичайну реєстрацію та зробили собі вже акаунт, зверніться до технічної підтримки 044 359 01 12 або support@edin.ua для встановлення ними спеціальних налаштувань.
+   Якщо ви пройшли звичайну реєстрацію та зробили собі вже акаунт, зверніться до технічної підтримки 044 359 01 12 або support@edin.ua для встановлення ними спеціальних налаштувань.
 
-26. Що робити якщо при реєстрації вам показало екран “Користувач з таким ІПН або водійським посвідченням вже існує”?
+.. dropdown:: 26. Що робити якщо при реєстрації вам показало екран “Користувач з таким ІПН або водійським посвідченням вже існує”?
+   :color: success
+   :icon: question
+   :animate: fade-in-slide-down
 
--  Якщо під час реєстрації ви побачили таке повідомлення, то відразу зверніться до технічної підтримки за допомогою 044 359 01 12 або support@edin.ua.
+   Якщо під час реєстрації ви побачили таке повідомлення, то відразу зверніться до технічної підтримки за допомогою 044 359 01 12 або support@edin.ua.
