@@ -31,8 +31,8 @@
 .. note::
    По завершенню життєвого циклу "Акта перевантаження" **"Перевізник, що приймає вантаж"** має доповнити "е-ТТН" (до якої створювався Акт), підписавши і надіславши транзакцію до "е-ТТН":
 
-.. image:: /ETTN_3_0/BasicActChanges.png
-   :align: center
+   .. image:: /ETTN_3_0/BasicActChanges.png
+      :align: center
 
 .. _create-from-ttn:
 
