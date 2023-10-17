@@ -24,3 +24,4 @@
    Comfy/Comfy_list
    Mondelez/Mondelez_list
    MHP/MHP_list
+   Yarych/Yarych_list
