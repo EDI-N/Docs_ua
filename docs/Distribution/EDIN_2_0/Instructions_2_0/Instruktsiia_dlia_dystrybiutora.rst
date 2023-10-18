@@ -41,10 +41,10 @@
 .. image:: /_constant/pics_landing/landing_distribution.png
    :align: center
 
-.. початок блоку для Order_create
-
 2 Перегляд списку Виробників
 ===================================
+
+.. початок блоку для Order_create1
 
 Після вибору сервісу відобразиться сторінка з Виробниками (папка "Контрагенти"): 
 
@@ -74,8 +74,12 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_017.gif
    :align: center
 
+.. кінець блоку для Order_create1
+
 3 Перегляд прайс-листа Виробника
 ===================================
+
+.. початок блоку для Order_create2
 
 Для перегляду прайс-листа, натисніть на значок **Переглянути прайс-лист** (|view_price|) у відповідній колонці навпроти обраного Виробника:
 
@@ -108,8 +112,12 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_008.png
    :align: center
 
+.. кінець блоку для Order_create2
+
 4 Створення Замовлення за Прайс-листом
 =================================================
+
+.. початок блоку для Order_create3
 
 Для створення `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ необхідно заповнити ствопці **Кількість одиниць** та **Кількість коробок** враховуючи встановлені Виробником **Обмеження**:
 
@@ -171,7 +179,7 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_028.png
    :align: center
 
-.. кінець блоку для Order_create
+.. кінець блоку для Order_create3
 
 4.1 Перегляд Замовлення
 ---------------------------------

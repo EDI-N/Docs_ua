@@ -52,12 +52,29 @@
 **3 Створення Замовлення за Прайс-листом (Дистриб'ютор)**
 ================================================================================
 
+**3.1 Перегляд списку Виробників**
+-------------------------------------------
+
 .. note::
    Вхід на платформу та сервіс "Меркет" описано в `першому розділі інструкції <https://wiki.edin.ua/uk/latest/ClientProcesses/Yarych/Yarych_Instructions/Yarych_full_flow.html#enter>`__
 
 .. include:: /Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.rst
-   :start-after: .. початок блоку для Order_create
-   :end-before: .. кінець блоку для Order_create
+   :start-after: .. початок блоку для Order_create1
+   :end-before: .. кінець блоку для Order_create1
+
+**3.2 Перегляд прайс-листа Виробника**
+-------------------------------------------
+
+.. include:: /Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.rst
+   :start-after: .. початок блоку для Order_create2
+   :end-before: .. кінець блоку для Order_create2
+
+**3.3 Створення Замовлення за Прайс-листом**
+----------------------------------------------------------
+
+.. include:: /Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.rst
+   :start-after: .. початок блоку для Order_create3
+   :end-before: .. кінець блоку для Order_create3
 
 **4 Вхід на платформу та сервіс "EDI Network"
 ========================================================
