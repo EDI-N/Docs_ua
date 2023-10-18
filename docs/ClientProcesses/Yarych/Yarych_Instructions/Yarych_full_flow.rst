@@ -76,7 +76,7 @@
    :start-after: .. початок блоку для Order_create3
    :end-before: .. кінець блоку для Order_create3
 
-**4 Вхід на платформу та сервіс "EDI Network"
+**4 Вхід на платформу та сервіс "EDI Network"**
 ========================================================
 
 .. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
