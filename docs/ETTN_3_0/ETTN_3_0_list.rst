@@ -73,6 +73,28 @@
    
    Create_Resealing_Act_from
 
+.. _storagedelivery-act:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт розвантаження на проміжному складі
+   
+   Create_StorageDelivery_Act_from
+   Processing_StorageDelivery_Act
+   StorageDelivery_Act_Reject
+
+.. _storagepickup-act:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт завантаження на проміжному складі
+   
+   Create_StoragePickUp_Act_from
+   Processing_StoragePickUp_Act
+   StoragePickUp_Act_Reject
+
+
+
 
 
 
