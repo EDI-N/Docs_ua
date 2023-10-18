@@ -29,7 +29,7 @@
 
 Дана інструкція описує порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#pricat>`__.
 
-1 Вхід на платформу
+**1 Вхід на платформу**
 ====================================
 
 .. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
@@ -41,9 +41,26 @@
 .. image:: /_constant/pics_landing/landing_distribution.png
    :align: center
 
+**2 Перегляд списку Виробників**
+========================================================================
+
 .. include:: /Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.rst
-   :start-after: .. початок блоку для Order_create
-   :end-before: .. кінець блоку для Order_create
+   :start-after: .. початок блоку для Order_create1
+   :end-before: .. кінець блоку для Order_create1
+
+**3 Перегляд прайс-листа Виробника**
+========================================================================
+
+.. include:: /Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.rst
+   :start-after: .. початок блоку для Order_create2
+   :end-before: .. кінець блоку для Order_create2
+
+**4 Створення Замовлення за Прайс-листом**
+========================================================================
+
+.. include:: /Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.rst
+   :start-after: .. початок блоку для Order_create3
+   :end-before: .. кінець блоку для Order_create3
 
 -------------------------------------
 
