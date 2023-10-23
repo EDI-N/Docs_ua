@@ -22,6 +22,7 @@
    PRICAT_na_EDI_Network
    DESSCC_na_EDI_Network
    Create_DOCUMENTINVOICE_TNN_from
+   Create_DOCUMENTINVOICE_TN_from
 
 
 
