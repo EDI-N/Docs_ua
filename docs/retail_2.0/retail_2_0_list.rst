@@ -23,6 +23,7 @@
    DESSCC_na_EDI_Network
    Create_DOCUMENTINVOICE_TNN_from
    Create_DOCUMENTINVOICE_TN_from
+   Create_DOCCORINVOICE_from
 
 
 
