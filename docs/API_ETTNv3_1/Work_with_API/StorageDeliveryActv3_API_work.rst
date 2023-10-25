@@ -33,6 +33,21 @@
   :widths:  40, 40
   :stub-columns: 0
 
+.. третій блок був
+   :green:`3.1` `Авторизація Проміжного складу <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+   :green:`3.2` `Отримання контенту (json) «Акта розвантаження на проміжному складі» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+   :green:`3.3` `Отримання тіла документа (рекомендовано в json) «е-ТТН» для подальшого доповнення <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+   :green:`3.4` `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Проміжним складом <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
+
+   :green:`3.5` `Отримання тіла документа (рекомендовано в ecmr) «е-ТТН» для подальшого підписання Проміжним складом <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+   :green:`3.6` `Підписання змін до «е-ТТН» Проміжним складом <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+   :green:`3.7` `Відправка нової транзакції до е-ТТН документа Проміжним складом <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__
+
 -----------------------------------------------
 
 .. toggle-header::
