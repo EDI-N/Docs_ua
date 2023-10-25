@@ -75,35 +75,18 @@
 **3 Формування "Коригування до податкової накладної" (DECLARj12)**
 ====================================================================================================================
 
-"Коригування до податкової накладної" (DECLARj12) можливо створити на підставі відправленого "Коригування до товарної накладної" (DOCCORINVOICE). Для цього потрібно у папці **"Надіслані"** обрати відповідний документ (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+.. include:: /retail_2.0/Create_DECLARj12_from.rst
+   :start-after: .. початок блоку для DECLARj12_from_DOCCORINVOICE_001
+   :end-before: .. кінець блоку для DECLARj12_from_DOCCORINVOICE_001
 
-.. image:: pics_Metro_DOCCORINVOICE_DECLARJ12_instruction/Metro_DOCCORINVOICE_DECLARJ12_instruction_012.png
-   :align: center
+.. _sign:
 
-Для формування "Коригування до податкової накладної" (DECLARj12) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "МЕТРО" та оберіть ставку ПДВ - документ створиться автоматично:
+**3.1 Підписання та відправка "Коригування до податкової накладної" (DECLARj12) Постачальником**
+---------------------------------------------------------------------------------------------------------
 
-.. image:: pics_Metro_DOCCORINVOICE_DECLARJ12_instruction/Metro_DOCCORINVOICE_DECLARJ12_instruction_013.png
-   :align: center
-
-У відкритій формі "Коригування до податкової накладної" (DECLARj12) обов'язкові до заповнення поля (позначені червоною зірочкою :red:`*`) частково заповнюються автоматично з пов'язаного "Коригування до товарної накладної" (DOCCORINVOICE):
-
-.. image:: pics_Metro_DOCCORINVOICE_DECLARJ12_instruction/Metro_DOCCORINVOICE_DECLARJ12_instruction_014.png
-   :align: center
-
-В нижній частині документа знаходиться перелік товарних позицій, які переносяться з "Коригування до товарної накладної" (DOCCORINVOICE):
-
-.. image:: pics_Metro_DOCCORINVOICE_DECLARJ12_instruction/Metro_DOCCORINVOICE_DECLARJ12_instruction_015.png
-   :align: center
-
-Після заповнення всіх даних документ потрібно (1) **"Зберегти"**, (2) **"Підписати"** (процес описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_Instructions/Metro_DOCCORINVOICE_DECLARJ12_instruction.html#sign>`__) та (3) **"Відправити"**:
-
-.. image:: pics_Metro_DOCCORINVOICE_DECLARJ12_instruction/Metro_DOCCORINVOICE_DECLARJ12_instruction_016.png
-   :align: center
-
-Після перевірки документа органом Державної Податкової Інспекції, йому буде присвоєно статус:
-
-* На коректний документ надійде статус **"Зареєстровано в ЄРПН і відправлено покупцеві"**.
-* На некоректний документ надійде статус  **"Помилка при реєстрації в ЄРПН"**.
+.. include:: /retail_2.0/Create_DECLARj12_from.rst
+   :start-after: .. початок блоку для DECLARj12_from_DOCCORINVOICE_002
+   :end-before: .. кінець блоку для DECLARj12_from_DOCCORINVOICE_002
 
 ---------------------------------
 

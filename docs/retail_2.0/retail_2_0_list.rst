@@ -24,6 +24,7 @@
    Create_DOCUMENTINVOICE_TNN_from
    Create_DOCUMENTINVOICE_TN_from
    Create_DOCCORINVOICE_from
+   Create_DECLARj12_from
 
 
 
