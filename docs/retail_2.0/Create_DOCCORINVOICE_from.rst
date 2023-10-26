@@ -138,6 +138,8 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
+.. початок блоку для DOCCORINVOICE_from_DOCUMENTINVOICE_TN_003
+
 Після підписання "Коригування товарної накладної" (DOCCORINVOICE) документ потрібно **"Відправити"**:
 
 .. image:: /retail_2.0/pics_Create_DOCCORINVOICE_from/Create_DOCCORINVOICE_from_010.png

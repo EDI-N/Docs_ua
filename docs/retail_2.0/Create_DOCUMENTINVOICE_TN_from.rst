@@ -25,7 +25,7 @@
 1 Створення "Товарної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TN) на підставі вхідного "Повідомлення про прийом" (RECADV)
 =================================================================================================================================================
 
-.. початок блоку для DOCUMENTINVOICE_TN_from_RECADV
+.. початок блоку для DOCUMENTINVOICE_TN_from_RECADV_001
 
 Щоб сформувати "Товарну накладну" (DOCUMENTINVOICE.DocumentFunctionCode = TN) Вам потрібно в меню сервісу **"EDI Network"** в папці **"Вхідні"** обрати "Повідомлення про прийом" (RECADV), на підставі якого потрібно створити новий документ (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
@@ -83,10 +83,14 @@
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TN_from/Create_DOCUMENTINVOICE_TN_from_007.png
    :align: center
 
+.. кінець блоку для DOCUMENTINVOICE_TN_from_RECADV_001
+
 .. _sign:
 
 1.1 Підписання та відправка "Товарної накладної"
 --------------------------------------------------------------------------------------------------
+
+.. початок блоку для DOCUMENTINVOICE_TN_from_RECADV_002
 
 .. tabs::
 
@@ -114,6 +118,8 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
+.. початок блоку для DOCUMENTINVOICE_TN_from_RECADV_003
+
 Після підписання "Товарної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TN) документ потрібно **"Відправити"**:
 
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TN_from/Create_DOCUMENTINVOICE_TN_from_008.png
@@ -124,7 +130,7 @@
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TN_from/Create_DOCUMENTINVOICE_TN_from_009.png
    :align: center
 
-.. кінець блоку для DOCUMENTINVOICE_TN_from_RECADV
+.. кінець блоку для DOCUMENTINVOICE_TN_from_RECADV_002
 
 -------------------------------------
 
