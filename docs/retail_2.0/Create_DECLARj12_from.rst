@@ -47,7 +47,7 @@
 .. image:: /retail_2.0/pics_Create_DECLARj12_from/Create_DECLARj12_from_004.png
    :align: center
 
-Після заповнення всіх даних документ потрібно (1) **"Зберегти"**, (2) **"Підписати"** (`детальніше про підписання <https://wiki.edin.ua/uk/latest/retail_2.0/Create_DECLARj12_from.html#sign>`__) та (3) **"Відправити"**:
+Після заповнення всіх даних документ потрібно (1) **"Зберегти"**, (2) **"Підписати"** та (3) **"Відправити"**:
 
 .. image:: /retail_2.0/pics_Create_DECLARj12_from/Create_DECLARj12_from_005.png
    :align: center
@@ -86,6 +86,8 @@
       .. include:: /_constant/cloud_signing/cloud_signing.rst
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
+
+.. початок блоку для DECLARj12_from_DOCCORINVOICE_003
 
 Після підписання "Коригування до податкової накладної" (DECLARj12) документ потрібно **"Відправити"**:
 
