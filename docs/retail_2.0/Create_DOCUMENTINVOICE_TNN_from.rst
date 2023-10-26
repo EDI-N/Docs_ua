@@ -25,7 +25,7 @@
 1 Створення "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) на підставі надісланого "Повідомлення про відвантаження" (DESADV)
 ========================================================================================================================================
 
-.. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV
+.. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV_001
 
 Щоб сформувати "Транспортну накладну" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) Вам потрібно в меню сервісу **"EDI Network"** увійти в папку **"Надіслані"** і обрати "Повідомлення про відвантаження" (DESADV), на підставі якого потрібно створити новий документ (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
@@ -84,10 +84,14 @@
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_007.png
    :align: center
 
+.. кінець блоку для DOCUMENTINVOICE_TNN_from_DESADV_001
+
 .. _sign:
 
 1.1 Підписання та відправка "Транспортної накладної"
 --------------------------------------------------------------------------------------------------
+
+.. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV_002
 
 .. tabs::
 
@@ -115,6 +119,8 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
+.. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV_003
+
 Після підписання "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) документ потрібно **"Відправити"**:
 
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_008.png
@@ -125,7 +131,7 @@
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_009.png
    :align: center
 
-.. кінець блоку для DOCUMENTINVOICE_TNN_from_DESADV
+.. кінець блоку для DOCUMENTINVOICE_TNN_from_DESADV_002
 
 -------------------------------------
 

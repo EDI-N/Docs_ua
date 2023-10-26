@@ -48,7 +48,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: /ClientProcesses/Metro/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_001.png
+.. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_001.png
    :height: 500px
    :align: center
 
@@ -75,8 +75,17 @@
 =================================================================================================================================================================================================
 
 .. include:: /retail_2.0/Create_DOCUMENTINVOICE_TNN_from.rst
-   :start-after: .. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV
-   :end-before: .. кінець блоку для DOCUMENTINVOICE_TNN_from_DESADV
+   :start-after: .. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV_001
+   :end-before: .. кінець блоку для DOCUMENTINVOICE_TNN_from_DESADV_001
+
+.. _sign:
+
+3.1 Підписання та відправка "Транспортної накладної"
+--------------------------------------------------------------------------------------------------
+
+.. include:: /retail_2.0/Create_DOCUMENTINVOICE_TNN_from.rst
+   :start-after: .. початок блоку для DOCUMENTINVOICE_TNN_from_DESADV_002
+   :end-before: .. кінець блоку для DOCUMENTINVOICE_TNN_from_DESADV_002
 
 **4 Формування "Заявки на транспортування" на підставі "Замовлення" (ORDER)**
 ================================================================================================
