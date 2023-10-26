@@ -49,7 +49,6 @@
 **Загальна схема документообігу:**
 
 .. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_001.png
-   :height: 500px
    :align: center
 
 **1 Вхід на платформу**
