@@ -204,15 +204,15 @@
    :align: center
 
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
-   :start-after: .. початок блоку для ManyToOneDoc
-   :end-before: .. кінець блоку для ManyToOneDoc
+   :start-after: .. початок блоку для COMDOC_037_from_transport_001
+   :end-before: .. кінець блоку для COMDOC_037_from_transport_001
 
 .. hint::
    Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_internal_transportation.html#sign>`__.
 
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
-   :start-after: .. початок блоку для ManyToOneDoc2
-   :end-before: .. кінець блоку для ManyToOneDoc2
+   :start-after: .. початок блоку для COMDOC_037_from_transport_003
+   :end-before: .. кінець блоку для COMDOC_037_from_transport_002
 
 .. _notes:
 
