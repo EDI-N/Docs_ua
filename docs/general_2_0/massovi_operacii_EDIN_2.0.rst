@@ -300,8 +300,8 @@
    :align: center
 
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
-   :start-after: .. початок блоку для ManyToOneDoc
-   :end-before: .. кінець блоку для ManyToOneDoc
+   :start-after: .. початок блоку для COMDOC_037_from_transport_001
+   :end-before: .. кінець блоку для COMDOC_037_from_transport_001
 
 Процес `Підписання <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#sign>`__ є стандартним для всіх документів на платформі та описаний вище. Після підписання "Акта виконаних робіт (Логістика)" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
 
