@@ -65,5 +65,12 @@
     <TotalNetAmount>53.04</TotalNetAmount>
     <TotalTaxAmount>10.62</TotalTaxAmount>
     <TotalGrossAmount>63.66</TotalGrossAmount>
+    <Tax-Summary>
+      <Tax-Summary-Line>
+        <TaxRate>7.00</TaxRate>
+        <TaxAmount>200.2</TaxAmount>
+        <TaxableAmount>200.5</TaxableAmount>
+      </Tax-Summary-Line>
+    </Tax-Summary>
   </Invoice-Summary>
 </Document-Invoice>
