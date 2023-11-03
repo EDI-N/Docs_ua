@@ -50,6 +50,7 @@
 <LineNumber>1</LineNumber>
 <EAN>1472583690147</EAN>
 <BuyerItemCode>1111111111</BuyerItemCode>
+<ProductIdBuyer>1234121</ProductIdBuyer>
 <LogisticItemCode>232323332</LogisticItemCode>
 <ItemDescription>drink</ItemDescription>
 <InvoiceDeliveredQuantity>12</InvoiceDeliveredQuantity>
