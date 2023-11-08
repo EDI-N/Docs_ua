@@ -235,6 +235,7 @@
 * `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
 * `Додаток до договору 7Б (METRO_7B) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
 * `Додаток до договору 7Ц (METRO_7C) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__
+* Акт (АТС) (COMDOC_039)
 
 .. hint::
    Налаштувати сценарії погодження та їх автоматичний запуск можливо в розділі **Особистий кабінет->Налаштування->GLN->Форма редагування GLN->** `Сценарії погодження <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#doc-approval-set>`__)
@@ -276,7 +277,7 @@
 .. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_077.png
    :align: center
 
-Далі в модальному вікні налаштувань нового сценарію вказати його назву, обрати зі списку відповідальних за крок погодження користувачів (`Пов'язані користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-user>`__ з GLN), обрати роль (**Погодити** - проміжний крок погодження; **Підписати** - кінцевий крок погодження):
+Далі в модальному вікні налаштувань нового сценарію вказати його назву, обрати зі списку відповідальних за крок погодження користувачів (`Пов'язані користувачі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-user>`__ з GLN), обрати роль (**Погодити** крок погодження без підписання документа чи **Підписати** документ для продовження/завершення погодження):
 
 .. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_054.gif
    :align: center

@@ -4,6 +4,9 @@
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
+.. attention::
+   Формат підпису має бути ``CAdES-X Long`` (`детальніше про даний формат підпису <https://uakey.com.ua/news/main/cades-x-long-format-dlja-dovgotrivalogo-zbergannja-kep>`__). Наприклад, хмарні провайдери "Вчасно.КЕП" та "Deposit sign" за замовчуванням повертають формат ``CAdES-X Long``.
+
 .. hint::
    Підписання в сервісі "ЕТТН" можливо здійснити двома способами:
 
