@@ -139,13 +139,13 @@
 * Підписантів для актів
 * Підписантів для інших документів
 
-d
+.. include:: /Personal_Cabinet/PCInstruction.rst
+   :start-after: .. початок блоку для main-additional-gln
+   :end-before: .. кінець блоку для main-additional-gln
 
 .. include:: /Personal_Cabinet/PCInstruction.rst
    :start-after: .. початок блоку для pc_signatories
    :end-before: .. кінець блоку для pc_signatories
-
-d
 
 5. Розділ **"Дані водія"** відображається лише у тих компаній, що працюють в якості ФОП-Перевізника та відображає основні дані Водія (ПІБ, Номер телефону, Посвідчення водія).    
 
