@@ -133,15 +133,7 @@
 .. image:: pics_PCInstruction/PCInstruction_348.png
    :align: center
 
-Дані підписантів зручно розділені за блоками:
-
-* Підписантів для договорів / додаткових угод
-* Підписантів для актів
-* Підписантів для інших документів
-
-.. include:: /Personal_Cabinet/PCInstruction.rst
-   :start-after: .. початок блоку для main-additional-gln
-   :end-before: .. кінець блоку для main-additional-gln
+Дані підписантів зручно розділені за блоками: "Підписантів для договорів / додаткових угод", "Підписантів для актів", "Підписантів для інших документів"
 
 .. include:: /Personal_Cabinet/PCInstruction.rst
    :start-after: .. початок блоку для pc_signatories
