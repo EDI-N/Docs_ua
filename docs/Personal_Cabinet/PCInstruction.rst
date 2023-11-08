@@ -915,7 +915,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 
 .. image:: /Personal_Cabinet/pics_PCInstruction/PCInstruction_352.png
    :align: center
-
+ 
 .. кінець блоку для pc_signatories
 
 .. _billing:
