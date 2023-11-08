@@ -912,6 +912,8 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. image:: /Personal_Cabinet/pics_PCInstruction/PCInstruction_352.png
    :align: center
 
+12345
+
 .. кінець блоку для pc_signatories
 
 12345
