@@ -1,9 +1,5 @@
-Інструкція
+Через обмеження движка
 #############################################################
-
-
-
-
 
 .. початок блоку для pcSignatories
 
@@ -31,8 +27,6 @@
 
 .. image:: /Personal_Cabinet/pics_PCInstruction/PCInstruction_352.png
    :align: center
-
-12345
 
 .. кінець блоку для pcSignatories
 
