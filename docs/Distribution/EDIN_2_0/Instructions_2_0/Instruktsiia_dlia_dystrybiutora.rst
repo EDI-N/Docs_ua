@@ -76,6 +76,8 @@
 
 .. кінець блоку для Order_create1
 
+.. _prod-pricelist:
+
 3 Перегляд прайс-листа Виробника
 ===================================
 
@@ -88,7 +90,7 @@
 
 Відкриється нове вікно прайс-листа з усіма доданими позиціями, згуртованими за лінійкою продукції, категоріями та підкатегоріями:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_037.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_046.png
    :align: center
 
 Каталог продукції в бланку замовлення по прайс-листу групується в три рівня. Можна приховувати окремі лінійки товарів, натиснувши на назву лінійки. Натискання на назву категорії призводить до відображення або приховування вмісту категорії групи. Кожна категорія може містити декілька підкатегорій з товарними позиціями.
@@ -102,7 +104,7 @@
 
 Якщо Виробник повідомляє своїх Дистриб'юторів про залишки на складі, тобто відправляє в Прайс-листі свої дані про залишки продукції, то ці значення відображаються в бланку в колонці **Залишок**. Неможливо оформити більшу кількість товару, ніж **Залишок**, навіть якщо не встановлена **Квота на замовлення** (максимальна кількість товару в одному замовленні, встановлена Виробником).
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_038.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_047.png
    :align: center
 
 Помітки :red:`Новинка!`, :blue:`Акція!`, :green:`Публічна позиція!` та :orange:`Надбавка!` додає Виробник.
@@ -119,12 +121,28 @@
 
 .. початок блоку для Order_create3
 
-Для створення `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ необхідно заповнити ствопці **Кількість одиниць** та **Кількість коробок** враховуючи встановлені Виробником **Обмеження**:
+При створенні `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ варто враховувати встановлені Виробником **Обмеження**. Документ формується через заповнення значень у ствопцях **Кількість одиниць** та **Кількість коробок**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_039.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_048.png
    :align: center
 
-Після введення кількості, що повинна бути замовлена в сервісі EDIN **Маркет** автоматично для цієї позиції та для всього документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ розраховуються значення:
+Значення в цих колонках можливо вносити **вручну**, обираючи потрібні поля, або за допомогою XLSX/XLS файлу (кнопка **"Завантажити з Excel"**). Для масового внесення кількостей за товарами за допомогою файла потрібно спочатку **"Скачати шаблон"**:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_049.png
+   :align: center
+
+Відкрийте та заповніть файл Excel. Заповнений Вашими даними файл можливо додати за допомогою кнопки **"Завантажити шаблон"**:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_051.png
+   :align: center
+
+.. important::
+   Зверніть увагу! Видаляти, міняти місцями колонки в Excel файлі не можна. Колонки виділенні зеленим кольором - **обов'язкові до заповнення**! Пара значень "Штрихкод"-"Артикул" повинна бути унікальною на рівні Замовлення (перевірка на дублі - додається лише перше значення). Якщо будь-яку з позицій буде заповнено некоректно, при додаванні файлу на платформі відображається підказка з переліком помилок в конкретних рядках, що потібно виправити:
+
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_050.png
+      :align: center
+
+Після вказання кількості, що повинна бути замовлена в сервісі EDIN **Маркет** автоматично для цієї позиції та для всього документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ розраховуються значення:
 
 * Загальна кіл-ть позицій в замовленні = кількість блоків в POSITION в Замовленні (ORDERS) 
 * Загальна кіл-ть коробок = сума всіх значень BOXESCOUNT в Замовленні (ORDERS)
@@ -143,7 +161,7 @@
 
 Ви можете **Зберегти** введену інформацію та повернутись до Замовлення пізніше, для продовження оформлення якого повторно відкрийте прайс-лист Виробника та продовжіть роботу.
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_041.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_052.png
    :align: center
 
 При заповненні кількості одиниць або кількості коробок, якщо поле позначене червоним - перевірте, чи не перевищили ви обмеження та квоти, а також відповідність кількості одиниць до кількості коробок. В випадку невідповідності до квот чи обмежень потрібно зменшити кількість товару в замовленні до значення, яке дозволяє **"+Створити замовлення"**:
