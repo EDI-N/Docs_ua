@@ -112,6 +112,7 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: ⚡ ERP Connector PRO
 
+   ERP_Connector_PRO/Instructions/user_instruction
    ERP_Connector_PRO/Instructions/operator_instruction
 
 .. toctree::
