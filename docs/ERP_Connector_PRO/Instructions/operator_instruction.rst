@@ -178,6 +178,8 @@ GLN - (Global Location Number) глобальний номер місцезна�
 .. image:: pics_operator_instruction/operator_instruction_27.jpg
    :align: center
 
+.. _doc-settings:
+
 2.2.2 Налаштування документів
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
