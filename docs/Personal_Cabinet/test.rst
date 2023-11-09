@@ -2,7 +2,7 @@
 #############################################################
 
 
-.. include:: /Personal_Cabinet/PCInstruction.rst
+.. include:: /Personal_Cabinet/for_some_reason.rst
    :start-after: .. початок блоку для pcSignatories
    :end-before: .. кінець блоку для pcSignatories
 
