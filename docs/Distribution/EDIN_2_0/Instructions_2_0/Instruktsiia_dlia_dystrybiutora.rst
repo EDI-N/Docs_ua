@@ -126,6 +126,16 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_048.png
    :align: center
 
+.. hint::
+   У Виробника є можливість (за домовленістю) надіслати Вам в кошик "Попереднє замовлення", в якому Виробник зазначає рекомендовані (персонально для Вас) товари та кількості до замовлення. В цьому випадку при перегляді прайс-листа товари і кількості вже вказані і Ви можете одразу **"+Створити замовлення"** (всі рекомендовані кількості доступні до редагування).
+
+   Коли Виробник надсилає Вам свої рекомендації Ви отримуєте `повідомлення "в дзвіночок" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__ та лист на пошту:
+
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_053.png
+      :align: center
+
+   При натисканні на кнопку **"Перевірити кошик"** відкривається прайс-лист з рекомендаціями Виробника. 
+
 Значення в цих колонках можливо вносити **вручну**, обираючи потрібні поля, або за допомогою XLSX/XLS файлу (кнопка **"Завантажити з Excel"**). Для масового внесення кількостей за товарами за допомогою файла потрібно спочатку **"Скачати шаблон"**:
 
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_049.png
