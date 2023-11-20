@@ -1,0 +1,1474 @@
+{
+	"info": {
+		"_postman_id": "2eeaba22-b2a7-44de-9478-e149268b18b9",
+		"name": "ATB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25635814"
+	},
+	"item": [
+		{
+			"name": "authorization",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"{\r",
+							"const resp = JSON.parse(responseBody);\r",
+							"if(resp && resp.SID) {\r",
+							"    pm.collectionVariables.set(\"auth_sid\", resp.SID);\r",
+							"}\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "{{login}}",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "{{pass}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod_base_url}}api/authorization/hash",
+					"host": [
+						"{{prod_base_url}}api"
+					],
+					"path": [
+						"authorization",
+						"hash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа] Відправка ORDERS",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "73b23682-c125-4a52-b5cd-d8f1fac0ec80",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send&doc_type=orders&gln={{gln}}",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send&doc_type=orders&gln={{gln}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Отримання контента ORDERS",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "73b23682-c125-4a52-b5cd-d8f1fac0ec80",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/body?gln={{gln}}&doc_uuid=97c06d02-7c3c-4467-aaac-4a808078609f&body_type=JSON&response_type=base64",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"body"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "97c06d02-7c3c-4467-aaac-4a808078609f"
+						},
+						{
+							"key": "body_type",
+							"value": "JSON"
+						},
+						{
+							"key": "response_type",
+							"value": "base64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Відправка DESADV",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "73b23682-c125-4a52-b5cd-d8f1fac0ec80",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Тестовая информация"
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send&doc_type=desadv&gln={{gln}}",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send&doc_type=desadv&gln={{gln}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа] Отримання контента DESADV",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "73b23682-c125-4a52-b5cd-d8f1fac0ec80",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Тестовая информация"
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/body?gln={{gln}}&doc_uuid=97c06d02-7c3c-4467-aaac-4a808078609f&body_type=JSON&response_type=base64",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"body"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "97c06d02-7c3c-4467-aaac-4a808078609f"
+						},
+						{
+							"key": "body_type",
+							"value": "JSON"
+						},
+						{
+							"key": "response_type",
+							"value": "base64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Створення чернетки COMDOC 006/032",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"type\": [{\"type\": 5}],\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc?gln={{gln}}&doc_type=comdoc",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник]  Підпис чернетки COMDOC 006/032",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"docCreate\": {\"startTimestamp\": 1586268000, \"finishTimestamp\": 1586269000},\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc/ticket?gln={{gln}}&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc",
+						"ticket"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "c1f6a1d0-5aaf-4a06-b78d-71c238f70986"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Відправка підписаної чернетки COMDOC 006/032",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Girenko Dmitriy/Desktop/ORDERS_20220120093147_6eaf1c8f-2c87-4cc1-974c-697822e22c70.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send?gln={{gln}}&doc_type=comdoc",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Відправка документа COMDOC 006/032 (без створення чернетки)",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send?doc_type=comdoc&gln={{gln}}",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						},
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа, Логістик Юніон] Отримання контента COMDOC 006/032",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232532859\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/body?gln={{gln}}&doc_uuid=97c06d02-7c3c-4467-aaac-4a808078609f&body_type=JSON&response_type=base64",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"body"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "97c06d02-7c3c-4467-aaac-4a808078609f"
+						},
+						{
+							"key": "body_type",
+							"value": "JSON"
+						},
+						{
+							"key": "response_type",
+							"value": "base64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа, Логістик Юніон] Підпис чернетки COMDOC 006/032",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"docCreate\": {\"startTimestamp\": 1586268000, \"finishTimestamp\": 1586269000},\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc/ticket?gln={{gln}}&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc",
+						"ticket"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "c1f6a1d0-5aaf-4a06-b78d-71c238f70986"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Логістик Юніон] Створення чернетки COMDOC 034/033",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"type\": [{\"type\": 5}],\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc?gln={{gln}}&doc_type=comdoc",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Логістик Юніон]  Підпис чернетки COMDOC 033/034",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"docCreate\": {\"startTimestamp\": 1586268000, \"finishTimestamp\": 1586269000},\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc/ticket?gln={{gln}}&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc",
+						"ticket"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "c1f6a1d0-5aaf-4a06-b78d-71c238f70986"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Логістик Юніон] Відправка підписаної чернетки COMDOC 033/034",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Girenko Dmitriy/Desktop/ORDERS_20220120093147_6eaf1c8f-2c87-4cc1-974c-697822e22c70.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send?gln={{gln}}&doc_type=comdoc",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Логістик Юніон] Відправка документа COMDOC 032/0324(без створення чернетки)",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send?doc_type=comdoc&gln={{gln}}",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						},
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Отримання контента COMDOC 033/034",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232532859\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/body?gln={{gln}}&doc_uuid=97c06d02-7c3c-4467-aaac-4a808078609f&body_type=JSON&response_type=base64",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"body"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "97c06d02-7c3c-4467-aaac-4a808078609f"
+						},
+						{
+							"key": "body_type",
+							"value": "JSON"
+						},
+						{
+							"key": "response_type",
+							"value": "base64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Підпис чернетки COMDOC 033/034",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"docCreate\": {\"startTimestamp\": 1586268000, \"finishTimestamp\": 1586269000},\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc/ticket?gln={{gln}}&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc",
+						"ticket"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "c1f6a1d0-5aaf-4a06-b78d-71c238f70986"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа] Відправка RECADV",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "73b23682-c125-4a52-b5cd-d8f1fac0ec80",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send&doc_type=orders&gln={{gln}}",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send&doc_type=orders&gln={{gln}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Отримання контента RECADV",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "73b23682-c125-4a52-b5cd-d8f1fac0ec80",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/body?gln={{gln}}&doc_uuid=97c06d02-7c3c-4467-aaac-4a808078609f&body_type=JSON&response_type=base64",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"body"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "97c06d02-7c3c-4467-aaac-4a808078609f"
+						},
+						{
+							"key": "body_type",
+							"value": "JSON"
+						},
+						{
+							"key": "response_type",
+							"value": "base64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа] Створення чернетки COMDOC 035",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"type\": [{\"type\": 5}],\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc?gln={{gln}}&doc_type=comdoc",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа]  Підпис чернетки COMDOC 035",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"docCreate\": {\"startTimestamp\": 1586268000, \"finishTimestamp\": 1586269000},\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc/ticket?gln={{gln}}&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc",
+						"ticket"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "c1f6a1d0-5aaf-4a06-b78d-71c238f70986"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа] Відправка підписаної чернетки COMDOC 035",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Girenko Dmitriy/Desktop/ORDERS_20220120093147_6eaf1c8f-2c87-4cc1-974c-697822e22c70.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send?gln={{gln}}&doc_type=comdoc",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Мережа] Відправка документа COMDOC 035(без створення чернетки)",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/create_and_send?doc_type=comdoc&gln={{gln}}",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "doc_type",
+							"value": "comdoc"
+						},
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Отримання контента COMDOC 035",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232532859\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/eds/doc/body?gln={{gln}}&doc_uuid=97c06d02-7c3c-4467-aaac-4a808078609f&body_type=JSON&response_type=base64",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"body"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "97c06d02-7c3c-4467-aaac-4a808078609f"
+						},
+						{
+							"key": "body_type",
+							"value": "JSON"
+						},
+						{
+							"key": "response_type",
+							"value": "base64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Постачальник] Підпис чернетки COMDOC 035",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"direction\": {\n        \"sender\": [],\n        \"receiver\": [\"9864232578949\"],\n        \"type\": \"EQ\"\n    },\n    \"family\": \"1\",\n    \"statuses\": [\"4\",\"5\",\"6\"],\n    \"docCreate\": {\"startTimestamp\": 1586268000, \"finishTimestamp\": 1586269000},\n    \"limit\": {\"offset\": 0, \"count\": 10}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_base_url}}/api/v2/eds/doc/ticket?gln={{gln}}&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986",
+					"host": [
+						"{{prod_base_url}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eds",
+						"doc",
+						"ticket"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "c1f6a1d0-5aaf-4a06-b78d-71c238f70986"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "prod_base_url",
+			"value": "https://edo-v2.edin.ua/",
+			"type": "string"
+		},
+		{
+			"key": "demo_base_url",
+			"value": "https://ettn-demo.edin.ua/",
+			"type": "string"
+		},
+		{
+			"key": "auth_sid",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "login",
+			"value": "ВКАЖІТЬ СВІЙ ЛОГІН",
+			"type": "string"
+		},
+		{
+			"key": "pass",
+			"value": "ВКАЖІТЬ СВІЙ ПАРОЛЬ",
+			"type": "string"
+		},
+		{
+			"key": "gln",
+			"value": "ВКАЖІТЬ СВІЙ GLN",
+			"type": "string"
+		}
+	]
+}
