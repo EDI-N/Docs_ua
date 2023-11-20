@@ -2,6 +2,10 @@
 **Прайс-лист (PRICAT)**
 ##########################################################################################################################
 
+.. epigraph::
+
+   *Прайс-лист (PRICAT) служить для опису товарів і послуг. Даний документ відправляється постачальником замовнику і в ньому вказується штрих-код продукту, його опис, ціна, ставка ПДВ. За допомогою Прайс-листа можна також вказати чи зросла/зменшилась ціна або не змінилася.
+
 **XML:**
 
 .. code:: xml
@@ -118,7 +122,7 @@
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=638340231&single=true" width="1100" height="5150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=638340231&single=true" width="1100" height="2500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 -------------------------
