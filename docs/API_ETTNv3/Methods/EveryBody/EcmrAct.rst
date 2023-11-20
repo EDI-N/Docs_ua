@@ -2,11 +2,17 @@
 **Контент Акта без підписів (об'єкт EcmrAct)**
 ############################################################################################################################
 
-**JSON:**
+**Тіло (JSON), що передається в запиті:**
 
-.. code:: json
-
-   Приклад тимчасово відсутній
+* `«Акт перевантаження» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/RELOAD_ACT/RELOAD_ACTpage_v3_json.html>`__
+* `«Акт коригування» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ADJUSTMENT_ACT/ADJUSTMENT_ACTpage_v3_json.html>`__
+* `«Акт розбіжностей про вантаж» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/DISAGREEMENT_ACT/DISAGREEMENT_ACTpage_v3_json.html>`__
+* `«Акт про заміну пункту призначення вантажу» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/CONSIGNEE_CHANGE_ACT/CONSIGNEE_CHANGE_ACTpage_v3_json.html>`__
+* `«Акт про відмову вантажити» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/LOAD_REJECT_ACT/LOAD_REJECT_ACTpage_v3_json.html>`__
+* `«Акт перепломбування» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/RESEALING_ACT/RESEALING_ACTpage_v3_json.html>`__
+* `«Акт примусового завершення е-ТТН» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STOP_ACT/STOP_ACTpage_v3_json.html>`__
+* `«Акт розвантаження на проміжному складі» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STORAGE_DELIVERY_ACT/STORAGE_DELIVERY_ACTpage_v3_json.html>`__
+* `«Акт завантаження на проміжному складі» <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STORAGE_PICKUP_ACT/STORAGE_PICKUP_ACTpage_v3_json.html>`__
 
 Таблиця 1 - Опис параметрів об'єкта **EcmrAct**
 
