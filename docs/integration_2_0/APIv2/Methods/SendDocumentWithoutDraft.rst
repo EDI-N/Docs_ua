@@ -4,7 +4,7 @@
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
-За допомогою цього POST методу **/api/eds/doc/create_and_send** відбувається одночасне створення та відправка документа.
+Метод є універсальним для різних типів документів і дозволяє одночасно створити та відправити документ без створення чернетки.
 
 .. csv-table:: 
   :file: SendDocumentWithoutDraft.csv
