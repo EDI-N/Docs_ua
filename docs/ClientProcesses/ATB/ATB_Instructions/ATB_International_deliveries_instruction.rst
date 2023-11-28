@@ -29,8 +29,8 @@
 - `Замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
 - `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#ordrsp>`__
 - `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
-- `Рахунок <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#invoice>`__
-- `Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
+- `Рахунок <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVOICE_x.html>`__
+- `Універсальний документ <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__
 
 **Загальна схема документообігу:**
 

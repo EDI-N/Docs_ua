@@ -18,11 +18,11 @@
 
 Для входу на web платформу EDIN 2.0 необхідно перейти за посиланням: https://edo-v2.edin.ua/.
 
-Для роботи по факторингу на платформі необхідно створити "Універсальний документ" (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__) на основі одного з документ-підстав:
+Для роботи по факторингу на платформі необхідно створити "Універсальний документ" (`CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__) на основі одного з документ-підстав:
 
-* "Видаткової накладної" (`COMDOC_006 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__);
-* "Прибуткової накладної" (`COMDOC_007 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__);
-* "Товарної накладної" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__).
+* "Видаткової накладної" (`COMDOC_006 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_006_x.html>`__);
+* "Прибуткової накладної" (`COMDOC_007 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_007_x.html>`__);
+* "Товарної накладної" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__).
 
 .. important::
     Документ-підстава повинен знаходитись в статусі :green:`"Підтверджено з двох сторін"`!
@@ -71,7 +71,7 @@
 
 Сторона, що виступає Фактором (банк) розглядає документи і якщо накладна на фінансування з будь-яких причин не приймається, то Фактор лише в цьому випадку відправляє Постачальнику у відповідь до "Універсального документа" статус **не прийнято/відхилено** разом з причиною (в коментарях).
 
-Відсутність будь-яких статусів говорить про розглядання чи прийняття накладної на фінансування. Найближчим часом по всіх прийнятих накладних Фактор відправляє "Універсальний документ" (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__) з вкладеним "Реєстром документів" (:download:`приклад<pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_06.png>`), що містить список прийнятих до фінансування накладних.
+Відсутність будь-яких статусів говорить про розглядання чи прийняття накладної на фінансування. Найближчим часом по всіх прийнятих накладних Фактор відправляє "Універсальний документ" (`CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__) з вкладеним "Реєстром документів" (:download:`приклад<pics_Factoring_instruction_EDIN_2_0/Factoring_instruction_EDIN_2_0_06.png>`), що містить список прийнятих до фінансування накладних.
 
 -----------------------------------
 

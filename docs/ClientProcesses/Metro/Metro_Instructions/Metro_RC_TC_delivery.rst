@@ -28,23 +28,23 @@
 
 В документообігу приймають участь наступні документи:
 
-- `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
+- `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
 - `Транспортна накладна (DOCUMENTINVOICE.DocumentFunctionCode = TNN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML-structure.html#documentinvoice-tnn>`__
 - `Заявка на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=1) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 - `Підтвердження заявки на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=2) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 - `Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
-- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
-- `Товарна накладна (DOCUMENTINVOICE.DocumentFunctionCode = TN) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
-- `Податкова накладна (DECLAR) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__
+- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+- `Товарна накладна (DOCUMENTINVOICE.DocumentFunctionCode = TN) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+- `Податкова накладна (DECLAR) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__
 
 Додатково в документообігу можуть приймати участь:
 
 - `Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/RELOAD_ACT/RELOAD_ACTpage_v3.html>`__
 - `Акт розбіжностей про вантаж <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/DISAGREEMENT_ACT/DISAGREEMENT_ACTpage_v3.html>`__
 - `Акт розбіжностей до транспортної накладної (DOCUMENTINVOICE.DocumentFunctionCode = DTN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML-structure.html#documentinvoice-dtn>`__
-- `Коригування до товарної накладної (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
-- `Коригування до податкової накладної (DECLARj12) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__
+- `Коригування до товарної накладної (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__
+- `Коригування до податкової накладної (DECLARj12) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__
 
 **Загальна схема документообігу:**
 

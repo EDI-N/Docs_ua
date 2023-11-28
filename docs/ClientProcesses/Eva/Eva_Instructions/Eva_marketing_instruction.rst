@@ -20,9 +20,9 @@
 
 Дана інструкція описує порядок документообігу з мережею "EVA" (ТОВ "Руш") на платформі EDI Network 2.0 за схемою передбаченою для маркетингу. В документообігу приймають участь наступні документи:
 
-- `Рахунок-фактура <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
-- `Акт виконаних робіт <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
-- `Акт звірки зведений <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__
+- `Рахунок-фактура <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_016_x.html>`__
+- `Акт виконаних робіт <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_013_x.html>`__
+- `Акт звірки зведений <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_029_x.html>`__
 
 **Загальна схема документообігу:**
 

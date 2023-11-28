@@ -15,9 +15,9 @@
 
 Дана інструкція описує порядок документообігу з мережею "Ашан" на платформі EDI Network 2.0 за схемою "Ашан маркетинг" наступними документами:
 
-* `"Акт виконаних робіт" (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
-* `"Рахунок-фактура" (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
-* `"Універсальний/неструктурований документ" (CONDRA) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
+* `"Акт виконаних робіт" (COMDOC_013) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_013_x.html>`__
+* `"Рахунок-фактура" (COMDOC_016) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_016_x.html>`__
+* `"Універсальний/неструктурований документ" (CONDRA) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__
 
 Загальна схема документообігу:
 

@@ -22,7 +22,7 @@
 Вступ
 ==============================================================
 
-Дана інструкція описує порядок роботи з `"Коригування до товарної накладної" (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__ (далі **РКТН**) та `"Коригування до податкової накладної" (DECLARj12) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__ (далі **РКПН**) для Постачальників мережі "МЕТРО Кеш енд Кері Україна" на web-платформі EDIN 2.0.
+Дана інструкція описує порядок роботи з `"Коригування до товарної накладної" (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__ (далі **РКТН**) та `"Коригування до податкової накладної" (DECLARj12) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__ (далі **РКПН**) для Постачальників мережі "МЕТРО Кеш енд Кері Україна" на web-платформі EDIN 2.0.
 
 **Загальна схема документообігу:**
 
