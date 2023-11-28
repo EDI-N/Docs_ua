@@ -12,4 +12,4 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
 Content-Type  , application/xml
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу передається тіло документа в xml форматі (`специфікація документа CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__)."
+JSON Body     ,"В тілі запиту методу передається тіло документа в xml форматі (`специфікація документа CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__)."

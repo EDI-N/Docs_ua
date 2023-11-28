@@ -13,6 +13,6 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається тіло згенерованого COMDOC_019 в json форматі або форматі обраному в запиті **response_type** (`приклади відповіді <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetRejectTicketBodyExample.html>`__ + `специфікація COMDOC_019 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-019>`__)".
+В тілі **відповіді** передається тіло згенерованого COMDOC_019 в json форматі або форматі обраному в запиті **response_type** (`приклади відповіді <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetRejectTicketBodyExample.html>`__ + `специфікація COMDOC_019 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_019_x.html>`__)".
 
 .. так тут спеціально два методи посилаються на одну сторінку (інших прикладів немає)

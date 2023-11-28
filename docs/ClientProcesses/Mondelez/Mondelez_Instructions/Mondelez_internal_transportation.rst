@@ -28,12 +28,12 @@
 
 Дана інструкція описує порядок документообігу на платформі EDI Network 2.0 при внутрішніх перевезеннях ПрАТ "Монделіс Україна". В типовому документообігу з ПрАТ "Монделіс Україна" приймають участь наступні документи:
 
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
 - `Заявка на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=1) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 - `Підтвердження заявки на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=2) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
-- `Накладна на переміщення (COMDOC_022) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-022>`__
+- `Накладна на переміщення (COMDOC_022) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_022_x.html>`__
 - `Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
-- `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
+- `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
 
 Документообіг здійснюється між трьома Учасниками, де ініціатором виступає Вантажоодержувач на стороні ПрАТ "Монделіс Україна".
 

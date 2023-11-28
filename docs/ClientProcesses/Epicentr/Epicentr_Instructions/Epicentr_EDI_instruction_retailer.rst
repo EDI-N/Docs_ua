@@ -20,12 +20,12 @@
 
 Дана інструкція описує порядок документообігу з мережею "Епіцентр" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
 - `Видаткова накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice>`__
 - `Коригування видаткової накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
-- `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
+- `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
 
 **Загальна схема документообігу:**
 

@@ -16,9 +16,9 @@
 
 Дана інструкція описує порядок алгоритм створення «Повідомлення про відвантаження» (DESADV) та «Рахунку» (INVOICE) у відповідь на вхідне "Замовлення" (ORDERS) на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
-- `Рахунок <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#invoice>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+- `Рахунок <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVOICE_x.html>`__
 
 1 Вхід на платформу
 ====================================

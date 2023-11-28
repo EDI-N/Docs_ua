@@ -186,7 +186,7 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 6 "Оператор"
 =======================
 
-Розділ "Оператора" має бідьш розширений функціонал в порівнянні з попередніми розділами. В розділі "Оператора" документи відображаються у вигляді дерева, де першим рівнем є `"Замовлення" (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__ покупця (окрім випадків коли в ланцюжку немає Замовлення покупця), під яким розміщуються всі вхідні та вихідні документи які відносяться до цього ланцюжка:
+Розділ "Оператора" має бідьш розширений функціонал в порівнянні з попередніми розділами. В розділі "Оператора" документи відображаються у вигляді дерева, де першим рівнем є `"Замовлення" (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__ покупця (окрім випадків коли в ланцюжку немає Замовлення покупця), під яким розміщуються всі вхідні та вихідні документи які відносяться до цього ланцюжка:
 
 .. image:: pics_user_instruction/user_instruction_43.jpg
    :align: center
@@ -198,7 +198,7 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 .. image:: pics_user_instruction/user_instruction_44.jpg
    :align: center
 
-2. Для відправки `"Повідомлення про відвантаження" (DESADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__ чи `"Комерційних документів" (COMDOC) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__ потрібно відмітити документи реалізації (всі створені реалізації завжди будуть йти другим рівнем під `"Замовленням" (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__):
+2. Для відправки `"Повідомлення про відвантаження" (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__ чи `"Комерційних документів" (COMDOC) <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__ потрібно відмітити документи реалізації (всі створені реалізації завжди будуть йти другим рівнем під `"Замовленням" (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__):
 
 .. image:: pics_user_instruction/user_instruction_45.jpg
    :align: center
@@ -221,7 +221,7 @@ EDI - (Electronic Data Interchange) електронний обмін данни
 
 **Відв’язати** - розірвати зв’язки між EDI та документами облікової системи.
 
-4. Підменю **"Оновлення реалізації по RECADV"** дозволяє провести аналіз відмінностей між реалізацією облікової системи та документом EDI `"Повідомлення про прийом" (RECADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__) , а також якщо потрібно то перенести необхідні зміни з RECADV в EDI реалізацію за допомогою кнопки **"Оновлення реалізації"**:
+4. Підменю **"Оновлення реалізації по RECADV"** дозволяє провести аналіз відмінностей між реалізацією облікової системи та документом EDI `"Повідомлення про прийом" (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__) , а також якщо потрібно то перенести необхідні зміни з RECADV в EDI реалізацію за допомогою кнопки **"Оновлення реалізації"**:
 
 .. image:: pics_user_instruction/user_instruction_48.jpg
    :align: center

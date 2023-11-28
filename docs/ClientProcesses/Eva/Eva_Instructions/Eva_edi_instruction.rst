@@ -20,8 +20,8 @@
 
 Дана інструкція описує порядок документообігу з мережею "EVA" (ТОВ "Руш") на платформі EDI Network 2.0 за схемою, що не передбачає підписання документів. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Рахунок <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#invoice>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Рахунок <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVOICE_x.html>`__
 
 **Загальна схема документообігу:**
 

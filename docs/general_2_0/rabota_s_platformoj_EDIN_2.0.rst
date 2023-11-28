@@ -223,18 +223,18 @@
 
 На даний момент доступні до погодження наступні типи документів (список буде розширюватись):
 
-* `Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__
-* `Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__
-* `Акт взаємозаліку (COMDOC_015) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-015>`__
-* `Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-016>`__
-* `Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__
-* `Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-030>`__
-* `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__
-* `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
-* `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
-* `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
-* `Додаток до договору 7Б (METRO_7B) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
-* `Додаток до договору 7Ц (METRO_7C) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__
+* `Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_018_x.html>`__
+* `Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_013_x.html>`__
+* `Акт взаємозаліку (COMDOC_015) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_015_x.html>`__
+* `Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_016_x.html>`__
+* `Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_029_x.html>`__
+* `Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_030_x.html>`__
+* `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
+* `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__
+* `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__
+* `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7A_x.html>`__
+* `Додаток до договору 7Б (METRO_7B) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7B_x.html>`__
+* `Додаток до договору 7Ц (METRO_7C) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7C_x.html>`__
 * Акт (АТС) (COMDOC_039)
 
 .. hint::

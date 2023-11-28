@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передається XML контента документа (`специфікації документів <https://wiki.edin.ua/uk/latest/XML/XML-structure.html>`__).
+В тілі **відповіді** передається XML контента документа (`специфікації документів <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__).
 

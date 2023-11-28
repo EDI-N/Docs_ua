@@ -23,9 +23,9 @@
 - `Замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
 - `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#ordrsp>`__
 - `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
-- `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
-- `Повідомлення про повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retann>`__
-- `Інструкція про повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retins>`__
+- `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+- `Повідомлення про повернення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETANN_x.html>`__
+- `Інструкція про повернення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETINS_x.html>`__
 
 **Загальна схема документообігу:**
 

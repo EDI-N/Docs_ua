@@ -626,7 +626,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 **1.3.1 Акти**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**"Акти"** містить 2 підтеки, в яких документи "Акти наданих послуг" (`COMDOC_018 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-018>`__) та "Акти коригування" (`COMDOC_036 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-036>`__) згруповані по статусу:
+**"Акти"** містить 2 підтеки, в яких документи "Акти наданих послуг" (`COMDOC_018 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_018_x.html>`__) та "Акти коригування" (`COMDOC_036 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_036_x.html>`__) згруповані по статусу:
 
    * "Потребують підписання" - документи, що мають статус "Потребує підписання отримувачем";
    * "Опрацьовані" - документи, що мають статус "Підтверджено з обох сторін".
@@ -676,7 +676,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 **1.3.3 Податкові**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**"Податкові"** містить документи "Податкові накладні" (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__) та "Коригування до податкових накладних (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__).
+**"Податкові"** містить документи "Податкові накладні" (`DECLAR <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__) та "Коригування до податкових накладних (`DECLARj12 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__).
 
 .. image:: pics_PCInstruction/PCInstruction_296.png
    :align: center

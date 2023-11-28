@@ -31,7 +31,7 @@
 * **Архівувати/розархівувати**
 * **Підписати**
 * **Друкувати**
-* **Створити "Консолідоване замовлення" в Excel** (для документів "Замовлення" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__))
+* **Створити "Консолідоване замовлення" в Excel** (для документів "Замовлення" (`ORDER <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__))
 * **Завантажити в форматі .xls / .pdf / .p7s** (доступність форматів залежить від типу документа)
 * **Створити універсальний документ**
 * **Надіслати**
@@ -71,26 +71,26 @@
 
 У "Вхідних" доступне **Масове підписання / відправка**:
 
-* Всіх комерційних (універсальних) документів (`COMDOC <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__)
-* Податкової накладної (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__)
-* Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__)
-* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__)
-* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
-* Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
-* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)).
+* Всіх комерційних (універсальних) документів (`COMDOC <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__)
+* Податкової накладної (`DECLAR <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__)
+* Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__)
+* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__)
+* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__)
+* Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__)
+* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__)).
 
 У "Чернетках" доступне **Масове підписання / відправка**:
 
-* Видаткової накладної (`COMDOC_006 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__)
-* Податкової накладної (`DECLAR <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__)
-* Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__)
-* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__)
-* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__)
-* Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__)
-* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__)
+* Видаткової накладної (`COMDOC_006 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_006_x.html>`__)
+* Податкової накладної (`DECLAR <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__)
+* Коригування до податкової накладної (`DECLARj12 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__)
+* Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__)
+* Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__)
+* Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__)
+* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__)
 
 .. note::
-   Універсальні документи (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__), до яких додано вкладення також можуть бути масово відправлені з "Чернеток" (з підписом чи без в залежності від клієнтських налаштувань).
+   Універсальні документи (`CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__), до яких додано вкладення також можуть бути масово відправлені з "Чернеток" (з підписом чи без в залежності від клієнтських налаштувань).
 
 Для зручності можливо відсортувати документи за Типом та Статусом. Виберіть потрібні документи, або відмітьте усі, а потім натисніть на кнопку **"Дії з обраними документами"**, щоб перейти до допустимих операцій:
 
@@ -147,7 +147,7 @@
 2 Створення та відправка "Універсального документа" (CONDRA) для Фактора
 ============================================================================================================
 
-Масове створення "Універсальних документів" (`CONDRA <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__) використовується для `роботи з факторингом <https://wiki.edin.ua/uk/latest/retail_2.0/Factoring_instruction_EDIN_2_0.html>`__. Документи CONDRA створюються на підставі підписаних з обох сторін (в статусі :green:`"Підтверджено з двох сторін"`) "Видаткової накладної" (`COMDOC_006 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-006>`__), "Прибуткової накладної" (`COMDOC_007 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__), "Товарної накладної" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__):
+Масове створення "Універсальних документів" (`CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__) використовується для `роботи з факторингом <https://wiki.edin.ua/uk/latest/retail_2.0/Factoring_instruction_EDIN_2_0.html>`__. Документи CONDRA створюються на підставі підписаних з обох сторін (в статусі :green:`"Підтверджено з двох сторін"`) "Видаткової накладної" (`COMDOC_006 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_006_x.html>`__), "Прибуткової накладної" (`COMDOC_007 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_007_x.html>`__), "Товарної накладної" (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__):
 
 .. image:: pics_massovi_operacii/massovi_operacii_009.png
    :align: center
@@ -196,7 +196,7 @@
 4 Звіт "Консолідоване замовлення"
 ========================================================================
 
-Створення звіту "Консолідоване замовлення" можливо виконати в папках "Вхідні" та "Надіслані": для цього потрібно обрати кілька "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__) та в **"Дії з обраними документами"** обрати **"Створити "Консолідоване замовлення" в Excel"**:
+Створення звіту "Консолідоване замовлення" можливо виконати в папках "Вхідні" та "Надіслані": для цього потрібно обрати кілька "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__) та в **"Дії з обраними документами"** обрати **"Створити "Консолідоване замовлення" в Excel"**:
 
 .. image:: pics_massovi_operacii/massovi_operacii_015.png
    :align: center
@@ -234,7 +234,7 @@
 7 Створення "Підтвердження замовлення" (ORDRSP)
 ============================================================================================================
 
-Масове створення "Підтверджень замовлень" (`ORDRSP <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__) можливо виконати на підставі вхідних "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__): потрібно обрати бажані документи (для зручності можливо скористатись фільтром за типом документа чи `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) у папці **"Вхідні"** та в **"Дії з обраними документами"** обрати **"Створити підтвердження замовлення"**:
+Масове створення "Підтверджень замовлень" (`ORDRSP <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__) можливо виконати на підставі вхідних "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__): потрібно обрати бажані документи (для зручності можливо скористатись фільтром за типом документа чи `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) у папці **"Вхідні"** та в **"Дії з обраними документами"** обрати **"Створити підтвердження замовлення"**:
 
 .. image:: pics_massovi_operacii/massovi_operacii_022.png
    :align: center
@@ -252,7 +252,7 @@
 8 Створення та відправка "Підтвердження замовлення" (ORDRSP)
 ============================================================================================================
 
-Масове створення та відправку "Підтверджень замовлень" (`ORDRSP <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__) можливо виконати на підставі вхідних "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__): потрібно обрати бажані документи (для зручності можливо скористатись фільтром за типом документа чи `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) у папці **"Вхідні"** та в **"Дії з обраними документами"** обрати **"Відправити підтвердження замовлення"**:
+Масове створення та відправку "Підтверджень замовлень" (`ORDRSP <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__) можливо виконати на підставі вхідних "Замовлень" (`ORDER <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__): потрібно обрати бажані документи (для зручності можливо скористатись фільтром за типом документа чи `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) у папці **"Вхідні"** та в **"Дії з обраними документами"** обрати **"Відправити підтвердження замовлення"**:
 
 .. image:: pics_massovi_operacii/massovi_operacii_025.png
    :align: center
@@ -275,7 +275,7 @@
 9 Створення "Акта виконаних робіт (Логістика)" (COMDOC_037)
 ============================================================================================================
 
-Масове створення "Актів виконаних робіт (Логістика)" (`COMDOC_037 <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-037>`__) можливо виконати на підставі:
+Масове створення "Актів виконаних робіт (Логістика)" (`COMDOC_037 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__) можливо виконати на підставі:
 
    * :underline:`підписаних контрагентами (з обох сторін)`, "Заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 1) або "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2);
    * :underline:`підписаної контрагентами (з трьох сторін)` "е-ТТН" (документ перебуває в статусі :green:`"Підписано вантажоодержувачем"`).

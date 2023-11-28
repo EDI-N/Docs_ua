@@ -20,9 +20,9 @@
 
 Дана інструкція описує порядок документообігу з мережею "EVA" (ТОВ "Руш") на платформі EDI Network 2.0 за схемою, що передбачає обмін юридично значущими документами (ЮЗД). В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
-- `Прибуткова накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-007>`__
+- `Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+- `Прибуткова накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_007_x.html>`__
 
 **Загальна схема документообігу:**
 

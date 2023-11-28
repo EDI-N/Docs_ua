@@ -20,13 +20,13 @@
 
 Дана інструкція описує порядок документообігу Постачальника з мережею "Епіцентр" через ПрАТ "МХП" Логістика, як 3PL-оператора на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Прайс-лист (PRICAT) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#pricat>`__
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
-- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
-- `Інструкція з доставки (INSDES) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#insdes>`__
-- `Повідомлення про відвантаження для розподільного центру (DESSCC) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desscc>`__
-- `Повідомлення про повернення (RETANN) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retann>`__
+- `Прайс-лист (PRICAT) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRICAT_x.html>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+- `Інструкція з доставки (INSDES) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INSDES_x.html>`__
+- `Повідомлення про відвантаження для розподільного центру (DESSCC) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESSCC_x.html>`__
+- `Повідомлення про повернення (RETANN) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETANN_x.html>`__
 
 **Загальна схема документообігу:**
 

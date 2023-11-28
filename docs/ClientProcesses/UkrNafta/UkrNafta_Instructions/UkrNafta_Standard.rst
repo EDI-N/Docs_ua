@@ -22,12 +22,12 @@
 
 Дана інструкція описує порядок документообігу з мережею "Укрнафта" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
 - `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/ClientProcesses/UkrNafta/UkrNafta_XML-structure.html#ordrsp>`__
 - `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/UkrNafta/UkrNafta_XML-structure.html#desadv>`__
-- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
+- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
 - `Видаткова накладна (DOCUMENTINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/UkrNafta/UkrNafta_XML-structure.html#documentinvoice>`__
-- при необхідності також `Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-009>`__
+- при необхідності також `Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_009_x.html>`__
 
 **Загальна схема документообігу:**
 

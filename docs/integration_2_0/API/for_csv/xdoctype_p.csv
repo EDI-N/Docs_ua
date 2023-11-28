@@ -1,45 +1,45 @@
 Тип,Назва (doc_type),Опис (найменування кирилицею)
 0,all,всі
-1,invoice,`Рахунок <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#invoice>`__
-2,orders,`Замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#order>`__
-3,recadv,`Повідомлення про прийом <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#recadv>`__
-4,desadv,`Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#desadv>`__
-5,ordrsp,`Підтвердження замовлення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrsp>`__
-6,pricat,`Прайс-лист <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#pricat>`__
-7,comdis,`Комерційна дискусія <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdis>`__
-10,declar,`Податкова накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declar>`__
-11,insdes,`Інструкція з доставки <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#insdes>`__
-13,slsrpt,`Звіт про продажі <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#slsrpt>`__
-14,invrpt,`Звіт про інвентаризацію <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#invrpt>`__
-15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#coacsu>`__
-17,iftmin,`Інструкція про транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmin>`__
-18,retann,`Повідомлення про повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retann>`__
-19,iftmbf,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbf>`__
-20,partin,`Інформація про контрагента для постачальника <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#partin>`__
-21,mscons,`Звіт про надані послуги <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#mscons>`__
+1,invoice,`Рахунок <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVOICE_x.html>`__
+2,orders,`Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+3,recadv,`Повідомлення про прийом <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+4,desadv,`Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+5,ordrsp,`Підтвердження замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
+6,pricat,`Прайс-лист <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRICAT_x.html>`__
+7,comdis,`Комерційна дискусія <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDIS_x.html>`__
+10,declar,`Податкова накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__
+11,insdes,`Інструкція з доставки <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INSDES_x.html>`__
+13,slsrpt,`Звіт про продажі <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/SLSRPT_x.html>`__
+14,invrpt,`Звіт про інвентаризацію <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVRPT_x.html>`__
+15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COACSU_x.html>`__
+17,iftmin,`Інструкція про транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMIN_x.html>`__
+18,retann,`Повідомлення про повернення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETANN_x.html>`__
+19,iftmbf,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMBF_x.html>`__
+20,partin,`Інформація про контрагента для постачальника <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PARTIN_P_x.html>`__
+21,mscons,`Звіт про надані послуги <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/MSCONS_x.html>`__
 22,transportationorder,`Заявка на транспортування / Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
-25,retins,`Інструкція з повернення <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#retins>`__
-28,comdoc,`Комерційний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc>`__
-29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#declarj12>`__
-30,condra,`Універсальний документ <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#condra>`__
-35,metro7a,`Додаток до договору 7А <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7a>`__
-39,metro7b,`Додаток до договору 7Б <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7b>`__
-40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#productlist>`__
-41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__
-42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#iftmbc>`__
-59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#documentinvoice>`__
-67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#doccorinvoice>`__
-72,metro7c,`Додаток до договору 7Ц <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#metro-7c>`__
-98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#quotes>`__
+25,retins,`Інструкція з повернення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETINS_x.html>`__
+28,comdoc,`Комерційний документ <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__
+29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__
+30,condra,`Універсальний документ <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__
+35,metro7a,`Додаток до договору 7А <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7A_x.html>`__
+39,metro7b,`Додаток до договору 7Б <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7B_x.html>`__
+40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRODUCTLIST_x.html>`__
+41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/AGREEM_x.html>`__
+42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMBC_x.html>`__
+59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__
+72,metro7c,`Додаток до договору 7Ц <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7C_x.html>`__
+98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/QUOTES_x.html>`__
 111,transhipment,`Акт перевантаження товарів <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__
 117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/AcceptancePage_v2.html>`__
 113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BOOKINGpage_v2.html>`__
 114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BookingConfirmationPage_v2.html>`__
-115,ordrpt,`Повідомлення про штрафні санкції <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#ordrpt>`__
+115,ordrpt,`Повідомлення про штрафні санкції <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__
 112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__
-118,docinvoiceact,`Акт приймання наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#docinvoiceact>`__
+118,docinvoiceact,`Акт приймання наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__
 119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__
-120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#contrl>`__
+120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#contrl>`__
 121,ttn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
 122,simple_doc,Документ сервісу «Вільний»
 123,reload,`Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__

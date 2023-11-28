@@ -4,7 +4,7 @@
 
 **JSON body_type=1 (Документ AGREEM / NOVELTY):**
 
-`Специфікація "Товарного узгодження" (AGREEM) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#agreem>`__.
+`Специфікація "Товарного узгодження" (AGREEM) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/AGREEM_x.html>`__.
 
 .. code:: json
 
@@ -79,7 +79,7 @@
     ]
   }
 
-`Специфікація "Комерційна пропозиція" (NOVELTY) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#novelty>`__.
+`Специфікація "Комерційна пропозиція" (NOVELTY) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/NOVELTY_x.html>`__.
 
 .. code:: json
 

@@ -18,9 +18,9 @@
 Вступ
 ==============================================================
 
-Інструкція призначена клієнтам "Системи Трейд" та "Першої Української Сервісної Компанії" ("ПУСК"), що працюють з `"Актом виконаних робіт" (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__ та `"Актом звірки зведеним" (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__.
+Інструкція призначена клієнтам "Системи Трейд" та "Першої Української Сервісної Компанії" ("ПУСК"), що працюють з `"Актом виконаних робіт" (COMDOC_013) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_013_x.html>`__ та `"Актом звірки зведеним" (COMDOC_029) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_029_x.html>`__.
 
-"Система Трейд" чи "Перша Українська Сервісна Компанія" ("ПУСК") в якості контагента формує та відправляє документи `"Акт виконаних робіт" (COMDOC_013) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-013>`__ та `"Актом звірки зведеним" (COMDOC_029) <https://wiki.edin.ua/uk/latest/XML/XML-structure.html#comdoc-029>`__. Ці документи відображаються у **"Вхідних"**:
+"Система Трейд" чи "Перша Українська Сервісна Компанія" ("ПУСК") в якості контагента формує та відправляє документи `"Акт виконаних робіт" (COMDOC_013) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_013_x.html>`__ та `"Актом звірки зведеним" (COMDOC_029) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_029_x.html>`__. Ці документи відображаються у **"Вхідних"**:
 
 .. image:: pics_System_Pysk_work_with_COMDOC_013_COMDOC_029/System_Pysk_work_with_COMDOC_013_COMDOC_029_01.png
    :align: center
