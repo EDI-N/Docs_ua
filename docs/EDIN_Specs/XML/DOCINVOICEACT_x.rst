@@ -4,7 +4,7 @@
 
 .. epigraph::
 
-   *Акт приймання наданих послуг (DOCINVOICEACT)
+   Акт приймання наданих послуг (DOCINVOICEACT)
 
 **XML:**
 
