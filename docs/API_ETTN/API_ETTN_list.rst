@@ -240,6 +240,22 @@ API
    Methods/JoinEmployeeToCompany
    Methods/UpdateEmployee
 
+---------------------------------
+
+.. _ttnv2-errors:
+
+Опис помилок сервісу "ЕТТН" v2
+=========================================================================================
+
+.. csv-table:: 
+  :file: ttnv2_errors.csv
+  :widths:  10, 20, 60
+  :stub-columns: 0
+
+
+
+
+
 .. old auto list (deprecated)
 
     .. toctree::
