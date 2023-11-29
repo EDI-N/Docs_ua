@@ -10,76 +10,140 @@
 .. code:: json
 
    {
-   "TRANSPORTATIONORDER": {
-      "NUMBER": "Test_GD1_post2",
-      "DATE": "2023-01-25",
-      "SUBDOCTYPE": 1,
-      "TRANSPORTATIONTYPE": 1,
-      "TRANSPORTATIONPAYMENTTYPE": 1,
-      "TRANSPORTATIONCOST": {
-         "WITHOUTVAT": 100,
-         "VAT": 20,
-         "WITHVAT": 120
+      "NUMBER": "Тест1",
+      "DATE": "2023-11-29",
+      "SUBDOCTYPE": "1",
+      "TRANSPORTATIONTYPE": "1",
+      "CAMPAIGNNUMBER": "1313",
+      "CAMPAIGNDATE": "2023-09-25",
+      "PURCHASEORDERNUMBER": "12331",
+      "TRANSPORTATIONPAYMENTTYPE": "1",
+      "TRANSPORTATIONCOST":
+      {
+         "WITHOUTVAT": "121",
+         "VAT": "20",
+         "WITHVAT": "145.20"
       },
-      "LENGTHROUTE": 100,
-      "TOTALPACKAGEWEIGHT": 1231,
-      "TOTALPACKAGEQUANTITY": 2,
-      "HEAD": {
-         "CUSTOMER": {
-         "GLN": 9864065738701,
-         "ID": 12345678,
-         "NAME": "etnn-test-consignor",
-         "ADDRESS": "м. Київ, Грушевського, 25, 49000"
+      "TRANSPORTATIONMEANS":
+      [
+         {
+               "ID": "АА1111ОО",
+               "MODEL": "2101",
+               "BRAND": "Камаззз",
+               "TYPE": "Бортовий",
+               "COLOR": "Синій"
          },
-         "CARRIER": {
-         "GLN": 9864065747215,
-         "ID": 23787764,
-         "NAME": "Тестовий перевізник",
-         "ADDRESS": "м. Київ, Грушевського, 25, 49000"
+         {
+               "CATEGORYCODE": "TE",
+               "CHARACTERISTICCODE": "14",
+               "ID": "АА1121АА",
+               "MODEL": "Модель",
+               "BRAND": "Марка",
+               "TYPE": "ТИП"
          },
-         "CONSIGNOR": {
-         "GLN": 9864065738701,
-         "ID": 12345678,
-         "NAME": "etnn-test-consignor",
-         "ADDRESS": "м. Київ, Грушевського, 25, 49000"
-         },
-         "DRIVER": {
-         "GLN": 9864065747215,
-         "ID": 3274892739,
-         "NAME": "Тестовий Водій Водійович",
-         "LICENSE": "XYZ000012"
-         },
-         "POSITION": {
-         "POSITIONNUMBER": 1,
-         "LOAD": {
-            "ADDRESS": {
-               "GLN": 9864065746003,
-               "ID": "UA46060250010015970",
-               "NAME": "м. Львів, Львівський р-н",
-               "ADDRESS": "Львівська, вул. Словацького, 1"
-            },
-            "DATE": "2023-01-25 10:56"
-         },
-         "UNLOAD": {
-            "ADDRESS": {
-               "GLN": 9864065747253,
-               "ID": "UA05020030010063857",
-               "NAME": "м. Вінниця, Вінницький р-н",
-               "ADDRESS": "Вінницька, Гоголя, 5"
-            },
-            "DATE": "2023-01-25 10:57",
-            "CONSIGNEE": {
-               "GLN": 9864065747222,
-               "ID": 23787793,
-               "NAME": "Тестовий вантажоодержувач",
-               "ADDRESS": "м. Вінниця, Вінницький р-н, Вінницька, Перша, 5"
-            }
-         },
-         "PACKAGEWEIGHT": 2323,
-         "PACKAGEQUANTITY": 1
+         {
+               "CATEGORYCODE": "TE",
+               "CHARACTERISTICCODE": "14",
+               "ID": "АА1121АА",
+               "MODEL": "Модель",
+               "BRAND": "Марка",
+               "TYPE": "ТИП"
          }
-      }
-   }
+      ],
+      "LENGTHROUTE": "120",
+      "TEMPERATURE":
+      {
+         "MIN": "11",
+         "MAX": "20"
+      },
+      "DESCRIPTION": "Найменування вантажу",
+      "TOTALPACKAGEWEIGHT": "233",
+      "TOTALPACKAGEQUANTITY": "12",
+      "LOADFACTOR": "30",
+      "INFO": "Додаткова інформація",
+      "FINANCIALINFO": "Додаткова інформація для фінансового відділу",
+      "TRANSPORTATIONMEANS_PARAMETERS": "Відомості про транспорт (Ваго габаритні характеристики)",
+      "HEAD":
+      [
+         {
+               "CUSTOMER":
+               {
+                  "GLN": "9864065745518",
+                  "ID": "12345678",
+                  "NAME": "ТОВ \"Тест1\"",
+                  "ADDRESS": "Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *"
+               },
+               "CARRIER":
+               {
+                  "GLN": "9864065748106",
+                  "ID": "9988663328",
+                  "NAME": "Перевізник ТТН",
+                  "ADDRESS": "Україна, 4215423, Житомирська, Житомирський р-н, м. Житомир, Шевченка 2"
+               },
+               "CONSIGNOR":
+               {
+                  "GLN": "9864065745518",
+                  "ID": "12345678",
+                  "NAME": "ТОВ \"Тест1\"",
+                  "ADDRESS": "Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *"
+               },
+               "DRIVER":
+               {
+                  "GLN": "9864232596134",
+                  "ID": "213242232",
+                  "NAME": "Водій Стрига І.А._v3 (прод)",
+                  "LICENSE": "XYY995511"
+               },
+               "POSITION":
+               [
+                  {
+                     "POSITIONNUMBER": "1",
+                     "LOAD":
+                     {
+                           "ADDRESS":
+                           {
+                              "GLN": "9864065748090",
+                              "ID": "UA05020030010063857",
+                              "NAME": "Україна, 3232323323, Вінницький р-н, м. Вінниця",
+                              "ADDRESS": "Лозова 6"
+                           },
+                           "DATE": "2023-11-29 14:16",
+                           "CONSIGNORCONTACTFACENAME": "Відповідальна особа",
+                           "CONSIGNORCONTACTFACENUMBER": "380000000000"
+                     },
+                     "UNLOAD":
+                     {
+                           "ADDRESS":
+                           {
+                              "GLN": "9864065749073",
+                              "ID": "UA18040190010057814",
+                              "NAME": "Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир",
+                              "ADDRESS": "Одесська 33"
+                           },
+                           "DATE": "2023-11-30 14:17",
+                           "CONSIGNEE":
+                           {
+                              "GLN": "9864065749073",
+                              "ID": "85548668",
+                              "NAME": "Компанія \"Вантажоодержувач_v3\"",
+                              "ADDRESS": "Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир, Одесська 33"
+                           },
+                           "CONSIGNEECONTACTFACENAME": "Іванов Іван Івіанович",
+                           "CONSIGNEECONTACTFACENUMBER": "380222222222"
+                     },
+                     "PACKAGEWEIGHT": "233",
+                     "PACKAGEQUANTITY": "11",
+                     "TRANSPORTTYPE": "Вид транспорту",
+                     "TEMPERATURE":
+                     {
+                           "MIN": "11",
+                           "MAX": "20"
+                     },
+                     "INFO": "Коментар"
+                  }
+               ]
+         }
+      ]
    }
 
 .. role:: orange
