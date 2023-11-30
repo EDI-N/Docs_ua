@@ -64,14 +64,14 @@
 
 При переході за вказаним посиланням відкриється вікно авторизації. Необхідно ввести Ваш логін і пароль користувача і натиснути **"Вхід"**(`детальніше <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#auth>`__).
 
-Після успішної авторизації відкриється основне меню продуктів та рішень для вибору сервісу платформи EDIN: **"Вільний", "EDI Network", "Е-ТТН", "Маркет", "Є-Товар", "Комерційна пропозиція", "Е-Специфікація", "Підключення до мережі", "Tender", "Е-Сертифікати", "White Doc", "Інтеграція"**:
+Після успішної авторизації відкриється основне меню продуктів та рішень для вибору сервісу платформи EDIN: **"Вільний", "EDI Network", "Е-ТТН (версія 2)", "Маркет", "Е-Специфікація", "Комерційна пропозиція", "Tender", "Е-Сертифікати", "White Doc", "Інтеграція"**:
 
-.. image:: pics_PCInstruction/PCInstruction_02.png
+.. image:: pics_PCInstruction/PCInstruction_354.png
    :align: center
 
-Розділ "Особистого кабінету" складається з розділів: **"Акаунт"**, **"Налаштування"** і **"Довідники"**: 
+Розділ "Особистого кабінету" складається з розділів: **"Акаунт"** і **"Налаштування"**: 
 
-.. image:: pics_PCInstruction/PCInstruction_274.png
+.. image:: pics_PCInstruction/PCInstruction_355.png
    :align: center
 
 .. hint::
@@ -189,7 +189,7 @@
 
 Зручніше всього ознайомитись з цінами на тарифні продукти компанії в розділі меню **Доступні до придбання**:
 
-.. image:: pics_PCInstruction/PCInstruction_215.png
+.. image:: pics_PCInstruction/PCInstruction_356.png
    :align: center
 
 По кожному сервісу/послузі представлена коротка інфомація з перевагами його використання. Дізнатись вартість сервісу/послуги можливо за допомогою кнопок **"Придбати"** чи **"Замовити"**. 
@@ -207,7 +207,7 @@
 .. image:: pics_New_balance_tariff/New_balance_tariff_08.png
    :align: center
 
-Після чого в розділі меню **"Кошик"** додається помітка з кількістю обраних сервісів/послуг, а в правому верхньому куті відображається загальна їх вартість. В розділі **"Купівля"** додані до **"Кошика"** сервіси мають відповідну помітку і їх можливо вилучити з корзини (кнопка **"Видалити"**):
+Після чого в розділі меню **"Кошик"** додається помітка з кількістю обраних сервісів/послуг, а в правому верхньому куті відображається загальна їх вартість. В розділі **"Доступні до придбання"** додані до **"Кошика"** сервіси мають відповідну помітку і їх можливо вилучити з корзини (кнопка **"Видалити"**):
 
 .. image:: pics_New_balance_tariff/New_balance_tariff_09.png
    :align: center
@@ -217,7 +217,7 @@
 
 При оформленні замовлення (кнопка **"Замовити"**), на відміну від придбання, додатково можливо вказати інформацію по замовленню (замовлення не потрапляють до **"Кошика"**). Після відправки заявки з Вами зв'яжеться співробітни компанії для обговорення деталей в телефонному режимі:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_10.png
+.. image:: pics_PCInstruction/PCInstruction_358.png
    :align: center
 
 ------------------------------------------------
@@ -232,12 +232,12 @@
 
 В **"Кошику"** відображаються всі обрані до покупки сервіси. Перейти до **"Кошика"** можливо через меню чи кнопку з вартістю усіх обраних сервісів/послуг:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_11.png
+.. image:: pics_PCInstruction/PCInstruction_359.png
    :align: center
 
 По кожному обраному до покупки сервісу вказується його ціна, знижка; вказується загальна вартість всіх обраних сервісів з урахуванням знижок і рекомендований платіж. За потреби завжди можливо відредагувати параметри обраних сервісів/послуг (кнопка **"Редагувати"**) чи **"Видалити"** з **"Кошика"**:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_12.png
+.. image:: pics_PCInstruction/PCInstruction_360.png
    :align: center
 
 .. hint::
@@ -254,24 +254,24 @@
 
 1. При достатній кількості коштів на балансі ("сума на балансі" ⩾ "загальної суми до сплати") доступна кнопка **"Придбати"**:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_13.png
+.. image:: pics_PCInstruction/PCInstruction_361.png
    :align: center
 
 За допомогою кнопки **"Придбати"** здійснюється покупка сервісу з автоматичним списанням коштів з балансу.
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_23.gif
+.. image:: pics_PCInstruction/PCInstruction_362.gif
    :align: center
 
 2. Якщо коштів на балансі не достатньо ("сума на балансі" < "загальної суми до сплати"), то доступна кнопка **"Замовити"**:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_14.png
+.. image:: pics_PCInstruction/PCInstruction_363.png
    :align: center
 
 .. _waiting-tariffs:
 
 За допомогою кнопки **"Замовити"** автоматично створюється рахунок, що відображається в розділі меню `"Рахунки" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#invoice>`__, а замовлені сервіси відображаються в розділі меню **"Очікують оплати"**: 
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_22.gif
+.. image:: pics_PCInstruction/PCInstruction_364.gif
    :align: center
 
 .. important::
@@ -293,7 +293,7 @@
 
 В тому випадку, коли загальна вартість замовлених тарифних пакетів перевищує суму на балансі, однак вартість тарифного пакету сервісу менша суми на балансі, то в розділі **"Очікують оплати"** можливо обрати і **"Придбати"** такий тарифний пакет:
 
-.. image:: pics_PCInstruction/PCInstruction_161.png
+.. image:: pics_PCInstruction/PCInstruction_365.png
    :align: center
 
 В розділі **"Очікують оплати"** можливо дізнатись **"Докладніше про тарифи"**, що будуть Придбані чи **"Видалити"** за потреби обрані тарифні пакети.
@@ -303,7 +303,7 @@
 
 Також список всіх тарифів, що очікують оплати для зручності можливо розрукувати чи завантажити в pdf форматі:
 
-.. image:: pics_PCInstruction/PCInstruction_162.png
+.. image:: pics_PCInstruction/PCInstruction_366.png
    :align: center
 
 .. image:: pics_PCInstruction/PCInstruction_163.png
@@ -325,7 +325,7 @@
 
 Для придбання ліцензій вище згаданих продуктів потрібно перейти в розділі **"Кошика"** натиснути **"Придбати"** чи **"Замовити"** (в даному випадку назва кнопки залежить від коштів на балансі і не впливає на функціонал) доступний спец тариф:
 
-.. image:: pics_PCInstruction/PCInstruction_183.png
+.. image:: pics_PCInstruction/PCInstruction_367.png
    :align: center
 
 .. important::
@@ -333,7 +333,7 @@
 
 Після "Придбання"/"Замовлення" ліцензії вона з'являється в головному меню розділу **"Очікують оплати"**:
 
-.. image:: pics_PCInstruction/PCInstruction_184n.png
+.. image:: pics_PCInstruction/PCInstruction_368.png
    :align: center
 
 Розділ **"Очікують оплати"** в даному випадку містить неоплачені спеціальні послуги (ліцензії) і дозволяє:
@@ -354,7 +354,7 @@
 
 В розділі **"Сервісна підтримка"** представлені можливості розширення базової сервісної підтримки:
 
-.. image:: pics_PCInstruction/PCInstruction_224.png
+.. image:: pics_PCInstruction/PCInstruction_369.png
    :align: center
 
 .. note::
@@ -362,7 +362,7 @@
 
 В розділі **"Сервісна підтримка"** в тарифних пакетах розписані основні параметри, але для вибору сервісу можливо детальніше ознайомитись з можливостями за кнопкою **"Порівняти тарифи"**:
 
-.. image:: pics_PCInstruction/PCInstruction_217.png
+.. image:: pics_PCInstruction/PCInstruction_370.png
    :align: center
 
 .. hint::
@@ -370,7 +370,7 @@
 
 Покращити персональну сервісну підтримку можливо обравши доступний тариф і **"Придбати"** його:
 
-.. image:: pics_PCInstruction/PCInstruction_216.png
+.. image:: pics_PCInstruction/PCInstruction_371.png
    :align: center
 
 .. note::
@@ -378,23 +378,23 @@
 
 У відкритому pop-up вікні потрібно вибрати період і вартість обраного тарифного плану буде розрахована автоматично:
 
-.. image:: pics_PCInstruction/PCInstruction_219.png
+.. image:: pics_PCInstruction/PCInstruction_372.png
    :align: center
 
 Обраний сервіс можливо додати до Кошика (кнопки **"Додати у кошик і продовжити покупки"** чи **"Додати і перейти до кошика"**):
 
-.. image:: pics_PCInstruction/PCInstruction_220.png
+.. image:: pics_PCInstruction/PCInstruction_373.png
    :align: center
 
 .. attention::
    Тарифні пакети сервісної підтримки при купівлі не використовують кошти з Балансу (навіть за наявності потрібної суми)!
 
-   .. image:: pics_PCInstruction/PCInstruction_221.png
+   .. image:: pics_PCInstruction/PCInstruction_374.png
       :align: center
 
    Тому після натискання в розділі **"Кошик"** кнопки **"Придбати"** / **"Замовити"** "Сервісну підтримку" кошти з Балансу не списуються - формується рахунок (доступний в розділі `"Рахунки" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#invoice>`__), а сам сервіс відображається в розділі **"Очікують оплати"**:
 
-   .. image:: pics_PCInstruction/PCInstruction_222n.png
+   .. image:: pics_PCInstruction/PCInstruction_375.png
       :align: center
 
 Розділ **"Очікують оплати"** в даному випадку містить неоплачені послуги додаткової сервісної підтримки і дозволяє:
@@ -411,10 +411,7 @@
 --------------------------------------------------------------------------
 
 .. note::
-   Кнопка **"Продовжити"** сервісну підтримку не активна, якщо інший тариф сервісної підтримки знаходиться в розділі **"Очікують оплати"**! 
-
-.. image:: pics_PCInstruction/PCInstruction_223.png
-   :align: center
+   Кнопка **"Продовжити"** сервісну підтримку не активна, якщо інший тариф сервісної підтримки знаходиться в розділі **"Очікують оплати"**!
 
 Функціонал продовження тарифного пакету описаний в розділі `"Продовжити тарифний пакет" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#continue-tariff>`__.
 
@@ -423,15 +420,15 @@
 
 В розділі **"Придбані"** відображаються всі оплачені активні сервіси з інформацією по терміну їх доступності, обраному тарифу, залишок чи кількість (опції) на поточний та інші місяці (кнопка **"Докладніше про тарифи"**):
 
-.. image:: pics_PCInstruction/PCInstruction_214.png
+.. image:: pics_PCInstruction/PCInstruction_376.png
    :align: center
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_18.png
+.. image:: pics_PCInstruction/PCInstruction_377.png
    :align: center
 
 По кліку мишкою на використані транзакції здійснюється перехід до вкладки `"Білінг" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#billing>`__:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_27.png
+.. image:: pics_PCInstruction/PCInstruction_378.png
    :align: center
 
 .. _purchase-tariff: 
@@ -441,13 +438,10 @@
 
 За допомогою кнопки **"Додати"** можливо докупити (додати будь-який додатковий) тарифний пакет до :underline:`поточного місяця`:
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_19.png
+.. image:: pics_PCInstruction/PCInstruction_379.png
    :align: center
 
-Покупка додаткового тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__):
-
-.. image:: pics_PCInstruction/PCInstruction_116.gif
-   :align: center
+Покупка додаткового тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__).
 
 .. hint::
    При придбанні/зміні/докупці тарифу (за умови, що на балансі недостатньо коштів) активується безлімітний доступ на 2 :underline:`робочих` дні;
@@ -465,16 +459,13 @@
 
 За допомогою кнопки **"Продовжити"** можливо здійснити пролонгацію :underline:`основного тарифу` [1]_ згідно тарифного пакету на поточний місяць (додати такий же тариф (без зміни кількості опцій) на новий період):
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_20.png
+.. image:: pics_PCInstruction/PCInstruction_380.png
    :align: center
 
 .. important::
    Функція **"Продовжити"** не доступна для :underline:`річних тарифів` [2]_, що вже оплачені більше ніж на 12 місяців.
 
-Продовження тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__):
-
-.. image:: pics_PCInstruction/PCInstruction_117.gif
-   :align: center
+Продовження тарифного пакету здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__).
 
 .. hint::
    При придбанні/зміні/докупці тарифу (за умови, що на балансі недостатньо коштів) активується безлімітний доступ на 2 :underline:`робочих` дні;
@@ -490,16 +481,13 @@
 
 За допомогою кнопки **"Змінити"** можливо здійснити зміну :underline:`основного тарифу` [1]_ в обраному періоді (лише в сторону збільшення тарифу):
 
-.. image:: pics_New_balance_tariff/New_balance_tariff_21.png
+.. image:: pics_PCInstruction/PCInstruction_381.png
    :align: center
 
 .. note::
    Під зміною тарифного пакету мається на увазі зміна опцій оплаченого сервісу(ів). При зміні вираховується сума, яку потрібно оплатити з урахуванням раніше оплаченого тарифного пакету. Для зміни тарифу на зменшення необхідно зв’язатись з відповідальним менеджером та/або надіслати листа на sales@edin.ua (детальніше в п.6.3 `Правил користування платформою <https://wiki.edin.ua/uk/latest/Legal_info/Rules.html>`__).
 
-Зміна тарифного пакету сервісу здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__):
-
-.. image:: pics_PCInstruction/PCInstruction_118.gif
-   :align: center
+Зміна тарифного пакету сервісу здійснюється через **"Кошик"** (детальніше в розділі `Придбання сервісів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#service-purchase>`__).
 
 .. hint::
    При придбанні/зміні/докупці тарифу (за умови, що на балансі недостатньо коштів) активується безлімітний доступ на 2 :underline:`робочих` дні;
