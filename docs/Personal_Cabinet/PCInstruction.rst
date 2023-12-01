@@ -931,7 +931,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. admonition::
    **Приєднання нового користувача до компанії**:
 
-   Користувач може самостійно `зареєстуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__ на платформі EDIN 2.0 і створити `запит на приєднання до компанії <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#join-request>`__ (за ЄДРПОУ). При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням:
+   Користувач може самостійно `зареєстуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__ на платформі EDIN 2.0 і створити `запит на приєднання до компанії <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#manual>`__ (за ЄДРПОУ). При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням:
 
    .. image:: pics_PCInstruction/PCInstruction_119.png
       :align: center  
