@@ -33,7 +33,10 @@
    :align: center
 
 .. hint::
-   Також, в якості альтернативи, можливо виконати **"Вхід через Google"** за допомогою відповідної кнопки.
+   Також, в якості альтернативи, можливо виконати **"Вхід через Google"** за допомогою відповідної кнопки:
+
+   .. image:: pics_User_registration/User_registration_048.png
+      :align: center
 
 .. _register:
 
@@ -56,7 +59,10 @@
    :align: center
 
 .. hint::
-   Також, в якості альтернативи, можливо **"Зареєстуватися через Google"** за допомогою відповідної кнопки.
+   Також, в якості альтернативи, можливо **"Зареєстуватися через Google"** за допомогою відповідної кнопки:
+
+   .. image:: pics_User_registration/User_registration_049.png
+      :align: center
 
 Після чого система проінформує, що відправила листа на зазначену адресу:
 
@@ -101,115 +107,60 @@
 .. image:: pics_User_registration/User_registration_035.png
    :align: center
 
-.. _manual:
-
-**2.1 Реєстрація за реквізитами**
------------------------------------------------------------------
-
-При реєстрації за реквізитами потрібно вказати ЄДРПОУ/ІПН та Назву компанії (обов'язкові поля відмічені червоною зірочкою :red:`*`). При введенні ЄДРПОУ/ІПН відбувається пошук і якщо Ваша компанія є у відкритих джерелах, то Назва компанії заповнюється автоматично:
-
-.. image:: pics_User_registration/User_registration_037.gif
-   :align: center
-
-.. початок блоку для QES
-
-.. note::
-   Якщо вказаний на етапі реєстрації код ЄДРПОУ чи ІПН вже зареєстрований на платформі **EDI Network**, то Ви можете створити запит на приєднання за допомогою кнопки **"Приєднатися"** (після чого реєстрація завершується) або повернутися **"Назад"**, якщо допустили помилку при заповненні ЄДРПОУ/ІПН:
-
-   .. image:: pics_User_registration/User_registration_038.png
-      :align: center
-
-   Поки власник акаунта не підтвердить приєднання, користувач, який проходив реєстрацію не має доступу до сервісів:
-
-   .. image:: pics_User_registration/User_registration_039.png
-      :align: center
-
-   Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням на `форму додавання нового користувача <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#join-request-pc>`__. Очікуйте на Вашу пошту лист-повідомлення про рішення адміністратора компанії:
-
-   .. image:: pics_User_registration/User_registration_040.png
-      :align: center
-
-   .. hint::
-      Для зменшення терміну очікування зв‘яжіться з вашим адміністратором або зверніться до технічної підтримки EDIN.
-
-   Після реєстрації доступний демо режим у використанні платформи протягом 30 днів.
-
-Якщо Ваша компанія ще не була зареєстрована, то відкривається третій крок, де потрібно заповнити Індекс/Область/Населений пункт/Адресу (поля теж автоматично заповнюються з відкритих джерел):
-
-.. image:: pics_User_registration/User_registration_041.png
-   :align: center
-
-Далі Ви можете заповнити опціональні, однак важливі поля КАТОТТГ (присутній пошук за назвою) та GLN (якщо маєте): 
-
-.. image:: pics_User_registration/User_registration_042.png
-   :align: center
-
-.. note::
-   В разі відсутності GLN – поле не заповнюється, GLN буде створено автоматично (переглянути всі GLN можливо у відповідному розділі особистого кабінету: `Налаштування – GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__.
-
-В наступному вікні можете додати кілька слів про Вашу компанію:
-
-.. image:: pics_User_registration/User_registration_043.png
-   :align: center
-
-Ознаймившись з вступною інформацією, можете **"Завершити"** реєстрацію:
-
-.. image:: pics_User_registration/User_registration_044.png
-   :align: center
-
-.. note::
-   "Код ознаки джерела податкового номера" визначається автоматично під час реєстрації нового користувача на платформі, орієнтуючись на код ЕДРПОУ та ІПН компанії. Перевірити коректність автоматично заповненого значення можливо в налаштуваннях **основного** GLN акаунта (`Налаштування – GLN <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-main>`__).
-
-По завершенню реєстрації створюється обліковий запис (акаунт) та надається доступ до платформи **EDI Network** відповідно до `договору оферти <https://wiki.edin.ua/uk/latest/Legal_info/Oferta.html>`__ та `політикою конфіденційності <https://wiki.edin.ua/uk/latest/Legal_info/Politic.html>`__. Користувач, який пройшов реєстрацію, стає власником облікового запису (акаунту) та наділяється максимальними повноваженнями щодо керування обліковим записом (акаунтом).
-
-Після реєстрації доступний демо режим у використанні платформи протягом 30 днів.
-
-.. кінець блоку для QES
-
-.. _kep:
-
-**2.2 Реєстрація за КЕП**
------------------------------------------------------------------
-
-Для того, щоб внести дані за допомогою КЕП потрібно **"Вибрати"** ключ:
-
-.. image:: pics_User_registration/User_registration_046.png
-   :align: center
-
 .. tabs::
 
-   .. tab:: Файловий ключ
+   .. tab:: Реєстрація за реквізитами
 
-      .. include:: /_constant/signing/signing.rst
-         :start-after: .. початок блоку для Signing
-         :end-before: .. кінець блоку для Signing
+      При реєстрації за реквізитами потрібно вказати ЄДРПОУ/ІПН та Назву компанії (обов'язкові поля відмічені червоною зірочкою :red:`*`). При введенні ЄДРПОУ/ІПН відбувається пошук і якщо Ваша компанія є у відкритих джерелах, то Назва компанії заповнюється автоматично:
 
-   .. tab:: Token
+      .. image:: pics_User_registration/User_registration_037.gif
+         :align: center
 
-      .. include:: /_constant/token_signing/token_signing.rst
-         :start-after: .. початок блоку для TokenSign
-         :end-before: .. кінець блоку для TokenSign
+      .. include:: /general_2_0/User_reg_part.rst
+         :start-after: .. початок блоку для QES
+         :end-before: .. кінець блоку для QES
 
-   .. tab:: Гряда
+   .. tab:: Реєстрація за КЕП
 
-      .. include:: /_constant/gryada_signing/gryada_signing.rst
-         :start-after: .. початок блоку для GryadaSign
-         :end-before: .. кінець блоку для GryadaSign
+      Для того, щоб внести дані за допомогою КЕП потрібно **"Вибрати"** ключ:
 
-   .. tab:: Cloud
+      .. image:: pics_User_registration/User_registration_046.png
+         :align: center
 
-      .. include:: /_constant/cloud_signing/cloud_signing.rst
-         :start-after: .. початок блоку для CloudSign
-         :end-before: .. кінець блоку для CloudSign
+      .. tabs::
 
-Після того, як ключ успішно зчитано на формі реєстрації поля "ЄДРПОУ / ІПН" та "Назва компанії / ПІБ" заповнюються автоматично даними з ключа без можливості їх редагування:
+         .. tab:: Файловий ключ
 
-.. image:: pics_User_registration/User_registration_047.png
-   :align: center
+            .. include:: /_constant/signing/signing.rst
+               :start-after: .. початок блоку для Signing
+               :end-before: .. кінець блоку для Signing
 
-.. include:: /general_2_0/User_registration.rst
-   :start-after: .. початок блоку для QES
-   :end-before: .. кінець блоку для QES
+         .. tab:: Token
+
+            .. include:: /_constant/token_signing/token_signing.rst
+               :start-after: .. початок блоку для TokenSign
+               :end-before: .. кінець блоку для TokenSign
+
+         .. tab:: Гряда
+
+            .. include:: /_constant/gryada_signing/gryada_signing.rst
+               :start-after: .. початок блоку для GryadaSign
+               :end-before: .. кінець блоку для GryadaSign
+
+         .. tab:: Cloud
+
+            .. include:: /_constant/cloud_signing/cloud_signing.rst
+               :start-after: .. початок блоку для CloudSign
+               :end-before: .. кінець блоку для CloudSign
+
+      Після того, як ключ успішно зчитано на формі реєстрації поля "ЄДРПОУ / ІПН" та "Назва компанії / ПІБ" заповнюються автоматично даними з ключа без можливості їх редагування:
+
+      .. image:: pics_User_registration/User_registration_047.png
+         :align: center
+
+      .. include:: /general_2_0/User_reg_part.rst
+         :start-after: .. початок блоку для QES
+         :end-before: .. кінець блоку для QES
 
 .. _pass-recovery:
 
