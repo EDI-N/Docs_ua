@@ -931,7 +931,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
 .. admonition::
    **Приєднання нового користувача до компанії**:
 
-   Користувач може самостійно `зареєстуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html>`__ на платформі EDIN 2.0 і створити `запит на приєднання до компанії <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#manual>`__ (за ЄДРПОУ). При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням:
+   Користувач може самостійно `зареєстуватись <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ на платформі EDIN 2.0 і створити запит на приєднання до компанії (за ЄДРПОУ). При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням:
 
    .. image:: pics_PCInstruction/PCInstruction_119.png
       :align: center  
@@ -954,7 +954,7 @@ WEB-платформа завжди нагадає, якщо у Вас є нео
    Після **"Додавання"/"Відхилення"** користувачу, що реєструвався на пошту відправляється лист-повідомлення про рішення адміністратора компанії.
 
    .. hint::
-      В випадку, коли користувач `реєструється за допомогою КЕП <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#kep>`__ та ЄДРПОУ зареєстрованої компанії співпадає з ЄДРПОУ з КЕП, то зв'язок такого користувача з акаунтом формується автоматично: користувачу призначається `роль <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Користувач" з доступом до всіх сервісів. При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється інформаційний лист про приєднання користувача:
+      В випадку, коли користувач `реєструється <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ за допомогою КЕП та ЄДРПОУ зареєстрованої компанії співпадає з ЄДРПОУ з КЕП, то зв'язок такого користувача з акаунтом формується автоматично: користувачу призначається `роль <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Користувач" з доступом до всіх сервісів. При цьому Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється інформаційний лист про приєднання користувача:
 
       .. image:: pics_PCInstruction/PCInstruction_130.png
          :align: center
