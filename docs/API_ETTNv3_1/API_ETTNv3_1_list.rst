@@ -249,6 +249,12 @@
 
 ---------------------------------
 
-.. include:: /integration_2_0/APIv2/APIv2_list.rst
-   :start-after: .. початок блоку для Errors_for_everybody
-   :end-before: .. кінець блоку для Errors_for_everybody
+.. _main-errors:
+
+Загальні помилки при роботі з API (всі сервіси EDIN)
+=========================================================================================
+
+.. csv-table:: 
+  :file: /_constant/main_api_errors.csv
+  :widths:  10, 20, 60
+  :stub-columns: 0
