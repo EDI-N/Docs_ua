@@ -247,3 +247,8 @@
   :widths:  10, 40, 40
   :stub-columns: 0
 
+---------------------------------
+
+.. include:: /integration_2_0/APIv2/APIv2_list.rst
+   :start-after: .. початок блоку для Errors_for_everybody
+   :end-before: .. кінець блоку для Errors_for_everybody

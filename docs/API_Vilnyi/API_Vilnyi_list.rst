@@ -195,6 +195,12 @@ API
    Methods/PostDocumentTags
    Methods/DelDocumentTags
 
+---------------------------------
+
+.. include:: /integration_2_0/APIv2/APIv2_list.rst
+   :start-after: .. початок блоку для Errors_for_everybody
+   :end-before: .. кінець блоку для Errors_for_everybody
+
 .. old auto list (deprecated)
 
     .. toctree::

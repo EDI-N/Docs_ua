@@ -420,6 +420,19 @@ API v2
    Methods/PostDocApprovalStep
    Methods/GetDocApprovalStep
 
+.. початок блоку для Errors_for_everybody
+
+.. _main-errors:
+
+Загальні помилки при роботі з API (всі сервіси EDIN)
+=========================================================================================
+
+.. csv-table:: 
+  :file: /_constant/main_api_errors.csv
+  :widths:  10, 20, 60
+  :stub-columns: 0
+
+.. кінець блоку для Errors_for_everybody
 
 
 .. old auto list (deprecated)
