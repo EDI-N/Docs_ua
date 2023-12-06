@@ -316,7 +316,7 @@
 .. caution::
    Ми дбаємо про конфіденційність Ваших облікових даних і Ви можете **"Видалити акаунт"**, вказавши причину та повторно підтвердивши дію кнопкою:
 
-   .. image:: /Driver/Instructions/pics_Android/Android_047.png
+   .. image:: /Driver/Instructions/pics_Android/Android_048.png
       :height: 500px
       :align: center
 
