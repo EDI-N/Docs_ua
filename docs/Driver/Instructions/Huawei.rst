@@ -17,6 +17,7 @@
 
 .. contents:: Зміст:
    :depth: 5
+   :local:
 
 ---------
 
