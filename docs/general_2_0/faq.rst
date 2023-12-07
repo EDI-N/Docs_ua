@@ -14,7 +14,7 @@ F.A.Q.
    :icon: question
    :animate: fade-in-slide-down
 
-   Щоб зареєструватись на платформі, перейдіть за цим `посиланням <https://edo-v2.edin.ua/register?redirect_link=/service/edi&source=ettn-edi-site>`__.
+   Щоб зареєструватись на платформі, перейдіть за цим `посиланням <https://edo-v2.edin.ua/register?source=reg-wiki>`__.
 
 .. dropdown:: 2. Як відновити пароль?
    :color: success
@@ -185,7 +185,7 @@ F.A.Q.
 
    Для підписання документів через Дію чи ПриватБанк потрібно в налаштуваннях дозволити відкривати додатки за замовченням та перевірити що в довірених посиланнях є Дія та Приват24 `(http://www.privat24.ua/ <http://www.privat24.ua/>`__), в `інструкції <https://wiki.edin.ua/uk/latest/Driver/Instructions/Android.html>`__ по роботі з додатком описані кроки. Також обов’язково оновіть всі додатки до останньої версії.
 
-.. dropdown:: 25. Що робити якщо зареєстрував акаунт не водія а за допомогою `посилання <https://edo-v2.edin.ua/register?redirect_link=/service/edi&source=ettn-edi-site>`__?
+.. dropdown:: 25. Що робити якщо зареєстрував акаунт не водія а за допомогою `посилання <https://edo-v2.edin.ua/register?source=reg-wiki>`__?
    :color: success
    :icon: question
    :animate: fade-in-slide-down
