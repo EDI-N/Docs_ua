@@ -31,6 +31,14 @@
    Create_Proposal_Confirmation_from
    Proposal_Confirmation_Reject
 
+.. _comdoc-040:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Рахунок (Логістика)
+   
+   Create_COMDOC_040_from
+
 .. _comdoc-037:
 
 .. toctree::
