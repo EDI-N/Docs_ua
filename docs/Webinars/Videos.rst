@@ -14,6 +14,83 @@
 
 ---------
 
+**Вебінар "EDINі технології для прискорення бізнесу"**
+********************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/Ulxf851q0lE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Комплекс рішень від EDIN для пошуку постачальників, торговельних мереж, перевізників**
+********************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/IFAJFvsmwMs" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Вебінар EDIN Driver: електронна ТТН у смартфоні**
+********************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/mQ3DJfOA7L8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Вебінар EDIN "Практичний кейс з впровадження ЕДО: досвід ALEF ESTATE"**
+************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/_FZaUsBY89g" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Вебінар EDIN: Комерційна пропозиція - нові партнери онлайн**
+************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/tuAE8FI9oCM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Вебінар "EDIN-DOCFLOW: практичний кейс роботи сервісу інтегровано з обліковою системою 1С"**
+********************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/dj7bQpSrKug" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+**Вебінар по роботі з платформою EDIN-DOCflow**
+********************************************************************************************************
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/R3gKicsgOYk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+
+
+
+
+https://www.youtube.com/watch?v=Ulxf851q0lE&list=PLflCtJZ19UyG51c_srYMMXLybYEDfo6Xn&index=11
+
+
+
+
+
+
+
+
+
 **Вебінар по роботі з оновленою платформою EDI NETWORK**
 ************************************************************************************
 
