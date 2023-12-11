@@ -33,13 +33,14 @@
 - `Підтвердження заявки на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=2) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 - `Накладна на переміщення (COMDOC_022) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_022_x.html>`__
 - `Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
+- `Рахунок (Логістика) (COMDOC_040) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_040_x.html>`__
 - `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
 
 Документообіг здійснюється між трьома Учасниками, де ініціатором виступає Вантажоодержувач на стороні ПрАТ "Монделіс Україна".
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_001.png
+.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_008.png
    :height: 700px
    :align: center
 
@@ -180,27 +181,61 @@
    :start-after: .. початок блоку для from_Carrier_to_Consignee2
    :end-before: .. кінець блоку для from_Carrier_to_Consignee2
 
-.. _comdoc037-create:
+.. _comdoc040-create:
 
-10 Створення та відправка "Акта виконаних робіт (Логістика)" (COMDOC_037) Перевізником
+10 Створення та відправка "Рахунок (Логістика)" (COMDOC_040) Перевізником
 ==========================================================================================================================
 
-За документообігу транспортними документами без коригуючих актів "Акт виконаних робіт (Логістика)" (COMDOC_037) створюється на підставі відправленого "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2). Однак, якщо в процесі обробки "е-ТТН" створювалися і затверджувалися "Акт перевантаження" (ReloadAct) чи "Акт про заміну пункту призначення вантажу" (ConsigneeChangeAct), то для внесення змін до кінцевого "Акту виконаних робіт" (COMDOC_037) ПрАТ "Монделіс Україна" створює новий документ "Заявка на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE=1), на підставі якого і створюється "Акт виконаних робіт (Логістика)" (COMDOC_037).
+За документообігу транспортними документами без коригуючих актів "Рахунок (Логістика)" (COMDOC_040) створюється на підставі відправленого "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2). Однак, якщо в процесі обробки "е-ТТН" створювалися і затверджувалися "Акт перевантаження" (ReloadAct) чи "Акт про заміну пункту призначення вантажу" (ConsigneeChangeAct), то для внесення змін до кінцевого "Рахунку (Логістика)" (COMDOC_040) ПрАТ "Монделіс Україна" створює новий документ "Заявка на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE=1), на підставі якого і створюється "Рахунок (Логістика)" (COMDOC_040).
 
-**Перевізнику** для створення в сервісі "EDI Network" **"Акта виконаних робіт (Логістика)"** :
+**Перевізнику** для створення в сервісі "EDI Network" **"Рахунку (Логістика)" (COMDOC_040)** :
 
 * :underline:`на підставі "Заявки на транспортування"` потрібно перейти у **"Вхідні"** та вибрати "Заявку на транспортування" в статусі :green:`"Підписано перевізником"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__);
 * :underline:`на підставі "Підтвердження заявки на транспортування"` потрібно перейти у **"Надіслані"** та вибрати "Підтвердження заявки на транспортування" в статусі :green:`"Підписано замовником"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_001.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_001.png
    :align: center
 
 .. hint::
-   Також на підставі :underline:`підписаних з обох сторін` "Заявок на транспортування", "Підтверджень заявок на транспортування" та  :underline:`підписаних контрагентами (з трьох сторін)` "е-ТТН" доступне `масове створення чернеток "Актів виконаних робіт (Логістика)" <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#create-comdoc-037>`__. 
+   Також на підставі :underline:`підписаних з обох сторін` "Заявок на транспортування", "Підтверджень заявок на транспортування" та  :underline:`підписаних контрагентами (з трьох сторін)` "е-ТТН" доступне `масове створення чернеток "Рахунків (Логістика)" <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#create-comdoc-040>`__.
+
+У відкритому документі натисніть **"Створити документ"** "Рахунок (Логістика)" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__, наприклад:
+
+.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_002.png
+   :align: center
+
+.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_011.png
+   :align: center
+
+.. include:: /ETTN_3_0/Create_COMDOC_040_from.rst
+   :start-after: .. початок блоку для COMDOC_040_from_transport_001
+   :end-before: .. кінець блоку для COMDOC_040_from_transport_001
+
+.. hint::
+   Процес підписання документа не відрізняється від підписання описаного в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Mondelez/Mondelez_Instructions/Mondelez_EDI_ETTN.html#sign>`__.
+
+.. include:: /ETTN_3_0/Create_COMDOC_040_from.rst
+   :start-after: .. початок блоку для COMDOC_040_from_transport_003
+   :end-before: .. кінець блоку для COMDOC_040_from_transport_002
+
+.. _comdoc037-create:
+
+11 Створення та відправка "Акта виконаних робіт (Логістика)" (COMDOC_037) Перевізником
+==========================================================================================================================
+
+"Акт виконаних робіт (Логістика)" (COMDOC_037) може створюватись на підставі різних документів, але в даній схемі від ПрАТ "Монделіс Україна" логічно формується за відправленим "Рахунком (Логістика)" (COMDOC_040).
+
+**Перевізнику** для створення в сервісі "EDI Network" **"Акта виконаних робіт (Логістика)"** :underline:`на підставі "Рахунку (Логістика)"` потрібно перейти у **"Надіслані"** та вибрати відправлений "Рахунок (Логістика)" (COMDOC_040) (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: /ClientProcesses/Mondelez/Mondelez_Instructions/pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_005.png
+   :align: center
+
+.. hint::
+   Також на підставі :underline:`підписаних з обох сторін` "Заявок на транспортування", "Підтверджень заявок на транспортування", :underline:`підписаних контрагентами (з трьох сторін)` "е-ТТН" та відправлених "Рахунків (Логістика)" доступне `масове створення чернеток "Актів виконаних робіт (Логістика)" <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#create-comdoc-037>`__. 
 
 У відкритому документі натисніть **"Створити документ"** "Акт виконаних робіт (Логістика)" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__, наприклад:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_002.png
+.. image:: /ClientProcesses/Mondelez/Mondelez_Instructions/pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_006.png
    :align: center
 
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
