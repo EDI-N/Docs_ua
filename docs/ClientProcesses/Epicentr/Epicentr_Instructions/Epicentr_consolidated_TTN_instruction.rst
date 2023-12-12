@@ -14,10 +14,14 @@
 
 «Зведена ТТН» - є внутрішнім документом і не реєструється в ЦБД!
 
+-----------------------------------------------
+
 **Загальна схема документообігу:**
 
 .. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_001.png
    :align: center
+
+-----------------------------------------------
 
 **Алгоритм формування «Зведеної ТТН» (API):**
 
@@ -26,7 +30,9 @@
 * :blue:`3` `Прив'язка (додавання) ТТН до Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostLinkDocs.html>`__
    * `Отримання пов'язаних документів Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetLinkDocs.html>`__
    * `Розірвання прив'язки (видалення) ТТН до Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/DelLinkDocs.html>`__
-* :green:`4` `Відправка Зведеної ТТН РЦ <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__
+* :green:`4` `Відправка Зведеної ТТН (РЦ->ТЦ) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__
+
+-----------------------------------------------
 
 **Технічні моменти:**
 
