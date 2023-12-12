@@ -21,17 +21,13 @@
 
 **Алгоритм формування «Зведеної ТТН»:**
 
-:green:`1` `Авторизація РЦ <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+* :green:`1` `Авторизація РЦ <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+* :green:`2` `Створення чернетки Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/CreateEcmrEttn.html>`__
+* :blue:`3` `Прив'язка (додавання) ТТН до Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostLinkDocs.html>`__
 
-:green:`2` `Створення чернетки Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/CreateEcmrEttn.html>`__
-
-:blue:`3` `Прив'язка (додавання) ТТН до Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostLinkDocs.html>`__
-
-`Отримання пов'язаних документів Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetLinkDocs.html>`__
-
-`Розірвання прив'язки (видалення) ТТН до Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/DelLinkDocs.html>`__
-
-:green:`4` `Відправка Зведеної ТТН РЦ <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__
+   `Отримання пов'язаних документів Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetLinkDocs.html>`__
+   `Розірвання прив'язки (видалення) ТТН до Зведеної ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/DelLinkDocs.html>`__
+* :green:`4` `Відправка Зведеної ТТН РЦ <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__
 
 **Технічні моменти:**
 
