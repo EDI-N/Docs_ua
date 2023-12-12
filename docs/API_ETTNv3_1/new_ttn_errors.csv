@@ -209,4 +209,16 @@ xml тіло не канонізоване або некоректне"
 400,DRIVER_RESP_PERSON_NTO_FOUND,TTN_ERR-70,"No person with the driver's TIN was found among the responsible persons of the carrier
 
 Серед відповідальних осіб перевізника не знайдено особу з ІПН водія"
+400,EMPTY_LINK_DOC_LIST,TTN_ERR-72,"empty link doc list
+
+Порожній список документів"
+400,LINK_DOCS_LIMIT_EXCEEDED,TTN_ERR-73,"The limit of the number of linked documents has been exceeded. Limit: [%s], 1
+
+Перевищено ліміт кількості пов'язаних документів. Ліміт: [%s], 1"
+400,INCORRECT_LINKED_DOC_UUID_LIST,TTN_ERR-74,"Incorrect list uuid of documents
+
+Некоректний список uuid-ів документів"
+400,INCORRECT_LINK_DOCS_DATA,TTN_ERR-75,"Errors found when checking documents: [%s], 1
+
+Знайдені помилки при перевірці документів: [%s], 1"
 500,Internal server error: sd898sdf63,,Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної підтримки: `support@edin.ua <mailto:support@edin.ua>`__)
