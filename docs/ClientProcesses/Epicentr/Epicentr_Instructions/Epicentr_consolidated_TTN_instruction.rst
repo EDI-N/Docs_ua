@@ -17,7 +17,6 @@
 **Загальна схема документообігу:**
 
 .. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_001.png
-   :height: 700px
    :align: center
 
 **Алгоритм формування «Зведеної ТТН»:**
