@@ -35,8 +35,8 @@
 
 Специфікація «Зведеної ТТН» відрізняється від звичайної ТТН (`XML <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__ / `JSON <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3_json.html>`__) значенням тега **ExchangedDocumentContext.GuidelineSpecifiedDocumentContextParameter**:
 
-* urn:ua:e-transport.gov.ua:ettn:01:generic:001 => 1 - (звичайна ТТН).
-* urn:ua:e-transport.gov.ua:ettn:01:generic:101 => 101 - ("Зведена ТТН").
+* ``urn:ua:e-transport.gov.ua:ettn:01:generic:001`` => 1 - (звичайна ТТН).
+* ``urn:ua:e-transport.gov.ua:ettn:01:generic:101`` => 101 - ("Зведена ТТН").
 2) Чернетка «Зведеної ТТН» не доступна до редагування (лише для перегляду).
 3) При відправці для «Зведеної ТТН» виконуються додаткові перевірки: всі пов'язані документи мають бути відправлені + перевірки, що і при додаванні ТТН документів.
 4) Після відправки «Зведеної ТТН» прив'язувати (додавати) нові ТТН заборонено, однак можливо видаляти раніше прив'язані ТТН.
