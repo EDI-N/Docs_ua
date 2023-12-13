@@ -90,7 +90,7 @@
 
 Відкриється нове вікно прайс-листа з усіма доданими позиціями, згуртованими за лінійкою продукції, категоріями та підкатегоріями:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_046.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_054.png
    :align: center
 
 Каталог продукції в бланку замовлення по прайс-листу групується в три рівня. Можна приховувати окремі лінійки товарів, натиснувши на назву лінійки. Натискання на назву категорії призводить до відображення або приховування вмісту категорії групи. Кожна категорія може містити декілька підкатегорій з товарними позиціями.
@@ -104,8 +104,14 @@
 
 Якщо Виробник повідомляє своїх Дистриб'юторів про залишки на складі, тобто відправляє в Прайс-листі свої дані про залишки продукції, то ці значення відображаються в бланку в колонці **Залишок**. Неможливо оформити більшу кількість товару, ніж **Залишок**, навіть якщо не встановлена **Квота на замовлення** (максимальна кількість товару в одному замовленні, встановлена Виробником).
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_047.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_055.png
    :align: center
+
+.. hint::
+   Якщо Виробник в обраній позиції вказує "Кратність", то при формуванні "Замовлення" Покупцем кількість замовлених позицій має бути кратною вказаній кількості. Наприклад, якщо "Кратність"=3, то "Кількість одиниць" для формування "Замовлення" може бути 3, 6, 9...
+
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_056.png
+      :align: center
 
 Помітки :red:`Новинка!`, :blue:`Акція!`, :green:`Публічна позиція!` та :orange:`Надбавка!` додає Виробник.
 
@@ -121,9 +127,9 @@
 
 .. початок блоку для Order_create3
 
-При створенні `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ варто враховувати встановлені Виробником **Обмеження**. Документ формується через заповнення значень у ствопцях **Кількість одиниць** та **Кількість коробок**:
+При створенні `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ варто враховувати встановлені Виробником **Обмеження** та кратності, що зазначаються за кожною позицією окремо. Документ формується через заповнення значень у ствопцях **Кількість одиниць** та **Кількість коробок**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_048.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_057.png
    :align: center
 
 .. hint::
