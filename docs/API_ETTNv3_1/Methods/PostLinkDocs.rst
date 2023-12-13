@@ -20,6 +20,12 @@
   :widths:  10, 41
   :stub-columns: 0
 
+Приклад тіла запиту:
+
+.. code:: json
+
+   ["doc_uuid одиночної ТТН №1", "doc_uuid одиночної ТТН №2", "doc_uuid одиночної ТТН №3"]
+
 **RESPONSE**
 
 Код сервера 200 (ok).
