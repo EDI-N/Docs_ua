@@ -24,12 +24,12 @@
 - `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
 - `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
 - `Видаткова накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice>`__
-- `Коригування видаткової накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
+- `Акт розбіжностей <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
 - `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_032.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_033.png
    :height: 700px
    :align: center
 
@@ -252,7 +252,7 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_018.png
    :align: center
 
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ або формує у відповідь "Коригування видаткової накладної" (DOCCORINVOICE) у разі незгоди.
+Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ або формує у відповідь "Акт розбіжностей" (DOCCORINVOICE) у разі незгоди.
 
 -------------------------------------
 

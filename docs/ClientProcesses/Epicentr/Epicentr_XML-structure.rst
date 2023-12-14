@@ -15,15 +15,15 @@ XML Специфікації для роботи з Мережею "Епіцен
 
 :download:`Приклад "Видаткової накладної" (DOCUMENTINVOICE)<Epicentr_XML/examples/DOCUMENTINVOICE_example.xml>`
 
-Коригування видаткової накладної (DOCCORINVOICE)
+Акт розбіжностей (DOCCORINVOICE)
 ========================================================
 
-.. csv-table:: Коригування видаткової накладної (DOCCORINVOICE)
+.. csv-table:: Акт розбіжностей (DOCCORINVOICE)
   :file: Epicentr_XML/files/DOCCORINVOICE.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`Приклад "Коригування видаткової накладної" (DOCCORINVOICE)<Epicentr_XML/examples/DOCCORINVOICE_example.xml>`
+:download:`Приклад "Акт розбіжностей" (DOCCORINVOICE)<Epicentr_XML/examples/DOCCORINVOICE_example.xml>`
 
 Акт приймання-передачі (DOCUMENTINVOICE_APP)
 ========================================================
