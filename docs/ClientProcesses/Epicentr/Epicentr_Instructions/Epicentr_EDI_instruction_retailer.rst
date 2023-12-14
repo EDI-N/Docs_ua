@@ -111,7 +111,7 @@
    :align: center
 
 .. hint::
-   Процес підписання "Коригування видаткової накладної" є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_retailer.html#sign>`__ .
+   Процес підписання "Коригування видаткової накладної" є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_retailer.html#sign>`__.
 
 Після підписання "Коригування видаткової накладної" (DOCCORINVOICE) документ потрібно **"Відправити"**:
 
