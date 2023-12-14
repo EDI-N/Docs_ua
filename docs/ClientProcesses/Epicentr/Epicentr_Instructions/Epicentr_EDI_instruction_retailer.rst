@@ -68,24 +68,24 @@
    На стороні мережі "Епіцентр" документ переглядається і:
 
    1. якщо всі дані в документі коректні, то `підписується <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_retailer.html#sign>`__ за допомогою кнопки **"Підтвердження товарної накладної"**;
-   2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь, то формується "Коригування видаткової накладної" (DOCCORINVOICE).
+   2. якщо кількісно-цінові значення в позиціях в документі розходяться з фактичними, то формує у відповідь, то формується "Акт розбіжностей" (DOCCORINVOICE).
 
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_020.png
    :align: center
 
 .. _doccorinvoice-create:
 
-3.1 Формування "Коригування видаткової накладної" (DOCCORINVOICE)
+3.1 Формування "Акта розбіжностей" (DOCCORINVOICE)
 --------------------------------------------------------------------------------------------------
 
-Для формування "Коригування видаткової накладної" (DOCCORINVOICE) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ потрібно натиснути **"Створити документ"**:
+Для формування "Акта розбіжностей" (DOCCORINVOICE) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ потрібно натиснути **"Створити документ"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_021.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_034.png
    :align: center
 
-У відкритій формі "Коригування видаткової накладної" (DOCCORINVOICE) більшість полів заповнюються автоматично з пов'язаного документа (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
+У відкритій формі "Акта розбіжностей" (DOCCORINVOICE) більшість полів заповнюються автоматично з пов'язаного документа (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_022.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_035.png
    :align: center
 
 Дані **Відправника** / **Одержувача** заповнюються автоматично з документа-підстави та обраної компанії і не підлягають редагуванню. Необхідно заповнити **Номер** / **Дату** документа! Дані **Точка доставки**, **Номер контракта**, **Дата контракта** також заповнюються автоматично.
@@ -94,12 +94,12 @@
 
 * **Коригування кількості на «-»** / **Коригування кількості на «+»** :
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_023.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_036.png
    :align: center
 
 * **Коригування ціни на «+»** / **Коригування ціни на «+»** :
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_024.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_037.png
    :align: center
 
 .. attention::
@@ -107,20 +107,20 @@
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_025.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_038.png
    :align: center
 
 .. hint::
-   Процес підписання "Коригування видаткової накладної" є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_retailer.html#sign>`__.
+   Процес підписання "Акта розбіжностей" є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_retailer.html#sign>`__.
 
-Після підписання "Коригування видаткової накладної" (DOCCORINVOICE) документ потрібно **"Відправити"**:
+Після підписання "Акта розбіжностей" (DOCCORINVOICE) документ потрібно **"Відправити"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_026.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_039.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами.
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_027.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_040.png
    :align: center
 
 .. _recadv-create:
