@@ -122,10 +122,10 @@
 
 Перед підписанням потрібно обрати та **"Додати відповідальну особу"**:
 
-.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_015.png
+.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_023.png
    :align: center
 
-.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_016.png
+.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_024.png
    :align: center
 
 .. hint::
@@ -172,10 +172,10 @@
 
 Перед підписанням потрібно обрати та **"Додати відповідальну особу"**:
 
-.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_015.png
+.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_023.png
    :align: center
 
-.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_016.png
+.. image:: pics_Epicentr_consolidated_TTN_instruction/Epicentr_consolidated_TTN_instruction_024.png
    :align: center
 
 .. hint::
