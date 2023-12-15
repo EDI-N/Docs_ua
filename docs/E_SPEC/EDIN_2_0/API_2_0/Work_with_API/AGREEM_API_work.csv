@@ -1,0 +1,8 @@
+":green:`1.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
+
+:green:`1.2` `Створити пропозицію (переузгодження) (Постачальник) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreement.html>`__",
+":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
+
+:green:`2.2` `Отримати тіло документа (комерційної пропозиції / товарного узгодження) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreementBody.html>`__ 
+
+:green:`2.3` `Приймання/Відхилення позицій «Товарного узгодження» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/AgreementPositionAction.html>`__",:red:`2.3*` `Відхилення «Товарного узгодження» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/AgreementReject.html>`__
