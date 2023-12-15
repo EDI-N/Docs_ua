@@ -1,6 +1,24 @@
 API
 ###########
 
+.. image:: Work_with_API/pics/Basic_espec_001.png
+   :align: center
+   :height: 700px
+   :alt: Стандартна схема E-Spec
+
+Алгоритми обміну документами в сервісі **Е-СПЕЦИФІКАЦІЯ** (API)
+==============================================================================
+
+.. toctree::
+   :maxdepth: 1
+   
+   Work_with_API/PRODUCTLIST_API_work
+   Work_with_API/AGREEM_API_work
+   Work_with_API/COMDOC_008_API_work
+   Work_with_API/PRODUCTLIST*_API_work
+
+-------------------------------
+
 .. hint::
     Всі запити нижче перерахованих API методів сервісу направляються на адресу: https://edo-v2.edin.ua 
 
@@ -59,6 +77,8 @@ API
    Methods/PostSpecViewGlnsController
    Methods/PostSpecStatusController
 
+.. _contracts:
+
 Робота з контрактами / специфікаціями
 ================================================
 
@@ -90,6 +110,8 @@ API
    Methods/GetContract
    Methods/RemoveContractData
    Methods/SearchContracts
+
+.. _agreement:
 
 Робота з пропозиціями
 ============================
