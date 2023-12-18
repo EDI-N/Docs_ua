@@ -15,7 +15,8 @@ API
    Work_with_API/PRODUCTLIST_API_work
    Work_with_API/AGREEM_API_work
    Work_with_API/COMDOC_008_API_work
-   Work_with_API/PRODUCTLIST*_API_work
+
+* Після погодження (обоюдного підписання) "Товарної специфікації" (COMDOC_008) реалізована автоматична відправка документа «Електронна специфікація» (PRODUCTLIST) з урахуванням усіх погоджених змін. Мережа при цьому отримує документ через FTP сервіс EDIN. `Перегляд усіх Cпецифікацій <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContracts.html>`__ / `Переглянути Специфікацію з конкретним контрагентом <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContract.html>`__.
 
 -------------------------------
 
