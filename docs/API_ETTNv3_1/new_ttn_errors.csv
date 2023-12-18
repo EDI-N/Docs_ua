@@ -221,4 +221,13 @@ xml тіло не канонізоване або некоректне"
 400,INCORRECT_LINK_DOCS_DATA,TTN_ERR-75,"Errors found when checking documents: [%s], 1
 
 Знайдені помилки при перевірці документів: [%s], 1"
+400,SIGN_ERROR,TTN_ERR-76,"Signs is invalid: [%s], 1
+
+Помилка при перевірці підпису: [%s], 1"
+400,SIGN_EDRPOU_MISMATCH_COMPANY_EDRPOU,TTN_ERR-77,"EDRPOU from sign: [%s] is not equals gln EDRPOU: [%s], 2
+
+ЄДРПОУ з підписа: [%s] не відповідає ЄДРПОУ з глн: [%s], 2"
+400,INCORRECT_LINK_DOC_STATUSES,TTN_ERR-78,"Some link docs has incorrect status
+
+Деякі пов'язані документи знаходяться в некоректному статусі"
 500,Internal server error: sd898sdf63,,Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної підтримки: `support@edin.ua <mailto:support@edin.ua>`__)
