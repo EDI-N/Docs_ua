@@ -1,7 +1,7 @@
 API
 ###########
 
-.. image:: Work_with_API/pics/Basic_espec_001.png
+.. image:: Work_with_API/pics/Basic_espec_002.png
    :align: center
    :height: 700px
    :alt: Стандартна схема E-Spec
