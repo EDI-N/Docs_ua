@@ -187,4 +187,4 @@ id параметра, Найменування параметра, Тип, Фо
 , driver_switch_uuid,, VARCHAR,GLN нового водія (Акт перевантаження)
 , driver_uuid,,VARCHAR,Водій
 , expeditor_uuid,,VARCHAR,Експедитор
-, load_place_uuid,,VARCHAR,Місце завантаження
+, load_place_uuid,,VARCHAR,Місце завантаження (COMDOC_027/МісцеНавантаження/GLN)
