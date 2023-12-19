@@ -110,12 +110,12 @@
 
 Після того як по FTP буде вивантажено товарний довідник (контракт, специфікацію) у розділі **ДОВІДНИКИ** у вкладці **Специфікація** відобразиться перелік **Постачальників** та діючих специфікацій з ними. Усі специфікації зручно згруповані по назві **Постачальника**. Потрібно обрати **Постачальника** та **"Перейти"** в одну з актуальних специфікацій:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_01.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_001.png
    :align: center
 
 Після переходу відкривається детальна форма довідника з пропозиціями. Можливо відфільтрувати позиції за назвою, штрих-кодом чи артикулом та **"Скачати специфікацію"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_02.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_002.png
    :align: center
 
 .. _work-with-docs:
@@ -128,7 +128,7 @@
 
 Для зручної роботи блок **"ДОКУМЕНТИ"** має 3 розділи для роботи з узгодженнями:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_31.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_003.png
    :align: center
 
 * **Узгодження цін** - містить весь список Товарних узгодженнь, тобто створених документів-пропозицій щодо зміни цін.
@@ -142,7 +142,7 @@
 
 В розділі **Узгодження цін** можливо **"Завантажити звіт по акціях"**. Для формування звіту потрібно вибрати **"Фільтр по акції"** (1-2), **"Застосувати фільтр"** (3) після чого можливо **"Завантажити звіт по акціях"** (4):
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_32.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_004.png
    :align: center
 
 Статуси документів:
@@ -180,7 +180,7 @@
 
 Нові узгодження, відправлені **Постачальником**, знаходяться у статусі **"На погодженні"**. При переході в документ (через номер документа) відкривається форма документа-пропозиції:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_03.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_005.png
    :align: center
 
 1. Функціонал для роботи з усім документом одразу.
@@ -231,7 +231,7 @@
 .. note::
    До того, як "Товарне узгодження" (AGREEM) буде підписаний (вже перейде в статус **Готовий до підписання**) співробітник мережі, що приймає рішення на даному етапі може повернути документ на попередній етап узгодження на рівні процесів в мережі (кнопка **"Повернути на попередній етап"**):
 
-   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_33.png
+   .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_006.png
       :align: center
 
    При цьому в історії спостерігається зміна статусів разом з типом події *Повернено на попередній статус*:
@@ -249,7 +249,7 @@
 
 У формі документа Вам необхідно перевірити ціни в кожній з позицій, вказати статус - "Прийнято" / "Відхилено", потім змінити загальний статус документа - "Погоджено" / "Відхилено". Після зміни статусу натисніть кнопку **Підписати**.
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_06.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_007.png
    :align: center
 
 .. _sign:
@@ -286,7 +286,7 @@
 
 Після підписання узгодження інформація щодо підписанта відображається в блоці "Контрагенти". 
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_30.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_008.png
    :align: center
 
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_31.png
@@ -295,12 +295,12 @@
 Після успішного підписання, натисніть кнопку **Надіслати**. 
 Після підписання й відправки статус докумена міняється на **Підписання постачальником** й відображається один підпис - від мережі:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_09.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_009.png
    :align: center
 
 Вже після підписання **Постачальником**, статус узгодження зміниться на **Завершено** та з'явиться ще один підпис у блоці Контрагенти. Тепер обидві візуалізації КЕП зеленого кольору:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_10.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_010.png
    :align: center
 
 .. _promotion:
@@ -312,7 +312,7 @@
 
 Розділ **"Акції"** доступний в "ДОВІДНИКАХ" на стороні **Покупця** (мережі) та **Постачальника**. Представник мережі може редагувати (додавати/змінювати/видаляти позиції) основну таблицю розділу, а **Постачальнику** доступно лише переглядати інформацію по акціям.
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_11.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_011.png
    :align: center
 
 Список акцій можливо редагувати вручну чи шляхом вивантаження xls-файлу (кнопка **"Завантажити акції з Excel"** (2)) - для цього попередньо потрібно **"Завантажити шаблон Excel"** (1).
@@ -329,12 +329,12 @@
 
 Рядок пошуку допомагає відфільтрувати документи в журналі, а всі доступні ключі пошуку детально описані в підказці:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_33.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_012.png
    :align: center
 
 Можливо обрати ключ зі списку чи вводити ключ з клавіатури (при фільтруванні кількома ключами одночасно елементи пошуку повині бути розділені комою з пробілом). Після цього натисніть - **"Пошук"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_17.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Instruction_merezha/E_Spec_Instruction_merezha_013.png
    :align: center
 
 Окремо винесені фільтри документів по даті (**"Сьогодні"**, **"Вчора"**), а останній введений пошук зберігається платформою автоматично і при натисканні кнопки **"Останній фільтр"** він виконується повторно в тій вкладці ("Узгодження цін" / "Важливі" / "Оброблені"), в якій він був виконаний останнього разу (Вас буде переадресовано):
