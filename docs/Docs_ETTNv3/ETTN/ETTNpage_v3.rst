@@ -147,7 +147,7 @@
                <ram:CarrierAcceptanceLogisticsLocation>
                   <ram:ID schemeAgencyID="КАТОТТГ">UA80000000000875983</ram:ID>
                   <ram:Name>адреса Свят</ram:Name>
-                  <ram:TypeCode>5</ram:TypeCode>
+                  <ram:TypeCode>10</ram:TypeCode>
                   <ram:Description>Україна, м. Київ, провулок Святошинський 22</ram:Description>
                   <ram:PhysicalGeographicalCoordinate>
                      <ram:SystemID schemeAgencyID="GLN">9864065741015</ram:SystemID>
@@ -156,7 +156,7 @@
                <ram:ConsigneeReceiptLogisticsLocation>
                   <ram:ID schemeAgencyID="КАТОТТГ">UA32080110010033149</ram:ID>
                   <ram:Name>адреса Гост</ram:Name>
-                  <ram:TypeCode>10</ram:TypeCode>
+                  <ram:TypeCode>5</ram:TypeCode>
                   <ram:Description>Україна, Київська обл,  Бучанський р-н, смт. Гостомель, вул. Дружби, 33</ram:Description>
                   <ram:PhysicalGeographicalCoordinate>
                      <ram:SystemID schemeAgencyID="GLN">9864065741022</ram:SystemID>
