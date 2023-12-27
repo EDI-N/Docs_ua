@@ -67,14 +67,14 @@
 2 Функціонал сервісу
 ===============================================================
 
-Для початку роботи з сервісом необхідно виконати вхід в систему за допомогою наданих логіна і пароля. Далі серед доступних сервісів обрати **Е-СПЕЦИФІКАЦІЯ**:
+Для початку роботи з сервісом необхідно виконати вхід в систему за допомогою наданих логіна і пароля. Далі серед доступних сервісів обрати **Е-Специфікація**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_53n.png
+.. image:: /_constant/pics_landing/landing_e_spec.png
    :align: center
 
-Основне вікно сервісу **Е-СПЕЦИФІКАЦІЯ** містить:
+Основне вікно сервісу **Е-Специфікація** містить:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_54n.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_73.png
    :align: center
 
 1. Розділ для роботи з документами (узгодження цін, комерційні пропозиції);
@@ -97,17 +97,17 @@
 
 Усі специфікації зручно згруповані по назві мережі. Потрібно обрати мережу та **"Перейти"** в одну з актуальних специфікацій:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_03.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_74.png
    :align: center
 
 Після переходу відкривається детальна форма довідника з пропозиціями та можливими діями з ними:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_04.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_75.png
    :align: center
 
 Товарні позиції в специфікації відображаються в алфавітному порядку. Для швидкого пошуку можливо відфільтрувати позиції за назвою, штрих-кодом чи артикулом:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_05.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_76.png
    :align: center
 
 3.1 Створення Пропозиції 
@@ -118,7 +118,7 @@
 1. Шляхом вивантаження xls-файлу (згідно шаблону) "Для регулярної ціни" та "Для промо ціни - "Зниження ціни""
 2. Шляхом формування "Переузгодження" на всі/окремі товарні позиції в специфікації.
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_06.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_77.png
    :align: center
 
 3.1.1 Формування пропозиції з xls-файлу
@@ -129,12 +129,12 @@
 .. attention::
     **"Для регулярної ціни"** та **"Для промо ціни - "Зниження ціни""** використовуються різні шаблони, про що також потрібно зважати й при завантаженні файлу на платформу!
 
-    .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_07.png
+    .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_78.png
        :align: center
 
 Після завантаження заповненої xls-форми на WEB-платформу формується і відображається пропозиція (в статусі "Чернетка"), наприклад: 
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_08.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_79.png
    :align: center
 
 3.1.2 Формування пропозиції через "Переузгодження"
@@ -149,7 +149,7 @@
 
 Під час "Переузгодження" обраних товарних позицій створюється документ **"Товарне узгодження"** (`AGREEM <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/AGREEM_x.html>`__).
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_09.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_81.png
    :align: center
 
 .. note:: Відображення табличної частини з позиціями залежить від налаштувань Мережі та обраного типу пропозиції! 
@@ -159,12 +159,12 @@
 
 Для створення товарного узгодження необхідно в розділі **ДОВІДНИКИ** у вкладці **Специфікація** обрати мережу, **"Перейти"** в одну з актуальних специфікацій. У формі що відкрилась вибрати позиції для переузгодження і натиснути кнопку **Переузгодити** -> **"Змінити регулярну ціну"** (також для ціни зі знижкою).
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_10.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_80.png
    :align: center
 
 У новому вікні відкриється форма створеної пропозиції. Відображається номер/дата документа, його статус (Чернетка), дати дії нової ціни, дані контрагентів та таблична частину з позиціями на переузгодження:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_11.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_82.png
    :align: center
 
 В табличній частині можливо встановити нові ціни: **"Нову ціну без ПДВ"** та **"Нову ціну зі знижкою без ПДВ"** (за умовами договору з **Мережею**). Позиції можливо відсортувати за "Назвою" в алфавітному порядку по спадаючій |sortup| чи за зростанням |sortdown|.
@@ -173,7 +173,7 @@
 
 В Пропозиціях-Чернетках на етапі редагування можливо **"Додати/Вилучити товарну позицію"** (для вилучення потрібно обрати позицію чекером). При додаванні відкриється вікно з товарними позиціями, що належать до раніше обраної специфікації, але не були додані в пропозицію-чернетку (доступний пошук по назві, штрих-коду або артикулу):
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_12.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_83.png
    :align: center
 
 .. note::
@@ -188,7 +188,7 @@
 
 Після корректного заповнення документа його можливо **"Зберегти"** та **"Надіслати"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_13.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_84.png
    :align: center
 
 .. attention::
@@ -212,12 +212,12 @@
 
 Для створення товарного узгодження необхідно в розділі **ДОВІДНИКИ** у вкладці **Специфікація** обрати мережу, **"Перейти"** в одну з актуальних специфікацій. У формі що відкрилась вибрати позиції для переузгодження і натиснути кнопку **Переузгодити** -> **"Змінити промо ціну - "Зниження ціни""**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_14.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_85.png
    :align: center
 
 У новому вікні відкриється форма створеної пропозиції. Відображається номер/дата документа, його статус (Чернетка), дати дії нової ціни, дані контрагентів та таблична частину з позиціями на переузгодження. Додатково можливо надати дані відповідального співробітника постачальника, номер та дату маркетингового договору:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_15.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_86.png
    :align: center
 
 Для всіх "промо-пропозицій" можливо обрати `Акції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Іnstruction_postachalnik.html#promotion>`__, якщо вони були додані мережею і їх дати не конфліктують з датами створюваного документа-пропозиції на підставі договору з цією мережею.
@@ -233,12 +233,12 @@
 
 Для створення товарного узгодження необхідно в розділі **ДОВІДНИКИ** у вкладці **Специфікація** обрати мережу, **"Перейти"** в одну з актуальних специфікацій. У формі що відкрилась вибрати позиції для переузгодження і натиснути кнопку **Переузгодити** -> **"Змінити промо ціну - "Компенсація""**: 
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_16.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_87.png
    :align: center
 
 У новому вікні відкриється форма створеної пропозиції. Відображається номер/дата документа, його статус (Чернетка), дати дії нової ціни, дані контрагентів та таблична частину з позиціями на переузгодження. Додатково можливо надати дані відповідального співробітника постачальника, номер та дату маркетингового договору:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_17.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_88.png
    :align: center
 
 Для всіх "промо-пропозицій" можливо обрати `Акції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Іnstruction_postachalnik.html#promotion>`__, якщо вони були додані мережею і їх дати не конфліктують з датами створюваної Пропозиції на підставі договору з цією мережею. Додатково можливо обрати "Оплату за компенсацію".
@@ -254,12 +254,12 @@
 
 Для створення товарного узгодження необхідно в розділі **ДОВІДНИКИ** у вкладці **Специфікація** обрати мережу, **"Перейти"** в одну з актуальних специфікацій. У формі що відкрилась вибрати позиції для переузгодження і натиснути кнопку **Переузгодити** -> **"Змінити промо ціну - "Комбо""**: 
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_18.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_89.png
    :align: center
 
 У новому вікні відкриється форма створеної пропозиції. Відображається номер/дата документа, його статус (Чернетка), дати дії нової ціни, дані контрагентів та таблична частину з позиціями на переузгодження. Додатково можливо надати дані відповідального співробітника постачальника, номер та дату маркетингового договору:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_19.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_90.png
    :align: center
 
 Для всіх "промо-пропозицій" можливо обрати `Акції <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_Spec_Іnstruction_postachalnik.html#promotion>`__, якщо вони були додані мережею і їх дати не конфліктують з датами створюваної Пропозиції на підставі договору з цією мережею. Додатково можливо обрати "Оплату за компенсацію".
@@ -275,7 +275,7 @@
 
 На стороні почтачальника реалізована можливість клонування відправленого товарного узгодження усіх типів (кнопка **"Клонування"**):
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_64.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_91.png
    :align: center
 
 .. attention::
@@ -286,7 +286,7 @@
 
 Для зручної роботи розділ **"ДОКУМЕНТИ"** має 3 вкладки для роботи з узгодженнями:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_56.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_92.png
    :align: center
 
 * **Узгодження цін** - містить весь список Товарних узгодженнь, тобто створених документів-пропозицій щодо зміни цін.
@@ -319,7 +319,7 @@
 
 Поки узгодження опрацьовується **Покупцем**, він знаходиться у статусі **На погодженні**. Після обробки **Покупцем**, за затвердженими позиціями **Постачальник** отримує документ, підписаний з боку **Покупця** у статусі **Підписання постачальником**. Перед відкриттям **Постачальник** вже може переглянути загальну кількість прийнятих та відхилених позицій. У відкритому вхідному документі (перехід по номеру документа) відображається, які саме позиції були прийняті, а які відхилені (доступний зручний фільтр по статусу позицій), при кліку по кнопці **"Підписано"** можливо переглянути деталі підпису контрагента:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_30.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_93.png
    :align: center
 
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_31.png
@@ -329,7 +329,7 @@
 
 Для продовження узгодження потрібно **"Підписати"** документ:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_32.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_94.png
    :align: center
 
 .. _sign:
@@ -371,7 +371,7 @@
 
 Після успішного підписання, можливо **Надіслати** документ контрагенту:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_40.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_95.png
    :align: center
 
 Після підписання й відправки статус документа змінюється на **Завершено**.
@@ -385,7 +385,10 @@
 
 Розділ **"Акції"** доступний в "ДОВІДНИКАХ" на стороні **Покупця** (мережі) та **Постачальника**. Представник мережі може редагувати (додавати/змінювати/видаляти позиції) основну таблицю розділу, а **Постачальнику** доступно лише переглядати інформацію по акціям.
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_44.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_96.png
+   :align: center
+
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_97.png
    :align: center
 
 Відображається лише список мереж, з якими працює **Постачальник**, а також увімкнені налаштування на платформі (за потреби звертайтесь на support@edin.ua ). Якщо мережа не завантажила акції, то при натисканні на блок з назвою мережі виводиться повідомлення: 
@@ -405,7 +408,7 @@
 
 Рядок пошуку допомагає відфільтрувати документи в журналі, а всі доступні ключі пошуку детально описані в підказці:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_33.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_99.png
    :align: center
 
 Можливо обрати ключ зі списку чи вводити ключ з клавіатури (при фільтруванні кількома ключами одночасно елементи пошуку повині бути розділені комою з пробілом). Після цього натисніть - **"Пошук"**:
@@ -445,12 +448,12 @@ d) ``Дата документа: -2019-09-01`` - знайти всі докум
 
 У **Постачальника** є можливість додати до узгодження обгрунтування зміни ціни або інші документи, які можуть прискорити погодження. В якості обгрунтування до документу можливо додати максимум 5 файлів розміром кожного не більше 5 МБ в наступних форматах: PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/TXT. Для цього потрібно обрати файли та натиснути кнопку **"Додати обгрунтування"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_67.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_100.png
    :align: center
 
 Після цього документи підвантажаться і будуть відображатись у вигляді плиток - їх можливо видалити кнопкою |trash| та завантажити клікнувши, на назву документа лівою кнопкою мишки:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_70.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_101.png
    :align: center
 
 Документ що містить обгрунтування позначається в журналі документів символом |скріпка|.
