@@ -408,12 +408,12 @@
 
 Рядок пошуку допомагає відфільтрувати документи в журналі, а всі доступні ключі пошуку детально описані в підказці:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_99.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_98.png
    :align: center
 
 Можливо обрати ключ зі списку чи вводити ключ з клавіатури (при фільтруванні кількома ключами одночасно елементи пошуку повині бути розділені комою з пробілом). Після цього натисніть - **"Пошук"**:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_57.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_99.png
    :align: center
 
 Окремо винесені фільтри документів по даті (**"Сьогодні"**, **"Вчора"**), а останній введений пошук зберігається платформою автоматично і при натисканні кнопки **"Останній фільтр"** він виконується повторно в тій вкладці ("Узгодження цін" / "Важливі" / "Оброблені"), в якій він був виконаний останнього разу (Вас буде переадресовано):
