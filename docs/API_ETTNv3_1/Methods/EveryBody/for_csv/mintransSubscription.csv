@@ -3,4 +3,5 @@
 id,,long,ідентифікатор підписки
 gln,,String,GLN компанії
 companyCode,,String,код ЄДРПОУ / ІПН компанії
-expired,,long,термін дії підписки (unix timestamp); визначає державний керуючий орган
+expired,,long,кінцевий термін дії підписки (unix timestamp); визначає державний керуючий орган
+startDate,,long,початок терміну дії підписки (unix timestamp); дата оформлення підписки на події
