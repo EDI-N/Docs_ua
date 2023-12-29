@@ -10,7 +10,8 @@
 	  "id": 14,
 	  "gln": 3958152365482,
 	  "companyCode": "12345678",
-	  "expired": 1658204821
+	  "expired": 1719409499,
+    "startDate": 1703868300
 	}
 
 Таблиця 1 - Опис параметрів об'єкта **mintransSubscription**
