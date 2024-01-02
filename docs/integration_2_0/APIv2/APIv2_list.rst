@@ -420,10 +420,27 @@ API v2
    Methods/PostDocApprovalStep
    Methods/GetDocApprovalStep
 
+---------------------------------
+
+.. _edi-errors:
+
+Опис помилок сервісу "EDI Network"
+=========================================================================================
+
+.. csv-table:: 
+  :file: edi_errors.csv
+  :widths:  10, 20, 20, 40
+  :stub-columns: 0
+
 .. _main-errors:
 
 Загальні помилки при роботі з API (всі сервіси EDIN)
 =========================================================================================
+
+.. csv-table:: 
+  :file: /_constant/common_api_errors.csv
+  :widths:  10, 20, 20, 40
+  :stub-columns: 0
 
 .. csv-table:: 
   :file: /_constant/main_api_errors.csv

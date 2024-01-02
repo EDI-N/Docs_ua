@@ -1,0 +1,56 @@
+**Код відповіді**,**Індекс помилки**,**Текст помилки**,**Опис**
+400,ERR_CMN-1,"Parameter(s) [%s] is(are) required
+
+Параметр(и) [%s] є обов'язковим(и)","Помилка виникає, якщо не передати обовязковий url-параметр (наприклад, doc_uuid)"
+400,ERR_CMN-2,"Unknown or unsupported %s [%s]
+
+Непідтримуваний %s [%s]","Помилка виникає, якщо вказаний параметр не підтримується (наприклад, передавати response_type=xml, але доступні тільки - file, base64, bytes)"
+400,ERR_CMN-3,"Parameter [%s] must have format format: [%s]
+
+Параметер [%s] повинен мати формат: [%s]","Помилка виникає, коли клієнт в url параметрі передав значення, в форматі, що не підтимується"
+400,ERR_CMN-4,"Incorrect Content-Type in request, one of [%s] is expected
+
+Некоректний Content-Type. Очікується один з наступних:", 
+400,ERR_CMN-5,"Unsupported method [%s]
+
+Непідтримуваний метод [%s]",
+400,ERR_CMN-6,"Expected [%s] file(s) in multipart/form data
+
+Очікується [%s] файл(и)ів у multipart/form data",
+400,ERR_CMN-7,"Request body is empty
+
+Тіло запиту порожнє",
+400,ERR_CMN-7,"Unknown gln: [%s]
+
+Невідомий gln: [%s]",
+400,ERR_CMN-8,"Supported not more [%s] files per request
+
+Підтримується не більше [%s] файлів на запит",
+400,ERR_CMN-9,"Exceeded max file name length
+
+Перевищено максимальну довжину імені файлу",
+400,ERR_CMN-10,"Exceeded max file size - [%s]
+
+Перевищено максимальний розмір файлу - [%s]",
+400,ERR_CMN-11,"Action not available, reason - [%s]
+
+Дія не доступна, причина - [%s]","Помилка виникає в різних випадках, наприклад, коли відправник документа CONDRA хоче її прийняти, але це може зробити тільки отримувач документа"
+400,ERR_CMN-12,"Document with identifier [%s] not found
+
+Документ з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-12,"Chain with identifier [%s] not found
+
+Ланцюг з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-13,"Attachment with identifier [%s] not found
+
+Вкладення з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-14,"Ticket not found
+
+Квитанцію не знайдено",
+400,ERR_CMN-15,"Package with identifier [%s] not found
+
+Пакет з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-16,"Incorrect format of field's value
+
+Некоректний формат значення поля",
+400,ERR_CMN-17,error,"Помилка в роботі процедури (БД)"
