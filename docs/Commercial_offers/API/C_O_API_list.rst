@@ -161,6 +161,11 @@ API
 =========================================================================================
 
 .. csv-table:: 
+  :file: /_constant/common_api_errors.csv
+  :widths:  10, 20, 20, 40
+  :stub-columns: 0
+
+.. csv-table:: 
   :file: /_constant/main_api_errors.csv
   :widths:  10, 20, 60
   :stub-columns: 0
