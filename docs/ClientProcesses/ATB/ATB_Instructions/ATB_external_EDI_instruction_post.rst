@@ -8,10 +8,6 @@
 
 .. |будинок| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_004.png
 
-.. |плюс| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_029.png
-
-.. |мусорка| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_030.png
-
 .. |info| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_064.png
 
 .. role:: red
@@ -212,7 +208,7 @@
    .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_120.png
       :align: center
 
-В блок **Параметрів** можливо "Додати" (|плюс|) чи "Видалити" (|мусорка|) власні значення. З документа-підстави автоматично заповнюються обов'язкові **Параметри** доставки - "Точка доставки" та "Адреса доставки":
+В блоці **Параметрів** обов'язкові **Параметри** доставки - "Точка доставки" та "Адреса доставки" автоматично заповнюється значеннями відповідно до заповненого блоку **Місце доставки**:
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_031.png
    :align: center
@@ -422,7 +418,7 @@
    .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_120.png
       :align: center
 
-В блок **Параметрів** можливо "Додати" (|плюс|) чи "Видалити" (|мусорка|) власні значення. З документа-підстави автоматично заповнюються обов'язкові **Параметри** доставки - "Точка доставки" та "Адреса доставки":
+В блоці **Параметрів** обов'язкові **Параметри** доставки - "Точка доставки" та "Адреса доставки" автоматично заповнюється значеннями відповідно до заповненого блоку **Місце доставки**:
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_031.png
    :align: center
