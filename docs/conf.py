@@ -36,6 +36,7 @@ import shutil
 
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosectionlabel',
     'sphinxcontrib.contentui',
     'sphinxcontrib.plantuml',
     'notfound.extension',
