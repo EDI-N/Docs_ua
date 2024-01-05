@@ -272,7 +272,7 @@ API
    Methods/PostAccessGroupUsers
    Methods/DelAccessGroupUsers
 
-.. schedules::
+.. _schedules:
 
 Робота з Графіком замовлень
 ============================================================================
