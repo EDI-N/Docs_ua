@@ -48,7 +48,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_001.png
+.. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_002.png
    :align: center
 
 **1 Вхід на платформу**
@@ -93,12 +93,31 @@
    :start-after: .. початок блоку для Proposal_from_Order
    :end-before: .. кінець блоку для Proposal_from_Order
 
-**5 Формування "е-ТТН" на підставі "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2)**
+**5 Формування "е-ТТН" на підставі "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN)**
 ===============================================================================================================================
 
-.. include:: /ETTN_3_0/Create_ETTN_from.rst
-   :start-after: .. початок блоку для ETTN_from_Proposal_Confirmation
-   :end-before: .. кінець блоку для ETTN_from_Proposal_Confirmation
+.. початок блоку для ETTN_from_DOCUMENTINVOICE_TNN
+
+Для створення "е-ТТН" на підставі "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) в сервісі "EDI Network" **Вантажовідправнику** потрібно перейти у **"Надіслані"** та вибрати «Транспортну накладну» (для зручності можливо скористатись рядком пошуку):
+
+.. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_003.png
+   :align: center
+
+У відкритому документі натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарно-транспортна накладна"(ETTN):
+
+.. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_004.png
+   :align: center
+
+Відкриється форма редагування документа "е-ТТН", що вже заповнена даними з документа-підстави:
+
+.. image:: /ClientProcesses/Metro/Metro_Instructions/pics_Metro_RC_TC_delivery/Metro_RC_TC_delivery_005.png
+   :align: center
+
+Дані, що переносяться з "Транспортної накладної" доступні до редагування.
+
+Після того, як всі обов'язкові поля на формі редагування "е-ТТН" будуть заповнені (позначені червоною зірочкою :red:`*`) документ можливо **"Зберегти"**, **"Підписати"** та **"Надіслати"**. Процеси `заповнення/редагування даних чернетки "е-ТТН", підписання та відправка <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_ETTN.html#consignor-create>`__ детально описані в окремій інструкції.
+
+.. кінець блоку для ETTN_from_DOCUMENTINVOICE_TNN
 
 **6 Формування "Товарної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TN) на підставі вхідного "Повідомлення про прийом" (RECADV)**
 ====================================================================================================================
