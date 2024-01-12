@@ -22,6 +22,8 @@
    Create_Proposal_from
    Proposal_Reject
    Proposal_Revoke
+   Proposal_Repeal
+   Proposal_Repeal_Accept
 
 .. _proposal-confirmation:
 
