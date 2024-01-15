@@ -18,4 +18,12 @@
   :header-rows: 1
   :stub-columns: 0
 
+Для "Заявки на транспортування"/"Підтвердження заявки на транспортування" (TRANSPORTATIONORDER):
+
+.. csv-table:: 
+  :file: /API_ETTNv3_1/Methods/EveryBody/for_csv/TRANSPORTATIONORDER_exchange_status.csv
+  :widths:  7, 19, 5, 20, 20
+  :header-rows: 1
+  :stub-columns: 0
+
 .. don't forgot renew xwiki bit_mask page
