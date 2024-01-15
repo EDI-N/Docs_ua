@@ -33,6 +33,9 @@
    
    Create_Proposal_Confirmation_from
    Proposal_Confirmation_Reject
+   Proposal_Confirmation_Revoke
+   Proposal_Confirmation_Repeal
+   Proposal_Confirmation_Repeal_Accept
 
 .. _comdoc-040:
 
