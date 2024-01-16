@@ -131,9 +131,6 @@ gln [%s] не є gln-ом водія"
 400,ERR_TTN-38,"Action not available.
 
 Дія недоступна."
-400,ERR_TTN-39,"Document not found
-
-Документ не знайдено"
 400,ERR_TTN-40,"The required ticket was not found
 
 Необхідна квитанція не знайдена"
