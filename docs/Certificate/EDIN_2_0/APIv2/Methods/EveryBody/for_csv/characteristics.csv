@@ -1,0 +1,5 @@
+Назва,Тип [1]_,Формат,Опис
+.. _characteristics:,,Характеристики,
+Batch Number,O/M,String,Номер партії (обов'язково передається при view.id=2)
+Issuer Article,O,String,Артикул виробника
+VMD Number,O,String,Номер ВМД
