@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XCertificateView:,,Об'єкт **XCertificateView**,
+id,M,int,"ідентифікатор виду
+
+* 1 - Період дії
+* 2 - Номер партії"
+description,,String,опис виду

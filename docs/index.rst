@@ -70,6 +70,7 @@ EDIN | Електронний документообіг для бізнесу
    :caption: 📑 Е-Сертифікати
 
    Certificate/EDIN/Certificate_list
+   Certificate/EDIN_2_0/APIv2/API_Certificate_v2_list
 
 .. toctree::
    :maxdepth: 2
