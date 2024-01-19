@@ -52,6 +52,8 @@
 +-----------+----------------------------+--------------------------------------------------------------------+
 | PUT       | ``/api/ecs/products``      | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateProducts`     |
 +-----------+----------------------------+--------------------------------------------------------------------+
+| POST      | ``/api/ecs/certificates``  | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/Certificates`            |
++-----------+----------------------------+--------------------------------------------------------------------+
 
 **Вкладення до сертифікатів:**
 
@@ -84,6 +86,7 @@
    CopyCertificate
    SearchCertificates
    CertificateProducts
+   Certificates
    CertificateBodyPost
    CertificateBodyPut
    CertificateBodyGet

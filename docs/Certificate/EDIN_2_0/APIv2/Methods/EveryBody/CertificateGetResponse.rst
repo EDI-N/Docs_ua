@@ -162,6 +162,30 @@
   :header-rows: 1
   :stub-columns: 0
 
+Таблиця 7 - Опис параметрів об'єкта **AccessType**
+
+.. csv-table:: 
+  :file: for_csv/AccessType.csv
+  :widths:  20, 20
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 8 - Опис параметрів об'єкта **Level**
+
+.. csv-table:: 
+  :file: for_csv/Level.csv
+  :widths:  20, 20
+  :header-rows: 1
+  :stub-columns: 0
+
+Таблиця 9 - Опис параметрів об'єкта **XCertificateProduct**
+
+.. csv-table:: 
+  :file: for_csv/XCertificateProduct.csv
+  :widths:  1, 5, 12, 41
+  :header-rows: 1
+  :stub-columns: 0
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
