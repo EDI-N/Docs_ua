@@ -29,17 +29,44 @@
 Робота з сертифікатами
 =============================================================
 
-+-----------+--------------------------+------------------------------------------------------------+
-| **Метод** |      **URL запиту**      |                          **Опис**                          |
-+===========+==========================+============================================================+
-| POST      | ``/api/ecs/certificate`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificatePost` |
-+-----------+--------------------------+------------------------------------------------------------+
-| PUT       | ``/api/ecs/certificate`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificatePut`  |
-+-----------+--------------------------+------------------------------------------------------------+
-| GET       | ``/api/ecs/certificate`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateGet`  |
-+-----------+--------------------------+------------------------------------------------------------+
-| DELETE    | ``/api/ecs/certificate`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateDel`  |
-+-----------+--------------------------+------------------------------------------------------------+
++-----------+----------------------------+--------------------------------------------------------------------+
+| **Метод** |       **URL запиту**       |                              **Опис**                              |
++===========+============================+====================================================================+
+| POST      | ``/api/ecs/certificate``   | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificatePost`         |
++-----------+----------------------------+--------------------------------------------------------------------+
+| PUT       | ``/api/ecs/certificate``   | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificatePut`          |
++-----------+----------------------------+--------------------------------------------------------------------+
+| GET       | ``/api/ecs/certificate``   | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateGet`          |
++-----------+----------------------------+--------------------------------------------------------------------+
+| DELETE    | ``/api/ecs/certificate``   | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateDel`          |
++-----------+----------------------------+--------------------------------------------------------------------+
+| GET       | ``/api/ecs/body/download`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateBodyDownload` |
++-----------+----------------------------+--------------------------------------------------------------------+
+| PUT       | ``/api/ecs/archive``       | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/ArchiveCertificate`      |
++-----------+----------------------------+--------------------------------------------------------------------+
+| PUT       | ``/api/ecs/access``        | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/ChangeCertificateAccess` |
++-----------+----------------------------+--------------------------------------------------------------------+
+| PUT       | ``/api/ecs/copy``          | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CopyCertificate`         |
++-----------+----------------------------+--------------------------------------------------------------------+
+| POST      | ``/api/ecs/search``        | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/SearchCertificates`      |
++-----------+----------------------------+--------------------------------------------------------------------+
+| PUT       | ``/api/ecs/products``      | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateProducts`     |
++-----------+----------------------------+--------------------------------------------------------------------+
+
+**Вкладення до сертифікатів:**
+
++-----------+-------------------+----------------------------------------------------------------+
+| **Метод** |  **URL запиту**   |                            **Опис**                            |
++===========+===================+================================================================+
+| POST      | ``/api/ecs/body`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateBodyPost` |
++-----------+-------------------+----------------------------------------------------------------+
+| PUT       | ``/api/ecs/body`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateBodyPut`  |
++-----------+-------------------+----------------------------------------------------------------+
+| GET       | ``/api/ecs/body`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateBodyGet`  |
++-----------+-------------------+----------------------------------------------------------------+
+| DELETE    | ``/api/ecs/body`` | :doc:`/Certificate/EDIN_2_0/APIv2/Methods/CertificateBodyDel`  |
++-----------+-------------------+----------------------------------------------------------------+
+
 
 .. beauty list
 
@@ -51,6 +78,16 @@
    Methods/CertificatePut
    Methods/CertificateGet
    Methods/CertificateDel
+   CertificateBodyDownload
+   ArchiveCertificate
+   ChangeCertificateAccess
+   CopyCertificate
+   SearchCertificates
+   CertificateProducts
+   CertificateBodyPost
+   CertificateBodyPut
+   CertificateBodyGet
+   CertificateBodyDel
 
 ---------------------------------
 
