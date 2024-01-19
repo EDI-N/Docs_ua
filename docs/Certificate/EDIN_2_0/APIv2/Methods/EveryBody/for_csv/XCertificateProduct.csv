@@ -1,7 +1,7 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _XCertificateProduct:,,Об'єкт **XCertificateProduct**,
-id,,long,ідентифікатор товару
-certificateId,M,long,ідентифікатор сертифіката
+id,O,long,ідентифікатор товару
+certificateId,,long,ідентифікатор сертифіката
 name,M,String,назва товару
 barcode,M,String,штрихкод товару
 article,M,String,артикул продавця

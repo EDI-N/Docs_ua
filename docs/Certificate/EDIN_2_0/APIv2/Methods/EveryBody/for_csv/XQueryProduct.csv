@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XQueryProduct:,,Об'єкт **XQueryProduct**,
+barcode,O,String,штрихкод товару
+article,O,String,артикул продавця
+buyerCode,O,String,код покупця
+**uktveds**,O,List<Integer>,масив; коди УКТЗЕД товарів
+partNumber,O,String,номер партії

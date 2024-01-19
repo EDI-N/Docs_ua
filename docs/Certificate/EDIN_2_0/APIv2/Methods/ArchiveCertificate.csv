@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    ,**/api/ecs/archive?gln=9864232613879&uuid=3ff444f4-7594-4a43-a151-90e14ee92b0c**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**uuid** (обов'язково) UUID - унікальний ідентифікатор сертифіката"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
