@@ -4,6 +4,9 @@
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
+.. note::
+   Максимальний розмір файлу для завантаження - 7,5 МБ
+
 .. csv-table:: 
   :file: Certificates.csv
   :widths:  10, 41
