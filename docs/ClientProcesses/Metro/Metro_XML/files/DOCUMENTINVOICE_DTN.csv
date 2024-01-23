@@ -62,7 +62,7 @@ LineNumber, М, Ціле число, номер рядка
 EAN, O, Число [0-9] (14), Штрих-код продукту
 BuyerItemCode, M, Рядок (16),Артикул в БД покупця (МЕТРО)
 ProductIdBuyer, M, Рядок (16), Артикул в БД MGB
-LogisticItemCode, M, Рядок (16),Артикул FM Logistic
+LogisticItemCode, O, Рядок (16),Артикул FM Logistic
 ItemDescription, М, Рядок (210), Опис товару
 InvoiceDeliveredQuantity, М, Число позитивне, Кількість Метро одиниць в транспортній накладній
 AcceptedQuantity, М, Число позитивне, Кількість прийнятих Метро одиниць

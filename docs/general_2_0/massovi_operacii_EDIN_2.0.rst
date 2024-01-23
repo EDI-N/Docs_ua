@@ -77,7 +77,8 @@
 * Товарної накладної (Метро) (`DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__)
 * Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__)
 * Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__)
-* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__)).
+* Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__)
+* «Заявка на транспортування» / «Підтвердження заявки на транспортування» (`TRANSPORTATIONORDER <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__)
 
 У "Чернетках" доступне **Масове підписання / відправка**:
 
@@ -88,6 +89,7 @@
 * Коригування до товарної накладної (Метро) (`DOCCORINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__)
 * Акт приймання наданих послуг (Метро) (`DOCINVOICEACT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__)
 * Повідомлення про штрафні санкції (Метро) (`ORDRPT <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__)
+* «Заявка на транспортування» / «Підтвердження заявки на транспортування» (`TRANSPORTATIONORDER <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__)
 
 .. note::
    Універсальні документи (`CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__), до яких додано вкладення також можуть бути масово відправлені з "Чернеток" (з підписом чи без в залежності від клієнтських налаштувань).
@@ -324,6 +326,23 @@
       .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
          :start-after: .. початок блоку для COMDOC_037_from_transport_003
          :end-before: .. кінець блоку для COMDOC_037_from_transport_002
+
+.. _create-ttn-v3:
+
+10 Створення "Електронної товарно-транспортної накладної" (е-ТТН) v3
+============================================================================================================================
+
+Створити "Електронну товарно-транспортну накладну" (`е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__) можливо на підставі кількох (1-100) "Актів приймання-передачі" (`DOCUMENTINVOICE_APP <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice-app>`__) відправнику "Акта приймання-передачі" в розділі **Надіслані** за умови, що в документі один і той же контрагент. Потрібно перейти у **"Надіслані"** та вибрати "Акти приймання-передачі" з однаковим контрагентом (для зручності можливо скористатись рядком пошуку) та в **"Дії з обраними документами"** обрати **"Створити товарно-транспортну накладну (ТТН)"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_036.png
+   :align: center
+
+Після чого відкриється форма редагування документа "е-ТТН", що вже буде містити дані з обраних "Актів приймання-передачі": дані майбутнього **Вантажоодержувача** (контрагента), перелік супровідних документів на вантаж, номери резерву (додаткові дані):
+
+.. image:: pics_massovi_operacii/massovi_operacii_037.png
+   :align: center
+
+Документ готовий до доповнення/редагування (логіка наповнення форми ідентична до процесу `заповнення/редагування даних чернетки "е-ТТН", створеної з "нуля" <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_ETTN.html#consignor-create>`__)
 
 -----------------------------------
 
