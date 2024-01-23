@@ -109,17 +109,17 @@
 .. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_007.png
    :align: center
 
-Після відправки документа **Проміжним складом** "Акту завантаження на проміжному складі" присвоюється статус :green:`"Підписано всіма сторонами"`:
+Життєвий цикл "Акту завантаження на проміжному складі" завершено (документу присвоюється статус :green:`"Підписано всіма сторонами"`), однак документ "е-ТТН" все ще залишається недоступним до опрацювання на стороні кінцевого контрагента поки Ви (**"Перевізник"**) не підпишете та не оновите за змінами (згідно Акту) "е-ТТН". В якості нагадування та підказки відображається pop-up вікно, що дозволяє однією кнопкою внести і **"Підписати"** зміни до "е-ТТН":
 
-.. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_008.png
+.. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_019.png
    :align: center
 
-Після підписання та відправки "Акта розвантаження на проміжному складі" функціонал по роботі з "е-ТТН" все ще недоступний. **Перевізнику** потрібно відкрити та оновити "е-ТТН", до якого складався Акт, `підписавши <https://wiki.edin.ua/uk/latest/ETTN_3_0/Processing_StoragePickUp_Act.rst#sign>`__ та надіславши зміни:
-
-.. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_009.png
+.. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_020.png
    :align: center
 
-.. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_010.png
+Про успішне оновлення даних в "е-ТТН" Ви будете проінформовані спливаючою підказкою:
+
+.. image:: pics_Processing_StoragePickUp_Act/Processing_StoragePickUp_Act_021.png
    :align: center
 
 Після чого функціонал по роботі з "е-ТТН" знову стає доступним контрагентам цього документа.
