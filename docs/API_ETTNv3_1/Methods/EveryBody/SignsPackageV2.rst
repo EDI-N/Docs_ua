@@ -220,7 +220,7 @@
 
 .. csv-table:: 
   :file: for_csv/SignsPackageV2.csv
-  :widths:  1, 12, 41
+  :widths:  1, 12, 5, 41
   :header-rows: 1
   :stub-columns: 0
 
