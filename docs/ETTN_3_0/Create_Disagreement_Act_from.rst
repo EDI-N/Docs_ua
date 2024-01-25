@@ -57,17 +57,30 @@
 
 При створенні документа "Акта розбіжностей про вантаж" його форма в значній мірі автоматично заповнюється даними (дані контрагентів, перевізника, відомості про вантаж) з е-ТТН, як документа-підстави: 
 
-.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_003.png
+.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_019.png
    :align: center
 
 Таблиця **"Розбіжності щодо кількісних характеристик вантажу"** за потреби підлягає редагуванню та зміні обраної товарної позиції за допомогою кнопки **"Змінити"**:
 
-.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_004.png
+.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_018.png
    :align: center
 
 При редагуванні позиції при введенні фактичного значення (по кількості місць, массі брутто, загальній сумі з ПДВ) "Відхилення" розраховується автоматично, а також опціонально можливо вказати причину розбіжності. По завершенню введення потрібно натиснути кнопку **"Змінити"**:
 
 .. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_017.png
+   :align: center
+
+При формуванні "Акт розбіжностей про вантаж" можливі варіанти, коли позиція була відсутня у е-ТТН, але приїхала з авто (пересорт) - таку позицію також можливо **"+Додати"** в акт:
+
+.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_020.png
+   :align: center
+
+Для того, щоб в один клік прибрати з "Акту розбіжностей про вантаж" всі позиції, у яких Відхилення = 0 реалізована кнопка **"Видалити позиції, по яким відсутні розбіжності"**:
+
+.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_021.png
+   :align: center
+
+.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_022.png
    :align: center
 
 Для внесення даних в таблицю **"Розбіжностей щодо якісних характеристик вантажу"** потрібно поставити курсор в колонку виявлених порушень перевезення для стандартних показників чи вказати :underline:`інше` недотримання: 
