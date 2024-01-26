@@ -38,9 +38,10 @@ TN,1,`Накладна за кількістю <https://wiki.edin.ua/uk/latest/E
 PRN,2,`Цінова Накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
 CVN,2,`Акт розбіжностей (для ТМ ЕПІЦЕНТР) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
 DRN,3,`Видаткова Накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
-TNN,4,`Транспортна накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML-structure.html#documentinvoice-tnn>`__
-DTN,5,`Акт розбіжностей до транспортної накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML-structure.html#documentinvoice-dtn>`__
+TNN,4,`Транспортна накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_TNN_x.html>`__
+DTN,5,`Акт розбіжностей до транспортної накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_DTN_x.html>`__
 APP,6,`Акт приймання-передачі <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice-app>`__
+NP,7,
 **Підтип ТТН (DECLARHEAD.C_DOC)**,**sub_doc_type_id**,**Назва та опис документа**
 T01,1,зовнішня ТТН
 T51,51,внутрішня ТТН
