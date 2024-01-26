@@ -30,7 +30,7 @@
 
 - `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
 - `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
-- `Транспортна накладна (DOCUMENTINVOICE.DocumentFunctionCode = TNN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML-structure.html#documentinvoice-tnn>`__
+- `Транспортна накладна (DOCUMENTINVOICE.DocumentFunctionCode = TNN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_TNN_x.html>`__
 - `Заявка на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=1) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 - `Підтвердження заявки на транспортування (TRANSPORTATIONORDER з SUBDOCTYPE=2) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
 - `Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
@@ -42,7 +42,7 @@
 
 - `Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/RELOAD_ACT/RELOAD_ACTpage_v3.html>`__
 - `Акт розбіжностей про вантаж <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/DISAGREEMENT_ACT/DISAGREEMENT_ACTpage_v3.html>`__
-- `Акт розбіжностей до транспортної накладної (DOCUMENTINVOICE.DocumentFunctionCode = DTN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML-structure.html#documentinvoice-dtn>`__
+- `Акт розбіжностей до транспортної накладної (DOCUMENTINVOICE.DocumentFunctionCode = DTN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_DTN_x.html>`__
 - `Коригування до товарної накладної (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__
 - `Коригування до податкової накладної (DECLARj12) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__
 
