@@ -14,7 +14,7 @@
 Вступ
 ==========================
 
-Для роботи в сервісі **Дистриб’юшн** та звичному обміну електронними документами між Виробниками та їх Дистриб’юторами прямо з Вашого мобільного/планшета був розроблений додаток **"EDIN Market"**. Додаток доступний в крамницях застосунків **"Google Play Market"** (Android) та **"Apple App Store"** (iOS). Дана інструкція описує метод встановлення додатку та порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#pricat>`__.
+Для роботи в сервісі **Дистриб’юшн** та звичному обміну електронними документами між Виробниками та їх Дистриб’юторами прямо з Вашого мобільного/планшета був розроблений додаток **"EDIN Market"**. Додаток доступний в крамницях застосунків **"Google Play Market"** (Android) та **"Apple App Store"** (iOS). Дана інструкція описує метод встановлення додатку та порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/PRICAT_x.html>`__.
 
 .. note::
    Користуватись додатком можуть лише `зареєстровані <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ користувачі платформи **"EDI Network"** (вже мають логін та пароль). 

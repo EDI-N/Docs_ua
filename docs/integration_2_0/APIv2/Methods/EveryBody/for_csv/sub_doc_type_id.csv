@@ -41,7 +41,7 @@ DRN,3,`Видаткова Накладна <https://wiki.edin.ua/uk/latest/EDIN_
 TNN,4,`Транспортна накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_TNN_x.html>`__
 DTN,5,`Акт розбіжностей до транспортної накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_DTN_x.html>`__
 APP,6,`Акт приймання-передачі <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice-app>`__
-NP,7,
+NP,7,`Накладна на повернення <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_NP_x.html>`__
 **Підтип ТТН (DECLARHEAD.C_DOC)**,**sub_doc_type_id**,**Назва та опис документа**
 T01,1,зовнішня ТТН
 T51,51,внутрішня ТТН
