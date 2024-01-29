@@ -27,7 +27,7 @@
 
 **Маркет** — це комплексне електронне рішення, яке оптимізує процеси обміну електронними даними між Виробниками та їх Дистриб'юторами.
 
-Дана інструкція описує порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#pricat>`__.
+Дана інструкція описує порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/PRICAT_x.html>`__.
 
 **1 Вхід на платформу**
 ====================================

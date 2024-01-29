@@ -148,7 +148,7 @@
 **2.3 Попереднє замовлення (рекомендації для Дистиб'ютора (Покупця))**
 -------------------------------------------------------------------------------
 
-Після відправки прайс-листа Дистиб'ютору Виробник має можливість через `FTP <https://wiki.edin.ua/uk/latest/integration_2_0/FTP.html>`__ / `API <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Distribution_API_2_0_list.html#producer-rec>`__ відправити персональне "Попереднє замовлення" (`ORDER <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ з DOCTYPE = "PO") своєму контагенту, вказавши в ньому рекомендовані товари та їх кількості.
+Після відправки прайс-листа Дистиб'ютору Виробник має можливість через `FTP <https://wiki.edin.ua/uk/latest/integration_2_0/FTP.html>`__ / `API <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Distribution_API_2_0_list.html#producer-rec>`__ відправити персональне "Попереднє замовлення" (`ORDER <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ з DOCTYPE = "PO") своєму контагенту, вказавши в ньому рекомендовані товари та їх кількості.
 
 .. important::
    За відправки "Попереднього замовлення" (рекомендацій) Дистиб'ютору в його "кошик" покупця **будуть додані тільки нові товари**! Якщо товар вже був в "кошику" цього Дистиб'ютора, то кількість одиниць не буде оновлена!

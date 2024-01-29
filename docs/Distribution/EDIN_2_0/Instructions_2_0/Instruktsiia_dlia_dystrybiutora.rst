@@ -27,7 +27,7 @@
 
 **Маркет** — це комплексне електронне рішення, яке оптимізує процеси обміну електронними даними між Виробниками та їх Дистриб'юторами.
 
-Дана інструкція описує порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#pricat>`__.
+Дана інструкція описує порядок формування документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ за `Прайс-листом (PRICAT) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/PRICAT_x.html>`__.
 
 1 Вхід на платформу
 ====================================
@@ -129,7 +129,7 @@
 
 .. початок блоку для Order_create3
 
-При створенні `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ варто враховувати встановлені Виробником **Обмеження** та кратності, що зазначаються за кожною позицією окремо.
+При створенні `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ варто враховувати встановлені Виробником **Обмеження** та кратності, що зазначаються за кожною позицією окремо.
 
 Якщо Виробник/Продавець налаштував для Вас індивідуально чи для всіх своїх контрагентів **"Графік замовлень"**, то Ви можете ознайомитись з ним, натиснувши на одноіменну кнопку:
 
@@ -182,7 +182,7 @@
    .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_050.png
       :align: center
 
-Після вказання кількості, що повинна бути замовлена в сервісі EDIN **Маркет** автоматично для цієї позиції та для всього документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ розраховуються значення:
+Після вказання кількості, що повинна бути замовлена в сервісі EDIN **Маркет** автоматично для цієї позиції та для всього документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ розраховуються значення:
 
 * Загальна кіл-ть позицій в замовленні = кількість блоків в POSITION в Замовленні (ORDERS) 
 * Загальна кіл-ть коробок = сума всіх значень BOXESCOUNT в Замовленні (ORDERS)
@@ -209,11 +209,11 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_042.gif
    :align: center
 
-Перед збереженням переконайтеся в тому, що не перевищено обмеження на розмір однієї партії в замовленні - в блоці Підсумки не повинно бути значень, виділених червоним кольором. Якщо ліміт по одному з встановлених обмежень перевищено, `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ не створиться.
+Перед збереженням переконайтеся в тому, що не перевищено обмеження на розмір однієї партії в замовленні - в блоці Підсумки не повинно бути значень, виділених червоним кольором. Якщо ліміт по одному з встановлених обмежень перевищено, `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ не створиться.
 
 Якщо у Вас виникнуть питання щодо значень встановлених обмежень, зверніться безпосередньо до Виробника. 
 
-При введених значеннях, що відповідають квотам/обмеженням документ `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ при **"+Створенні замовлення"** потрібно на "Формі замовлення" заповнити всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
+При введених значеннях, що відповідають квотам/обмеженням документ `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ при **"+Створенні замовлення"** потрібно на "Формі замовлення" заповнити всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
 
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_043.png
    :align: center
@@ -248,12 +248,12 @@
 4.1 Перегляд Замовлення
 ---------------------------------
 
-Після відправки `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ документ стає недоступним до редагування, його можливо лише переглянути в папці "Надіслані":
+Після відправки `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ документ стає недоступним до редагування, його можливо лише переглянути в папці "Надіслані":
 
 .. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_044.png
    :align: center
 
-У `Замовленні (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html#order>`__ Ви можете перевірити вказані дані (GLN Покупця, GLN Місця доставки, дату поставки...), табличну частину з товарними позиціями. Ви можете **"Завантажити"** (1) Замовлення у форматі .pdf, .xls, .xml, .zip або відразу відправити документ на друк (2):
+У `Замовленні (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ Ви можете перевірити вказані дані (GLN Покупця, GLN Місця доставки, дату поставки...), табличну частину з товарними позиціями. Ви можете **"Завантажити"** (1) Замовлення у форматі .pdf, .xls, .xml, .zip або відразу відправити документ на друк (2):
 
 .. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_045.png
    :align: center
