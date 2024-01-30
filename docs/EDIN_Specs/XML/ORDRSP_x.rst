@@ -106,7 +106,7 @@
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=2090499753&single=true" width="1100" height="2050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=2090499753&single=true" width="1100" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 -------------------------
@@ -183,7 +183,8 @@
    27.18	POSITION			Товарні позиції (початок блоку)
    27.18.1	POSITIONNUMBER	M	Число позитивне	Номер товарної позиції (Порядковий номер товарної позиції в документі (1, 2, 3, 4 … n))
    27.18.2	PRODUCT	M	Число (8, 10, 14)	Штрих-код продукту
-   27.18.3	PRODUCTIDBUYER	O	Рядок (16)	Артикул в БД покупця
+   27.18.3	PRODUCTIDBUYER	O/M	Рядок (16)	"Артикул в БД покупця. Поле обов’язкове для клієнтів 
+   ТМ Львівхолод"
    27.18.4	PRODUCTIDSUPPLIER	O	Рядок (16)	Артикул в БД постачальника
    27.18.5	ORDRSPUNIT	O	Рядок (3)	Одиниці виміру
    27.18.6	CUSTOMSTARIFFNUMBER	О	Число позитивне	Код УКТЗЕД для кожної позиції
@@ -212,6 +213,15 @@
    27.18.25	PACKAGEID	O	Рядок	Ідентифікатор упаковки
    27.18.26	COUNTRYORIGIN	О	Рядок (2)	Країна виробник
    27.18.27	CALIBRE	О	Число позитивне	Калібр упаковки string (30)
+   27.18.28	DIAMETER	O	Число десяткове (2 знаки після коми)	Діаметр виробу в мм
+   27.18.29	WALL_THICKNESS	O	Число десяткове (2 знаки після коми)	Товщина стінки в мм
+   27.18.30	LT_MINUS	O	Число десяткове (3 знаки після коми)	Допуск на поріз продукції в мінус
+   27.18.31	LT_PLUS	O	Число десяткове (3 знаки після коми)	Допуск на поріз продукції в плюс
+   27.18.32	UOM_ALLOY_SURCHAGE	O	Рядок (3)	Одиниця виміру, для доплати при сплаві. (за послуги, транспортування, поріз, тощо)
+   27.18.33	ALLOY_SURCHARGE	O	Число десяткове (3 знаки після коми)	Доплата за сплав
+   27.18.34	UOM_ESC_SURCHAGE	O	Рядок (3)	Одиниці виміру, від яких розраховується Інфляційна надбавка (за зберігання)
+   27.18.35	ESC_SURCHARGE	O	Число десяткове (3 знаки після коми)	Надбавка
+   27.18.36	THIRDPARTY_SURCHARGE	O	Число десяткове (3 знаки після коми)	Доплата за приймання третьою стороною
    27.18.28	PACKING			Упаковка (початок блоку)
    27.18.28.1	PACKINGTYPE	O	Рядок (3)	Тип упаковки
    27.18.28.2	PACKINGQUANTITY	O	Число позитивне	Кількість упаковок

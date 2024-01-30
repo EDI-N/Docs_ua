@@ -137,7 +137,7 @@
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=254043882&single=true" width="1100" height="2700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=254043882&single=true" width="1100" height="2750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 -------------------------
@@ -267,6 +267,14 @@
    35.21.40	CALIBRE	O	Число позитивне	Діаметр
    35.21.41	PRICEWITHDISCOUNT	O	Число десяткове	Ціна з урахуванням знижки
    35.21.42	BOXESCOUNT	O	Число позитивне	Кількість упаковок
+   35.21.43	DIAMETER	O	Число десяткове (2 знаки після коми)	Діаметр виробу в мм
+   35.21.44	WALL_THICKNESS	O	Число десяткове (2 знаки після коми)	Товщина стінки в мм
+   35.21.45	LT_MINUS	O	Число десяткове (3 знаки після коми)	Допуск на поріз продукції в мінус
+   35.21.46	LT_PLUS	O	Число десяткове (3 знаки після коми)	Допуск на поріз продукції в плюс
+   35.21.47	UOM_ALLOY_SURCHAGE	O	Рядок (3)	Одиниця виміру, для доплати при сплаві. (за послуги, транспортування, поріз, тощо)
+   35.21.48	ALLOY_SURCHARGE	O	Число десяткове (3 знаки після коми)	Доплата за сплав
+   35.21.49	UOM_ESC_SURCHAGE	O	Рядок (3)	Одиниці виміру, від яких розраховується Інфляційна надбавка (за зберігання)
+   35.21.50	ESC_SURCHARGE	O	Число десяткове (3 знаки після коми)	Надбавка
    35.21.43	CHARACTERISTIC			Характеристики (початок блоку)
    35.21.43.1	SERVICEDESCRIPTION	О/M	Рядок (500)	Назва послуги. Поле обов’язкове тільки для Замовлення послуги (ORDER з полем DOCTYPE=OS)
    35.21.43.2	DESCRIPTION	О	Рядок (70)	Опис продукту
