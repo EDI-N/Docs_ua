@@ -346,6 +346,57 @@
 
 Після того, як Ви доповните/відредагуєте форму "е-ТТН" документ можливо **"Зберегти"**, **"Підписати"** та **"Надіслати"**.
 
+.. _sign-and-send-ttn:
+
+11 Підписання та відправка "Товарно-транспортної накладної" (е-ТТН)
+============================================================================================================
+
+Вантажовідправникам доступне масове підписання та відправка підготовлених (заповнених) чернеток "е-ТТН". Вантажовідправник (роль в документообігу) в розділі **Чернетки** в **"Дії з обраними документами"** може **"Підписати та надіслати ТТН"**:
+
+.. image:: pics_massovi_operacii/massovi_operacii_038.png
+   :align: center
+
+Після вибору операції ініціалізується бібліотека підписання.
+
+.. _sign:
+
+.. include:: /_constant/atb_check/atb_check.rst
+   :start-after: .. початок блоку для ATB_check
+   :end-before: .. кінець блоку для ATB_check
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
+По завершенню операції інформаційне вікно повідомить про виконання: 
+
+.. image:: pics_massovi_operacii/massovi_operacii_008.png
+   :align: center
+
+За успішного виконання операції документи відображаються у **Надісланих**, а інформацію про перелік документів, що були масово підписані та відправлені відображається у каталозі **Масові дії**.
+
 -----------------------------------
 
 .. include:: /_constant/kontakti.rst
