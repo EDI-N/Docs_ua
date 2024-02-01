@@ -1,0 +1,28 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/oas/retailers/requests?limit=21&offset=0&send_date_from=1380000400&send_date_to=1390006799&contract_number=yes&retailer_id=7**
+URL параметри ,"**retailer_id** (опціонально) long - id Торгової Мережі на платформі EDIN;
+
+**statuses** (опціонально) int - статус заявки:
+
+- 0 - Чернетка
+- 1 - На розгляді
+- 2 - Прийнято
+- 3 - Відхилено;
+
+**contract_number** (опціонально) String - номер договору;
+
+**contract_date_from** (опціонально) long (unix timestamp) - дата договору, починаючи з якої буде робитись вибірка;
+
+**contract_date_to** (опціонально) long (unix timestamp) - дата договору, що закриває кінцеві рамки в яких буде робитись вибірка;
+
+**send_date_from** (опціонально) long (unix timestamp) - дата відправки, починаючи з якої буде робитись вибірка;
+
+**send_date_to** (опціонально) long (unix timestamp) - дата відправки, що закриває кінцеві рамки в яких буде робитись вибірка;
+
+**limit** (опціонально) int - ліміт вибірки (за замовчуванням=20);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json
