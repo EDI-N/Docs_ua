@@ -98,6 +98,11 @@
 .. hint::
    Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
 
+Якщо документ містить інформацію в <ЦінаЗіЗнижкоюБезПДВ>, <ВідсотокЗнижки>, то в табличній частині за допомогою кнопки **"Показати повністю"** ці значення доступні до перегляду:
+
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_146.png
+   :align: center
+
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_107.png
