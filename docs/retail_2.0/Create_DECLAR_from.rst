@@ -105,14 +105,17 @@
 .. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_007.png
    :align: center
 
-Після успішної реєстраціїї податкової у документі з'явиться друга візуалізація підпису зеленим кольором з текстом **"Успiшна вiдповiдь вiд податковоï"**:
+При переході в документ відображається його статус, наприклад **"Відправлений на перевірку в тогровельну мережу"**:
 
-.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_008.png
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_011.png
    :align: center
 
-Якщо Податкова накладна не пройшла реєстрацію в ЄРПН, з'явиться друга візуалізація підпису червоним кольором з текстом **"Похибка при реєстраціï"**:
+При отриманні відповіді від податкової відображається відповідний статус та кнопка **"Розшифрувати квитанцію"** (процес потребує підписання) для відображення детальної інформації про квитанцію:
 
-.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_009.png
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_010.png
+   :align: center
+
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_012.png
    :align: center
 
 .. кінець блоку для DECLAR_from_DOCUMENTINVOICE_TN_002
