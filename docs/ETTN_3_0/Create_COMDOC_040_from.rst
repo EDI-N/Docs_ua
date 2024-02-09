@@ -194,12 +194,12 @@
 
 Відправлений "Рахунок (Логістика)" має наступний вигляд:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_009.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_023.png
    :align: center
 
-В верхній частині над документом відображається блок з перебігом документообігу, в правій частині дані про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. При натисканні на зелену іконку документа відображаються підписанти даного документа:
+На формі перегляду можливо виконати `дії з документом <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-actions>`__, а для того, щоб ознайомитись з підписантами даного документа потрібно натиснути кнопку **"Переглянути підписи"**:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_010.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_040_from/Create_COMDOC_040_from_024.png
    :align: center
 
 Можливо виконати **"Відхилення підпису"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__).
