@@ -209,7 +209,7 @@
 
 У відкритому документі натисніть **"Створити документ"** "Акт виконаних робіт (Логістика)" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__, наприклад:
 
-.. image:: /ClientProcesses/Mondelez/Mondelez_Instructions/pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_006.png
+.. image:: /ClientProcesses/Mondelez/Mondelez_Instructions/pics_Mondelez_EDI_ETTN/Mondelez_EDI_ETTN_007.png
    :align: center
 
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
