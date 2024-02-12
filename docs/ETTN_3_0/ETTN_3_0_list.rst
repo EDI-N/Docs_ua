@@ -107,7 +107,15 @@
    Processing_StoragePickUp_Act
    StoragePickUp_Act_Reject
 
+.. _stop-act:
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт примусового завершення
+   
+   Create_Stop_Act_from
+   Processing_Stop_Act
+   Stop_Act_Reject
 
 
 
