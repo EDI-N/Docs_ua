@@ -79,7 +79,6 @@
 .. image:: /_constant/signing/universal_button.gif
    :align: center
 
-
 .. _sign:
 
 **1.1 Підписання та відправка "Акта примусового завершення" "Замовником"**
