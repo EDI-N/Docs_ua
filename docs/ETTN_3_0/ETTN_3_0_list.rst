@@ -117,7 +117,13 @@
    Processing_Stop_Act
    Stop_Act_Reject
 
+.. _adjustment-act:
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт коригування
+   
+   Create_Adjustment_Act_from
 
 
 
