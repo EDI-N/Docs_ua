@@ -1,5 +1,10 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _XPriceList:,, Об'єкт **XPriceList** ,
+currency,M,String,"код валюти:
+
+- UAH (за замовчуванням)
+- EUR
+- USD"
 period,,XPriceListPeriod_,об'єкт; період дії данних по товару
 price,M,List<XPriceListElement_>,масив об'єктів; дані товару Прайс-листа
 distributors,,List<XPriceListDistributor_>,масив об'єктів; дані Покупців (Дистиб’юторів)

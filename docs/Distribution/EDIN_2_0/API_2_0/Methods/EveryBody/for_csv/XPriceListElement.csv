@@ -1,5 +1,10 @@
 Параметр,Тип [1]_,Формат,Опис
 .. _XPriceListElement:,, Об'єкт **XPriceListElement** ,
+currency,M,String,"код валюти:
+
+- UAH (за замовчуванням)
+- EUR
+- USD"
 category_id,O,long,"ідентифікатор
 
 * для сервісу Маркет: лінійки/категорії/підкатегорії
