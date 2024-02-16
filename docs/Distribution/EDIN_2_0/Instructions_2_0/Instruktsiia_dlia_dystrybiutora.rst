@@ -215,26 +215,24 @@
 
 При введених значеннях, що відповідають квотам/обмеженням документ `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ при **"+Створенні замовлення"** потрібно на "Формі замовлення" заповнити всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_043.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_064.png
    :align: center
 
-- №* - доступно для редагування (за відсутності відмітки);
-- від* - вкажіть дату замовлення;
-- Дата доставки* - вкажіть дату доставки;
+- № :red:`*` - доступно для редагування (за відсутності відмітки);
+- від :red:`*` - вкажіть дату замовлення;
+- Дата доставки :red:`*` - вкажіть дату доставки;
 - Місце доставки - виберіть місце доставки з випадаючого списку;
 - Умови відвантаження (Самовивіз/Доставка транспортом виробника);
 - Спосіб оплати (Готівковий/Безготівковий рахунок);
+- Додаткова інформація - текстовий коментар, що може бути корисний Вашому контрагенту;
 - Постачальник - GLN виробника з прайс-листа, недоступно для редагування; 
 - Покупець - GLN дистриб'ютора з прайс-листа, недоступно для редагування;
-- Валюта: грн - недоступно для редагування;
+- Валюта: грн / євро / долар в залежності від валюти, яку вказав Виробник;
 - Тип документа: Оригинал - недоступно для редагування.
-
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_031.gif
-   :align: center
 
 Після перевірки та заповнення основих даних документа його можливо **Надіслати**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_028.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_065.png
    :align: center
 
 .. attention::
