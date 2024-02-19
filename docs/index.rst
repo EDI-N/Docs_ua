@@ -115,6 +115,7 @@ EDIN | Електронний документообіг для бізнесу
 
    ERP_Connector_PRO/Instructions/user_instruction
    ERP_Connector_PRO/Instructions/operator_instruction
+   ERP_Connector_PRO/Instructions/Videoinstruction
 
 .. toctree::
    :maxdepth: 2
