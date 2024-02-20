@@ -12,73 +12,73 @@ EDIN | Електронний документообіг для бізнесу
     :class-container: sd-text-center
 
     .. grid-item-card:: F.A.Q.
-        :img-top: _static/card_pic/faq.png
+        :img-top: _static/card_pic/faq_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://redesign-wiki.readthedocs.io/uk/latest/general_2_0/faq.html
 
     .. grid-item-card::  Процеси клієнтів
-        :img-top: _static/card_pic/ClientProcesses.png
+        :img-top: _static/card_pic/ClientProcesses_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/ClientProcesses/Clients_list.html
 
     .. grid-item-card::  Стандарти обміну EDIN
-        :img-top: _static/card_pic/edin_standart.png
+        :img-top: _static/card_pic/edin_standart_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/EDINProcesses/EDINProcesses_list.html
 
     .. grid-item-card::  Інтеграція
-        :img-top: _static/card_pic/integration.png
+        :img-top: _static/card_pic/integration_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/integration_2_0/integration_2_0_list.html
 
     .. grid-item-card::  Вільний
-        :img-top: _static/card_pic/vilnyi.svg
+        :img-top: _static/card_pic/vilnyi.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Vilnyi/Vilnyi_list.html
 
     .. grid-item-card::  EDI Network
-        :img-top: _static/card_pic/edi.svg
+        :img-top: _static/card_pic/edi.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/general_2_0/general_2_0_list.html
 
     .. grid-item-card::  Маркет
-        :img-top: _static/card_pic/distribex.svg
+        :img-top: _static/card_pic/distribex.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list.html
 
     .. grid-item-card::  Комерційна пропозиція
-        :img-top: _static/card_pic/novelty.svg
+        :img-top: _static/card_pic/novelty.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Commercial_offers/Instructions/C_O_instructions_list.html
 
     .. grid-item-card::  Е-Специфікація
-        :img-top: _static/card_pic/es.svg
+        :img-top: _static/card_pic/es.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list.html
 
     .. grid-item-card::  Тендер
-        :img-top: _static/card_pic/tender.svg
+        :img-top: _static/card_pic/tender.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Tender_2_0/Work_with_Tender.html
 
     .. grid-item-card::  Е-Сертифікати
-        :img-top: _static/card_pic/certificates.svg
+        :img-top: _static/card_pic/certificates.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Certificate/EDIN/Certificate_list.html
 
     .. grid-item-card::  White Doc
-        :img-top: _static/card_pic/wd.svg
+        :img-top: _static/card_pic/wd.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/WD_Instructions_list.html
@@ -96,7 +96,7 @@ EDIN | Електронний документообіг для бізнесу
         :link: https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html
 
     .. grid-item-card::  Е-ТТН (версія 2)
-        :img-top: _static/card_pic/ettn.svg
+        :img-top: _static/card_pic/ettn.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/ETTN_2_0/ETTN_2_0_list.html
@@ -114,13 +114,13 @@ EDIN | Електронний документообіг для бізнесу
         :link: https://wiki.edin.ua/uk/latest/ERP_Connector_PRO/Instructions/Videoinstruction.html
 
     .. grid-item-card::  Юридична інформація
-        :img-top: _static/card_pic/legal.png
+        :img-top: _static/card_pic/legal_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Legal_info/Rules.html
 
     .. grid-item-card::  Вебінари
-        :img-top: _static/card_pic/webinars.png
+        :img-top: _static/card_pic/webinars_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Webinars/Videos.html
