@@ -126,7 +126,7 @@ EDIN | Електронний документообіг для бізнесу
         :link: https://wiki.edin.ua/uk/latest/Webinars/Videos.html
 
     .. grid-item-card::  Законодавство
-        :img-top: _static/card_pic/zakon.png
+        :img-top: _static/card_pic/zakon_g.png
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Zakon/Zakonodavcha_baza.html
