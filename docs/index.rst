@@ -6,7 +6,7 @@
 EDIN | Електронний документообіг для бізнесу
 ===============================
 
-.. grid:: 2 3 3 4
+.. grid:: 1 2 2 5
     :gutter: 4
     :padding: 2 2 0 0
     :class-container: sd-text-center
