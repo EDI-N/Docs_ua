@@ -6,6 +6,131 @@
 EDIN | Електронний документообіг для бізнесу
 ===============================
 
+.. grid:: 2 3 3 4
+    :gutter: 4
+    :padding: 2 2 0 0
+    :class-container: sd-text-center
+
+    .. grid-item-card:: F.A.Q.
+        :img-top: _static/card_pic/faq.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://redesign-wiki.readthedocs.io/uk/latest/general_2_0/faq.html
+
+    .. grid-item-card::  Процеси клієнтів
+        :img-top: _static/card_pic/ClientProcesses.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/ClientProcesses/Clients_list.html
+
+    .. grid-item-card::  Стандарти обміну EDIN
+        :img-top: _static/card_pic/edin_standart.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/EDINProcesses/EDINProcesses_list.html
+
+    .. grid-item-card::  Інтеграція
+        :img-top: _static/card_pic/integration.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/integration_2_0/integration_2_0_list.html
+
+    .. grid-item-card::  Вільний
+        :img-top: _static/card_pic/vilnyi.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Vilnyi/Vilnyi_list.html
+
+    .. grid-item-card::  EDI Network
+        :img-top: _static/card_pic/edi.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/general_2_0/general_2_0_list.html
+
+    .. grid-item-card::  Маркет
+        :img-top: _static/card_pic/distribex.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list.html
+
+    .. grid-item-card::  Комерційна пропозиція
+        :img-top: _static/card_pic/novelty.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Commercial_offers/Instructions/C_O_instructions_list.html
+
+    .. grid-item-card::  Е-Специфікація
+        :img-top: _static/card_pic/es.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list.html
+
+    .. grid-item-card::  Тендер
+        :img-top: _static/card_pic/tender.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Tender_2_0/Work_with_Tender.html
+
+    .. grid-item-card::  Е-Сертифікати
+        :img-top: _static/card_pic/certificates.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Certificate/EDIN/Certificate_list.html
+
+    .. grid-item-card::  White Doc
+        :img-top: _static/card_pic/wd.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/WhiteDoc/WD_Instructions/WD_Instructions_list.html
+
+    .. grid-item-card::  Driver
+        :img-top: _static/card_pic/driver.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Driver/Instructions_list.html
+
+    .. grid-item-card::  Особистий кабінет
+        :img-top: _static/card_pic/pc.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html
+
+    .. grid-item-card::  Е-ТТН (версія 2)
+        :img-top: _static/card_pic/ettn.svg
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/ETTN_2_0/ETTN_2_0_list.html
+
+    .. grid-item-card::  ERP Connector
+        :img-top: _static/card_pic/erp.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/ERP_Connector/ERP_Connector_instruction.html
+
+    .. grid-item-card::  ERP Connector PRO
+        :img-top: _static/card_pic/erp-pro.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/ERP_Connector_PRO/Instructions/Videoinstruction.html
+
+    .. grid-item-card::  Юридична інформація
+        :img-top: _static/card_pic/legal.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Legal_info/Rules.html
+
+    .. grid-item-card::  Вебінари
+        :img-top: _static/card_pic/webinars.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Webinars/Videos.html
+
+    .. grid-item-card::  Законодавство
+        :img-top: _static/card_pic/zakon.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Zakon/Zakonodavcha_baza.html
+
 Зміст:
 
 .. toctree::
