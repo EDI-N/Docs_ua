@@ -15,7 +15,7 @@
 
 :green:`2.2` `Отримання контенту документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocBody.html>`__ 
 
-:green:`2.3` `Підписання вхідного документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/CreateTicketV2.html>`__",:red:`2.3*` `Відхилення підписання COMDOC документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocReject.html>`__
+:green:`2.3` `Підписання вхідного документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocAccept.html>`__",:red:`2.3*` `Відхилення підписання COMDOC документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocReject.html>`__
 ,":red:`3.1` `Авторизація Ініціатора <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
 
 :red:`3.2` `Створення запиту на анулювання COMDOC документа Ініціатором <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/RepealRequest.html>`__"
