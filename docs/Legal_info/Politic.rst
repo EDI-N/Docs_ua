@@ -15,6 +15,7 @@
 
     <iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/EDI-N/Docs_ua/master/docs/_static/files/Politic/Privacy_policy.pdf&embedded=true" style="width:100%; height:907px;" frameborder="0"></iframe>
   
+.. because of google App Privacy Policy (must be html): https://support.google.com/cloud/answer/13806988?hl=en&ref_topic=13841839&sjid=12291702121998961128-NA#zippy=%2Cyour-privacy-policy-is-improperly-formatted
 
 Версія від 29 листопада 2023 року, дата набрання чинності 29 листопада 2023 року
 
@@ -208,11 +209,8 @@ EDIN дотримується принципу мінімізації персо
 Якщо у Вас виникнуть питання, зауваження або побажання щодо захисту та обробки Ваших персональних даних, Ви можете звертатися до EDIN:
 
 Клюса Олег, Генеральний директор
-
 ТОВ “АТС”
-
 Україна, м.Київ, 03061, вулиця Михайла Донця, буд. 6
-
 e-mail: kliusao@edin.ua 
 
 У своєму зверненні обов’язково вказуйте своє ім’я, прізвище, адресу електронної пошти, а також детальні питання, зауваження, вимоги.
