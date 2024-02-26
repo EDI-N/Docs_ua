@@ -124,6 +124,7 @@
    :caption: Акт коригування
    
    Create_Adjustment_Act_from
+   Processing_Adjustment_Act
 
 
 
