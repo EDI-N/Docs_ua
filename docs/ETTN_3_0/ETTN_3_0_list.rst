@@ -125,6 +125,7 @@
    
    Create_Adjustment_Act_from
    Processing_Adjustment_Act
+   Adjustment_Act_Reject
 
 
 
