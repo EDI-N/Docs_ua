@@ -127,6 +127,15 @@
    Processing_Adjustment_Act
    Adjustment_Act_Reject
 
+.. _loadreject-act:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Акт про відмову вантажити
+   
+   Create_LoadReject_Act_from
+
+
 
 
 .. для красивих посилань на документи треба місце для скролу:
