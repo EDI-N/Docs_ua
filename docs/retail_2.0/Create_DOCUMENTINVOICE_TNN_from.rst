@@ -39,7 +39,7 @@
 
 У відкритій формі "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) значна частина полів заповнюються автоматично з пов'язаного "Повідомлення про відвантаження" (DESADV) (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_003.png
+.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_010.png
    :align: center
 
 Дані **Відправника** - це Ваші дані, що заповнюються автоматично і не підлягають редагуванню. Змінити дані **Одержувача** можливо за допомогою кнопки **"Пошук контрагента"** (|лупа|).
@@ -71,12 +71,12 @@
 
 Якщо по якійсь з позицій не було/буде поставки її необхідно відзначити галочкою і **"Видалити"**:
 
-.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_005.png
+.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_010.png
    :align: center
 
 Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_006.png
+.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_011.png
    :align: center
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого документ можливо **"Підписати"** (2):
