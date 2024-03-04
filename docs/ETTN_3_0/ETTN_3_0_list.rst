@@ -134,6 +134,7 @@
    :caption: Акт про відмову вантажити
    
    Create_LoadReject_Act_from
+   Processing_LoadReject_Act
 
 
 
