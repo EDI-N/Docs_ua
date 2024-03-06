@@ -45,7 +45,7 @@
 .. image:: pics_Trans_Logistic_COMDOC_013_instruction/Trans_Logistic_COMDOC_013_instruction_004.png
    :align: center
 
-Для заповнення табличної частини потрібно натиснути **"+Додати"** товарні позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__ (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
+Для заповнення табличної частини потрібно натиснути **"+Додати"** товарні позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__ (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
 .. image:: pics_Trans_Logistic_COMDOC_013_instruction/Trans_Logistic_COMDOC_013_instruction_005.png
    :align: center

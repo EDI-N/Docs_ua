@@ -53,7 +53,7 @@
 .. image:: /retail_2.0/pics_INSDES_na_EDI_Network/INSDES_na_EDI_Network_003.png
    :align: center
 
-Для заповнення потрібно почати вводити назву / штрих-код товарної позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__ (товарні позиції потрібно спочатку додати в довідник):
+Для заповнення потрібно почати вводити назву / штрих-код товарної позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__ (товарні позиції потрібно спочатку додати в довідник):
 
 .. image:: /retail_2.0/pics_INSDES_na_EDI_Network/INSDES_na_EDI_Network_004.png
    :align: center

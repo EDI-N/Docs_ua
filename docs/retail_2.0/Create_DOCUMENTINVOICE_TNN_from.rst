@@ -74,7 +74,7 @@
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_010.png
    :align: center
 
-Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
+Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_011.png
    :align: center
@@ -126,7 +126,7 @@
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_008.png
    :align: center
 
-При відправці документа відредаговані дані товарних позицій автоматично оновлюються в `"Товарному довіднику" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__. Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходиться в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язании документами в статусі :orange:`"Очікує на підписання отримувачем"`:
+При відправці документа відредаговані дані товарних позицій автоматично оновлюються в `"Товарному довіднику" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__. Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходиться в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язании документами в статусі :orange:`"Очікує на підписання отримувачем"`:
 
 .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_009.png
    :align: center

@@ -16,7 +16,6 @@
    formirovanie_otpravka_dokumenta_Vydatkova_Nakladna_na_EDI_Network_2.0
    Formuvannya_Podatkovoyi_Nakladnyy_na_pidstavi_Prybutkovoyi_nakladnoyi
    Formuvannia_Koryhuvalnoi_PN_na_pidstavi_Nakladnoi_na_povernennia
-   formirovanie_Tovarnogo_dovidnyka
    Factoring_instruction_EDIN_2_0
    Create_and_send_reconciliation_act_COMDOC_029
    PRICAT_na_EDI_Network

@@ -83,7 +83,7 @@
 .. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_007.png
    :align: center
 
-Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
+Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
 .. image:: /retail_2.0/pics_ORDRSP_na_EDI_Network_2.0/ORDRSP_na_EDI_Network_009.png
    :align: center

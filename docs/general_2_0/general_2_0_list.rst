@@ -12,6 +12,7 @@
    Robota_z_tokenom
    Additional_actions
    massovi_operacii_EDIN_2.0
+   Directories
    Довідник торгових мереж <https://edin.ua/directory/>
 
 .. toctree::
