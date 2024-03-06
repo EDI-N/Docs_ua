@@ -67,7 +67,7 @@
 .. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_019.png
    :align: center
 
-Для заповнення потрібно почати вводити назву / штрих-код товарної позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/retail_2.0/formirovanie_Tovarnogo_dovidnyka.html>`__ (товарні позиції потрібно спочатку додати в довідник):
+Для заповнення потрібно почати вводити назву / штрих-код товарної позиції з `"Товарного довідника" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__ (товарні позиції потрібно спочатку додати в довідник):
 
 .. image:: /retail_2.0/pics_DESSCC_na_EDI_Network/DESSCC_na_EDI_Network_007.png
    :align: center
