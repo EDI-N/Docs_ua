@@ -186,14 +186,14 @@
 .. початок блоку для ForAllDOCUMENTINVOICE
 
 .. hint::
-   **Номер контракту** / **Дата контракту** - поля, що заповнюється автоматично з документа-підстави ("Повідомлення про відвантаження" (DESADV) / "Замовлення" (ORDERS) / "Повідомлення про прийом" (RECADV)). Якщо ці дані повністю чи частково відсутні, то при наявності :underline:`"Договору поставки"` з цим контрагентом (**Довідники->** `Довідник договорів <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#gln-contracts>`__) дані заповнюються автоматично. Якщо таких договорів кілька, то доступний вибір з випадаючого списку (з пошуком):
+   **Номер контракту** / **Дата контракту** - поля, що заповнюється автоматично з документа-підстави ("Повідомлення про відвантаження" (DESADV) / "Замовлення" (ORDERS) / "Повідомлення про прийом" (RECADV)). Якщо ці дані повністю чи частково відсутні, то при наявності :underline:`"Договору поставки"` з цим контрагентом (**Довідники->** `Довідник договорів <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html#gln-contracts>`__) дані заповнюються автоматично. Якщо таких договорів кілька, то доступний вибір з випадаючого списку (з пошуком):
 
-   .. image:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/pics_BOX_Market_Standard/BOX_Market_Standard_031.png
+   .. image:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/pics_BOX_Market_Standard/BOX_Market_Standard_033.png
       :align: center
 
    Також можливо **"Додати"** новий договір (після відправки документа дані договору зберігаються автоматично):
 
-   .. image:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/pics_BOX_Market_Standard/BOX_Market_Standard_032.png
+   .. image:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/pics_BOX_Market_Standard/BOX_Market_Standard_034.png
       :align: center
 
 .. кінець блоку для ForAllDOCUMENTINVOICE
