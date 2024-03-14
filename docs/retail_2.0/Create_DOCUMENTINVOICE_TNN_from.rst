@@ -39,7 +39,7 @@
 
 У відкритій формі "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) значна частина полів заповнюються автоматично з пов'язаного "Повідомлення про відвантаження" (DESADV) (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_010.png
+.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_013.png
    :align: center
 
 Дані **Відправника** - це Ваші дані, що заповнюються автоматично і не підлягають редагуванню. Змінити дані **Одержувача** можливо за допомогою кнопки **"Пошук контрагента"** (|лупа|).
@@ -67,16 +67,22 @@
    .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_004.png
       :align: center
 
-Зміни за позиціями можливо виконувати одразу в табличній частині в колонках "Найменування", "№ арт. МЕТРО", "№ арт. MGB", "Штрихкод", "Кількість товару у коробці", "Кількість коробів", "Кількість доставлених М.О." 
+Зміни за позиціями можливо виконувати одразу в табличній частині в колонках "№ арт. МЕТРО", "№ арт. MGB", "Найменування", "Штрихкод", "Кількість товару у коробці", "Кількість коробів", "Кількість доставлених М.О." 
+
+.. hint::
+   Для товарів, в яких одиниці виміру "кілограми" поля "Кількість товару у коробці" / "Кількість доставлених М.О." можуть мати числове значення з трьома знаками після крапки (при цьому поле "Кількість коробів" заповнюється вручну). Для товарів, в яких одиниці виміру "штуки" поле "Кількість коробів" розраховується автоматично з "Кількість доставлених М.О." / "Кількість товару у коробці":
+
+   .. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_014.png
+      :align: center
 
 Якщо по якійсь з позицій не було/буде поставки її необхідно відзначити галочкою і **"Видалити"**:
 
-.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_010.png
+.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_015.png
    :align: center
 
 Можливо також **"+Додати"** іншу позицію з вашого `"Товарного довідника" <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html>`__, заповнивши форму (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_011.png
+.. image:: /retail_2.0/pics_Create_DOCUMENTINVOICE_TNN_from/Create_DOCUMENTINVOICE_TNN_from_016.png
    :align: center
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого документ можливо **"Підписати"** (2):
