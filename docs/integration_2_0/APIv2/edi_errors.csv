@@ -129,6 +129,9 @@ Cписок uuid не може бути пустим","Помилка виник
 400,ERR_EDI-44,"XSLT for document type [%s] not found
 
 XSLT для типу документа [%s] не знайдено","Не знайдено карту конвертації"
-400,ERR_EDI-44,"Can't define recipient GLN
+400,ERR_EDI-45,"Can't define recipient GLN
 
 Неможливо визначити GLN одержувача","Не вдалось визначити отримувача при відправці DOCCORINVOICE"
+400,ERR_EDI-46,"The document can only be signed by one party
+
+Документ може бути підписаний тільки однією стороною","Відправлений COMDOC містить поле «ОдностороннєПідписання»"
