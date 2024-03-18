@@ -1,5 +1,5 @@
 #################################################################################
-**Отримати дані для формування Попереднього замовлення по "Прайс-листу"**
+**Отримати дані для формування Замовлення по "Прайс-листу"**
 #################################################################################
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ .
@@ -11,5 +11,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані для формування Попереднього замовлення по "Прайс-листу" (об'єкт `XDistribexPreorder <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XDistribexPreorder.html>`__)
+В тілі **відповіді** передаються дані для формування Замовлення по "Прайс-листу" (об'єкт `XDistribexPreorder <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XDistribexPreorder.html>`__)
 
