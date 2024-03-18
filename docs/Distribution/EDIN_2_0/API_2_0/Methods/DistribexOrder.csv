@@ -23,7 +23,14 @@ URL параметри ,"**gln** (обов'язково) String - GLN Дистр
 **payment_method** (опціонально) String - код способу оплати:
 
 * 1 - Готівковий розрахунок
-* 2 - Безготівковий розрахунок"
+* 2 - Безготівковий розрахунок
+
+**doc_type** (опціонально) String - підтип документа «Замовлення» (ORDER.DOCTYPE); можливі варіанти:
+
+- ``O`` - Оригінал замовлення (за замовчуванням)
+- ``PO`` - Попереднє замовлення
+- ``R`` - Заміна
+- ``D`` - Видалення"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
 Content-Type  , application/json                           

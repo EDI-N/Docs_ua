@@ -20,10 +20,10 @@ id параметра, Найменування параметра,Обов'яз
 
     ORDER (тип документа):
 
-    * 0 - оригінал (O)
-    * 1 - заміна (R)
-    * 2 - видалення (D)
-    * 3 - фіктивність замовлення (F)
+    * 0 для ORDER.DOCTYPE = PO / O / F / OS (Попереднє замовлення (PO), Оригінал замовлення (O), Фіктивність замовлення (F), Замовлення на послугу / маркетинг (OS))
+    * 1 для ORDER.DOCTYPE = R (Заміна (R))
+    * 2 для ORDER.DOCTYPE = D (Видалення (D)) та всіх пов'язаних документів з ORDER.DOCTYPE = PO / O / F / OS, що йому передували
+    * 3 для всіх пов'язаних документів з ORDER.DOCTYPE = PO / O / F / OS, що передували документу ORDER.DOCTYPE = R
 
     RETANN:
 
@@ -82,7 +82,7 @@ id параметра, Найменування параметра,Обов'яз
 24, order_number, О, VARCHAR, номер замовлення
 25, order_date ,, INT, дата замовлення
 26, return_date ,, INT, дата повернення
-27, summ ,, VARCHAR, сума з ПДВ / загальна сума штрафу (ORDRPT)
+27, summ ,, decimal, сума з ПДВ / загальна сума штрафу (ORDRPT)
 28, parent_chain_hash ,, MD5, хеш ланцюжка
 29, period ,, VARCHAR, крайня дата підпису документа
 31, trans_id ,, VARCHAR, id транзакції
@@ -118,9 +118,8 @@ id параметра, Найменування параметра,Обов'яз
 90, basis_doc_date, , INT, дата документа-підстави
 116, ready_for_sign, , INT, відмітка готовності до підписання (0-ні; 1-так)
 118, ready_for_send, , INT, відмітка готовності до відправки (0-ні; 1-так)
-, summ_without_tax, , INT, сума без ПДВ
-, tax_summ, , INT, сума ПДВ
-, summ, , INT, сума з ПДВ
+95, summ_without_tax, , decimal, сума без ПДВ
+, tax_summ, , decimal, сума ПДВ
 129, receiving_note_number, , VARCHAR, Номер повідомлення про прийом (DOCUMENTINVOICE...ReceivingAdviceNumber)
 137, branch_uuid,, VARCHAR,"uuid «гілки поставки» для мережі АТБ (документи однієї поставки). Використовується для COMDOC та ETTNv3  документів. Поле заповнюється при `відправці е-ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__ чи фомується автоматично платформою EDI Network на підставі даних з документа-основи: «Повідомлення про відвантаження» (DESADV.NUMBER + DESADV.DATE + DESADV.ORDERNUMBER + DESADV.ORDERDATE)."
 , parent_doc_uuid, ,VARCHAR, uuid початкової е-ТТН (записується при заміні відправленої чернетки)

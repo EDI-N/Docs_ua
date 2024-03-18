@@ -48,5 +48,12 @@ T51,51,внутрішня ТТН
 T52,52,внутрішня ТТН (алкоголь)
 T53,53,внутрішня ТТН (тютюн)
 **Підтип «Заявка на транспортування» / «Підтвердження заявки на транспортування» (TRANSPORTATIONORDER.SUBDOCTYPE)**,**sub_doc_type_id**,**Назва та опис документа**
-,1,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
-,2,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+1,1,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+2,2,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+**Підтип «Замовлення» (ORDER.DOCTYPE)**,**sub_doc_type_id**,**Назва та опис документа**
+PO,1,Попереднє замовлення
+O,2,Оригінал замовлення
+OS,3,Замовлення на послугу / маркетинг
+F,4,Фіктивність замовлення
+R,5,Заміна замовлення
+D,6,Видалення
