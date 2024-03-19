@@ -15,7 +15,7 @@ EDIN | Електронний документообіг для бізнесу
         :img-top: _static/card_pic/faq_g.png
         :class-card: intro-card
         :shadow: lg
-        :link: https://redesign-wiki.readthedocs.io/uk/latest/general_2_0/faq.html
+        :link: https://wiki.edin.ua/uk/latest/general_2_0/faq.html
 
     .. grid-item-card::  Процеси клієнтів
         :img-top: _static/card_pic/ClientProcesses_g.png
