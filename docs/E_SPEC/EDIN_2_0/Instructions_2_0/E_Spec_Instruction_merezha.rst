@@ -286,7 +286,7 @@
 
 Після підписання узгодження інформація щодо підписанта відображається в блоці "Контрагенти". 
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_008.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_93.png
    :align: center
 
 .. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_31.png
@@ -329,7 +329,7 @@
 
 Рядок пошуку допомагає відфільтрувати документи в журналі, а всі доступні ключі пошуку детально описані в підказці:
 
-.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_012.png
+.. image:: /E_SPEC/EDIN_2_0/Instructions_2_0/pics_E_Spec_Іnstruction_postachalnik/E_Spec_Іnstruction_postachalnik_98.png
    :align: center
 
 Можливо обрати ключ зі списку чи вводити ключ з клавіатури (при фільтруванні кількома ключами одночасно елементи пошуку повині бути розділені комою з пробілом). Після цього натисніть - **"Пошук"**:

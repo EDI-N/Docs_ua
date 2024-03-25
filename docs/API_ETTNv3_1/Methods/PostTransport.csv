@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/oas/v2/transport**
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , *application/json*
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу (в json форматі) передаються дані нового `транспортного засобу <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/EveryBody/Transport.html>`__ (об'єкт Transport)."
