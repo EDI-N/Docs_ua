@@ -194,8 +194,9 @@ EDIN | Електронний документообіг для бізнесу
    :maxdepth: 2
    :caption: 📑 Е-Сертифікати
 
-   Certificate/EDIN/Certificate_list
    Certificate/EDIN_2_0/APIv2/API_Certificate_v2_list
+
+.. Certificate/EDIN/Certificate_list deprecated
 
 .. toctree::
    :maxdepth: 2
