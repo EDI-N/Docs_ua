@@ -38,6 +38,9 @@
 .. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_001.png
    :align: center
 
+.. hint::
+   Також доступне `створення "Заявки на транспортування" <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#create-proposal>`__ на підставі кількох (1-100) "Замовлень" від одного контрагента. 
+
 У відкритому документі натисніть **"Створити документ"** "Заявка на транспортування" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ :
 
 .. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_003.png
