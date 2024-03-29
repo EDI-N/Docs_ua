@@ -84,6 +84,10 @@
 
 .. role:: orange
 
+.. include:: /EDIN_Specs/COMDOC.rst
+   :start-after: .. початок блоку для ComdocHint2
+   :end-before: .. кінець блоку для ComdocHint2
+
 .. raw:: html
 
     <embed>
