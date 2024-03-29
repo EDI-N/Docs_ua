@@ -37,7 +37,7 @@
    :align: center
 
 .. note::
-   **"Заявку на транспортування"** в статусі :orange:`"Очікує підписання перевізником"` попередньо потрібно **"Підписати"**: 
+   **"Заявку на транспортування"** в статусі :orange:`"Очікує підписання перевізником"` попередньо можливо **"Підписати"**: 
 
    .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_002.png
       :align: center
@@ -49,24 +49,24 @@
 
 Відкриється форма редагування документа "Підтвердження заявки на транспортування", що включає в собі дані "Заявки на транспортування":
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_004.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_016.png
    :align: center
 
 .. hint::
    Якщо **"Замовник"** знав хто буде здійснювати поставку і заповнив дані по авто і водієві в "Заявці на транспортування", то блок "Підтвердження заявки на транспортування" автоматично заповнюється цим даними (поля доступні до редагування/доповнення):
 
-   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_005.png
+   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_019.png
       :align: center
 
-Для автомобілів та причепів реалізований Ваш особистий довідник, що автоматично формується при додаванні нового транспортного засобу (кнопка **"+Новий транспортний засіб"**). При додаванні нового транспортного засобу в модальному вікні потрібно заповнити "Реєстраційний номер", "Марка", "Модель", "Тип":
+Для автомобілів та причепів реалізований Ваш особистий довідник, що автоматично формується при додаванні нового транспортного засобу (кнопка **"+Новий транспортний засіб"**). При додаванні нового транспортного засобу в модальному вікні потрібно заповнити "Реєстраційний номер", "Марка", "Модель", "Тип" (також при заповненні "Довжина" / "Ширина" / "Висота" / "Загальна вага без вантажу" вся група стає теж обов'язковою до заповнення):
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_006.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_017.png
    :align: center
 
 .. hint::
    Для раніше введеного реєстрайійного номеру (лише латинниця), наприклад, **AA0001AA** користувач може скористатись пошуком з довідника (min 4 символи), наприклад, ``AA00, 0001, 01AA, ...``:
 
-   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_007.png
+   .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_018.png
       :align: center
 
 Після додавання чи вибору транспортного засобу з'являються кнопки:
@@ -75,7 +75,7 @@
 * **"Змінити"** - редагування даних обраного транспортного засобу (редагування довідника);
 * **"Очистити"** - видалити введені в рядок дані.
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_008.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_020.png
    :align: center
 
 .. note::
@@ -83,12 +83,12 @@
 
 Принцип заповнення причіпа/напівпричіпа теж реалізований через довідник (аналогічно додаванню даних про автомобіль): 
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_009.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_021.png
    :align: center
 
 По кожному вказаному транспорному засобу є можливість зазначити (опціонально) температурний режим:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_010.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_022.png
    :align: center
 
 Дані **"Водія"** можливо обрати за допомогою кнопки **"Пошук контрагента"** (|лупа|) за ПІБ / ІПН / даними водійського посвідчення:
@@ -100,6 +100,9 @@
 
 .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_012.png
    :align: center
+
+.. hint::
+   Також для даного документа доступні `масове підписання та масова відправка <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#mass-sign-and-send>`__.
 
 .. кінець блоку для Proposal_Confirmation_from_Proposal
 

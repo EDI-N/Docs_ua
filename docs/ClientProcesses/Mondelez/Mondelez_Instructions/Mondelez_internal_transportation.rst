@@ -12,6 +12,8 @@
 
 .. |лупа2| image:: /_constant/icons/magnifying_glass2.png
 
+.. |drag_dots| image:: /_constant/icons/drag_dots.png
+
 .. role:: red
 
 .. role:: orange
