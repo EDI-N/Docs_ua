@@ -110,7 +110,7 @@ F.A.Q.
    :icon: question
    :animate: fade-in-slide-down
 
-   Щоб створити акт виконаних робіт (Логістика) скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_COMDOC_037_from.html#create-from-proposal-ttn>`__.
+   Щоб створити акт наданих послуг (Логістика) скористайтесь покроковою `інструкцією <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_COMDOC_037_from.html#create-from-proposal-ttn>`__.
 
 .. dropdown:: 15. Як відхилити акт розбіжностей перевізнику?
    :color: success
