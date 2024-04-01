@@ -49,7 +49,7 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Акт виконаних робіт (Логістика)
+   :caption: Акт наданих послуг (Логістика)
    
    Create_COMDOC_037_from
 

@@ -231,7 +231,7 @@
 * `Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_016_x.html>`__
 * `Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_029_x.html>`__
 * `Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_030_x.html>`__
-* `Акт виконаних робіт (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
+* `Акт наданих послуг (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
 * `Акт приймання наданих послуг (DOCINVOICEACT) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__
 * `Повідомлення про штрафні санкції (ORDRPT) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__
 * `Додаток до договору 7А (METRO_7A) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7A_x.html>`__
