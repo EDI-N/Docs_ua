@@ -33,11 +33,13 @@
 
 .. |пресуха| image:: pics_Work_with_ETTN/Work_with_ETTN_041.png
 
-.. |ring| image:: /Vilnyi/pics_Work_with_Vilnyi/Work_with_Vilnyi_134.gif
+.. |ring| image:: /_constant/icons/ring.gif
 
-.. |success| image:: /Vilnyi/pics_Work_with_Vilnyi/Work_with_Vilnyi_131.png
+.. |success| image:: /_constant/icons/success.png
 
-.. |error| image:: /Vilnyi/pics_Work_with_Vilnyi/Work_with_Vilnyi_130.png
+.. |error| image:: /_constant/icons/error.png
+
+.. |repeat| image:: /_constant/icons/repeat.png
 
 .. |button_counter| image:: pics_Work_with_ETTN/Work_with_ETTN_062.png
 
@@ -329,7 +331,7 @@
 
 * |ring| - задача в процесі обробки;
 * |success| - задача успішно виконана;
-* |error| - помилка виконання задачі.
+* |error| - помилка виконання задачі + |repeat| - повторити виконання дії.
 
 Віджет можливо згорнути чи закрити навіть під час виконання задач. Віджет можливо відновити, натиснувши на іконку процесу/помилки в нижній частині екрану (віджет з усіма успішно виконаними задачами не відновлюється після закривання):
 

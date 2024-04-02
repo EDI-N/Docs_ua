@@ -61,11 +61,13 @@
 
 .. |del_tag| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_119.png
 
-.. |ring| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_134.gif
+.. |ring| image:: /_constant/icons/ring.gif
 
-.. |success| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_131.png
+.. |success| image:: /_constant/icons/success.png
 
-.. |error| image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_130.png
+.. |error| image:: /_constant/icons/error.png
+
+.. |repeat| image:: /_constant/icons/repeat.png
 
 .. contents:: Зміст:
    :depth: 3
@@ -579,13 +581,13 @@
 
 .. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_128.png
 
-.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_137.png
+.. image:: pics_Work_with_Vilnyi/Work_with_Vilnyi_150.png
 
 Навпроти назви документа/дії у віджеті відображається статус:
 
 * |ring| - задача в процесі обробки;
 * |success| - задача успішно виконана;
-* |error| - помилка виконання задачі.
+* |error| - помилка виконання задачі + |repeat| - повторити виконання дії.
 
 А іконка на початку завершеної дії підкаже, який процес було виконано:
 
