@@ -6,6 +6,7 @@
    :maxdepth: 1
    
    Silpo_Instructions/Robota_s_Fozzy_EDI-N_2.0
+   Silpo_Instructions/Silpo_shops
 
 .. поки приховуємо
 
