@@ -5,8 +5,10 @@
    :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
-   Silpo_Instructions/Robota_s_Fozzy_EDI-N_2.0
    Silpo_Instructions/Silpo_shops
+
+.. deprecated
+   Silpo_Instructions/Robota_s_Fozzy_EDI-N_2.0
 
 .. поки приховуємо
 

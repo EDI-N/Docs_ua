@@ -26,21 +26,23 @@
 `XML Специфікації для роботи з Фоззі (за схемою «Match Invoice») <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html>`__
 
 1 Формування "Підтвердження замовлення" (ORDRSP) на підставі вхідного "Замовлення" (ORDER)
-====================================================================================================================================
+========================================================================================================================
+
+.. початок блоку для ordrsp_from_order_Silpo
 
 Для формування "Підтвердження замовлення" (ORDRSP) на підставі "Замовлення" (ORDER) потрібно перейти в розділ "Вхідні" та обрати потрібний документ. Для зручності можливо скористатись пошуком (за типом документа (приклад в зображенні), номером документа чи GLN):
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_001.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_001.png
    :align: center
 
 У відкритому документі на формі-підказці виберіть зі списку **"Підтвердження замовлення"**:
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_002.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_002.png
    :align: center
 
 Після чого на підставі "Замовлення" (ORDER) автоматично створюється "Підтвердження замовлення" (ORDRSP). На формі створюваного документа значення більшості полів заповняться (пененесутся) з документа-підстави. Всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_003.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_003.png
    :align: center
 
 1. **Номер** - може збігатися з номером замовлення.
@@ -50,7 +52,7 @@
 
 Нижче на сторінці створеного документу знаходиться перелік товарних позицій, які були замовлені, і їх кількість. Зверніть увагу, що у табличній частині з позиціями немає цін. Дані позицій можливо відредагувати та **"Змінити"** через pop-up вікно, що відкривається по кліку на штрихкод товару:
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_007.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_007.png
    :align: center
 
 Інформація по позиціям, автоматично переноситься із Замовлення:
@@ -64,7 +66,7 @@
 #. **Підтверджена кількість** - фактична підтверджена кількість, що буде доставлена
 #. **Дії** - вибираються зі списку в залежності від ситуації: **Буде доставлено**, або **Відмовлено**, а при зміні Підтвердженої кількості автоматично зміниться на **Зміна кількості**:
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_004.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_004.png
    :align: center
 
 При цьому в блоці "Додаткова інформація" поле "Документ повідомляє, що" автоматично заповнюється значеннями:
@@ -73,13 +75,15 @@
 * **"поставка не прийнята"** - коли по всім позиціям виконана Дія **Відмовлено**;
 * **"поставка прийнята"** - коли по всім позиціям виконана Дія **Буде доставлено**.
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_005.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_005.png
    :align: center
 
 Для відправки документа заповніть усі обов’язкові поля та натисніть на кнопку **Зберегти** (1), щоб внесені зміни вступили в силу, а потім - **Відправити** (2):
 
-.. image:: pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_006.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_ORDRSP_instruction/Fozzy_ORDRSP_instruction_006.png
    :align: center
+
+.. кінець блоку для ordrsp_from_order_Silpo
 
 ------------------------------------------------
 

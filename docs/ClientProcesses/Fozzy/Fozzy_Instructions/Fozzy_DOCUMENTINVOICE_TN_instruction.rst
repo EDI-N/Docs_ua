@@ -22,23 +22,25 @@
    :align: center
 
 1 Формування "Накладної за кількістю" на підставі вхідного "Замовлення" (ORDER)
-====================================================================================================================================
+=============================================================================================================================
+
+.. початок блоку для documentinvoice_tn_from_order_Silpo
 
 Для формування "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) на підставі "Замовлення" (ORDER) потрібно перейти в розділ "Вхідні" та обрати потрібний документ. Для зручності можливо скористатись пошуком (за типом документа (приклад в зображенні), номером документа чи GLN):
 
 .. prn_pic
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_001.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_001.png
    :align: center
 
 У відкритому документі на формі-підказці виберіть зі списку **"Накладна за кількістю"**:
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_001.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_001.png
    :align: center
 
 Після чого на підставі "Замовлення" (ORDER) автоматично створюється "Накладна за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN). На формі створюваного документа значення більшості полів заповняться (пененесутся) з документа-підстави. Всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_002.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_002.png
    :align: center
 
 .. include:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard.rst
@@ -47,22 +49,22 @@
 
 Дані позицій можливо відредагувати та **"Змінити"** через pop-up вікно, що відкривається по кліку на штрихкод товару:
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_003.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_003.png
    :align: center
 
 Також можливо **"Видалити"** товарні позиції з табличної частини документа:
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_004.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_004.png
    :align: center
 
 До табличної частини "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) можливо додавати лише ті позиції, що були вказані в "Замовленні" (вибрати зі списку). Якщо всі позиції співпадають з позиціями в "Замовленні" (ORDER), то в табличній частині кнопка **"+Додати"** не відображається:
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_005.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_005.png
    :align: center
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_006.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_006.png
    :align: center
 
 .. _sign:
@@ -98,25 +100,27 @@
 
 Після підписання "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) документ потрібно **"Відправити"**:
 
-.. image:: pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_007.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_TN_instruction/Fozzy_DOCUMENTINVOICE_TN_instruction_007.png
    :align: center
 
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в ланцюжку документів разом із пов'язаними документами. Мережа Фоззі зі своєї сторони переглядає та підписує документ.
+Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в ланцюжку документів разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ.
 
-2 Обробка вхідного документа "Акт невідповідності" (COMDOC_009)
-====================================================================================================================================
+.. кінець блоку для documentinvoice_tn_from_order_Silpo
+
+Обробка вхідного документа "Акт невідповідності" (COMDOC_009)
+--------------------------------------------------------------------------------------------------
 
 У випадку розходження між відправленною і фактично прийнятою кількістю товару чи виникненням цінової розбіжності – мережа надсилає Вам "Акт невідповідності" (COMDOC_009):
 
-.. image:: pictures/pics_robota_s_Fozzy_13_pred_net.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pictures/pics_robota_s_Fozzy_13_pred_net.png
    :align: center
 
 У вхідному документі будуть зазначені кількісні чи цінові розбіжності по кожному товару та причина невідповідності.
 
-.. image:: pictures/pics_robota_s_Fozzy_14.png
+.. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pictures/pics_robota_s_Fozzy_14.png
    :align: center
 
-Після ознайомлення з документом необхідно відправити "Коригування до товарної накладної" (DOCCORINVOICE) з правками кількості/ціни згідно розбіжностей вказаних в "Акті невідповідності" (COMDOC 009) мережі Фоззі.
+Після ознайомлення з документом необхідно відправити "Коригування до товарної накладної" (DOCCORINVOICE) з правками кількості/ціни згідно розбіжностей вказаних в "Акті невідповідності" (COMDOC 009) Мережі.
 
 ------------------------------------------------
 
