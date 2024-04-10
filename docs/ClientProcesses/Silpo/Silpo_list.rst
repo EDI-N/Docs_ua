@@ -6,6 +6,7 @@
    :maxdepth: 1
    
    Silpo_Instructions/Silpo_shops
+   Silpo_Instructions/Silpo_Match_Invoice
 
 .. deprecated
    Silpo_Instructions/Robota_s_Fozzy_EDI-N_2.0
