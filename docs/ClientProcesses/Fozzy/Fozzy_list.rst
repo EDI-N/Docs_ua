@@ -11,7 +11,7 @@ Fozzy
    :caption: Робота з мережею "Фоззі" на платформі EDI Network 2.0
    :maxdepth: 1
    
-	Fozzy_Instructions/Fozzy_EDI
+   Fozzy_Instructions/Fozzy_EDI
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з "Fozzy" [1]
