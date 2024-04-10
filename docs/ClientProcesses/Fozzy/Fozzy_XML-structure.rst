@@ -47,34 +47,6 @@ XML Специфікації для роботи з мережею "Фоззі"
 
 ---------
 
-Накладна за кількістю (DOCUMENTINVOICE_TN)
-=============================================
-
-.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DOCUMENTINVOICE.DocumentFunctionCode 
-  :file: Fozzy_XML/files/DOCUMENTINVOICE_TN.csv
-  :widths:  40, 7, 12, 41
-  :header-rows: 1
-
-:download:`XML-Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)<Fozzy_XML/examples/DOCUMENTINVOICE_TN_example.xml>`
-
-:download:`JSON-Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)<Fozzy_XML/examples/DOCUMENTINVOICE_TN.json>`
-
----------
-
-Цінова накладна (DOCUMENTINVOICE_PRN)
-=============================================
-
-.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DOCUMENTINVOICE.DocumentFunctionCode 
-  :file: Fozzy_XML/files/DOCUMENTINVOICE_PRN.csv
-  :widths:  40, 7, 12, 41
-  :header-rows: 1
-
-:download:`XML-Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN_example.xml>`
-
-:download:`JSON-Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)<Fozzy_XML/examples/DOCUMENTINVOICE_PRN.json>`
-
----------
-
 Акт невідповідності (COMDOC_009)
 ==============================================
 
@@ -89,17 +61,49 @@ XML Специфікації для роботи з мережею "Фоззі"
 
 ---------
 
+.. початок блоку для specs_for_Silpo
+
+Накладна за кількістю (DOCUMENTINVOICE_TN)
+=============================================
+
+.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DOCUMENTINVOICE.DocumentFunctionCode 
+  :file: /ClientProcesses/Fozzy/Fozzy_XML/files/DOCUMENTINVOICE_TN.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`XML-Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)</ClientProcesses/Fozzy/Fozzy_XML/examples/DOCUMENTINVOICE_TN_example.xml>`
+
+:download:`JSON-Приклад "Накладної за кількістю" (DOCUMENTINVOICE_TN)</ClientProcesses/Fozzy/Fozzy_XML/examples/DOCUMENTINVOICE_TN.json>`
+
+---------
+
+Цінова накладна (DOCUMENTINVOICE_PRN)
+=============================================
+
+.. csv-table:: Тип документа "Накладна за кількістю" (DOCUMENTINVOICE_TN) чи "Цінова накладна" (DOCUMENTINVOICE_PRN) визначається значенням, що передається в полі DOCUMENTINVOICE.DocumentFunctionCode 
+  :file: /ClientProcesses/Fozzy/Fozzy_XML/files/DOCUMENTINVOICE_PRN.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`XML-Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)</ClientProcesses/Fozzy/Fozzy_XML/examples/DOCUMENTINVOICE_PRN_example.xml>`
+
+:download:`JSON-Приклад "Цінової накладної" (DOCUMENTINVOICE_PRN)</ClientProcesses/Fozzy/Fozzy_XML/examples/DOCUMENTINVOICE_PRN.json>`
+
+---------
+
 Коригування до товарної накладної (DOCCORINVOICE)
 =============================================================
 
 .. csv-table:: "Коригування до товарної накладної" (DOCCORINVOICE) можливо створити лише коли в ланцюжку документів вже є COMDOC_009 від мережі (Фоззі)
-  :file: Fozzy_XML/files/DOCCORINVOICE.csv
+  :file: /ClientProcesses/Fozzy/Fozzy_XML/files/DOCCORINVOICE.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад DOCCORINVOICE<Fozzy_XML/examples/DOCCORINVOICE_example.xml>`
+:download:`XML-Приклад DOCCORINVOICE</ClientProcesses/Fozzy/Fozzy_XML/examples/DOCCORINVOICE_example.xml>`
 
-:download:`JSON-Приклад DOCCORINVOICE<Fozzy_XML/examples/DOCCORINVOICE.json>`
+:download:`JSON-Приклад DOCCORINVOICE</ClientProcesses/Fozzy/Fozzy_XML/examples/DOCCORINVOICE.json>`
+
+.. кінець блоку для specs_for_Silpo
 
 -------------------------
 

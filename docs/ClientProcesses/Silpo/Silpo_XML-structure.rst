@@ -122,6 +122,10 @@ XML Специфікації для роботи з Сільпо
 
   :download:`Приклад DOCUMENTINVOICE<Silpo_XML/examples/DOCUMENTINVOICE_example_f.xml>`
 
+.. include:: /ClientProcesses/Fozzy/Fozzy_XML-structure.rst
+   :start-after: .. початок блоку для specs_for_Silpo
+   :end-before: .. кінець блоку для specs_for_Silpo
+
 -------------------------
 
 .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
