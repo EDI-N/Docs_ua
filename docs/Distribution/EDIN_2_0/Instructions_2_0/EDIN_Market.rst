@@ -4,7 +4,19 @@
 
 .. картинки:
 
-.. |sen44444444444444444t| image:: pics_EDIN_Market/EDIN_Market_00000000000.png
+.. |android_logo| image:: /_constant/icons/android_logo.png
+                  :height: 20px
+
+.. |google-play| image:: /_constant/icons/google-play.png
+                  :height: 35px
+                  :target: https://play.google.com/store/apps/details?id=org.edin.edinMarket
+
+.. |apple_logo| image:: /_constant/icons/apple_logo.png
+                  :height: 30px
+
+.. |app-store| image:: /_constant/icons/app-store.png
+                  :height: 35px
+                  :target: https://apps.apple.com/ua/app/edin-driver-signing-waybill/id1658986357
 
 .. contents:: Зміст:
    :depth: 4
@@ -26,9 +38,9 @@
 
 .. tabs::
 
-   .. tab:: На "Android"
+   .. tab:: |android_logo| На "Android"
 
-      Для встановлення додатка **"EDIN Market"** Ви можете пройти за `посиланням <https://play.google.com/store/apps/details?id=org.edin.edinMarket>`__ чи самостійно знайти віджет за назвою в **"Google Play Market"**. Далі потрібно **"Установити"** додаток:
+      Для встановлення додатка **"EDIN Market"** натисніть на кнопку |google-play| чи самостійно знайдіть віджет за назвою в **"Google Play Market"**. Далі потрібно **"Установити"** додаток:
 
       .. image:: pics_EDIN_Market/EDIN_Market_001.png
          :align: center
@@ -38,9 +50,9 @@
       .. image:: pics_EDIN_Market/EDIN_Market_002.png
          :align: center
 
-   .. tab:: На "iOS"
+   .. tab:: |apple_logo| На "iOS"
 
-      Для встановлення додатка **"EDIN Market"** Ви можете пройти за `посиланням <https://apps.apple.com/ua/app/edin-market-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%B7%D0%B0%D0%BC%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F/id6444342864?l=uk>`__ чи самостійно знайти віджет за назвою в **"Apple App Store"**. Далі потрібно "Установити" додаток:
+      Для встановлення додатка **"EDIN Market"** натисніть на кнопку |app-store| чи самостійно знайдіть віджет за назвою в **"Apple App Store"**. Далі потрібно "Установити" додаток:
 
       .. image:: pics_EDIN_Market/EDIN_Market_012.png
          :align: center
