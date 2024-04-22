@@ -3,9 +3,9 @@
 ###################
 
 
-Mendelson AS2 configuration
+pyAS2 configuration
 ==============================================
-.. csv-table:: Таблиця 1 - Mendelson AS2 configuration
+.. csv-table:: Таблиця 1 - pyAS2 configuration
   :file: Tables/Table_1_Mendelson_AS2_configuration.csv
   :widths:  5, 5
 
