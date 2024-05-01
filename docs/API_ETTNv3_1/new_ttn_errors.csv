@@ -227,9 +227,60 @@ xml тіло не канонізоване або некоректне"
 400,SIGN_EDRPOU_MISMATCH_COMPANY_EDRPOU,ERR_TTN-77,"EDRPOU from sign: [%s] is not equals gln EDRPOU: [%s], 2
 
 ЄДРПОУ з підписа: [%s] не відповідає ЄДРПОУ з глн: [%s], 2"
-400,INCORRECT_LINK_DOC_STATUSES,ERR_TTN-78,"Some link docs has incorrect status
+400,,ERR_TTN-78,"It is not possible to generate a new bill of lading with the same data of \ORDER_NO\, \ORDER_DATE\, \DELIVERY_NOTE_NO\, \DELIVERY_NOTE_DATE\ according to the settings of the consignee
 
-Деякі пов'язані документи знаходяться в некоректному статусі"
+Неможливо створити нову накладну з тими самими даними \ORDER_NO\, \ORDER_DATE\, \DELIVERY_NOTE_NO\, \DELIVERY_NOTE_DATE\ відповідно до налаштувань одержувача"
+400,,ERR_TTN-79,"Unknown performer
+
+Невідомий виконавець"
+400,,ERR_TTN-80,"Key blocked. Key is not on secure media
+
+Ключ заблоковано. Ключ знаходиться на незахищеному носії"
+400,,ERR_TTN-82,"Key blocked. Signer position is required
+
+Ключ заблоковано. Наявність посади підписанта обов'язкова"
+400,,ERR_TTN-83,"Company not found by code: [%s], companyCode
+
+За кодом [%s] компанія не знайдена, companyCode"
+400,,ERR_TTN-84,"Document body not found or not created, try to resave document
+
+Тіло документа не знайдено або ще не створено, спробуйте повторно зберегти документ"
+400,,ERR_TTN-85,"Setup url params: [%s], params
+
+Вкажіть url-параметри: [%s], params"
+400,,ERR_TTN-86,"Request body is empty or invalid
+
+Тіло запиту порожнє або некоректне"
+400,,ERR_TTN-88,"Document is not signed
+
+Документ не підписаний"
+400,,ERR_TTN-89,"Completed doc [%s] for parent eTTN already exists
+
+Для документа підстави (ТТН) вже зареєстровано документ: [%s]"
+400,,ERR_TTN-90,"Unsupported status [%s], one of [%s] is expected
+
+Некоректний статус [%s]. Очікується один з наступних:  [%s]"
+400,,ERR_TTN-91,"Confirm document error
+
+Помилка при підтвердження документа"
+400,,ERR_TTN-92,"Reject document error
+
+Помилка при відхиленні документа"
+400,,ERR_TTN-93,"Company not found for this user
+
+Не знайдено компанію для поточного юзера"
+400,,ERR_TTN-94,"No supported documents
+
+Відсутні підтримувані документи"
+400,,ERR_TTN-95,"Invalid format of transport id, only Latin uppercase letters and numbers are expected.
+
+Некоректний формат транспортного засобу, очікуються лише латинські великі літери та цифри."
+400,,ERR_TTN-96,"Some link docs has incorrect status
+
+Деякі пов'язані документи знаходяться в некоректному статусі."
+400,,ERR_TTN-97,"Katottg code for [%s] is required
+
+КАТОТТГ для адреси [%s] є обов'язковим"
 400,,ERR_TTN-98,"Rejection unavailable after carrier signing
 
 Відхилення неможливе після підписання перевізником"
