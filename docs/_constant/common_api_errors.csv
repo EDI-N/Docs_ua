@@ -54,15 +54,60 @@
 
 Некоректний формат значення поля",
 400,ERR_CMN-17,error,"Помилка в роботі процедури (БД)"
-400,ERR_CMN-18,"Document body already exist
+400,ERR_CMN-18,"Error occurred while retrieving information about the signer:
+
+Помилка при отриманні інформації про підписанта:",
+400,ERR_CMN-19,"Document body already exist
 
 Тіло документа вже існує",Дублювання тіла документа
-400,ERR_CMN-19,"Transformer for document type [%s] not found
+400,ERR_CMN-20,"Transformer for document type [%s] not found
 
 Перетворювач для типу документа [%s] не знайдено","Не вдалось знайти компонент для перетворення xml в json / json в xml і т.д."
-400,ERR_CMN-20,"Transforming error
+400,ERR_CMN-21,"Transforming error
 
 Помилка перетворення","Помилка при перетворенні, наприклад: при перетворенні xml в json, коли xml не відповідає специфікації документа"
-400,ERR_CMN-21,"Malformed JSON
+400,ERR_CMN-22,"Malformed JSON
 
 Невірно сформований JSON","Неправильні дані / некоректний формат в полі json"
+400,ERR_CMN-23,"ZIP format error:
+
+Невірний формат ZIP:",
+400,ERR_CMN-24,"UUID format error:
+
+Невірний формат UUID:",
+400,ERR_CMN-25,"Expected non-empty list of uuids
+
+Cписок uuid не може бути пустим",
+400,ERR_CMN-26,"The size of the list cannot be more than [%s]
+
+Розмір списку не може перевищувати [%s]",
+400,ERR_CMN-27,"The data is not signed or contains an incorrect signature
+
+Дані не підписані або містять некорректний підпис",
+400,ERR_CMN-28,"Content from request does not match original content, actual_hash:[%s] request_hash:[%s]
+
+Контент запиту не відповідає оригінальному контенту, actual_hash:[%s] request_hash:[%s]",
+400,ERR_CMN-29,"GLN from request [%s] should match sender's GLN from body [%s]
+
+GLN із запиту [%s] має збігатися з GLN відправника з тіла [%s]",
+400,ERR_CMN-30,"The requested data was not found
+
+Запитувані дані не знайдені",
+400,ERR_CMN-31,"Field [%s] in request body is empty or invalid
+
+Поле [%s] в тілі запиту порожнє або має недопустиме значення",
+400,ERR_CMN-32,"Part [%s] in multipart/form-data is required
+
+Частина [%s] в multipart/form-data є обов'язковою",
+400,ERR_CMN-32,"File [%s] in multipart/form-data not found
+
+Файл [%s] в multipart/form-data не знайдено",
+400,ERR_CMN-32,"Field [%s] in post data is required
+
+Поле [%s] в post data запиту не знайдено",
+400,ERR_CMN-33,"At least one of parameters [%s]  required
+
+Необхідний принаймні один із параметрів [%s].",
+400,ERR_CMN-34,"Unsupported parameter[%s]
+
+Непідтримуваний параметр [%s].",
