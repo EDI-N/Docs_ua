@@ -83,6 +83,11 @@
 .. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_022.png
    :align: center
 
+Також можливо відмітити позиції (всі чи поодинично) та **"Видалити"** всі обрані позиції:
+
+.. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_023.png
+   :align: center
+
 Для внесення даних в таблицю **"Розбіжностей щодо якісних характеристик вантажу"** потрібно поставити курсор в колонку виявлених порушень перевезення для стандартних показників чи вказати :underline:`інше` недотримання: 
 
 .. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_006.png
