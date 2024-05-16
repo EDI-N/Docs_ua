@@ -38,6 +38,8 @@
    :height: 700px
    :align: center
 
+.. початок блоку для From_crossdocking_to_bulk
+
 1 Вхід на платформу
 ====================================
 
@@ -55,7 +57,7 @@
 2 Створення та відправка «Підтвердження замовлення» (ORDRSP) на підставі вхідного «Замовлення» (ORDERS)
 ==============================================================================================================
 
-.. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
+.. include:: /retail_2.0/ORDRSP_na_EDI_Network.rst
    :start-after: .. початок блоку для Ordrsp_from_docs
    :end-before: .. кінець блоку для Ordrsp_from_docs
 
@@ -162,6 +164,8 @@
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. "Гіпермаркет" Епіцентр зі своєї сторони переглядає та підписує документ.
+
+.. кінець блоку для From_crossdocking_to_bulk
 
 .. _documentinvoice-app-create:
 
