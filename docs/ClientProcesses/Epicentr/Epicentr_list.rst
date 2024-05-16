@@ -11,6 +11,7 @@
    Epicentr_Instructions/Epicentr_consolidated_TTN_instruction
    Epicentr_Instructions/Epicentr_consolidated_TTN_instruction_web
    Epicentr_Instructions/Epicentr_Post_LC_Giper_crossdocking
+   Epicentr_Instructions/Epicentr_Post_LC_break_bulk
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з "Епіцентром" [1]
