@@ -202,9 +202,11 @@
 **3 Створення "е-ТТН" на підставі "Акту приймання-передачі" (DOCUMENTINVOICE_APP)**
 ==========================================================================================================================
 
+.. початок блоку для ETTN_from_documentinvoice_app
+
 Для створення "е-ТТН" на підставі "Акту приймання-передачі" (`DOCUMENTINVOICE_APP <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice-app>`__) в сервісі "EDI Network" **Вантажовідправнику** потрібно перейти у **"Надіслані"** та вибрати "Акт приймання-передачі" (для зручності можливо скористатись рядком пошуку):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_031.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_031.png
    :align: center
 
 .. hint::
@@ -212,26 +214,30 @@
 
 У відкритому документі натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарно-транспортна накладна" (ETTN):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_032.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_032.png
    :align: center
 
 Після чого відкриється форма редагування документа "е-ТТН", що вже буде містити дані з обраного "Акту приймання-передачі" (дані майбутнього **Вантажоодержувача** (контрагента), перелік супровідних документів на вантаж, номери резерву (додаткові дані)):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_033.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_033.png
    :align: center
 
 Документ готовий до доповнення/редагування (логіка наповнення форми ідентична до процесу `заповнення/редагування даних чернетки "е-ТТН", створеної з "нуля" <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_ETTN.html#consignor-create>`__).
 
 Після того, як Ви доповните/відредагуєте форму "е-ТТН" документ можливо **"Зберегти"**, **"Підписати"** та **"Надіслати"**.
 
+.. кінець блоку для ETTN_from_documentinvoice_app
+
 .. _create-from-documentinvoice-drn:
 
 **4 Створення "е-ТТН" на підставі "Видаткової накладної" (DOCUMENTINVOICE_DRN)**
 ==========================================================================================================================
 
+.. початок блоку для ETTN_from_documentinvoice_drn
+
 Для створення "е-ТТН" на підставі "Видаткової накладної" (`DOCUMENTINVOICE_DRN <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__) в сервісі "EDI Network" **Вантажовідправнику** потрібно перейти у **"Надіслані"** та вибрати "Видаткову накладну" (для зручності можливо скористатись рядком пошуку):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_035.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_035.png
    :align: center
 
 .. hint::
@@ -239,17 +245,19 @@
  
 У відкритому документі натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарно-транспортна накладна" (ETTN):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_036.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_036.png
    :align: center
 
 Після чого відкриється форма редагування документа "е-ТТН", що вже буде містити дані з обраної "Видаткової накладної" (дані майбутнього **Вантажоодержувача** (контрагента), пункт розвантаження, перелік супровідних документів на вантаж, відомості про вантаж):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_037.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_037.png
    :align: center
 
 Документ готовий до доповнення/редагування (логіка наповнення форми ідентична до процесу `заповнення/редагування даних чернетки "е-ТТН", створеної з "нуля" <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_ETTN.html#consignor-create>`__).
 
 Після того, як Ви доповните/відредагуєте форму "е-ТТН" документ можливо **"Зберегти"**, **"Підписати"** та **"Надіслати"**.
+
+.. кінець блоку для ETTN_from_documentinvoice_drn
 
 ---------------------------------
 
