@@ -20,16 +20,17 @@
 
 Дана інструкція описує порядок документообігу з мережею "Епіцентр" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-- `Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
-- `Підтвердження замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
-- `Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
-- `Видаткова накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice>`__
-- `Акт розбіжностей <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
-- `Повідомлення про прийом <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+- `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+- `Видаткова накладна (DOCUMENTINVOICE_DRN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML/DOCUMENTINVOICE_DRN_x.html>`__
+- `Акт розбіжностей (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML/DOCCORINVOICE_x.html>`__
+- `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+- `Накладна на повернення (DOCUMENTINVOICE_NP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_033.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_047.png
    :height: 700px
    :align: center
 
@@ -255,7 +256,35 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_018.png
    :align: center
 
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ або формує у відповідь "Акт розбіжностей" (DOCCORINVOICE) у разі незгоди.
+Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ або формує у відповідь "Акт розбіжностей" (DOCCORINVOICE) у разі незгоди - Ви зможете його знайти у вхідних та зможете підписати_ його в стандартний спосіб платформи EDI Network 2.0.
+
+Наприкінці позитивного завершення документообігу Ви отримаєте "Повідомлення про прийом" (RECADV).
+
+.. _from-carrier-to-storage:
+
+5 Обробка вхідної "Накладної на повернення" (DOCUMENTINVOICE_NP)
+========================================================================================================================
+
+.. note::
+   "Накладна на повернення" (DOCUMENTINVOICE_NP) є додатковим (опціональним) документом, що відправляється зі сторони мережі за потреби повернення товарів, що були доставлені в рамках ланцюжка поставки.
+
+Для обробки "Накладної на повернення" (DOCUMENTINVOICE_NP) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **""Накладна на повернення"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_044.png
+   :align: center
+
+Відкриється форма документа, де Ви зможете ознайомитись з причинами повернення, позиціями, кількістю (вся доступна інформація за позиціями відкривається при натисканні на кнопку "Показати повністю"):
+
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_045.png
+   :align: center
+
+Якщо Ви згодні зі змістом документа Ви можете **Прийняти** чи **Відхилити** "Накладну на повернення" (DOCUMENTINVOICE_NP). Для того, щоб **Прийняти** документ обов'язково потрібно **"Підписати"**:
+
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_046.png
+   :align: center
+
+.. hint::
+   Процес підписання є типовим на платформі EDI Network та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_consolidated_TTN_instruction_web.html#sign>`__.
 
 -------------------------------------
 
