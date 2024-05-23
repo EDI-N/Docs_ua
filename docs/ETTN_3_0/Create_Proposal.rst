@@ -200,24 +200,24 @@
 .. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_022.png
    :align: center
 
-Для редагування інформації щодо вантажу необхідно навести курсор на рядок цього вантажу та натиснути **"Змінити"**, для видалення – **"Видалити"**:
+Для редагування інформації щодо вантажу необхідно навести курсор на рядок цього вантажу та натиснути **"Змінити"**, для видалення – **"Видалити"** (або масово відмітити галочками та **"Видалити"** кнопкою над таблицею):
 
-.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_023.png
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_038.png
    :align: center
 
 Перевізники, отримавши "Заявку на транспортування", орієнтуються на послідовність вказаних в ній маршрутів. До відправки документа можливо змінити послідовність маршрутів, перетягнувши позицію лівою кнопкою миші за |drag_dots|:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_033.gif
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_039.gif
    :align: center
 
 Для збереження "Заявки на транспортування" необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_024.png
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_040.png
    :align: center
 
 Після того, як усі обов'язкові поля заповнені та збережені документ можливо **"Підписати"**:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_029.png
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_041.png
    :align: center
 
 .. hint::
@@ -258,24 +258,24 @@
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
 
-Після підписання "Заявки на транспортування" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
+Після підписання "Заявки на транспортування" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Надіслати"**:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_030.png
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_042.png
    :align: center
 
 .. кінець блоку для Proposal_for_Proposal_from2
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Відправленій **"Замовником"** "Заявці на транспортування" присвоюється статус :orange:`"Очікує підписання перевізником"`:
 
-.. image:: pics_Create_Proposal/Create_Proposal_031.png
+.. image:: pics_Create_Proposal/Create_Proposal_043.png
    :align: center
 
 Відправлена "Заявка на транспортування" має наступний вигляд:
 
-.. image:: pics_Create_Proposal/Create_Proposal_032.png
+.. image:: pics_Create_Proposal/Create_Proposal_044.png
    :align: center
 
-В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html>`__).
+В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Інформація про нового підписанта відображається після натискання кнопки **"Переглянути підписи"**. У разі помилкової відправки документа можливо виконати **"Відкликання підпису"** поки отримувач не підписав документ (`детальніше про відкликання <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Revoke.html>`__).
 
 ---------------------------------
 
