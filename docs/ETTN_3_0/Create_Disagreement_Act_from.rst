@@ -55,6 +55,12 @@
 .. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_002.png
    :align: center
 
+.. note::
+   Якщо в документі зазначені логістичні та користувацькі одиниці виміру, то на платформі з'явиться модальне вікно, в якому потрібно буде обрати одиниці виміру:
+
+   .. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_024.png
+      :align: center
+
 При створенні документа "Акта розбіжностей про вантаж" його форма в значній мірі автоматично заповнюється даними (дані контрагентів, перевізника, відомості про вантаж) з е-ТТН, як документа-підстави: 
 
 .. image:: pics_Create_Disagreement_Act_from/Create_Disagreement_Act_from_019.png
