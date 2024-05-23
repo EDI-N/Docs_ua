@@ -107,9 +107,24 @@
 .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_011.png
    :align: center
 
-Після того, як всі обов'язкові дані були внесені/змінені (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*` ), документ можливо **"Зберегти"**, **"Підписати"** та **"Відправити"**:
+Для видалення інформації щодо вантажу в табличній частині можливо навести курсор на рядок цього вантажу та натиснути **"Видалити"** (або масово відмітити галочками та **"Видалити"** кнопкою над таблицею):
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_012.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_025.png
+   :align: center
+
+До відправки документа можливо змінити також й послідовність маршрутів, перетягнувши позицію лівою кнопкою миші за |drag_dots|:
+
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_026.gif
+   :align: center
+
+Для збереження "Заявки на транспортування" необхідно натиснути кнопку **"Зберегти"**, документ потрапить у папку **"Чернетки"**:
+
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_027.png
+   :align: center
+
+Після того, як усі обов'язкові поля заповнені та збережені документ можливо **"Підписати"**:
+
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_028.png
    :align: center
 
 .. hint::
@@ -154,22 +169,22 @@
 
 .. початок блоку для Proposal_Confirmation_from_Proposal2
 
-Після підписання "Підтвердження заявки на транспортування" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
+Після підписання "Підтвердження заявки на транспортування" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Надіслати"**:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_013.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_029.png
    :align: center
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Відправленому **"Перевізником"** "Підтвердженню заявки на транспортування" присвоюється статус :orange:`"Очікує підписання замовником"`:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_014.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_030.png
    :align: center
 
 Відправлене "Підтвердження заявки на транспортування" має наступний вигляд:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_015.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_031.png
    :align: center
 
-В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Confirmation_Reject.html>`__).
+В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Інформація про нового підписанта відображається після натискання кнопки **"Переглянути підписи"**. У разі помилкової відправки документа можливо виконати **"Відкликання підпису"** (`детальніше про відкликання <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Confirmation_Revoke.html>`__).
 
 .. кінець блоку для Proposal_Confirmation_from_Proposal2
 

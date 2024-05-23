@@ -74,15 +74,15 @@
 
 Відправлений документ автоматично потрапляє в папку "Надіслані" і буде знаходиться в ланцюжку документів разом із "Замовленням". Відправленій **"Замовником"** "Заявці на транспортування" присвоюється статус :orange:`"Очікує підписання перевізником"`:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_006.png
+.. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_043.png
    :align: center
 
 Відправлена "Заявка на транспортування" має наступний вигляд:
 
-.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_007.png
+.. image:: /ETTN_3_0/pics_Create_Proposal_from/Create_Proposal_from_008.png
    :align: center
 
-В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Документ можливо **"Відхилити"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Reject.html>`__).
+В правій частині відображається блок з даними про `ланцюжок документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__. Інформація про нового підписанта відображається після натискання кнопки **"Переглянути підписи"**. У разі помилкової відправки документа можливо виконати **"Відкликання підпису"** поки отримувач не підписав документ (`детальніше про відкликання <https://wiki.edin.ua/uk/latest/ETTN_3_0/Proposal_Revoke.html>`__).
 
 .. кінець блоку для Proposal_from_Order
 
