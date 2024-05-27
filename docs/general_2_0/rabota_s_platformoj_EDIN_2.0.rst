@@ -109,10 +109,11 @@
 
 Незалежно від сервісу, верхня панель складається з:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_018.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_117.png
    :align: center
 
 #. `Пошуковий рядок <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__;
+#. Контакти
 #. `Новини <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#news>`__;
 #. `Повідомлення <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__;
 #. Меню сервісів - відкриває меню для переходу в сервіси платформи;
