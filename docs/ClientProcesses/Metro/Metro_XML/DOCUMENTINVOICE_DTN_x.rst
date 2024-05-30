@@ -8,72 +8,74 @@
 
   <Document-Invoice>
     <Invoice-Header>
-      <InvoiceNumber>1097_ftp_7</InvoiceNumber>
-      <InvoiceDate>2023-05-08</InvoiceDate>
-      <InvoiceTime>13:40</InvoiceTime>
+      <InvoiceNumber>4463_DTN_1</InvoiceNumber>
+      <InvoiceDate>2024-03-11</InvoiceDate>
+      <InvoiceCurrency>UAH</InvoiceCurrency>
       <DocumentFunctionCode>DTN</DocumentFunctionCode>
-      <ContractNumber>11220365921</ContractNumber>
-      <ContractDate>2020-01-18</ContractDate>
-      <InternalWarehouseNumber>77380462</InternalWarehouseNumber>
+      <ContractNumber>25699</ContractNumber>
+      <ContractDate>2023-08-30</ContractDate>
+      <InternalWarehouseNumber>77437777</InternalWarehouseNumber>
     </Invoice-Header>
-    <Invoice-References>
-      <Invoice>
-        <OriginalInvoiceNumber>123554</OriginalInvoiceNumber>
-        <OriginalInvoiceDate>2020-01-20</OriginalInvoiceDate>
-      </Invoice>
+    <Invoice-Reference>
       <Order>
-        <BuyerOrderNumber>48380462</BuyerOrderNumber>
-        <BuyerOrderDate>2020-01-19</BuyerOrderDate>
+        <BuyerOrderNumber>45437777</BuyerOrderNumber>
+        <BuyerOrderDate>2023-08-03</BuyerOrderDate>
       </Order>
-    </Invoice-References>
+      <Invoice>
+        <OriginalInvoiceNumber>34343443</OriginalInvoiceNumber>
+        <OriginalInvoiceDate>2024-03-11</OriginalInvoiceDate>
+      </Invoice>
+    </Invoice-Reference>
     <Invoice-Parties>
       <Buyer>
         <ILN>4820086630009</ILN>
-        <TaxID>12345670</TaxID>
-        <UtilizationRegisterNumber>12345670</UtilizationRegisterNumber>
-        <Name>ТОВ &quot;МЕТРО КЕШ ЕНД КЕРІ УКРАЇНА&quot;</Name>
+        <TaxID>123444567012</TaxID>
+        <UtilizationRegisterNumber>12345678</UtilizationRegisterNumber>
+        <Name>ТОВ &quot;МЕТРО КЕШ ЕНД КЕРІ УКРАЇНА&quot;</Name>
         <StreetAndNumber>стрит</StreetAndNumber>
-        <CityName>м.Київ</CityName>
+        <CityName>м. Херсон, Херсонський р-н</CityName>
         <PostalCode>02140</PostalCode>
-        <Country>Україна</Country>
-        <PhoneNumber>0444922100</PhoneNumber>
+        <PhoneNumber>380440020565</PhoneNumber>
       </Buyer>
       <Seller>
         <ILN>9864065732181</ILN>
         <TaxID>1234567890</TaxID>
-        <CodeByBuyer>22222</CodeByBuyer>
-        <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
+        <UtilizationRegisterNumber>12345678</UtilizationRegisterNumber>
         <Name>FelEx_1</Name>
-        <StreetAndNumber>вул.Чистяківська,100</StreetAndNumber>
-        <CityName>м.Київ</CityName>
-        <PostalCode>64000</PostalCode>
-        <Country>Україна</Country>
-        <PhoneNumber>0953030300</PhoneNumber>
-        <IBAN>UA12345600000014785236900012329</IBAN>
+        <StreetAndNumber>вул. Умніца, 3</StreetAndNumber>
+        <CityName>м. Херсон, Херсонський р-н</CityName>
+        <PostalCode>453278</PostalCode>
+        <PhoneNumber>380930000000</PhoneNumber>
       </Seller>
+      <DeliveryPoint>
+        <ILN>4820086630009</ILN>
+        <DeliveryPlace>15</DeliveryPlace>
+      </DeliveryPoint>
     </Invoice-Parties>
     <Invoice-Lines>
       <Line>
         <Line-Item>
           <LineNumber>1</LineNumber>
-          <EAN>1472583690147</EAN>
-          <BuyerItemCode>1111111111</BuyerItemCode>
-          <ProductIdBuyer>1234121</ProductIdBuyer>
-          <LogisticItemCode>232323332</LogisticItemCode>
-          <ItemDescription>drink</ItemDescription>
-          <InvoiceDeliveredQuantity>12</InvoiceDeliveredQuantity>
-          <AcceptedQuantity>8</AcceptedQuantity>
-          <ReturnedQuantity>4</ReturnedQuantity>
+          <EAN>8898988989800</EAN>
+          <BuyerItemCode>336074</BuyerItemCode>
+          <ProductIdBuyer>133873009999</ProductIdBuyer>
+          <ItemDescription>СОСИСКА</ItemDescription>
+          <UnitOfMeasure>KGM</UnitOfMeasure>
+          <TaxAmount>0.00</TaxAmount>
+          <NetAmount>0.00</NetAmount>
+          <InvoiceDeliveredQuantity>5.123</InvoiceDeliveredQuantity>
+          <AcceptedQuantity>10</AcceptedQuantity>
+          <ReturnedQuantity>0</ReturnedQuantity>
           <ReasonRejection>
-            <ReasonCode>1</ReasonCode>
-            <ReasonText>вільний текст</ReasonText>
+            <ReasonCode>10</ReasonCode>
+            <ReasonText>Відсутність в БД</ReasonText>
           </ReasonRejection>
         </Line-Item>
       </Line>
     </Invoice-Lines>
     <Invoice-Summary>
       <TotalLines>1</TotalLines>
-      <TotalAcceptedQuantity>8</TotalAcceptedQuantity>
+      <TotalAcceptedQuantity>10</TotalAcceptedQuantity>
     </Invoice-Summary>
   </Document-Invoice>
 
