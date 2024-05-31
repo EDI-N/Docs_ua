@@ -8,10 +8,12 @@ BOX Market
    BOX_Market_Instructions/BOX_Market_Standard.rst
 
 .. toctree::
-   :caption: Специфікації документів (XML) для роботи з "BOX Market" [1]
+   :caption: Робота в сервісі "Е-Специфікація"
    :maxdepth: 1
    
-   BOX_Market_XML-structure
+   :doc:`/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list`
+
+.. spec part deprecated
 
 -------------------------
 
