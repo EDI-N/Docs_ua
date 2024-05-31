@@ -1,17 +1,31 @@
 BOX Market
 #############################################
 
-.. toctree::
-   :caption: Робота в сервісі "EDI Network"
-   :maxdepth: 1
-   
-   BOX_Market_Instructions/BOX_Market_Standard.rst
+**Робота в сервісі "EDI Network"**
+================================================
 
-.. toctree::
-   :caption: Робота в сервісі "Е-Специфікація"
-   :maxdepth: 1
-   
-   /E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
+:doc:`/ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard`
+
+**Робота в сервісі "Е-Специфікація"**
+================================================
+
+:doc:`/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list`
+
+
+
+.. old
+
+   .. toctree::
+      :caption: Робота в сервісі "EDI Network"
+      :maxdepth: 1
+      
+      BOX_Market_Instructions/BOX_Market_Standard.rst
+
+   .. toctree::
+      :caption: Робота в сервісі "Е-Специфікація"
+      :maxdepth: 1
+      
+      /E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
 
 .. spec part deprecated
 
