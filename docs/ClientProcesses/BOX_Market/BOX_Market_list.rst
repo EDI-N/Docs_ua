@@ -4,12 +4,18 @@ BOX Market
 **Робота в сервісі "EDI Network"**
 ================================================
 
-:doc:`/ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard`
+.. toctree::
+   :maxdepth: 1
+      
+   BOX_Market_Instructions/BOX_Market_Standard
 
 **Робота в сервісі "Е-Специфікація"**
 ================================================
 
 :doc:`/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list`
+
+
+
 
 
 
