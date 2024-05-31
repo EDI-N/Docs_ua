@@ -11,7 +11,7 @@ BOX Market
    :caption: Робота в сервісі "Е-Специфікація"
    :maxdepth: 1
    
-   :doc:`/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list`
+   /E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
 
 .. spec part deprecated
 
