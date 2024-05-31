@@ -12,7 +12,7 @@ BOX Market
 **Робота в сервісі "Е-Специфікація"**
 ================================================
 
-:doc:`/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list`
+* :doc:`/E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list`
 
 
 
