@@ -8,6 +8,11 @@
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWOCVPWDHx3h9k5CPDdCjO6z9swVCq3ArtGU1WCG2ktwjLC4yL3BlVoHa9X8gwwg/pubhtml?gid=637043678&single=true" width="1100" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
+<!--86	LAGARDERE DUTY FREE	5222817394	5900168926417	ORDERS - INVOICE-->
+
+.. raw:: html
+
+   <!--30	Bricoman	1132568413	5908233390002	ORDERS - INVOICE-->
 
 .. data from table (remember to renew time to time)
 
