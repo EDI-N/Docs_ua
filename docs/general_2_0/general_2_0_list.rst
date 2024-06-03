@@ -13,7 +13,9 @@
    Additional_actions
    massovi_operacii_EDIN_2.0
    Directories
-   Довідник торгових мереж <https://edin.ua/directory/>
+   Довідник українських торговельних мереж <https://edin.ua/directory/>
+   Poland_grocery_store_chain_catalogue
+   Germany_grocery_store_chain_catalogue
 
 .. toctree::
    :caption: Схема "Міжнародні поставки"
