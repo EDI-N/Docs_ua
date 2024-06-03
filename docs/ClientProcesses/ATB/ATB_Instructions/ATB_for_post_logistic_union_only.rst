@@ -38,7 +38,7 @@
 
 **Повна схема документообігу:**
 
-.. image:: pics_ATB_for_post_logistic_union_only/ATB_for_post_logistic_union_only_147.png
+.. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_147.png
    :height: 700px
    :align: center
 
