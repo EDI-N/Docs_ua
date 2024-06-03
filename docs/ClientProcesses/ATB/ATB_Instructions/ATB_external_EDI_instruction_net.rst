@@ -113,6 +113,8 @@
 2 Отримання "Акта приймання-передачі (додаток 8)" (COMDOC_032). Сторона "Логістик Юніон"
 =========================================================================================================================
 
+.. початок блоку для LU_work_only
+
 У відповідь на вхідний (папка **"Вхідні"**) "Акт приймання-передачі (додаток 8)" (COMDOC_032) формується "Акт приймання-передачі (додаток 9)" (COMDOC_033) чи "Акт приймання товару до АПП" (COMDOC_034). "Акт приймання-передачі (додаток 8)" (COMDOC_032) легко знайти за допомогою зручного `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__:
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_129.png
@@ -127,6 +129,8 @@
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_130.png
    :align: center
+
+.. кінець блоку для LU_work_only
 
 .. _to033:
 
@@ -148,6 +152,8 @@
 
 2.1.1 Формування "Акта приймання-передачі (додаток 9)" (COMDOC_033). Сторона "Логістик Юніон"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. початок блоку для LU_work_only3
 
 Для формування "Акта приймання-передачі (додаток 9)" (COMDOC_033) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для мережі "АТБ" натисніть **"Створити документ"** (документ створиться автоматично):
 
@@ -174,18 +180,26 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_135.png
    :align: center
 
+.. кінець блоку для LU_work_only3
+
 .. hint::
    Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+
+.. початок блоку для LU_work_only4
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_136.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__).
+
+.. кінець блоку для LU_work_only4
 
 2.2 Формування "Акта приймання товару до АПП" (COMDOC_034). Сторона "Логістик Юніон"
 ----------------------------------------------------------------------------------------------------------------------------
+
+.. початок блоку для LU_work_only1
 
 "Акт приймання товару до АПП" (COMDOC_034) формується у відповідь на вхідний (папка **"Вхідні"**) "Акт приймання-передачі (додаток 8)" (COMDOC_032). "Акт приймання-передачі (додаток 8)" (COMDOC_032) легко знайти за допомогою зручного `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__:
 
@@ -210,15 +224,21 @@
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_139.png
    :align: center
 
+.. кінець блоку для LU_work_only1
+
 .. hint::
    Процес підписання на платформі описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#sign>`__ .
+
+.. початок блоку для LU_work_only2
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** зі статусом "Потребує підписання отримувачем":
 
 .. image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_140.png
    :align: center
 
-Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_Instructions/ATB_external_EDI_instruction_net.html#revoke>`__).
+Доступне **Відкликання підпису** - COMDOC_021 квитанція №14 (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__).
+
+.. кінець блоку для LU_work_only2
 
 ------------------------------------------------
 
