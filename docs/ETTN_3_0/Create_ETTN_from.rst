@@ -162,17 +162,17 @@
 
 Для створення "е-ТТН" на підставі "Повідомлення про відвантаження" (DESADV) в сервісі "EDI Network" **Вантажовідправнику** потрібно перейти у **"Надіслані"** та вибрати "Повідомлення про відвантаження" (для зручності можливо скористатись рядком пошуку):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_012.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_012.png
    :align: center
 
 У відкритому документі натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарно-транспортна накладна"(ETTN):
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_013.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_013.png
    :align: center
 
 Відкриється форма редагування документа "е-ТТН", що вже буде частково заповнена даними з "Повідомлення про відвантаження", як документа-підстави. Дані, що переносяться з "Повідомлення про відвантаження" доступні до редагування:
 
-.. image:: pics_Create_ETTN_from/Create_ETTN_from_014.png
+.. image:: /ETTN_3_0/pics_Create_ETTN_from/Create_ETTN_from_014.png
    :align: center
 
 Після того, як Ви доповните/відредагуєте форму "е-ТТН" документ можливо **"Зберегти"**, **"Підписати"** та **"Надіслати"**. Процеси `заповнення/редагування даних чернетки "е-ТТН", підписання та відправка <https://wiki.edin.ua/uk/latest/ETTN_3_0/Create_ETTN.html#consignor-create>`__ детально описані в окремій інструкції.
