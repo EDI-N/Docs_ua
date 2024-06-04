@@ -156,7 +156,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	ORDER			Початок документа
+.. raw:: html
+
+   <!-- <div>I	ORDER			Початок документа
    1	DOCUMENTNAME	O	Число позитивне	Назва документа (220 -замовлення)
    2	NUMBER	М	Рядок (50)	Номер замовлення
    3	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа

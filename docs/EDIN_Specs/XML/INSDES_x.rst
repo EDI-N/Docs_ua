@@ -83,7 +83,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	INSDES			Початок документа
+.. raw:: html
+
+   <!-- <div>I	INSDES			Початок документа
    1	NUMBER	М	Рядок (16)	Номер документа
    2	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа
    3	TIME	О	Час (год: хв)	Час документа

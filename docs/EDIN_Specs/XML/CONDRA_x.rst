@@ -64,7 +64,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	CONDRA			Початок документа
+.. raw:: html
+
+   <!-- <div>I	CONDRA			Початок документа
    1	DATE	O	Дата (РРРР-ММ-ДД)	Дата надходження на платформу EDI Network
    2	NUMBER	M	Рядок (32)	Номер документа
    3	NUMBERDOCTO	O	Рядок (16)	Номер документа-підстави

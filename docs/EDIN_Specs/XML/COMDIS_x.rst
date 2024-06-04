@@ -75,7 +75,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	COMDIS			Початок документа
+.. raw:: html
+
+   <!-- <div>I	COMDIS			Початок документа
    1	NUMBER	М	Рядок (16)	Номер документа
    2	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа
    3	DOCNAME	М	Рядок (7)	Тип документа

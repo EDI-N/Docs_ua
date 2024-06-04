@@ -96,7 +96,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	AGREEM	М		Початок документа
+.. raw:: html
+
+   <!-- <div>I	AGREEM	М		Початок документа
    1	NUMBER	М	Рядок (16)	Номер документа
    2	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа
    3	CONTRACTNUMBER	М	Рядок (20)	Номер контракту

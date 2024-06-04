@@ -100,7 +100,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	COACSU			Початок документа
+.. raw:: html
+
+   <!-- <div>I	COACSU			Початок документа
    1	ACTION	О	« 49E »,« 397 »	49E - оригінал документа, 397 - документ у відповідь
    2	NUMBER	М	Рядок (16)	Номер документа
    3	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа

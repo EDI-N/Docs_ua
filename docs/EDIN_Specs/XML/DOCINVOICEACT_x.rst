@@ -129,7 +129,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	Document-Invoice			Початок документа
+.. raw:: html
+
+   <!-- <div>I	Document-Invoice			Початок документа
    1	Invoice-Header	M		Заголовна частина (початок блоку)
    1.1	InvoiceNumber	M	Рядок(35)	Номер документа
    1.2	InvoiceDate	M	yyyy-MM-dd	Дата документа

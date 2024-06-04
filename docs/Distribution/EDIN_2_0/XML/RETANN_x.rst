@@ -62,7 +62,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	RETANN			Початок документа
+.. raw:: html
+
+   <!-- <div>I	RETANN			Початок документа
    1	NUMBER	M	Рядок (16)	Номер документа
    2	ACTION	M	Число позитивне	9 - оригінал документа (дефолтне значення)
    3	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа

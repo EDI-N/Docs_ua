@@ -75,7 +75,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	RETINS			Початок документа
+.. raw:: html
+
+   <!-- <div>I	RETINS			Початок документа
    1	NUMBER	M	Рядок (16)	Номер документа
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа
    3	RETURNDATE	O	Дата (РРРР-ММ-ДД)	Дата повернення

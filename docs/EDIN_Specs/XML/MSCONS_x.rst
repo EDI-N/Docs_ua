@@ -80,7 +80,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	MSCONS			Початок документа
+.. raw:: html
+
+   <!-- <div>I	MSCONS			Початок документа
    1	NUMBER	M	Рядок (16)	Номер документа
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа
    3	COMPAIGNNUMBER	O	Рядок (70)	Номер договору

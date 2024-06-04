@@ -151,7 +151,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	INVOICE			Початок документа
+.. raw:: html
+
+   <!-- <div>I	INVOICE			Початок документа
    1	DOCUMENTNAME	М	Рядок (16)	Назва документа (384 - Коригування рахунку)
    2	NUMBER	М	Рядок (16)	Номер рахунку
    3	DATE	М	Дата (РРРР-ММ-ДД)	Дата створення рахунку

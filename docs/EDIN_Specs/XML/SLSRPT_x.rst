@@ -36,7 +36,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	SLSRPT			Початок документа
+.. raw:: html
+
+   <!-- <div>I	SLSRPT			Початок документа
    1	NUMBER	M	Рядок (16)	Номер документа
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа
    3	CAMPAIGNNUMBER	O	Рядок (35)	Номер продавця в обліковій системі замовника

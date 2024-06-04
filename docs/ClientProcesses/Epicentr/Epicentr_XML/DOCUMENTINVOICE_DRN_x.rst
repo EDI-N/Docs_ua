@@ -105,7 +105,9 @@
 
 .. data from table (remember to renew time to time)
 
-  I	Document-Invoice			Початок документа
+.. raw:: html
+
+  <!-- <div>I	Document-Invoice			Початок документа
   1	Invoice-Header	М		Початок основного блоку
   1.1	InvoiceNumber	М	Рядок (16)	Номер видаткової накладної
   1.2	InvoiceDate	М	Дата (РРРР-ММ-ДД)	Дата накладної

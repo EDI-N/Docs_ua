@@ -55,7 +55,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	STATUS			Початок документа
+.. raw:: html
+
+   <!-- <div>I	STATUS			Початок документа
    1	EXITEICID	М	Рядок (14)	Номер транзакції EDI Network
    2	CUSTOMERICID	М	Рядок (14)	Номер документа постачальника
    3	VERSION	O	Число десяткове	Версія замовлення транспорту
