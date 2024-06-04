@@ -13,7 +13,7 @@
 
 .. raw:: html
 
-   <div> 	3w db	6412479943	5902596218003	ORDERS - INVOICE
+   <!-- <div> 	3w db	6412479943	5902596218003	ORDERS - INVOICE
    5
       2	Ab Bechcicki	8950003052	5902020341000	ORDERS - INVOICE
    6
@@ -374,7 +374,7 @@
    181
       178	Zacisze	5222241586	2000000017070	ORDERS - INVOICE
    182
-      179	Zino	5242476720	5903240899999	ORDERS - INVOICE</div>
+      179	Zino	5242476720	5903240899999	ORDERS - INVOICE</div> -->
 
 .. data from table (remember to renew time to time)
 
