@@ -14,9 +14,11 @@
 
 .. data from table (remember to renew time to time)
 
-    Liste der Einzelhandelsunternehmen_DE_2024_ EDI		
+.. raw:: html
+
+   <!-- <div>Liste der Einzelhandelsunternehmen_DE_2024_ EDI		
             
     SN	NAME	EDI-Dokumente
     1	EDEKA	ORDERS - DESADV/DESSCC - INVOICE
     2	NETTO MARKEN-DISCOUNT	ORDERS - DESADV/DESSCC - INVOICE
-    3	BUDNI	ORDERS - DESADV/DESSCC - INVOICE
+    3	BUDNI	ORDERS - DESADV/DESSCC - INVOICE </div> -->
