@@ -99,7 +99,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	Document-OrdersReport	M		Початок документа
+.. raw:: html
+
+   <!-- <div>I	Document-OrdersReport	M		Початок документа
    1	OrdersReport-Header	M		Заголовна частина (початок блоку)
    1.1	OrdersReportNumber	M	Рядок(35)	Номер документа
    1.2	OrdersReportDate	M	YYYY-MM-DD	Дата документа

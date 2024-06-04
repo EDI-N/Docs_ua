@@ -86,7 +86,9 @@
 
 .. data from table (remember to renew time to time)
 
-   1	SENDER	M	Число (13)	GLN відправника
+.. raw:: html
+
+   <!-- <div>1	SENDER	M	Число (13)	GLN відправника
    2	RECIPIENT	M	Число (13)	GLN одержувача
    3	NUMBER	М	Рядок (16)	Номер документа
    4	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа

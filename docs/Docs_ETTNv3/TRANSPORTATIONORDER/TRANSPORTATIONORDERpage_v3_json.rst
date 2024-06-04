@@ -170,7 +170,9 @@
 
 .. data from table (remember to renew time to time)
 
-  I	TRANSPORTATIONORDER	M		Початок документа
+.. raw:: html
+
+  <!-- <div>I	TRANSPORTATIONORDER	M		Початок документа
   1	NUMBER	M	Рядок (50)	Номер документа
   2	DATE	M	YYYY-MM-DD	Дата документа
   3	SUBDOCTYPE	M	Число (1)	"Підтип документа:

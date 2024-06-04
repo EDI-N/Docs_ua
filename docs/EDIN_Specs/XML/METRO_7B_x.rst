@@ -211,7 +211,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	Document-ProductCatalogue	O		Початок документа
+.. raw:: html
+
+   <!-- <div>I	Document-ProductCatalogue	O		Початок документа
    1	ProductCatalogue-Header	O		Початок основного блоку
    1.1	ProductCatalogueNumber	M	Рядок (50)	Номер каталогу продукції
    1.2	ProductCatalogueDate	O	Дата (РРРР-ММ-ДД)	Дата каталогу продукції

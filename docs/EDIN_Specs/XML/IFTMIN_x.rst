@@ -87,7 +87,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	IFTMIN			Початок документа
+.. raw:: html
+
+   <!-- <div>I	IFTMIN			Початок документа
    1	NUMBER	М	Рядок (16)	Номер документа
    2	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа
    3	DELIVERYDATE	М	Дата (РРРР-ММ-ДД)	Дата поставки

@@ -115,7 +115,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	RECADV			Початок документа
+.. raw:: html
+
+   <!-- <div>I	RECADV			Початок документа
    1	NUMBER	М	Рядок (50)	Номер повідомлення про прийом
    2	DATE	М	Дата (РРРР-ММ-ДД)	Дата документа
    3	ACTION			Дія

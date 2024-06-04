@@ -98,7 +98,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	DESSCC			Початок документа
+.. raw:: html
+
+   <!-- <div>I	DESSCC			Початок документа
    1	NUMBER	M	Рядок (50)	Номер документа
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа
    3	DELIVERYDATE	M	Дата (РРРР-ММ-ДД)	Дата доставки

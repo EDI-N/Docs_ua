@@ -278,7 +278,9 @@
 
 .. data from table (remember to renew time to time)
 
-   № з/п,Параметр²,Тип¹,Формат,Опис
+.. raw:: html
+
+   <!-- <div>№ з/п,Параметр²,Тип¹,Формат,Опис
    ,UAECMR,M,,Початок документа
    I,eCMR,M, ,Початок змісту документа
    1,ExchangedDocumentContext,M, ,Технічні дані

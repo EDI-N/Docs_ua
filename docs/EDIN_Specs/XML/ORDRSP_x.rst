@@ -125,7 +125,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	ORDRSP			Початок документа
+.. raw:: html
+
+   <!-- <div>I	ORDRSP			Початок документа
    1	NUMBER	M	Рядок (50)	Номер підтвердження замовлення
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа
    3	TIME	O	Час (год: хв)	Час створення документа

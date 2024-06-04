@@ -36,7 +36,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	PARTIN			Початок документа
+.. raw:: html
+
+   <!-- <div>I	PARTIN			Початок документа
    1	NUMBER	M	Рядок (16)	Номер документа
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата
    3	CONTRACTNUMBER	M	Рядок (70)	Номер договору

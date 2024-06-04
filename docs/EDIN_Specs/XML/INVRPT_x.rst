@@ -36,7 +36,9 @@
 
 .. data from table (remember to renew time to time)
 
-   I	INVRPT			Початок документа
+.. raw:: html
+
+   <!-- <div>I	INVRPT			Початок документа
    1	NUMBER	M	Рядок (16)	Номер документа
    2	DATE	M	Дата (РРРР-ММ-ДД)	Дата документа
    3	CAMPAIGNNUMBER	O	Рядок (70)	Номер договору на поставку
