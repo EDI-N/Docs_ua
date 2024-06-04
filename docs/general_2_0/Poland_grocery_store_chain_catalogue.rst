@@ -2,13 +2,14 @@
 Довідник польських торговельних мереж
 ##########################################################################################################################
 
+.. note::
+   Обирайте вашу мережу та залишайте заявку на `sales@edin.ua <mailto:sales@edin.ua>`__ або за посиланням.
+
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWOCVPWDHx3h9k5CPDdCjO6z9swVCq3ArtGU1WCG2ktwjLC4yL3BlVoHa9X8gwwg/pubhtml?gid=637043678&single=true" width="1100" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWOCVPWDHx3h9k5CPDdCjO6z9swVCq3ArtGU1WCG2ktwjLC4yL3BlVoHa9X8gwwg/pubhtml?gid=637043678&single=true" width="1100" height="4000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
-
-<!--86	LAGARDERE DUTY FREE	5222817394	5900168926417	ORDERS - INVOICE-->
 
 .. raw:: html
 
