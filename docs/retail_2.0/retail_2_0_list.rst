@@ -25,6 +25,7 @@
    Create_DOCCORINVOICE_from
    Create_DECLARj12_from
    Create_DECLAR_from
+   Create_QUOTES_from
 
 
 

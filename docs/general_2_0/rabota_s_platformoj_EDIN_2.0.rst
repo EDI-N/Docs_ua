@@ -500,10 +500,14 @@
    .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_031.png
       :align: center
 
+.. початок блоку для Comdoc_status
+
 Для деяких документів можливо виконати відмову від підписання, анулювання, відкликання підпису. Такі документи мають помітку |bad_doc| , при натисканні на яку відображається вікно з інформаційними повідомленнями, наприклад, з текстом причини одного з контрагентів:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_067.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_067.png
    :align: center
+
+.. кінець блоку для Comdoc_status
 
 .. _doc-actions:
 

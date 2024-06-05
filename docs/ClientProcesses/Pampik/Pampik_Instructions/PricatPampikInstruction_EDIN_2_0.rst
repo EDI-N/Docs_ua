@@ -117,7 +117,7 @@
 .. image:: pics_PricatPampikInstruction_EDIN_2_0/PricatPampikInstruction_EDIN_2_0_14n.png
    :align: center
 
-Інструкція щодо додавання продукції до `товарного довідника <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#product-directory>`__ .
+Інструкція щодо додавання продукції до `Товарного довідника <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html#goods-directory>`__.
 
 **3 Збереження та відправка документу**
 ================================================
