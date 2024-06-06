@@ -4,15 +4,13 @@
 
 .. сюда закину немного картинок для текста
 
-.. |лупа| image:: pics_Rozetka_EDI/Rozetka_EDI_003.png
-
-.. |будинок| image:: pics_Rozetka_EDI/Rozetka_EDI_004.png
-
-.. |info| image:: pics_Rozetka_EDI/Rozetka_EDI_064.png
+.. |bad_doc| image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_066.png
 
 .. role:: red
 
 .. role:: green
+
+.. role:: orange
 
 .. role:: underline
 
