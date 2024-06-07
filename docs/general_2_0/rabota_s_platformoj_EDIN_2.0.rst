@@ -107,9 +107,11 @@
 **2 Загальний вигляд платформи**
 ================================================
 
+.. початок блоку для General_look
+
 Незалежно від сервісу, верхня панель складається з:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_117.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_117.png
    :align: center
 
 #. `Пошуковий рядок <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__;
@@ -118,6 +120,8 @@
 #. `Повідомлення <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__;
 #. Меню сервісів - відкриває меню для переходу в сервіси платформи;
 #. `Меню користувача <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__.
+
+.. кінець блоку для General_look
 
 .. _pers-settings:
 
@@ -171,9 +175,11 @@
 **5 Меню (папки) платформи**
 ================================================
 
+.. початок блоку для Catalogs
+
 При первинному вході на платформу буде виконаний вхід до каталогу з "Вхідними" документами.
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_074.png
+.. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_074.png
    :align: center
 
 Для переходу в потрібний Вам розділ необхідно його вибрати (обраний розділ має помітку):
@@ -186,6 +192,8 @@
 #. "Архів" - розділ оброблених і перенесених в архів документів.
 #. "Масові дії" - розділ результатів виконання `масових операцій (дії з обраними документами) <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html>`__ за останні 7 днів.
 #. "Аналітика" - розділ інфографіки по документообігу організації.
+
+.. кінець блоку для Catalogs
 
 .. _doc-create:
 
