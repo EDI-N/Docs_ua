@@ -27,25 +27,31 @@
 **1 Авторизація**
 ================================================
 
+.. початок блоку для Auth
+
 Для початку роботи з платформою **EDI Network** потрібно здійснити авторизований вхід (https://edo-v2.edin.ua/auth). Вже зареєстрованим користувачам потрібно ввести логін (email) та пароль (встановлюється при `Реєстрації <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ чи `Відновленні/зміні пароля <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#pass-recovery>`__) і натиснути **"Вхід"**:
 
-.. image:: pics_User_registration/User_registration_031.png
+.. image:: /general_2_0/pics_User_registration/User_registration_031.png
    :align: center
 
 .. hint::
    Також, в якості альтернативи, можливо виконати **"Вхід через Google"** за допомогою відповідної кнопки:
 
-   .. image:: pics_User_registration/User_registration_048.png
+   .. image:: /general_2_0/pics_User_registration/User_registration_048.png
       :align: center
+
+.. кінець блоку для Auth
 
 .. _register:
 
 **2 Реєстрація**
 ================================================
 
+.. початок блоку для Register
+
 Реєстрація користувача - це перший крок до отримання доступу до платформи EDI Network. Для реєстрації на платформі натисніть кнопку "Реєстрація" або перейдіть за `посиланням <https://edo-v2.edin.ua/register?source=reg-wiki>`__:
 
-.. image:: pics_User_registration/User_registration_032.png
+.. image:: /general_2_0/pics_User_registration/User_registration_032.png
    :align: center
 
 Після натискання кнопки **"Реєстрація"** користувачу потрібно:
@@ -55,18 +61,18 @@
 * Погодитись з офертою та політикою конфіденційності – встановіть позначку про підтвердження;
 * Натиснути кнопку **"Реєстрація"**.
 
-.. image:: pics_User_registration/User_registration_033.png
+.. image:: /general_2_0/pics_User_registration/User_registration_033.png
    :align: center
 
 .. hint::
    Також, в якості альтернативи, можливо **"Зареєстуватися через Google"** за допомогою відповідної кнопки:
 
-   .. image:: pics_User_registration/User_registration_049.png
+   .. image:: /general_2_0/pics_User_registration/User_registration_049.png
       :align: center
 
 Після чого система проінформує, що відправила листа на зазначену адресу:
 
-.. image:: pics_User_registration/User_registration_024.png
+.. image:: /general_2_0/pics_User_registration/User_registration_024.png
    :align: center
 
 Очікуйте на лист - він потрібен для підтвердження email!
@@ -76,7 +82,7 @@
 
 Після отримання листа, перейдіть за посиланням (дійсне 72 години) в ньому щоб підтвердити email:
 
-.. image:: pics_User_registration/User_registration_027.png
+.. image:: /general_2_0/pics_User_registration/User_registration_027.png
    :align: center
 
 .. note::
@@ -84,27 +90,27 @@
 
 Для доступу до сервісів та `особистого кабінету <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html>`__ (приватної області) потрібно створити обліковий запис (акаунт). При переході до цих сервісів потрібно ввести особисті дані, покроково заповнивши поля на формі реєстрації:
 
-.. image:: pics_User_registration/User_registration_034.png
+.. image:: /general_2_0/pics_User_registration/User_registration_034.png
    :align: center
 
 .. note::
    При переході до сервісу **"Вільний"** теж відкривається вище вказане модальне вікно, і зазначеної інформації достатньо для завершення реєстрації в даному сервісі:
 
-   .. image:: pics_User_registration/User_registration_045.png
+   .. image:: /general_2_0/pics_User_registration/User_registration_045.png
       :align: center
    
    При переході в інші сервіси для створення облікового запису потрібно пройки ще кілька кроків. Доповнити цією інформацією після реєстрації у "Вільному" можливо натиснувши на кнопку **"Створити обліковий запис"**.
 
 На другому кроці створення облікового запису потрібно обрати країну з випадаючого списку (можливо скористатись зручним пошуком за назвою):
 
-.. image:: pics_User_registration/User_registration_036.png
+.. image:: /general_2_0/pics_User_registration/User_registration_036.png
    :align: center
 
 **Країна компанії** – використовується для перевірки коректності введених даних.
 
 Для України Ваші дані можливо внести за допомогою Кваліфікованого Електронного Підпису - вкладка **"За КЕП"** (не доступно для інших країн) та вручну - вкладка **"За реквізитами"**:
 
-.. image:: pics_User_registration/User_registration_035.png
+.. image:: /general_2_0/pics_User_registration/User_registration_035.png
    :align: center
 
 .. tabs::
@@ -113,7 +119,7 @@
 
       При реєстрації за реквізитами потрібно вказати ЄДРПОУ/ІПН та Назву компанії (обов'язкові поля відмічені червоною зірочкою :red:`*`). При введенні ЄДРПОУ/ІПН відбувається пошук і якщо Ваша компанія є у відкритих джерелах, то Назва компанії заповнюється автоматично:
 
-      .. image:: pics_User_registration/User_registration_037.gif
+      .. image:: /general_2_0/pics_User_registration/User_registration_037.gif
          :align: center
 
       .. include:: /general_2_0/User_reg_part.rst
@@ -124,7 +130,7 @@
 
       Для того, щоб внести дані за допомогою КЕП потрібно **"Вибрати"** ключ:
 
-      .. image:: pics_User_registration/User_registration_046.png
+      .. image:: /general_2_0/pics_User_registration/User_registration_046.png
          :align: center
 
       .. tabs::
@@ -155,21 +161,25 @@
 
       Після того, як ключ успішно зчитано на формі реєстрації поля "ЄДРПОУ / ІПН" та "Назва компанії / ПІБ" заповнюються автоматично даними з ключа без можливості їх редагування:
 
-      .. image:: pics_User_registration/User_registration_047.png
+      .. image:: /general_2_0/pics_User_registration/User_registration_047.png
          :align: center
 
       .. include:: /general_2_0/User_reg_part.rst
          :start-after: .. початок блоку для QES
          :end-before: .. кінець блоку для QES
 
+.. кінець блоку для Register
+
 .. _pass-recovery:
 
 **3 Відновлення/зміна пароля**
 ======================================
 
+.. початок блоку для Pass_recovery
+
 В разі якщо ви забули свій пароль є можливість його відновити. Для відновлення пароля потрібно натиснути на кнопку **"Забули пароль?"**:
 
-.. image:: pics_User_registration/User_registration_025.png
+.. image:: /general_2_0/pics_User_registration/User_registration_025.png
    :align: center
 
 Далі в вікні ввести свою пошту, скориставшись кнопкою **"Відновити"**:
@@ -177,25 +187,27 @@
 .. important::
    Відновлення пароля можливе тільки для користувачів в яких в якості логіну використовується email. В разі якщо логін відрізняється від email для відновлення пароля прохання звернутися до технічної підтримки!
 
-.. image:: pics_User_registration/User_registration_026.png
+.. image:: /general_2_0/pics_User_registration/User_registration_026.png
    :align: center
 
 Після чого система проінформує про відправку листа для відновлення пароля на раніше вказану адресу:
 
-.. image:: pics_User_registration/User_registration_028.png
+.. image:: /general_2_0/pics_User_registration/User_registration_028.png
    :align: center
 
 На пошту прийде лист з посиланням для переходу на форму введення нового пароля:
 
-.. image:: pics_User_registration/User_registration_029.png
+.. image:: /general_2_0/pics_User_registration/User_registration_029.png
    :align: center
 
 При переході за посиланням вкажіть новий пароль та підтвердіть його:
 
-.. image:: pics_User_registration/User_registration_030.png
+.. image:: /general_2_0/pics_User_registration/User_registration_030.png
    :align: center
 
 Після введення нового пароля одразу можливо здійснювати авторизацію до платформи **EDI Network**.
+
+.. кінець блоку для Pass_recovery
 
 ------------------------------
 
