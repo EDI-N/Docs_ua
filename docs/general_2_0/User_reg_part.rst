@@ -9,17 +9,17 @@ Registration part for blocks
 .. note::
    Якщо вказаний на етапі реєстрації код ЄДРПОУ чи ІПН вже зареєстрований на платформі **EDI Network**, то Ви можете створити запит на приєднання за допомогою кнопки **"Приєднатися"** (після чого реєстрація завершується) або повернутися **"Назад"**, якщо допустили помилку при заповненні ЄДРПОУ/ІПН:
 
-   .. image:: pics_User_registration/User_registration_038.png
+   .. image:: /general_2_0/pics_User_registration/User_registration_038.png
       :align: center
 
    Поки власник акаунта не підтвердить приєднання, користувач, який проходив реєстрацію не має доступу до сервісів:
 
-   .. image:: pics_User_registration/User_registration_039.png
+   .. image:: /general_2_0/pics_User_registration/User_registration_039.png
       :align: center
 
    Адміністраторам компанії (`ролі <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-roles>`__ "Адміністратор" та "Супер адміністратор") відправляється лист на узгодження з посиланням на `форму додавання нового користувача <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#join-request-pc>`__. Очікуйте на Вашу пошту лист-повідомлення про рішення адміністратора компанії:
 
-   .. image:: pics_User_registration/User_registration_040.png
+   .. image:: /general_2_0/pics_User_registration/User_registration_040.png
       :align: center
 
    .. hint::
@@ -29,12 +29,12 @@ Registration part for blocks
 
 Якщо Ваша компанія ще не була зареєстрована, то відкривається третій крок, де потрібно заповнити Індекс/Область/Населений пункт/Адресу (поля теж автоматично заповнюються з відкритих джерел):
 
-.. image:: pics_User_registration/User_registration_041.png
+.. image:: /general_2_0/pics_User_registration/User_registration_041.png
    :align: center
 
 Далі Ви можете заповнити опціональні, однак важливі поля КАТОТТГ (присутній пошук за назвою) та GLN (якщо маєте): 
 
-.. image:: pics_User_registration/User_registration_042.png
+.. image:: /general_2_0/pics_User_registration/User_registration_042.png
    :align: center
 
 .. note::
@@ -42,12 +42,12 @@ Registration part for blocks
 
 В наступному вікні можете додати кілька слів про Вашу компанію:
 
-.. image:: pics_User_registration/User_registration_043.png
+.. image:: /general_2_0/pics_User_registration/User_registration_043.png
    :align: center
 
 Ознаймившись з вступною інформацією, можете **"Завершити"** реєстрацію:
 
-.. image:: pics_User_registration/User_registration_044.png
+.. image:: /general_2_0/pics_User_registration/User_registration_044.png
    :align: center
 
 .. note::

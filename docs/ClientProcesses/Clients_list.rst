@@ -25,3 +25,4 @@
    Mondelez/Mondelez_list
    MHP/MHP_list
    Yarych/Yarych_list
+   Avrora/Avrora_list
