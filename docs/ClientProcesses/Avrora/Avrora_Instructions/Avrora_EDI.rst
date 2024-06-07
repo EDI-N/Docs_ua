@@ -4,7 +4,9 @@
 
 .. сюда закину немного картинок для текста
 
-.. |bad_doc| image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_066.png
+.. |лупа| image:: /_constant/icons/magnifying_glass.png
+
+.. |будинок| image:: /_constant/icons/house.png
 
 .. role:: red
 
