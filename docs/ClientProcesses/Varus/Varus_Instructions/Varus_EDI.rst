@@ -125,6 +125,14 @@
    .. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_007.png
       :align: center
 
+.. hint::
+   Також після підписання документа (документ підписаний з обох сторін в статусі :green:`"Підписано двома сторонами"`) за згодою сторін можливо відправити **"Запит на анулювання"** документа (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_repeal/comdoc_repeal.html>`__):
+
+   .. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_008.png
+      :align: center
+
+   Ініціатором анулювання може виступати, як Мережа так і Постачальник.
+
 ------------------------------------------------------
 
 .. _sign:
