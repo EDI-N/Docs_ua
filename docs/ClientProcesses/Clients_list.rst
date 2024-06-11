@@ -26,3 +26,4 @@
    MHP/MHP_list
    Yarych/Yarych_list
    Avrora/Avrora_list
+   Varus/Varus_list
