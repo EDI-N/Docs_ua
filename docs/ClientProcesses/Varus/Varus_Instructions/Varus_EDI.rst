@@ -80,12 +80,12 @@
 
 Для обробки "Акта про виявлені недоліки" (COMDOC_005) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **"Акт про виявлені недоліки"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /ClientProcesses/Varus/pics_Varus_EDI/Varus_EDI_002.png
+.. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_002.png
    :align: center
 
 Відкриється форма документа, де Ви зможете ознайомитись з документом. Якщо Ви згодні продовжити документообіг, потрібно **"Підписати"** вхідний документ:
 
-.. image:: /ClientProcesses/Varus/pics_Varus_EDI/Varus_EDI_003.png
+.. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_003.png
    :align: center
 
 .. hint::
@@ -96,7 +96,7 @@
 .. note::
    Для того, щоб **Відхилити** "Акт про виявлені недоліки" (COMDOC_005) можливо оформити типову для комерціних документів **"Відмову від підписання"** (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_reject/comdoc_reject.html>`__):
 
-   .. image:: /ClientProcesses/Varus/pics_Varus_EDI/Varus_EDI_004.png
+   .. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_004.png
       :align: center
 
 .. _comdoc-007-processing:
@@ -106,12 +106,12 @@
 
 Для обробки "Прибуткової накладної" (COMDOC_007) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **"Прибуткова накладна"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /ClientProcesses/Varus/pics_Varus_EDI/Varus_EDI_005.png
+.. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_005.png
    :align: center
 
 Відкриється форма документа, де Ви зможете ознайомитись з документом. Якщо Ви згодні з документом, його потрібно **"Підписати"**:
 
-.. image:: /ClientProcesses/Varus/pics_Varus_EDI/Varus_EDI_006.png
+.. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_006.png
    :align: center
 
 .. hint::
@@ -122,7 +122,7 @@
 .. note::
    Для того, щоб **Відхилити** "Прибуткову накладну" (COMDOC_007) можливо оформити типову для комерціних документів **"Відмову від підписання"** (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_reject/comdoc_reject.html>`__):
 
-   .. image:: /ClientProcesses/Varus/pics_Varus_EDI/Varus_EDI_007.png
+   .. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_007.png
       :align: center
 
 ------------------------------------------------------
