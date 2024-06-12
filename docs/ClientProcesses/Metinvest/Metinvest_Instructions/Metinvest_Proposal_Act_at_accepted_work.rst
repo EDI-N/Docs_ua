@@ -150,8 +150,6 @@
       .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_011.png
          :align: center
 
-      .. початок блоку для Metinvest_tab
-
       Далі необхідно заповнити форму "Акта виконаних робіт" (обов'язкові поля документа позначені червоною зірочкою :red:`*`). Поле "Дані договору" - номер/дата договору, на підставі якого створено документ (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#company-contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
 
       .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_031.png
@@ -189,8 +187,6 @@
       .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_017.png
          :align: center
 
-      .. кінець блоку для Metinvest_tab
-
    .. tab:: **"Акт виконаних робіт" на підставі кількох "Заявок"**
 
       Для того аби **створити "Акт виконаних робіт" підставі кількох "Заявок на транспортування" з однаковим номером (на один рейс)** потрібно перейти до каталогу **"Вхідні"** (1) та в розділі **"Додатковий пошук"** (2) скористатись |фільтр| фільтром **"Для актів виконаних робіт на підставі Заявки на транспортування"** (3), що дозволяє відсортувати "Заявки на транспортування", на підставі яких може бути створено акт (відображення в журналі автоматично змінюється на "Документи"):
@@ -203,9 +199,42 @@
       .. image:: /ETTN_2_0/pics_Create_act_at_accepted_work_on_Proposal/Create_act_at_accepted_work_on_Proposal_050.png
          :align: center
 
-      .. include:: /ClientProcesses/Metinvest/Metinvest_Instructions/Metinvest_Proposal_Act_at_accepted_work.rst
-         :start-after:       .. початок блоку для Metinvest_tab
-         :end-before:       .. кінець блоку для Metinvest_tab
+      Далі необхідно заповнити форму "Акта виконаних робіт" (обов'язкові поля документа позначені червоною зірочкою :red:`*`). Поле "Дані договору" - номер/дата договору, на підставі якого створено документ (створити та переглянути всі договори можливо в розділі "Компанії" `"Особистого кабінету" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#company-contracts>`__). Якщо договорів кілька, то можливо обрати договір зі списку або створити **"+Новий договір"** прямо в цьому документі, якщо їх поки немає:
+
+      .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_031.png
+         :align: center
+
+      .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_032.png
+         :align: center
+
+      .. attention::
+         При створенні документа шляхом `клонування <https://wiki.edin.ua/uk/latest/ETTN_2_0/Work_with_ETTN.html#doc-clone>`__ поле "Дані договору" заповнюється автоматично лише за наявності цього договору в `"Особистому кабінеті" <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#company-contracts>`__.
+
+      В табличній частині потрібно **"Змінити"** Номер та Дату документа-підстави, вказавши там номер та дату "Товарно-транспортної накладної":
+
+      .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_033.png
+         :align: center
+
+      .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_014.png
+         :align: center
+
+      :red:`Всі зміни, що стосуються вартості перевезення виконуються тільки після узгодження з "Метінвест-Шіппінг"!`
+
+      Після того, як всі обов'язкові поля заповнені можливо **"Зберегти"** документ, в якості чернетки:
+
+      .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_034.png
+         :align: center
+
+      .. important::
+         До чернетки потрібно додати скан-копію ТТН в якості супровідних документів на вантаж через кнопку **"Додати файл"**:
+
+         .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_035.png
+            :align: center
+
+      Для того щоб видалити доданий файл необхідно натиснути на іконку корзини. Для того щоб зберегти доданий файл необхідно натиснути на його назву. Після того, як обов'язкові поля документа (позначені червоною зірочкою :red:`*`) будуть заповнені документ за потреби можливо повторно **"Зберегти"** (1) та **"Підписати"** (2):
+
+      .. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_036.png
+         :align: center
 
 .. _sign:
 
