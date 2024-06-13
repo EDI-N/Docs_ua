@@ -30,22 +30,19 @@
 
 TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#order>`__
-- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#desadv>`__
-- `е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__
+- `Прайс-лист (PRICAT) <https://wiki.edin.ua/uk/latest/ClientProcesses/Rozetka/Rozetka_XML/PRICAT_x.html>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/Rozetka/Rozetka_XML/DESADV_x.html>`__
+- `Додаток до повідомлення про відвантаження (QUOTES) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/QUOTES_x.html>`__
+- `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_006_x.html>`__
+- `Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_005_x.html>`__
+- `Податкова накладна (DECLAR) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__
 - `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
-- `Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-006>`__
-- `Акт приймання товару до ВН (COMDOC_035) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-035>`__
-- `Акт приймання-передачі (додаток 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
-- `Акт приймання-передачі (додаток 9) (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
-- `Акт приймання товару до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
-
-Додатково (Акти до "е-ТТН"):
-
-* `Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/RELOAD_ACT/RELOAD_ACTpage_v3.html>`__
-* `Акт розбіжностей про вантаж <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/DISAGREEMENT_ACT/DISAGREEMENT_ACTpage_v3.html>`__
-* `Акт про заміну пункту призначення вантажу <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/CONSIGNEE_CHANGE_ACT/CONSIGNEE_CHANGE_ACTpage_v3.html>`__ 
-* `Акт коригування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ADJUSTMENT_ACT/ADJUSTMENT_ACTpage_v3.html>`__
+- `Повідомлення про повернення (RETANN) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETANN_x.html>`__
+- `Інструкція про повернення (RETINS) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETINS_x.html>`__
+- `Накладна на повернення (COMDOC_012) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_012_x.html>`__
+- `Звіт про інвентаризацію (INVRPT) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVRPT_x.html>`__
 
 **Загальна схема документообігу:**
 
@@ -124,6 +121,67 @@ TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Vydatkova_Nakladna_na_EDI_Network_2.0.rst
    :start-after: .. початок блоку для Comdoc_006_from_Desadv2
    :end-before: .. кінець блоку для Comdoc_006_from_Desadv2
+
+.. _declar-create:
+
+6 Створення та відправка "Податкової накладної" (DECLAR) на підставі надісланої "Видаткової накладної" (COMDOC_006)
+==================================================================================================================================
+
+.. include:: /retail_2.0/Create_DECLAR_from.rst
+   :start-after: .. початок блоку для DECLAR_from_COMDOC_006_001
+   :end-before: .. кінець блоку для DECLAR_from_COMDOC_006_001
+
+.. hint::
+   Процес підписання є типовим на платформі EDI Network 2.0 та описаний в окремому розділі за `посиланням <https://wiki.edin.ua/uk/latest/ClientProcesses/Rozetka/Rozetka_Instructions/Rozetka_EDI.html#sign>`__.
+
+.. include:: /retail_2.0/Create_DOCUMENTINVOICE_TN_from.rst
+   :start-after: .. початок блоку для DECLAR_from_COMDOC_006_003
+   :end-before: .. кінець блоку для DECLAR_from_COMDOC_006_002
+
+.. _retins-create:
+
+7 Створення та відправка "Інструкції про повернення" (RETINS) на підставі вхідного "Повідомлення про повернення" (RETANN)
+==================================================================================================================================
+
+.. include:: /retail_2.0/Create_RETINS_from.rst
+   :start-after: .. початок блоку для Retins_from_Retann
+   :end-before: .. кінець блоку для Retins_from_Retann
+
+.. _comdoc-012-processing:
+
+8 Обробка вхідної "Накладної на повернення" (COMDOC_012)
+==================================================================================================================================
+
+Для обробки "Накладної на повернення" (COMDOC_012) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **"Накладна на повернення"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: pics_Rozetka_EDI/Rozetka_EDI_002.png
+   :align: center
+
+Відкриється форма документа, де Ви зможете ознайомитись з документом. Якщо Ви згодні з документом, його потрібно **"Підписати"**:
+
+.. image:: pics_Rozetka_EDI/Rozetka_EDI_003.png
+   :align: center
+
+.. hint::
+   Процес підписання є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/Rozetka/Rozetka_Instructions/Rozetka_EDI.html#sign>`__.
+
+Після підписання документ змінює свій статус на :green:`"Підписано двома сторонами"`.
+
+.. note::
+   Для того, щоб **Відхилити** "Накладну на повернення" (COMDOC_012) можливо оформити типову для комерціних документів **"Відмову від підписання"** (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_reject/comdoc_reject.html>`__):
+
+   .. image:: pics_Rozetka_EDI/Rozetka_EDI_004.png
+      :align: center
+
+.. hint::
+   Також після підписання документа (документ підписаний з обох сторін в статусі :green:`"Підписано двома сторонами"`) за згодою сторін можливо відправити **"Запит на анулювання"** документа (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_repeal/comdoc_repeal.html>`__):
+
+   .. image:: pics_Rozetka_EDI/Rozetka_EDI_005.png
+      :align: center
+
+   Ініціатором анулювання може виступати, як Мережа так і Постачальник.
+
+Завершує документообіг "Звіт про інвентаризацію" (INVRPT), що відправляє Мережа, вказуючи кількість товару в конкретному магазині.
 
 ------------------------------------------------------
 

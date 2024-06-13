@@ -27,3 +27,4 @@
    Yarych/Yarych_list
    Avrora/Avrora_list
    Varus/Varus_list
+   Rozetka/Rozetka_list
