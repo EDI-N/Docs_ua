@@ -28,8 +28,6 @@
 
 Дана інструкція описує порядок документообігу з мережею "Розетка" на платформі EDI Network 2.0. В документообігу приймають участь наступні документи:
 
-TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-
 - `Прайс-лист (PRICAT) <https://wiki.edin.ua/uk/latest/ClientProcesses/Rozetka/Rozetka_XML/PRICAT_x.html>`__
 - `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
 - `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
