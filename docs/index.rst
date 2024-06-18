@@ -242,6 +242,7 @@ EDIN | Електронний документообіг для бізнесу
    ERP_Connector_PRO/Instructions/user_instruction
    ERP_Connector_PRO/Instructions/operator_instruction
    ERP_Connector_PRO/Instructions/Videoinstruction
+   Історія оновлень <https://whatsnew.edin.ua/integration-p3>
 
 .. toctree::
    :maxdepth: 2
