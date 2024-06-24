@@ -17,6 +17,16 @@
 
 .. |get_price| image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_015.png
 
+.. |trash_f_red| image:: /_constant/icons/trash_f_red.png
+
+.. |clone| image:: /_constant/icons/clone.png
+
+.. |print| image:: /_constant/icons/print.png
+
+.. |arch| image:: /_constant/icons/arch.png
+
+.. |doc_download| image:: /_constant/icons/doc_download.png
+
 .. contents:: Зміст:
    :depth: 2
 
@@ -73,7 +83,7 @@
 
 .. _prod-pricelist:
 
-3 Перегляд прайс-листа Продавця (Виробника)
+3 Перегляд "Прайс-листа" Продавця (Виробника)
 =======================================================
 
 .. початок блоку для Order_create2
@@ -83,36 +93,38 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_070.png
    :align: center
 
-Відкриється нове вікно прайс-листа з усіма доданими позиціями, згуртованими за лінійкою продукції, категоріями та підкатегоріями:
+.. hint::
+   Також в журналі одразу можливо **"Переглянути"** й "Обмеження" даного Продавця (Виробника) за надісланим "Прайс-листом":
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_059.png
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_073.png
+      :align: center
+
+При **"Перегляді"** "Прайс-листа" відкривається вікно з усіма доданими позиціями, де список товарів можливо відсортувати за назвою чи ціною:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_074.png
    :align: center
 
-Каталог продукції в бланку замовлення по прайс-листу групується в три рівня. Можна приховувати окремі лінійки товарів, натиснувши на назву лінійки. Натискання на назву категорії призводить до відображення або приховування вмісту категорії групи. Кожна категорія може містити декілька підкатегорій з товарними позиціями.
+Також можливо відобразити в журналі товарів "Прайс-листа" товари обраної лінійки/категорії/підкатегорії, відмітивши їх в деревовидній структурі **"Категорії товарів"** та натиснувши **"Застосувати"** (при цьому в ієрархії вже відображаються додані товари (кількість/сума)):
 
-Для колонок "Назва" та "Код виробника" передбачене сортування значень за зростанням згідно правила:
-
-``пустоти, числа (від 0 до 9), пробіли, спецсимволи, букви від А до Z, букви від А до Я`` та за зменшенням в оберненому порядку.
-
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_060.gif
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_075.png
    :align: center
 
-Якщо Виробник повідомляє своїх Дистриб'юторів про залишки на складі, тобто відправляє в Прайс-листі свої дані про залишки продукції, то ці значення відображаються в бланку в колонці **Залишок**. Неможливо оформити більшу кількість товару, ніж **Залишок**, навіть якщо не встановлена **Квота на замовлення** (максимальна кількість товару в одному замовленні, встановлена Виробником).
+Якщо Продавець (Виробник) повідомляє своїх Дистриб'юторів про залишки на складі, тобто відправляє в Прайс-листі свої дані про залишки продукції, то ці значення відображаються в бланку в колонці **Залишок**. Неможливо оформити більшу кількість товару, ніж **Залишок**, навіть якщо не встановлена **Квота на замовлення** (максимальна кількість товару в одному замовленні, встановлена Продавцем (Виробником)).
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_055.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_076.png
    :align: center
 
 .. hint::
-   Якщо Виробник в обраній позиції вказує "Кратність", то при формуванні "Замовлення" Покупцем кількість замовлених позицій має бути кратною вказаній кількості. Наприклад, якщо "Кратність"=3, то "Кількість одиниць" для формування "Замовлення" може бути 3, 6, 9...
+   Якщо Продавець (Виробник) в обраній позиції вказує "Кратність", то при формуванні "Замовлення" Покупцем кількість замовлених позицій має бути кратною вказаній кількості. Наприклад, якщо "Кратність"=3, то "Кількість одиниць" для формування "Замовлення" може бути 3, 6, 9...
 
-   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_056.png
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_077.png
       :align: center
 
-Помітки :red:`Новинка!`, :blue:`Акція!`, :green:`Публічна позиція!` та :orange:`Надбавка!` додає Виробник.
+Помітки :red:`Новинка!`, :blue:`Акція!`, :green:`Публічна позиція!` та :orange:`Надбавка!` додає Продавець (Виробник).
 
-Під табличною частиною з позиціями ви можете переглягути обмеження на замовлення, встановлені виробником (за відсутності обмеження в прайс-листі відображається прочерк "-" ):
+Під табличною частиною з позиціями ви можете переглягути підсумки за поточним "Замовленням" та "Обмеження" на замовлення, встановлені Продавцем (Виробником) (за відсутності обмеження в прайс-листі відображається прочерк "-" ):
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_008.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_078.png
    :align: center
 
 .. кінець блоку для Order_create2
@@ -126,7 +138,7 @@
 
 Якщо Виробник/Продавець налаштував для Вас індивідуально чи для всіх своїх контрагентів **"Графік замовлень"**, то Ви можете ознайомитись з ним, натиснувши на одноіменну кнопку:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_061.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_079.png
    :align: center
 
 Обравши дату, Ви можете ознайомитись з інформацією по графіку приймання замовлень від Виробника/Продавця:
@@ -146,10 +158,10 @@
 
 Замовлення формується через заповнення значень у ствопцях **Кількість одиниць** та **Кількість коробок**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_057.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_080.png
    :align: center
 
-Якщо Продавець (Виробник) активував процес **Рекомендації до замовлення**, то у Ви можете заповнити чернетку "Замовлення" згідно рекомендації Продавця за допомогою кнопки **"Замовити згідно рекомендації"** (кнопка відображається лише при налаштуваннях Продавця):
+Якщо Продавець (Виробник) активував процес **Рекомендації до замовлення**, то Ви можете заповнити чернетку "Замовлення" згідно рекомендації Продавця за допомогою кнопки **"Замовити згідно рекомендації"** (кнопка відображається лише при налаштуваннях Продавця):
 
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_071.png
    :align: center
@@ -171,7 +183,7 @@
 
 Значення в цих колонках можливо вносити **вручну**, обираючи потрібні поля, або за допомогою XLSX/XLS файлу (кнопка **"Завантажити з Excel"**). Для масового внесення кількостей за товарами за допомогою файла потрібно спочатку **"Скачати шаблон"**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_049.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_081.png
    :align: center
 
 Відкрийте та заповніть файл Excel. Заповнений Вашими даними файл можливо додати за допомогою кнопки **"Завантажити шаблон"**:
@@ -182,7 +194,7 @@
 .. important::
    Зверніть увагу! Видаляти, міняти місцями колонки в Excel файлі не можна. Колонки виділенні зеленим кольором - **обов'язкові до заповнення**! Пара значень "Штрихкод"-"Артикул" повинна бути унікальною на рівні Замовлення (перевірка на дублі - додається лише перше значення). Якщо будь-яку з позицій буде заповнено некоректно, при додаванні файлу на платформі відображається підказка з переліком помилок в конкретних рядках, що потібно виправити:
 
-   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_050.png
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_083.png
       :align: center
 
 Після вказання кількості, що повинна бути замовлена в сервісі EDIN **Маркет** автоматично для цієї позиції та для всього документа `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ розраховуються значення:
@@ -194,54 +206,55 @@
 * Сумма замовлення з ПДВ = сума всіх значень множників ORDEREDQUANTITY * PRICEWITHVAT в Замовленні (ORDERS)
 * Сума замовлення без ПДВ = сума всіх значень множників ORDEREDQUANTITY * ORDERPRICE в Замовленні (ORDERS)
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_009.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_084.png
    :align: center
 
-Натисніть на дані позиції для відображеня детальної інформації про товар:
+Натисніть на **Найменування** позиції для відображеня детальної інформації про товар:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_040.gif
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_085.png
    :align: center
 
-Ви можете **Зберегти** введену інформацію та повернутись до Замовлення пізніше, для продовження оформлення якого повторно відкрийте прайс-лист Виробника та продовжіть роботу.
+Вся введена інформація автоматично зберігається і Ви завжди можете повернутись до Замовлення пізніше: потрібно повторно відкрити "Прайс-лист" Продавця (Виробника) та продовжити роботу. При заповненні кількості одиниць або кількості коробок, якщо поле позначене червоним - перевірте, чи не перевищили ви обмеження та квоти, а також відповідність кількості одиниць до кількості коробок. В випадку невідповідності до квот чи обмежень потрібно зменшити кількість товару в замовленні до значення, що не призводить до помилок при перегляді товарів у **Кошику**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_052.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_086.gif
    :align: center
 
-При заповненні кількості одиниць або кількості коробок, якщо поле позначене червоним - перевірте, чи не перевищили ви обмеження та квоти, а також відповідність кількості одиниць до кількості коробок. В випадку невідповідності до квот чи обмежень потрібно зменшити кількість товару в замовленні до значення, яке дозволяє **"+Створити замовлення"**:
+Перед переходом в **Кошик** переконайтеся в тому, що не перевищено обмеження - в блоці в нижній частині екрану не повинно бути значень, виділених червоним кольором. Якщо ліміт по одному з встановлених обмежень перевищено, `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ не створиться.
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_042.gif
+Якщо у Вас виникнуть питання щодо значень встановлених обмежень, зверніться безпосередньо до Продавця (Виробника). 
+
+При введених значеннях, що відповідають квотам/обмеженням документ `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ потрібно перейти в **Кошик** (на червоному фоні вказується кількість товарних позицій):
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_087.png
    :align: center
 
-Перед збереженням переконайтеся в тому, що не перевищено обмеження на розмір однієї партії в замовленні - в блоці Підсумки не повинно бути значень, виділених червоним кольором. Якщо ліміт по одному з встановлених обмежень перевищено, `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ не створиться.
+В **Кошику** відображаються обрані товарні позиції, їх кількості попозиційно та загальний блок **Підсумок**. В блоці **Замовлення** потрібно заповнити основні атрибути майбутнього документа (поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**):
 
-Якщо у Вас виникнуть питання щодо значень встановлених обмежень, зверніться безпосередньо до Виробника. 
-
-При введених значеннях, що відповідають квотам/обмеженням документ `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ при **"+Створенні замовлення"** потрібно на "Формі замовлення" заповнити всі поля, позначені червоною зірочкою :red:`*` - **обов'язкові до заповнення**:
-
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_064.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_088.png
    :align: center
 
-- № :red:`*` - доступно для редагування (за відсутності відмітки);
-- від :red:`*` - вкажіть дату замовлення;
-- Дата доставки :red:`*` - вкажіть дату доставки;
-- Місце доставки - виберіть місце доставки з випадаючого списку;
-- Умови відвантаження (Самовивіз/Доставка транспортом виробника);
-- Спосіб оплати (Готівковий/Безготівковий рахунок);
-- Додаткова інформація - текстовий коментар, що може бути корисний Вашому контрагенту;
-- Постачальник - GLN виробника з прайс-листа, недоступно для редагування; 
-- Покупець - GLN дистриб'ютора з прайс-листа, недоступно для редагування;
-- Валюта: грн / євро / долар в залежності від валюти, яку вказав Виробник;
-- Тип документа: Оригинал - недоступно для редагування.
+Потрібно обрати бажану дату доставки зі зручного календаря, спосіб оплати (готівковий/безготівковий):
 
-Після перевірки та заповнення основих даних документа його можливо **Надіслати**:
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_089.png
+   :align: center
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_065.png
+Обрати місце доставки з випадаючого списку, спосіб відвантаження (Самовивіз/Доставка транспортом виробника) та можливо написати текстовий коментар Продавцю (Виробнику):
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_090.png
+   :align: center
+
+.. hint::
+   Ви також можете редагувати своє "Замовлення" прямо в Кошику, редагуючи кількості товарів, видаляючи позиції чи навіть все Замовлення за допомогою |trash_f_red| кнопок!
+
+Після перевірки та заповнення основих даних документа можливо **Відправити замовлення**:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_091.png
    :align: center
 
 .. attention::
    Якщо при натисканні на кнопку Ви отримуєте помилку: перевірте графік отримання замовлень Виробника/Продавця! Виробник/Продавець може блокувати відправку замовлення поза своїм графіком замовлень:
 
-   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_061.png
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_092.png
       :align: center
 
 .. кінець блоку для Order_create3
@@ -251,13 +264,14 @@
 
 Після відправки `Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ документ стає недоступним до редагування, його можливо лише переглянути в папці "Надіслані":
 
-.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_044.png
+.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_093.png
    :align: center
 
-У `Замовленні (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ Ви можете перевірити вказані дані (GLN Покупця, GLN Місця доставки, дату поставки...), табличну частину з товарними позиціями. Ви можете **"Завантажити"** (1) Замовлення у форматі .pdf, .xls, .xml, .zip або відразу відправити документ на друк (2):
+У `Замовленні (ORDERS) <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__ Ви можете перевірити вказані дані (GLN Покупця, GLN Місця доставки, дату поставки...), табличну частину з товарними позиціями, а також виконати наступні дії з документом:
 
-.. image:: pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_045.png
-   :align: center
+.. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
+   :start-after: .. початок блоку для Doc_actions
+   :end-before: .. кінець блоку для Doc_actions
 
 В табличній частині відображається основна інформація, для ознайомлення з усією інформацією за товарною позицією предбачені кнопки **∨** / **∧** в "№" позиції та **"Показти повністю"** / **"Згорнути"** для всієї таблиці:
 
