@@ -188,7 +188,7 @@
 
 Відкрийте та заповніть файл Excel. Заповнений Вашими даними файл можливо додати за допомогою кнопки **"Завантажити шаблон"**:
 
-.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_051.png
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_082.png
    :align: center
 
 .. important::
