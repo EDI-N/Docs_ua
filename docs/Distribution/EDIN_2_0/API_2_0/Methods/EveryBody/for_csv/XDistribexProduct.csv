@@ -2,7 +2,7 @@
 .. _XDistribexProduct: , Об'єкт **XDistribexProduct** ,
 id,long,ідентифікатор запису
 date_changed,long,дата внесених змін в дані товару
-producer_id,long,ідентифікатор Виробника
+producer_id,long,ідентифікатор Продавця (Виробника)
 product_id,long,ідентифікатор товару
 unit_id,long,"ідентифікатор одиниці виміру; допустимі значення:
 

@@ -1,5 +1,5 @@
 #################################################################################################
-**Створити групу Дистриб'юторів (Виробник)**
+**Створити групу Покупців (Дистрибʼюторів) (Продавець (Виробник))**
 #################################################################################################
 
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__.
@@ -17,5 +17,5 @@
 
 **RESPONSE**
 
-В тілі **відповіді** передаються дані створеної групи Дистриб'юторів (об'єкт `XDistribexAccessGroup <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XDistribexAccessGroup.html>`__).
+В тілі **відповіді** передаються дані створеної групи Покупців (Дистрибʼюторів) (об'єкт `XDistribexAccessGroup <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XDistribexAccessGroup.html>`__).
 
