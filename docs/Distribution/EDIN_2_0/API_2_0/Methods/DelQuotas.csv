@@ -1,7 +1,7 @@
 **URL**       ,
 Метод запиту  , DELETE                                          
 URL запиту    , **/api/distribex/quotas?gln=9864065732303&d_gln=9864065732334**
-URL параметри ,"**gln** (обов'язково) String - GLN Виробника
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)
 
 **d_gln** (обов'язково) String - GLN Дистриб'ютора"
 **Headers**   ,

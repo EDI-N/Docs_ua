@@ -1,7 +1,7 @@
 Параметр, Формат, Опис
 .. _Quotas: , Об'єкт **Quotas** ,
 quota,double,квота
-produser_id,long,ідентифікатор компанії-Виробника
+produser_id,long,ідентифікатор компанії-Продавця (Виробника)
 distrib_id,long,ідентифікатор компанії-Дистриб'ютора 
 distrib_gln,String,GLN компанії-Дистриб'ютора
 product_id,long,ідентифікатор товару

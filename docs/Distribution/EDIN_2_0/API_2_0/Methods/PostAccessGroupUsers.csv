@@ -1,7 +1,7 @@
 **URL**       ,
 Метод запиту  , POST                                          
 URL запиту    , **/api/distribex/useraccessgroup?gln=9864065732303&access_groups_id=28&gln_id=13200793**
-URL параметри ,"**gln** (обов'язково) String - GLN Виробника
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)
 
 **access_groups_id** (обов'язково) long - ідентифікатор групи
 

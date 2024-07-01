@@ -3,7 +3,7 @@
 URL запиту    , **/api/distribex/preorder?gln=9864065732327&producerId=13200791&positions=1195&positions=1193**
 URL параметри ,"**gln** (обов'язково) String - GLN Дистриб'ютора
 
-**producerId** (обов'язково) String - ідентифікатор Виробника
+**producerId** (обов'язково) String - ідентифікатор Продавця (Виробника)
 
 **positions** (обов'язково / - ) String - позиції Попереднього замовлення. Параметр відсутній при наявності load_excel параметра
 

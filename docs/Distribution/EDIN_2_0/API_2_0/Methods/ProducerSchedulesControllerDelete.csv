@@ -1,7 +1,7 @@
 **URL**       ,
 Метод запиту  , DELETE                                       
 URL запиту    , **/api/distribex/producer/schedules?gln=9864065732303&schedule_id=17**
-URL параметри ,"**gln** (обов'язково) String - GLN Виробника
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)
 
 **schedule_id** (обов'язково) long - ідентифікатор графіка замовлень"
 **Headers**   ,

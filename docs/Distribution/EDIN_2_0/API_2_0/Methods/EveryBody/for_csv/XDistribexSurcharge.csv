@@ -1,7 +1,7 @@
 Параметр, Формат, Опис
 .. _XDistribexSurcharge: , Об'єкт **XDistribexSurcharge** ,
 surcharge,boolean,відмітка про надбавку
-producer_id,long,id Виробника
+producer_id,long,id Продавця (Виробника)
 distributor_id,long,id Дистриб'ютора
 distributor_gln,String,GLN Дистриб'ютора
 product_id,long,id товарної позиції
