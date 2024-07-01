@@ -1,7 +1,7 @@
 **URL**       ,
 Метод запиту  , PUT                                          
 URL запиту    , **/api/distribex/preorder?gln=9864065732327&producerId=13200791&id=22&positions=1195&positions=1193&positions=1201&positions=1197&positions=1199**
-URL параметри ,"**gln** (обов'язково) String - GLN Дистриб'ютора
+URL параметри ,"**gln** (обов'язково) String - GLN Покупця (Дистрибʼютора)
 
 **producerId** (обов'язково) String - ідентифікатор Продавця (Виробника)
 

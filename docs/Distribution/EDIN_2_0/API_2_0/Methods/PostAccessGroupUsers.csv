@@ -5,7 +5,7 @@ URL параметри ,"**gln** (обов'язково) String - GLN Прода
 
 **access_groups_id** (обов'язково) long - ідентифікатор групи
 
-**gln_id** (обов'язково) String - GLN Дистриб'ютора"
+**gln_id** (обов'язково) String - GLN Покупця (Дистрибʼютора)"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
 Content-Type  , application/json                              
