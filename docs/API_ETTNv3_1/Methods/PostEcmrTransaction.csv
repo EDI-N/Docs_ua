@@ -8,6 +8,6 @@ URL параметри ,"**gln** (обов'язково) String - GLN власн
 **doc_uuid** (обов'язково) UUID - ідентифікатор документа"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
-Content-Type  , *application/json*
+Content-Type  , *application/json* або *application/xml*
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу (в json форматі) передається транзакція - контент документа без підписів (`об'єкт Ecmr <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/Ecmr.html>`__)"
