@@ -104,7 +104,7 @@
 .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_021.png
    :align: center
 
-По кожному вказаному транспорному засобу є можливість зазначити (опціонально) температурний режим:
+По кожному вказаному транспортному засобу є можливість зазначити температурний режим (ми рекомендуємо заповнювати поля температурного режиму для більш точної інформації по умовам перевезення в документі та кращого порозуміння з Вашими контрагентами):
 
 .. image:: /ETTN_3_0/pics_Create_Proposal_Confirmation_from/Create_Proposal_Confirmation_from_022.png
    :align: center
