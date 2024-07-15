@@ -109,12 +109,12 @@
 
 Документ "Накладна на переміщення" (COMDOC_022) підвантажується через облікову систему ПрАТ "Монделіс Україна" на платфому EDI Network 2.0 та доступний до перевірки та редагування відповідальним працівником:
 
-.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_002.png
+.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_009.png
    :align: center
 
 Після редагування документ потрібно **"Зберегти"** (1), **"Підписати"** (2) та **"Відправити"** (3):
 
-.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_003.png
+.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_010.png
    :align: center
 
 .. hint::
@@ -122,7 +122,7 @@
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів в статусі :orange:`"Очікує на підписання отримувачем"`:
 
-.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_004.png
+.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_011.png
    :align: center
 
 5.2 Обробка вхідної "Накладної на переміщення" (COMDOC_022)
@@ -130,12 +130,12 @@
 
 Документ "Накладна на переміщення" (COMDOC_022) знаходиться у папці **"Вхідні"** (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_005.png
+.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_012.png
    :align: center
 
-Для продовження документообігу потрібно **"Підписати і відправити у відповідь"** вхідний документ:
+Для продовження документообігу потрібно **"Підписати"** вхідний документ:
 
-.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_006.png
+.. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_013.png
    :align: center
 
 .. hint::
@@ -146,7 +146,7 @@
 .. note::
    У випадку невідповідностей чи змінах в перевезеннях можливо оформити типову для комерціних документів **"Відмову від підписання"** (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_reject/comdoc_reject.html>`__):
 
-   .. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_007.png
+   .. image:: pics_Mondelez_internal_transportation/Mondelez_internal_transportation_014.png
       :align: center
 
 .. _ettn-create:
