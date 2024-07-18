@@ -186,7 +186,15 @@
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_081.png
    :align: center
 
-Відкрийте та заповніть файл Excel. Заповнений Вашими даними файл можливо додати за допомогою кнопки **"Завантажити шаблон"**:
+Відкрийте та заповніть файл Excel.
+
+.. hint::
+   Дані завжди підвантажуються лише з першого листа файлу, однак просунутим користувачам Excel буде цікаво знати, що в полях для завантаження Ви можете використовувати формули, що також можуть включати значення з інших листів файлу, наприклад: 
+
+   .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_094.png
+      :align: center
+
+Заповнений Вашими даними файл можливо додати за допомогою кнопки **"Завантажити шаблон"**:
 
 .. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_082.png
    :align: center
