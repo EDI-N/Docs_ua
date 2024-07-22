@@ -17,6 +17,12 @@
    
    WD_candidate_questionnaire
 
+.. toctree::
+   :caption: WhiteDoc 2.0
+   :maxdepth: 1
+   
+   WD_2_0_Instruction
+
 Інтеграція
 ==============
 
