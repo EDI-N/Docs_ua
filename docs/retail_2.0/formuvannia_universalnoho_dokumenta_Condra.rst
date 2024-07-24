@@ -11,6 +11,12 @@
 
 .. |status| image:: pics_formuvannia_Condra/formuvannia_Condra_021.png
 
+.. |download| image:: /_constant/icons/download.png
+
+.. |trash_w_blue| image:: /_constant/icons/trash_w_blue.png
+
+.. |print_blue| image:: /_constant/icons/print_blue.png
+
 .. role:: red
 
 .. contents:: Зміст:
@@ -67,11 +73,21 @@
    :align: center
 
 .. note::
-   Один документ може містити не більше 10 файлів в наступних форматах: PDF/XLS/XLSX/DOC/DOCX/ODT/PPT/PPTX/JPG/BMP/PNG/XML/P7S з розміром файлу не більше 5 Мб. Назва файла не повинна перевищувати 100 символів.
+   Один документ може містити не більше 10 файлів в наступних форматах: PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/CSV/TXT/XML/P7S (попередній перегляд не доступний лише для CSV та P7S) з розміром файлу не більше 5 Мб.
 
 Після додавання файлів в правому верньому куті файла указується його порядковий номер з загальної кількості доданих файлів (номер/заг.кількість). При додаванні більше 3 файлів частина файлів прихована за стрілками прокручування (|прокрутка2| |прокрутка1|). На етапі редагування за потреби можливо завантажити файл, клікнувши на нього мишкою чи видалити за допомогою кнопки |trash| :
 
 .. image:: /retail_2.0/pics_formuvannia_Condra/formuvannia_Condra_006.gif
+   :align: center
+
+Для доданих файлів доступний попередній перегляд їх вмісту:
+
+.. image:: /retail_2.0/pics_formuvannia_Condra/formuvannia_Condra_028.gif
+   :align: center
+
+При перегляді доданого файлу можливо масштабувати попередній перегляд файлу (1), використовувати пагінацію сторінок файлу (2), роздрукувати (3) |print_blue| (кнопка активна лише для файлів в форматі PDF/JPG/JPEG/PNG/BMP), завантажити (4) |download| чи видалити (5) |trash_w_blue| файл.
+
+.. image:: /Vilnyi/pics_Work_with_Vilnyi/Work_with_Vilnyi_51.png
    :align: center
 
 .. кінець блоку для CONDRA_standart
