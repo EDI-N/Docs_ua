@@ -2,28 +2,20 @@
 **"Електронна товарно-транспортна накладна" (е-ТТН)**
 ##########################################################################################################################
 
+.. role:: orange
+
 .. contents:: Зміст:
    :depth: 5
    :local:
 
 ---------
 
-.. початок блоку для Android_to_Huawei_001
-
-.. attention::
-   Для коректної роботи сервісу додаток **"EDIN Driver"** та всі додатки, від яких залежить підписання мають бути оновлені до останньої версії!
-
-.. _app-install:
-
-1 Встановлення додатка **"EDIN Driver"**
-==============================================
-
 .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1423864081
 
 .. important::
    Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3_json.html>`__ відрізняються! 
 
-**XML-example**
+XML-example
 ==============================================
 
 .. code:: xml
@@ -271,15 +263,13 @@
       </eCMR>
    </UAECMR>
 
-.. role:: orange
-
 XML-Специфікація
 ==============================================
 
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=398354812&single=true" width="1100" height="10850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=398354812&single=true" width="1100" height="12850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 -------------------------
@@ -301,10 +291,12 @@ XML-Специфікація
 Друкована форма (XML)
 ==============================================
 
+`⏬ Завантажити форму <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ydc9QfbBeOrHfM7IdOKukjb03UoRL2ZyPkrs4sl2hQHBhb7CIEEMP5H_2MBoYQ/pub?output=pdf&gid=78385386>`__
+
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ydc9QfbBeOrHfM7IdOKukjb03UoRL2ZyPkrs4sl2hQHBhb7CIEEMP5H_2MBoYQ/pubhtml?gid=78385386&single=true" width="1100" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ydc9QfbBeOrHfM7IdOKukjb03UoRL2ZyPkrs4sl2hQHBhb7CIEEMP5H_2MBoYQ/pubhtml?gid=78385386&single=true" width="1100" height="3500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 .. data from table (remember to renew time to time)
