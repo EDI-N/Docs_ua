@@ -28,6 +28,7 @@
 41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/AGREEM_x.html>`__
 42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMBC_x.html>`__
 59,documentinvoice,`Накладні <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+60,prdrsrvn,`Резерв товару <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRDRSRVN_x.html>`__
 67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__
 72,metro7c,`Додаток до договору 7Ц <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7C_x.html>`__
 98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/QUOTES_x.html>`__
