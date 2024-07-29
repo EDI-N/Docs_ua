@@ -8,4 +8,4 @@ URL параметри ,"**gln** - рядок (13); номер GLN органі�
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
 Content-Type  , ``application/json`` або ``application/xml``                             
 **REQUEST**   ,
-JSON Body     ,"В тілі запиту методу передається тіло документа (контент) в json/xml форматі (`xml-специфікація документа "Резерв товару" <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRDRSRVN_x.html>`__)"
+JSON Body     ,"В тілі запиту методу передається тіло документа (контент) в json/xml форматі (`xml-специфікація документа Резерв товару (PRDRSRVN) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRDRSRVN_x.html>`__)"
