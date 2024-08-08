@@ -26,4 +26,11 @@ Content-Type  , application/json
 **REQUEST**   ,
 JSON Body     ,"В тілі запиту методу опціонально передаються `додаткові поля <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/ExtraFields.html>`__
 
-**Виняток:** при відправці «Заявки на транспортування» / «Підтвердження транспортування» (TRANSPORTATIONORDER) в тілі запиту обов'язково передається параметр sub_status_id."
+**Виняток:** при відправці
+
+* «Заявки на транспортування» / «Підтвердження транспортування» (TRANSPORTATIONORDER)
+* «Комерційних документів» (COMDOC)
+* «Накладних» (DOCUMENTINVOICE)
+* «Коригування до накладної» (DOCCORINVOICE)
+
+в тілі запиту обов'язково передається параметр sub_status_id."
