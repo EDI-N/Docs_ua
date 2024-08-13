@@ -1,4 +1,4 @@
-Формування документів EDIN 2.0
+Робота з документами EDIN 2.0
 #############################################
 
 .. toctree::
@@ -27,6 +27,7 @@
    Create_DECLAR_from
    Create_QUOTES_from
    Create_RETINS_from
+   Processing_PRDRSRVN
 
 
 
