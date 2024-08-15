@@ -38,14 +38,16 @@
 **1 Обробка вхідного "Резерву товару" (PRDRSRVN)**
 ====================================================================================================================
 
+.. початок блоку для Processing_PRDRSRVN
+
 Розглянемо обробку вхідного "Резерву товару" (PRDRSRVN) з боку **Постачальника** в сервісі "EDI Network". Для цього потрібно перейти у **"Вхідні"** та вибрати **"Резерву товару"** (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Processing_PRDRSRVN/Processing_PRDRSRVN_001.png
+.. image:: /retail_2.0/pics_Processing_PRDRSRVN/Processing_PRDRSRVN_001.png
    :align: center
 
 Після ознайомлення з документом Ви можете відправити у відповідь транзакцію, попередньо вказавши кількості за позиціями в табличній частині документа (колонка **"Підтверджена кількість"**):
 
-.. image:: pics_Processing_PRDRSRVN/Processing_PRDRSRVN_002.png
+.. image:: /retail_2.0/pics_Processing_PRDRSRVN/Processing_PRDRSRVN_002.png
    :align: center
 
 .. hint::
@@ -53,7 +55,7 @@
 
 Також за допомогою кнопки **"Дії над вибраними"** можливо обрати (відмітити чекером) позиції, за якими можливо **Прийняти** всю кількість (**Підтверджена кількість** = **Кількість на резерві**) або **Відхилити** позиції (**Підтверджена кількість** =0):
 
-.. image:: pics_Processing_PRDRSRVN/Processing_PRDRSRVN_003.png
+.. image:: /retail_2.0/pics_Processing_PRDRSRVN/Processing_PRDRSRVN_003.png
    :align: center
 
 .. hint::
@@ -61,13 +63,15 @@
 
 Після заповнення колонки "Кількість на резерв" можливо **"Відправити"** транзакцію:
 
-.. image:: pics_Processing_PRDRSRVN/Processing_PRDRSRVN_004.png
+.. image:: /retail_2.0/pics_Processing_PRDRSRVN/Processing_PRDRSRVN_004.png
    :align: center
 
 Після відправки кожної транзакції в документі відображається **історія змін за документом**, де вказується тип події (`детальніше за посиланням <https://wiki.edin.ua/uk/latest/retail_2.0/Processing_PRDRSRVN.html#transactions-history>`__):
 
-.. image:: pics_Processing_PRDRSRVN/Processing_PRDRSRVN_005.png
+.. image:: /retail_2.0/pics_Processing_PRDRSRVN/Processing_PRDRSRVN_005.png
    :align: center
+
+.. кінець блоку для Processing_PRDRSRVN
 
 .. _transactions-history:
 
@@ -86,6 +90,7 @@
 
    * Додавання нової позиції до резерву (тип події *Додавання нової позиції*)
    * Збільшення кількості в позиції (тип події *Збільшення кількості*)
+   * Зменшення кількості в позиції (тип події *Зменшення кількості*)
    * Видалення позиції (тип події *Зменшення кількості*)
 * Дії зі сторони Постачальника:
 
@@ -94,7 +99,7 @@
 
 Тому таблиця історії змін складається з "Контрагента/дати" виконання дії, "Найменування" + "Штрихкоду" товарної позиції, "Типу події" та кількості "до" та "після":
 
-.. image:: pics_Processing_PRDRSRVN/Processing_PRDRSRVN_006.png
+.. image:: /retail_2.0/pics_Processing_PRDRSRVN/Processing_PRDRSRVN_006.png
    :align: center
 
 На кожну дію з табличною частиною відправляється сповіщення на пошту та `в "дзвіночок" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#messages>`__ згідно `налаштувань сповіщень <https://wiki.edin.ua/uk/latest/Personal_Cabinet/PCInstruction.html#user-notifications>`__.

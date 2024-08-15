@@ -75,19 +75,21 @@
 4 Створення та відправка "Видаткової накладної" (DOCUMENTINVOICE_DRN) на підставі надісланого "Повідомлення про відвантаження" (DESADV)
 ================================================================================================================================================
 
+.. початок блоку для Documentinvoice_drn_from_Desadv_001
+
 "Видаткова накладна" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) може бути сформована на підставі надісланого "Повідомлення про відвантаження" (DESADV). Для формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) потрібно перейти в папку **"Надіслані"** та обрати документ-підставу (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_002.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_002.png
    :align: center
 
 Для формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__:
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_003.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_003.png
    :align: center
 
 При цьому автоматично відкривається форма "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN):
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_004.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_004.png
    :align: center
 
 У відкритій формі "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) майже всі поля документа можуть бути заповнені автоматично з пов'язаного документа-підстави та `Товарного довідника <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html#goods-directory>`__ (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`).
@@ -98,7 +100,7 @@
 
 Про необхідність заповнення та інші помилки в табличній частині документа Ви будете проінформовані (вказується номер позиції та невідповідність), а також рядок позиції виділяється помаранчевим кольором:
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_006.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_006.png
    :align: center
 
 .. hint::
@@ -107,23 +109,25 @@
    * якщо "Ставка ПДВ"= 20 / 19 / 16 / 14 / 7 / 2 %, то "Код категорії ПДВ"=Стандартний;
    * якщо "Ставка ПДВ"= 0%, то "Код категорії ПДВ"=Нульовий або Звільнений (від податку).
 
-   .. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_005.png
+   .. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_005.png
       :align: center
 
 Для внесення змін (коригування) в позиції потрібно натиснути на штрихкод позиції:
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_007.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_007.png
    :align: center
 
 Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"** (повернути видалені позиції можливо за допомогою кнопки **"+Додати"**):
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_008.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_008.png
    :align: center
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_009.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_009.png
    :align: center
+
+.. кінець блоку для Documentinvoice_drn_from_Desadv_001
 
 .. _підписати:
 
@@ -131,6 +135,8 @@
 
 4.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN)
 --------------------------------------------------------------------------------------------------
+
+.. початок блоку для Documentinvoice_drn_from_Desadv_002
 
 .. tabs::
 
@@ -160,10 +166,12 @@
 
 Після підписання "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) документ потрібно **"Відправити"**:
 
-.. image:: pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_010.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_Post_LC_Giper_crossdocking/Epicentr_Post_LC_Giper_crossdocking_010.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. "Гіпермаркет" Епіцентр зі своєї сторони переглядає та підписує документ.
+
+.. кінець блоку для Documentinvoice_drn_from_Desadv_002
 
 .. кінець блоку для From_crossdocking_to_bulk
 
