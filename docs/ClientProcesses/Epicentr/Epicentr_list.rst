@@ -19,10 +19,7 @@
    :caption: Епіцентр Online
    :maxdepth: 1
    
-   Epicentr_Instructions/Epicentr_
-
-
-
+   Epicentr_Instructions/Epicentr_Online
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з "Епіцентром" [1]
