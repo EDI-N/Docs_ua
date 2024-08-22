@@ -8,7 +8,7 @@
    User_registration
    Driver_registration
    rabota_s_platformoj_EDIN_2.0
-   instruktsiyi_po_dodavannyu_klyuchiv
+   EDI_Network_Sign_instruction
    Robota_z_tokenom
    Additional_actions
    massovi_operacii_EDIN_2.0
