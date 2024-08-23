@@ -393,6 +393,12 @@
          :start-after: .. початок блоку для GryadaSign
          :end-before: .. кінець блоку для GryadaSign
 
+   .. tab:: Дія.Підпис
+
+      .. include:: /_constant/diya_signing/diya_signing.rst
+         :start-after: .. початок блоку для DiyaPidps
+         :end-before: .. кінець блоку для DiyaPidps
+
    .. tab:: Cloud
 
       .. include:: /_constant/cloud_signing/cloud_signing.rst
