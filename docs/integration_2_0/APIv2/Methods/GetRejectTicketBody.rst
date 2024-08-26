@@ -2,7 +2,14 @@
 **Створення на сервері квитанції "Повідомлення про відмову від підписання документу" (COMDOC_021) для COMDOC документів**
 ################################################################################################################################
 
-Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
+.. role:: red
+
+:red:`Deprecated`
+
+.. warning::
+  Наполегливо рекомендуємо використовувати замість даного методу новий метод **/api/v2/eds/doc/reject** `за посиланням <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocReject.html>`__.
+
+Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
 За допомогою GET методу **api/v2/eds/comdoc/reject** можливо створити документ COMDOC-відмову.
 

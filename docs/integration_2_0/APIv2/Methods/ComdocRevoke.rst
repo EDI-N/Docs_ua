@@ -2,6 +2,13 @@
 **Створення квитанції №14 (відкликати підписання документа COMDOC/TRANSPORTATIONORDER)**
 ##########################################################################################################
 
+.. role:: red
+
+:red:`Deprecated`
+
+.. warning::
+  Наполегливо рекомендуємо використовувати замість даного методу новий метод **/api/v2/eds/doc/revoke** `за посиланням <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocumentRevoke.html>`__.
+
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ .
 
 .. important:: Відкликати підписання документа COMDOC/TRANSPORTATIONORDER може лише відправник документа до того, як документ змінить свій стан на:
