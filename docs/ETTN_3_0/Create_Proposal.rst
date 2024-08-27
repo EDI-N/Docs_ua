@@ -9,6 +9,8 @@
 
 .. |drag_dots| image:: /_constant/icons/drag_dots.png
 
+.. |trash| image:: /_constant/icons/trash.png
+
 .. role:: red
 
 .. role:: green
@@ -185,7 +187,7 @@
 .. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_018.png
    :align: center
 
-Дані відповідальних осіб **"Вантажовідправника"** / **"Вантажоодержувача"** можливо обрати з віртуального довідника (присутній пошук):
+Дані відповідальних осіб **"Вантажовідправника"** / **"Вантажоодержувача"** можливо обрати з віртуального довідника чи видалити зі списку за допомогою |trash| (присутній пошук):
 
 .. image:: /ETTN_3_0/pics_Create_Proposal/Create_Proposal_019.png
    :align: center
