@@ -612,6 +612,8 @@
 .. image:: pics_dlia_vyrobnyka/Instruktsiia_dlia_vyrobnyka_045.png
    :align: center
 
+.. _inviting-buyers:
+
 **7 Додавання нового Покупця (Дистриб'ютора)**
 ===================================================
 
