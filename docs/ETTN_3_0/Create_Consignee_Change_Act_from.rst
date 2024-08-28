@@ -11,6 +11,8 @@
 
 .. |лупа2| image:: /_constant/icons/magnifying_glass2.png
 
+.. |trash| image:: /_constant/icons/trash.png
+
 .. role:: red
 
 .. role:: green
@@ -87,7 +89,7 @@
 .. image:: pics_Create_Consignee_Change_Act_from/Create_Consignee_Change_Act_from_008.gif
    :align: center
 
-Дані раніше доданих відповідальних осіб можливо обрати з віртуального довідника:
+Дані раніше доданих відповідальних осіб можливо обрати з віртуального довідника чи видалити зі списку за допомогою |trash|:
 
 .. image:: pics_Create_Consignee_Change_Act_from/Create_Consignee_Change_Act_from_009.png
    :align: center
