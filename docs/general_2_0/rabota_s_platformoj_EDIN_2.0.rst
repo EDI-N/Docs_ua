@@ -75,7 +75,7 @@
    :align: center
 
 .. hint::
-   Нові користувачі можуть самостійно пройти `Реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ на платформі.
+   Нові користувачі можуть самостійно пройти `Реєстрацію <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__ на платформі за допомогою Email. Змінити пароль, електронну пошту чи інші Ваші особисті дані можливо в Вашому `"Профілі користувача" <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#pers-settings>`__. 
 
 .. кінець блоку для Enter
 
