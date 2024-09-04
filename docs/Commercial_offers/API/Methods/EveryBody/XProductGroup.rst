@@ -175,3 +175,5 @@
   :widths:  1, 12, 41
   :header-rows: 1
   :stub-columns: 0
+
+.. deprecated * для сервісу Є-Товар: категорії/групи/підгрупи 
