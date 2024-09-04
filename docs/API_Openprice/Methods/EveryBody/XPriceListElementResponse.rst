@@ -341,6 +341,8 @@
   :header-rows: 1
   :stub-columns: 0
 
+.. deprecated * для сервісу Є-Товар: категорії/групи/підгрупи 
+
 Таблиця 2 - Опис параметрів об'єкта XPriceListProduct
 
 .. csv-table:: 

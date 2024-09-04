@@ -368,6 +368,8 @@
   :header-rows: 1
   :stub-columns: 0
 
+.. deprecated * для сервісу Є-Товар: категорії/групи/підгрупи 
+
 Таблиця 5 - Опис параметрів об'єкта **ProductCategory**
 
 .. csv-table:: 

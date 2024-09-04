@@ -47,7 +47,6 @@
          <INFO>Здесь может быть указан комментарий</INFO>
          <NEWPOSITION>1</NEWPOSITION>
          <PROMO>0</PROMO>
-         <PUBLICPOSITION>0</PUBLICPOSITION>
       </POSITION>
    </CATALOGUE>
    </PRICAT>
