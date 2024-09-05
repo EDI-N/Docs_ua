@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Document: ,**Об'єкт Document** ,
+fileName,M,String,назва файлу разом з розширенням
+type,M,String,`тип документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/DocType.html>`__
+uuid,O,String,унікальний ідентифікатор документа
