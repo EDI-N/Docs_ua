@@ -15,7 +15,6 @@ XML Специфікації "Маркет"
    PRICAT_x
    ORDER_x
    LIMITS_x
-   COMDOC_007_x
    RETANN_x
 
 
