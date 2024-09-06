@@ -183,8 +183,8 @@ EDIN | Електронний документообіг для бізнесу
       API_Openprice/API_Openprice_list
 
 .. toctree::
-   :maxdepth: 2
    :caption: 🏭 Маркет
+   :titlesonly:
 
    Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list
    Distribution/EDIN_2_0/FAQ_integration
