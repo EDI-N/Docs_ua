@@ -296,4 +296,13 @@ Action not available for current party role"
 400,,ERR_TTN-102,"The action is not available for a document in draft status
 
 Дія недоступна для документа в статусі чернетка"
+400,,ERR_TTN-103,"Field {field} has invalid value {value}
+
+Поле {поле} має недопустиме значення {значення}"
+400,,ERR_TTN-105,"The action is not available. TTN lifecycle was terminated
+
+Дія недоступна. Життєвий цикл ТТН було завершено"
+400,,ERR_TTN-106,"The action is not available. TTN lifecycle was terminated based on {doc name}
+
+Дія недоступна. Життєвий цикл ТТН було завершено на підставі {назва документа}"
 500,Internal server error: sd898sdf63,,Виникає в разі неможливості опрацювати запит (рекомендуємо звернутись до нашої технічної підтримки: `support@edin.ua <mailto:support@edin.ua>`__)
