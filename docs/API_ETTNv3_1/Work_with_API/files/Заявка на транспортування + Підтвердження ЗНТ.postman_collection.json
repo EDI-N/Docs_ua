@@ -1,0 +1,3533 @@
+{
+	"info": {
+		"_postman_id": "1464880c-0ba2-4517-a36e-21f41d202bfe",
+		"name": "Заявка на транспортування + Підтвердження ЗНТ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20104934"
+	},
+	"item": [
+		{
+			"name": "Авторизація",
+			"item": [
+				{
+					"name": "Запит на авторизацію",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"{",
+									"    const resp = JSON.parse(responseBody);",
+									"    if(resp && resp.SID) {",
+									"        pm.environment.set(\"auth_sid\", resp.SID);",
+									"    }",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "{{email}}",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{domain}}/api/authorization/hash",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"authorization",
+								"hash"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Підтвердження заявки на транспортування",
+			"item": [
+				{
+					"name": "Перевізник",
+					"item": [
+						{
+							"name": "Створення",
+							"item": [
+								{
+									"name": "Створення ПЗНТ - json",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"",
+													"{",
+													"    const resp = JSON.parse(pm.response.text());",
+													"    console.log(resp)",
+													"    if(resp && resp.doc_uuid) {",
+													"        pm.environment.set(\"confirmation_doc_uuid\", resp.doc_uuid);",
+													"    }",
+													"};",
+													"",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"NUMBER\": \"test_doc_process_2\",\n    \"DATE\": \"2024-07-29\",\n    \"SUBDOCTYPE\": \"2\",\n    \"TRANSPORTATIONTYPE\": \"11\",\n    \"CAMPAIGNNUMBER\": \"8887-21\",\n    \"CAMPAIGNDATE\": \"2024-07-29\",\n    \"PURCHASEORDERNUMBER\": \"000-1\",\n    \"TRANSPORTATIONPAYMENTTYPE\": \"1\",\n    \"TRANSPORTATIONCOST\": {\n        \"WITHOUTVAT\": \"111\",\n        \"VAT\": \"7\",\n        \"WITHVAT\": \"118.77\"\n    },\n    \"LENGTHROUTE\": \"321\",\n    \"TEMPERATURE\": {\n        \"MIN\": \"-222\",\n        \"MAX\": \"+322\"\n    },\n    \"DESCRIPTION\": \"Найменування вантажу\",\n    \"TOTALPACKAGEWEIGHT\": \"321\",\n    \"TOTALPACKAGEQUANTITY\": \"321\",\n    \"LOADFACTOR\": \"34\",\n    \"INFO\": \"Додаткова інформація\",\n    \"FINANCIALINFO\": \"Додаткова інформація для фінансового відділу\",\n    \"HEAD\": [\n        {\n            \"CUSTOMER\": {\n                \"GLN\": \"9864232755074\",\n                \"ID\": \"34554363\",\n                \"NAME\": \"ТОВ \\\"Вантажовідправник\\\" ТТНв3\",\n                \"ADDRESS\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес\"\n            },\n            \"CARRIER\": {\n                \"GLN\": \"9864232596110\",\n                \"ID\": \"32131212\",\n                \"NAME\": \"ТОВ \\\"Перевізник_v3\\\" (прод)\",\n                \"ADDRESS\": \"Україна, 24522, Вінницька, Вінницький р-н, м. Вінниця, вул. Вінницька, 1\"\n            },\n            \"CONSIGNOR\": {\n                \"GLN\": \"9864232755074\",\n                \"ID\": \"34554363\",\n                \"NAME\": \"ТОВ \\\"Вантажовідправник\\\" ТТНв3\",\n                \"ADDRESS\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес\"\n            },\n            \"POSITION\": [\n                {\n                    \"POSITIONNUMBER\": \"1\",\n                    \"LOAD\": {\n                        \"ADDRESS\": {\n                            \"GLN\": \"9864232755074\",\n                            \"ID\": \"UA59020070010054283\",\n                            \"NAME\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп\",\n                            \"ADDRESS\": \"Адрес\"\n                        },\n                        \"DATE\": \"2024-07-29 15:32\",\n                        \"CONSIGNORCONTACTFACENAME\": \"Вантажовідправник Особа\",\n                        \"CONSIGNORCONTACTFACENUMBER\": \"380462345345\"\n                    },\n                    \"UNLOAD\": {\n                        \"ADDRESS\": {\n                            \"GLN\": \"9864232596127\",\n                            \"ID\": \"UA59080270010036634\",\n                            \"NAME\": \"Україна, 12351, Сумська, Сумський р-н, м. Суми\",\n                            \"ADDRESS\": \"вул. Київська, 1\"\n                        },\n                        \"DATE\": \"2024-07-30 15:34\",\n                        \"CONSIGNEE\": {\n                            \"GLN\": \"9864232596127\",\n                            \"ID\": \"12345678\",\n                            \"NAME\": \"ТОВ \\\"Вантажоодержувач_v3\\\" (прод)\",\n                            \"ADDRESS\": \"Україна, 12351, Сумська, Сумський р-н, м. Суми, вул. Київська, 1\"\n                        },\n                        \"CONSIGNEECONTACTFACENAME\": \"Вантажоодержувач Особа\",\n                        \"CONSIGNEECONTACTFACENUMBER\": \"380567345634\"\n                    },\n                    \"PACKAGEWEIGHT\": \"32.232\",\n                    \"PACKAGEQUANTITY\": \"321\",\n                    \"TRANSPORTTYPE\": \"Вид транспорту\",\n                    \"TEMPERATURE\": {\n                        \"MIN\": \"-343\",\n                        \"MAX\": \"+343\"\n                    },\n                    \"INFO\": \"Коментар\"\n                }\n            ],\n            \"ACTUAL_CARRIER\": {\n                \"GLN\": \"9864232617358\",\n                \"ID\": \"42321421\",\n                \"NAME\": \"ТОВ \\\"Додатковий_v3\\\" (прод)\",\n                \"ADDRESS\": \"Україна, 88933, Дніпропетровська обл., Дніпровський р-н, м. Дніпро, моя адреса, б. 1\"\n            },\n            \"DRIVER\": {\n                \"GLN\": \"9864232596134\",\n                \"ID\": \"213242232\",\n                \"NAME\": \"Водій Стрига І.А._v3 (прод)\",\n                \"LICENSE\": \"XYY995511\",\n                \"CONTACTNUMBER\": \"380000000000\"\n            }\n        }\n    ],\n    \"ASSOCIATEDREFERENCEDDOCUMENTS\": [\n        {\n            \"CODE\": \"335\",\n            \"NUMBER\": \"test_doc_process_2\",\n            \"DATE\": \"2024-07-29\",\n            \"UUID\": \"{{transportation_doc_uuid}}\"\n        }\n    ],\n    \"TRANSPORTATIONMEANS\": [\n        {\n            \"ID\": \"AA1111AA\",\n            \"MODEL\": \"F40\",\n            \"BRAND\": \"Hyunday\",\n            \"TYPE\": \"тягач\",\n            \"COLOR\": \"lime\",\n            \"LENGTH\": \"11111\",\n            \"WIDTH\": \"22222\",\n            \"HEIGHT\": \"33333\",\n            \"GROSS_WEIGHT_WITHOUT_CARGO\": \"44444\",\n            \"TEMPERATURE\": {\n                \"MIN\": \"-111\",\n                \"MAX\": \"+222\"\n            }\n        },\n        {\n            \"ID\": \"AA22222AA\",\n            \"MODEL\": \"TEST MODEL\",\n            \"BRAND\": \"TEST MARKA\",\n            \"TYPE\": \"TEST TYPE\",\n            \"LENGTH\": \"12000\",\n            \"WIDTH\": \"12000\",\n            \"HEIGHT\": \"12000\",\n            \"GROSS_WEIGHT_WITHOUT_CARGO\": \"12000\",\n            \"TEMPERATURE\": {\n                \"MIN\": \"-111\",\n                \"MAX\": \"+222\"\n            },\n            \"CATEGORYCODE\": \"TE\",\n            \"CHARACTERISTICCODE\": \"17\"\n        },\n        {\n            \"ID\": \"AA22222AA\",\n            \"MODEL\": \"TEST MODEL\",\n            \"BRAND\": \"TEST MARKA\",\n            \"TYPE\": \"TEST TYPE\",\n            \"LENGTH\": \"12000\",\n            \"WIDTH\": \"12000\",\n            \"HEIGHT\": \"12000\",\n            \"GROSS_WEIGHT_WITHOUT_CARGO\": \"12000\",\n            \"TEMPERATURE\": {\n                \"MIN\": \"-111\",\n                \"MAX\": \"+222\"\n            },\n            \"CATEGORYCODE\": \"TE\",\n            \"CHARACTERISTICCODE\": \"17\"\n        }\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc?gln={{carrier}}&doc_type=transportationorder",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "doc_type",
+													"value": "transportationorder"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Створення ПЗНТ - xml",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"",
+													"{",
+													"    const resp = JSON.parse(pm.response.text());",
+													"    console.log(resp)",
+													"    if(resp && resp.doc_uuid) {",
+													"        pm.environment.set(\"confirmation_doc_uuid\", resp.doc_uuid);",
+													"    }",
+													"};",
+													"",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<TRANSPORTATIONORDER>\n  <NUMBER>test_doc_process_3</NUMBER>\n  <DATE>2024-07-29</DATE>\n  <SUBDOCTYPE>2</SUBDOCTYPE>\n  <ASSOCIATEDREFERENCEDDOCUMENT>\n    <CODE>335</CODE>\n    <NUMBER>test_doc_process_2</NUMBER>\n    <DATE>2024-07-29</DATE>\n    <UUID>{{transportation_doc_uuid}}</UUID>\n  </ASSOCIATEDREFERENCEDDOCUMENT>\n  <TRANSPORTATIONTYPE>11</TRANSPORTATIONTYPE>\n  <CAMPAIGNNUMBER>8887-21</CAMPAIGNNUMBER>\n  <CAMPAIGNDATE>2024-07-29</CAMPAIGNDATE>\n  <PURCHASEORDERNUMBER>000-1</PURCHASEORDERNUMBER>\n  <TRANSPORTATIONPAYMENTTYPE>1</TRANSPORTATIONPAYMENTTYPE>\n  <TRANSPORTATIONCOST>\n    <WITHOUTVAT>111</WITHOUTVAT>\n    <VAT>7</VAT>\n    <WITHVAT>118.77</WITHVAT>\n  </TRANSPORTATIONCOST>\n  <TRANSPORTATIONMEANS>\n    <ID>AA1111AA</ID>\n    <MODEL>F40</MODEL>\n    <BRAND>Hyunday</BRAND>\n    <TYPE>тягач</TYPE>\n    <COLOR>lime</COLOR>\n    <TEMPERATURE>\n      <MIN>-111</MIN>\n      <MAX>+222</MAX>\n    </TEMPERATURE>\n    <LENGTH>11111</LENGTH>\n    <WIDTH>22222</WIDTH>\n    <HEIGHT>33333</HEIGHT>\n    <GROSS_WEIGHT_WITHOUT_CARGO>44444</GROSS_WEIGHT_WITHOUT_CARGO>\n  </TRANSPORTATIONMEANS>\n  <TRANSPORTATIONMEANS>\n    <CATEGORYCODE>TE</CATEGORYCODE>\n    <CHARACTERISTICCODE>17</CHARACTERISTICCODE>\n    <ID>AA22222AA</ID>\n    <MODEL>TEST MODEL</MODEL>\n    <BRAND>TEST MARKA</BRAND>\n    <TYPE>TEST TYPE</TYPE>\n    <TEMPERATURE>\n      <MIN>-111</MIN>\n      <MAX>+222</MAX>\n    </TEMPERATURE>\n    <LENGTH>12000</LENGTH>\n    <WIDTH>12000</WIDTH>\n    <HEIGHT>12000</HEIGHT>\n    <GROSS_WEIGHT_WITHOUT_CARGO>12000</GROSS_WEIGHT_WITHOUT_CARGO>\n  </TRANSPORTATIONMEANS>\n  <TRANSPORTATIONMEANS>\n    <CATEGORYCODE>TE</CATEGORYCODE>\n    <CHARACTERISTICCODE>17</CHARACTERISTICCODE>\n    <ID>AA22222AA</ID>\n    <MODEL>TEST MODEL</MODEL>\n    <BRAND>TEST MARKA</BRAND>\n    <TYPE>TEST TYPE</TYPE>\n    <TEMPERATURE>\n      <MIN>-111</MIN>\n      <MAX>+222</MAX>\n    </TEMPERATURE>\n    <LENGTH>12000</LENGTH>\n    <WIDTH>12000</WIDTH>\n    <HEIGHT>12000</HEIGHT>\n    <GROSS_WEIGHT_WITHOUT_CARGO>12000</GROSS_WEIGHT_WITHOUT_CARGO>\n  </TRANSPORTATIONMEANS>\n  <LENGTHROUTE>321</LENGTHROUTE>\n  <TEMPERATURE>\n    <MIN>-222</MIN>\n    <MAX>+322</MAX>\n  </TEMPERATURE>\n  <DESCRIPTION>Найменування вантажу</DESCRIPTION>\n  <TOTALPACKAGEWEIGHT>321</TOTALPACKAGEWEIGHT>\n  <TOTALPACKAGEQUANTITY>321</TOTALPACKAGEQUANTITY>\n  <LOADFACTOR>34</LOADFACTOR>\n  <INFO>Додаткова інформація</INFO>\n  <FINANCIALINFO>Додаткова інформація для фінансового відділу</FINANCIALINFO>\n  <HEAD>\n    <CUSTOMER>\n      <GLN>9864232755074</GLN>\n      <ID>34554363</ID>\n      <NAME>ТОВ &quot;Вантажовідправник&quot; ТТНв3</NAME>\n      <ADDRESS>Україна,\n3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес</ADDRESS>\n    </CUSTOMER>\n    <CARRIER>\n      <GLN>9864232596110</GLN>\n      <ID>32131212</ID>\n      <NAME>ТОВ &quot;Перевізник_v3&quot; (прод)</NAME>\n      <ADDRESS>Україна,\n24522, Вінницька, Вінницький р-н, м. Вінниця, вул. Вінницька,\n1</ADDRESS>\n    </CARRIER>\n    <ACTUAL_CARRIER>\n      <GLN>9864232617358</GLN>\n      <ID>42321421</ID>\n      <NAME>ТОВ &quot;Додатковий_v3&quot; (прод)</NAME>\n      <ADDRESS>Україна,\n88933, Дніпропетровська обл., Дніпровський р-н, м. Дніпро, моя адреса, б. 1</ADDRESS>\n    </ACTUAL_CARRIER>\n    <CONSIGNOR>\n      <GLN>9864232755074</GLN>\n      <ID>34554363</ID>\n      <NAME>ТОВ &quot;Вантажовідправник&quot; ТТНв3</NAME>\n      <ADDRESS>Україна,\n3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес</ADDRESS>\n    </CONSIGNOR>\n    <DRIVER>\n      <GLN>9864232596134</GLN>\n      <ID>213242232</ID>\n      <NAME>Водій Стрига І.А._v3 (прод)</NAME>\n      <LICENSE>XYY995511</LICENSE>\n      <CONTACTNUMBER>380000000000</CONTACTNUMBER>\n    </DRIVER>\n    <POSITION>\n      <POSITIONNUMBER>1</POSITIONNUMBER>\n      <LOAD>\n        <ADDRESS>\n          <GLN>9864232755074</GLN>\n          <ID>UA59020070010054283</ID>\n          <NAME>Україна,\n3232323, Сумська обл., Конотопський р-н, м. Конотоп</NAME>\n          <ADDRESS>Адрес</ADDRESS>\n        </ADDRESS>\n        <DATE>2024-07-30 15:34</DATE>\n        <CONSIGNORCONTACTFACENAME>Вантажовідправник Особа</CONSIGNORCONTACTFACENAME>\n        <CONSIGNORCONTACTFACENUMBER>380462345345</CONSIGNORCONTACTFACENUMBER>\n      </LOAD>\n      <UNLOAD>\n        <ADDRESS>\n          <GLN>9864232596127</GLN>\n          <ID>UA59080270010036634</ID>\n          <NAME>Україна,\n12351, Сумська, Сумський р-н, м. Суми</NAME>\n          <ADDRESS>вул. Київська,\n1</ADDRESS>\n        </ADDRESS>\n        <DATE>2024-07-30 15:34</DATE>\n        <CONSIGNEE>\n          <GLN>9864232596127</GLN>\n          <ID>12345678</ID>\n          <NAME>ТОВ &quot;Вантажоодержувач_v3&quot; (прод)</NAME>\n          <ADDRESS>Україна,\n12351, Сумська, Сумський р-н, м. Суми, вул. Київська,\n1</ADDRESS>\n        </CONSIGNEE>\n        <CONSIGNEECONTACTFACENAME>Вантажоодержувач Особа</CONSIGNEECONTACTFACENAME>\n        <CONSIGNEECONTACTFACENUMBER>380567345634</CONSIGNEECONTACTFACENUMBER>\n      </UNLOAD>\n      <PACKAGEWEIGHT>32.232</PACKAGEWEIGHT>\n      <PACKAGEQUANTITY>321</PACKAGEQUANTITY>\n      <TRANSPORTTYPE>Вид транспорту</TRANSPORTTYPE>\n      <TEMPERATURE>\n        <MIN>-343</MIN>\n        <MAX>+343</MAX>\n      </TEMPERATURE>\n      <INFO>Коментар</INFO>\n    </POSITION>\n  </HEAD>\n</TRANSPORTATIONORDER>",
+											"options": {
+												"raw": {
+													"language": "xml"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc?gln={{carrier}}&doc_type=transportationorder",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "doc_type",
+													"value": "transportationorder"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Створення і відправка ПЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "transportationorder",
+													"type": "file",
+													"src": []
+												}
+											]
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/create_and_send?doc_type=transportationorder&gln={{carrier}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"create_and_send"
+											],
+											"query": [
+												{
+													"key": "doc_type",
+													"value": "transportationorder"
+												},
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Підписання",
+							"item": [
+								{
+									"name": "Завантажити xml тіло документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/octet-stream",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/download?format=xml&gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"download"
+											],
+											"query": [
+												{
+													"key": "response_type",
+													"value": "bytes",
+													"description": "file | bytes",
+													"disabled": true
+												},
+												{
+													"key": "file",
+													"value": "file_name",
+													"disabled": true
+												},
+												{
+													"key": "format",
+													"value": "xml"
+												},
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{confirmation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Підписати заявку на транспортування",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"signs\": [\r\n        {\r\n            \r\n            \"sign\": \"{{sign_base64}}\",\r\n            \"type\": 1\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/ticket?gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"ticket"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{confirmation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Кроки:\n\n1. Завантажуємо xml чернетки та зберігаємо у файл (postman - \"Send and Download\" або \"Send\" та \"Save response to file\" в додаткових діях (\"View more actions\")\n    \n2. Отримуємо підпис у форматі base64 (приклад, як отримати нижче)\n3. В Enviroments в змінну sign_base64 вставляємо base64 код та зберігаємо або додаємо код base64 напряму в тіло роута підписання в параметр \"sign\"\n4. Відправляємо запит \"Підписати заявку на транспортування\"\n    \n\nПриклад кроків як отримати підпис у форматі base64:\n\n1. На файл, який завантажили на кроці 1 накладаємо підпис (поза платформою EDIN) у форматі CAdES-X-Long, enveloped (підпис та дані в одному файлі)\n2. Завантажуємо файл у форматі p7s\n3. Декодуємо контент p7s файлу у формат base64 (поза платформою EDIN)"
+						},
+						{
+							"name": "Відправка",
+							"item": [
+								{
+									"name": "Відправка чернетки",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												},
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PATCH",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"extra_fields\": {\n        \"sub_status_id\": \"1\"\n    }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/send?gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"send"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{confirmation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Відкликання підпису",
+							"item": [
+								{
+									"name": "Отримати тікет відкликання документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/revoke?gln={{carrier}}&reason=revoke_test_reason&doc_uuid={{confirmation_doc_uuid}}&response_type=xml",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"revoke"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "reason",
+													"value": "revoke_test_reason",
+													"description": "Причина відкликання підпису"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{confirmation_doc_uuid}}"
+												},
+												{
+													"key": "response_type",
+													"value": "xml"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Відкликання ПЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "file",
+											"file": {
+												"src": "/Users/vlqa/Downloads/confirmaiton_revoke.txt.p7s"
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/revoke?gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"revoke"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{confirmation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Перевізник може відкликати підпис до того, як Замовник підпише документ.\n\nДокумент має `\"sub_status_id\": \"1\"`"
+						},
+						{
+							"name": "Пошук",
+							"item": [
+								{
+									"name": "Пошук надісланих ПЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"2\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232596110\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Отримати список надісланих ПЗНТ по exchange_status",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [\"{{exchange_status_value}}\"],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"2\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232596110\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Отримати список надісланих ПЗНТ по sub_status_id",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"2\",\n            \"fieldName\": \"sub_doc_type_id\"\n        },\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"{{sub_status_id_value}}\",\n            \"fieldName\": \"sub_status_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232596110\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "TBD - Анулювання",
+							"item": []
+						},
+						{
+							"name": "Отримання json тіло документу",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{auth_sid}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "header",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "Authorization",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{domain}}/api/eds/doc/body?gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}&body_type=json",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"api",
+										"eds",
+										"doc",
+										"body"
+									],
+									"query": [
+										{
+											"key": "gln",
+											"value": "{{carrier}}",
+											"description": "GLN Перевізника"
+										},
+										{
+											"key": "doc_uuid",
+											"value": "{{confirmation_doc_uuid}}"
+										},
+										{
+											"key": "body_type",
+											"value": "json"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Замовник",
+					"item": [
+						{
+							"name": "Підписати вхідний документ Copy",
+							"item": [
+								{
+									"name": "Завантажити xml тіло документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/octet-stream",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/download?format=xml&doc_uuid={{confirmation_doc_uuid}}&gln={{customer}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"download"
+											],
+											"query": [
+												{
+													"key": "format",
+													"value": "xml"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{confirmation_doc_uuid}}"
+												},
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Створення і відправка ПЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "transportationorder",
+													"type": "file",
+													"src": "/Users/vlqa/Downloads/transportationorder_20240729165900_d342a346-fa11-4903-80bb-ae8dc80d3239.p7s"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/create_and_send?doc_type=transportationorder&gln={{carrier}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"create_and_send"
+											],
+											"query": [
+												{
+													"key": "doc_type",
+													"value": "transportationorder"
+												},
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Замовника"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Підписуємо документ, що має екстрафілд `\"sub_status_id\": \"1\"`\n\nКроки:\n\n1. Завантажуємо xml та зберігаємо у файл (postman - \"Send and Download\" або \"Send\" та \"Save response to file\" в додаткових діях (\"View more actions\")\n2. накладаємо підпис (поза платформою EDIN) у форматі CAdES-X-Long, enveloped (підпис та дані в одному файлі)\n3. Завантажуємо файл у форматі p7s\n4. Додаємо p7s файл в тіло запиту \"Створення і відправка заявки на транспортування\""
+						},
+						{
+							"name": "Відхилення",
+							"item": [
+								{
+									"name": "Отримати тікет відхилення документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/reject?gln={{customer}}&reason=reject_test_reason&doc_uuid={{transportation_doc_uuid}}&response_type=xml",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"reject"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "reason",
+													"value": "reject_test_reason",
+													"description": "Причина відхилення документа"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "response_type",
+													"value": "xml"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Відхилення ПЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "file",
+											"file": {
+												"src": "/Users/vlqa/Downloads/response.txt.p7s"
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/reject?doc_uuid={{transportation_doc_uuid}}&gln={{customer}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"reject"
+											],
+											"query": [
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Замовник може відхилити вхідне \"підтвердження заявки на транспортування\" до того, як підпише документ.\n\nДокумент має `\"sub_status_id\": \"1\"`"
+						},
+						{
+							"name": "TBD - Анулювання",
+							"item": []
+						},
+						{
+							"name": "Пошук",
+							"item": [
+								{
+									"name": "Пошук вхідних ПЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"2\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232755074\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{customer}}&family=edi&status_id=1",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Отримати список вхідних ПЗНТ по exchange_status",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [\"{{exchange_status_value}}\"],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"2\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232755074\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{customer}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Отримати список надісланих ПЗНТ по sub_status_id",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"2\",\n            \"fieldName\": \"sub_doc_type_id\"\n        },\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"{{sub_status_id_value}}\",\n            \"fieldName\": \"sub_status_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232755074\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{customer}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Отримати json тіло документа",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{auth_sid}}",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "Authorization",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "header",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/api/eds/doc/ettn/body?doc_uuid={{confirmation_doc_uuid}}&gln={{customer}}&format=json",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"api",
+										"eds",
+										"doc",
+										"ettn",
+										"body"
+									],
+									"query": [
+										{
+											"key": "doc_uuid",
+											"value": "{{confirmation_doc_uuid}}"
+										},
+										{
+											"key": "gln",
+											"value": "{{customer}}",
+											"description": "GLN Замовника"
+										},
+										{
+											"key": "format",
+											"value": "json"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Завантажити тіло документа",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/octet-stream",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/eds/doc/download?format=xml&gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"doc",
+								"download"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "xml",
+									"description": "pdf | xls | p7s | zip | xml"
+								},
+								{
+									"key": "gln",
+									"value": "{{carrier}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "doc_uuid",
+									"value": "{{confirmation_doc_uuid}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Завантажити pdf документа",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/octet-stream",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/eds/doc/download?format=pdf&gln={{carrier}}&doc_uuid={{confirmation_doc_uuid}}",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"doc",
+								"download"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "pdf"
+								},
+								{
+									"key": "gln",
+									"value": "{{carrier}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "doc_uuid",
+									"value": "{{confirmation_doc_uuid}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Заявка на транспортування",
+			"item": [
+				{
+					"name": "Замовник",
+					"item": [
+						{
+							"name": "Створення",
+							"item": [
+								{
+									"name": "doc_process = 0",
+									"item": [
+										{
+											"name": "Створення чернетки заявки на транспортування - json",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"\r",
+															"{\r",
+															"    const resp = JSON.parse(pm.response.text());\r",
+															"    console.log(resp)\r",
+															"    if(resp && resp.doc_uuid) {\r",
+															"        pm.environment.set(\"transportation_doc_uuid\", resp.doc_uuid);\r",
+															"    }\r",
+															"};\r",
+															"\r",
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "apikey",
+													"apikey": [
+														{
+															"key": "value",
+															"value": "{{auth_sid}}",
+															"type": "string"
+														},
+														{
+															"key": "key",
+															"value": "Authorization",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"DATE\": \"2024-07-29\",\r\n    \"HEAD\": [\r\n        {\r\n            \"POSITION\": [\r\n                {\r\n                    \"LOAD\": {\r\n                        \"ADDRESS\": {\r\n                            \"GLN\": \"9864232755074\",\r\n                            \"NAME\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп\",\r\n                            \"ADDRESS\": \"Адрес\",\r\n                            \"ID\": \"UA59020070010054283\"\r\n                        },\r\n                        \"DATE\": \"2024-07-29 15:32\",\r\n                        \"CONSIGNORCONTACTFACENAME\": \"Вантажовідправник Особа\",\r\n                        \"CONSIGNORCONTACTFACENUMBER\": \"380462345345\",\r\n                        \"CONSIGNORCONTACTFACEID\": \"462345345234\"\r\n                    },\r\n                    \"UNLOAD\": {\r\n                        \"CONSIGNEE\": {\r\n                            \"GLN\": \"9864232596127\",\r\n                            \"ID\": \"12345678\",\r\n                            \"NAME\": \"ТОВ \\\"Вантажоодержувач_v3\\\" (прод)\",\r\n                            \"ADDRESS\": \"Україна, 12351, Сумська, Сумський р-н, м. Суми, вул. Київська, 1\"\r\n                        },\r\n                        \"ADDRESS\": {\r\n                            \"GLN\": \"9864232596127\",\r\n                            \"NAME\": \"Україна, 12351, Сумська, Сумський р-н, м. Суми\",\r\n                            \"ADDRESS\": \"вул. Київська, 1\",\r\n                            \"ID\": \"UA59080270010036634\"\r\n                        },\r\n                        \"CONSIGNEECONTACTFACENUMBER\": \"380567345634\",\r\n                        \"CONSIGNEECONTACTFACEID\": \"134345445453\",\r\n                        \"CONSIGNEECONTACTFACENAME\": \"Вантажоодержувач Особа\",\r\n                        \"DATE\": \"2024-07-30 15:34\"\r\n                    },\r\n                    \"TEMPERATURE\": {\r\n                        \"MIN\": \"-343\",\r\n                        \"MAX\": \"+343\"\r\n                    },\r\n                    \"PACKAGEQUANTITY\": \"321\",\r\n                    \"PACKAGEWEIGHT\": \"32.232\",\r\n                    \"TRANSPORTTYPE\": \"Вид транспорту\",\r\n                    \"INFO\": \"Коментар\",\r\n                    \"POSITIONNUMBER\": \"1\"\r\n                }\r\n            ],\r\n            \"CUSTOMER\": {\r\n                \"GLN\": \"9864232755074\",\r\n                \"ID\": \"34554363\",\r\n                \"NAME\": \"ТОВ \\\"Вантажовідправник\\\" ТТНв3\",\r\n                \"ADDRESS\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес\"\r\n            },\r\n            \"CONSIGNOR\": {\r\n                \"GLN\": \"9864232755074\",\r\n                \"ID\": \"34554363\",\r\n                \"NAME\": \"ТОВ \\\"Вантажовідправник\\\" ТТНв3\",\r\n                \"ADDRESS\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес\"\r\n            },\r\n            \"CARRIER\": {\r\n                \"GLN\": \"9864232596110\",\r\n                \"ID\": \"32131212\",\r\n                \"NAME\": \"ТОВ \\\"Перевізник_v3\\\" (прод)\",\r\n                \"ADDRESS\": \"Україна, 24522, Вінницька, Вінницький р-н, м. Вінниця, вул. Вінницька, 1\"\r\n            }\r\n        }\r\n    ],\r\n    \"TRANSPORTATIONCOST\": {\r\n        \"WITHOUTVAT\": \"111\",\r\n        \"VAT\": \"7\",\r\n        \"WITHVAT\": \"118.77\"\r\n    },\r\n    \"TEMPERATURE\": {\r\n        \"MIN\": \"-222\",\r\n        \"MAX\": \"+322\"\r\n    },\r\n    \"SUBDOCTYPE\": \"1\",\r\n    \"PURCHASEORDERNUMBER\": \"000-1\",\r\n    \"TRANSPORTATIONTYPE\": \"4.2\",\r\n    \"TRANSPORTATIONPAYMENTTYPE\": \"1\",\r\n    \"TOTALPACKAGEQUANTITY\": \"321\",\r\n    \"TOTALPACKAGEWEIGHT\": \"321\",\r\n    \"LENGTHROUTE\": \"321\",\r\n    \"DESCRIPTION\": \"Найменування вантажу\",\r\n    \"LOADFACTOR\": \"34\",\r\n    \"INFO\": \"Додаткова інформація\",\r\n    \"FINANCIALINFO\": \"Додаткова інформація для фінансового відділу\",\r\n    \"NUMBER\": \"test_doc_process_0001\",\r\n    \"CAMPAIGNNUMBER\": \"8887-21\",\r\n    \"CAMPAIGNDATE\": \"2024-07-29\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{domain}}/api/v2/eds/doc?gln={{customer}}&doc_type=transportationorder",
+													"host": [
+														"{{domain}}"
+													],
+													"path": [
+														"api",
+														"v2",
+														"eds",
+														"doc"
+													],
+													"query": [
+														{
+															"key": "gln",
+															"value": "{{customer}}",
+															"description": "GLN Замовника"
+														},
+														{
+															"key": "doc_type",
+															"value": "transportationorder"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Створення чернетки заявки на транспортування - xml",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"\r",
+															"{\r",
+															"    const resp = JSON.parse(pm.response.text());\r",
+															"    console.log(resp)\r",
+															"    if(resp && resp.doc_uuid) {\r",
+															"        pm.environment.set(\"transportation_doc_uuid\", resp.doc_uuid);\r",
+															"    }\r",
+															"};\r",
+															"\r",
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "apikey",
+													"apikey": [
+														{
+															"key": "value",
+															"value": "{{auth_sid}}",
+															"type": "string"
+														},
+														{
+															"key": "key",
+															"value": "Authorization",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<TRANSPORTATIONORDER>\r\n  <NUMBER>test_doc_process_0</NUMBER>\r\n  <DATE>2024-07-29</DATE>\r\n  <SUBDOCTYPE>1</SUBDOCTYPE>\r\n  <TRANSPORTATIONTYPE>11</TRANSPORTATIONTYPE>\r\n  <CAMPAIGNNUMBER>8887-21</CAMPAIGNNUMBER>\r\n  <CAMPAIGNDATE>2024-07-29</CAMPAIGNDATE>\r\n  <PURCHASEORDERNUMBER>000-1</PURCHASEORDERNUMBER>\r\n  <TRANSPORTATIONPAYMENTTYPE>1</TRANSPORTATIONPAYMENTTYPE>\r\n  <TRANSPORTATIONCOST>\r\n    <WITHOUTVAT>1111</WITHOUTVAT>\r\n    <VAT>7</VAT>\r\n    <WITHVAT>1188.77</WITHVAT>\r\n  </TRANSPORTATIONCOST>\r\n  <LENGTHROUTE>321</LENGTHROUTE>\r\n  <TEMPERATURE>\r\n    <MIN>-222</MIN>\r\n    <MAX>+322</MAX>\r\n  </TEMPERATURE>\r\n  <DESCRIPTION>Найменування вантажу</DESCRIPTION>\r\n  <TOTALPACKAGEWEIGHT>321</TOTALPACKAGEWEIGHT>\r\n  <TOTALPACKAGEQUANTITY>321</TOTALPACKAGEQUANTITY>\r\n  <LOADFACTOR>34</LOADFACTOR>\r\n  <INFO>Додаткова інформація</INFO>\r\n  <FINANCIALINFO>Додаткова інформація для фінансового відділу</FINANCIALINFO>\r\n  <HEAD>\r\n    <CUSTOMER>\r\n      <GLN>9864232755074</GLN>\r\n      <ID>34554363</ID>\r\n      <NAME>ТОВ &quot;Вантажовідправник&quot; ТТНв3</NAME>\r\n      <ADDRESS>Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес</ADDRESS>\r\n    </CUSTOMER>\r\n    <CARRIER>\r\n      <GLN>9864232596110</GLN>\r\n      <ID>32131212</ID>\r\n      <NAME>ТОВ &quot;Перевізник_v3&quot; (прод)</NAME>\r\n      <ADDRESS>Україна, 24522, Вінницька, Вінницький р-н, м. Вінниця, вул. Вінницька, 1</ADDRESS>\r\n    </CARRIER>\r\n    <CONSIGNOR>\r\n      <GLN>9864232755074</GLN>\r\n      <ID>34554363</ID>\r\n      <NAME>ТОВ &quot;Вантажовідправник&quot; ТТНв3</NAME>\r\n      <ADDRESS>Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес</ADDRESS>\r\n    </CONSIGNOR>\r\n    <POSITION>\r\n      <POSITIONNUMBER>1</POSITIONNUMBER>\r\n      <LOAD>\r\n        <ADDRESS>\r\n          <GLN>9864232755074</GLN>\r\n          <ID>UA59020070010054283</ID>\r\n          <NAME>Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп</NAME>\r\n          <ADDRESS>Адрес</ADDRESS>\r\n        </ADDRESS>\r\n        <DATE>2024-07-29 15:32</DATE>\r\n        <CONSIGNORCONTACTFACENAME>Вантажовідправник Особа</CONSIGNORCONTACTFACENAME>\r\n        <CONSIGNORCONTACTFACENUMBER>380462345345</CONSIGNORCONTACTFACENUMBER>\r\n      </LOAD>\r\n      <UNLOAD>\r\n        <ADDRESS>\r\n          <GLN>9864232596127</GLN>\r\n          <ID>UA59080270010036634</ID>\r\n          <NAME>Україна, 12351, Сумська, Сумський р-н, м. Суми</NAME>\r\n          <ADDRESS>вул. Київська, 1</ADDRESS>\r\n        </ADDRESS>\r\n        <DATE>2024-07-30 15:34</DATE>\r\n        <CONSIGNEE>\r\n          <GLN>9864232596127</GLN>\r\n          <ID>12345678</ID>\r\n          <NAME>ТОВ &quot;Вантажоодержувач_v3&quot; (прод)</NAME>\r\n          <ADDRESS>Україна, 12351, Сумська, Сумський р-н, м. Суми, вул. Київська, 1</ADDRESS>\r\n        </CONSIGNEE>\r\n        <CONSIGNEECONTACTFACENAME>Вантажоодержувач Особа</CONSIGNEECONTACTFACENAME>\r\n        <CONSIGNEECONTACTFACENUMBER>380567345634</CONSIGNEECONTACTFACENUMBER>\r\n      </UNLOAD>\r\n      <PACKAGEWEIGHT>32.232</PACKAGEWEIGHT>\r\n      <PACKAGEQUANTITY>321</PACKAGEQUANTITY>\r\n      <TRANSPORTTYPE>Вид транспорту</TRANSPORTTYPE>\r\n      <TEMPERATURE>\r\n        <MIN>-343</MIN>\r\n        <MAX>+343</MAX>\r\n      </TEMPERATURE>\r\n      <INFO>Коментар</INFO>\r\n    </POSITION>\r\n  </HEAD>\r\n</TRANSPORTATIONORDER>",
+													"options": {
+														"raw": {
+															"language": "xml"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{domain}}/api/v2/eds/doc?gln={{customer}}&doc_type=transportationorder",
+													"host": [
+														"{{domain}}"
+													],
+													"path": [
+														"api",
+														"v2",
+														"eds",
+														"doc"
+													],
+													"query": [
+														{
+															"key": "gln",
+															"value": "{{customer}}",
+															"description": "GLN Замовника"
+														},
+														{
+															"key": "doc_type",
+															"value": "transportationorder"
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									],
+									"description": "Екстрафілд `doc_process: '0'` - означає, що в тілі \"заявки на транспортування\" не передається водій та транспортний засіб"
+								},
+								{
+									"name": "doc_process = 1",
+									"item": [
+										{
+											"name": "Створення чернетки заявки на транспортування - json",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"\r",
+															"{\r",
+															"    const resp = JSON.parse(pm.response.text());\r",
+															"    console.log(resp)\r",
+															"    if(resp && resp.doc_uuid) {\r",
+															"        pm.environment.set(\"transportation_doc_uuid\", resp.doc_uuid);\r",
+															"    }\r",
+															"};\r",
+															"\r",
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "apikey",
+													"apikey": [
+														{
+															"key": "value",
+															"value": "{{auth_sid}}",
+															"type": "string"
+														},
+														{
+															"key": "key",
+															"value": "Authorization",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"DATE\": \"2024-07-30\",\r\n    \"HEAD\": [\r\n        {\r\n            \"CUSTOMER\": {\r\n                \"GLN\": \"9864232755074\",\r\n                \"ID\": \"34554363\",\r\n                \"NAME\": \"ТОВ \\\"Вантажовідправник\\\" ТТНв3\",\r\n                \"ADDRESS\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес\"\r\n            },\r\n            \"CARRIER\": {\r\n                \"GLN\": \"9864232596110\",\r\n                \"ID\": \"32131212\",\r\n                \"NAME\": \"ТОВ \\\"Перевізник_v3\\\" (прод)\",\r\n                \"ADDRESS\": \"Україна, 24522, Вінницька, Вінницький р-н, м. Вінниця, вул. Вінницька, 1\"\r\n            },\r\n            \"CONSIGNOR\": {\r\n                \"GLN\": \"9864232755074\",\r\n                \"ID\": \"34554363\",\r\n                \"NAME\": \"ТОВ \\\"Вантажовідправник\\\" ТТНв3\",\r\n                \"ADDRESS\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес\"\r\n            },\r\n            \"POSITION\": [\r\n                {\r\n                    \"POSITIONNUMBER\": \"1\",\r\n                    \"LOAD\": {\r\n                        \"ADDRESS\": {\r\n                            \"GLN\": \"9864232755074\",\r\n                            \"ID\": \"UA59020070010054283\",\r\n                            \"NAME\": \"Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп\",\r\n                            \"ADDRESS\": \"Адрес\"\r\n                        },\r\n                        \"DATE\": \"2024-07-29 15:32\",\r\n                        \"CONSIGNORCONTACTFACENAME\": \"Вантажовідправник Особа\",\r\n                        \"CONSIGNORCONTACTFACENUMBER\": \"380462345345\"\r\n                    },\r\n                    \"UNLOAD\": {\r\n                        \"ADDRESS\": {\r\n                            \"GLN\": \"9864232596127\",\r\n                            \"ID\": \"UA59080270010036634\",\r\n                            \"NAME\": \"Україна, 12351, Сумська, Сумський р-н, м. Суми\",\r\n                            \"ADDRESS\": \"вул. Київська, 1\"\r\n                        },\r\n                        \"DATE\": \"2024-07-30 15:34\",\r\n                        \"CONSIGNEE\": {\r\n                            \"GLN\": \"9864232596127\",\r\n                            \"ID\": \"12345678\",\r\n                            \"NAME\": \"ТОВ \\\"Вантажоодержувач_v3\\\" (прод)\",\r\n                            \"ADDRESS\": \"Україна, 12351, Сумська, Сумський р-н, м. Суми, вул. Київська, 1\"\r\n                        },\r\n                        \"CONSIGNEECONTACTFACENAME\": \"Вантажоодержувач Особа\",\r\n                        \"CONSIGNEECONTACTFACENUMBER\": \"380567345634\"\r\n                    },\r\n                    \"PACKAGEWEIGHT\": \"32.232\",\r\n                    \"PACKAGEQUANTITY\": \"321\",\r\n                    \"TRANSPORTTYPE\": \"Вид транспорту\",\r\n                    \"TEMPERATURE\": {\r\n                        \"MIN\": \"-343\",\r\n                        \"MAX\": \"+343\"\r\n                    },\r\n                    \"INFO\": \"Коментар\"\r\n                }\r\n            ],\r\n            \"DRIVER\": {\r\n                \"GLN\": \"9864232596134\",\r\n                \"ID\": \"213242232\",\r\n                \"NAME\": \"Водій Стрига І.А._v3 (прод)\",\r\n                \"LICENSE\": \"XYY995511\",\r\n                \"CONTACTNUMBER\": \"380000000000\"\r\n            }\r\n        }\r\n    ],\r\n    \"TRANSPORTATIONCOST\": {\r\n        \"WITHOUTVAT\": \"111\",\r\n        \"VAT\": \"7\",\r\n        \"WITHVAT\": \"118.77\"\r\n    },\r\n    \"TEMPERATURE\": {\r\n        \"MIN\": \"-222\",\r\n        \"MAX\": \"+322\"\r\n    },\r\n    \"NUMBER\": \"test_doc_process_1\",\r\n    \"SUBDOCTYPE\": \"1\",\r\n    \"TRANSPORTATIONTYPE\": \"11\",\r\n    \"CAMPAIGNNUMBER\": \"8887-21\",\r\n    \"CAMPAIGNDATE\": \"2024-07-29\",\r\n    \"PURCHASEORDERNUMBER\": \"000-1\",\r\n    \"TRANSPORTATIONPAYMENTTYPE\": \"1\",\r\n    \"LENGTHROUTE\": \"321\",\r\n    \"DESCRIPTION\": \"Найменування вантажу\",\r\n    \"TOTALPACKAGEWEIGHT\": \"321\",\r\n    \"TOTALPACKAGEQUANTITY\": \"321\",\r\n    \"LOADFACTOR\": \"34\",\r\n    \"INFO\": \"Додаткова інформація\",\r\n    \"FINANCIALINFO\": \"Додаткова інформація для фінансового відділу\",\r\n    \"TRANSPORTATIONMEANS\": [\r\n        {\r\n            \"ID\": \"AA1111AA\",\r\n            \"MODEL\": \"F40\",\r\n            \"BRAND\": \"Hyunday\",\r\n            \"TYPE\": \"тягач\",\r\n            \"COLOR\": \"lime\",\r\n            \"LENGTH\": \"11111\",\r\n            \"WIDTH\": \"22222\",\r\n            \"HEIGHT\": \"33333\",\r\n            \"GROSS_WEIGHT_WITHOUT_CARGO\": \"44444\",\r\n            \"TEMPERATURE\": {\r\n                \"MIN\": \"-111\",\r\n                \"MAX\": \"+222\"\r\n            }\r\n        },\r\n        {\r\n            \"ID\": \"AA22222AA\",\r\n            \"MODEL\": \"TEST MODEL\",\r\n            \"BRAND\": \"TEST MARKA\",\r\n            \"TYPE\": \"TEST TYPE\",\r\n            \"LENGTH\": \"12000\",\r\n            \"WIDTH\": \"12000\",\r\n            \"HEIGHT\": \"12000\",\r\n            \"GROSS_WEIGHT_WITHOUT_CARGO\": \"12000\",\r\n            \"TEMPERATURE\": {\r\n                \"MIN\": \"-111\",\r\n                \"MAX\": \"+222\"\r\n            },\r\n            \"CATEGORYCODE\": \"TE\",\r\n            \"CHARACTERISTICCODE\": \"17\"\r\n        },\r\n        {\r\n            \"ID\": \"AA22222AA\",\r\n            \"MODEL\": \"TEST MODEL\",\r\n            \"BRAND\": \"TEST MARKA\",\r\n            \"TYPE\": \"TEST TYPE\",\r\n            \"LENGTH\": \"12000\",\r\n            \"WIDTH\": \"12000\",\r\n            \"HEIGHT\": \"12000\",\r\n            \"GROSS_WEIGHT_WITHOUT_CARGO\": \"12000\",\r\n            \"TEMPERATURE\": {\r\n                \"MIN\": \"-111\",\r\n                \"MAX\": \"+222\"\r\n            },\r\n            \"CATEGORYCODE\": \"TE\",\r\n            \"CHARACTERISTICCODE\": \"17\"\r\n        }\r\n    ]\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{domain}}/api/v2/eds/doc?gln={{customer}}&doc_type=transportationorder",
+													"host": [
+														"{{domain}}"
+													],
+													"path": [
+														"api",
+														"v2",
+														"eds",
+														"doc"
+													],
+													"query": [
+														{
+															"key": "gln",
+															"value": "{{customer}}",
+															"description": "GLN Замовника"
+														},
+														{
+															"key": "doc_type",
+															"value": "transportationorder"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Створення чернетки заявки на транспортування - xml",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"\r",
+															"{\r",
+															"    const resp = JSON.parse(pm.response.text());\r",
+															"    console.log(resp)\r",
+															"    if(resp && resp.doc_uuid) {\r",
+															"        pm.environment.set(\"transportation_doc_uuid\", resp.doc_uuid);\r",
+															"    }\r",
+															"};\r",
+															"\r",
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "apikey",
+													"apikey": [
+														{
+															"key": "value",
+															"value": "{{auth_sid}}",
+															"type": "string"
+														},
+														{
+															"key": "key",
+															"value": "Authorization",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<TRANSPORTATIONORDER>\r\n  <NUMBER>test_doc_process_1</NUMBER>\r\n  <DATE>2024-07-30</DATE>\r\n  <SUBDOCTYPE>1</SUBDOCTYPE>\r\n  <TRANSPORTATIONTYPE>11</TRANSPORTATIONTYPE>\r\n  <CAMPAIGNNUMBER>8887-21</CAMPAIGNNUMBER>\r\n  <CAMPAIGNDATE>2024-07-29</CAMPAIGNDATE>\r\n  <PURCHASEORDERNUMBER>000-1</PURCHASEORDERNUMBER>\r\n  <TRANSPORTATIONPAYMENTTYPE>1</TRANSPORTATIONPAYMENTTYPE>\r\n  <TRANSPORTATIONCOST>\r\n    <WITHOUTVAT>111</WITHOUTVAT>\r\n    <VAT>7</VAT>\r\n    <WITHVAT>118.77</WITHVAT>\r\n  </TRANSPORTATIONCOST>\r\n  <TRANSPORTATIONMEANS>\r\n    <ID>AA1111AA</ID>\r\n    <MODEL>F40</MODEL>\r\n    <BRAND>Hyunday</BRAND>\r\n    <TYPE>тягач</TYPE>\r\n    <COLOR>lime</COLOR>\r\n    <TEMPERATURE>\r\n      <MIN>-111</MIN>\r\n      <MAX>+222</MAX>\r\n    </TEMPERATURE>\r\n    <LENGTH>11111</LENGTH>\r\n    <WIDTH>22222</WIDTH>\r\n    <HEIGHT>33333</HEIGHT>\r\n    <GROSS_WEIGHT_WITHOUT_CARGO>44444</GROSS_WEIGHT_WITHOUT_CARGO>\r\n  </TRANSPORTATIONMEANS>\r\n  <TRANSPORTATIONMEANS>\r\n    <CATEGORYCODE>TE</CATEGORYCODE>\r\n    <CHARACTERISTICCODE>17</CHARACTERISTICCODE>\r\n    <ID>AA22222AA</ID>\r\n    <MODEL>TEST MODEL</MODEL>\r\n    <BRAND>TEST MARKA</BRAND>\r\n    <TYPE>TEST TYPE</TYPE>\r\n    <TEMPERATURE>\r\n      <MIN>-111</MIN>\r\n      <MAX>+222</MAX>\r\n    </TEMPERATURE>\r\n    <LENGTH>12000</LENGTH>\r\n    <WIDTH>12000</WIDTH>\r\n    <HEIGHT>12000</HEIGHT>\r\n    <GROSS_WEIGHT_WITHOUT_CARGO>12000</GROSS_WEIGHT_WITHOUT_CARGO>\r\n  </TRANSPORTATIONMEANS>\r\n  <TRANSPORTATIONMEANS>\r\n    <CATEGORYCODE>TE</CATEGORYCODE>\r\n    <CHARACTERISTICCODE>17</CHARACTERISTICCODE>\r\n    <ID>AA22222AA</ID>\r\n    <MODEL>TEST MODEL</MODEL>\r\n    <BRAND>TEST MARKA</BRAND>\r\n    <TYPE>TEST TYPE</TYPE>\r\n    <TEMPERATURE>\r\n      <MIN>-111</MIN>\r\n      <MAX>+222</MAX>\r\n    </TEMPERATURE>\r\n    <LENGTH>12000</LENGTH>\r\n    <WIDTH>12000</WIDTH>\r\n    <HEIGHT>12000</HEIGHT>\r\n    <GROSS_WEIGHT_WITHOUT_CARGO>12000</GROSS_WEIGHT_WITHOUT_CARGO>\r\n  </TRANSPORTATIONMEANS>\r\n  <LENGTHROUTE>321</LENGTHROUTE>\r\n  <TEMPERATURE>\r\n    <MIN>-222</MIN>\r\n    <MAX>+322</MAX>\r\n  </TEMPERATURE>\r\n  <DESCRIPTION>Найменування вантажу</DESCRIPTION>\r\n  <TOTALPACKAGEWEIGHT>321</TOTALPACKAGEWEIGHT>\r\n  <TOTALPACKAGEQUANTITY>321</TOTALPACKAGEQUANTITY>\r\n  <LOADFACTOR>34</LOADFACTOR>\r\n  <INFO>Додаткова інформація</INFO>\r\n  <FINANCIALINFO>Додаткова інформація для фінансового відділу</FINANCIALINFO>\r\n  <HEAD>\r\n    <CUSTOMER>\r\n      <GLN>9864232755074</GLN>\r\n      <ID>34554363</ID>\r\n      <NAME>ТОВ &quot;Вантажовідправник&quot; ТТНв3</NAME>\r\n      <ADDRESS>Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес</ADDRESS>\r\n    </CUSTOMER>\r\n    <CARRIER>\r\n      <GLN>9864232596110</GLN>\r\n      <ID>32131212</ID>\r\n      <NAME>ТОВ &quot;Перевізник_v3&quot; (прод)</NAME>\r\n      <ADDRESS>Україна, 24522, Вінницька, Вінницький р-н, м. Вінниця, вул. Вінницька, 1</ADDRESS>\r\n    </CARRIER>\r\n    <CONSIGNOR>\r\n      <GLN>9864232755074</GLN>\r\n      <ID>34554363</ID>\r\n      <NAME>ТОВ &quot;Вантажовідправник&quot; ТТНв3</NAME>\r\n      <ADDRESS>Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп, Адрес</ADDRESS>\r\n    </CONSIGNOR>\r\n    <DRIVER>\r\n      <GLN>9864232596134</GLN>\r\n      <ID>213242232</ID>\r\n      <NAME>Водій Стрига І.А._v3 (прод)</NAME>\r\n      <LICENSE>XYY995511</LICENSE>\r\n      <CONTACTNUMBER>380000000000</CONTACTNUMBER>\r\n    </DRIVER>\r\n    <POSITION>\r\n      <POSITIONNUMBER>1</POSITIONNUMBER>\r\n      <LOAD>\r\n        <ADDRESS>\r\n          <GLN>9864232755074</GLN>\r\n          <ID>UA59020070010054283</ID>\r\n          <NAME>Україна, 3232323, Сумська обл., Конотопський р-н, м. Конотоп</NAME>\r\n          <ADDRESS>Адрес</ADDRESS>\r\n        </ADDRESS>\r\n        <DATE>2024-07-29 15:32</DATE>\r\n        <CONSIGNORCONTACTFACENAME>Вантажовідправник Особа</CONSIGNORCONTACTFACENAME>\r\n        <CONSIGNORCONTACTFACENUMBER>380462345345</CONSIGNORCONTACTFACENUMBER>\r\n      </LOAD>\r\n      <UNLOAD>\r\n        <ADDRESS>\r\n          <GLN>9864232596127</GLN>\r\n          <ID>UA59080270010036634</ID>\r\n          <NAME>Україна, 12351, Сумська, Сумський р-н, м. Суми</NAME>\r\n          <ADDRESS>вул. Київська, 1</ADDRESS>\r\n        </ADDRESS>\r\n        <DATE>2024-07-30 15:34</DATE>\r\n        <CONSIGNEE>\r\n          <GLN>9864232596127</GLN>\r\n          <ID>12345678</ID>\r\n          <NAME>ТОВ &quot;Вантажоодержувач_v3&quot; (прод)</NAME>\r\n          <ADDRESS>Україна, 12351, Сумська, Сумський р-н, м. Суми, вул. Київська, 1</ADDRESS>\r\n        </CONSIGNEE>\r\n        <CONSIGNEECONTACTFACENAME>Вантажоодержувач Особа</CONSIGNEECONTACTFACENAME>\r\n        <CONSIGNEECONTACTFACENUMBER>380567345634</CONSIGNEECONTACTFACENUMBER>\r\n      </UNLOAD>\r\n      <PACKAGEWEIGHT>32.232</PACKAGEWEIGHT>\r\n      <PACKAGEQUANTITY>321</PACKAGEQUANTITY>\r\n      <TRANSPORTTYPE>Вид транспорту</TRANSPORTTYPE>\r\n      <TEMPERATURE>\r\n        <MIN>-343</MIN>\r\n        <MAX>+343</MAX>\r\n      </TEMPERATURE>\r\n      <INFO>Коментар</INFO>\r\n    </POSITION>\r\n  </HEAD>\r\n</TRANSPORTATIONORDER>",
+													"options": {
+														"raw": {
+															"language": "xml"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{domain}}/api/v2/eds/doc?gln={{customer}}&doc_type=transportationorder",
+													"host": [
+														"{{domain}}"
+													],
+													"path": [
+														"api",
+														"v2",
+														"eds",
+														"doc"
+													],
+													"query": [
+														{
+															"key": "gln",
+															"value": "{{customer}}",
+															"description": "GLN Замовника"
+														},
+														{
+															"key": "doc_type",
+															"value": "transportationorder"
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									],
+									"description": "Екстрафілд `doc_process: '1'` - означає, що в тілі \"заявки на транспортування\" передається водій та транспортний засіб"
+								},
+								{
+									"name": "Створення і відправка заявки на транспортування",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "transportationorder",
+													"type": "file",
+													"src": "/Users/vlqa/Downloads/transportationorder_20240729165900_d342a346-fa11-4903-80bb-ae8dc80d3239.p7s"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/create_and_send?doc_type=transportationorder&gln={{customer}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"create_and_send"
+											],
+											"query": [
+												{
+													"key": "doc_type",
+													"value": "transportationorder"
+												},
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Підписання",
+							"item": [
+								{
+									"name": "Завантажити xml тіло документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/octet-stream",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/download?format=xml&gln={{customer}}&doc_uuid={{transportation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"download"
+											],
+											"query": [
+												{
+													"key": "format",
+													"value": "xml"
+												},
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Підписати заявку на транспортування",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"signs\": [\r\n        {\r\n            \r\n            \"sign\": \"{{sign_base64}}\",\r\n            \"type\": 1\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/ticket?gln={{customer}}&doc_uuid={{transportation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"ticket"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Кроки:\n\n1. Завантажуємо xml чернетки та зберігаємо у файл (postman - \"Send and Download\" або \"Send\" та \"Save response to file\" в додаткових діях (\"View more actions\")\n    \n2. Отримуємо підпис у форматі base64 (приклад, як отримати нижче)\n3. В Enviroments в змінну sign_base64 вставляємо base64 код та зберігаємо або додаємо код base64 напряму в тіло роута підписання в параметр \"sign\"\n4. Відправляємо запит \"Підписати заявку на транспортування\"\n    \n\nПриклад кроків як отримати підпис у форматі base64:\n\n1. На файл, який завантажили на кроці 1 накладаємо підпис (поза платформою EDIN) у форматі CAdES-X-Long, enveloped (підпис та дані в одному файлі)\n2. Завантажуємо файл у форматі p7s\n3. Декодуємо контент p7s файлу у формат base64 (поза платформою EDIN)"
+						},
+						{
+							"name": "Відправка",
+							"item": [
+								{
+									"name": "Відправка чернетки",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												},
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PATCH",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"extra_fields\": {\n        \"sub_status_id\": \"1\"\n    }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/send?gln={{customer}}&doc_uuid={{transportation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"send"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Відкликання підпису",
+							"item": [
+								{
+									"name": "Отримати тікет відкликання документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/revoke?gln={{customer}}&reason=revoke_test_reason&doc_uuid={{transportation_doc_uuid}}&response_type=xml",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"revoke"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "reason",
+													"value": "revoke_test_reason",
+													"description": "Опис причини відкликання"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "response_type",
+													"value": "xml"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Відкликання заявки на транспортування",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "file",
+											"file": {
+												"src": "/Users/vlqa/Downloads/revoke_order.txt.p7s"
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/revoke?gln={{customer}}&doc_uuid={{transportation_doc_uuid}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"revoke"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Замовник може відкликати підпис до того, як Перевізник підпише документ.\n\nДокумент має `\"sub_status_id\": \"1\"`"
+						},
+						{
+							"name": "TBD - Анулювання",
+							"item": [
+								{
+									"name": "Отримання тікеру анулювання документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{local}}/api/v2/eds/comdoc/repeal?gln={{customer}}&doc_uuid={{transportation_doc_uuid}}&reason=test_reason",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"comdoc",
+												"repeal"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "reason",
+													"value": "test_reason"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Пошук",
+							"item": [
+								{
+									"name": "Отримати список надісланих ЗНТ по exchange_status",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [\"{{exchange_status_value}}\"],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"1\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232755074\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{customer}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Отримати список надісланих ЗНТ по sub_status_id",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"1\",\n            \"fieldName\": \"sub_doc_type_id\"\n        },\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"{{sub_status_id_value}}\",\n            \"fieldName\": \"sub_status_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232755074\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{customer}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Пошук надісланих ЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"1\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232755074\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{customer}}&family=edi&status_id=2",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{customer}}",
+													"description": "GLN Замовника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Отримати json тіло документа Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{auth_sid}}",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "Authorization",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "header",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/api/eds/doc/ettn/body?doc_uuid={{transportation_doc_uuid}}&gln={{customer}}&format=json",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"api",
+										"eds",
+										"doc",
+										"ettn",
+										"body"
+									],
+									"query": [
+										{
+											"key": "doc_uuid",
+											"value": "{{transportation_doc_uuid}}"
+										},
+										{
+											"key": "gln",
+											"value": "{{customer}}",
+											"description": "GLN Замовника"
+										},
+										{
+											"key": "format",
+											"value": "json"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Перевізник",
+					"item": [
+						{
+							"name": "Підписати вхідний документ",
+							"item": [
+								{
+									"name": "Завантажити xml тіло документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/octet-stream",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/download?format=xml&doc_uuid={{transportation_doc_uuid}}&gln={{carrier}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"download"
+											],
+											"query": [
+												{
+													"key": "format",
+													"value": "xml"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Створення і відправка заявки на транспортування",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "transportationorder",
+													"type": "file",
+													"src": "/Users/vlqa/Downloads/transportationorder_20240729165900_d342a346-fa11-4903-80bb-ae8dc80d3239.p7s"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/doc/create_and_send?doc_type=transportationorder&gln={{carrier}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"doc",
+												"create_and_send"
+											],
+											"query": [
+												{
+													"key": "doc_type",
+													"value": "transportationorder"
+												},
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Підписуємо документ, що має екстрафілд `\"sub_status_id\": \"1\"`\n\nКроки:\n\n1. Завантажуємо xml та зберігаємо у файл (postman - \"Send and Download\" або \"Send\" та \"Save response to file\" в додаткових діях (\"View more actions\")\n2. накладаємо підпис (поза платформою EDIN) у форматі CAdES-X-Long, enveloped (підпис та дані в одному файлі)\n3. Завантажуємо файл у форматі p7s\n4. Додаємо p7s файл в тіло запиту \"Створення і відправка заявки на транспортування\""
+						},
+						{
+							"name": "Відхилення",
+							"item": [
+								{
+									"name": "Отримати тікет відхилення документа",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/reject?gln={{carrier}}&reason=reject_test_reason&doc_uuid={{transportation_doc_uuid}}&response_type=xml",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"reject"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "reason",
+													"value": "reject_test_reason",
+													"description": "Опис причини відхилення"
+												},
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "response_type",
+													"value": "xml"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Відхилення заявки на транспортування",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "file",
+											"file": {
+												"src": "/Users/vlqa/Downloads/2_test_reject.txt.p7s"
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/v2/eds/doc/reject?doc_uuid={{transportation_doc_uuid}}&gln={{carrier}}",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"v2",
+												"eds",
+												"doc",
+												"reject"
+											],
+											"query": [
+												{
+													"key": "doc_uuid",
+													"value": "{{transportation_doc_uuid}}"
+												},
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"description": "Перевізник може відхилити вхідну \"заявку на транспортування\" до того, як підпише документ.\n\nДокумент має `\"sub_status_id\": \"1\"`"
+						},
+						{
+							"name": "TBD - Анулювання",
+							"item": []
+						},
+						{
+							"name": "Пошук",
+							"item": [
+								{
+									"name": "Отримати список вхідних ЗНТ по exchange_status",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [\n        \"{{exchange_status_value}}\"\n    ],\n    \"extraParams\": [\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232596110\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Отримати список вхідних ЗНТ по sub_status_id",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"{{sub_status_id_value}}\",\n            \"fieldName\": \"sub_status_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232596110\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Пошук вхідних ЗНТ",
+									"request": {
+										"auth": {
+											"type": "apikey",
+											"apikey": [
+												{
+													"key": "key",
+													"value": "Authorization",
+													"type": "string"
+												},
+												{
+													"key": "in",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "value",
+													"value": "{{auth_sid}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 22\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"1\",\n            \"fieldName\": \"sub_doc_type_id\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232596110\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"api",
+												"eds",
+												"docs",
+												"search"
+											],
+											"query": [
+												{
+													"key": "gln",
+													"value": "{{carrier}}",
+													"description": "GLN Перевізника"
+												},
+												{
+													"key": "family",
+													"value": "edi"
+												},
+												{
+													"key": "status_id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Отримати json тіло документа",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{auth_sid}}",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "Authorization",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "header",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/api/eds/doc/ettn/body?doc_uuid={{transportation_doc_uuid}}&gln={{carrier}}&format=json",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"api",
+										"eds",
+										"doc",
+										"ettn",
+										"body"
+									],
+									"query": [
+										{
+											"key": "doc_uuid",
+											"value": "{{transportation_doc_uuid}}"
+										},
+										{
+											"key": "gln",
+											"value": "{{carrier}}",
+											"description": "GLN Перевізника"
+										},
+										{
+											"key": "format",
+											"value": "json"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Завантажити тіло документа",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/octet-stream",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/eds/doc/download?format=xml&gln={{customer}}&doc_uuid={{transportation_doc_uuid}}",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"doc",
+								"download"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "xml",
+									"description": "pdf | p7s | zip | xls | xml"
+								},
+								{
+									"key": "gln",
+									"value": "{{customer}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "doc_uuid",
+									"value": "{{transportation_doc_uuid}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Завантажити pdf документа",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/octet-stream",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/eds/doc/download?format=pdf&doc_uuid={{transportation_doc_uuid}}&gln={{customer}}",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"doc",
+								"download"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "pdf"
+								},
+								{
+									"key": "doc_uuid",
+									"value": "{{transportation_doc_uuid}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "gln",
+									"value": "{{customer}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Пошук",
+			"item": [
+				{
+					"name": "Пошук надісланого документа по номеру",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 0,\n            \"title\": \"all\",\n            \"description\": \"all\"\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"{{doc_number}}\",\n            \"fieldName\": \"doc_num\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232596110\"\n        ],\n        \"receiver\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"docs",
+								"search"
+							],
+							"query": [
+								{
+									"key": "gln",
+									"value": "{{carrier}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "family",
+									"value": "edi"
+								},
+								{
+									"key": "status_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Пошук вхідного документа по номеру",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 0,\n            \"title\": \"all\",\n            \"description\": \"all\"\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [\n        {\n            \"operator\": \"AND\",\n            \"type\": \"EQUALS\",\n            \"value\": \"{{doc_number}}\",\n            \"fieldName\": \"doc_num\"\n        }\n    ],\n    \"tags\": [],\n    \"multiExtraParams\": [],\n    \"archive\": false,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"receiver\": [\n            \"9864232596110\"\n        ],\n        \"sender\": []\n    },\n    \"loadChain\": true,\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"docs",
+								"search"
+							],
+							"query": [
+								{
+									"key": "gln",
+									"value": "{{carrier}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "family",
+									"value": "edi"
+								},
+								{
+									"key": "status_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Отримати список вхідних документів",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"archive\": false,\n    \"statuses\": [\n        4,\n        5,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 0,\n            \"title\": \"all\",\n            \"description\": \"all\"\n        },\n        {\n            \"type\": 0,\n            \"title\": \"all\",\n            \"description\": \"all\"\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [],\n    \"tags\": [],\n    \"loadComments\": true,\n    \"loadTags\": true,\n    \"loadStatuses\": true,\n    \"loadChain\": true,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [],\n        \"receiver\": [\n            \"9864232596110\"\n        ]\n    },\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"docs",
+								"search"
+							],
+							"query": [
+								{
+									"key": "gln",
+									"value": "{{carrier}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "family",
+									"value": "edi"
+								},
+								{
+									"key": "status_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Отримати список надісланих документів",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{auth_sid}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"archive\": false,\n    \"statuses\": [\n        2,\n        3,\n        6\n    ],\n    \"type\": [\n        {\n            \"type\": 0,\n            \"title\": \"all\",\n            \"description\": \"all\"\n        },\n        {\n            \"type\": 0,\n            \"title\": \"all\",\n            \"description\": \"all\"\n        }\n    ],\n    \"limit\": {\n        \"offset\": \"0\",\n        \"count\": 101\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [],\n    \"tags\": [],\n    \"loadComments\": true,\n    \"loadTags\": true,\n    \"loadStatuses\": true,\n    \"loadChain\": true,\n    \"direction\": {\n        \"type\": \"EQ\",\n        \"sender\": [\n            \"9864232596110\"\n        ],\n        \"receiver\": []\n    },\n    \"families\": [\n        1,\n        7,\n        8\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/eds/docs/search?gln={{carrier}}&family=edi&status_id=1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"eds",
+								"docs",
+								"search"
+							],
+							"query": [
+								{
+									"key": "gln",
+									"value": "{{carrier}}",
+									"description": "GLN Учасника"
+								},
+								{
+									"key": "family",
+									"value": "edi"
+								},
+								{
+									"key": "status_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
