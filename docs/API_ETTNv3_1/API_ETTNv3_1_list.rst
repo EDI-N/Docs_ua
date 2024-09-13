@@ -33,6 +33,12 @@
    Work_with_API/ConsigneeChangeActv3_API_work
    Work_with_API/AdjustmentActv3_API_work
 
+.. toctree::
+   :maxdepth: 1
+
+   Work_with_API/COMDOC_040_API_work
+   Work_with_API/COMDOC_037_API_work
+
 -------------------------------
 
 .. hint::
