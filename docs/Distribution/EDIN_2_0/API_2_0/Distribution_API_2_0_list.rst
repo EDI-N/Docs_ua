@@ -4,7 +4,7 @@ API
 .. hint::
    Всі запити нижче перерахованих API методів сервісу направляються на адресу: https://edo-v2.edin.ua.
 
-   Ми підготували Вам готову :download:`Колекцію всіх методів сервісу для Postman (Market)<postman_files/Сервіс -EDIN-Market-.postman_collection.json>`
+   Ми підготували Вам готову :download:`Колекцію основних методів сервісу для Postman (Market)<postman_files/Сервіс -EDIN-Market-.postman_collection.json>`
 
 Авторизація
 ==============
