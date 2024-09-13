@@ -22,6 +22,11 @@
   :widths:  40, 40
   :stub-columns: 0
 
+:download:`Завантажити колекцію методів для Postman (TRANSPORTATIONORDER)<files/Заявка на транспортування + Підтвердження ЗНТ.postman_collection.json>`
+
+ * :download:`Postman environment (DEMO)<files/ettn-demo.postman_environment.json>`
+ * :download:`Postman environment (PROD)<files/prod.postman_environment.json>`
+
 -----------------------------------------------
 
 .. toggle-header::
