@@ -1,0 +1,984 @@
+{
+	"info": {
+		"_postman_id": "cbed02d1-9abb-483d-a0ed-bd5d15b239b7",
+		"name": "Сервіс \"EDIN-Market\"",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13533670"
+	},
+	"item": [
+		{
+			"name": "Авторизація покупця",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if(responseCode.code != 200) {",
+							"    console.log(\"ERROR\", responseCode)",
+							"    return;",
+							"}",
+							"",
+							"pm.test(\"set distributor_auth_sid\", function () {",
+							"const resp = JSON.parse(responseBody);",
+							"if(resp && resp.SID) {",
+							"    pm.collectionVariables.set(\"distributor_auth_sid\", resp.SID);",
+							"}",
+							"console.log(\"distributor_auth_sid:\", pm.collectionVariables.get(\"distributor_auth_sid\"));",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "{{email_supplier}}",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "{{password_supplier}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod}}/api/authorization/hash",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"authorization",
+						"hash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авторизація продавця",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if(responseCode.code != 200) {",
+							"    console.log(\"ERROR\", responseCode)",
+							"    return;",
+							"}",
+							"",
+							"pm.test(\"set distributor_auth_sid\", function () {",
+							"const resp = JSON.parse(responseBody);",
+							"if(resp && resp.SID) {",
+							"    pm.collectionVariables.set(\"distributor_auth_sid\", resp.SID);",
+							"}",
+							"console.log(\"distributor_auth_sid:\", pm.collectionVariables.get(\"distributor_auth_sid\"));",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "{{email_supplier}}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{password_supplier}}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "{{email_consignor}}",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "{{password_consignor}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{dev}}/api/authorization/hash",
+					"host": [
+						"{{dev}}"
+					],
+					"path": [
+						"api",
+						"authorization",
+						"hash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Додавання позицій в прайс лист",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{producer_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"distributors\": [\n    {\n      \"gln\": \"9864065732327\",\n      \"id\": 13200793,\n      \"name\": \"Dist_Test_1\"\n    }\n  ],\n  \"period\": {\n    \"date_from\": 1611584446,\n    \"date_to\": 1640960446\n  },\n  \"price\": [\n    {\n      \"category_name\": \"Кухня\",\n      \"children\": [\n        {\n          \"category_name\": \"Кастрюлі\",\n          \"children\": [\n            {\n              \"category_name\": \"Емальовані\",\n              \"children\": [],\n              \"prods\": [\n                {\n                  \"article\": 2222,\n                  \"barcode\": \"4800000000001\",\n                  \"box_in_layer\": 25,\n                  \"box_in_palette\": 50,\n                  \"box_qty\": 100,\n                  \"box_weight\": 199,\n                  \"comment\": \"супер\",\n                  \"is_new\": true,\n                  \"is_promo\": true,\n                  \"is_public\": false,\n                  \"name\": \"\\\"Кастрюля\\\"  квадратна унікальна\",\n                  \"palette_weight\": 100,\n                  \"price_with_vat\": 80,\n                  \"price_without_vat\": 100500,\n                  \"quota\": 550,\n                  \"stock_balance\": 250,\n                  \"unit_id\": 8,\n                  \"unit_weight\": 1.99,\n                  \"user_code\": 900000001,\n                  \"vat\": 5\n                }\n              ]\n            }\n          ],\n          \"prods\": []\n        }\n      ],\n      \"prods\": []\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{ettn-demo}}/api/distribex/pricelist?gln={{gln_seller}}",
+					"host": [
+						"{{ettn-demo}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"pricelist"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln_seller}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отримати перелік продавців",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "92399db0-f796-4ec8-9229-753f93c08314",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{prod}}/api/distribex/producers/list?gln={{vatsak_seller_gln}}",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"producers",
+						"list"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{vatsak_seller_gln}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отримання прайс-листа конкретного продавця",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "92399db0-f796-4ec8-9229-753f93c08314",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{ettn-demo}}/api/distribex/pricelist?gln={{gln_buyer}}&gln_id={{gln_id_seller}}",
+					"host": [
+						"{{ettn-demo}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"pricelist"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln_buyer}}"
+						},
+						{
+							"key": "gln_id",
+							"value": "{{gln_id_seller}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отримати перелік можливих одиниць виміру",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "92399db0-f796-4ec8-9229-753f93c08314",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{ettn-demo}}/api/oas/units",
+					"host": [
+						"{{ettn-demo}}"
+					],
+					"path": [
+						"api",
+						"oas",
+						"units"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отримати категорії прайс-листа конкретного продавця",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "92399db0-f796-4ec8-9229-753f93c08314",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{ettn-demo}}/api/distribex/categories?gln={{gln_buyer}}&gln_id={{gln_id_seller}}",
+					"host": [
+						"{{ettn-demo}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"categories"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{gln_buyer}}"
+						},
+						{
+							"key": "gln_id",
+							"value": "{{gln_id_seller}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Створити попереднє замовлення",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "92399db0-f796-4ec8-9229-753f93c08314",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"list_id\": 3555354,\n    \"qnty\": 1\n  },\n  {\n    \"list_id\": 3555356,\n    \"qnty\": 10\n  },\n  {\n    \"list_id\": 3555378,\n    \"qnty\": 100\n  }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/distribex/preorder?gln={{distributor_gln}}&producerId={{supplier_gln_id}}",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"preorder"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{distributor_gln}}"
+						},
+						{
+							"key": "producerId",
+							"value": "{{supplier_gln_id}}"
+						},
+						{
+							"key": "preorder_id",
+							"value": "73",
+							"disabled": true
+						},
+						{
+							"key": "positions",
+							"value": "3555354",
+							"disabled": true
+						},
+						{
+							"key": "positions",
+							"value": "3555356",
+							"disabled": true
+						},
+						{
+							"key": "positions",
+							"value": "3555378",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Видалити попереднє замовлення",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/distribex/preorder?gln={{distributor_gln}}&preorder_id=1577",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"preorder"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{distributor_gln}}"
+						},
+						{
+							"key": "preorder_id",
+							"value": "1577"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Створити чернетку замовлення (кошик)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "92399db0-f796-4ec8-9229-753f93c08314",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n    \"list_id\": 5625352,\n    \"quantity\": 1\n    }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/distribex/doc/order?gln={{distributor_gln}}&producer_gln={{supplier_gln}}&number=test_api&delivery_gln={{distributor_gln}}&delivery_terms=1&delivery_date =2023-11-27&payment_method=1",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"doc",
+						"order"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{distributor_gln}}"
+						},
+						{
+							"key": "producer_gln",
+							"value": "{{supplier_gln}}"
+						},
+						{
+							"key": "number",
+							"value": "test_api"
+						},
+						{
+							"key": "delivery_gln",
+							"value": "{{distributor_gln}}"
+						},
+						{
+							"key": "delivery_terms",
+							"value": "1",
+							"description": "1 - самовывоз, 2 - доставка транспортом продавца"
+						},
+						{
+							"key": "delivery_date ",
+							"value": "2023-11-27"
+						},
+						{
+							"key": "payment_method",
+							"value": "1",
+							"description": "1 - наличный расчёт, 2 - безналичный расчёт"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "f4b1a877-3bab-41e5-8947-8340e22b2ecd",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Надіслати замовлення без створення кошика",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Content-Disposition",
+						"value": "form-data; name=\"file\"; filename=\"file.xml\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/dmytrogoncharov/Downloads/ORDERS_test_2.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod}}/api/eds/doc/create_and_send?gln={{distributor_gln}}&doc_type=orders",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"create_and_send"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{distributor_gln}}"
+						},
+						{
+							"key": "doc_type",
+							"value": "orders"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отримати перелік надісланих замовлень",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"archive\": false,\n    \"direction\": {\n        \"receiver\": [],\n        \"sender\": [\"9864232324065\"],\n        \"type\": \"EQ\"\n    },\n    \"exchangeStatus\": [],\n    \"extraParams\": [],\n    \"family\": 8,\n    \"multiExtraFields\": [],\n    \"limit\": {\"offset\": 0, \"count\": 9999},\n    \"statuses\": [3],\n    \"type\": [\n        {\n            \"type\": 2\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/eds/docs/search?gln=9864232324065",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"docs",
+						"search"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "9864232324065"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Повторення замовлення",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/distribex/order/copy?gln=9864232324065&doc_uuid=4007498a-dcb2-4854-9dd4-73852dd4a715",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"distribex",
+						"order",
+						"copy"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "9864232324065"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "4007498a-dcb2-4854-9dd4-73852dd4a715"
+						},
+						{
+							"key": "actualize",
+							"value": "true",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Відправити чернетку замовлення (кошик)",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/eds/doc/send?gln={{distributor_gln}}&doc_uuid=5ab53e34-6da2-439f-a0ba-adb172df34d2",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc",
+						"send"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "{{distributor_gln}}"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "5ab53e34-6da2-439f-a0ba-adb172df34d2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редагувати чернетку замовлення (кошик)",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{distributor_auth_sid}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"DOCUMENTNAME\":\"220\",\n    \"NUMBER\":\"1000251\",\n    \"DATE\":\"2022-10-25\",\n    \"DELIVERYDATE\":\"2022-10-23\",\n    \"CURRENCY\":\"UAH\",\n    \"PAYMENTMETHOD\":\"1\",\n    \"DOCTYPE\":\"O\",\n    \"HEAD\":[\n        {\"SUPPLIER\":\"9864232301905\",\n        \"BUYER\":\"9864232324065\",\n        \"DELIVERYPLACE\":\"9864232331445\",\n        \"SENDER\":\"9864232324065\",\n        \"RECIPIENT\":\"9864232301905\",\n        \"DELIVERYTERMS\":\"1\",\n        \"EDIINTERCHANGEID\":\"1000091\",\n        \"POSITION\":[\n            {\n                \"POSITIONNUMBER\":\"1\",\n                \"PRODUCT\":\"4820022867421\",\n                \"IDPRODUCER\":\"BP0837\",\n                \"PRODUCTIDSUPPLIER\":\"7127\",\n                \"ORDEREDQUANTITY\":\"2.0\",\n                \"ORDERUNIT\":\"PCE\",\n                \"ORDERPRICE\":\"80.05\",\n                \"PRICEWITHVAT\":\"96.06\",\n                \"VAT\":\"20\",\n                \"MAXIMUMORDERQUANTITY\":\"25.0\",\n                \"CATEGORYNAME\":\"Кофе\",\n                \"BRENDNAME\":\"Жокей\",\n                \"GROUPNAME\":\"Зерновой\",\n                \"NOVELTY\":\"0\",\n                \"COUNTPIECESINBOX\":\"12\",\n                \"COUNTBOXESINLAYER\":\"5\",\n                \"COUNTPERPALLET\":\"10\",\n                \"WEIGHT\":\"3.852\",\n                \"UNITWEIGHT\":\"0.321\",\n                \"PALLETS\":\"0.03\",\n                \"BOXESCOUNT\":\"0.25\",\n                \"CHARACTERISTIC\":\n                {\"DESCRIPTION\":\"\\\"Традиционный\\\"  400х12 зерновой кофе Жокей Укр\"}\n            },\n            {\n                \"POSITIONNUMBER\":\"2\",\n                \"PRODUCT\":\"3245678123103\",\n                \"PRODUCTIDSUPPLIER\":\"113\",\n                \"ORDEREDQUANTITY\":\"2.0\",\n                \"ORDERUNIT\":\"KGM\",\n                \"ORDERPRICE\":\"140.0\",\n                \"PRICEWITHVAT\":\"168.0\",\n                \"VAT\":\"20\",\n                \"MAXIMUMORDERQUANTITY\":\"1.0\",\n                \"CATEGORYNAME\":\"Фрукты, овощи\",\n                \"BRENDNAME\":\"Фрукты\",\n                \"GROUPNAME\":\"Апельсин\",\n                \"NOVELTY\":\"0\",\n                \"COUNTPIECESINBOX\":\"10\",\n                \"COUNTBOXESINLAYER\":\"5\",\n                \"WEIGHT\":\"33\",\n                \"UNITWEIGHT\":\"0.4\",\n                \"BOXESCOUNT\":\"0.10\",\n                \"CHARACTERISTIC\":\n                {\"DESCRIPTION\":\"Апельсин\"}\n                }\n        ]\n    }],\n    \"EXCHANGE_SCHEMA_TYPE\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/eds/doc?gln=9864232324065&doc_uuid=ae54e0dd-611d-4a34-ae77-2a37776201f3&doc_number=1000254&doc_date=1666645200&recipient=9864232301905",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"eds",
+						"doc"
+					],
+					"query": [
+						{
+							"key": "gln",
+							"value": "9864232324065"
+						},
+						{
+							"key": "doc_uuid",
+							"value": "ae54e0dd-611d-4a34-ae77-2a37776201f3"
+						},
+						{
+							"key": "doc_number",
+							"value": "1000254"
+						},
+						{
+							"key": "doc_date",
+							"value": "1666645200"
+						},
+						{
+							"key": "recipient",
+							"value": "9864232301905"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "distributor_auth_sid",
+			"value": ""
+		},
+		{
+			"key": "producer_auth_sid",
+			"value": ""
+		},
+		{
+			"key": "doc_uuid",
+			"value": ""
+		}
+	]
+}
