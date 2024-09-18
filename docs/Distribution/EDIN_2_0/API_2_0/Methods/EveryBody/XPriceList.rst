@@ -7,6 +7,7 @@
 .. code:: json
 
 	{
+	  "vatIncluded": "0",
 	  "distributors": [
 	    {
 	      "gln": "9864065732327",

@@ -5,6 +5,10 @@ currency,M,String,"код валюти:
 - UAH (за замовчуванням)
 - EUR
 - USD"
+vatIncluded,O,int,"Ознака ціни в прайс-листі, за якою Продавець працює з Покупцем:
+
+* 0 - без ПДВ;
+* 1 - з ПДВ"
 period,,XPriceListPeriod_,об'єкт; період дії данних по товару
 price,M,List<XPriceListElement_>,масив об'єктів; дані товару Прайс-листа
 distributors,,List<XPriceListDistributor_>,масив об'єктів; дані Покупців (Дистиб’юторів)
