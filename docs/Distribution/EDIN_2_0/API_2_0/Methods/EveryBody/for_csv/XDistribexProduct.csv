@@ -6,19 +6,22 @@ producer_id,long,ідентифікатор Продавця (Виробника
 product_id,long,ідентифікатор товару
 unit_id,long,"ідентифікатор одиниці виміру; допустимі значення:
 
-- 2 - кілограм;
-
-- 8 - штука"
+* 2 - кілограм;
+* 8 - штука"
 price_without_vat,Double,"ціна одиниці без ПДВ, грн"
 vat,int,"ставка ПДВ, %"
 price_with_vat,Double,"ціна одиниці з ПДВ, грн"
+price_discont,Double,"ціна одиниці зі знижкою без ПДВ, грн"
+price_with_vat_discont,Double,"ціна одиниці зі знижкою з ПДВ, грн"
 date_from,long,період дії з
 date_to,long,період дії по
 stock_balance,Double,залишок
 comment,String,коментарі
 quota,Double,квота на замовлення
+multiplicity,double,кратність кількості в замовленні. Значення кратно якому має бути заповнена кількість замовленої позиції
 is_promo,boolean,відмітка «Акція!»
 is_new,boolean,відмітка «Новинка!»
 is_public,boolean,відмітка «Публічна позиція!»
 is_surcharge,boolean,відмітка «Надбавка!»
 is_bestseller,boolean,відмітка «Хіт продажу!»
+add_characteristics,String,характеристики
