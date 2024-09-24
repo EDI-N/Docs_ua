@@ -21,6 +21,7 @@
    Довідник українських торговельних мереж <https://edin.ua/directory/>
    Poland_grocery_store_chain_catalogue
    Germany_grocery_store_chain_catalogue
+   Romania_grocery_store_chain_catalogue
 
 .. toctree::
    :caption: Схема "Міжнародні поставки"
