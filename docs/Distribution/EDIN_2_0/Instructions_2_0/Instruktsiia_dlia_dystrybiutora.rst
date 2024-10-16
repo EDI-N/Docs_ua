@@ -27,6 +27,10 @@
 
 .. |doc_download| image:: /_constant/icons/doc_download.png
 
+.. |pdf| image:: /_constant/icons/pdf.png
+
+.. |comment_dots| image:: /_constant/icons/comment_dots.png
+
 .. contents:: Зміст:
    :depth: 2
 
@@ -50,6 +54,78 @@
 
 .. image:: /_constant/pics_landing/landing_distribution.png
    :align: center
+
+.. _invited:
+
+2 Запрошення
+======================================
+
+Продавець може запросити Вас через сервіс "Маркет", використовуючи Ваш email/номер телефону. При запрошенні через email Ви отримаєте електронного листа з посиланням (кнопка **"Приєднатись"**), що також може містити pdf-вкладення (офіційний лист від Продавця):
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_095.png
+   :align: center
+
+У відкритому вікні (за посиланням з листа) можливо **"Прийняти"** запрошення - при цьому в сервісі "Маркет" формується зв'язок з даним Продавцем для подальшої співпраці:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_096.png
+   :align: center
+
+Також можливо **"Відхилити"** запрошення, обов'язково вказавши причину відмови текстовим коментарем:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_097.gif
+   :align: center
+
+.. hint::
+   Якщо Ви раніше не користувались сервісом "Маркет" потрібно зареєструватись на платформі (`детальніше в інструкції <https://wiki.edin.ua/uk/latest/general_2_0/User_registration.html#register>`__), а також `підключитись до EDIN Market <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.html#market-registration>`__. 
+
+При переході в сервіс в розділі **"Мої продавці"** -> **"Мої запрошення"** у Вас будуть відображатись всі заявки (за якими потрібно прийняти рішення та ті, за якими рішення вже прийняте):
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_100.png
+   :align: center
+
+Запрошення можуть мати статус:
+
+* :orange:`Запрошено` - запрошення відправлено, Ви ще не відповіли Продавцю;
+* :green:`Прийнято` - Ви прийняли запрошення, але ще не завершили налаштування;
+* :red:`Відхилено` - Ви відхилили запрошення.
+
+Якщо в запрошення Продавець вклав pdf-файл, то Ви можете ознайомитись з його змістом для прийняття рішення за запрошенням, натиснувши на іконку |pdf|.
+
+За всіма :red:`Відхиленими` запрошеннями зберігається коментар-причина відмови (текст доступний при натисканні на іконку |comment_dots|:
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_101.png
+   :align: center
+
+Після того, як Ви вирішуєте **"Прийняти"** запит на підключення до Продавця потрібно **"Завершити налаштування"**, `підключивши свій GLN <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.html#market-registration>`__ ("точку") для зв'язку з Продавцем (детальніше в наступному розділі):
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_102.png
+   :align: center
+
+По завершенню налаштувань зв'зку з контрагентом Ви можете `почати роботу з Продавцем <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/Instructions_2_0/Instruktsiia_dlia_dystrybiutora.html#market-registration>`__ в розділі **"Мої продавці"** -> **"Активні"**.
+
+.. _market-registration:
+
+2.1 Підключення до EDIN Market
+--------------------------------------
+
+Після проходження реєстації на платформі EDIN за запрошенням чи при першому переході в сервіс "Market":
+
+.. image:: /_constant/pics_landing/landing_distribution.png
+   :align: center
+
+відкривається вікно Підключення до EDIN Market, де Вам потрібно обрати роль та натиснути **"Далі"** : 
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_098.png
+   :align: center
+
+Після чого потрібно обрати чи створити GLN, що буде використовуватись для сервісу "Market":
+
+.. image:: /Distribution/EDIN_2_0/Instructions_2_0/pics_dlia_dystrybiutora/Instruktsiia_dlia_dystrybiutora_099.png
+   :align: center
+
+І це все, вітаємо в сервісі "Market"!
+
+.. _work-with-seller:
 
 2 Робота з Продавцями (Виробниками)
 ======================================
