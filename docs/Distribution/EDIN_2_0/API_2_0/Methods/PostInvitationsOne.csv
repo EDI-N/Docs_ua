@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/distribex/invitation?gln=9864065732303&buyer=savep38075@adosnan.com&buyer_ipn=115263254**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**buyer** (обов'язково) String - контакт Покупця (email або мобільний номер телефону);
+
+**buyer_ipn** (опціонально) String - ЄДРПОУ / ІПН Покупця"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , "`multipart/form-data <https://tools.ietf.org/html/rfc7578>`__"
+**REQUEST**   ,
+Form-data     ,"В запиті може передаватись (опціонально) тіло в форматі application/pdf - інформаційний лист, як `вкладення до запрошення Покупця <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/PostInvitationsRequest.html>`__"
