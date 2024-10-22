@@ -13,6 +13,7 @@
    Additional_actions
    massovi_operacii_EDIN_2.0
    Directories
+   LSD_additional_actions
 
 .. toctree::
    :caption: Довідники торговельних мереж
