@@ -31,7 +31,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_001.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_035.png
    :height: 700px
    :align: center
 
@@ -163,65 +163,46 @@
 .. note::
    У відповідь на "Повідомлення про відвантаження" (DESADV) Мережа може створити та відправити "Повідомлення про прийом" (RECADV) для додаткового оповіщення про прийом товарів чи задля зазначеня розбіжностей між вказаним та фактично отриманим товаром.
 
-3 Формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN)
-====================================================================================================================================
+.. _comdoc-007-processing:
 
-"Видаткова накладна" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) може бути сформована на підставі "Повідомлення про відвантаження" (DESADV). Для формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) потрібно перейти в папку **"Надіслані"** та обрати документ-підставу (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+3 Обробка вхідного документа "Прибуткова накладна" (COMDOC_007)
+===============================================================================================================
 
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_019.png
+Для обробки "Прибуткової накладної" (COMDOC_007) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **"Прибуткова накладна"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_036.png
    :align: center
 
-Для формування "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) натисніть **"Створити документ"** в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ "Товарна накладна"(DOCUMENTINVOICE).
+Відкриється форма документа, де Ви зможете ознайомитись з документом. Якщо Ви згодні з документом, його потрібно **"Підписати"**:
 
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_020.png
+.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_037.png
    :align: center
-
-При цьому для мережі "BOX Market" автоматично створюється саме "Видаткова накладна" (DOCUMENTINVOICE.DocumentFunctionCode = DRN):
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_021.png
-   :align: center
-
-У відкритій формі "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) деякі поля заповнюються автоматично з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`). 
-
-.. початок блоку для ForAllDOCUMENTINVOICE
 
 .. hint::
-   **Номер контракту** / **Дата контракту** - поля, що заповнюється автоматично з документа-підстави ("Повідомлення про відвантаження" (DESADV) / "Замовлення" (ORDERS) / "Повідомлення про прийом" (RECADV)). Якщо ці дані повністю чи частково відсутні, то при наявності :underline:`"Договору поставки"` з цим контрагентом (**Довідники->** `Довідник договорів <https://wiki.edin.ua/uk/latest/general_2_0/Directories.html#gln-contracts>`__) дані заповнюються автоматично. Якщо таких договорів кілька, то доступний вибір з випадаючого списку (з пошуком):
+   Процес підписання є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/BOX_Market/BOX_Market_Instructions/BOX_Market_Standard.html#sign>`__.
 
-   .. image:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/pics_BOX_Market_Standard/BOX_Market_Standard_033.png
+Після підписання документ змінює свій статус на :green:`"Підписано двома сторонами"`.
+
+.. note::
+   Для того, щоб **Відхилити** "Прибуткову накладну" (COMDOC_007) можливо оформити типову для комерціних документів **"Відмову від підписання"** (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_reject/comdoc_reject.html>`__):
+
+   .. image:: pics_BOX_Market_Standard/BOX_Market_Standard_038.png
       :align: center
 
-   Також можливо **"Додати"** новий договір (після відправки документа дані договору зберігаються автоматично):
+.. hint::
+   Також після підписання документа (документ підписаний з обох сторін в статусі :green:`"Підписано двома сторонами"`) за згодою сторін можливо відправити **"Запит на анулювання"** документа (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_repeal/comdoc_repeal.html>`__):
 
-   .. image:: /ClientProcesses/BOX_Market/BOX_Market_Instructions/pics_BOX_Market_Standard/BOX_Market_Standard_034.png
+   .. image:: pics_BOX_Market_Standard/BOX_Market_Standard_039.png
       :align: center
 
-.. кінець блоку для ForAllDOCUMENTINVOICE
+   Ініціатором анулювання може виступати, як Мережа так і Постачальник.
 
-Про необхідність заповнення та інші помилки в табличній частині документа Ви будете проінформовані (вказується номер позиції та невідповідність), а також рядок позиції виділяється помаранчевим кольором:
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_022.png
-   :align: center
-
-Зміни за позиціями можливо виконувати в табличній частині в колонках "Код УКТ ЗЕД", "Кількість", "Ціна без ПДВ", "Ставка ПДВ" або за конкретною позицією, натиснувши на штрихкод позиції:
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_023.png
-   :align: center
-
-Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**.
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_024.png
-   :align: center
-
-Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_025.png
-   :align: center
+------------------------------------------------------
 
 .. _sign:
 
-3.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN)
---------------------------------------------------------------------------------------------------
+Підписання на платформі EDIN 2.0
+=========================================================================================================================
 
 .. tabs::
 
@@ -248,26 +229,6 @@
       .. include:: /_constant/cloud_signing/cloud_signing.rst
          :start-after: .. початок блоку для CloudSign
          :end-before: .. кінець блоку для CloudSign
-
-Після підписання "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) документ потрібно **"Відправити"**:
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_026.png
-   :align: center
-
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа "BOX Market" зі своєї сторони переглядає та підписує документ.
-
-4 Обробка вхідного документа "Акт невідповідності" (COMDOC_009)
-====================================================================================================================================
-
-У випадку розходження між відправленною і фактично прийнятою кількістю товару чи виникненням цінової розбіжності – мережа надсилає Вам "Акт невідповідності" (COMDOC_009). У вхідному документі в табличній частині будуть зазначені кількісні чи цінові розбіжності по кожному товару та причина невідповідності, наприклад:
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_027.png
-   :align: center
-
-.. image:: pics_BOX_Market_Standard/BOX_Market_Standard_028.png
-   :align: center
-
-Після ознайомлення з документом необхідно заново сформувати "Видаткову накладну" (DOCUMENTINVOICE.DocumentFunctionCode = DRN) на підставі раніше відправленого "Повідомлення про відвантаження" (DESADV) з правками кількості/ціни згідно розбіжностей вказаних в "Акті невідповідності" (COMDOC 009) мережі "BOX Market".
 
 ------------------------------------------------
 
