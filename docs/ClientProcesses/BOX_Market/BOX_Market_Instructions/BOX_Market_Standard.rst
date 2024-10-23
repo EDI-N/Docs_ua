@@ -26,8 +26,7 @@
 - `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
 - `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
 - `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
-- `Видаткова накладна (DOCUMENTINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/BOX_Market/BOX_Market_XML-structure.html#documentinvoice>`__
-- при необхідності також `Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_009_x.html>`__
+- `Прибуткова накладна (COMDOC_007) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_007_x.html>`__
 
 **Загальна схема документообігу:**
 
