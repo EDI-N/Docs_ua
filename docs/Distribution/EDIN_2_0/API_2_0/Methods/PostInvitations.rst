@@ -17,7 +17,7 @@
 **Масово запросити Покупців:**
 
 .. csv-table:: 
-  :file: GetInvitationsMulty.csv
+  :file: PostInvitationsMulty.csv
   :widths:  10, 41
   :stub-columns: 0
 
