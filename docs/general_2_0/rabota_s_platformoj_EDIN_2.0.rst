@@ -554,14 +554,14 @@
 
 Пошук (за різними критеріями) на платформі **EDI Network** загалом виконується через рядок **"Пошуку"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_017.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_121.png
    :align: center
 
 ----------------------------------------------------------------------------------------------------
 
 1) Рядок пошуку можливо заповнити, обираючи **"Доступні для пошуку ключі"**:
 
-.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_012.png
+.. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_122.png
    :align: center
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀

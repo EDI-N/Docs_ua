@@ -58,7 +58,7 @@
 
 У відкритому документі натисніть **"Створити документ"** "Акт наданих послуг (Логістика)" в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__, наприклад:
 
-.. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_002.png
+.. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_024.png
    :align: center
 
 .. image:: pics_Create_COMDOC_037_from/Create_COMDOC_037_from_011.png
@@ -68,7 +68,7 @@
 
 Відкриється форма редагування документа "Акта наданих послуг (Логістика)", що включає в собі дані документа-підстави ("Заявки на транспортування" / "Підтвердження заявки на транспортування" / "е-ТТН"):
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_003.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_025.png
    :align: center
 
 Всі обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`. Вам необхідно вказати "Номер документа" ("Дата документа" заповнюється автоматично), "Місце складання"...
@@ -129,13 +129,13 @@
 
 Після того, як всі обов'язкові дані були внесені/змінені (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`), документ можливо **"Зберегти"**:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_014.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_026.png
    :align: center
 
 .. hint::
    До чернетки (збережений невідправлений документ) можливо **"+Додати файл"** - супровідний документ (вкладення в pdf форматі не має перевищувати 25MB):
 
-   .. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_015.png
+   .. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_027.png
       :align: center
 
    Додані файли відображаються в правому верхньому куті документа, їх можливо **переглянути**, натиснувши на назву файлу, **зберегти** (|download|) чи **видалити** (|trash|):
@@ -145,7 +145,7 @@
 
 :underline:`Після Зберігання документа` його потрібно **"Підписати"** та **"Відправити"** контрагентам:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_017.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_028.png
    :align: center
 
 .. кінець блоку для COMDOC_037_from_transport_001
@@ -191,22 +191,22 @@
 
 Після підписання "Акта наданих послуг (Логістика)" окремим блоком відображається інформація про підписантів. Підписаний документ можливо **"Відправити"**:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_007.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_029.png
    :align: center
 
 Після відправки документа контрагенту він відображається в журналі вихідних документів. Відправленому **"Перевізником"** "Акту наданих послуг (Логістика)" присвоюється статус :orange:`"Потребує підписання отримувачем"`:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_008.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_030.png
    :align: center
 
 Відправлений "Акт наданих послуг (Логістика)" має наступний вигляд:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_022.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_031.png
    :align: center
 
 На формі перегляду можливо виконати `дії з документом <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-actions>`__, а для того, щоб ознайомитись з підписантами даного документа потрібно натиснути кнопку **"Переглянути підписи"**:
 
-.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_023.png
+.. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_032.png
    :align: center
 
 Можливо виконати **"Відхилення підпису"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__).
