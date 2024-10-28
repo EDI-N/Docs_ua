@@ -21,6 +21,8 @@
 
 .. |download| image:: /_constant/icons/download.png
 
+.. |info2| image:: /_constant/icons/info2.png
+
 .. contents:: Зміст:
    :depth: 3
 
@@ -119,7 +121,7 @@
 
 Для продовження документообігу потрібно на підставі підписаної "Заявки на транспортування" створити "Акт виконаних робіт" (детальніше в наступному розділі).
 
-.. _act:
+.. _act-create:
 
 2 Створення "Акта виконаних робіт" на підставі "Заявки на транспортування" («Виконавець»)
 =================================================================================================================
@@ -215,30 +217,27 @@
    :start-after: .. початок блоку для COMDOC_037_from_transport_003
    :end-before: .. кінець блоку для COMDOC_037_from_transport_002
 
-
-
-
-
-
-
+.. _act-reject:
 
 3 Відхилення "Акта виконаних робіт" "Замовником" ("Метінвест-Шіппінг")
 =================================================================================================================
 
-Відхилений "Акт виконаних робіт" зі сторони "Метінвест-Шіппінг" відображається в **"Надісланих"** в статусі **"Скасовано замовником"** (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/ETTN_2_0/Work_with_ETTN.html#search>`__):
+Відхилений "Акт виконаних робіт" зі сторони "Метінвест-Шіппінг" відображається в **"Надісланих"** в статусі :red:`"Відмовлено в підписанні"` (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_020.png
+.. image:: pics_Metinvest_for_Carrier/Metinvest_for_Carrier_009.png
    :align: center
 
-Потрібно перейти в документ, **ознайомитись з причиною скасування** та, враховуючи її, **повторно створити "Акт виконаних робіт" на підставі пов'язаної "Заявки на транспортування"**:
+**Ознайомитись з текстовою причиною скасування від "Метінвест-Шіппінг"** можливо прямо в журналі документів, натиснувши на іконку |info2|:
 
-.. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_021.png
+.. image:: pics_Metinvest_for_Carrier/Metinvest_for_Carrier_010.png
    :align: center
 
-.. image:: pics_Metinvest_Proposal_Act_at_accepted_work/Metinvest_Proposal_Act_at_accepted_work_023.png
+Також коментар-причина відображається і при перегляді документа:
+
+.. image:: pics_Metinvest_for_Carrier/Metinvest_for_Carrier_011.png
    :align: center
 
-В "Посиланнях" будуть відображатись всі пов'язані документи. Процес створення "Акт виконаних робіт" описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Metinvest/Metinvest_Instructions/Metinvest_Proposal_Act_at_accepted_work.html#act>`__.
+Ознайомившись з документом та враховуючи причину відмови потрібно **повторно створити "Акт виконаних робіт"** на підставі того ж чи тих пов'язаних документів (тобто ще раз `створити, підписати та відправити "Акт виконаних робіт" <https://wiki.edin.ua/uk/latest/ClientProcesses/Metinvest/Metinvest_Instructions/Metinvest_for_Carrier.html#act-create>`__).
 
 ---------------------------------
 
