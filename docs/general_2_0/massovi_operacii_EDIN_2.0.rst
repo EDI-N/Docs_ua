@@ -294,13 +294,13 @@
 * :underline:`на підставі "Підтвердження заявки на транспортування"` потрібно перейти у **"Надіслані"** та вибрати "Підтвердження заявки на транспортування" з однаковим контрагентом (**"Замовником"**) в статусі :green:`"Підписано замовником"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__) та в **"Дії з обраними документами"** обрати **"Створити акт наданих послуг (Логістика)"**;
 * :underline:`на підставі "е-ТТН"` потрібно перейти у **"Вхідні"** та вибрати "е-ТТН" (з однаковим **"Замовником"**) в статусі :green:`"Підписано вантажоодержувачем"` (для зручності можливо скористатись рядком пошуку) та в **"Дії з обраними документами"** обрати **"Створити акт наданих послуг (Логістика)"**:
 
-.. image:: pics_massovi_operacii/massovi_operacii_033.png
+.. image:: pics_massovi_operacii/massovi_operacii_045.png
    :align: center
 
-.. image:: pics_massovi_operacii/massovi_operacii_034.png
+.. image:: pics_massovi_operacii/massovi_operacii_046.png
    :align: center
 
-.. image:: pics_massovi_operacii/massovi_operacii_035.png
+.. image:: pics_massovi_operacii/massovi_operacii_047.png
    :align: center
 
 .. tabs::
