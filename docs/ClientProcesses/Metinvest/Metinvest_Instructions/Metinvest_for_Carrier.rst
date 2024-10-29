@@ -210,13 +210,13 @@
 .. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_028.png
    :align: center
 
+Процес `Підписання <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#sign>`__ є стандартним для всіх документів на платформі та описаний вище.
+
 .. hint::
    Якщо в документа є вкладення, то в журналі документів зазначається кількість вкладень, а також документи з вкладеннями (чи без жодних вкладень) можливо відфільтрувати за цією ознакою за допомогою `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__:
 
    .. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_124.png
       :align: center
-
-Процес `Підписання <https://wiki.edin.ua/uk/latest/general_2_0/massovi_operacii_EDIN_2.0.html#sign>`__ є стандартним для всіх документів на платформі та описаний вище.
 
 .. include:: /ETTN_3_0/Create_COMDOC_037_from.rst
    :start-after: .. початок блоку для COMDOC_037_from_transport_003
