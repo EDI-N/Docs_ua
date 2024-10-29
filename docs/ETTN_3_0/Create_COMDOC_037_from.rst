@@ -209,7 +209,7 @@
 .. image:: /ETTN_3_0/pics_Create_COMDOC_037_from/Create_COMDOC_037_from_032.png
    :align: center
 
-Можливо виконати **"Відхилення підпису"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__).
+Можливо виконати **"Відхилення підпису"** поки отримувач не підписав документ (`детальніше про відхилення <https://wiki.edin.ua/uk/latest/_constant/comdoc_revoke/comdoc_revoke.html>`__). Лише після того, як отримувач підпише документ (підписаний з обох сторін), його можливо `клонувати <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-actions>`__ за потреби.
 
 .. кінець блоку для COMDOC_037_from_transport_002
 

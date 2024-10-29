@@ -537,7 +537,7 @@
 * |clone| - створити новий аналогічний документ з автоматично заповненими (скопійованими) даними з цього документа.
 
 .. hint::
-   Клоновані документи мають відповідну помітку в журналі документів, а також їх можливо знайти через `пошук <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за цією ознакою:
+   Клоновані документи можуть мати обмеження щодо редагування наповнення, мають відповідне маркування в журналі документів, а також їх можливо знайти через `пошук <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ за цією ознакою:
 
    .. image:: /general_2_0/pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_123.png
       :align: center
