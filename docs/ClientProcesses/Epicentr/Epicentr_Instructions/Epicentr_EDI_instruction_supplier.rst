@@ -26,11 +26,11 @@
 - `Видаткова накладна (DOCUMENTINVOICE_DRN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML/DOCUMENTINVOICE_DRN_x.html>`__
 - `Акт розбіжностей (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML/DOCCORINVOICE_x.html>`__
 - `Повідомлення про прийом (RECADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
-- `Накладна на повернення (DOCUMENTINVOICE_NP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+- `Накладна на повернення (DOCUMENTINVOICE_NP) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML/DOCUMENTINVOICE_NP_x.html>`__
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_047.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_048.png
    :height: 700px
    :align: center
 
@@ -256,7 +256,27 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_018.png
    :align: center
 
-Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами. Мережа зі своєї сторони переглядає та підписує документ або формує у відповідь "Акт розбіжностей" (DOCCORINVOICE) у разі незгоди - Ви зможете його знайти у вхідних та зможете підписати_ його в стандартний спосіб платформи EDI Network 2.0.
+Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами.
+
+.. attention::
+   Мережа зі своєї сторони переглядає та підписує документ АБО формує у відповідь "Акт розбіжностей" (DOCCORINVOICE) у разі незгоди - Ви зможете його знайти у вхідних та зможете підписати_ його на платформі EDI Network 2.0. В випадку незгоди Мережа не підписує "Видаткову накладну" (DOCUMENTINVOICE) поки Ви (Постачальник) не підпишете "Акт розбіжностей" (DOCCORINVOICE) зі своєї сторони.
+
+   "Акт розбіжностей" (DOCCORINVOICE) може формуватись Мережею з наступних причин:
+
+   1. Зіпсований/Брак/Нетоварний вигляд
+   2. Бій
+   3. Невідповідність ціни
+   4. Недопоставка
+   5. Відсутність обов’язкової інформації (реквізитів): терміну придатності
+   6. Відсутність обов’язкової інформації (реквізитів): ветеринарного
+   свідоцтва
+   7. Відсутність обов’язкової інформації (реквізитів): акцизних марок
+   8. Відсутність обов’язкової інформації (реквізитів): штрих коду
+   9. Відсутність обов’язкової інформації (реквізитів): дати виготовлення
+   10. Відсутність обов’язкової інформації (реквізитів): кінцевого терміну
+   реалізації
+   11. Надлишки
+   12. Малий термін / Протерміновано
 
 Наприкінці позитивного завершення документообігу Ви отримаєте "Повідомлення про прийом" (RECADV).
 
