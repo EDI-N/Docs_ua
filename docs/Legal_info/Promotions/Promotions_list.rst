@@ -6,6 +6,7 @@
    :maxdepth: 1
    
    EDIN_Commercial_offers_promotion
+   EDIN_Tender_promotion
    
 
 Архів
