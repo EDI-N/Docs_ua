@@ -14,4 +14,4 @@
 У тілі **відповіді** передаються `результати пошуку подій за документами <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/EventsStorageQueryResult.html>`__ (об'єкт **EventsStorageQueryResult**).
 
 .. important::
-   Результати пошуку подій будуть згруповані за документами!
+   В результатах пошуку буде виведено не більше 100 останніх подій, що будуть згруповані за документами!
