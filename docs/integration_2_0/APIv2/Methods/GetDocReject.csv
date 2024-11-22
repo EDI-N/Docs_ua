@@ -14,5 +14,5 @@ URL параметри ,"**gln** - рядок (13); номер GLN органі�
 - **json_base64**
 - **xml_base64**"
 **Headers**   ,
-Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
 Content-Type  , application/json

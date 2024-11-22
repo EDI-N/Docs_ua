@@ -2,9 +2,15 @@
 **Створення на сервері квитанції "Анулювання"**
 #######################################################################################################
 
+.. role:: red
+
+.. role:: green
+
 Для роботи з цим методом користувач повинен бути `авторизованим <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__.
 
 За допомогою GET методу **api/v2/eds/doc/repeal** можливо створити квитанцію для подальшого запуску "Анулювання".
+
+:green:`New:`
 
 .. csv-table:: 
   :file: GetRepealTicketBody2.csv
@@ -17,7 +23,7 @@
 * `DOCUMENTINVOICE <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__ з DocumentFunctionCode=RPLN і сегментом Repealer для анулювання накладних DOCUMENTINVOICE
 * `TRANSPORTATIONORDER <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__ для анулювання «Заявки на транспортування» / «Підтвердження заявки на транспортування»
 
-в json форматі або форматі обраному в запиті **response_type** (`приклади відповіді <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetRejectTicketBodyExample.html>`__.
+в json форматі або форматі обраному в запиті **response_type** (`приклади відповіді <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/GetRejectTicketBodyExample.html>`__).
 
 ----------------------------------------------
 
