@@ -80,6 +80,57 @@
     <Текст>testreject</Текст>
   </ЕлектроннийДокумент>
 
+.. code:: XML
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <Document-Invoice>
+    <Invoice-Header>
+      <InvoiceNumber>PRN_4855_1</InvoiceNumber>
+      <InvoiceDate>2024-10-07</InvoiceDate>
+      <DocumentFunctionCode>RPLN</DocumentFunctionCode>
+      <InvoiceCancelReason>TEST</InvoiceCancelReason>
+    </Invoice-Header>
+    <BasementInvoice-Reference>
+      <Number>PRN_4855_1</Number>
+      <Date>2024-10-07</Date>
+      <FunctionCode>PRN</FunctionCode>
+    </BasementInvoice-Reference>
+    <Invoice-Parties>
+      <Buyer>
+        <ILN>4824034000005</ILN>
+        <TaxID>1020301020</TaxID>
+        <UtilizationRegisterNumber>34554362</UtilizationRegisterNumber>
+        <Name>ТОВ &quot;Фоззі-Фуд&quot;</Name>
+      </Buyer>
+      <Seller>
+        <ILN>9864065732181</ILN>
+        <TaxID>1010101016</TaxID>
+        <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
+        <Name>FelEx_1</Name>
+      </Seller>
+      <DeliveryPoint>
+        <ILN>4824034000005</ILN>
+        <Name>ТОВ &quot;Фоззі-Фуд&quot;</Name>
+        <CityName>м. Вишневе</CityName>
+        <StreetAndNumber>вул. Промислова, 5</StreetAndNumber>
+        <PostalCode>8132</PostalCode>
+      </DeliveryPoint>
+      <Payer>
+        <ILN>4824034000005</ILN>
+        <Name>ТОВ &quot;Фоззі-Фуд&quot;</Name>
+        <CityName>м. Вишневе</CityName>
+        <StreetAndNumber>вул. Промислова, 5</StreetAndNumber>
+        <PostalCode>8132</PostalCode>
+      </Payer>
+      <Repealer>
+        <ILN>9864065732181</ILN>
+        <TaxID>1010101016</TaxID>
+        <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
+        <Name>FelEx_1</Name>
+      </Repealer>
+    </Invoice-Parties>
+  </Document-Invoice>
+
 --------------
 
 **Приклад тіла відповіді (json_base64):**
