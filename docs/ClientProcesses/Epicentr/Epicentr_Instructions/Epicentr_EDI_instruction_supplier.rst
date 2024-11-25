@@ -30,7 +30,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_048.png
+.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_049.png
    :height: 700px
    :align: center
 
@@ -277,8 +277,6 @@
    реалізації
    11. Надлишки
    12. Малий термін / Протерміновано
-
-Наприкінці позитивного завершення документообігу Ви отримаєте "Повідомлення про прийом" (RECADV).
 
 .. _from-carrier-to-storage:
 
