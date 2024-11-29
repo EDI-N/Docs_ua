@@ -279,6 +279,10 @@
 9 Створення "Акта наданих послуг (Логістика)" (COMDOC_037) та "Рахунку (Логістика)" (COMDOC_040)
 ============================================================================================================================
 
+.. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
+   :start-after: .. початок блоку для COMDOC_037/040
+   :end-before: .. кінець блоку для COMDOC_037/040
+
 Масове створення "Актів наданих послуг (Логістика)" (`COMDOC_037 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__) та "Рахунків (Логістика)" (`COMDOC_040 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_040_x.html>`__) можливо виконати на підставі:
 
    * :underline:`підписаних контрагентами (з обох сторін)`, "Заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 1) або "Підтвердження заявки на транспортування" (TRANSPORTATIONORDER з SUBDOCTYPE = 2);
