@@ -15,6 +15,8 @@
    Directories
    LSD_additional_actions
 
+.. _catalogues:
+
 .. toctree::
    :caption: Довідники торговельних мереж
    :maxdepth: 1
@@ -23,6 +25,8 @@
    Poland_grocery_store_chain_catalogue
    Germany_grocery_store_chain_catalogue
    Romania_grocery_store_chain_catalogue
+   Hungary_grocery_store_chain_catalogue
+   Mid_East_Africa_grocery_store_chain_catalogue
 
 .. toctree::
    :caption: Схема "Міжнародні поставки"
@@ -31,5 +35,40 @@
    International_deliveries/International_deliveries_instruction
    International_deliveries/International_deliveries_specs
 
+.. для красивих посилань на документи треба місце для скролу:
 
+.. raw:: html
+
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
+   <p>                                                                                                 </p>
 
