@@ -47,7 +47,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Epicentr_Online/Epicentr_Online_001.png
+.. image:: pics_Epicentr_Online/Epicentr_Online_002.png
    :height: 700px
    :align: center
 
@@ -83,9 +83,18 @@
    :start-after: .. початок блоку для Ordrsp_from_docs
    :end-before: .. кінець блоку для Ordrsp_from_docs
 
+.. _invoice-create:
+
+4 Створення та відправка "Рахунку" (INVOICE) на підставі надісланого "Підтвердження замовлення" (ORDRSP)
+==============================================================================================================
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Schetfaktura_INVOICE_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для INVOICE_standart
+   :end-before: .. кінець блоку для INVOICE_standart
+
 .. _desadv-create:
 
-4 Створення та відправка "Повідомлення про відвантаження" (DESADV) на підставі надісланого "Підтвердження замовлення" (ORDRSP)
+5 Створення та відправка "Повідомлення про відвантаження" (DESADV) на підставі надісланого "Підтвердження замовлення" (ORDRSP)
 ================================================================================================================================
 
 .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
@@ -94,7 +103,7 @@
 
 .. _documentinvoice-drn-create:
 
-5 Створення та відправка "Видаткової накладної" (DOCUMENTINVOICE_DRN) на підставі надісланого "Повідомлення про відвантаження" (DESADV)
+6 Створення та відправка "Видаткової накладної" (DOCUMENTINVOICE_DRN) на підставі надісланого "Повідомлення про відвантаження" (DESADV)
 ===============================================================================================================================================
 
 .. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_Post_LC_Giper_crossdocking.rst
@@ -103,7 +112,7 @@
 
 .. _sign:
 
-5.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN)
+6.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE.DocumentFunctionCode = DRN)
 --------------------------------------------------------------------------------------------------
 
 .. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_Post_LC_Giper_crossdocking.rst
@@ -112,7 +121,7 @@
 
 .. _ettn-create:
 
-6 Створення та відправка "е-ТТН" на підставі надісланої "Видаткової накладної" (DOCUMENTINVOICE_DRN)
+7 Створення та відправка "е-ТТН" на підставі надісланої "Видаткової накладної" (DOCUMENTINVOICE_DRN)
 ==========================================================================================================================
 
 .. include:: /ETTN_3_0/Create_ETTN_from.rst
