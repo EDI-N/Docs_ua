@@ -13,7 +13,7 @@
 
 ----------------------------------------------------
 
-.. image:: pics/PRODUCTLIST*_API_work_001.png
+.. image:: pics/PRODUCTLIST_change_API_work_001.png
    :align: center
    :width: 800px
 
