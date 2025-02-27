@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Document-ProductCatalogue>
+  <ProductCatalogue-Header>
+    <ProductCatalogueNumber>7A_0024669_00156_001027411_20230802</ProductCatalogueNumber>
+    <ProductCatalogueDate>2023-08-02</ProductCatalogueDate>
+    <PeriodStartDate>2023-07-19</PeriodStartDate>
+    <PeriodEndDate>2023-08-15</PeriodEndDate>
+    <ReviewDeadlineDate>2023-08-01</ReviewDeadlineDate>
+    <PromotionalPriceStartDate>2023-08-02</PromotionalPriceStartDate>
+    <PromotionalPriceEndDate>2023-08-15</PromotionalPriceEndDate>
+    <DocumentFunctionCode>7A</DocumentFunctionCode>
+    <ServiceNumber>PR01</ServiceNumber>
+    <ServiceName>Маркетингові послуги стосовно товарів Постачальника (промо-активності) / Marketing services (promo-actions)</ServiceName>
+    <ContractNumber>24669</ContractNumber>
+    <ContractDate>2015-05-01</ContractDate>
+    <ContractDescription>156. WINES</ContractDescription>
+    <ContractGLN>9991027243444</ContractGLN>
+    <ItemCategoryNumber>156</ItemCategoryNumber>
+    <AccountNumber>1027411</AccountNumber>
+    <PromotionDealNumber>MP31</PromotionDealNumber>
+    <PromotionDealName>IN-STORE PROMO MP31+32</PromotionDealName>
+    <PostOfficeNumber>MP312</PostOfficeNumber>
+    <DiscountWorkStatus>1</DiscountWorkStatus>
+    <Comment>
+    <Text>Коментар 1</Text>
+    <LanguageCode>Код</LanguageCode>
+    </Comment>
+    <Reference>
+    <ReferenceNumber>2341</ReferenceNumber>
+    <ReferenceDate>2015-05-01</ReferenceDate>
+    <ReferenceStatus>Статус</ReferenceStatus>
+    </Reference>
+  </ProductCatalogue-Header>
+  <ProductCatalogue-Parties>
+    <Buyer>
+      <ILN>4820086630009</ILN>
+      <OrderContact>10Kf2</OrderContact>
+      <SalesAdministration>адміністрація</SalesAdministration>
+      <Name>ТОВ МЕТРО Кеш енд Кері Україна</Name>
+      <StreetAndNumber>пр-т П. Григоренка, 43</StreetAndNumber>
+      <CityName>02140, Київ, Україна</CityName>
+      <PostalCode>47298</PostalCode>
+      <PhoneNumber>+380444921000</PhoneNumber>
+    </Buyer>
+    <Seller>
+      <ILN>9099999104517</ILN>
+      <OrderContact>10Kf21</OrderContact>
+      <SalesAdministration>адміністрація1</SalesAdministration>
+      <Name>БАЯДЕРА ЛОГІСТИК ТОВ</Name>
+    </Seller>
+    <Sender>
+      <ILN>4820086630009</ILN>
+    </Sender>
+    <Receiver>
+      <ILN>9099999104517</ILN>
+    </Receiver>
+  </ProductCatalogue-Parties>
+  <ProductCatalogue-Lines>
+    <Line>
+      <Line-Item>
+        <LineNumber>1</LineNumber>
+        <LineType>1</LineType>
+        <EAN>1472583690147</EAN>
+        <BuyerItemCode>148342</BuyerItemCode>
+        <SupplierItemCode>11111111</SupplierItemCode>
+        <PreviousEAN>1472583690146</PreviousEAN>
+        <PreviousBuyerItemCode>288795</PreviousBuyerItemCode>
+        <PreviousSupplierItemCode>111111115</PreviousSupplierItemCode>
+        <ExternalItemCode>3333333333</ExternalItemCode>
+        <ItemDescription>MARENGO ВЕРМУТ БІЛИЙ ДЕС 1,0</ItemDescription>
+        <ItemType>тип</ItemType>
+        <ProductType>372</ProductType>
+        <PromotionalQuantity>10</PromotionalQuantity>
+        <ProductLifespan>
+        <PeriodFormat>формат</PeriodFormat>
+        <Period>період</Period>
+        </ProductLifespan>
+        <UnitOfMeasure>грн</UnitOfMeasure>
+        <UnitNetPrice>118.55</UnitNetPrice>
+        <NewUnitNetPrice>120.55</NewUnitNetPrice>
+        <UnitNetPriceStartDate>2020-01-10</UnitNetPriceStartDate>
+        <UnitNetPriceEndDate>2020-01-11</UnitNetPriceEndDate>
+        <UnitGrossPrice>1201.2</UnitGrossPrice>
+        <NewUnitGrossPrice>1201.2</NewUnitGrossPrice>
+        <UnitGrossPriceStartDate>2020-01-10</UnitGrossPriceStartDate>
+        <UnitGrossPriceEndDate>2020-01-11</UnitGrossPriceEndDate>
+        <PromotionalNetPrice>10.0</PromotionalNetPrice>
+        <PromotionalPriceStartDate>2020-01-10</PromotionalPriceStartDate>
+        <PromotionalPriceEndDate>2020-01-11</PromotionalPriceEndDate>
+        <PromotionalGrossPrice>1201.2</PromotionalGrossPrice>     
+        <CommissionAmount>17.78</CommissionAmount>
+        <DiscountNetPrice>118.55</DiscountNetPrice>
+        <DiscountPriceStartDate>2020-01-10</DiscountPriceStartDate>
+        <DiscountPriceEndDate>2020-01-11</DiscountPriceEndDate>
+        <DiscountGrossPrice>1201.2</DiscountGrossPrice> 
+        <SuggestedPrice>118.55</SuggestedPrice>
+        <CompensationNetPrice>119.55</CompensationNetPrice>
+        <Discount>11.55</Discount>
+        <AgreedQuota>11.55</AgreedQuota>
+        <TaxRate>7</TaxRate>
+        <TaxCategoryCode>S</TaxCategoryCode>
+        <TaxReference>
+        <ReferenceType>5670542</ReferenceType>
+        <ReferenceNumber>223904</ReferenceNumber>
+        </TaxReference>
+        <PackDetails>
+        <MinOrderedQuantity>56</MinOrderedQuantity>
+        <Weight>22</Weight>
+        <Volume>21</Volume>
+        <Length>20</Length>
+        <Width>22</Width>
+        <Height>23</Height>
+        <UnitPacksize>23</UnitPacksize>
+        </PackDetails>
+      </Line-Item>
+    </Line>
+  </ProductCatalogue-Lines>
+  <ProductCatalogue-Summary>
+    <TotalLines>1</TotalLines>
+  </ProductCatalogue-Summary>
+</Document-ProductCatalogue>

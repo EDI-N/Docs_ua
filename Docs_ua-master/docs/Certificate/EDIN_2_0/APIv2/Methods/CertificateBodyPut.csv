@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/ecs/body?gln=9864232613879&uuid=3ff444f4-7594-4a43-a151-90e14ee92b0c&body_type=1**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**uuid** (обов'язково) UUID - унікальний ідентифікатор сертифіката
+
+**body_type** (обов'язково) int - тип тіла:
+
+* 1 - вкладення до сертифіката"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , `multipart/form-data <https://tools.ietf.org/html/rfc7578>`__
+**REQUEST**   ,
+Form-data     ,"В тілі запиту передаються файли вкладень в форматі PDF, JPG, JPEG, PNG, TIFF. Всі файли, що передаються будуть автоматично об'єднані в один PDF файл."

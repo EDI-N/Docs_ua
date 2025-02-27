@@ -1,0 +1,60 @@
+Підтип комерційного документа (COMDOC),sub_doc_type_id,Назва та опис документа
+001,1,`Договір (COMDOC_001) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_001_x.html>`__
+005,5,`Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_005_x.html>`__
+006,6,`Видаткова накладна (COMDOC_006) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_006_x.html>`__
+007,7,`Прибуткова накладна (COMDOC_007) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_007_x.html>`__
+008,8,`Товарна специфікація (COMDOC_008) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_008_x.html>`__
+009,9,`Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_009_x.html>`__
+011,11,`Повідомлення про повернення (COMDOC_011) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_011_x.html>`__
+012,12,`Накладна на повернення (COMDOC_012) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_012_x.html>`__
+013,13,`Акт виконаних робіт (COMDOC_013) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_013_x.html>`__
+015,15,`Акт взаємозаліку (COMDOC_015) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_015_x.html>`__
+016,16,`Рахунок-фактура (COMDOC_016) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_016_x.html>`__
+018,18,`Акт наданих послуг (COMDOC_018) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_018_x.html>`__
+019,19,`Анулювання (COMDOC_019) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_019_x.html>`__
+021,21,`Повідомлення про відмову від підписання документу (COMDOC_021) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__
+022,22,`Накладна на переміщення (COMDOC_022) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_022_x.html>`__
+023,23,`Специфікація послуг перевізника (COMDOC_023) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_023_x.html>`__
+024,24,`Звіт комітенту по еквайрингу (COMDOC_024) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_024_x.html>`__
+025,25,`Рахунок по еквайрингу (COMDOC_025) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_025_x.html>`__
+026,26,`Зведена специфікація послуг (COMDOC_026) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_026_x.html>`__
+027,27,`Товарна накладна (COMDOC_027) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_027_x.html>`__
+028,28,`Заявка на транспортно-експедиційне обслуговування (COMDOC_028) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_028_x.html>`__
+029,29,`Акт звірки зведений (COMDOC_029) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_029_x.html>`__
+030,30,`Претензія (COMDOC_030) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_030_x.html>`__
+031,31,`Накладна на зворотну тару (COMDOC_031) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_031_x.html>`__
+032,32,`Акт приймання-передачі (додаток 8) (COMDOC_032) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-032>`__
+033,33,`Акт приймання-передачі (додаток 9) (COMDOC_033) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-033>`__
+034,34,`Акт приймання товару до АПП (COMDOC_034) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-034>`__
+035,35,`Акт приймання товару до ВН (COMDOC_035) <https://wiki.edin.ua/uk/latest/ClientProcesses/ATB/ATB_XML-structure.html#comdoc-035>`__
+036,36,`Акт коригування (COMDOC_036) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_036_x.html>`__
+037,37,`Акт наданих послуг (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
+038,38,`Коригування видаткової накладної (COMDOC_038) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_038_x.html>`__
+040,40,`Рахунок (логістика) (COMDOC_038) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_040_x.html>`__
+**Підтип накладної (DOCUMENTINVOICE.DocumentFunctionCode)**,**sub_doc_type_id**,**Назва та опис документа**
+TN,0,`Товарна накладна / Накладна за кількістю (для Метро та Леруа Мерлен) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+TN,1,`Накладна за кількістю <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+PRN,2,`Цінова Накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+DRN,3,`Видаткова Накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+TNN,4,`Транспортна накладна <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_TNN_x.html>`__
+DTN,5,`Акт розбіжностей до транспортної накладної <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_DTN_x.html>`__
+APP,6,`Акт приймання-передачі <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#documentinvoice-app>`__
+NP,7,`Накладна на повернення <https://wiki.edin.ua/uk/latest/ClientProcesses/Metro/Metro_XML/DOCUMENTINVOICE_NP_x.html>`__
+**Підтип коригування до накладної (DOCCORINVOICE.DocumentFunctionCode)**,**sub_doc_type_id**,**Назва та опис документа**
+СTN,0,`Коригування товарної накладної <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+CVN,2,`Акт розбіжностей (для ТМ ЕПІЦЕНТР) <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_XML-structure.html#doccorinvoice>`__
+**Підтип ТТН (DECLARHEAD.C_DOC)**,**sub_doc_type_id**,**Назва та опис документа**
+T01,1,зовнішня ТТН
+T51,51,внутрішня ТТН
+T52,52,внутрішня ТТН (алкоголь)
+T53,53,внутрішня ТТН (тютюн)
+**Підтип «Заявка на транспортування» / «Підтвердження заявки на транспортування» (TRANSPORTATIONORDER.SUBDOCTYPE)**,**sub_doc_type_id**,**Назва та опис документа**
+1,1,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+2,2,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+**Підтип «Замовлення» (ORDER.DOCTYPE)**,**sub_doc_type_id**,**Назва та опис документа**
+PO,1,Попереднє замовлення
+O,2,Оригінал замовлення
+OS,3,Замовлення на послугу / маркетинг
+F,4,Фіктивність замовлення
+R,5,Заміна замовлення
+D,6,Видалення

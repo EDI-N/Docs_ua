@@ -1,0 +1,311 @@
+Назва поля,Тип [1]_,Формат,Опис
+**UAECMR_ACT**,M,,(початок документа)
+**ACT**,M,,(початок змісту документа)
+**ExchangedDocumentContext**,M,,Технічні дані (початок блоку)
+ram:SpecifiedTransactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,M,,"параметр контексту документа, визначений бізнес-процесом (початок блоку)"
+ram:ID,M,string,код документа
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,,,"параметр контексту документа, визначений бізнес-процесом (закінчення блоку)"
+**ram:GuidelineSpecifiedDocumentContextParameter**,M,,"параметр контексту визначеного документа (початок блоку)"
+ram:ID,M,unsignedByte,підтип документа
+**ram:GuidelineSpecifiedDocumentContextParameter**,,,"параметр контексту визначеного документа (закінчення блоку)"
+**ExchangedDocumentContext**,,,Технічні дані (закінчення блоку)
+**ExchangedDocument**,M,,Реквізити Акта (початок блоку)
+ram:ID,M,string,номер документа
+**ram:IssueDateTime**,M,,Дата і час складання документа (початок блоку)
+**udt:DateTime**,,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання Акта
+**ram:IssueDateTime**,,,Дата і час складання документа (закінчення блоку)
+ram:Remarks,O,string,Інші примітки
+**ram:IssueLogisticsLocation**,M,,Місце складання документа (початок блоку)
+ram:Name,M,string,Найменування місця складання Акта
+ram:Description,M,string,Опис (адреса) місця складання Акта
+**ram:IssueLogisticsLocation**,,,Місце складання документа (закінчення блоку)
+**ExchangedDocument**,,,Реквізити Акта (закінчення блоку)
+**StorageDeliveryActPayload**,M,,Інформація про Акт (початок блоку)
+**PreviousAdministrativeReferencedDocument**,M,,"Інформація про е-ТТН, для якої складається акт (початок блоку)"
+ram:TypeCode,M,string,Тип документа (730 - ТТН). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:ID,M,string,Номер документа-підстави (ТТН); має відповідати номеру документа ExchangedDocument.ID еТТН
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (початок блоку)
+qdt:DateTimeString,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час документа-підстави (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (закінчення блоку)
+**ram:AttachedSpecifiedBinaryFile**,M,,"Дані е-ТТН, для якої складається акт (початок блоку)"
+ram:ID,M,string,Ідентифікатор (guid) документа-підстави (ТТН); має відповідати document.id еТТН в ЦБД (значення **ettnId** з методу `Отримання списку подій з ЦБД  <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/MintransEvents.html>`__ = значення **external_doc_id** `Отримання мета-даних документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocument.html>`__)
+ram:URIID,O,string,посилання на документ
+ram:MIMECode,O,string,`MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+ram:SizeMeasure,O,long,розмір файлу в байтах
+**ram:AttachedSpecifiedBinaryFile**,,,"Дані е-ТТН, для якої складається акт (закінчення блоку)"
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про е-ТТН, для якої складається акт (закінчення блоку)"
+**PreviousAdministrativeReferencedDocument**,-/M,,"Інформація про попередній акт, у випадку наступної транзакції (початок блоку)"
+ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:ID,M,string,Номер документа-підстави (Акт); має відповідати номеру документа ExchangedDocument.ID Акта
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (Акт); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (початок блоку)
+qdt:DateTimeString,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час документа-підстави (Акта)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (Акта); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (закінчення блоку)
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про попередній акт, у випадку наступної транзакції (закінчення блоку)"
+**CarrierTradeParty**,M,,"Перевізник (початок блоку)"
+**ram:ID**,M,,"Ідентифікаційний код Перевізника (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Перевізника"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ водія"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код Водія (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Водія)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код Водія (закінчення блоку)
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M/O,string,"* Серія та номер водійського посвідчення Водія (поле обов'язкове до заповнення). Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія (поле опціональне до заповнення)
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
+**CarrierTradeParty**,,,"Перевізник (закінчення блоку)"
+**StorageTradeParty**,M,,"Проміжний склад (початок блоку)"
+**ram:ID**,M,,"Ідентифікаційний код Проміжного складу (початок блоку)"
+schemeAgencyID,M,string,"ЄДРПОУ підприємства, що приймає від Перевізника на тимчасове зберігання вантаж"
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Проміжного складу (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Проміжного складу (підприємства, що приймає від Перевізника на тимчасове зберігання вантаж)"
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,O,,Контакти відповідального представника Проміжного складу (початок блоку)
+ram:PersonName,O,string,ПІБ
+**ram:TelephoneUniversalCommunication**,O,,Основний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:TelephoneUniversalCommunication**,,,Основний телефон (закінчення блоку)
+**ram:MobileTelephoneUniversalCommunication**,O,,Мобільний телефон (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:MobileTelephoneUniversalCommunication**,,,Мобільний телефон (закінчення блоку)
+**ram:EmailURIUniversalCommunication**,O,,Електронна адреса (початок блоку)
+ram:CompleteNumber,O,string,Контактні дані
+**ram:EmailURIUniversalCommunication**,,,Електронна адреса (закінчення блоку)
+**ram:DefinedTradeContact**,,,Контакти відповідального представника Проміжного складу (закінчення блоку)
+**ram:PostalTradeAddress**,O,,Юридична адреса Проміжного складу (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (початок блоку)
+ram:PostcodeCode,O,string,Індекс
+ram:StreetName,M,string,Адреса (назва вулиці + номер будівлі)
+ram:CityName,M,string,Місто (назва населеного пункту)
+ram:CountryID,M,string,Країна (UA)
+ram:CountrySubDivisionName,O,string,Область та район (за наявності)
+**ram:PostalTradeAddress**,,,Юридична адреса Проміжного складу (юридична адреса юридичної особи або адреса реєстрації фізичної особи-підприємця) (закінчення блоку)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код відповідальної особи (початок блоку)
+ram:ID,O,string,РНОКПП відповідальної особи
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи (закінчення блоку)
+**ram:SpecifiedGovernmentRegistration**,M,,GLN Проміжного складу (початок блоку)
+ram:ID,M/O,string,"GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
+ram:TypeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,GLN Проміжного складу (закінчення блоку)
+**StorageTradeParty**,,,"Проміжний склад (закінчення блоку)"
+**StorageLogisticsLocation**,M,,"Місцезнаходження складу (початок блоку)"
+**ram:ID**,M,,"Ідентифікаційний код складу тимчасового зберігання (початок блоку)"
+schemeAgencyID,M,string,"Код КАТОТТГ складу тимчасового зберігання"
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код складу тимчасового зберігання (закінчення блоку)"
+ram:Name,M,string,Найменування складу тимчасового зберігання
+ram:Description,M,string,Опис (адреса) складу тимчасового зберігання
+**ram:PhysicalGeographicalCoordinate**,M,,Географічні координати (початок блоку)
+ram:LatitudeMeasure,O,string,Широта
+ram:LongitudeMeasure,O,string,Довгота
+**ram:SystemID**,M,,"Код GLN (початок блоку)"
+schemeAgencyID,M,string,GLN
+value,M,decimal,Значення
+**ram:SystemID**,,,"Код GLN (закінчення блоку)"
+**ram:PhysicalGeographicalCoordinate**,,,Географічні координати (закінчення блоку)
+**StorageLogisticsLocation**,,,"Місцезнаходження складу (закінчення блоку)"
+**UtilizedLogisticsTransportEquipment**,M,,"Автомобіль, що розвантажується (початок блоку)"
+ram:ID,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
+
+* укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
+* єврономери: без валідації"
+**ram:AffixedLogisticsSeal**,O,,Номер пломби (автомобіль) (початок блоку)
+ram:ID,O,string,"Відбиток пломби, якою проводилося пломбування автомобіля"
+**ram:AffixedLogisticsSeal**,,,Номер пломби (автомобіль) (закінчення блоку)
+**ram:SettingTransportSettingTemperature**,O,,Інструкції з експлуатації (початок блоку)
+**ram:MinimumValueMeasure**,O,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим від (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MinimumValueMeasure**,,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим від (закінчення блоку)"
+**ram:MaximumValueMeasure**,O,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим до (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MaximumValueMeasure**,,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим до (закінчення блоку)"
+**ram:SettingTransportSettingTemperature**,,,Інструкції з експлуатації (закінчення блоку)
+**ram:ApplicableNote** (з кодом BRAND),M,,Марка автомобіля (початок блоку)
+ram:ContentCode,M,string,Код BRAND
+ram:Content,M,string,Марка автомобіля згідно з техпаспортом
+**ram:ApplicableNote** (з кодом BRAND),,,Марка автомобіля (закінчення блоку)
+**ram:ApplicableNote** (з кодом MODEL),M,,Модель автомобіля (початок блоку)
+ram:ContentCode,M,string,Код MODEL
+ram:Content,M,string,Модель автомобіля згідно з техпаспортом
+**ram:ApplicableNote** (з кодом MODEL),,,Модель автомобіля (закінчення блоку)
+**ram:ApplicableNote** (з кодом COLOR),O,,Колір автомобіля (початок блоку)
+ram:ContentCode,O,string,Код COLOR
+ram:Content,O,string,Колір автомобіля згідно з техпаспортом
+**ram:ApplicableNote** (з кодом COLOR),,,Колір автомобіля (закінчення блоку)
+**UtilizedLogisticsTransportEquipment**,,,"Автомобіль, що розвантажується (закінчення блоку)"
+**UtilizedLogisticsTransportEquipment** (CategoryCode=TE),O,,"Причіп/напівпричіп, що розвантажується (початок блоку)"
+ram:CategoryCode,O,string,Тип TE - Причіп/напівпричіп
+ram:CharacteristicCode,O,string,"Код визначення Причіп/напівпричіп:
+
+* 14 - Причіп
+* 17 - Напівпричіп"
+**ram:AffixedLogisticsSeal**,O,,Номер пломби (причіп/напівпричіп) (початок блоку)
+ram:ID,O,string,"Відбиток пломби, якою проводилося пломбування причіпа/напівпричіпа"
+**ram:AffixedLogisticsSeal**,,,Номер пломби (причіп/напівпричіп) (закінчення блоку)
+**ram:SettingTransportSettingTemperature**,O,,Інструкції з експлуатації (початок блоку)
+**ram:MinimumValueMeasure**,O,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим від (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MinimumValueMeasure**,,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим від (закінчення блоку)"
+**ram:MaximumValueMeasure**,O,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим до (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MaximumValueMeasure**,,,"Температурний режим, необхідний для перевезення вантажу. Температурний режим до (закінчення блоку)"
+**ram:SettingTransportSettingTemperature**,,,Інструкції з експлуатації (закінчення блоку)
+**ram:ApplicableNote** (з кодом BRAND),O,,Марка причіпа/напівпричіпа (початок блоку)
+ram:ContentCode,O,string,Код BRAND
+ram:Content,O,string,Марка причіпа/напівпричіпа згідно з техпаспортом
+**ram:ApplicableNote** (з кодом BRAND),,,Марка причіпа/напівпричіпа (закінчення блоку)
+**ram:ApplicableNote** (з кодом MODEL),O,,Модель причіпа/напівпричіпа (початок блоку)
+ram:ContentCode,O,string,Код MODEL
+ram:Content,O,string,Модель причіпа/напівпричіпа згідно з техпаспортом
+**ram:ApplicableNote** (з кодом MODEL),,,Модель причіпа/напівпричіпа (закінчення блоку)
+**ram:ApplicableNote** (з кодом COLOR),O,,Колір причіпа/напівпричіпа (початок блоку)
+ram:ContentCode,O,string,Код COLOR
+ram:Content,O,string,Колір причіпа/напівпричіпа згідно з техпаспортом
+**ram:ApplicableNote** (з кодом COLOR),,,Колір причіпа/напівпричіпа (закінчення блоку)
+ram:ID,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
+**UtilizedLogisticsTransportEquipment** (CategoryCode=TE),,,"Причіп/напівпричіп, що розвантажується (закінчення блоку)"
+**DeliveryTransportEvent**,O,,Розвантажувальні роботи (початок блоку)
+ram:ID,O,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
+ram:TypeCode,O,string,"Тип операції (розвантаження=5, завантаження=10)"
+ram:Description,O,string,Опис
+**ram:ActualOccurrenceDateTime**,O,,Дата і час прибуття автомобіля на розвантаження (початок блоку)
+udt:DateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час
+**ram:ActualOccurrenceDateTime**,,,Дата і час прибуття автомобіля на розвантаження (закінчення блоку)
+**ram:ScheduledOccurrenceDateTime**,O,,Дата і час вибуття автомобіля з-під розвантаження (початок блоку)
+udt:DateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час
+**ram:ScheduledOccurrenceDateTime**,,,Дата і час вибуття автомобіля з-під розвантаження (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),M,,"Інформація про водія Перевізника, що здав вантаж (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+ram:Name,M,string,"Посада водія, що здав вантаж"
+ram:RoleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,O,string,"ПІБ водія, що здав вантаж"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),,,"Інформація про водія Перевізника, що здав вантаж (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CA),O,,Інформація про відповідальних осіб Перевізника (початок блоку)
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Перевізника (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Перевізника (закінчення блоку)"
+ram:Name,M,string,"Посада відповідальної особи Перевізника"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ відповідальної особи Перевізника"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),,,Інформація про відповідальних осіб Перевізника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WD),O,,Інформація про відповідальних осіб Проміжного складу (початок блоку)
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (закінчення блоку)"
+ram:Name,M,string,"Посада відповідальної особи Проміжного складу"
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ відповідальної особи Проміжного складу"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WD),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),O,,"Маса брутто, кг (початок блоку)"
+ram:ContentCode,O,string,Код GROSSWEIGHT
+ram:Content,O,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах"
+**ram:ApplicableNote** (з кодом GROSSWEIGHT),,,"Маса брутто, кг (закінчення блоку)"
+**ram:ApplicableNote** (з кодом DOWNTIME),O,,Час простою (початок блоку)
+ram:ContentCode,O,string,Код DOWNTIME
+ram:Content,O,unsignedByte,Час (години) простою під розвантаженням
+**ram:ApplicableNote** (з кодом DOWNTIME),,,Час простою (закінчення блоку)
+**DeliveryTransportEvent**,,,Розвантажувальні роботи (закінчення блоку)
+CarrierNotes,M,string,Короткий або повний опис причин складання акта (Перевізник)
+StorageNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Проміжний склад)
+**StorageDeliveryActPayload**,,,Інформація про Акт (закінчення блоку)
+**CertifyingPartyPayload**,M,,Інформація про відповідальних осіб (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),M,,"Інформація про водія Перевізника, що здав вантаж (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+ram:Name,M,string,"Посада водія"
+ram:RoleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ водія"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія (початок блоку)
+ram:ID,M,string,"Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=DR),,,"Інформація про водія Перевізника, що здав вантаж (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CA),M,,"Інформація про відповідальних осіб Перевізника (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+ram:Name,M,string,"Посада водія"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ водія"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),,,"Інформація про відповідальних осіб Перевізника (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=WD),M,,Інформація про відповідальних осіб Проміжного складу (початок блоку)
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Проміжного складу (закінчення блоку)"
+ram:Name,M,string,"Посада відповідальної особи Проміжного складу"
+ram:RoleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ відповідальної особи Проміжного складу"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=WD),,,Інформація про відповідальних осіб Проміжного складу (закінчення блоку)
+**CertifyingPartyPayload**,,,Інформація про відповідальних осіб (закінчення блоку)
+**ACT**,,,(закінчення змісту документа)
+**UaSignatureStorage**,M,,Підписи (початок блоку)
+**VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
+ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:Remarks,O,string,Графічне зображення Акта в base64
+**VisualReferencedDocument**,,,Графічне відображення документа (закінчення блоку)
+**Signature** (SigningPartyRoleCode=DR),M,,"КЕП водія, що здає вантаж (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (водія)
+Position,O,string,Посада підписанта (водія)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код водія (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (водія)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код водія (закінчення блоку)
+**Signature** (SigningPartyRoleCode=DR),,,"КЕП водія, що здає вантаж (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=CA),O,,"КЕП Перевізника, що здає вантаж (початок блоку)"
+SigningPartyRoleCode,O,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,O,string,Підпис (base64 підпису p7s)
+Name,O,string,ПІБ підписанта (Перевізника)
+Position,O,string,Посада підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,O,,Ідентифікаційний код Перевізника (початок блоку)
+ram:ID,O,string,РНОКПП підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код Перевізника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CA),,,"КЕП Перевізника, що здає вантаж (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=WD),M,,"КЕП відповідальної особи Проміжного складу, що приймає вантаж (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (відповідальної особи Проміжного складу)
+Position,O,string,Посада підписанта (відповідальної особи Проміжного складу)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи Проміжного складу (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (відповідальної особи Проміжного складу)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи Проміжного складу (закінчення блоку)
+**Signature** (SigningPartyRoleCode=WD),,,"КЕП відповідальної особи Проміжного складу, що приймає вантаж (закінчення блоку)"
+**UaSignatureStorage**,,,Підписи (закінчення блоку)
+**UAECMR_ACT**,,,(закінчення документа)

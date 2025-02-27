@@ -1,0 +1,62 @@
+Параметр, Формат, Опис
+.. _Identificator:, Об'єкт **Identificator**,
+guid, String, GUID організації
+taxNum, String(50), Податковий ідентифікаційний номер
+ndsNum, String(50), № свідоцтва ПДВ
+manager, String(100), ПІБ менеджера
+accountant, String(100), ПІБ бухгалтера
+id, long, GLN ID
+gln, String(13),GLN організації
+companyId, long, id аккаунта
+retailerId, long, id мережі (ритейлера)
+isUzdAts,int,"ЮЗД від АТС; 0-ні, 1-так"
+isFinCrypt,int,"шифрування FINDOC; 0-ні, 1-так"
+countryId,int,ідентифікатор країни
+isERNN,int,"схема обробки DECLAR; 0 - відправка отримувачу тільки після успішної регістрації в реєстрі, 1 - регістрація після перевірки отримувачем, 3 - відправка отримувачу без регістрації"
+name, String(100), назва організації
+nameEn, String, назва організації латинницею
+companyType, String(5), "форма власності: jur - Юридична особа, fiz - Фізична особа"
+companyInn, String(50), код ІПН компанії
+companyKpp, String(50), код ЄДРПОУ/КПП
+companyOgrn, String(15), Основний Державний Реєстраційний Номер
+companyTaxDepartmentID, String, ідентифікатор відділення податкової інспекції
+dirLastName, String(150), прізвище директора
+dirFirstName, String(150), ім'я директора
+director,String(100),ПІБ директора
+apartment, String(20), квартира
+zip, String(20), поштовий індекс
+katottg, String(20), код КАТОТТГ
+city, String(50), місто
+street, String(100), назва вулиці
+regionCode, String(3), код регіону
+bankName, String(100), назва банку
+bankMfo, String, "МФО банку, код-реквізит банку"
+phone, String(50), № телефону
+bankAccount, String(50), розрахунковий рахунок банку
+otherInfo, String, коментарі
+email, String(255), E-mail
+metroCode, String(20), код точки доставки
+IBAN,String,IBAN (англ. International Bank Account Number)
+district,String,назва району
+dpiCReg,String,регіон/область податкової
+dpiCRaj,String,район (по регіону) прив'язки до податкової
+**account**,Account_,id акаунту
+isListex,boolean,підключений довідник Listex
+isDeclarDateNumRequired,boolean,обов'язковість № і дати ПН в ТН (МЕТРО)
+distribexUser,int,користувач сервісу; 1-Виробник; 2-Дистриб'ютор
+isWithoutTax,boolean,неплатник ПДВ
+**additionalInfo**,IdentificatorAdditionalInfo_,додаткова інформація
+taxSource,int,"Код ознаки джерела податкового номера
+
+* 0 - відсутній
+* 1 - Єдиний державний реєстр підприємств та організацій України (ЄДРПОУ);
+* 2 - Державний реєстр фізичних осіб – платників податків (ДРФО);
+* 3 - реєстраційний (обліковий) номер (для платників податків, які не включені до ЄДРПОУ);
+* 4 - серія та номер паспорта (для фізичних осіб, які через релігійні переконання відмовляються від прийняття реєстраційного номера)"
+driverLicense,String,номер водійського посвідчення
+isDriver,boolean,має роль Водій (робота з ТТН та коригуючими Актами)
+isSignConfirm,int,gln підтверджений КЕП (0-ні; 1-так)
+isSpecification,int,доступ до сервісу Е-Специфікація (0-ні; 1-так)
+isCompany,int,атрибут; Основний GLN компанії (0-ні; 1-так)
+parentId,long,значення Основного GLN компанії
+**parentIdentificator**,Identificator_,дані Основного GLN (за наявності)

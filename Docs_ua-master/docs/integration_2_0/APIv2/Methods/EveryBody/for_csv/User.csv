@@ -1,0 +1,67 @@
+Параметр,Формат,Опис
+.. _User: , Об'єкт **User**,
+**blockedServices**,List<String>,"масив; список коротких назв заблокованих сервісів, наприклад:
+
+* cert
+* conv
+* edi
+* edi_uzd
+* ftp
+* offer
+* price
+* tender
+* ttn
+* user
+* uzd"
+role,int,"id ролі доступу користувача:
+
+* 1 - Супер адміністратор;
+* 2 - Адміністратор;
+* 3 - Бухгалтер (Фінансист);
+* 4 - Користувач."
+roleAccess,int,"id типу ролі:
+
+* 0 - Все;
+* 1 - Перегляд;
+* 2 - Редагування;
+* 3 - Підпис."
+accountRole,int,id ролі в акаунті
+**access**,"Map<String, AccessStatus>",масив; доступ
+**identificators**,List<Identificator_>,масив; ідентифікатори
+filters,List<UserFilterData>,фільтри
+id,long,id користувача
+accountId,long,id акаунта
+login,String,логін користувача
+stringEmails,String,список E-mail адрес в одному рядку
+phone,String,телефон
+**emails**,List<String>,"масив; E-mail адреси"
+blocked,int,"відмітка про блокування; число; 0 - немає, 1 - так"
+allowFTP,int,"відмітка доступу до FTP; число; 0 - немає, 1 - так"
+autoSending,boolean,автовідправка документів
+statusFile,int,"створення статус-файлів; число; 0 - Ні, 1 - Так, 2 - Так, про доставку, 3 - Так, про прочитання"
+isNotificationEnabled,int,"повідомлення на E-mail
+
+* 0 - Не отримувати
+* 1 - Отримувати (EDI + Distribution)
+* 2 - Отримувати (ЮЗД)
+* 3 - Отримувати (Е-Специфікація)
+* 4 - Отримувати (EDI + Distribution + Е-Специфікація)"
+isSatusFromOut,boolean,
+isAdmin,boolean,"користувач є адміністратором"
+isSpecXML,boolean,"включена конвертація файлів"
+isCerts,int,"доступ до сервісу Е-Сертифікати; 0 - ні, 1 - так, 2 - так (Адміністратор)"
+XMLConv,int,"XML-конвертор
+
+* 0 - немає
+* 1 - EANCOM | .edi
+* 2 - X12 | .x12
+* 3 - CSV | .csv
+* 4 - DBF (dBase_V) | .dbf"
+**account**,Account_,об'єкт; дані акаунта
+**companies**,List<Company_>,масив об'єктів; дані компаній
+**employee**,Employee_,об'єкт; дані співробітника
+isStatusNotification,boolean,статус повідомлення
+isPasswordChange,boolean,зміна паролю
+isSpecification,int,"доступ до сервісу Е-Специфікація; 0-ні, 1-так"
+**statusNotifyTypes**,List<Integer>,масив; типи статусів
+**otherInfo**,UserOtherInfo,об'єкт; додаткове інфо

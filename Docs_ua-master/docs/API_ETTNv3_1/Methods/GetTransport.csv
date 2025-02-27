@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    ,**/api/oas/v2/transport?transport_number=AA00**
+URL параметри ,"**transport_number** (обов'язково) String - номер транспортного засобу (у літеросполученні допускається лише латинниця) від 4 символів. Так номер **AA0001AA** користувач може знайти за ``AA00, 0001, 01AA, ...``"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , *application/json*

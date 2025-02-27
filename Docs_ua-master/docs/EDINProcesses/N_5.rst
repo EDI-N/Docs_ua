@@ -1,0 +1,16 @@
+#############################################
+5 EDI + Видаткова накладна (DOCUMENTINVOICE)
+#############################################
+
+.. image:: pics_EDINProcesses/EDINProcesses_N_5_001.png
+   :height: 700px
+   :align: center
+
+.. csv-table:: 
+  :file: N_5.csv
+  :widths:  7, 42, 7, 21
+  :header-rows: 1
+  :stub-columns: 0
+
+:download:`Завантажити колекцію методів для Postman (EDI + DOCUMENTINVOICE)<PostmanCollections/EDI + DOCUMENTINVOICE.postman_collection.json>`
+

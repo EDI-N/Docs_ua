@@ -1,0 +1,25 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/es/agreement/body?gln=9864067620417&agreement_uuid=e9xxxxa0-aed2-4cd8-b8ba-c6070ecab278&body_type=2**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**agreement_uuid** UUID - GUID документа (комерційної пропозиції / товарного узгодження) (`метод створення документа <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreement.html>`__);
+
+**body_type** (обов'язково) long - тип тіла
+
+    * 1 - тіло Комерційної пропозиції (NOVELTY)
+    * 2 - налаштування специфікації мережі (сервіс Е-Специфікація);
+    * 3 - вкладення (обгунтування) (сервіс Е-Специфікація);
+
+при body_type=3 вказується **attacheName** String - назва файла-вкладення разом з роширенням;
+
+при body_type=3 вказується **attacheMime** String - тип файлу-вкладення - application/pdf (може бути переданий файл лише в pdf форматі згідно `MIME типізації <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__ )"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передаються:
+
+* при body_type=1 `Комерційна пропозиція (NOVELTY) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/NOVELTY_x.html>`__
+* при body_type=2 `налаштування специфікації мережі <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/EveryBody/CreateAgreementBody2Request.html>`__
+* при body_type=3 передається файл в бінарному вигляді"

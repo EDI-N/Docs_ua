@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _DocStructValue:, Об'єкт **DocStructValue**,
+id,String,ID тега відповідно до опису структури
+value,String,значення тега
+index,int,"номер рядка для масивів, починається з ""0"""
+**structure**,List<List<DocStructValue>>,масив масивів об'єктів; опис структури зі значеннями
+**errors**,List<String>,масив об'єктів; помилки

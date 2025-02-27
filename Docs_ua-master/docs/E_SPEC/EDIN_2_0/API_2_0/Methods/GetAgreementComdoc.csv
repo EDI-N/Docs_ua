@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/v2/es/agreement/comdoc?gln=6549873219876&agreement_uuid=8d19fedd-f85f-4e56-9551-5ff7f10d4ad3**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**agreement_uuid** (обов'язково) UUID - GUID «Товарного узгодження»; 
+
+**response_type** (опціонально) String - формат очікуваної відповіді (формат «Товарної специфікації»); можливі варіанти:
+
+- ``bytes`` (за замовчуванням) - набір байт XML
+- ``base64`` - XML в base64"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json

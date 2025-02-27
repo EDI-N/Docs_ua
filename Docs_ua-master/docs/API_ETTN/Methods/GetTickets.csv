@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/ettn/eds/doc/tickets?doc_uuid=533c45ec-f51a-456a-a0f2-ba7b17f3b95b&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&file_name=155151&type=zip&loadBody=loadBody**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) - рядок; UUID документа
+
+**loadBody** (опціонально) - отримати квитанції разом з їх тілами; можливі значення: loadBody
+
+**type** (опціонально) - тип отримання даних; можливі значення: zip - у вигляді архіву (при цьому обов'язково вказується назва архіву - параметр file_name)
+
+**file_name** - назва архіву (вказується при наявності параметра type)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , *application/json* or *application/zip*

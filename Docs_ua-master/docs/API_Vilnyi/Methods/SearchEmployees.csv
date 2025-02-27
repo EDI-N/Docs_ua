@@ -1,0 +1,17 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    ,**/api/oas/v2/employees/search?query=111&by_company=1&by_alias=1**
+URL параметри ,"**query** (обов'язково) String - текст пошуку (ім'я / ІПН / email / ЄДРПОУ / номер телефону)
+
+**by_company** (опціонально) int - фільтр пошуку:
+
+* 0 - пошук серед контрагентів компанії;
+* 1 - пошук серед контрагентів компанії і її співробітників
+
+**by_alias** (опціонально) int - фільтр пошуку:
+
+* 0 - пошук контрагентів без аліасів;
+* 1 - пошук контрагентів включаючи аліаси"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__ "
+Content-Type  , application/json

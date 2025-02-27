@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    ,**/api/mintrans/events?gln=9864065732327&date_from=1660038653**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі;
+
+**date_from** (обов'язково) long - дата (unix timestamp), починаючи з якої буде робитись вибірка;
+
+**limit** (опціонально) int - ліміт вибірки (за замовчуванням=50);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , *application/json*

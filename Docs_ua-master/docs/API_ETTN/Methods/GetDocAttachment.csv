@@ -1,0 +1,17 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/ettn/eds/doc/attachment?doc_uuid=b48aae9a-003a-453f-a40d-46d90181cdc7&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&type=list**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**type** (обов'язково) String - тип вкладення; можливі значення:
+
+- bytes - вкладення в вигляді набору байтів;
+- list - вкладення в json вигляді (масив);
+- file - вкладення-файл
+
+**attach_id** (обов'язково) long - ідентифікатор вкладення (використовується тільки при **type=bytes** чи **type=file**)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json or application/octet-stream

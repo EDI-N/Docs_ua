@@ -1,0 +1,26 @@
+Параметр, Формат, Опис
+.. _CompanyV2: , Об'єкт **CompanyV2** ,
+id,long,id компанії
+uuid,UUID,унікальний ідентифікатор компанії
+name,String,назва компанії
+nameEn,String,назва компанії (eng)
+type,int,"форма власності; 1 - Юридична особа, 2 - Фізична особа"
+ipn,String,код ІПН
+edrpou,String,код ЄДРПОУ
+vat,String,номер ПДВ
+eori,String,номер EORI (для країн Європи)
+city,String,місто
+country,String,код країни alpha2
+region,String,область
+district,String,район
+address,String,адреса
+zip,String,поштовий код
+accountId,long,id акаунта компанії
+isSignConfirm,int,компанія підтверджена КЕП (0-ні; 1-так)
+addresses,List<Address>,масив об'єктів; адреси компанії
+employees,List<Employee>,масив об'єктів; співробітники компанії
+identifiers,"Map<Integer, String>",додаткові дані; контакти
+companySettings,CompanySettings,"об'єкт; налаштування компанії"
+bankName,String,назва банку
+bankMfo,String,номер МФО банку
+iban,String,IBAN

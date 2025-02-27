@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/eds/doc/create_and_send?doc_type=orders&gln=9864065702429**
+URL параметри ,"**gln** - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта
+
+**doc_type** - рядок; тип документа: допустиме значення: ``orders``"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , `multipart/form-data <https://tools.ietf.org/html/rfc7578>`__                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передєються тільки **один файл-вкладення** в форматі ``application/json`` чи ``application/xml`` чи ``application/pkcs7-signature`` (`приклади запитів <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/SendDocumentWithoutDraftExample.html>`__ + `специфікація Замовлення <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/ORDER_x.html>`__, в якому очікується DOCTYPE = «PO»)!"

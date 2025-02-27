@@ -1,0 +1,14 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _IncludedSupplyChainConsignmentItem:,,Об'єкт **IncludedSupplyChainConsignmentItem**,
+sequenceNumeric,M,int,Порядковий номер рядка в таблиці
+**invoiceAmount**,O,InvoiceAmount_,об'єкт; Загальна сума з ПДВ
+**grossWeightMeasure**,M,EcmrUnitValue_,об'єкт; Маса брутто вантажу (кг)
+**tariffQuantity**,O,EcmrUnitValue_,"об'єкт; Ціна без ПДВ за одиницю в грн. Це можуть бути як гривні на кілограм (грн./кг), так і гривні на ящик (грн./ящик) - залежить від зазначеної одиниці виміру"
+**globalID**,O,EntityId_,об'єкт; Код УКТЗЕД продукції
+**natureIdentificationTransportCargo**,M,Identification_,об'єкт; Найменування вантажу
+**applicableTransportDangerousGoods**,O,ApplicableTransportDangerousGoods_,об'єкт; Клас небезпечних речовин
+**associatedReferencedLogisticsTransportEquipment**,O,SimpleIdentity_,"об'єкт; Номер контейнера, в якому завантажено цей вантаж.
+Використовуєься опційно для контейнерих перевезень і має відповідати даним тегу UtilizedLogisticsTransportEquipment"
+**associatedReferencedDocuments**,O,List<ReferencedDocument_>,масив об'єктів; Документи з вантажем
+**transportLogisticsPackage**,O,TransportLogisticsPackage_,об'єкт; Транспортно-логістичний пакет. ВАЖЛИВО: в Україні дозволяється лише один LogisticsPackage для одного ConsignmentItem!
+**applicableNotes**,O,List<ApplicableNote_>,масив об'єктів; Примітки

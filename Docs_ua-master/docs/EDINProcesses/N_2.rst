@@ -1,0 +1,15 @@
+#############################################
+2 EDI без ЮЗД
+#############################################
+
+.. image:: pics_EDINProcesses/EDINProcesses_N_2_001.png
+   :height: 700px
+   :align: center
+
+.. csv-table:: 
+  :file: N_2.csv
+  :widths:  7, 42, 7, 21
+  :header-rows: 1
+  :stub-columns: 0
+
+:download:`Завантажити колекцію методів для Postman (EDI без ЮЗД)<PostmanCollections/EDI без ЮЗД.postman_collection.json>`

@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    ,**/api/mintrans/doc?gln=9864065732327&mintrans_doc_id=bb1f6c52-273f-4442-97ee-6f28340cb30d**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**mintrans_doc_id** (обов'язково) String - ідентифікатор документа (documentId з метода отримання даних подій)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , *application/json*

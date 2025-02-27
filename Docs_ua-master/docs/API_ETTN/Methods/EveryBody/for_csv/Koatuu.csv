@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _Koatuu: , Об'єкт **Koatuu**,
+id,long,ідентифікатор каталогу КОАТУУ
+code,String,код КОАТУУ
+name,String,назва КОАТУУ
+categoryId,int,ідентифікатор категорії
+parentCode,String,код джерела

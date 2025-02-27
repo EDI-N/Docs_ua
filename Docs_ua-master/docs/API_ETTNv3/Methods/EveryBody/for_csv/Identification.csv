@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Identification:,,Об'єкт **Identification**,
+identification,M,string,Найменування вантажу

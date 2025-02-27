@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ReferencedDocument:,,Об'єкт **ReferencedDocument**,
+typeCode,O/M,string,Тип документа (`довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+id,O/M,string,Номер документа
+remarks,O,string,UUID документа
+**formattedIssueDateTime**,O,DateTimeString_,об'єкт; Дата складання документа

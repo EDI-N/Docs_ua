@@ -1,0 +1,195 @@
+<UAECMR_ACT xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
+    <ACT>
+        <ExchangedDocumentContext>
+            <ram:SpecifiedTransactionID>0</ram:SpecifiedTransactionID>
+            <ram:BusinessProcessSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01</ram:ID>
+            </ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:GuidelineSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01:resealing:001</ram:ID>
+            </ram:GuidelineSpecifiedDocumentContextParameter>
+        </ExchangedDocumentContext>
+        <ExchangedDocument>
+            <ram:ID>3739 всі різні</ram:ID>
+            <ram:IssueDateTime>
+                <udt:DateTime>2023-06-28T15:24:00.000Z</udt:DateTime>
+            </ram:IssueDateTime>
+            <ram:IssueLogisticsLocation>
+                <ram:Name>Місце складання документу</ram:Name>
+                <ram:Description>к</ram:Description>
+            </ram:IssueLogisticsLocation>
+        </ExchangedDocument>
+        <ResealingActPayload>
+            <PreviousAdministrativeReferencedDocument>
+                <ram:TypeCode>730</ram:TypeCode>
+                <ram:ID>0d1dafd1-93d4-4ee1-95ff-b76546628dc3</ram:ID>
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString>2023-06-28T12:08:00.000Z</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+            </PreviousAdministrativeReferencedDocument>
+            <CustomerTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">65900960</ram:ID>
+                <ram:Name>МСК Замовник</ram:Name>
+                <ram:RoleCode>OB</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Саймон Кет</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380444444444</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>84579</ram:PostcodeCode>
+                    <ram:StreetName>вул. Свободи, буд. 11, офіс 155</ram:StreetName>
+                    <ram:CityName>м. Київ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>м. Київ</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>444444444444</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737902</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </CustomerTradeParty>
+            <CarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>МСК Перевізник</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Перший Водій Батькович</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380544472828</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:CompleteNumber>vod01@test.tst</ram:CompleteNumber>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>74589</ram:PostcodeCode>
+                    <ram:StreetName>пл. Тараса Чмута, буд. 1, офіс 1</ram:StreetName>
+                    <ram:CityName>м. Буськ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Львівська обл,  Золочівський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>1111111101</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>VOD010101</ram:ID>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745952</ram:ID>
+                    <ram:TypeCode>DRIVER_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745709</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </CarrierTradeParty>
+            <OriginalUtilizedLogisticsTransportEquipment>
+                <ram:ID>аа0101аа</ram:ID>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>пл-авто-ттн</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:SettingTransportSettingTemperature>
+                    <ram:MinimumValueMeasure unitCode="CEL">-22</ram:MinimumValueMeasure>
+                    <ram:MaximumValueMeasure unitCode="CEL">-15</ram:MaximumValueMeasure>
+                </ram:SettingTransportSettingTemperature>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>COLOR</ram:ContentCode>
+                    <ram:Content>колір авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип авто</ram:Content>
+                </ram:ApplicableNote>
+            </OriginalUtilizedLogisticsTransportEquipment>
+            <OriginalUtilizedLogisticsTransportEquipment>
+                <ram:ID>нп1717нп</ram:ID>
+                <ram:CategoryCode>TE</ram:CategoryCode>
+                <ram:CharacteristicCode>17</ram:CharacteristicCode>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>пл-нп-ттн</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+            </OriginalUtilizedLogisticsTransportEquipment>
+            <ResealedUtilizedLogisticsTransportEquipment>
+                <ram:ID>аа0101аа</ram:ID>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>нова пломба</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:SettingTransportSettingTemperature>
+                    <ram:MinimumValueMeasure unitCode="CEL">-22</ram:MinimumValueMeasure>
+                    <ram:MaximumValueMeasure unitCode="CEL">-15</ram:MaximumValueMeasure>
+                </ram:SettingTransportSettingTemperature>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>COLOR</ram:ContentCode>
+                    <ram:Content>колір авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип авто</ram:Content>
+                </ram:ApplicableNote>
+            </ResealedUtilizedLogisticsTransportEquipment>
+            <ResealedUtilizedLogisticsTransportEquipment>
+                <ram:ID>нп1717нп</ram:ID>
+                <ram:CategoryCode>TE</ram:CategoryCode>
+                <ram:CharacteristicCode>17</ram:CharacteristicCode>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+            </ResealedUtilizedLogisticsTransportEquipment>
+            <CustomerNotes>кк</CustomerNotes>
+        </ResealingActPayload>
+        <CertifyingPartyPayload>
+            <CertifyingTradeParty>
+                <ram:ID schemeAgencyID="РНОКПП">444444444444</ram:ID>
+                <ram:Name>в.о. Замовника</ram:Name>
+                <ram:RoleCode>OB</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Саймон Кет</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380444444444</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+            </CertifyingTradeParty>
+        </CertifyingPartyPayload>
+    </ACT>
+</UAECMR_ACT>

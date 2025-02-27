@@ -1,0 +1,22 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ContentCode:,,Об'єкт **ContentCode**,
+listAgencyID,"M для GLN (решта O)",String,"Ідентифікатор:
+
+* GLN
+* transportation_max_temperature (Максимальна температура під час перевезення)
+* logger_return (Повернення логера)
+* logistic_unit_number_with_logger (Номер логістичної одиниці з термологером)
+* gps_number (Номер GPS)
+* logger_number (Номер термологера)
+* comment (Коментар)
+* reserve_number (Номер резерву (розвантаження).
+
+Ідентифікатори logistic_unit_number_with_logger / gps_number / logger_number / reserve_number вказуються контрагентом з роллю «Вантажовідправник». Ідентифікатори transportation_max_temperature та logger_return вказуються контрагентом з роллю «Вантажоодержувач». Ідентифікатор comments може вказуватись усіма учасниками документообігу на етапі формування Чернетки ТТН-документа (для Водія/Перевізника це sub_status_id=1; для Вантажоодержувача / Експедитора (+ Водія/Перевізника в рамках опційного підписання) це sub_status_id=6)"
+value,M,"* для GLN = Число (13)
+* для transportation_max_temperature = Число (3)
+* для logger_return = «Так» / «Ні»
+* для logistic_unit_number_with_logger = Рядок
+* для gps_number = Рядок
+* для logger_number = Рядок
+* для comment = Рядок
+* для reserve_number = Рядок",значення ідентифікатора

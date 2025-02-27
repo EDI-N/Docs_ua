@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **api/es/agreement?gln=9864067620417&agreement_uuid=e9xxxxa0-aed2-4cd8-b8ba-c6070ecab278**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**agreement_uuid** UUID - GUID документа (комерційної пропозиції / товарного узгодження)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                            

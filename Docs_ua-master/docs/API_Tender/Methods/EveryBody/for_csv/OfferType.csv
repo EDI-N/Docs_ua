@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _OfferType: ,, Об'єкт **OfferType**,
+code,,int,"код;
+
+* 1 - bargaining - Торги
+* 2 - offersCollection - Збір пропозицій
+* 3 - advert - Оголошення"
+name,,String,назва
+description,,String,опис

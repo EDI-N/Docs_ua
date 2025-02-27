@@ -1,0 +1,7 @@
+Параметр,Mandatory/Optional,Формат,Опис
+.. _SignInfo: ,, Об'єкт **SignInfo** ,
+doc_id, ,number,id конкретного документа
+date, ,any,дата підписання
+count, ,number,кількість підписів
+hash, ,string,хеш контента підпису
+certData, ,{...},"об'єкт; {} - умовний елемент масиву з інформацією про підписи, котрі містять дані (поля) з сертификату : ownerName, EDRPOUCode, subjTitle, subjOrg, signDate, isTimeStamp, serial"

@@ -1,0 +1,19 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _EventsStorageQuery: ,**Об'єкт EventsStorageQuery** ,
+fromId,M,long,"ідентифікатор події, після якої (починаючи з наступної) необхідно отримати список наступних подій"
+limit,O,int,"кількість подій, що будуть повенені за пошуком. Max=100 (за замовчуванням)"
+**skipTypes**,O,List<Integer>,"масив; типи подій, що НЕ потрібно враховувати при пошуку
+
+* 0 - новий відправлений документ (`метод відправки документів через API <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocumentWithoutDraft.html>`__);
+* 1 - створено чернетку;
+* 2 - створено новий вхідний документ;
+* 3 - у документа змінився статус;
+* 4 - у документа змінився сабстатус (`детальніше про exchange_status <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__);
+* 5 - документ змінився (всі інші зміни документа поза зміною статусу та сабстатусу);
+* 6 - чернетку видалено"
+loadBody,O,boolean,передавати у відповіді пошуку тіло документа
+loadComments,O,boolean,передавати у відповіді пошуку коментарі документа
+loadStatuses,O,boolean,передавати у відповіді пошуку статуси документа
+loadTags,O,boolean,"передавати у відповіді пошуку `теги документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/APIv2_list.html#tags>`__"
+loadChain,O,boolean,"передавати у відповіді пошуку `дані пов'язаного ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__"
+loadAttachments,O,boolean,передавати у відповіді пошуку вкладення до документа

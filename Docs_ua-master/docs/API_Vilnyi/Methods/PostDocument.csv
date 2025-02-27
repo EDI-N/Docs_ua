@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/sd/eds/doc**
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
+Content-Type  , multipart/form-data                          
+**REQUEST**   ,
+Form-data     ,"В тілі запиту передається json файл з `метаданими документа <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/DocumentJson.html>`__"

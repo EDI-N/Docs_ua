@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DocumentRequest: ,**Об'єкт DocumentRequest** ,
+**documents**,M,List<Document_>,"масив об'єктів; дані документів"

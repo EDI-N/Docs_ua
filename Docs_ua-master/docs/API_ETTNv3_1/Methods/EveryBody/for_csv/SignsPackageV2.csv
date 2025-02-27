@@ -1,0 +1,10 @@
+Параметр,Формат,Код ролі,Опис
+carrier,List<ExEndUserSignInfo_>,CA,масив об'єктів; дані підписів Перевізника
+consignee,List<ExEndUserSignInfo_>,CN,масив об'єктів; дані підписів Вантажоодержувача
+consignor,List<ExEndUserSignInfo_>,CZ,масив об'єктів; дані підписів Вантажовідправника
+driver,List<ExEndUserSignInfo_>,DR,масив об'єктів; дані підписів Водія
+storage,List<ExEndUserSignInfo_>,WD/WH,масив об'єктів; дані підписів Проміжного складу
+customer,List<ExEndUserSignInfo_>,OB,масив об'єктів; дані підписів Замовника
+expeditor,List<ExEndUserSignInfo_>,FW,масив об'єктів; дані підписів Експедитора
+carrier_switch,List<ExEndUserSignInfo_>,CH,масив об'єктів; дані підписів Нового Перевізника
+security,List<ExEndUserSignInfo_>,COP,масив об'єктів; дані підписів Охорони

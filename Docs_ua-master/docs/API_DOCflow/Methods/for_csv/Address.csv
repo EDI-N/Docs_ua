@@ -1,0 +1,12 @@
+Параметр, Формат, Опис
+.. _Address:, Об'єкт **Address**,
+postZip,String,почтовий індекс
+region,String,регіон / область
+rgnCode,String,код регіона/області
+district,String,назва району
+city,String,назва міста
+localityType,int,"тип місцевості; 2 - селище міського типу, 1 - місто, 3 - сільський населений пункт"
+house,String,номер будівлі
+housing,String,корпус
+street,String,назва вулиці
+room,String,номер кімнати

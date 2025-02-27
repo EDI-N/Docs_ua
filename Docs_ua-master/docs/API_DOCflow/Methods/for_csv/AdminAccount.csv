@@ -1,0 +1,27 @@
+Параметр, Формат, Опис
+.. _AdminAccount:, Об'єкт **AdminAccount**,
+id,long,ID аккаунта
+product_id,String,"id продукта, береться з довідника тарифних продуктів"
+name,String,назва компанії
+own_type,String,форма відповідності
+inn,String,ІНН
+edrpou,String,код ЕДРПОУ / КПП / БІН
+agreement_number,String,номер договору
+agreement_date,String,дата договору
+status,String,"статус договору - 'work', 'stop', 'prestop', 'unbill', 'test', 'wait', 'cancel', 'manbill', 'rataile', 'onhold', 'confirmation', 'check', 'tendex', 'block', 'debt_bloc
+(діючий договір; призупинений договір; ПРИСТОП; не виставляти рахунки; тест; заявка є, чекаєм договір; розірваний; рахунок виставлений вручну; роздр. мережа та інше; чекає підтвердження; на перевірці; TENDEX; неактивний клієнт; дебітор)"
+email_billing,String,email для рахунків
+email_owner,String,email власника компанії
+email_responsible,String,email відповідального МРК
+email,String,email
+phone,String,телефон
+nds_cert_num,String,№ свідотства платника НДС 
+address_legal,String,юридична адреса
+address_fact,String,фактична адреса
+bank_name,String,банк
+bank_account,String,розрахунковий рахунок
+bank_mfo,String,МФО банку
+director_name,String,ПІП директора
+director_position,String,посада директора
+operation,String,підстава діяльності
+category_id,String,ID категорії аккаунта (для уточнення в випадку дублів)

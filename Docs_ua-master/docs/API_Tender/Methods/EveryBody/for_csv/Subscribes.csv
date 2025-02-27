@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _Subscribes: , Об'єкт **Subscribes**,
+**categories**,List<SubscribeToCategory_>,масив об'єктів; категорії
+**companies**,List<Company_>,масив об'єктів; компанії
+**users**,List<User_>,масив об'єктів; користувачі-організатори

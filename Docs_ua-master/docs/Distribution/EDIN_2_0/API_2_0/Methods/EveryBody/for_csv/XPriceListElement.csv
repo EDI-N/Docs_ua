@@ -1,0 +1,17 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XPriceListElement:,, Об'єкт **XPriceListElement** ,
+currency,M,String,"код валюти:
+
+- UAH (за замовчуванням)
+- EUR
+- USD"
+category_id,O,long,"ідентифікатор
+
+* для сервісу Маркет: лінійки/категорії/підкатегорії"
+category_name,M,String,"назва:
+
+* для сервісу Маркет: лінійки/категорії/підкатегорії"
+children,O/M,List<XPriceListElement_>,"масив об'єктів;
+
+* для сервісу Маркет: дані категорії/підкатегорії"
+prods,M,List<XPriceListProduct_>,масив об'єктів; дані товарів

@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/v1/tender/attachment?attach_id=1675**
+URL параметри ,"**attach_id** (обов'язково) long - ідентифікатор вкладення (значення **id** параметра з `Отримання списку вкладень до тендера/лота/ставки <https://wiki.edin.ua/uk/latest/API_Tender/Methods/GetListAttachments.html>`__)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Tender/Methods/Authorization.html>`__"
+Content-Type  , `MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__ згідно типу файлу-вкладення

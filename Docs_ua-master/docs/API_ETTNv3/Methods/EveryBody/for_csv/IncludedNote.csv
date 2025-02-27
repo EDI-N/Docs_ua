@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _IncludedNote:,,Об'єкт **IncludedNote**,
+**contentCode**,M,ContentCode_,об'єкт; Контент запису
+content,M,String,"Код ролі учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+
+* перевізник - CA
+* новий перевізник - CH
+* водій - DR
+* новий водій - DRS"

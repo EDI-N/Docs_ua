@@ -1,0 +1,6 @@
+Параметр, Тип, Формат, Опис
+.. _ExtraQueryParameters: ,, Об'єкт **ExtraQueryParameters**,
+**operator**, ,"enum (AND, OR)", 
+**type**,M,"enum (EQUALS, EQUALS_UUID, EQUALS_MD5, LIKE, MORE, MORE_EQ, LESS, LESS_EQ, IN)",
+fieldName_ , ,String, найменування параметру
+value, ,String, id параметра

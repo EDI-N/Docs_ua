@@ -1,0 +1,19 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _SpecifiedSupplyChainConsignment:,M,Об'єкт **SpecifiedSupplyChainConsignment**,
+**grossWeightMeasure**,M,EcmrUnitValue_,"Загальна вага перевезення (маса брутто) в кг"
+**associatedInvoiceAmount**,O,InvoiceAmount_,"Усього відпущено на загальну суму, грн"
+consignmentItemQuantity,M,decimal,Загальна кількість місць вантажу (контейнерів)
+**consignor**,M,TradeParty_,Вантажовідправник
+**consignee**,M,TradeParty_,Вантажоодержувач
+**carrier**,M,TradeParty_,Перевізник
+**notifiedTradeParties**,M/O,List<TradeParty_>,"масив об'єктів; інформація (ЄДРПОУ / РНОКПП) про учасників перевезення. Детальніше в `специфікації відповідного документа <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Docs_ETTNv3_list.html>`__."
+**carrierAcceptanceLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт навантаження
+**consigneeReceiptLogisticsLocation**,M,LogisticsLocation_,об'єкт; Пункт розвантаження
+**associatedReferencedDocuments**,O,List<ReferencedDocument_>,масив об'єктів; Супровідні документи на вантаж
+**deliveryTransportEvent**,O,TransportEvent_,об'єкт; Розвантажувальні роботи
+**pickUpTransportEvent**,O/M,TransportEvent_,об'єкт; Навантажувальні роботи
+**includedSupplyChainConsignmentItems**,M,List<IncludedSupplyChainConsignmentItem_>,масив об'єктів; Відомості про вантаж
+**utilizedLogisticsTransportEquipments**,O/M,List<UtilizedLogisticsTransportEquipment_>,масив об'єктів; Запис про автомобіль в перевезенні. Обов'язково заповнюється для Автомобіля (для причепа/напівпричепа опційно)
+**mainCarriageLogisticsTransportMovement**,O,MainCarriageLogisticsTransportMovement_,об'єкт; Маршрутизація (проміжні пункти перевантаження). Заповнюється Перевізником
+**deliveryInstructions**,M/O,DeliveryInstructions_,об'єкт; Вид перевезень
+**previousAdministrativeReferencedDocument**,-/M,PreviousAdministrativeReferencedDocument_,"об'єкт; Попередня транзакція ECMR, на основі якої складено поточний документ. Блок не вказується, якщо документ створено з «нуля»"

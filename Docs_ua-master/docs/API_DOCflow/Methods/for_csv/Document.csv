@@ -1,0 +1,13 @@
+Параметр, Формат, Опис
+.. _Document:, Об'єкт **Document**,
+documentId,long,id документа
+companyId,long,id компанії
+**company**,Company_,об'єкт; інформація про компанію
+name,String,назва документа
+type,int,"тип; ""1 - Файл; 2 - Структура; 3 - Динамічна структура; 4 - Таблиця"""
+code,String,код документа
+agreementProcId,long,id процесу узгодження
+isActive,int,"статус; ""1 - Активний; 0 - Заблокований"""
+**extraFields**,List<ExtraField_>,масив об'єктів; додаткові поля документа
+**dictionary**,Dictionary_,об'єкт; дані довідника
+**structures**,List<DocumentStructure_>,масив об'єктів; дані структурованого документа

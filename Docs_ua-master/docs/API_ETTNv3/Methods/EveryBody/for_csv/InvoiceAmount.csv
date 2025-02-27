@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _InvoiceAmount:,,Об'єкт **InvoiceAmount**,
+currencyId,M,string,Тризначний код валюти (UAH)
+value,M,decimal,"Значення"

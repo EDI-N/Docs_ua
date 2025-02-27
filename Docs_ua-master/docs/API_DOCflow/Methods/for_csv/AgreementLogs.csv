@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _AgreementLogs:, Об'єкт **AgreementLogs**,
+agreementLogId,long,ID логу узгодження
+taskId,long,ID завдання
+actionType,int,тип дії
+dateCreated,long,дата створення завдання
+comment,String,комментарий
+user,User_,об'єкт; дані користувача

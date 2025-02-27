@@ -1,0 +1,57 @@
+﻿Запит,Код відповіді,Текст помилки,Опис
+"POST, ""/api/eds/doc/ettn/ttn""",400,Setup content type in request. Use 'application/json' or 'application/xml',В запиті не вказано заголовок content-type
+,,Unsupported content type. Use 'application/xml' or 'application/json',Вказано некорректний content-type
+,,Setup document number[ecmr.exchangedDocument.id],в документі не заповнено вказане в тексті помилки поле
+,,Setup document date[ecmr.exchangedDocument.issueDateTime.dateTime],в документі не заповнено вказане в тексті помилки поле
+,,Setup document date[ecmr.exchangedDocument.issueDateTime.dateTime],в документі не заповнено вказане в тексті помилки поле
+,,edrpou is not filled in gln `%s`,У вказанному gln не заповнено ЄДРПОУ
+,,trade party for gln `%s` not found in the document,учасника документа для `gln` не знайдено (некоректно заповнено документ)
+,,edrpou `%s` from gln `%s` and document `%s` are different,ЄДРПОУ в gln і з документа не збігаються
+,400,driverLicense is not fill in gln %s,не заповнено водійське посвідчення в gln
+,400,ipn is not fill in gln %s,не заповнено інн в gln
+,400,field [carrier.specifiedGovernmentRegistration.id] is not filled,в документі не заповнено вказане в тексті помилки поле
+,400,driverLicense `%s` from driver gln and document `%s` must be equals,водійське посвідчення  в gln і з документа не збігаються
+,400,field [carrier.taxRegistration.id] is not filled,в документі не заповнено вказане в тексті помилки поле
+,400,inn `%s` from driver gln and document `%s` must be equals,інн  в gln і з документа не збігаються
+,400,gln for %s not found,Gln для адреси навантаження/розвантаження не знайдено
+,400,"""gln for %s does not contain katottg",в gln не заповнено КАТОТТГ
+,400,katottg for %s is required,не заповнено КАТОТТГ для пункту розвантаження/навантаження
+,400,katottg from document `%s` and gln `%s` are different,КАТОТТГ  в gln і з документа не збігаються
+,400,"""address in gln `%s` `%s` not equal address in document `%s`",адреса  в gln і з документа не збігаються
+,,Unknown consignor [%s],не знайдено consignor
+,,Unknown carrier [%s],не знайдено carrier
+,,Unknown customer [%s],не знайдено customer
+"GET, ""/api/eds/doc/ettn/body""",,"""body not found or not created yet""",тіло документа не знайдено або ще не створено
+,,Unsupported format,url параметр `format` містить некорректне  значення. Очікується (xml | ecmr |json|pdf|zip)
+,,body not found or not created yet,тіло документа не знайдено або ще не створено
+,,Unknown 'response_type': ,`response_type` url param (xml | ecmr |json|pdf|zip)
+"GET, ""/api/eds/doc/ettn/sign/info""",,Unknown or unsupported doc type,
+"PUT, ""/api/eds/doc/ettn/ttn/reject""",,Param 'rejected_by' required,
+,,action not available for open documents,
+,,"Only consignor, customer, carrier, driver or consignee can reject document",
+,,Detect sub status error. Current = `%s`,
+"POST, ""/api/eds/doc/ettn/sign""",,[role_code] required,
+,,Unknown or unsupported role_code,
+,,sign is empty,
+,,content for sign is not created,
+,,Indicated in URL-parameter company role does not match the role of this company in the document structure,
+,,"sign_hash is broken, re-save document",
+,,"Work with TTN is temporarily unavailable. Due to the unfinished process of working with the act [name of the act] to this TTN. Wait for the completion of work on it.","Робота з ТТН тимчасово недоступна. У зв'язку з незавершеним процесом роботи з актом [назва акта] до даної ТТН. Дочекайтеся завершення роботи над ним."
+"PATCH, ""/api/eds/doc/ettn/ttn/send""",,Document must be OPEN status,
+,,Direction error,не відповідність ролі учасника
+,,Sender not equals consignor,
+,,"Work with TTN is temporarily unavailable. Due to the unfinished process of working with the act [name of the act] to this TTN. Wait for the completion of work on it.","Робота з ТТН тимчасово недоступна. У зв'язку з незавершеним процесом роботи з актом [назва акта] до даної ТТН. Дочекайтеся завершення роботи над ним."
+"post, /api/eds/doc/ettn/ttn/attachment",,Setup 'type' param,get attachment type
+,,"""incorrect type: %s one of: “""1"", ""2"", ""3"", ""4"", ""5"", ""6"", ""7"", ""8"", ""9"", ""10"", ""11"", ""12"", ""13"", ""14"", ""15"", ""16"", ""17"", ""18"", ""19"", ""20"", ""21"", ""22"", ""23"", ""24"", ""25"" “ expected",некоректний url параметр `type`
+,,expected 1 file in multipart/form data, в запиті повинен бути лише 1 файл
+,,Unsupported file type %s,"некоректний тип файлу,  підтримується лише  application/pdf"
+"get, /api/eds/doc/ettn/ttn/attachment",,Unknown type: %s,некоректний url параметр `type` очікується (file |bytes | list)
+,,attach_uuid' param required,
+,,Attachment not found,
+"delete, /api/eds/doc/ettn/ttn/attachment",,'attach_uuid' param required,
+,,attachment not found,
+Post /api/eds/doc/ettn/ttn/transaction,,action not available for open documents,
+PUT /api/eds/doc/ettn/ttn/transaction,,Unsupported substatus: %s,Некоректний substatus документа
+registrationErrors: ,,incorrect doc status,
+,,direction error,не відповідність ролі учасника
+,,xsd errors,

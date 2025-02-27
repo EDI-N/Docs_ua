@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **/api/ettn/eds/chains/archive?company_uuid=0855e1ce-46ed-4995-83b6-356127b95226**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається об'єкт зі списком ідентифікаторів ланцюжків для архівування:
+
+{'74268930-637a-4e25-ba78-26d9f617c0f4':true,'f2a7eb8c-0755-4df8-9951-a9377370a5e5':true}"

@@ -1,0 +1,113 @@
+**Код відповіді**,**Індекс помилки**,**Текст помилки**,**Опис**
+400,ERR_CMN-1,"Parameter(s) [%s] is(are) required
+
+Параметр(и) [%s] є обов'язковим(и)","Помилка виникає, якщо не передати обовязковий url-параметр (наприклад, doc_uuid)"
+400,ERR_CMN-2,"Unknown or unsupported %s [%s]
+
+Непідтримуваний %s [%s]","Помилка виникає, якщо вказаний параметр не підтримується (наприклад, передавати response_type=xml, але доступні тільки - file, base64, bytes)"
+400,ERR_CMN-3,"Parameter [%s] must have format format: [%s]
+
+Параметер [%s] повинен мати формат: [%s]","Помилка виникає, коли клієнт в url параметрі передав значення, в форматі, що не підтимується"
+400,ERR_CMN-4,"Incorrect Content-Type in request, one of [%s] is expected
+
+Некоректний Content-Type. Очікується один з наступних:", 
+400,ERR_CMN-5,"Unsupported method [%s]
+
+Непідтримуваний метод [%s]",
+400,ERR_CMN-6,"Expected [%s] file(s) in multipart/form data
+
+Очікується [%s] файл(и)ів у multipart/form data",
+400,ERR_CMN-7,"Request body is empty
+
+Тіло запиту порожнє",
+400,ERR_CMN-7,"Unknown gln: [%s]
+
+Невідомий gln: [%s]",
+400,ERR_CMN-8,"Supported not more [%s] files per request
+
+Підтримується не більше [%s] файлів на запит",
+400,ERR_CMN-9,"Exceeded max file name length
+
+Перевищено максимальну довжину імені файлу",
+400,ERR_CMN-10,"Exceeded max file size - [%s]
+
+Перевищено максимальний розмір файлу - [%s]",
+400,ERR_CMN-11,"Action not available, reason - [%s]
+
+Дія не доступна, причина - [%s]","Помилка виникає в різних випадках, наприклад, коли відправник документа CONDRA хоче її прийняти, але це може зробити тільки отримувач документа"
+400,ERR_CMN-12,"Document with identifier [%s] not found
+
+Документ з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-12,"Chain with identifier [%s] not found
+
+Ланцюг з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-13,"Attachment with identifier [%s] not found
+
+Вкладення з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-14,"Ticket not found
+
+Квитанцію не знайдено",
+400,ERR_CMN-15,"Package with identifier [%s] not found
+
+Пакет з ідентифікатором [%s] не знайдено",
+400,ERR_CMN-16,"Incorrect format of field's value
+
+Некоректний формат значення поля",
+400,ERR_CMN-17,error,"Помилка в роботі процедури (БД)"
+400,ERR_CMN-18,"Error occurred while retrieving information about the signer:
+
+Помилка при отриманні інформації про підписанта:",
+400,ERR_CMN-19,"Document body already exist
+
+Тіло документа вже існує",Дублювання тіла документа
+400,ERR_CMN-20,"Transformer for document type [%s] not found
+
+Перетворювач для типу документа [%s] не знайдено","Не вдалось знайти компонент для перетворення xml в json / json в xml і т.д."
+400,ERR_CMN-21,"Transforming error
+
+Помилка перетворення","Помилка при перетворенні, наприклад: при перетворенні xml в json, коли xml не відповідає специфікації документа"
+400,ERR_CMN-22,"Malformed JSON
+
+Невірно сформований JSON","Неправильні дані / некоректний формат в полі json"
+400,ERR_CMN-23,"ZIP format error:
+
+Невірний формат ZIP:",
+400,ERR_CMN-24,"UUID format error:
+
+Невірний формат UUID:",
+400,ERR_CMN-25,"Expected non-empty list of uuids
+
+Cписок uuid не може бути пустим",
+400,ERR_CMN-26,"The size of the list cannot be more than [%s]
+
+Розмір списку не може перевищувати [%s]",
+400,ERR_CMN-27,"The data is not signed or contains an incorrect signature
+
+Дані не підписані або містять некорректний підпис",
+400,ERR_CMN-28,"Content from request does not match original content, actual_hash:[%s] request_hash:[%s]
+
+Контент запиту не відповідає оригінальному контенту, actual_hash:[%s] request_hash:[%s]",
+400,ERR_CMN-29,"GLN from request [%s] should match sender's GLN from body [%s]
+
+GLN із запиту [%s] має збігатися з GLN відправника з тіла [%s]",
+400,ERR_CMN-30,"The requested data was not found
+
+Запитувані дані не знайдені",
+400,ERR_CMN-31,"Field [%s] in request body is empty or invalid
+
+Поле [%s] в тілі запиту порожнє або має недопустиме значення",
+400,ERR_CMN-32,"Part [%s] in multipart/form-data is required
+
+Частина [%s] в multipart/form-data є обов'язковою",
+400,ERR_CMN-32,"File [%s] in multipart/form-data not found
+
+Файл [%s] в multipart/form-data не знайдено",
+400,ERR_CMN-32,"Field [%s] in post data is required
+
+Поле [%s] в post data запиту не знайдено",
+400,ERR_CMN-33,"At least one of parameters [%s]  required
+
+Необхідний принаймні один із параметрів [%s].",
+400,ERR_CMN-34,"Unsupported parameter[%s]
+
+Непідтримуваний параметр [%s].",

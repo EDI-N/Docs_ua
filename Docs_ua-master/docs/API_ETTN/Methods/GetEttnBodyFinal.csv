@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/ettn/v2/eds/doc/body/final?company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&doc_uuid=e64a304b-b0c0-454b-a361-5dc5d6987952**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json

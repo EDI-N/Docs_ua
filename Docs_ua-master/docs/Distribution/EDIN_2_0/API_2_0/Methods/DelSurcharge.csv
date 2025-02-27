@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/distribex/surcharge?gln=9864065732303&distributor_gln=9864065732334**
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)
+
+**distributor_gln** (обов'язково) String - GLN Покупця (Дистрибʼютора)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json

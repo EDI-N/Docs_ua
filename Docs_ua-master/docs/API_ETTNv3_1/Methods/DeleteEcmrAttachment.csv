@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , DELETE                                         
+URL запиту    , **/api/eds/doc/ettn/ttn/attachment?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&gln=9864065732327&attach_uuid=b6bc7d6c-4ac9-4c2d-b76d-48aea8c587d6**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**attach_uuid** (обов'язково) - UUID; ідентифікатор вкладення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__"
+Content-Type  , application/json

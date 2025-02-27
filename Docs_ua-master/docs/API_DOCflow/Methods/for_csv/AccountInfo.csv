@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _AccountInfo:, Об'єкт **AccountInfo**,
+accountID,long,ID аккаунта
+edrpouVerify,Integer,"перевірка ЕДРПОУ; 0 - ні, 1 - так"
+digitalSignUnique,Integer,"перевірка унікальності електронного підпису; 0 - ні, 1 - так"
+**whiteList**,List<String>,"масив; список білих ip адрес"
+decryptType,int,"тип розшифровки; 1 - WEB; 2 - Cryptex"
+cryptexServer,String,адреса cryptex-сервера на стороні клієнта

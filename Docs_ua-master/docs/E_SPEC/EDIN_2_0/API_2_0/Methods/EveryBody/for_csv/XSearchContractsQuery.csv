@@ -1,0 +1,17 @@
+Параметр, Формат, Опис
+.. _XSearchContractsQuery: , Об'єкт **XSearchContractsQuery** ,
+**direction**,Direction_,"об'єкт; напрямок документообігу; вказуються відправник, отримувач і зв'язок між ними в умовах відбору документів"
+contractGlnId,List<Long>,"масив; id Gln-у контракту/специфікації"
+contractGln,List<String>,"масив; Gln-у контракту/специфікації"
+productBarcode,List<String>,масив; список товарних штрихкодів
+buyerArticle,List<String>,масив; артикул продавця
+retailerId,Long,id мережі (ритейлера)
+retailers,List<Long>,масив; список мереж (ритейлерів)
+contractStatus,List<Integer>,"масив; список статусів контрактів: 1 - активний, 2 - неактивний / видалений"
+productStatus,List<Integer>,"масив; список статусів товарів: 1 - активний, 2 - неактивний / видалений"
+number,String,номер специфікації
+subContractNumber,String,номер договору
+**expireDate**,DateTimeRange_,об'єкт; дата закінчення специфікації (в форматі UNIX-timestamp) з / по
+**subContractExpireDate**,DateTimeRange_,об'єкт; дата договору (в форматі UNIX-timestamp) з / по
+**changeDate**,DateTimeRange_,об'єкт; дата зміни специфікації (в форматі UNIX-timestamp) з / по
+**limit**,Limitation_,об'єкт; фільтр відбору (налаштування виводу даних)

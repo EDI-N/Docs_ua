@@ -1,0 +1,25 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **/api/eds/doc/condra/send?partner_id=0&gln=9864067620417&doc_uuid=226907d8-dacd-475e-9521-8a998825cc46&doc_hash=133BF38FC2763511E284879177A3F111&chain_hash=51F061AF9D41407AFCCBD1B7E089CE8E**
+URL параметри ,"**gln** - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта
+АБО
+**guid** - рядок; унікальний ідентифікатор організації в системі
+
+**doc_uuid** - рядок; UUID документа
+
+**doc_hash** (опціонально) - рядок; хеш документа
+
+**chain_hash** (опціонально) - рядок; хеш ланцюжка
+
+**chain_uuid** (опціонально) - рядок; ID ланцюжка
+
+**partner_id** (опціонально) - число; id торгової мережі (можливо отримати з `довідника торгових мереж <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Allretailers.html>`__)
+
+**chain_type** (опціонально) - число; тип ланцюжка документів;
+
+* 0 - звичайний
+* 2 - особлива схема - MATCH INVOICE (ТМ Фоззі)
+* 3 - особлива схема - не MATCH INVOICE (ТМ Фоззі)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , text/plain; charset=UTF-8                             

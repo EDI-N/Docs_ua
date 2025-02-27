@@ -1,0 +1,11 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XCertificateProduct:,,Об'єкт **XCertificateProduct**,
+id,O,long,ідентифікатор товару
+certificateId,,long,ідентифікатор сертифіката
+name,M,String,назва товару
+barcode,M,String,штрихкод товару
+article,M,String,артикул продавця
+buyerCode,O,String,код покупця
+uktved,O,long,код УКТЗЕД товару
+dkpp,O,String,код ДКПП товару
+partNumber,,String,номер партії

@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , DELETE                                         
+URL запиту    ,**/api/ecs/certificate?uuid=55ef04b2-281e-4fca-bb67-d48fe88ae74f&gln=9864232613879**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**uuid** (обов'язково) UUID - унікальний ідентифікатор сертифіката"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"

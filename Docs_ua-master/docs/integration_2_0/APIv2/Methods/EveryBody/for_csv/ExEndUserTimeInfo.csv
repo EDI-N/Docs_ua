@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _ExEndUserTimeInfo:, Об'єкт **ExEndUserTimeInfo**,
+isTimeAvail,boolean,присутність часу підписання
+isTimeStamp,boolean,присутність мітки часу
+dateTime,long,мітка часу підписання (Unix timestamp)

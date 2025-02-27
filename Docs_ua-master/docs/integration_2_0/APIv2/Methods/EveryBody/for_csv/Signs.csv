@@ -1,0 +1,4 @@
+Параметр,Mandatory/Optional,Формат,Опис
+.. _Signs: ,, Об'єкт **Signs** ,
+sign, ,string,підписані дані
+type, ,number,кількість *sign* в об'єкті Signs_ (число N )

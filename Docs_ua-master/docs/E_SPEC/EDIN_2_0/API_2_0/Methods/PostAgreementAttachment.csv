@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/es/attachment?gln=9864067620417&agreement_uuid=3aa29cf2-b05f-49b7-b447-e5f4354f1132&file_name=1624010092199.png&file_type=image/png**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**agreement_uuid** (обов'язково) UUID - унікальний ідентифікатор товарного узгодження; 
+
+**file_name** (обов'язково) String - назва файлу-вкладення;
+
+**file_type** (обов'язково) String - тип файлу згідно `MIME типізації <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json

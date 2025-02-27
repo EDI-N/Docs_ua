@@ -1,0 +1,46 @@
+Параметр, Формат, Опис
+.. _XAgreemDoc: , Об'єкт **XAgreemDoc** ,
+body,"Map<Integer, byte[]>",тіло документа
+indexes,"Map<String, String>","набір параметрів для фільтрації
+
+* isComments (boolean) - документ має коментар/-і;
+* isSigns (boolean) - документ має підписи;
+* rejected (0-ні, 1-так) - пропозиція з відхиленими позиціями;
+* count (число) - кількість товарних позицій;
+* isRead (boolean) - докумнт прочитаний;
+* isAttaches (boolean) - є вкладення;
+* isTags (boolean) - має теги;
+* attacheMime (`MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__);
+* attacheName (String) - назва вкладення, наприклад, 12345.jpeg;
+* increase (0-ні, 1-так) - є підвищення ціни;
+* discount_increase (0-ні, 1-так) - є підвищення ціни зі знижкою;
+* confirmed (0-ні, 1-так) - документ прийнятий;
+* decrease (0-ні, 1-так) - немає підвищення ціни;
+* discount_decrease (0-ні, 1-так) - немає підвищення ціни зі знижкою;
+* isFavorite (boolean) - документ важливий;
+* flag (0-ні, 1-так) - мітка зафарбований флажок;
+* lastSignDate () - дата останнього підписання;
+* newDatePrice (YYYY-MM-DD) - дата початку дії нової ціни;
+* afterDeadline (boolean) - Заявка на участь в акції була подана після встановленого дедлайну;
+* rejection_reason (String) - причина відхилення;
+* acceptation_message (String) - коментар при прийнятті"
+childs,List<XAgreemDoc>, дочірні документи
+id,long,id документу
+uuid,UUID,GUID документу
+parentDocId,transient long,"id батьківського документу; число"
+parentDocUUID,UUID,"GUID батьківського документу"
+sender,long,"GLN відправника; число"
+recipient,long,"GLN одержувача; число"
+retailerId,long,"id мережі (ритейлера); число"
+contractUUID,UUID,"GUID контракту / договору"
+status,XAgreemDocStatus_ ,"статус узгодження; число"
+type,int,"тип документа; число
+
+* 1 - AGREEM
+* 2 - COMDOC_008
+* 3 - NOVELTY"
+dateCreated,long,"дата створення документа; число"
+dateChanged,long,"дата зміни документа; число"
+docDate,long,"дата з документу; число"
+docNumber,String,номер документу
+isArchive,Boolean,"відмітка про те, що документ оброблений (архівний)"

@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/partners?limit=21&offset=0**
+URL параметри ,"**limit** (опціонально) int - ліміт вибірки (за замовчуванням=50);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0);
+
+**pattern** (опціонально) String - пошукове значення (фільтр по даним контрагентів);
+
+**registration_status** (опціонально) int - статус реєстрації; 0 - незарестрований, 1 - зареєстрований;
+
+**invitation_status** (опціонально) int - статус запрошення;  0 - запрошення не відправлено, 1 - запрошення відправлено"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__ "
+Content-Type  , application/json        

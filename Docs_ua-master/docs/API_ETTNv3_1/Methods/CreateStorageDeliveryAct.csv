@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/eds/doc/ettn/storage_delivery?gln=9864065732327**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**doc_uuid** (опціонально) UUID - ідентифікатор документа (передається для редагування (оновлення) даних раніше створеного документа)
+
+**new_doc_uuid** (опціонально) UUID - ідентифікатор створюваного документа (може передаватись і бути назначеним при створенні документа зі сторони Вашого клієнта)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , *application/json* or *application/xml*                             
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло документа `Акта розвантаження на проміжному складі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STORAGE_DELIVERY_ACT/STORAGE_DELIVERY_ACTpage_v3.html>`__ в форматі json чи xml в залежності від Content-Type. **Важливо:** в тілі Акта має передаватись ідентифікатор (guid) е-ТТН (детальніше за посиланням вище)."

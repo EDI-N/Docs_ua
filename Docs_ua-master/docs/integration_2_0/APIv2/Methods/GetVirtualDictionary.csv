@@ -1,0 +1,16 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/uds/dictionary?name=TRANSPORT&type=account**
+URL параметри ,"**name** (обов'язково) - рядок; назва довідника:
+
+* TRANSPORT - транспортні засоби
+* TTN_RESPONSIBLE_PERSONS - відповідальні особи
+* comdoc_responsible - відповідальні особи
+
+**type** (обов'язково) - рядок; рівень довідника:
+
+* user - поточний користувач
+* account - поточний акаунт"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json

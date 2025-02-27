@@ -1,0 +1,147 @@
+<UAECMR_ACT xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
+    <ACT>
+        <ExchangedDocumentContext>
+            <ram:SpecifiedTransactionID>0</ram:SpecifiedTransactionID>
+            <ram:BusinessProcessSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01</ram:ID>
+            </ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:GuidelineSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01:consignee_change:001</ram:ID>
+            </ram:GuidelineSpecifiedDocumentContextParameter>
+        </ExchangedDocumentContext>
+        <ExchangedDocument>
+            <ram:ID>3739</ram:ID>
+            <ram:IssueDateTime>
+                <udt:DateTime>2023-06-28T12:22:00.000Z</udt:DateTime>
+            </ram:IssueDateTime>
+            <ram:IssueLogisticsLocation>
+                <ram:Name>Місце складання документу</ram:Name>
+                <ram:Description>київ</ram:Description>
+            </ram:IssueLogisticsLocation>
+        </ExchangedDocument>
+        <ConsigneeChangeActPayload>
+            <PreviousAdministrativeReferencedDocument>
+                <ram:TypeCode>730</ram:TypeCode>
+                <ram:ID>0d1dafd1-93d4-4ee1-95ff-b76546628dc3</ram:ID>
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString>2023-06-28T12:08:00.000Z</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+            </PreviousAdministrativeReferencedDocument>
+            <InitiatorTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010140</ram:ID>
+                <ram:Name>МСК ВантОдержувач</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>24452</ram:PostcodeCode>
+                    <ram:StreetName>вул. Івана Франка, 20, офіс 101 а</ram:StreetName>
+                    <ram:CityName>м. Хуст</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Закарпатська обл,  Хустський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737957</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </InitiatorTradeParty>
+            <CarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>МСК Перевізник</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Перший Водій Батькович</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380544472828</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:CompleteNumber>vod01@test.tst</ram:CompleteNumber>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>74589</ram:PostcodeCode>
+                    <ram:StreetName>пл. Тараса Чмута, буд. 1, офіс 1</ram:StreetName>
+                    <ram:CityName>м. Буськ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Львівська обл,  Золочівський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>1111111101</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>VOD010101</ram:ID>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745952</ram:ID>
+                    <ram:TypeCode>DRIVER_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745709</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </CarrierTradeParty>
+            <CustomerTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">65900960</ram:ID>
+                <ram:Name>МСК Замовник</ram:Name>
+                <ram:RoleCode>OB</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Саймон Кет</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380444444444</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>84579</ram:PostcodeCode>
+                    <ram:StreetName>вул. Свободи, буд. 11, офіс 155</ram:StreetName>
+                    <ram:CityName>м. Київ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>м. Київ</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>444444444444</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737902</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </CustomerTradeParty>
+            <ConsigneeTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010141</ram:ID>
+                <ram:Name>МСК ВантОдержувач 2</ram:Name>
+                <ram:RoleCode>UC</ram:RoleCode>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>32578</ram:PostcodeCode>
+                    <ram:StreetName>провулок Зелений, буд. 2, офіс 13</ram:StreetName>
+                    <ram:CityName>м. Хуст</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Закарпатська обл,  Хустський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065737872</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ConsigneeTradeParty>
+            <ConsigneeReceiptLogisticsLocation>
+                <ram:ID schemeAgencyID="КАТОТТГ">UA21120250010053148</ram:ID>
+                <ram:Name>МСК ВантОдержувач 2</ram:Name>
+                <ram:TypeCode>10</ram:TypeCode>
+                <ram:Description>Україна, 32578, Закарпатська обл,  Хустський р-н, м. Хуст, провулок Зелений, буд. 2, офіс 13</ram:Description>
+                <ram:PhysicalGeographicalCoordinate>
+                    <ram:SystemID schemeAgencyID="GLN">9864065737872</ram:SystemID>
+                </ram:PhysicalGeographicalCoordinate>
+            </ConsigneeReceiptLogisticsLocation>
+            <InitiatorNotes>воарпірв</InitiatorNotes>
+        </ConsigneeChangeActPayload>
+        <CertifyingPartyPayload>
+            <CertifyingTradeParty>
+                <ram:ID schemeAgencyID="РНОКПП">333333333333</ram:ID>
+                <ram:Name>в.о. Вантажоодержувача</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>котик Васька</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380333333333</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+            </CertifyingTradeParty>
+        </CertifyingPartyPayload>
+    </ACT>
+</UAECMR_ACT>

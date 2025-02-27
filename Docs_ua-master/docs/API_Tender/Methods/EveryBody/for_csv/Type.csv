@@ -1,0 +1,8 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Type: ,, Об'єкт **Type**,
+code,M,int,"код;
+
+* 1 - purchase - Закупівля
+* 2 - selling - Продаж"
+name,,String,назва
+description,,String,опис

@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _XNoveltyComment: , Об'єкт **XNoveltyComment** ,
+date,long,дата коментаря (зміни статусу КП) у форматі UNIX TimeStamp
+user,String,найменування користувача Мережі
+comment,String,коментар при обробці комерційної пропозиції

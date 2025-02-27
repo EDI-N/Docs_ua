@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/sd/eds/doc/attachment?doc_uuid=b6d1c701-86f3-4d6d-9da5-f7db284f78b9**
+URL параметри ,"**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**employee_uuid** (опціонально) UUID - ідентифікатор співробітника, під яким виконуються обробка документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
+Content-Type  , multipart/form-data
+**REQUEST**   ,
+Form-data     ,"В тілі запиту передається 1 файл."

@@ -1,0 +1,23 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XQueryCertificates:,,Об'єкт **XQueryCertificates**,
+queryType,O,"enum (MY, PRIVATE, PUBLIC, DRAFT, ARCHIVE, LIMITED_ACCESS, PUBLIC_ACCESS, PRIVATE_ACCESS)","розділ сертифікатів
+
+* MY - Мої сертифікати (відображаються всі Ваші сертифікати);
+* PRIVATE - Доступні мені
+* PUBLIC - Сертифікати
+* DRAFT - Чернетки
+* ARCHIVE - Архів
+* LIMITED_ACCESS - Обмежений доступ
+* PUBLIC_ACCESS - Публічний доступ (Ви власник)
+* PRIVATE_ACCESS - Обмежений доступ (Ви власник)"
+companyId,O,long,ідентифікатор компанії
+**products**,O,List<XQueryProduct_>,масив об'єктів; дані товарів
+number,O,String,номер сертифіката
+numbers,O,Collection<String>,список номерів сертифікатів
+createDate,O,DateTimeRange,дата створення
+updateDate,O,DateTimeRange,дата оновлення
+**types**,O,List<Integer>,масив об'єктів; типи сертифікатів
+startDate,O,DateTimeRange,дата початку дії сертифіката
+endDate,O,DateTimeRange,дата завершення дії сертифіката
+isSigned,O,Boolean,"true - підписаний, false - не підписаний"
+**limit**,O,Limitation_,об'єкт; фільтр відбору (налаштування виводу даних)

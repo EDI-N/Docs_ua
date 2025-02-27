@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/distribex/epricelist?gln=9864065732303&list_id=29**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**list_id** long - ідентифікатор товарної позиції (тут **list_id** = **id** з об'єкта `XPriceListProduct <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/EveryBody/XPriceListElementResponse.html>`__)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Openprice/Methods/Authorization.html>`__"
+Content-Type  , application/json                              

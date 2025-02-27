@@ -1,0 +1,8 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _DECLAR_SECURITY:,Н, Об'єкт **DECLAR_SECURITY**,"Якщо використовується, то обов'язково містить параметри"
+FIRST_NAME,О,String,Ім'я особи
+LAST_NAME,О,String,Прізвище особи
+FATHERS_NAME,О,String,По батькові особи
+DOCUMENT_TYPE,О,String,Тип документу
+DOCUMENT_ID,О,String,Номер документу
+DOCUMENT_DATE,О,String (YYYY-MM-DD),Дата укладення документу

@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , DELETE                                        
+URL запиту    , **/api/es/position?gln=9864067620417&agreement_uuid=3cbb2868-b61b-42d2-86d1-11ffdf4445aa&position_id=746**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**agreement_uuid** (обов'язково) String - унікальний ідентифікатор Комерційної пропозиції;
+
+**position_id** (обов'язково) String - ідентифікатор товарної позиції"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

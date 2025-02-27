@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/v1/tender/participant_group/list?limit=20&offset=0**
+URL параметри ,"**limit** (опціонально) int - ліміт вибірки (за замовчуванням=20);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0);
+
+**count** (опціонально) boolean - при значенні true у відповідь пердається лише число - загальна кількість груп учасників."
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Tender/Methods/Authorization.html>`__ "
+Content-Type  , application/json

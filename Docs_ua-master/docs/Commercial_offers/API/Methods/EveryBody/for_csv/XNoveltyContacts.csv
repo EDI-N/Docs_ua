@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _XNoveltyContacts: , Об'єкт **XNoveltyContacts** ,
+surname,String,Прізвище
+name,String,Ім'я
+middleName,String,По батькові
+email,String,E-mail
+phone,String,Телефон
+uuid,String,Ідентифікатор контакту

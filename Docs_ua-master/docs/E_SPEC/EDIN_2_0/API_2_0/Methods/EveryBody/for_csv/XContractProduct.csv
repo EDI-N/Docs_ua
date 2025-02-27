@@ -1,0 +1,11 @@
+Параметр, Формат, Опис
+.. _XContractProduct: , Об'єкт **XContractProduct** ,
+id,long,id документа
+contractId,long,id контракту / договору;
+barcode,String,штрих-код продукту
+product,XProduct,"список товарних позицій"
+buyerArticle,String,"артикул покупця"
+status,int,"статус узгодження; число"
+dateFrom,int,"дата початку дії асортименту"
+dateTo,int,"дата закінчення дії асортименту"
+content,byte[],"набір байт; закодоване в utf8 JSON-тіло позиції (`сервіс онлайн дешифрування <https://onlineutf8tools.com/convert-bytes-to-utf8>`__)"

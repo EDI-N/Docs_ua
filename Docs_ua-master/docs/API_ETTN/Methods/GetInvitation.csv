@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/invitation?code=898391312**
+URL параметри ,"**code** (обов'язково) String - код ЄДРПОУ
+
+АБО
+
+**email** (обов'язково) String - електронна пошта користувача"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json

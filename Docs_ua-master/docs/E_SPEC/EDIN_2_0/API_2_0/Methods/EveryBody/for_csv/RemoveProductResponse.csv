@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _RemoveProductResponse: , Об'єкт **RemoveProductResponse** ,
+contractUUID,UUID,uuid контракту
+removedContract,boolean,"чи видалено весь контракт"
+contractProducts,int,кількість позицій в контракті
+requestProducts,int,кількість позицій в запиті на видалення
+removedProducts,int,кількість видалених позицій
+details,List<RemoveProductDetail_>,масив об'єктів; деталі виконання операції видалення для кожної позиції

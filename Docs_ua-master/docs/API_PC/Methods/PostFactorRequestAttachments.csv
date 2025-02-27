@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/oas/factors/request/attach?request_id=131**
+URL параметри ,"**request_id** (обов'язково) int - ідентифікатор заявки на факторинг"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__"
+Content-Type  , multipart/form-data
+**REQUEST**   ,
+Form-data     ,"В тілі запиту передається файл."

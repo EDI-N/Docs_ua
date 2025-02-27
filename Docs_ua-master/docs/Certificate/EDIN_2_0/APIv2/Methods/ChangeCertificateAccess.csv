@@ -1,0 +1,16 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    ,**/api/ecs/access?gln=9864232613879&uuid=3ff444f4-7594-4a43-a151-90e14ee92b0c&uuid=8f56bb6c-b895-42b6-adf2-7a3e4bca7165&type=public**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**uuid** (обов'язково) UUID - унікальний ідентифікатор сертифіката (можливо передавати кілька в одному запиті)
+
+**type** (обов'язково) String - тип доступу, можливі значення:
+
+* private - обмежений доступ
+* public - публічний доступ"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , *application/json*
+**REQUEST**   ,
+JSON Body     ,"Тіло очікується лише при **type=private**: тіло запиту в форматі Map<Long, Boolean>, де ключ - це intGlnID кому відкрито доступ, а значення true/false - чи буде дозволено даному intGlnID репостити цей сертифікат комусь іще."

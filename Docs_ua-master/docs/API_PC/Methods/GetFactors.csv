@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/factors?limit=21&offset=0**
+URL параметри ,"**query** (опціонально) String - текст пошуку (пошук здійснюється за назвою фактора)
+
+**limit** (опціонально) int - ліміт вибірки (за замовчуванням=20);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_PC/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

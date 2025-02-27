@@ -1,0 +1,59 @@
+Назва поля,Тип [1]_,Формат,Опис
+**DECLARHEAD**,M,,Складовий номер документа (початок блоку)
+C_DOC,M,String,код документа («EVD»)
+C_DOC_SUB,M,String,підтип документа («002»)
+C_DOC_VER,M,String,номер версії документа («01»)
+**DECLARHEAD**,,,Складовий номер документа (закінчення блоку)
+**DECLARBODY**,M,,Основні реквізити (початок блоку)
+HNUM,M,String,номер документа
+HFILL,M,String,дата документа
+HPLACE,O,String,місце складання
+HPODNUM,M,String,номер договору (документа-підстави)
+HPODFILL,M,String,дата договору (документа-підстави)
+HTIN,M,String,ідентифікаційний код (ЄДРПОУ) вантажовідправника (покупця)
+HNAME,M,String,повне найменування вантажовідправника (покупця)
+HLOC,M,String,місцезнаходження вантажовідправника (покупця)
+R02G11S,M,String,ідентифікаційний код (ЄДРПОУ) автомобільного перевізника
+R02G1S,M,String,найменування автомобільного перевізника
+R02G12S,O,String,місцезнаходження автомобільного перевізника
+R001G12,M,double,усього відпущено на загальну суму з урахуванням ПДВ
+R011G1,M,double,сума ПДВ
+**<T3RXXXXG11S>** ROWNUM=«1» message=«value» **</T3RXXXXG11S>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: назва послуги
+**<T3RXXXXG12>** ROWNUM=«1» message=«value» **</T3RXXXXG12>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість
+**<T3RXXXXG13S>** ROWNUM=«1» message=«value» **</T3RXXXXG13S>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: одиниці виміру
+**<T3RXXXXG21S>** ROWNUM=«1» message=«value» **</T3RXXXXG21S>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: номер документа-підстави (наприклад: номер ТТН)
+**<T3RXXXXG22S>** ROWNUM=«1» message=«value» **</T3RXXXXG22S>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: дата документа-підстави (наприклад: дата ТТН)
+**<T3RXXXXG3>** ROWNUM=«1» message=«value» **</T3RXXXXG3>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ціна без ПДВ
+**<T3RXXXXG4>** ROWNUM=«1» message=«value» **</T3RXXXXG4>**,M,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ставка ПДВ (0/7/20)
+**<T3RXXXXG5>** ROWNUM=«1» message=«value» **</T3RXXXXG5>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ціна з ПДВ
+**<T3RXXXXG6>** ROWNUM=«1» message=«value» **</T3RXXXXG6>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: додаткова інформація"
+**<T3RXXXXG12S>** ROWNUM=«1» message=«value» **</T3RXXXXG12S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Марка автомобіля
+**<T3RXXXXG14S>** ROWNUM=«1» message=«value» **</T3RXXXXG14S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Модель автомобіля
+**<T3RXXXXG15S>** ROWNUM=«1» message=«value» **</T3RXXXXG15S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Реєстраційний номер автомобіля
+**<T3RXXXXG16S>** ROWNUM=«1» message=«value» **</T3RXXXXG16S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Тип автомобіля
+**<T3RXXXXG17S>** ROWNUM=«1» message=«value» **</T3RXXXXG17S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Марка причіпа/напівпричіпа. Поле заповнюється за наявності причіпа/напівпричіпа
+**<T3RXXXXG18S>** ROWNUM=«1» message=«value» **</T3RXXXXG18S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Модель причіпа/напівпричіпа
+**<T3RXXXXG19S>** ROWNUM=«1» message=«value» **</T3RXXXXG19S>**,M/O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Реєстраційний номер причіпа/напівпричіпа. Поле обов’язково заповнюється за наявності причіпа/напівпричіпа"
+**<T3RXXXXG23S>** ROWNUM=«1» message=«value» **</T3RXXXXG23S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Тип причіпа/напівпричіпа. Поле заповнюється за наявності причіпа/напівпричіпа"
+**<T3RXXXXG24S>** ROWNUM=«1» message=«value» **</T3RXXXXG24S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Марка причіпа/напівпричіпа 2. Поле обов’язково заповнюється за наявності причіпа/напівпричіпа 2
+**<T3RXXXXG25S>** ROWNUM=«1» message=«value» **</T3RXXXXG25S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Модель причіпа/напівпричіпа 2"
+**<T3RXXXXG26S>** ROWNUM=«1» message=«value» **</T3RXXXXG26S>**,M/O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Реєстраційний номер причіпа/напівпричіпа 2. Поле обов’язково заповнюється за наявності причіпа/напівпричіпа 2"
+**<T3RXXXXG27S>** ROWNUM=«1» message=«value» **</T3RXXXXG27S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Тип причіпа/напівпричіпа 2. Поле заповнюється за наявності причіпа/напівпричіпа 2"
+**<T3RXXXXG28S>** ROWNUM=«1» message=«value» **</T3RXXXXG28S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Ім’я Водія"
+**<T3RXXXXG29S>** ROWNUM=«1» message=«value» **</T3RXXXXG29S>**,M/O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: По батькові Водія. Поле обов’язково заповнюється за наявності T3RXXXXG32S, T3RXXXXG33S, T3RXXXXG12S, T3RXXXXG15S, T3RXXXXG16S"
+**<T3RXXXXG31S>** ROWNUM=«1» message=«value» **</T3RXXXXG31S>**,M/O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Прізвище Водія. Поле обов’язково заповнюється за наявності T3RXXXXG32S, T3RXXXXG33S, T3RXXXXG12S, T3RXXXXG15S, T3RXXXXG16S"
+**<T3RXXXXG32S>** ROWNUM=«1» message=«value» **</T3RXXXXG32S>**,M/O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: серія, номер посвідчення водія. Поле обов’язково заповнюється, якщо заповнено T3RXXXXG28S / T3RXXXXG29S / T3RXXXXG31S"
+**<T3RXXXXG33S>** ROWNUM=«1» message=«value» **</T3RXXXXG33S>**,M/O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: телефон водія. Поле обов’язково заповнюється, якщо заповнено T3RXXXXG28S / T3RXXXXG29S / T3RXXXXG31S / T3RXXXXG32S"
+**<T3RXXXXG34S>** ROWNUM=«1» message=«value» **</T3RXXXXG34S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ідентифікаційний код водія
+**<T3RXXXXG35S>** ROWNUM=«1» message=«value» **</T3RXXXXG35S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ідентифікаційний код (ЄДРПОУ) вантажовідправника"
+**<T3RXXXXG36S>** ROWNUM=«1» message=«value» **</T3RXXXXG36S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: найменування вантажовідправника
+**<T3RXXXXG37S>** ROWNUM=«1» message=«value» **</T3RXXXXG37S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: адреса вантажовідправника"
+**<T3RXXXXG38S>** ROWNUM=«1» message=«value» **</T3RXXXXG38S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ідентифікаційний код (ЄДРПОУ) вантажоодержувача
+**<T3RXXXXG39S>** ROWNUM=«1» message=«value» **</T3RXXXXG39S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: найменування вантажоодержувача"
+**<T3RXXXXG41S>** ROWNUM=«1» message=«value» **</T3RXXXXG41S>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: адреса вантажоодержувача
+**<T3RXXXXG42S>** ROWNUM=«1» message=«value» **</T3RXXXXG42S>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: Найменування вантажу (тут враховується загальний характер вантажу)"
+**<T3RXXXXG7>** ROWNUM=«1» message=«value» **</T3RXXXXG7>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: адреса пункту навантаження
+**<T3RXXXXG8>** ROWNUM=«1» message=«value» **</T3RXXXXG8>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: код пункту навантаження за КОАТУУ / `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__"
+**<T3RXXXXG9>** ROWNUM=«1» message=«value» **</T3RXXXXG9>**,O,String,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: адреса пункту розвантаження
+**<T3RXXXXG10>** ROWNUM=«1» message=«value» **</T3RXXXXG10>**,O,String,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: код пункту розвантаження за КОАТУУ / `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__"
+**DECLARBODY**,,,Основні реквізити (закінчення блоку)

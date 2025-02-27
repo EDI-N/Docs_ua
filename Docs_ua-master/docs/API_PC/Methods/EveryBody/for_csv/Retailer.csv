@@ -1,0 +1,24 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Retailer: , Об'єкт **Retailer**,,
+id,,long,ідентифікатор торгової мережі
+accountId,,long,ідентифікатор акаунта
+name,,String,назва торгової мережі
+gln,,String,GLN торгової мережі
+aliasName,,String,бренд торгової мережі
+details,,String,
+type,,int,тип/ознака торгової мережі (type=1)
+countryId,,int,ідентифікатор країни
+startDate,,String,дата додавання нової мережі (YYYY-MM-DD)
+visible,,boolean,"true - мережа відображається в Особистому кабінеті в списку доступних до підключення до Постачальника;
+
+false - мережа не відображається в Особистому кабінеті"
+special,,boolean,"true - в мережі наявні спеціальні умови;
+
+false - мережа без спеціальних умов"
+emails,,String,список Email (через крапку з комою) отримувачів заявки на підключення до мережі
+copyEmails,,String,список Email (через крапку з комою) для копії
+docTypes,,List<Integer>,список `ідентифікаторів <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html#id2>`__ підключених типів документів
+services,,List<String>,"список сервісів, які використовує мережа"
+edrpouCode,,String,код ЄДРПОУ торгової мережі
+legalAddress,,String,юридична адреса торгової мережі
+isNewPositions,,boolean,"true - в Особистому кабінеті в мережу можливо **Відправити комерційну пропозицію**"

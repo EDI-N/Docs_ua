@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/ettn/eds/disagreement?company_uuid=c2394341-85f0-4b8c-8ea9-ff8d3c6c119c**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (опціонально) UUID - ідентифікатор документа (передається для редагування (оновлення) даних раніше створеного документа)
+
+**new_doc_uuid** (опціонально) UUID - ідентифікатор створюваного документа (може передаватись і бути назначеним при створенні документа зі сторони Вашого клієнта)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , *application/json* or *application/xml*                             
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло документа `Акта розбіжностей <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CreateDisagreementRequest.html>`__ в форматі json чи xml в залежності від Content-Type."

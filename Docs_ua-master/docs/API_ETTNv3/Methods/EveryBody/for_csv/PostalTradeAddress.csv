@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _PostalTradeAddress:,,Об'єкт **PostalTradeAddress**,
+postCode,O,string,Індекс
+streetName,M,string,Адреса (назва вулиці + номер будівлі)
+cityName,M,string,Місто (назва населеного пункту)
+countryID,M,string,Країна (UA)
+countrySubDivisionName,O,string,Область та район (за наявності)

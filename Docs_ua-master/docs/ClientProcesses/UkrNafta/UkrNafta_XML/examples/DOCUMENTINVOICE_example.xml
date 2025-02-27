@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document-Invoice>
+  <Invoice-Header>
+    <InvoiceNumber>ftp_951_DRN_4</InvoiceNumber>
+    <InvoiceDate>2022-06-28</InvoiceDate>
+    <DocumentFunctionCode>DRN</DocumentFunctionCode>
+    <ContractNumber>102030</ContractNumber>
+    <ContractDate>2022-06-28</ContractDate>
+  </Invoice-Header>
+  <Invoice-Reference>
+    <Order>
+      <BuyerOrderNumber>951_ord</BuyerOrderNumber>
+      <BuyerOrderDate>2022-06-28</BuyerOrderDate>
+    </Order>
+  <DespatchAdvice>
+      <DespatchAdviceNumber>2936_des_1</DespatchAdviceNumber>
+  </DespatchAdvice>
+  </Invoice-Reference>
+  <Invoice-Parties>
+    <Buyer>
+      <ILN>9864065732211</ILN>
+      <TaxID>1234445670</TaxID>
+      <UtilizationRegisterNumber>12345670</UtilizationRegisterNumber>
+      <Name>FelEx_2</Name>
+    </Buyer>
+    <Seller>
+      <ILN>9864065732181</ILN>
+      <TaxID>1010101016</TaxID>
+      <IBAN>UA903052992990004149123456789</IBAN>
+      <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
+      <Name>FelEx_1</Name>
+    </Seller>
+    <DeliveryPoint>
+      <ILN>9864065732211</ILN>
+      <Name>FelEx_2</Name>
+      <CityName>г. Николаев</CityName>
+      <StreetAndNumber>ул. Вуличка, 7</StreetAndNumber>
+      <PostalCode></PostalCode>
+    </DeliveryPoint>
+    <Payer>
+      <ILN>9864065732211</ILN>
+    </Payer>
+  </Invoice-Parties>
+  <Invoice-Lines>
+    <Line>
+      <Line-Item>
+        <LineNumber>1</LineNumber>
+        <EAN>1234567890000</EAN>
+        <BuyerItemCode>2222222220</BuyerItemCode>
+        <ExternalItemCode>1111</ExternalItemCode>
+        <ItemDescription>Вот ка</ItemDescription>
+        <InvoiceQuantity>1</InvoiceQuantity>
+        <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
+        <InvoiceUnitGrossPrice>16.28</InvoiceUnitGrossPrice>
+        <InvoiceUnitNetPrice>13.57</InvoiceUnitNetPrice>
+        <TaxRate>20</TaxRate>
+        <GrossAmount>48.84</GrossAmount>
+        <TaxAmount>8.13</TaxAmount>
+        <NetAmount>40.71</NetAmount>
+      </Line-Item>
+    </Line>
+  </Invoice-Lines>
+  <Invoice-Summary>
+    <TotalLines>1</TotalLines>
+    <TotalNetAmount>57.75</TotalNetAmount>
+    <TotalTaxAmount>11.55</TotalTaxAmount>
+    <TotalGrossAmount>69.30</TotalGrossAmount>
+  </Invoice-Summary>
+</Document-Invoice>

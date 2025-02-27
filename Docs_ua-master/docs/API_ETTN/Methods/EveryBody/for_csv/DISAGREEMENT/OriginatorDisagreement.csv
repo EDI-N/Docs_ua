@@ -1,0 +1,3 @@
+Назва поля,Тип [1]_,Формат,Опис
+.. _OriginatorDisagreement:,, Об'єкт **OriginatorDisagreement**,
+**ENVELOPE**,M,ORIGINATOR_SIGN_ENVELOPE_,об'єкт; обгортка документа Вантажоотримувача

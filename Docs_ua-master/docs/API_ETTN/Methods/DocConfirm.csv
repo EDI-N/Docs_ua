@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **/api/ettn/eds/doc/confirm?company_uuid=97bd6618-71b1-45a2-91b2-fe7b888ca00d&doc_uuid=e64a304b-b0c0-454b-a361-5dc5d6987952&confirmed_by=Test%20Test%20Test**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**confirmed_by** (обов'язково) String - ПІБ співробітника"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , text/plain; charset=UTF-8 

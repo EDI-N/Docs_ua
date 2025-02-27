@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , PATCH                                         
+URL запиту    , **/api/v2/eds/condra/confirm/send?gln=9864065732211&doc_uuid=4b5faf20-db85-41e3-a7cf-10885fc57ef0**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі;
+
+**doc_uuid** - рядок; UUID документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло документа в xml форматі (`специфікація документа CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__)."

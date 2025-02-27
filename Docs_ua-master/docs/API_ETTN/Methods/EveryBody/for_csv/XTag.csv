@@ -1,0 +1,5 @@
+Параметр,Формат,Опис
+.. _XTag: ,**Об'єкт XTag** ,
+id,long,id тега
+name,String,зміст тега
+shortName,String,коротка назва тега

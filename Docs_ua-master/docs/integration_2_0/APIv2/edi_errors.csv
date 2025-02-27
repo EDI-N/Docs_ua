@@ -1,0 +1,137 @@
+**Код відповіді**,**Індекс помилки**,**Текст помилки**,**Опис**
+400,ERR_EDI-1,"Validation document errors: [%s]
+
+Документ містить помилки: [%s]","Помилка при перевірці обовязкових тегів в xml - в дужках перелік незаповнених/некоректно заповнених полів"
+400,ERR_EDI-2,"XSD Validation document error: [%s]
+
+Помилка валідації документа за XSD: [%s]","Помилка при валідації по xsd - в дужках вказується конктретна причина помилки"
+400,ERR_EDI-3,"Business logic validation document errors: [%s]
+
+Документ містить помилки згідно бізнес-логіки: [%s]","Помилка при перевірці обовязкових тегів в xml згідно бізнес-логіки - в дужках перелік незаповнених/ некоректно заповнених полів"
+400,ERR_EDI-4,"Unknown or unsupported document type: [%s]
+
+Невідомий або непідтримуваний тип документа: [%s]","Помилка виникає тільки в 1му випадку: при спробі відправити документ CONDRA методом create_and_send"
+400,ERR_EDI-5,,"Помилка виникає при перевірці підпису, якщо позначка часу створена офлайн"
+400,ERR_EDI-6,"Data should contain [%s] marker
+
+Данні мають містити [%s] маркер","Помилка виникає при спробі дешифрування даних, якщо дані не містять крипто-заголовки (CERTCRYPT або UA1_CRYPT)"
+400,ERR_EDI-7,"Data should be enveloped (crypted)
+
+Дані повинні бути захищені (зашифровані)","Помилка виникає при спробі дешифрування даних, якщо дані не зашифровані"
+400,ERR_EDI-8,"Decription failed - [%s]
+
+Не вдалося розшифрувати - [%s]","Помилка виникає при спробі дешифрування даних, якщо при дешифруванні виникає помилка - в дужках причина"
+400,ERR_EDI-9,"The data is not signed or contains an incorrect signature
+
+Дані не підписані або містять некоректний підпис","Помилка виникає коли клієнт передав не підписані або не коректно підписані дані, коли вони мають бути підписані (наприклад, роут create_and_send при відправці p7s-ки, вказуючи content-type = application/pkcs7-signature)"
+400,ERR_EDI-10,"You cannot send a document signed only with a seal
+
+Ви не можете надіслати документ, підписаний тільки печаткою",
+400,ERR_EDI-11,"GLN from request [%s] should match sender's GLN from body [%s]
+
+GLN із запиту [%s] має збігатися з GLN відправника з тіла [%s]","Помилка виникає в create_and_send або роуті створення документа через API, коли є невідповідність GLN-ів, який був переданий в url-параметрі і GLN відправника в тілі документа"
+400,ERR_EDI-12,"Sender GLN cannot be same as recipient GLN
+
+GLN відправника не може збігатись з GLN отримувача","Помилка виникає в методі create_and_send, коли клієнти відправляють документи самі собі"
+400,ERR_EDI-13,"Branch uuid [%s] already revoked
+
+UUID [%s] гілки уже відкликано",
+400,ERR_EDI-14,"COMDOC [019/021] not yet supported.
+
+COMDOC [019/021] ще не підтримується.","Помилка виникає тільки в 1му випадку: при спробі відправити цей підтип COMDOC методом create_and_send"
+400,ERR_EDI-15,"Doc is not in open status
+
+Документ не в статусі - чернетка","Помилка виникає у випадках, коли клієнт хоче додати/видалити вкладення у документа не чернетки (CONDRA)"
+400,ERR_EDI-16,"Document already revoked, current status: [%s]
+
+Документ уже відкликано, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-17,"Document already signed, current status: [%s]
+
+Документ уже підписаний, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-18,"Document already both signed, current status: [%s]
+
+Документ уже підписаний двома сторонами, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-19,"Document already сanceled, current status: [%s]
+
+Документ уже анульовано, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-20,"Document already repealed, current status: [%s]
+
+Документ уже скасовано, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-21,"Document already has repeal request, current status: [%s]
+
+Документ уже має запит на скасування, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-22,"Document has no repeal request, current status: [%s]
+
+Документ не має запиту на скасування, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-23,"Document's repeal already rejected, current status: [%s]
+
+Скасування документа уже відхилено, поточний статус: [%s]","Помилка виникає при спробі відправити тікет (прийняти COMDOC, підписати DOCINVOICE і т.д.), що протирічить логіці документообігу"
+400,ERR_EDI-24,"DocumentInvoice parties do not contain certificate's EDRPOU: [%s]
+
+Сторони DocumentInvoice не містять ЄДРПОУ з сертифіката: [%s]",
+400,ERR_EDI-25,"DocumentInvoice parties do not contain certificate's DRFO: [%s]
+
+Сторони DocumentInvoice не містять ДРФО з сертифіката: [%s]",
+400,ERR_EDI-26,"There is no EDRPOU/DRFO code in the signature certificate
+
+У сертифікаті підпису відсутні коди ЄДРПОУ/ДРФО",
+400,ERR_EDI-27,"COMDOC parties do not contain certificate's EDRPOU: [%s]
+
+Сторони COMDOC не містять ЄДРПОУ з сертифіката: [%s]",
+400,ERR_EDI-28,"The signing key is not on a secure medium. Please select a different key and try again
+
+Ключ для підписання, що використовується, знаходиться не на захищеному носії. Виберіть, будь ласка, інший ключ і спробуйте ще раз",
+400,ERR_EDI-29,"There is no signer position in the key. Please select a different key and try again
+
+У ключі немає посади підписувача. Виберіть, будь ласка, інший ключ і спробуйте ще раз",
+400,ERR_EDI-30,"The document does not contain sender's signatures. Change the settings of your signature module to create a signature online. Or contact technical support for advice.
+
+Документ не містить підписів відправника. Змініть налаштування свого модуля підписання для створення підпису онлайн. Або зверніться до служби технічної підтримки для консультації.",
+400,ERR_EDI-31,"[signs] is empty
+
+[signs] порожній","Помилка виникає в роутах при роботі з тікетами (створення, відхилення документа, прийняття COMDOC і т.д.), у разі якщо клієнт користується застарілим способоv передачі тіла, використовуючи обєкт TicketRequestData і не передавши в json-і [signs]"
+400,ERR_EDI-32,"Field [%s] is required
+
+Поле [%s] є обов'язковим","Помилка виникає тільки в роуті POST /api/eds/doc/archive, якщо в об'єкті DocumentStorageQuery не передано - direction або type, або docDate"
+400,ERR_EDI-33,"Expected non-empty list of uuids
+
+Cписок uuid не може бути пустим","Помилка виникає тільки в роуті - /api/v2/eds/doc/content, якщо список uuid-ів порожній"
+400,ERR_EDI-34,"The size of the list cannot be more than [%s]
+
+Розмір списку не може перевищувати [%s]","Помилка виникає тільки в роуті /api/v2/eds/doc/content, якщо в списку значень UUID більше ніж 50"
+400,ERR_EDI-35,"Report's start date [%s] cannot be more than end date [%s]
+
+Дата початку звіту [%s] не може перевищувати дату завершення [%s]","Помилка виникає в роутах формування звітів"
+400,ERR_EDI-36,"Date range (from [%s] to [%s]) cannot be more than 31 days
+
+Діапазон дат (від [%s] до [%s]) не може перевищувати 31 день","Помилка виникає в роутах формування звітів"
+400,ERR_EDI-37,"Report can be created based on only one parameter: sender OR recipient OR partner
+
+Звіт можна створити лише за одним параметром: sender OR recipient OR partner","Помилка виникає в роутах формування звітів"
+400,ERR_EDI-38,"Content from request does not match original content, actual_hash:[%s] request_hash:[%s], actualContentHash
+
+Контент запиту не відповідає оригінальному контенту, actual_hash:[%s] request_hash:[%s], actualContentHash","Помилка виникає, якщо хеш контенту в eds не відповідають хешу контенту з тіла запиту (це про підписання документів у відповідь)"
+400,ERR_EDI-39,"Signs count should be more than parent data signs count
+
+Кількість підписів повинна бути більшою, ніж у батьківській квитанції", 
+400,ERR_EDI-40,"[subjEDRPOUCode] from sign does not match any of [КодКонтрагента] or [ІПН] from XML
+
+[subjEDRPOUCode] із підпису не відповідає жодному з [КодКонтрагента] або [ІПН] із XML",
+400,ERR_EDI-41,"Incorrect document family. One of [%s] is expected
+
+Некоректний family документа. Очікується один з наступних: [%s]",
+400,ERR_EDI-42,"Handling sign failed - [%s]
+
+Не вдалося опрацювати підпис - [%s]","Помилка виникає при опрацюванні p7s, зазвичай ці помилки пов'язані з ІІТ бібліотекою"
+400,ERR_EDI-43,"Ticket with transaction type [%s] not found
+
+Квитанцію з типом транзакції [%s] не знайдено","Помилка виникає в роутах при отриманні інформації по підписантам в тікеті"
+400,ERR_EDI-44,"XSLT for document type [%s] not found
+
+XSLT для типу документа [%s] не знайдено","Не знайдено карту конвертації"
+400,ERR_EDI-45,"Can't define recipient GLN
+
+Неможливо визначити GLN одержувача","Не вдалось визначити отримувача при відправці DOCCORINVOICE"
+400,ERR_EDI-46,"The document can only be signed by one party
+
+Документ може бути підписаний тільки однією стороною","Відправлений COMDOC містить поле «ОдностороннєПідписання»"

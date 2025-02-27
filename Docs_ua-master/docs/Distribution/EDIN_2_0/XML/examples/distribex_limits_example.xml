@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<DISTRIBEX_LIMITS>
+  <HEAD>
+    <SENDER>9876543210123</SENDER>
+    <RECIPIENT>3210987654321</RECIPIENT>
+        <LIMITS>
+            <LIMIT>
+                <NAME>min_sum_nds</NAME>
+                <VALUE>2000.00</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>max_sum_nds</NAME>
+                <VALUE>20000.00</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>credit_limit</NAME>
+                <VALUE>100000.00</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>max_weight</NAME>
+                <VALUE>500.000</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>max_pos_qty</NAME>
+                <VALUE>300</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>max_pack_qty</NAME>
+                <VALUE>350</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>max_pallet_qty</NAME>
+                <VALUE>12</VALUE>
+            </LIMIT>
+            <LIMIT>
+                <NAME>multiplicity_packing</NAME>
+                <VALUE>0</VALUE>
+            </LIMIT>
+        </LIMITS>
+  </HEAD>
+</DISTRIBEX_LIMITS>

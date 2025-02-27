@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/eds/doc/ettn/ttn/attachment?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&gln=9864065732327&type=18**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**type** (обов'язково) String - тип вкладення (число 1-25) з довідника `DICT.01.10 <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#accompanying-documents>`__"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , `multipart/form-data <https://tools.ietf.org/html/rfc7578>`__
+**REQUEST**   ,
+Form-data     ,"В тілі запиту передається pdf файл (доступна можливість обробки файла в BASE64 форматі)."

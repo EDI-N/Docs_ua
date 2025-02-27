@@ -1,0 +1,16 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **api/eds/chain/archive?gln=9864065702429&chain_uuid=8c8a70e7-81c6-4382-8b58-7d60c3bc6ffd&archive=true**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+АБО 
+**guid** (обов'язково) String - унікальний ідентифікатор власної Компанії;
+
+**chain_uuid** (обов'язково) String - унікальний ідентифікатор ланцюжка документів;
+
+**archive** (обов'язково) boolean - визначає дію:
+
+* true  - Архівувати (перенести в Архів);
+* false - Розархівувати (винести з архіву)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json

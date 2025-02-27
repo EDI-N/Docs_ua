@@ -1,0 +1,49 @@
+Назва поля,Тип [1]_,Формат,Опис
+.. _DBODY:,, Об'єкт **DBODY**,
+TYPE,M,«CORE»,тип документа (Основа)
+STAKE,M,«ORIGINATOR»,"учасник-підписант (Вантажоотримувач)"
+HNUM,M,String,номер Акта розбіжностей
+HFILL,M,date(YYYY-MM-DD),дата Акта розбіжностей
+BASE_HNUM,M,String,номер документа-підстави (ТТН)
+BASE_HFILL,M,date(YYYY-MM-DD),дата документа-підстави (ТТН)
+UUID_TTN,M,UUID,унікальний ідентифікатор ТТН
+DOCUMENT_PLACE,M,String,Місце складання
+R04G1S,M,String,Ідентифікаційний код Вантажоодержувача (ЄДРПОУ/ІПН)
+R04G2S,M,String,Повне найменування Вантажоодержувача
+R04G3S,M,String,"Місцезнаходження Вантажоодержувача (Місто, Адреса)"
+R02G11S,M,String,Ідентифікаційний код Автомобільного перевізника (ЄДРПОУ/ІПН)
+R02G1S,M,String,Повне найменування / ПІБ Автомобільного перевізника
+R02G3S,M,String,Прізвище Водія
+R02G31S,M,String,Ім'я Водія
+R02G32S,O,String,По батькові Водія
+R02G4S,O,String,Номер посвідчення Водія
+HTIN,M,String,Ідентифікаційний код Вантажовідправника (ЄДРПОУ/ІПН)
+HNAME,M,String,Повне найменування Вантажовідправника
+HLOC,M,String,Місцезнаходження Вантажовідправника
+SEAL_NO,O,String,Номер пломби згідно ТТН
+SEAL_NO_DAMAGE,O,String,Відомості про пошкодження пломби
+TEMPERATURE,O,String,Температурний режим згідно ТТН
+TEMPERATURE_MISMATCH,O,String,Відомості про недотримання температурного режиму
+PACKAGE_DAMAGE,O,String,Відомості про пошкодження тари
+OTHER_MISMATCH,O,String,Відомості про інші розбіжності
+T1RXXXXG81S,O,List<RXXType_>,масив; таблична частина: найменування вантажу (номер контейнера) згідно ТТН
+T1RXXXXG9S,O,List<RXXType_>,масив; таблична частина: одиниця виміру
+T1RXXXXG10,O,List<RXXType_>,масив; таблична частина: кількість місць згідно ТТН
+CARGO_NUMBER_PLACES_FACT,O,List<RXXType_>,масив; таблична частина: кількість місць фактична
+CARGO_NUMBER_PLACES_MISMATCH,O,List<RXXType_>,масив; таблична частина: кількість місць - відхилення
+CARGO_NUMBER_PLACES_REASON,O,List<RXXType_>,масив; таблична частина: кількість місць - причина відхилення
+T1RXXXXG15,M,List<RXXType_>,"масив; таблична частина: маса брутто згідно ТТН, кг"
+CARGO_GROSS_WEIGHT_FACT,O,List<RXXType_>,"масив; таблична частина: маса брутто фактична, кг"
+CARGO_GROSS_WEIGHT_MISMATCH,O,List<RXXType_>,"масив; таблична частина: маса брутто - відхилення, кг"
+CARGO_GROSS_WEIGHT_REASON,O,List<RXXType_>,"масив; таблична частина: маса брутто - причина відхилення"
+T1RXXXXG12,O,List<RXXType_>,"масив; таблична частина: загальна сума з ПДВ, грн"
+CARGO_SUM_FACT,O,List<RXXType_>,"масив; таблична частина: загальна сума з ПДВ фактична, грн"
+CARGO_SUM_MISMATCH,O,List<RXXType_>,"масив; таблична частина: загальна сума з ПДВ - відхилення, грн"
+CARGO_SUM_REASON,O,List<RXXType_>,"масив; таблична частина: загальна сума з ПДВ - причина відхилення"
+CARGO_OTHER_MISMATCH,O,List<RXXType_>,"масив; таблична частина: інші зауваження/відхилення"
+CARGO_TOTAL_GROSS_WEIGHT,O,String,"Всього: маса брутто згідно ТТН, кг"
+CARGO_TOTAL_GROSS_WEIGHT_MISMATCH,O,String,"Всього: маса брутто - відхилення, кг"
+CARGO_TOTAL_SUM,O,String,"Всього: загальна сума з ПДВ, грн"
+CARGO_TOTAL_SUM_MISMATCH,O,String,"Всього: загальна сума з ПДВ - відхилення, грн"
+DISAGREEMENT_INFORMATION,M,String,Опис причини складання акта розбіжностей
+DISAGREEMENT_CONCLUSION,M,String,Висновки (вимоги по рішенню неузгодженості)

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSPORTATIONORDER>
+  <NUMBER>Test_GD1_post2</NUMBER>
+  <DATE>2023-01-25</DATE>
+  <SUBDOCTYPE>1</SUBDOCTYPE>
+  <TRANSPORTATIONTYPE>1</TRANSPORTATIONTYPE>
+  <TRANSPORTATIONPAYMENTTYPE>1</TRANSPORTATIONPAYMENTTYPE>
+  <TRANSPORTATIONCOST>
+    <WITHOUTVAT>100</WITHOUTVAT>
+    <VAT>20</VAT>
+    <WITHVAT>120</WITHVAT>
+  </TRANSPORTATIONCOST>
+  <LENGTHROUTE>100</LENGTHROUTE>
+  <TOTALPACKAGEWEIGHT>1231</TOTALPACKAGEWEIGHT>
+  <TOTALPACKAGEQUANTITY>2</TOTALPACKAGEQUANTITY>
+  <HEAD>
+    <CUSTOMER>
+      <GLN>9864065738701</GLN>
+      <ID>12345678</ID>
+      <NAME>etnn-test-consignor</NAME>
+	  <ADDRESS>м. Київ, Грушевського, 25, 49000</ADDRESS>
+    </CUSTOMER>
+    <CARRIER>
+      <GLN>9864065747215</GLN>
+      <ID>23787764</ID>
+      <NAME>Тестовий перевізник</NAME>
+      <ADDRESS>м. Київ, Грушевського, 25, 49000</ADDRESS>
+    </CARRIER>
+    <CONSIGNOR>
+      <GLN>9864065738701</GLN>
+      <ID>12345678</ID>
+      <NAME>etnn-test-consignor</NAME>
+	  <ADDRESS>м. Київ, Грушевського, 25, 49000</ADDRESS>
+    </CONSIGNOR>
+	    <DRIVER>
+		<GLN>9864065747215</GLN>
+      	<ID>3274892739</ID>
+		<NAME>Тестовий Водій Водійович</NAME>
+	    <LICENSE>XYZ000012</LICENSE>
+	</DRIVER>
+    <POSITION>
+      <POSITIONNUMBER>1</POSITIONNUMBER>
+      <LOAD>
+        <ADDRESS>
+          <GLN>9864065746003</GLN>
+          <ID>UA46060250010015970</ID>
+          <NAME>м. Львів, Львівський р-н</NAME>
+          <ADDRESS>Львівська, вул. Словацького, 1</ADDRESS>
+        </ADDRESS>
+        <DATE>2023-01-25 10:56</DATE>
+      </LOAD>
+      <UNLOAD>
+        <ADDRESS>
+          <GLN>9864065747253</GLN>
+          <ID>UA05020030010063857</ID>
+          <NAME>м. Вінниця, Вінницький р-н</NAME>
+          <ADDRESS>Вінницька, Гоголя, 5</ADDRESS>
+        </ADDRESS>
+        <DATE>2023-01-25 10:57</DATE>
+        <CONSIGNEE>
+          <GLN>9864065747222</GLN>
+          <ID>23787793</ID>
+          <NAME>Тестовий вантажоодержувач</NAME>
+          <ADDRESS>м. Вінниця, Вінницький р-н, Вінницька, Перша, 5</ADDRESS>
+        </CONSIGNEE>
+      </UNLOAD>
+      <PACKAGEWEIGHT>2323</PACKAGEWEIGHT>
+      <PACKAGEQUANTITY>1</PACKAGEQUANTITY>
+    </POSITION>
+  </HEAD>
+</TRANSPORTATIONORDER>

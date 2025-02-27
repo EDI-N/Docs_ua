@@ -1,0 +1,10 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    , **/api/es/agreement/sub_status?doc_uuid=e57xxx9c-d855-4443-abaf-bbcb5ea3b707&status_id=11**
+URL параметри ,"**doc_uuid** (обов'язково) UUID - GUID пропозиції;
+
+**status_id** (обов'язково) int - id статусу"
+
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

@@ -1,0 +1,295 @@
+**Код відповіді**,**Індекс**,**Опис**
+400,ERR_TTN-1,"Setup document number [%s]
+
+Заповніть номер документу [%s]"
+400,ERR_TTN-2,"Setup document date [%s]
+
+Заповніть дату документу [%s]"
+400,ERR_TTN-3,"Setup reference to ettn
+
+Заповніть посилання на ТТН"
+400,ERR_TTN-4,"[%s] is not filled in gln [%s]
+
+[%s] не заповнено в  gln  [%s]"
+400,ERR_TTN-5,"Field [id.value] in trade party for role [%s]  is not filled
+
+Поле [id.value] учасника ролі [%s] не заповнено"
+400,ERR_TTN-6,"field [%s] is not filled
+
+Поле [%s] не заповнене"
+400,ERR_TTN-7,"Unknown initiator
+
+Невідомий ініціатор"
+400,ERR_TTN-8,"Unknown carrier
+
+Невідомий перевізник"
+400,ERR_TTN-8,"Unknown carrier [%s]
+
+Невідомий перевізник [%s]"
+400,ERR_TTN-9,"Unknown unload storage
+
+Невідомий склад розвантаження"
+400,ERR_TTN-10,"Unknown load storage
+
+Невідомий склад навантаження"
+400,ERR_TTN-11,"Unknown consignor
+
+Невідомий вантажовідправник"
+400,ERR_TTN-11,"Unknown consignor [%s]
+
+Невідомий вантажовідправник [%s]"
+400,ERR_TTN-12,"Unknown consignee
+
+Невідомий вантажоотримувач"
+400,ERR_TTN-12,"Unknown consignee [%s]
+
+Невідомий вантажоотримувач [%s]"
+400,ERR_TTN-13,"Unknown customer
+
+Невідомий замовник"
+400,ERR_TTN-13,"Unknown customer [%s]
+
+Невідомий замовник [%s]"
+400,ERR_TTN-14,"Unknown new consignee
+
+Невідомий новий вантажоотримувач"
+400,ERR_TTN-14,"Unknown new consignee [%s]
+
+Невідомий новий вантажоотримувач [%s]"
+400,ERR_TTN-15,"Unknown new carrier
+
+Невідомий новий перевізник"
+400,ERR_TTN-15,"Unknown new carrier [%s]
+
+Невідомий новий перевізник [%s]"
+400,ERR_TTN-16,"Unknown driver
+
+Невідомий водій"
+400,ERR_TTN-17,"Unknown new driver
+
+Невідомий новий водій"
+400,ERR_TTN-18,"Unknown initiator gln [%s]
+
+Невідомий ініціатор gln [%s]"
+400,ERR_TTN-19,"Failed to determine gln for trade party [%s]
+
+Не вдалося визначити gln для учасника [%s]"
+400,ERR_TTN-20,"Failed to determine gln for driver [%s]
+
+Не вдалося визначити gln для водія [%s]"
+400,ERR_TTN-21,"Failed to determine trading party for gln [%s]
+
+Не вдалося визначити учасника для gln [%s]"
+400,ERR_TTN-22,"Unknown gln [%s] for tradeParty with role: [%s], and name [%s]
+
+Невідомий gln [%s] для учасника з роллю: [%s] і назвою [%s]"
+400,ERR_TTN-23,"gln [%s] is not driver gln
+
+gln [%s] не є gln-ом водія"
+400,ERR_TTN-24,"Incorrect driver TIN in field [taxRegistration.id], expected [%s]
+
+Неправильний ІПН водія в полі [taxRegistration.id], очікується [%s]"
+400,ERR_TTN-25,"Edrpou [%s] in gln [%s] and document [%s] are different
+
+ЄДРПОУ [%s] в gln [%s] та документі [%s] відрізняються"
+400,ERR_TTN-26,"TIN [%s] in gln [%s] and document [%s] are different
+
+ІПН [%s] в gln [%s] та документі [%s] відрізняються"
+400,ERR_TTN-27,"Parent ettn not found
+
+Документ підстава (ТТН) не знайдено"
+400,ERR_TTN-28,"Parent storage delivery doc not found
+
+Документ підстава (акт розвантаження на проміжному складі) не знайдено"
+400,ERR_TTN-29,"Parent TTN has incorrect status
+
+Документ підстава (ТТН) має некоректний статус"
+400,ERR_TTN-30,"TTN status «ONSTORAGE» can be changed automatically only after the completion of the life cycle of the storage pick up act or the stop TTN act
+
+Статус ТТН «ONSTORAGE» може бути змінено автоматично лише після завершення життєвого циклу акта завантаження на складі або акту зупинки ТТН"
+400,ERR_TTN-31,"Work with TTN is temporarily unavailable. Due to the unfinished process of working with the act [%s] to this TTN. Wait for the completion of work on it.
+
+Робота з ТТН тимчасово недоступна. У зв'язку з незавершеним процесом роботи з актом [%s] до цієї ТТН. Дочекайтеся завершення роботи над ним."
+400,ERR_TTN-32,"We have already created a new transaction for TTN. Please use API method GET, «/api/eds/doc/ettn/body» for receiving this new transaction.
+
+Ми вже створили нову транзакцію для ТТН. Будь ласка, використовуйте метод API GET, «/api/eds/doc/ettn/body» для отримання цієї нової транзакції."
+400,ERR_TTN-33,"Key blocked. EDRPOU/TIN mismatch.
+
+Ключ заблоковано. Невідповідність ЄДРПОУ/ІПН."
+400,ERR_TTN-34,"No signature content created. Resave document
+
+Вміст для підписання не створено. Збережіть документ повторно"
+400,ERR_TTN-35,"sign_hash is broken, resave document
+
+невідповідний sign_hash, повторно збережіть документ"
+400,ERR_TTN-36,"The document cannot be signed only with the stamp. Sign the document with your signature.
+
+Документ не може бути підписаний лише печаткою. Підпишіть документ своїм підписом."
+400,ERR_TTN-37,"Setup correct content type in request. Use 'application/json' or 'application/xml'
+
+Вкажіть content type в запиті. Використовуйте «application/json» або «application/xml»."
+400,ERR_TTN-38,"Action not available.
+
+Дія недоступна."
+400,ERR_TTN-40,"The required ticket was not found
+
+Необхідна квитанція не знайдена"
+400,ERR_TTN-41,"The company role specified in the URL parameter does not match the role of this company in the document structure
+
+Вказана в URL-параметрі роль компанії не відповідає ролі цієї компанії в структурі документа"
+400,ERR_TTN-42,"Unknown or unsupported doc type.
+
+Невідомий або непідтримуваний тип документа."
+400,ERR_TTN-43,"Mintrans status error. expected: [%s], actual: [%s]
+
+Невідповідність статусу від Мінтранс. Очікуваний [%s],  фактичний [%s]."
+400,ERR_TTN-44,"Invalid initiator role
+
+Некоректна роль ініціатора"
+400,ERR_TTN-45,"Act for TTN is in process
+
+Присутній незавершений акт до ТТН"
+400,ERR_TTN-46,"«template_doc_uuid» and «doc_uuid» parameters cannot be set at the same time
+
+Параметри «template_doc_uuid» і «doc_uuid» не можна встановити одночасно"
+400,ERR_TTN-47,"Incorrect doc status
+
+Неправильний статус документа"
+400,ERR_TTN-48,"Unknown or unsupported role_code [%s]
+
+Невідомий або непідтримуваний role_code [%s]"
+400,ERR_TTN-49,"Unsupported format [%s]
+
+Непідтримуваний формат [%s]"
+400,ERR_TTN-50,"Unsupported response_type [%s]
+
+Непідтримуваний response_type [%s]"
+400,ERR_TTN-50,"Unsupported %s [%s]
+
+Непідтримуваний %s [%s]"
+400,ERR_TTN-51,"Detect sub_status error. Current sub_status: [%s]
+
+Некоректний сабстатус. Поточний сабстатус: [%s]"
+400,ERR_TTN-51,"Detect sub_status error. Current sub_status: [%s], allowed sub_statuses: [%s]
+
+Некоректний сабстатус. Поточний сабстатус: [%s], допустимі статуси: [%s]"
+400,ERR_TTN-52,"Act is completed
+
+Акт завершено"
+400,ERR_TTN-53,"Delivery is completed
+
+Поставку завершено"
+400,ERR_TTN-54,"Incorrect attachment type: [%s] one of:  [%s] expected
+
+Неправильний тип вкладення: [%s] очікується  один із: [%s]."
+400,ERR_TTN-55,"Unsupported file type [%s]
+
+Непідтримуваний тип файлу [%s]."
+400,ERR_TTN-56,"Expected 1 file in multipart/form data
+
+Очікується 1 файл у  multipart/form data"
+400,ERR_TTN-57,"Attachment not found
+
+Вкладення не знайдено"
+400,ERR_TTN-58,"The list of participants in the basis document does not correspond to the list of participants in the current document
+
+Перелік учасників документа підстави не відповідає переліку учасників поточного документа"
+400,ERR_TTN-59,"MINTRANS_ERROR: [%s]
+
+Помилка від Мінтранс: [%s]"
+400,ERR_TTN-60,"Fail to parse content in field [%s]
+
+Не вдалося опрацювати контент у полі [%s]"
+400,ERR_TTN-61,"INVALID_SIGN_FORMAT, CADES_X_LONG is expected
+
+Некоректний формат підпису, допустимий лише CADES_X_LONG"
+400,ERR_TTN-62,"Gln for address [%s] not found
+
+Не вдалося визначити gln для адреси [%s]"
+400,ERR_TTN-63,"katottg [%s] in gln [%s] and document [%s] are different
+
+катоттг [%s] в gln [%s] та документі [%s] відрізняються"
+400,ERR_TTN-64,"Signs not found
+
+В документі відсутні підписи"
+400,ERR_TTN-66,"Setup correct content type in request. Use 'application/xml'
+
+Вкажіть content type в запиті. Використовуйте  «application/xml»."
+400,ERR_TTN-67,"xml body is not canonical or invalid
+
+xml тіло не канонізоване або некоректне"
+400,ERR_TTN-68,"Validation document errors: [%s]
+
+Документ містить помилки: [%s]"
+400,ERR_TTN-69,"XSD Validation document error: [%s]
+
+Помилка валідації документа за XSD: [%s]"
+400,ERR_TTN-70,"No person with the driver's TIN was found among the responsible persons of the carrier
+
+Серед відповідальних осіб перевізника не знайдено особу з ІПН водія"
+400,ERR_TTN-71,"TTN data has been changed
+
+Дані ТТН було змінено"
+400,ERR_TTN-72,"empty link doc list
+
+Порожній список документів"
+400,ERR_TTN-73,"The limit of the number of linked documents has been exceeded. Limit: [%s]
+
+Перевищено ліміт кількості пов'язаних документів. Ліміт: [%s]"
+400,ERR_TTN-74,"Incorrect list uuid of documents
+
+Некоректний список uuid-ів документів"
+400,ERR_TTN-75,"Errors found when checking documents: [%s]
+
+Знайдені помилки при перевірці документів: [%s]"
+400,ERR_TTN-76,"Signs is invalid: [%s]
+
+Помилка при перевірці підпису: [%s]"
+400,ERR_TTN-77,"EDRPOU from sign: [%s] is not equals gln EDRPOU: [%s]
+
+ЄДРПОУ з підписа: [%s] не відповідає ЄДРПОУ з глн: [%s]"
+400,ERR_TTN-78,"It is not possible to generate a new bill of lading with the same data of ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE according to the settings of the consignee
+
+Неможливо створити нову накладну з тими самими даними ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE відповідно до налаштувань одержувача"
+400,ERR_TTN-79,"Unknown performer
+
+Невідомий виконавець"
+400,ERR_TTN-80,"Key blocked. Key is not on secure media
+
+Ключ заблоковано. Ключ знаходиться на незахищеному носії"
+400,ERR_TTN-82,"Key blocked. Signer position is required
+
+Ключ заблоковано. Наявність посади підписанта обов'язкова"
+400,ERR_TTN-83,"Company not found by code: [%s]
+
+За кодом [%s] компанія не знайдена"
+400,ERR_TTN-84,"Document body not found or not created, try to resave document
+
+Тіло документа не знайдено або ще не створено, спробуйте повторно зберегти документ"
+400,ERR_TTN-85,"Setup url params: [%s]
+
+Вкажіть url-параметри: [%s]"
+400,ERR_TTN-86,"Request body is empty or invalid
+
+Тіло запиту порожнє або некоректне"
+400,ERR_TTN-88,"Document is not signed
+
+Документ не підписаний"
+400,ERR_TTN-89,"Completed doc [%s] for parent eTTN already exists
+
+Для документа підстави (ТТН) вже зареєстровано документ: [%s]"
+400,ERR_TTN-90,"Unsupported status [%s], one of [%s] is expected
+
+Некоректний статус [%s]. Очікується один з наступних:  [%s]"
+400,ERR_TTN-91,"Confirm document error
+
+Помилка при підтвердження документа"
+400,ERR_TTN-92,"Reject document error
+
+Помилка при відхиленні документа"
+400,ERR_TTN-93,"Company not found for this user
+
+Не знайдено компанію для поточного юзера"
+400,ERR_TTN-94,"No supported documents
+
+Відсутні підтримувані документи"

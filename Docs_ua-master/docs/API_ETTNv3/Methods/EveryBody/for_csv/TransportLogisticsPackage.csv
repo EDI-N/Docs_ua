@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _TransportLogisticsPackage:,,Об'єкт **TransportLogisticsPackage**,
+itemQuantity,O,decimal,"Кількість місць, які визначаються за кожним найменуванням вантажу (це можуть бути ящики, кошики, мішки тощо; якщо вантаж упаковано на піддонах - вказують кількість піддонів)"
+typeCode,O,string,Вид пакування (`Довідник видів упаковок <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#packaging-types>`__)
+type,O,string,Одиниця виміру для ItemQuantity
+**physicalLogisticsShippingMarks**,O,ShippingMarks_,об'єкт; Маркування

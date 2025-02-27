@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ClientSignerFile: , Об'єкт **ClientSignerFile**,,
+fileId,,long,id файлу
+fileTypeID,,int,"id типу файлу
+
+* 1-Довіреність"
+fileName,M,String,Найменування файлу разом з роширенням
+fileExt,,String,Розширення файлу
+fileBody,M,byte[],тіло файлу

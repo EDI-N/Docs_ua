@@ -1,0 +1,20 @@
+Параметр,Формат,Опис
+.. _XDocAttachment: ,**Об'єкт XDocAttachment** ,
+id,long,id вкладення
+docUUID,UUID,унікальний ідентифікатор документа
+attachmentUUID,UUID,унікальний ідентифікатор вкладення
+identifierId,long,ідентифікатор (id запису)
+fileName,String,найменування файлу
+createDate,long,дата створення вкладення; формат unix timestamp
+type,String,тип вкладення; це може бути числове значення (1-25) з довідника `DICT.01.10 <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#accompanying-documents>`__
+status,int,"статус реєстрації в ЦБД
+
+* 1 - WAIT_FOR_REGISTRATION - очікує на реєстрацію в ЦБД МІУ;
+* 2 - ON_REGISTRATION (зараз не використовується);
+* 3 - REGISTERED - зареєстровано в ЦБД МІУ;
+* 4 - REGISTRATION_ERROR - помилка реєстрації в ЦБД МІУ;"
+creatorUUID,UUID,"GLN, від імені якого додається вкладення"
+base64content,String,зміст вкладення в BASE64
+content,transient byte[],байтовий масив контенту
+signs,List<XDocAttachmentSign_>,масив об'єктів; підписи вкладень (файлів)
+signHash,String,хеш тіла вкладення (в base64) для формування підпису

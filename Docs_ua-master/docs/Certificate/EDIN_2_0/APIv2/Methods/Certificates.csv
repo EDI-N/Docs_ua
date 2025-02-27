@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/ecs/certificates?gln=9864232613879**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , `multipart/form-data <https://tools.ietf.org/html/rfc7578>`__
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту передається zip-файл, що містить файли-вкладення (в форматі PDF, JPG, JPEG, PNG, TIFF) та заповнений xls/xlsx шаблон з зазначеними назвами файлів-вкладень."

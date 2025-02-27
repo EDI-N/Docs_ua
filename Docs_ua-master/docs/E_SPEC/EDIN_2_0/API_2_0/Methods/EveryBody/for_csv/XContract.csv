@@ -1,0 +1,24 @@
+Параметр, Формат, Опис
+.. _XContract: , Об'єкт **XContract** ,
+**products**,List<XContractProduct_>,"список товарних позицій"
+id,long,id контракту / договору;
+uuid,UUID,GUID контракту / договору; число
+retailerId,long,id мережі (ритейлера);
+sender,long,"ID GLN відправника; число"
+senderGln,String(13),GLN одержувача
+recipient,long,"ID GLN одержувача; число"
+recipientGln,String(13),GLN одержувача
+number,String,"номер контракту / договору; число"
+expireDate,long,"дата закінчення дії договору"
+description,String,"опис / коментарі"
+subContractNumber,String,"номер дочірнього договору"
+subContractExpireDate,long,"дата закінчення дії дочірнього договору"
+contractGlnId,long,"ID GLN-ну контракту/специфікації"
+contractGln,String(13),GLN контракту/специфікації
+reviewDeadLine,int,"кількість днів на розгляд"
+agrementsNumber,int,"допустима кількість погоджень"
+discountWorkStatus,int,"робота з ціною зі знижкою: 0-ні, 1-так"
+changeDate,long,"дата зміни документу"
+prolongationContract,int,"автоматична пролонгація контракту; 0-ні, 1-так"
+region,String,"код регіону; число"
+content,byte[],"набір байт; закодоване в utf8 JSON-тіло документа PRODUCTLIST (`сервіс онлайн дешифрування <https://onlineutf8tools.com/convert-bytes-to-utf8>`__)"

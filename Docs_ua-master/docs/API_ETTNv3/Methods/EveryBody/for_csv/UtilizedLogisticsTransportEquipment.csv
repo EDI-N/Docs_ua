@@ -1,0 +1,18 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _UtilizedLogisticsTransportEquipment:,,Об'єкт **UtilizedLogisticsTransportEquipment**,
+id,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
+
+* укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
+* єврономери: без валідації"
+categoryCode,M,string,"Тип транспортного засобу (для автомобіля параметр не передається):
+
+* BX - Boxcar (ЗД вагон)
+* CN - Контейнер
+* TE - Trailer (причіп/напівпричіп)"
+characteristicCode,O,string,"Код визначення Причіп/напівпричіп:
+
+* 14 - Причіп
+* 17 - Напівпричіп"
+**affixedLogisticsSeals**,M/O,List<SimpleIdentity_>,масив об'єктів; Номера пломб. В Акті перепломбування для автомобіля цей об'єкт є обов'язковим
+**handlingInstructions**,O,HandlingInstructions_,об'єкт; Інструкції з експлуатації
+**applicableNotes**,M/O,List<ApplicableNote_>,масив об'єктів; Примітки

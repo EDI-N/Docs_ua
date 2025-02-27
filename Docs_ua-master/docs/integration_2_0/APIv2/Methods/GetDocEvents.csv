@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/eds/docs/events?gln=9864065732211&from_id=22&grouped=true**
+URL параметри ,"**gln** (обов'язково) - рядок (13); номер GLN Вашої організації (пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта);
+
+**from_id** (обов'язково) long - ідентифікатор події, після якої (починаючи з наступної) необхідно отримати список наступних подій;
+
+**grouped** (опціонально) boolean:
+
+* true - згрупувати події за документами;
+* false - не групувати (за замовчуванням)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json

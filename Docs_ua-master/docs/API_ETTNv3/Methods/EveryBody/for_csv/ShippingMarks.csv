@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ShippingMarks:,,Об'єкт **ShippingMarks**,
+marking,O,string,"Назва транспортної упаковки (вільна назва), в якій перевозиться вантаж"
+**barcodeLogisticsLabel**,O,SimpleIdentity_,"об'єкт; Штрихкод товару"

@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **/api/distribex/producer/schedules?gln=9864065732303**
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передаються нові дані для зазначеного графіка замовлень (об'єкт `Schedule <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/SchedulePatchRequest.html>`__)"

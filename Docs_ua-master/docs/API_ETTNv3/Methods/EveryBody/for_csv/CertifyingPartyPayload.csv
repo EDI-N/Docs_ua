@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _CertifyingPartyPayload:,,Об'єкт **CertifyingPartyPayload**,
+**certifyingTradeParty**,M/O,List<TradeParty_>,"масив об'єктів; інформація (РНОКПП) про відповідальних осіб (підписантів), що передбачені логікою документообігу. Детальніше в `специфікації відповідного документа <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Docs_ETTNv3_list.html>`__."

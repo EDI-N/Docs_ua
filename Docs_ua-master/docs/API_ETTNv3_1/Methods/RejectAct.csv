@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    ,**/api/eds/doc/ettn/act/reject?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&gln=9864065732327&rejected_by=гладіолус**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**rejected_by** (обов'язково) String - ПІБ співробітника"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , *application/json*
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу (в json форматі) передається причина відхилення документа в текстовому вигляді."

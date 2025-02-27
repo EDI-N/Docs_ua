@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _PhysicalGeographicalCoordinate:,,Об'єкт **PhysicalGeographicalCoordinate**,
+latitudeMeasure,O,string,Широта
+longitudeMeasure,O,string,Довгота
+systemId,M,EntityId_,GLN

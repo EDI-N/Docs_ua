@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                         
+URL запиту    , **/api/eds/doc/ettn/draft_ticket?gln=9864065748106&doc_uuid=497f9c7b-ff04-4c8f-89b5-0c3c21568a07**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа, до якого створено чернетку"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__"
+Content-Type  , application/json

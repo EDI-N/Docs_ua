@@ -1,0 +1,64 @@
+Тип,Назва,Опис (найменування кирилицею)
+0,all,всі
+1,invoice,`Рахунок <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVOICE_x.html>`__
+2,orders,`Замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+3,recadv,`Повідомлення про прийом <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RECADV_x.html>`__
+4,desadv,`Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+5,ordrsp,`Підтвердження замовлення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
+6,pricat,`Прайс-лист <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRICAT_x.html>`__
+7,comdis,`Комерційна дискусія <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDIS_x.html>`__
+10,declar,`Податкова накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__
+11,insdes,`Інструкція з доставки <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INSDES_x.html>`__
+13,slsrpt,`Звіт про продажі <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/SLSRPT_x.html>`__
+14,invrpt,`Звіт про інвентаризацію <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVRPT_x.html>`__
+15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COACSU_x.html>`__
+17,iftmin,`Інструкція про транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMIN_x.html>`__
+18,retann,`Повідомлення про повернення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETANN_x.html>`__
+19,iftmbf,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMBF_x.html>`__
+20,partin,`Інформація про контрагента для постачальника <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PARTIN_P_x.html>`__
+21,mscons,`Звіт про надані послуги <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/MSCONS_x.html>`__
+22,transportationorder,`Заявка на транспортування / Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+25,retins,`Інструкція з повернення <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/RETINS_x.html>`__
+28,comdoc,`Комерційний документ <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__
+29,declarj12,`Коригування до податкової накладної <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.htmlj12>`__
+30,condra,`Універсальний документ <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__
+35,metro7a,`Додаток до договору 7А <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7A_x.html>`__
+39,metro7b,`Додаток до договору 7Б <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7B_x.html>`__
+40,prodlist,`Електронна специфікація <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRODUCTLIST_x.html>`__
+41,agreem,`Товарне узгодження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/AGREEM_x.html>`__
+42,iftmbc,`Підтвердження заявки на транспортування <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/IFTMBC_x.html>`__
+59,documentinvoice,`Товарна накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+60,prdrsrvn,`Резерв товару <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/PRDRSRVN_x.html>`__
+67,doccorinvoice,`Коригування до товарної накладної <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCCORINVOICE_x.html>`__
+72,metro7c,`Додаток до договору 7Ц <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/METRO_7C_x.html>`__
+98,quotes,`Додаток до Повідомлення про відвантаження <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/QUOTES_x.html>`__
+111,transhipment,`Акт перевантаження товарів <https://wiki.edin.ua/uk/latest/Docs_ETTN/TRANSHIPMENTpage.html>`__
+117,acceptance,`Акт приймання-передавання <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/AcceptancePage_v2.html>`__
+113,booking,`Заявка на транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BOOKINGpage_v2.html>`__
+114,bookingconfirmation,`Підтвердження транспортування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/BookingConfirmationPage_v2.html>`__
+115,ordrpt,`Повідомлення про штрафні санкції <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRPT_x.html>`__
+112,completion,`Акт виконаних робіт <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/COMPLETIONpage_v2.html>`__
+118,docinvoiceact,`Акт приймання наданих послуг (Метро) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCINVOICEACT_x.html>`__
+119,discrepancy,`Акт розбіжностей <https://wiki.edin.ua/uk/latest/Docs_ETTN/DISCREPANCYPage.html>`__
+120,contrl,`Звіт про відвантаження <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#contrl>`__
+121,ttn,`Електронна товарно-транспортна накладна (е-ТТН) <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+122,simple_doc,Документ сервісу «Вільний»
+123,reload,`Акт перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+124,disagreement,`Акт розбіжностей до е-ТТН <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+125,adjustment,`Акт коригування <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+126,warehouse_change,`Акт про заміну пункту призначення вантажу <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__
+127,unload_storage,Акт розвантаження на проміжному складі
+128,load_storage,Акт завантаження на проміжному складі
+129,ettn_stop,Акт примусового завершення ТТН
+130,resealing,Акт переопломбування
+131,load_reject,Акт відмови завантаження
+132,ttn_ecmr,ETTN (v3)
+133,reload_ecmr,Акт перевантаження (v3)
+134,disagreement_ecmr,Акт розбіжностей (v3)
+135,consignee_change_ecmr,Акт зміни пункту призначення (v3)
+136,storage_delivery_ecmr,Акт розвантаження на проміжному складі (v3)
+137,adjustment_ecmr,Акт коригування (v3)
+138,storage_pickup_ecmr,Акт завантаження на проміжному складі (v3)
+139,resealing_ecmr,Акт перепломбування (v3)
+140,load_reject_ecmr,Акт відмови завантаження (v3)
+141,stop_ecmr,Акт примусового завершення е-ттн (v3)

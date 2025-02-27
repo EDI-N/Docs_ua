@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    ,**/api/ettn/eds/doc/from_draft?company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&doc_uuid=f98b4ab7-7905-474b-85e4-18151eef3d1e**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор чернетки документа **еТТН**, створеної **Перевізником** чи **Вантажоотримувачем**"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json

@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _ReportDocumentFilter:, Об'єкт **ReportDocumentFilter**,
+companyId,long,ID компанії
+**company**,Company_,об'єкт; інформація про компанію
+reportStartDate,long,дата початку часового періоду звіту (у форматі Unix timestamp)
+reportEndDate,long,дата закінчення часового періоду звіту (у форматі Unix timestamp)
+partnerCompanyId,long,ID компанії-партнера
+**partnerCompany**,Company_,об'єкт; об'єкт; інформація про компанію-партнера

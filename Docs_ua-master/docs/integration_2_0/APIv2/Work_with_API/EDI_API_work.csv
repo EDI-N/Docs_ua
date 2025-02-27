@@ -1,0 +1,14 @@
+":green:`1.1` `Авторизація <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:orange:`a) Відправка документа зі створенням чернетки:`
+
+:green:`1.2` `Створення чернетки документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/CreateDocumentV2.html>`__ [extra]_
+
+:green:`1.3` `Відправка чернетки документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocument.html>`__
+
+:orange:`b) Відправка документа без створення чернетки:`
+
+:green:`1.2*` `Відправка документа (без створення чернетки) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocumentWithoutDraft.html>`__"
+":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`2.2` `Отримання контента документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocBody.html>`__"

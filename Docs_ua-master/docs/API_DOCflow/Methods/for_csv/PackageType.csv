@@ -1,0 +1,16 @@
+Параметр, Формат, Опис
+.. _PackageType:, Об'єкт **PackageType**,
+packageId,long,id комплекта
+companyId,long,id компанії
+name,String,назва типу комплекта
+type,int,"тип документа; ціле число (10); значення за замовчуванням ""1"", коментар: ""1 - File based content; 2 - Structure based content"""
+code,String,код комплекта
+packageChainId,long,незмінний ID комплекта на різних стадіях редагування
+status,int,"статус; ""1 - Активний; 2 - Заблоковано; 3 - Черновик"""
+version,long,версія комплекту (кількість редакцій)
+dateChanged,long,дата останньої зміни комплекта
+autoHandle,int,"ознака автооброботки комплекта; 0 - ні, 1 - так"
+**document2packages**,List<Document2Package_>,масив об'єктів; зв'язок документа і комплекта
+**package2dictionaries**,List<Package2Dictionaries_>,масив об'єктів; зв'язок комплекта і довідника
+**extraFields**,List<Package2ExtraField_>,масив об'єктів; прив'язка додаткових полів до комплекту
+**company**,Company_,об'єкт; інформація про компанію

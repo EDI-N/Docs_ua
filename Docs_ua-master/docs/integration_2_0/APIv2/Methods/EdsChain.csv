@@ -1,0 +1,23 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/eds/chain?gln=9864065702429&chain_uuid=9fe45d32-35c7-44d0-9131-7257fc0c0f39&load_docs=true&load_bodies=true&load_package=true&load_comments=true&load_tags=true&load_statuses=true**
+URL параметри ,"**gln** - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта
+
+**chain_uuid** - рядок; ID ланцюжка
+
+**Опціональні url-параметри (boolean фільтри):**
+
+**load_docs** - чи завантажувати документи, що відносяться до ланцюжка
+
+**load_bodies** - чи завантажувати тіла документів
+
+**load_package** - чи завантажувати пакети
+
+**load_comments** - чи завантажувати коментарі
+
+**load_tags** - чи завантажувати теги до документів
+
+**load_statuses** - чи завантажувати статуси до документів"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json

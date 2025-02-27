@@ -1,0 +1,8 @@
+Параметр,Формат,Опис
+.. _ParticipantGroup: , Об'єкт **ParticipantGroup**,
+groupId,long,ідентифікатор групи учасників
+companyId,long,"ідентифікатор компанії, якій належить група"
+groupName,String(255),назва групи учасників
+comment,String,коментар
+**companies**,List<Company_>,"масив об'єктів; компанії в групі учасників"
+**cpvs**,List<Category_>,"масив об'єктів; категорії групи учасників"

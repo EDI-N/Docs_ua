@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/eds/doc/attachment?gln=9864065732211&attachment_uuid=b7e53a94-dd61-4e8b-bc98-44100e434efb&doc_uuid=b6d1c701-86f3-4d6d-9da5-f7db284f78b9**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі;
+
+**attachment_uuid** (обов'язково) UUID - ідентифікатор файла-вкладення (параметр attachmentUUID в тілі відповіді при `додаванні файла <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostAttachment.html>`__)
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <hhttps://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json

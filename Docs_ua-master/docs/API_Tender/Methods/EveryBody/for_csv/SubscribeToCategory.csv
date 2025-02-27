@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _SubscribeToCategory: , Об'єкт **SubscribeToCategory**,
+categoryId,long,ідентифікатор категорії
+category,Category_,об'єкт; дані категорії
+type,int,"тип аукціону:
+
+* 0 - Всі
+* 1 - Закупівля
+* 2 - Продаж"

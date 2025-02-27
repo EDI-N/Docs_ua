@@ -1,0 +1,43 @@
+":green:`1.1` `Авторизація 1-го Перевізника (Водія) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`1.2` `Створення/редагування чернетки «Акта перевантаження» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/CreateReloadAct.html>`__
+
+:green:`1.3` `Підписання «Акта перевантаження» 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`1.4` `Отримання тіла документа (рекомендовано в ecmr) «е-ТТН» для подальшого підписання 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`1.5` `Підписання змін до «е-ТТН» 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`1.6` `Відправка нової транзакції до е-ТТН документа 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__
+
+:green:`1.7` `Відправка «Акта перевантаження» 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendAct.html>`__",":red:`1.8*` `Відхилення «Акта перевантаження» 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectAct.html>`__
+
+:red:`1.9*` `Отримання тіла документа (рекомендовано в ecmr) «е-ТТН» для подальшого підписання 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:red:`1.10*` `Підписання змін до «е-ТТН» 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:red:`1.11*` `Відправка нової транзакції до е-ТТН документа 1-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__"
+":green:`2.1` `Авторизація 2-го Перевізника (Водія) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`2.2` `Отримання контенту (json) «Акта перевантаження» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ 
+
+:green:`2.3` `Створення/редагування нової транзакції (чернетки) до «Акта перевантаження» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostActTransaction.html>`__
+
+:green:`2.4` `Отримання контенту (ecmr) «Акта перевантаження» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ 
+
+:green:`2.5` `Підписання «Акта перевантаження» 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`2.6` `Відправка «Акта перевантаження» 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutActTransaction.html>`__",":red:`2.2*` `Відхилення «Акта перевантаження» 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectAct.html>`__
+
+:red:`2.3*` `Отримання тіла документа (рекомендовано в ecmr) «е-ТТН» для подальшого підписання 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:red:`2.4*` `Підписання змін до «е-ТТН» 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:red:`2.5*` `Відправка нової транзакції до е-ТТН документа 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__"
+":green:`3.1` `Авторизація 2-го Перевізника (Водія) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`3.2` `Отримання тіла документа (рекомендовано в ecmr) «е-ТТН» для подальшого підписання 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`3.3` `Підписання змін до «е-ТТН» 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`3.4` `Відправка нової транзакції до е-ТТН документа 2-им Перевізником (Водієм) <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__",

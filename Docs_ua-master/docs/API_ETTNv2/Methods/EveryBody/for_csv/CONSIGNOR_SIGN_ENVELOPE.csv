@@ -1,0 +1,6 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CONSIGNOR_SIGN_ENVELOPE:,О, Об'єкт **CONSIGNOR_SIGN_ENVELOPE**,
+STATE,О,«ORIGINATOR_SIGNED»,стан документу «підписано Вантажовідправником»
+**DECLARHEAD**,О,ETTN_HEAD_,об'єкт; складовий номер документа
+**DECLARBODY**,О,ETTN_BODY_,об'єкт; зміст документа
+**DECLAREXT**,О,DECLAREXT_,об'єкт; додаткова інформація для учасників перевезення

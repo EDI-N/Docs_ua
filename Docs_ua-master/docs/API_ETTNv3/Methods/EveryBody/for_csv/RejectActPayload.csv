@@ -1,0 +1,8 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _RejectActPayload:,,Об'єкт **RejectActPayload**,
+**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН/попередній акт, для якого складається акт"
+**consignorTradeParty**,M,TradeParty_,"об'єкт; Вантажовідправник"
+**carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
+**utilizedLogisticsTransportEquipments**,O/M,List<UtilizedLogisticsTransportEquipment_>,масив об'єктів; Запис про автомобіль в перевезенні. Обов'язково заповнюється для Автомобіля (для причепа/напівпричепа опційно)
+consignorNotes,M,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Вантажовідправник)
+carrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)

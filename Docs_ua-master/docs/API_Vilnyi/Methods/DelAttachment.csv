@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/sd/eds/doc/attachment?attachment_uuid=b7e53a94-dd61-4e8b-bc98-44100e434efb**
+URL параметри ,"**attachment_uuid** (обов'язково) UUID - ідентифікатор файла-вкладення
+
+**employee_uuid** (опціонально) UUID - ідентифікатор співробітника, під яким виконуються обробка документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
+Content-Type  , application/json

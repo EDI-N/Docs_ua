@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _AuctionContacts: , Об'єкт **AuctionContacts**,
+auctionId,long,id тендера
+contactName,String,ПІБ контактної особи
+contactEmail,String,email контактної особи
+contactPhone,String,номер телефону контактної особи

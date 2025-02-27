@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/v2/katottg/search?query=UA74040030320036176&limit=25**
+URL параметри ,"**query** (обов'язково) String - текст пошуку (назва населеного пункту/код КАТОТТГ)
+
+**limit** (опціонально) int - ліміт вибірки (за замовчанням=50)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json

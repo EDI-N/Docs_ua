@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/v2/eds/comdoc/revoke?gln=9864065702429&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986**
+URL параметри ,"**gln** - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта
+
+**doc_uuid** - рядок; UUID документа COMDOC"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , *application/pkcs7-signature* or *application/xml*                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу можуть передаватись:
+
+* при *Content-Type=application/pkcs7-signature* підписані дані p7s в бінарному вигляді;
+* при *Content-Type=application/xml* непідписаний xml (`COMDOC_021 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__) в бінарному вигляді."

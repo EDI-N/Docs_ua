@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/oas/retailer/identificators?retailer_id=11**
+URL параметри ,"**retailer_id** - число; ідентифікатор роздрібної мережі (праметр retailerId з попередніх методів)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json

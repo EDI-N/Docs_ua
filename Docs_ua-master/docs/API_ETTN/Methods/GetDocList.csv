@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/ettn/eds/docs/search?company_uuid=0855e1ce-46ed-4995-83b6-356127b95226**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передаються дані для фільтрації (об’єкт `StorageQuery <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/StorageQuery.html>`__)"

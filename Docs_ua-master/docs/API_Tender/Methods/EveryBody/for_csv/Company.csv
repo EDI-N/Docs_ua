@@ -1,0 +1,12 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Company: ,, Об'єкт **Company**,
+id,M,long,id компанії
+uuid,,UUID,uuid компанії
+accountID,,long,id аккаунту
+**account**,,Account,об'єкт; дані аккаунту
+name,,String,повне найменування організації чи ПІБ індивудуального підприємця
+edrpou,,String,код ЄДРПОУ/КПП
+inn,,String,код ІПН
+city,,String,місто
+address,,String,адреса
+**comment**,,Comment_,об'єкт; коментар

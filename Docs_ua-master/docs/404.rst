@@ -1,0 +1,18 @@
+:orphan:
+
+==============================
+Сторінку не знайдено -- 404
+==============================
+
+Ой, сторінку не знайдено! Скористайтесь пошуком чи перейдіть на `головну <https://wiki.edin.ua>`__ сторінку.
+
+.. raw:: html
+
+   <!DOCTYPE html>
+   <html>
+   <body>
+   <img alt="404" itemprop="image" data-src="https://wiki.edin.ua/uk/latest/_static/404-animated.gif" class="fl-photo-img wp-image-11837 size-full lazyloaded" src="https://wiki.edin.ua/uk/latest/_static/404-animated.gif" title="404" width="946" height="530"><noscript><img class="fl-photo-img wp-image-11837 size-full" src="https://wiki.edin.ua/uk/latest/_static/404-animated.gif" alt="404" itemprop="image" height="530" width="946" title="404"  /></noscript>
+   </body>
+   </html>
+
+

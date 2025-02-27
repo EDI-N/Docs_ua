@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **/api/v1/tender/auctions/publish?auction_id=6439&auction_id=6441**
+URL параметри ,"**auction_id** (обов'язково) String - ідентифікатор тендера"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Tender/Methods/Authorization.html>`__"
+Content-Type  , application/json

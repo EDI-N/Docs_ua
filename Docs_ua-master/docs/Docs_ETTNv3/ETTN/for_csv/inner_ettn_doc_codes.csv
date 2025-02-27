@@ -1,0 +1,8 @@
+Код,Опис
+220,`Замовлення (ORDERS) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
+351,`Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
+335,`Заявка на транспортування (TRANSPORTATIONORDER/SUBDOCTYPE=1) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+770,`Підтвердження заявки на транспортування (TRANSPORTATIONORDER/SUBDOCTYPE=2) <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3.html>`__
+362,`Накладна за кількістю (DOCUMENTINVOICE (DocumentFunctionCode = TN)) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fozzy/Fozzy_XML-structure.html#documentinvoice-tn>`__
+361,`Цінова накладна (DOCUMENTINVOICE (DocumentFunctionCode = PRN)) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
+395,`Товарна накладна (COMDOC_027) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_027_x.html>`__

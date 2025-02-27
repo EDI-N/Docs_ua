@@ -1,0 +1,10 @@
+Параметр, Формат, Опис
+.. _ReportTaskFilter:, Об'єкт **ReportTaskFilter**,
+companyId,long,ID компанії
+**company**,Company_,"об'єкт; інформація про компанію, за якою вибираються завдання"
+reportStartDate,long,дата початку часового періоду звіту (у форматі Unix timestamp)
+reportEndDate,long,дата закінчення часового періоду звіту (у форматі Unix timestamp)
+taskUserId,long,"ID користувача, за яким вибираються завдання"
+**taskUser**,User_,об'єкт; інформація про користувача
+taskStatus,int,тип завдання (1 - узгодження; 2 - підписання; 3 - повідомлення)
+taskType,int,"Статус завдання - 2-in_progress, 3-finished, 4-canceled, 5-expired (До виконання, Виконано, Відхилено, Прострочена )"

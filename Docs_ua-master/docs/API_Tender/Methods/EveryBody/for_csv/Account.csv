@@ -1,0 +1,15 @@
+Параметр, Формат, Опис
+.. _Account: , Об'єкт **Account**,
+id,long,id аккаунту
+name,String,повна назва організації або ПІБ індивідуального підприємця
+edrpou,String,код ЕДРПОУ/КПП
+inn,String,код ІПН
+status,StatusAcc_,об'єкт; опис статусу аккаунту
+emails,List<String>,масив E-mail адрес
+phone,String,№ телефону
+legalAddress,String,юридична адреса компанії
+dateCreate,long,дата створення акаунту
+dateChange,long,дата зміни (оновлення) акаунту
+about,String,додатковий опис
+comment,Comment_,об'єкт; коментар
+logo,String,лого

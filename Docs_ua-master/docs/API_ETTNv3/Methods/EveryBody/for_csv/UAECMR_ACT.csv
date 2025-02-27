@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _UAECMR_ACT:,M,Об'єкт **UAECMR_ACT**,
+**act**,M,EcmrAct_,об'єкт; зміст документа
+**signatureStorage**,M,SignatureStorage_,об'єкт; підписи

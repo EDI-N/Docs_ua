@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SIGN_ENVELOPE STATE="CUSTOMER_SIGNED">
+        <SIGN_ENVELOPE STATE="TRANSPORTER_SIGNED">
+            <SIGN_ENVELOPE STATE="ORIGINATOR_SIGNED">
+                <DECLARHEAD>
+                    <C_DOC>Код документа</C_DOC>
+                    <C_DOC_SUB>Подтип документа</C_DOC_SUB>
+                    <C_DOC_VER>Версия документа</C_DOC_VER>
+                </DECLARHEAD>
+	            <DECLARBODY TYPE="CORE" STAKE="ORIGINATOR">
+                    <HNUM>Номер акта о замене пункта назначения груза</HNUM>
+                    <HFILL>Дата акта о замене пункта назначения груза</HFILL>
+                    <BASE_HNUM>Номер ТТН</BASE_HNUM>
+                    <BASE_HFILL>Дата ТТН</BASE_HFILL>
+                    <UUID_TTN>a30f8385-87a3-4a7d-b8fe-e6e2f756b6dd</UUID_TTN>
+                    <DOCUMENT_PLACE>Место составления акта о замене пункта назначения груза</DOCUMENT_PLACE>
+                    <R02G21S>ЕГРПОУ/ИНН заказчика</R02G21S>
+                    <R02G2S>Название заказчика</R02G2S>
+                    <HTIN>ЕГРПОУ/ИНН грузоотправителя</HTIN>
+                    <HNAME>Название грузоотправителя</HNAME>
+                    <HLOC>Юр. адрес грузоотправителя</HLOC>
+                    <R02G11S>ЕГРПОУ/ИНН перевозчика</R02G11S>
+                    <R02G1S>Название перевозчика</R02G1S>
+                    <R02G3S>Фамилия водителя</R02G3S>
+                    <R02G31S>Имя водителя</R02G31S>
+                    <R02G32S>Отчество водителя</R02G32S>
+                    <R02G4S>Серия, номер прав водителя</R02G4S>
+                    <DRIVER_ID>ИНН водителя</DRIVER_ID>
+                    <R04G1S>ЕГРПОУ/ИНН грузополучателя</R02G11S>
+                    <R04G2S>Название грузополучателя</R02G1S>
+                    <R04G3S>Юр. адрес грузополучателя</R02G12S>
+                    <NEW_DESTINATION>
+                        <R04G1S>ЕГРПОУ/ИНН нового грузополучателя</R02G11S>
+                        <R04G2S>Название нового грузополучателя</R02G1S>
+                        <R04G3S>Юр. адрес нового грузополучателя</R02G12S>
+                        <R05G41>Код КОАТУУ нового пункта разгрузки</R05G41>
+                        <R05G4S>Местонахождение нового пункта разгрузки</R02G12S>
+                    </NEW_DESTINATION>
+                    <WAREHOUSE_CHANGE_INFORMATION>Дополнительная информация</WAREHOUSE_CHANGE_INFORMATION>
+                </DECLARBODY>
+            </SIGN_ENVELOPE>
+            <SIGNATURE OWNER="ORIGINATOR">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+            <DECLARBODY TYPE="AMENDMENT" STAKE="TRANSPORTER">
+                <WAREHOUSE_CHANGE_NOTES_TRANSPORTER>Особые отметки</WAREHOUSE_CHANGE_NOTES_TRANSPORTER>
+            </DECLARBODY>
+        </SIGN_ENVELOPE>
+        <SIGNATURE OWNER="TRANSPORTER_DRIVER">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+        <DECLARBODY TYPE="AMENDMENT" STAKE="CUSTOMER">
+            <WAREHOUSE_CHANGE_NOTES_CUSTOMER>Особые отметки</WAREHOUSE_CHANGE_NOTES_CUSTOMER>
+        </DECLARBODY>
+    </SIGN_ENVELOPE>
+    <SIGNATURE OWNER="CUSTOMER">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+</DECLAR>

@@ -1,0 +1,33 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Auction: ,, Об'єкт **Auction** ,
+id,,long,id тендера
+uuid,,UUID,uuid тендера
+companyId,,long,id компанії
+**company**,M,Company_,"об'єкт; дані компанії, якій належить тендер"
+dateCreate,,long,дата створення тендера (UNIX TimeStamp)
+dateStart,M,long,дата початку тендера (UNIX TimeStamp)
+dateEnd,M,long,дата закінчення тендера (UNIX TimeStamp)
+dateLastUpdate,,long,дата останнього оновлення тендера (UNIX TimeStamp)
+userId,,long,id користувача
+**user**,,User_,об'єкт; дані користувача
+title,M,String,назва (заголовок) тендера
+description,M,String,опис тендера
+**status**,,Status_,об'єкт; статус тендера
+**accessType**,M,AccessType_,об'єкт; вид (тип доступу)
+**type**,M,Type_,об'єкт; напрям тендера (тип торгівлі)
+**offerType**,M,OfferType_,об'єкт; етап
+isAutoRenewal,O,boolean,автоматичне продовження тендера (`автопродовження <https://wiki.edin.ua/uk/latest/Tender_2_0/Work_with_Tender.html#tender-settings>`__)
+autoRenewalTime,O,int(0-10),"час в хв, на який здійснюється `автопродовження <https://wiki.edin.ua/uk/latest/Tender_2_0/Work_with_Tender.html#tender-settings>`__ (лише при isAutoRenewal=true); При isAutoRenewal=false параметр autoRenewalTime=0; при isAutoRenewal=true параметр autoRenewalTime=5 за замовчуванням."
+isTax,O,boolean,відображення ціни з ПДВ
+noShowBets,O,boolean,приховувати ставки
+noShowBestBet,O,boolean,приховувати кращу ставку
+hideParticipantNamesOnly,O,boolean,приховувати імена учасників
+hideLotsAndBetsCounts,O,boolean,Не показувати кількість ставок та лотів не запрошеним учасникам 
+isFree,,boolean,безкоштовна участь
+isProlonged,,boolean,відмітка продовження тендера
+**lots**,M,List<Lot_>,масив об'єктів; дані лотів
+**auctionContact**,,AuctionContacts_,об'єкт; дані контактної особи
+lotsCount,,Integer,кількість лотів
+betsCount,,Integer,кількість ставок
+**attachments**,,List<Attachment_>,масив об'єктів; вкладення
+**companyAccessRequestStatus**,,CompanyAccessRequestStatus_,об'єкт; статус заявки на участь в закритому тендері і коментарями Організатора. Об'єкт доступний лише закритим тендерам для Організатора чи Учасника цього тендера.

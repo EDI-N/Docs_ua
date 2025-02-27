@@ -1,0 +1,21 @@
+Параметр, Формат, Опис
+.. _User: , Об'єкт **User**,
+id,long,id користувача
+employeeId,long,id співробітника
+uuid,UUID,uuid співробітника
+accountId,long,id аккаунта
+**account**,Account_,об'єкт; дані аккаунта
+login,String,логін
+**role**,Role_,об'єкт; роль
+name,String,ім'я
+surname,String,прізвище
+secondName,String,по батькові
+phone,String,телефон
+ipn,String,код ІПН
+dateLastLogin,long,дата останньої сесії
+info,String,додакова інформація
+**emails**,List<String>,масив E-mail адрес
+**comment**,Comment_,об'єкт; коментар
+**companies**,List<Company_>,масив об'єктів; компанії
+isSubscribes,boolean,підписка
+**userSubscribes**,Subscribes_,об'єкт; підписки на організаторів / категорії / користувачів

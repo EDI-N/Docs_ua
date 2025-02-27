@@ -1,0 +1,31 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/eds/doc/body?body_type=content&doc_uuid=37c753a5-7746-4e3f-8485-332c16b63f83&gln=9864067620417&family=edi**
+URL параметри ,"**gln** (обов'язково) рядок (13) - номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні аккаунта
+
+АБО
+
+**guid** (обов'язково) String - унікальний ідентифікатор організації на платформі EDIN 2.0
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**family** (опціонально) int - сервіс (сімейство); допустимі значення:
+
+* edi
+* uzd
+
+**body_type** (обов'язково) String - тип тіла документа; можливі значення:
+
+- content - base64 контент без підписів/печаток; 
+- json - json документа;     
+- sign - base64 тіло підпису;                    
+- xml - тіло документа в xml форматі"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , "application/pkcs7-signature – для p7s файла
+
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet – для Excel
+
+... etc `MIME типізація <https://developer.mozilla.org/ru/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types>`__"
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло файла в бінарному вигляді."

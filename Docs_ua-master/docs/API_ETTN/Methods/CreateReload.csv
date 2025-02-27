@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/ettn/eds/reload?company_uuid=97bd6618-71b1-45a2-91b2-fe7b888ca00d**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (опціонально) UUID - ідентифікатор документа (передається для редагування (оновлення) даних раніше створеного документа);
+
+**new_doc_uuid** (опціонально) UUID - ідентифікатор створюваного документа (може передаватись і бути назначеним при створенні документа зі сторони Вашого клієнта)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , *application/json* or *application/xml*                             
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло документа `Акта перевантаження <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/RELOAD_ACT_ORIGINATOR_SIGNEDPage_v2.html>`__"

@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/distribex/limits?gln=9864065732303&d_gln=9864065732327&limit_key=multiplicity_min_order_qty**
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)
+
+**d_gln** (обов'язково) String - GLN Покупця (Дистрибʼютора)
+
+**limit_key** (опціонально) String - `перелік доступних значень обмежень <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/Limits.html>`__ . Використовується, якщо потрібно видалити одне обмеження зі списку, а не очистити всі обмеження повністю."
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json

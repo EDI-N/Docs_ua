@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SIGN_ENVELOPE STATE="TRANSPORTER_SIGNED">
+        <SIGN_ENVELOPE STATE="ORIGINATOR_SIGNED">
+            <DECLARHEAD>
+                <C_DOC>Код документа</C_DOC>
+                <C_DOC_SUB>Подтип документа</C_DOC_SUB>
+                <C_DOC_VER>Версия документа</C_DOC_VER>
+            </DECLARHEAD>
+            <DECLARBODY STAKE="ORIGINATOR" TYPE="CORE">
+                <HNUM>Номер акта перегрузки</HNUM>
+                <HFILL>Дата акта перегрузки</HFILL>
+                <BASE_HNUM>Номер ТТН</BASE_HNUM>
+                <BASE_HFILL>Дата ТТН</BASE_HFILL>
+                <UUID_TTN>a30f8385-87a3-4a7d-b8fe-e6e2f756b6dd</UUID_TTN>
+                <TRANSPORT_UNLOAD>
+                    <R01G1S>Марка авто</R01G1S>
+                    <R01G11S>Модель авто</R01G11S>
+                    <R01G2S>Номер авто</R01G2S>
+                    <R01G3S>Тип авто</R01G3S>
+                    <R01G4S>Марка прицепа 1</R01G4S>
+                    <R01G12S>Модель прицепа 1</R01G12S>
+                    <R01G5S>Номер прицепа 1</R01G5S>
+                    <R01G6S>Тип прицепа 1</R01G6S>
+                    <R01G7S>Марка прицепа 2</R01G7S>
+                    <R01G13S>Модель прицепа 2</R01G13S>
+                    <R01G8S>Номер прицепа 2</R01G8S>
+                    <R01G9S>Тип прицепа 2</R01G9S>
+                    <R02G11S>ЕГРПОУ/ИНН перевозчика, который сдал груз</R02G11S>
+                    <R02G1S>Название перевозчика, который сдал груз</R02G1S>
+                    <R02G3S>Фамилия водителя, который сдал груз</R02G3S>
+                    <R02G31S>Имя водителя, который сдал груз</R02G31S>
+                    <R02G32S>Отчество водителя, который сдал груз</R02G32S>
+                    <R02G4S>Серия, номер прав водителя, который сдал груз</R02G4S>
+                    <DRIVER_ID>ИНН водителя, который сдал груз</DRIVER_ID>
+                    <SEAL_NO>Номер пломбы</SEAL_NO>
+                </TRANSPORT_UNLOAD>
+                <TRANSPORT_LOAD>
+                    <R01G1S>Марка авто</R01G1S>
+                    <R01G11S>Модель авто</R01G11S>
+                    <R01G2S>Номер авто</R01G2S>
+                    <R01G3S>Тип авто</R01G3S>
+                    <R01G4S>Марка прицепа 1</R01G4S>
+                    <R01G12S>Модель прицепа 1</R01G12S>
+                    <R01G5S>Номер прицепа 1</R01G5S>
+                    <R01G6S>Тип прицепа 1</R01G6S>
+                    <R01G7S>Марка прицепа 2</R01G7S>
+                    <R01G13S>Модель прицепа 2</R01G13S>
+                    <R01G8S>Номер прицепа 2</R01G8S>
+                    <R01G9S>Тип прицепа 2</R01G9S>
+                    <R02G11S>ЕГРПОУ/ИНН перевозчика, который принял груз</R02G11S>
+                    <R02G1S>Название перевозчика, который принял груз</R02G1S>
+                    <R02G3S>Фамилия водителя, который принял груз</R02G3S>
+                    <R02G31S>Имя водителя, который принял груз</R02G31S>
+                    <R02G32S>Отчество водителя, который принял груз</R02G32S>
+                    <R02G4S>Серия, номер прав водителя, который принял груз</R02G4S>
+                    <DRIVER_ID>ИНН водителя, который принял груз</DRIVER_ID>
+                    <SEAL_NO>Номер новой пломбы</SEAL_NO>
+                </TRANSPORT_LOAD>
+            </DECLARBODY>
+            <RELOAD_INFORMATION>Дополнительная информация</RELOAD_INFORMATION>
+        </SIGN_ENVELOPE>
+        <SIGNATURE OWNER="ORIGINATOR_DRIVER">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+        <DECLARBODY TYPE="AMENDMENT" STAKE="TRANSPORTER">
+            <RELOAD_NOTES>Особые отметки</RELOAD_NOTES>
+        </DECLARBODY>
+    </SIGN_ENVELOPE>
+    <SIGNATURE OWNER="TRANSPORTER_DRIVER">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+</DECLAR>

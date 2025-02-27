@@ -1,0 +1,24 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _TradeParty:,M,Об'єкт **TradeParty**,
+**id**,M/O,EntityId_,"об'єкт;
+
+* Ідентифікаційний код (ЄДРПОУ / РНОКПП), є обов'язковим для:
+   * consignor
+   * consignee
+   * carrier
+   * initiatorTradeParty
+   * consignorTradeParty
+   * carrierTradeParty
+   * consigneeTradeParty
+   * customerTradeParty
+   * notifiedTradeParties
+* РНОКПП, є опціональним для:
+   * certifyingTradeParties
+* ЄДРПОУ, є обов'язковим для:
+   * specifiedSupplyChainConsignment/mainCarriageLogisticsTransportMovement/specifiedTransportEvents/certifyingTradeParties в е-ТТН"
+name,M,string,"Повна назва юридичної, або фізичної особи"
+roleCode,M,string,Роль учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**tradeContact**,O,TradeContact_,об'єкт; Контакти відповідального представника
+**postalTradeAddress**,O/M,PostalTradeAddress_,"об'єкт; Юридична адреса для юр.особи, або місце реєстрації для фіз.особи"
+**taxRegistration**,O,SimpleIdentity_,об'єкт; Ідентифікаційний код відповідальної особи
+**specifiedGovernmentRegistrations**,O/M,SimpleIdentity_,об'єкт; Посвідчення Водія

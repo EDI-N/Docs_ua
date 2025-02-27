@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _PartyData: , Об'єкт **PartyData**,,
+name,O,String,назва компанії
+edrpou,O,String,ЄДРПОУ
+ipn,O,String,ІПН

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document-Invoice>
+  <Invoice-Header>
+    <InvoiceNumber>2936_docInv_1</InvoiceNumber>
+    <InvoiceDate>2022-07-04</InvoiceDate>
+    <DocumentFunctionCode>DRN</DocumentFunctionCode>
+    <ContractNumber>22222</ContractNumber>
+    <ContractDate>2022-07-01</ContractDate>
+  </Invoice-Header>
+  <Invoice-Reference>
+    <Order>
+      <BuyerOrderNumber>2936_ord_1</BuyerOrderNumber>
+      <BuyerOrderDate>2022-07-04</BuyerOrderDate>
+    </Order>
+    <TaxInvoice>
+      <TaxInvoiceDate>2022-07-04</TaxInvoiceDate>
+    </TaxInvoice>
+    <DespatchAdvice>
+      <DespatchAdviceNumber>2936_des_1</DespatchAdviceNumber>
+    </DespatchAdvice>
+  </Invoice-Reference>
+  <Invoice-Parties>
+    <Buyer>
+      <ILN>9864065732211</ILN>
+      <TaxID>1234445670</TaxID>
+      <UtilizationRegisterNumber>12345670</UtilizationRegisterNumber>
+      <Name>FelEx_2</Name>
+    </Buyer>
+    <Seller>
+      <ILN>9864065732181</ILN>
+      <TaxID>1234567890</TaxID>
+      <CodeByBuyer>22222</CodeByBuyer>
+      <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
+      <Name>FelEx_1</Name>
+    </Seller>
+    <DeliveryPoint>
+      <ILN>9864065732211</ILN>
+      <Name>FelEx_2</Name>
+      <CityName>г. Николаев</CityName>
+      <StreetAndNumber>ул. Вуличка, 7</StreetAndNumber>
+      <PostalCode>667733</PostalCode>
+    </DeliveryPoint>
+    <Payer>
+      <ILN>9864065732211</ILN>
+      <Name>FelEx_2</Name>
+      <CityName>г. Николаев</CityName>
+      <StreetAndNumber>ул. Вуличка, 7</StreetAndNumber>
+      <PostalCode>667733</PostalCode>
+    </Payer>
+  </Invoice-Parties>
+  <Invoice-Lines>
+    <Line>
+      <Line-Item>
+        <LineNumber>1</LineNumber>
+        <EAN>1472583690147</EAN>
+        <BuyerItemCode>1111111111</BuyerItemCode>
+        <ExternalItemCode>123546879</ExternalItemCode>
+        <ItemDescription>drink</ItemDescription>
+        <InvoiceQuantity>3</InvoiceQuantity>
+        <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
+        <InvoiceUnitGrossPrice>562.8</InvoiceUnitGrossPrice>
+        <InvoiceUnitNetPrice>469</InvoiceUnitNetPrice>
+        <TaxRate>20</TaxRate>
+        <GrossAmount>1688.4</GrossAmount>
+        <TaxAmount>281.40</TaxAmount>
+        <NetAmount>1407.00</NetAmount>
+      </Line-Item>
+    </Line>
+  </Invoice-Lines>
+  <Invoice-Summary>
+    <TotalLines>1</TotalLines>
+    <TotalNetAmount>1407</TotalNetAmount>
+    <TotalTaxAmount>281.4</TotalTaxAmount>
+    <TotalGrossAmount>1688.4</TotalGrossAmount>
+    <Tax-Summary>
+      <Tax-Summary-Line>
+        <TaxRate>20</TaxRate>
+        <TaxAmount>281.4</TaxAmount>
+        <TaxableAmount>1407</TaxableAmount>
+      </Tax-Summary-Line>
+    </Tax-Summary>
+  </Invoice-Summary>
+</Document-Invoice>

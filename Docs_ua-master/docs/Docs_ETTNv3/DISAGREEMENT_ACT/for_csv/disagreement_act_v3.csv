@@ -1,0 +1,225 @@
+Назва поля,Тип [1]_,Формат,Опис
+**UAECMR_ACT**,M,,(початок документа)
+**ACT**,M,,(початок змісту документа)
+**ExchangedDocumentContext**,M,,Технічні дані (початок блоку)
+ram:SpecifiedTransactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,M,,"параметр контексту документа, визначений бізнес-процесом (початок блоку)"
+ram:ID,M,string,код документа
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,,,"параметр контексту документа, визначений бізнес-процесом (закінчення блоку)"
+**ram:GuidelineSpecifiedDocumentContextParameter**,M,,"параметр контексту визначеного документа (початок блоку)"
+ram:ID,M,unsignedByte,підтип документа (Акт розбіжностей про вантаж)
+**ram:GuidelineSpecifiedDocumentContextParameter**,,,"параметр контексту визначеного документа (закінчення блоку)"
+**ExchangedDocumentContext**,,,Технічні дані (закінчення блоку)
+**ExchangedDocument**,M,,Реквізити Акта (початок блоку)
+ram:ID,M,string,номер документа
+**ram:IssueDateTime**,M,,Дата і час складання документа (початок блоку)
+**udt:DateTime**,,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання Акта
+**ram:IssueDateTime**,,,Дата і час складання документа (закінчення блоку)
+ram:Remarks,O,string,Інші примітки
+**ram:IssueLogisticsLocation**,M,,Місце складання документа (початок блоку)
+ram:Name,M,string,Найменування місця складання Акта
+ram:Description,M,string,Опис (адреса) місця складання Акта
+**ram:IssueLogisticsLocation**,,,Місце складання документа (закінчення блоку)
+**ExchangedDocument**,,,Реквізити Акта (закінчення блоку)
+**DisagreementActPayload**,M,,Інформація про Акт (початок блоку)
+**PreviousAdministrativeReferencedDocument**,M,,"Інформація про е-ТТН, для якої складається акт (початок блоку)"
+ram:TypeCode,M,string,Тип документа (730 - ТТН). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:ID,M,string,Номер документа-підстави (ТТН); має відповідати номеру документа ExchangedDocument.ID еТТН
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (початок блоку)
+qdt:DateTimeString,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час документа-підстави (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (закінчення блоку)
+**ram:AttachedSpecifiedBinaryFile**,M,,"Дані е-ТТН, для якої складається акт (початок блоку)"
+ram:ID,M,string,Ідентифікатор (guid) документа-підстави (ТТН); має відповідати document.id еТТН в ЦБД (значення **ettnId** з методу `Отримання списку подій з ЦБД  <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/MintransEvents.html>`__ = значення **external_doc_id** `Отримання мета-даних документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocument.html>`__)
+ram:URIID,O,string,посилання на документ
+ram:MIMECode,O,string,`MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+ram:SizeMeasure,O,long,розмір файлу в байтах
+**ram:AttachedSpecifiedBinaryFile**,,,"Дані е-ТТН, для якої складається акт (закінчення блоку)"
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про е-ТТН, для якої складається акт (закінчення блоку)"
+**PreviousAdministrativeReferencedDocument**,-/M,,"Інформація про попередній акт, у випадку наступної транзакції (початок блоку)"
+ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:ID,M,string,Номер документа-підстави (Акт); має відповідати номеру документа ExchangedDocument.ID Акта
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (Акт); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (початок блоку)
+qdt:DateTimeString,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час документа-підстави (Акта)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (Акта); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (закінчення блоку)
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про попередній акт, у випадку наступної транзакції (закінчення блоку)"
+**ConsigneeTradeParty**,M,,"Вантажоодержувач (початок блоку)"
+**ram:ID**,M,,"Ідентифікаційний код Вантажоодержувача (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Вантажоодержувача (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Вантажоодержувача"
+ram:RoleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,GLN Вантажоодержувача (початок блоку)
+ram:ID,M/O,string,"GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
+ram:TypeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,GLN Вантажоодержувача (закінчення блоку)
+**ConsigneeTradeParty**,,,"Вантажоодержувач (закінчення блоку)"
+**CarrierTradeParty**,M,,"Перевізник (початок блоку)"
+**ram:ID**,M,,"Ідентифікаційний код Перевізника (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Перевізника"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M/O,string,"* Серія та номер водійського посвідчення Водія (поле обов'язкове до заповнення). Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія (поле опціональне до заповнення)
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
+**CarrierTradeParty**,,,"Перевізник (закінчення блоку)"
+**DisagreementSubjectSupplyChainConsignmentItem**,M,,"Розбіжності щодо кількісних характеристик вантажу (початок блоку)"
+SequenceNumeric,M,int,Порядковий номер рядка в таблиці
+**NatureIdentificationTransportCargo**,M,,Найменування вантажу (номер контейнера) за ТТН (початок блоку)
+ram:Identification,M,string,Найменування вантажу
+**NatureIdentificationTransportCargo**,,,Найменування вантажу (номер контейнера) за ТТН (закінчення блоку)
+TransportLogisticsPackageType,M,string,Одиниця виміру
+**DisagreementItemQuantity**,O,,Відхилення за кількістю місць (початок блоку)
+OriginalItemQuantity,M,decimal,Кількість місць за ТТН
+ActualItemQuantity,O,decimal,Кількість місць фактична
+**DeltaItemQuantity**,O,,Відхилення (початок блоку)
+Quantity,O,decimal,"Кількість місць Відхилення. Різниця між фактом та даними з ТТН - розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення"
+Explanation,O,string,"причина відхилення за кількістю місць (недостача/надлишок, бій тощо)"
+**DeltaItemQuantity**,,,Відхилення (закінчення блоку)
+**DisagreementItemQuantity**,,,Відхилення за кількістю місць (закінчення блоку)
+**DisagreementGrossWeightMeasure**,O,,"Відхилення за масою брутто, кг (початок блоку)"
+**OriginalGrossWeightMeasure**,M,,Маса брутто за ТТН (початок блоку)
+unitCode,M,string,код одиниці виміру (KGM)
+value,M,decimal,"Значення; точність=0,1"
+**OriginalGrossWeightMeasure**,,,Маса брутто за ТТН (закінчення блоку)
+**ActualGrossWeightMeasure**,O,,Маса брутто Фактична (початок блоку)
+unitCode,M,string,код одиниці виміру (KGM)
+value,M,decimal,"Значення; точність=0,1"
+**ActualGrossWeightMeasure**,,,Маса брутто Фактична (закінчення блоку)
+**DeltaGrossWeightMeasure**,O,,Відхилення (початок блоку)
+**Measure**,O,,"Маса брутто Відхилення. Різниця між фактом та даними з ТТН, розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення (початок блоку)"
+unitCode,M,string,код одиниці виміру (KGM)
+value,M,decimal,"Значення; точність=0,1"
+**Measure**,,,"Маса брутто Відхилення. Різниця між фактом та даними з ТТН, розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення (закінчення блоку)"
+Explanation,O,string,"причина відхилення за масою (недостача/надлишок тощо)"
+**DeltaGrossWeightMeasure**,,,Відхилення (закінчення блоку)
+**DisagreementGrossWeightMeasure**,,,"Відхилення за масою брутто, кг (закінчення блоку)"
+**DisagreementInvoiceAmount**,O,,Відхилення за сумою (початок блоку)
+**OriginalInvoiceAmount**,M,,Загальна сума з ПДВ за ТТН (початок блоку)
+currencyID,M,string,код валюти (UAH)
+value,M,decimal,"Значення; точність=0,01"
+**OriginalInvoiceAmount**,,,Загальна сума з ПДВ за ТТН (закінчення блоку)
+**ActualInvoiceAmount**,O,,Загальна сума з ПДВ Фактична (початок блоку)
+currencyID,M,string,код валюти (UAH)
+value,M,decimal,"Значення; точність=0,01"
+**ActualInvoiceAmount**,,,Загальна сума з ПДВ Фактична (закінчення блоку)
+**DeltaInvoiceAmount**,O,,Відхилення (початок блоку)
+**Amount**,O,,"Загальна сума з ПДВ Відхилення. Різниця між фактом та даними з ТТН, розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення (початок блоку)"
+currencyID,M,string,код валюти (UAH)
+value,M,decimal,"Значення; точність=0,01"
+**Amount**,,,"Загальна сума з ПДВ Відхилення. Різниця між фактом та даними з ТТН, розраховується системою автоматично і тільки для тих даних, за якими вказано фактичне значення (закінчення блоку)"
+Explanation,O,string,"причина відхилення за сумою"
+**DeltaInvoiceAmount**,,,Відхилення (закінчення блоку)
+**DisagreementInvoiceAmount**,,,Відхилення за сумою (закінчення блоку)
+DisagreementOtherNotes,O,string,Інші зауваження. Коментарі щодо виявлених розбіжностей по кожному рядку (найменуванню вантажу)
+**DisagreementSubjectSupplyChainConsignmentItem**,,,"Розбіжності щодо кількісних характеристик вантажу (закінчення блоку)"
+**DisagreementSubjectSupplyChainConsignmentSummary**,M,,"Розбіжності щодо кількісних характеристик вантажу (сумарні показники) (початок блоку)"
+**OriginalGrossWeightMeasure**,M,,"Разом Маса брутто за ТТН, кг (початок блоку)"
+unitCode,M,string,код одиниці виміру (KGM)
+value,M,decimal,"Значення; точність=0,1"
+**OriginalGrossWeightMeasure**,,,"Разом Маса брутто за ТТН, кг (закінчення блоку)"
+**DeltaGrossWeightMeasure**,M,,"Разом Маса брутто Відхилення, кг (початок блоку)"
+unitCode,M,string,код одиниці виміру (KGM)
+value,M,decimal,"Значення; точність=0,1"
+**DeltaGrossWeightMeasure**,,,"Разом Маса брутто Відхилення, кг (закінчення блоку)"
+**OriginalInvoiceAmount**,M,,"Разом Загальна сума з ПДВ за ТТН, грн. (початок блоку)"
+currencyID,M,string,код валюти (UAH)
+value,M,decimal,"Значення; точність=0,01"
+**OriginalInvoiceAmount**,,,"Разом Загальна сума з ПДВ за ТТН, грн. (закінчення блоку)"
+**DeltaInvoiceAmount**,M,,"Разом Загальна сума з ПДВ Відхилення, грн. (початок блоку)"
+currencyID,M,string,код валюти (UAH)
+value,M,decimal,"Значення; точність=0,01"
+**DeltaInvoiceAmount**,,,"Разом Загальна сума з ПДВ Відхилення, грн. (закінчення блоку)"
+**DisagreementSubjectSupplyChainConsignmentSummary**,,,"Розбіжності щодо кількісних характеристик вантажу (сумарні показники) (закінчення блоку)"
+**QualityCharacteristicsDisagreement**,O,,"Розбіжності щодо якісних характеристик вантажу (початок блоку)"
+**AffixedLogisticsSeal**,O,,"Номер пломби згідно з ТТН (початок блоку)"
+ram:ID,O,string,Номер пломби згідно з ТТН
+**AffixedLogisticsSeal**,,,"Номер пломби згідно з ТТН (закінчення блоку)"
+AffixedLogisticsSealNotes,O,string,Відомості про пошкодження пломби
+**ApplicableTransportSettingTemperature**,O,,"Температурний режим згідно з ТТН (початок блоку)"
+**ram:MinimumValueMeasure**,O,,"Температурний режим від (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MinimumValueMeasure**,,,"Температурний режим від (закінчення блоку)"
+**ram:MaximumValueMeasure**,O,,"Температурний режим до (початок блоку)"
+unitCode,O,string,код одиниці виміру (CEL)
+value,O,decimal,"Значення"
+**ram:MaximumValueMeasure**,,,"Температурний режим до (закінчення блоку)"
+**ApplicableTransportSettingTemperature**,,,"Температурний режим згідно з ТТН (закінчення блоку)"
+ApplicableTransportSettingTemperatureNotes,O,string,Відомості про недотримання температурного режиму
+PackagingDamageDisagreementNotes,O,string,"Відомості про пошкодження тари (опис пошкоджень тари, пакування, маркування тощо)"
+OtherDisagreementNotes,O,string,"Відомості про інші розбіжності (опис інших невідповідностей у характеристиках вантажу)"
+**QualityCharacteristicsDisagreement**,,,"Розбіжності щодо якісних характеристик вантажу (закінчення блоку)"
+ConsigneeNotes,M,string,"Короткий або повний опис причин складання акту (наприклад, виявлено розбіжності щодо якісних та/або кількісних характеристик отриманого вантажу тощо)"
+ClaimNotes,M,string,"Висновок (вимоги щодо вирішення розбіжностей). Вказується інформація про те, чи слід пред'являти будь-кому претензії і якщо так, то кому саме"
+CarrierNotes,O,string,Особливі відмітки (Перевізник). Інформація щодо незгоди зі змістом Акта (Перевізник)
+**DisagreementActPayload**,,,Інформація про Акт (закінчення блоку)
+**CertifyingPartyPayload**,M,,Інформація про відповідальних осіб (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=CN),O,,"Інформація про відповідальних осіб Вантажоодержувача (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП відповідальної особи Вантажоодержувача (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП відповідальної особи Вантажоодержувача (закінчення блоку)"
+ram:Name,M,string,"Посада відповідальної особи Вантажоодержувача"
+ram:RoleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ відповідальної особи Вантажоодержувача"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CN),,,"Інформація про відповідальних осіб Вантажоодержувача (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CA),M,,"Інформація про Перевізника (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП Перевізника (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП Перевізника (закінчення блоку)"
+ram:Name,M,string,"Посада Перевізника"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ Перевізника"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),,,"Інформація про Перевізника (закінчення блоку)"
+**CertifyingPartyPayload**,,,Інформація про відповідальних осіб (закінчення блоку)
+**ACT**,,,(закінчення змісту документа)
+**UaSignatureStorage**,M,,Підписи (початок блоку)
+**VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
+ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:Remarks,O,string,Графічне зображення Акта в base64
+**VisualReferencedDocument**,,,Графічне відображення документ (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CN),M,,"КЕП Вантажоодержувача (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (відповідальної особи Вантажоодержувача)
+Position,O,string,Посада підписанта (відповідальної особи Вантажоодержувача)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи Вантажоодержувача (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (відповідальної особи Вантажоодержувача)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи Вантажоодержувача (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CN),,,"КЕП Вантажоодержувача (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=CA),M,,"КЕП Перевізника (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (Перевізника)
+Position,O,string,Посада підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код Перевізника (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код Перевізника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CA),,,"КЕП Перевізника (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=CZ),M,,"КЕП Вантажовідправника (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (відповідальної особи Вантажовідправника)
+Position,O,string,Посада підписанта (відповідальної особи Вантажовідправника)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код відповідальної особи Вантажовідправника (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (відповідальної особи Вантажовідправника)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код відповідальної особи Вантажовідправника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CZ),,,"КЕП Вантажовідправника (закінчення блоку)"
+**UaSignatureStorage**,,,Підписи (закінчення блоку)
+**UAECMR_ACT**,,,(закінчення документа)

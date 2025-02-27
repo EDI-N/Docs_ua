@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _TradeContact:,,Об'єкт **TradeContact**,
+personName,O,string,ПІБ
+**telephoneUniversalCommunication**,O,ComunicationContact_,об'єкт; Основний телефон
+**mobileTelephoneUniversalCommunication**,O,ComunicationContact_,об'єкт; Мобільний телефон
+**emailURIUniversalCommunication**,O,ComunicationContact_,об'єкт; Електронна адреса

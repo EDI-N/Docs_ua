@@ -1,0 +1,10 @@
+Параметр, Формат, Опис
+.. _AgreementProc:, Об'єкт **AgreementProc**,
+agreementProcId,long,ID процесу узгодження
+**company**,Company_,об'єкт; інформація про компанію
+companyId,long,ID компанії
+name,String,назва процесу узгодження
+comment,String,коментар
+status,int,"статус; ""1 - активний; 2 - заблокований"""
+**agreementProc2Docs**,List<AgreementProc2Doc_>,"масив об'єктів; документи, додані до узгодження (+ довідники, якщо ці документи до них прив'язані)"
+**agrementSteps**,List<AgreementStep_>,масив об'єктів; налаштування кроку узгодження

@@ -1,0 +1,25 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/distribex/preorder?gln=9864065732327&producerId=13200791&positions=1195&positions=1193**
+URL параметри ,"**gln** (обов'язково) String - GLN Покупця (Дистрибʼютора)
+
+**producerId** (обов'язково) String - ідентифікатор Продавця (Виробника)
+
+**positions** (обов'язково / - ) String - позиції Попереднього замовлення. Параметр відсутній при наявності load_excel параметра
+
+**load_excel** (обов'язково / - ) boolean - load_excel=true при передачі значень через xls-файл. Параметр відсутній при наявності positions параметра
+
+**doc_uuid** (опціонально) UUID - ідентифікатор документа-підстави
+
+**type_id** (опціонально) int - ідентифікатор підтипу документа:
+
+* 1 - оригінальне замовлення (за замовчуванням);
+* 2 - попереднє замовлення;
+* 3 - відредаговане замовлення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"При передачі значень вручну (через positions параметр): в тілі запиту методу передається масив об'єктів з вказаною `кількістю відповідних товарних позицій для Попереднього замовлення <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/PutPreorderRequest.html>`__)
+
+При передачі значень через xls-файл (вказується параметр load_excel=true): в тілі запиту передається заповнений шаблон :download:`order_upload_ua.xls<files/order_upload_ua.xls>`"

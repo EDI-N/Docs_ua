@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET
+URL запиту    , **/api/oas/retailers?gln=9864065702429**
+URL параметри ,"**gln** - рядок (13); номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , application/json

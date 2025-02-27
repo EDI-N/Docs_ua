@@ -1,0 +1,38 @@
+Параметр, Формат, Опис
+.. _Filter: , Об'єкт **Filter**,
+dateStartFrom,int,початок яких з
+dateStartTo,int,початок яких по
+dateEndFrom,int,завершення яких з
+dateEndTo,int,завершення яких по
+dateCreateFrom,int,котрі створені з
+dateCreateTo,int,котрі створені по
+title,String,частина назви тендера
+lotTitle,String,частина назви лота
+accessType,tinyint,"тип доступу:
+
+* 1 - public - Відкритий
+* 2 - private - Закритий"
+offerType,tinyint,"етап:
+
+* 1 - bargaining - Торги
+* 2 - offersCollection - Збір пропозицій
+* 3 - Оголошення"
+type,tinyint,"тип торгівлі:
+
+* 1 - purchase - Закупівля
+* 2 - selling - Продаж"
+withTax,tinyint,"за ціною (ПДВ / без ПДВ):
+
+* 0 - ціна з ПДВ
+* 1 - ціна без ПДВ"
+organizator,int,id Організатора
+category,int,номер товарної категорії
+ordering,String,користувацьке сортування
+limit,int,ліміт вибірки (за замовчуванням 20)
+offset,int,зміщення відносно верхньої межі вибірки (за замовчуванням 0)
+count,boolean,значення true повертає у відповіді методу лише кількість відібраних запитом тендерів (число)
+status,tinyint,"статус тендера:
+
+* 1 - draft - Чернетка
+* 2 - active - Активний
+* 3 - closed - Завершений"

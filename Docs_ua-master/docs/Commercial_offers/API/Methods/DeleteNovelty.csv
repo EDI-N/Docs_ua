@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/es/novelty?novelty_uuid=df5ba3c0-89ab-4953-b5bf-aff0b9b92ad7&gln=9864067620417**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**novelty_uuid** (обов'язково) UUID - GUID комерційної пропозиції"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

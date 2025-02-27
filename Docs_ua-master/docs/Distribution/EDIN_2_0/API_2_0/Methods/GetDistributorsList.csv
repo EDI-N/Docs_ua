@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/distribex/distributor/list?gln=9864065732303**
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)
+
+**query** (опціонально) String - текст пошуку (пошук здійснюється за назвою/GLN)
+
+**limit** (опціонально) int - ліміт вибірки (за замовчуванням=20);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0)
+
+**accessgroup** (опціонально) String - назва групи (пошук за повним збігом)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

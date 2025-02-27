@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/doc_counter?gln=9864065732303**
+URL параметри ,"**gln** (обов'язково) String - GLN Покупця (Дистрибʼютора)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

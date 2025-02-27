@@ -1,0 +1,15 @@
+Параметр, Тип [1]_, Формат, Опис
+.. _Employee: ,, Об'єкт **Employee** ,
+uuid,O/M,UUID,ідентифікатор співробітника (параметр обов'язковий для редагування/оновлення даних співробітника)
+userId,O,long,id користувача
+lastName,M,String,прізвище співробітника
+firstName,M,String,ім'я співробітника
+middleName,O,String,по батькові співробітника
+ipn,O,long,код ІПН співробітника
+email,M,String,email співробітника
+tel,M,String,номер телефону співробітника
+docNum,O,String,документ підстава
+docDate,O,long,дата документа підстави у форматі UNIX TimeStamp
+chatId,O,long,ідентифікатор чату (telegram помічник)
+identifiers,O,"Map<Integer, String>",додаткові дані; контакти
+aliases,O,List<String>,масив аліасів (email) для сервісу Вільний

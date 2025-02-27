@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , PATCH                                        
+URL запиту    , **/api/v2/eds/condra/reject?message=Просто так&gln=9864065732211&doc_uuid=8baa765f-2a4b-4f40-b425-1d00373843c1**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі;
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**message** (обов'язково) String - причина відхилення документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/xml
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається тіло документа в xml форматі (`специфікація документа CONDRA <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/CONDRA_x.html>`__)."

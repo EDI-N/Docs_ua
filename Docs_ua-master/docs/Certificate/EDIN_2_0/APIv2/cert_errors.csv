@@ -1,0 +1,13 @@
+**Код відповіді**,**Індекс помилки**,**Текст помилки**,**Опис**
+400,ERR_CRT-1,"Unknown certificate type: %s
+
+Тип сертифіката некоректний: %s","Невідомий тип сертифікату при зміні типу доступу (PUT, «/api/ecs/access»)"
+400,ERR_CRT-2,"Search query error: %s
+
+Помилка пошукового запиту: %s","Некоректне тіло запиту (POST, «/api/ecs/search»)"
+400,ERR_CRT-3,"Certificate with UUID [%s] not found
+
+Сертифікат із указаним UUID [%s] не знайдено","Сертифікат не знайдено (GET, «/api/ecs/certificate»)"
+400,ERR_CRT-4,"Data validation errors detected
+
+Виявлено помилки при обробленні даних","Помилки при опрацюванні сертифікатів завантажених із excel (POST, «/api/ecs/certificates»)"

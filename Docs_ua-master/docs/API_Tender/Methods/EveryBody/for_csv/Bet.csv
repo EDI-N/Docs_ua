@@ -1,0 +1,16 @@
+Параметр, Формат, Опис
+.. _Bet: , Об'єкт **Bet**,
+id,long,id ставки
+lotId,long,id лота
+lot,Lot,об'єкт; детальна інформація про лот
+userId,long,id користувача
+user,User,об'єкт; детальна інформація про користувача
+companyId,long,id компанії
+company,Company,об'єкт; детальна інформація про компанію
+value,double,значення ставки
+comment,String,коментар
+dateTime,long,дата і час ставки у форматі UNIX TimeStamp
+status,Status,статус
+removeComment,String,відмітка про видалення коментаря
+auctionChangedDateEnd,long,дата і час завершення тендера (у форматі UNIX TimeStamp)
+attachmentsCount,int,кількість прикладених до ставки файлів (max=5)

@@ -1,0 +1,17 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Category: ,, Об'єкт **Category**,
+id,M,long,ідентифікатор категорії
+section,,String,розділ; перші 2 цифри визначають розділ. 1 рівень (XX000000-Y)
+group,,String,група; перші 3 цифри визначають групу. 2 рівень (XXX00000-Y)
+categoryClass,,String,клас; перші 4 цифри визначають клас. 3 рівень (XXXX0000-Y)
+category,,String,категорія; перші 5 цифр визначають категорію. 4 рівень (XXXXX000-Y)
+detailing,,String,деталізація; останні 3 цифри - деталізація в рамках категорії. 5 рівень (XXXXX000-Y)
+check_sum,,String,контрольна сума номера (XXXXX000-Y)
+full_code,,String,повний код з довідника (XXXXX000-Y)
+description_ua,,String,назва українською
+description_en,,String,назва англійською
+rank,,int,рівень вкладення
+refId,,long,посилання на материнський запис
+hasChildren,,int,"наявність дочірніх значень довідника. 0-ні, 1-так"
+status,,int,"статус; 1-active, 2-not_active"
+isSubscribes,,boolean,підписка

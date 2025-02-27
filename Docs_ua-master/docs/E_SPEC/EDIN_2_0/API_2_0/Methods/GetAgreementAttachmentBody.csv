@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/es/attachment/body?gln=9864067620417&agreement_uuid=3aa29cf2-b05f-49b7-b447-e5f4354f1132&attachment_id=622**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+
+**agreement_uuid** (обов'язково) UUID - унікальний ідентифікатор товарного узгодження;
+
+**attachment_id** (обов'язково) long - ідентифікатор вкладення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/octet-stream

@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ResealingActPayload:,,Об'єкт **ResealingActPayload**,
+**previousAdministrativeReferencedDocuments**,M,List<PreviousAdministrativeReferencedDocument_>,"масив об'єктів; Інформація про е-ТТН/попередній акт, для якого складається акт"
+**customerTradeParty**,M,TradeParty_,"об'єкт; Замовник"
+**carrierTradeParty**,M,TradeParty_,"об'єкт; Перевізник"
+**originalUtilizedLogisticsTransportEquipment**,M/O,List<UtilizedLogisticsTransportEquipment_>,"масив об'єктів; Автомобіль/Причіп/напівпричіп, що розвантажується. Обов'язково вказується лише Автомобіль"
+**resealedUtilizedLogisticsTransportEquipment**,M/O,List<UtilizedLogisticsTransportEquipment_>,"масив об'єктів; Автомобіль/Причіп/напівпричіп, що завантажується. Обов'язково вказується лише Автомобіль"
+customerNotes,M,string,Короткий або повний опис причин складання Акта (Замовник)
+carrierNotes,O,string,Особливі відмітки; Інформація щодо незгоди зі змістом Акта (Перевізник)

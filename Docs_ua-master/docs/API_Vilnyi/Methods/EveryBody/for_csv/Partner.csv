@@ -1,0 +1,12 @@
+Параметр,Тип [1]_,Формат,Опис
+id,O,int(10),id контрагента
+employeeId,O,int(10),"id співробітника, що виконує дію"
+companyId,O,int(10),id компанії
+serviceId,O,tinyint(3),id сервісу; доступні значення: 9 - Вільний
+email,M,String(255),email контрагента
+name,O,String(255),ПІБ контрагента
+companyName,O,String(255),назва конмпанії контрагента
+companyCode,O,String(12),код ЄДРПОУ / ІПН компанії
+inviteStatus,O,tinyint(10),"статус запрошення; 0 - не запрошений, 1 - запрошений"
+inviteDate,O,int(10),дата запрошення (unix-timestamp)
+isRegistered,O,boolean,статус реєстрації: true - зареєстрований; false - незареєстрований

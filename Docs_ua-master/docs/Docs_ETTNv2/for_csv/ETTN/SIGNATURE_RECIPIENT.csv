@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _SIGNATURE_RECIPIENT:,О, Об'єкт **SIGNATURE_RECIPIENT**,
+OWNER,О,«RECIPIENT»,власник підпису
+SIGN,О,String,тіло підпису в base64

@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , PATCH                                         
+URL запиту    , **/api/sd/eds/doc/send/recipients?doc_uuid=dd8b8d6d-2cb4-4ecd-ac5e-260e8e3cf01e**
+URL параметри ,"**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту (json) передається:
+
+* масив UUID користувачів (нових отримувачів): ``['92e62300-74bd-43e8-9db7-48481cd5bbbc']``
+
+АБО
+
+* масив e-mail адрес для незареєстрованих на платформі EDIN користувачів: ``['fff@lll.com','ukr@ukr.ukr']``"

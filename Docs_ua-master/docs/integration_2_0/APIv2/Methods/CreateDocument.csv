@@ -1,0 +1,29 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/eds/doc?doc_type=condra&doc_number=weba1&doc_date=1614636000&gln=9864067620417&recipient=9864067620424&family=edi**
+URL параметри ,"**gln** (обов'язково) String (13) - номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні аккаунта
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор організації на платформі EDIN 2.0
+
+**doc_type** (обов'язково) String - тип документа (`опис параметру <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html#param-desc>`__)
+
+**doc_number** (обов'язково) String - номер документа
+
+**doc_date** (обов'язково) число - дата документа (в форматі UNIX-timestamp)
+
+**recipient** (обов'язково) String (13) - gln отримувача
+
+**family** (обов'язково) String (13) - сервіс (сімейство); допустимі значення:
+
+* edi
+* uzd
+* ettn
+
+**created_from** (опціонально) String - ідентифікатор документа або ланцюжка
+
+**created_from_doc_id** (опціонально) String - ідентифікатор документа-підстави (документа, на основі якого буде створено новий)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json                           
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається документ у форматі JSON (`XML специфікації EDI документів <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__ + `XML специфікації ETTN документів <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/API_ETTNv3_1_list.html>`__). Приклад `тіла запиту для створення CONDRA <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/CreateDocumentCondra.html>`__."

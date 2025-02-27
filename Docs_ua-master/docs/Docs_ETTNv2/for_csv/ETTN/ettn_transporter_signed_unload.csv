@@ -1,0 +1,499 @@
+Назва поля,Тип [1]_,Формат,Опис
+**SIGN_ENVELOPE**,M,,"Обгортка документа Перевізника під час вивантаження товару (початок блоку)"
+STATE,M,TRANSPORTER_SIGNED_UNLOADED,"стан документу «підписано Перевізником під час вивантаження товару»"
+**SIGN_ENVELOPE**,M,,"Обгортка документа Вантажоотримувача (початок блоку)"
+STATE,M,RECIPIENT_SIGNED,"стан документу «підписано Вантажоотримувачем»"
+**SIGN_ENVELOPE**,M,,"Обгортка документа Перевізника під час завантаження товару (початок блоку)"
+STATE,M,TRANSPORTER_SIGNED_LOADED,"стан документу «підписано Перевізником під час завантаження товару»"
+**SIGN_ENVELOPE**,M,,"Обгортка документа Ініціатора - Вантажовідправника (початок блоку)"
+STATE,M,ORIGINATOR_SIGNED,"стан документу «підписано Вантажовідправником»"
+**DECLARHEAD**,M,,Складовий номер документа (початок блоку)
+C_DOC,M,String,код документа («T01»)
+C_DOC_SUB,M,String,підтип документа («001»)
+C_DOC_VER,M,String,номер версії документа («02»)
+**DECLARHEAD**,,,Складовий номер документа (закінчення блоку)
+**DECLARBODY**,M,,"Основні реквізити від Вантажовідправника (початок блоку)"
+TYPE,M,CORE,Тип документа (Основа)
+STAKE,M,ORIGINATOR,Учасник-підписант (Вантажовідправник)
+HFILL,M,String (YYYY-MM-DD),Дата товарно-транспортної накладної
+HNUM,M,String,Номер товарно-транспортної накладної
+DOCUMENT_PLACE,M,String,Місце складання
+R01G1S,M,String,Марка автомобіля
+R01G11S,O,String,Модель автомобіля
+R01G2S,M,String,Реєстраційний номер автомобіля
+R01G3S,M,String,Тип автомобіля
+R01G4S,M/O,String,Марка причіпа/напівпричіпа. Поле обов'язково заповнюється за наявності причіпа/напівпричіпа.
+R01G12S,O,String,Модель причіпа/напівпричіпа
+R01G5S,M/O,String,Реєстраційний номер причіпа/напівпричіпа. Поле обов'язково заповнюється за наявності причіпа/напівпричіпа.
+R01G6S,M/O,String,Тип причіпа/напівпричіпа. Поле обов'язково заповнюється за наявності причіпа/напівпричіпа.
+R01G7S,M/O,String,Марка причіпа/напівпричіпа 2. Поле обов'язково заповнюється за наявності причіпа/напівпричіпа 2.
+R01G13S,O,String,Модель причіпа/напівпричіпа 2
+R01G8S,M/O,String,Реєстраційний номер причіпа/напівпричіпа 2. Поле обов'язково заповнюється за наявності причіпа/напівпричіпа 2.
+R01G9S,M/O,String,Тип причіпа/напівпричіпа 2. Поле обов'язково заповнюється за наявності причіпа/напівпричіпа 2.
+R01G10S,M,String,Вид перевезень
+R02G11S,M,String,Ідентифікаційний код Автомобільного перевізника
+R02G1S,M,String,Повне найменування / ПІБ Автомобільного перевізника
+R02G12S,O,String,Юридична адреса Перевізника
+R02G21S,M,String,Ідентифікаційний код Замовника
+R02G2S,M,String,Повне найменування / ПІБ Замовника
+R02G22S,O,String,Юридична адреса Замовника
+R02G3S,M,String,Прізвище Водія
+R02G31S,M,String,Ім'я Водія
+R02G32S,O,String,По батькові Водія
+R02G4S,M,String,Номер посвідчення Водія
+DRIVER_ID,M,int(10),"Ідентифікаційний код Водія"
+HTIN,M,String,Ідентифікаційний код Вантажовідправника
+HNAME,M,String,Повне найменування Вантажовідправника
+HLOC,M,String,Місцезнаходження Вантажовідправника
+R04G1S,M,String,Ідентифікаційний код Вантажоодержувача
+R04G2S,M,String,Повне найменування Вантажоодержувача
+R04G3S,M,String,"місцезнаходження вантажоодержувача (Місто, Адреса)"
+R05G21,M,String,Код КОАТУУ / `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__ пункту навантаження
+R05G2S,M,String,Місцезнаходження пункту навантаження
+R05G41,M,String,Код КОАТУУ / `КАТОТТГ <https://www.minregion.gov.ua/napryamki-diyalnosti/rozvytok-mistsevoho-samovryaduvannya/administratyvno/kodyfikator-administratyvno-terytorialnyh-odynycz-ta-terytorij-terytorialnyh-gromad/>`__ пункту розвантаження
+R05G4S,M,String,Місцезнаходження пункту розвантаження
+R012G3S,M,String,Кількість місць (словами)
+R013G1,M,double,"Маса брутто, кг (цифрами)"
+R013G2S,M,String,"Маса брутто, кг (словами)"
+R010G3S,M,String,"Усього відпущено на загальну суму(словами, з урахуванням ПДВ)"
+R011G1,M,double,У тому числі ПДВ
+R014G1S,M,String,Супровідні документи на вантаж
+SEAL_NO,O,String,Номер пломби
+TEMPERATURE,O,String,Температурний режим
+**<T1RXXXXG81S>** ROWNUM=«1» message=«value» **</T1RXXXXG81S>**,M,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: найменування вантажу (номер контейнера)
+**<T1RXXXXG82>** ROWNUM=«1» message=«value» **</T1RXXXXG82>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: клас небезпечних речовин
+**<T1RXXXXG9S>** ROWNUM=«1» message=«value» **</T1RXXXXG9S>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: одиниця виміру
+**<T1RXXXXG10>** ROWNUM=«1» message=«value» **</T1RXXXXG10>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість місць
+**<T1RXXXXG11>** ROWNUM=«1» message=«value» **</T1RXXXXG11>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: ціна без ПДВ за одиницю (грн)
+**<T1RXXXXG12>** ROWNUM=«1» message=«value» **</T1RXXXXG12>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: загальна сума з ПДВ (грн)
+**<T1RXXXXG13S>** ROWNUM=«1» message=«value» **</T1RXXXXG13S>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: вид пакування
+**<T1RXXXXG14S>** ROWNUM=«1» message=«value» **</T1RXXXXG14S>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: документи з вантажем
+**<T1RXXXXG15>** ROWNUM=«1» message=«value» **</T1RXXXXG15>**,M,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: маса брутто (кг)
+R001G10,M,double,Усього кількість місць
+R001G12,M,double,"Усього загальна сума з ПДВ, грн"
+R08G2,O,double,"Маса брутто, кг в пункті навантаження"
+DATE_ARRIVAL_LOAD,O,String (YYYY-MM-DD),Дата прибуття
+R08G31,O,int,"Час прибуття, (год)"
+R08G32,O,int,"Час прибуття, (хв)"
+DATE_DEPARTURE_LOAD,O,String (YYYY-MM-DD),Дата вибуття
+R08G41,O,int,"Час вибуття, (год)"
+R08G42,O,int,"Час вибуття, (хв)"
+R08G51,O,int,"Час простою, (год)"
+R08G52,O,int,"Час простою, (хв)"
+R017G11S,O,String,Посада відповідальної особи Вантажовідпраника
+R017G1S,O,String,П.І.Б. відповідальної особи Вантажовідпраника
+**DECLARBODY_ORIGINATOR_SECURITY**,O,,"Спеціальна охорона вантажу. Прізвище, ім'я, по батькові представника Замовника та документ, згідно з яким він уповноважений супроводжувати вантаж, який підлягає спеціальній охороні. Якщо блок використовується, то обов'язково містить параметри (початок блоку)"
+FIRST_NAME,M,String,Ім'я особи
+LAST_NAME,M,String,Прізвище особи
+FATHERS_NAME,M,String,По батькові особи
+DOCUMENT_TYPE,M,String,Тип документу
+DOCUMENT_ID,M,String,Номер документу
+DOCUMENT_DATE,M,String (YYYY-MM-DD),Дата укладення документу
+**DECLARBODY_ORIGINATOR_SECURITY**,,,"Спеціальна охорона вантажу. Прізвище, ім'я, по батькові представника Замовника та документ, згідно з яким він уповноважений супроводжувати вантаж, який підлягає спеціальній охороні (закінчення блоку)"
+**DECLARBODY**,,,"Основні реквізити від Вантажовідправника (закінчення блоку)"
+**DECLAREXT**,M,,"Додаткова інформація для учасників перевезення (початок блоку)"
+**EXTENSION**,M/O,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Початок блоку)"
+TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BASE_UOM, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE, ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE, CONTAINER_NO, SEAL_ADD_TYPE, SEAL_ADD_NO, RTP_TYPE, RTP_NAME, RTP_QUANTITY, TRUCK_NUMBER, PACKING_LIST_NO, PACKING_LIST_DATE, NET_WEIGHT, CAR_COLOR, COUNTERPARTY_CODE, DRIVER_PASSPORT, CERTIFICATE_NUMBER, DRIVER_PHONE, BASE_UOM)","тип даних:
+
+* EMAIL - email,
+* PHONE - номер телефону,
+* DRFO - ідентифікаційний код,
+* DIVISION - Назва філіалу,
+* FULLNAME - Повне ім'я особи,
+* ADDRESS - Адреса,
+* TOWN - Населений пункт,
+* REGION - Район в області,
+* AREA - Область,
+* KOATUU - Код КОАТУУ,
+* GLN - GLN,
+* GROUP - Група користувачів,
+* AGREEMENT - Номер договору,
+* AGREEMENT_DATE - Дата договору,
+* COMMENT - Текстове поле,
+* CONTACT - Контактна інформація,
+* MILAGE - Кілометраж,
+* TRANSPORTATION_REQUEST_NO - Номер заявки на перевезення,
+* TRANSPORTATION_REQUEST_DATE - Дата заявки на перевезення,
+* BARCODE - Штрих-код товару,
+* VENDOR_CODE - Артикул товару,
+* URL - Посилання на документ,
+* QUANTITY - Кількість товару,
+* BASE_UOM - Одиниця виміру кількості товару,
+* BUYER_CODE - Артикул покупця,
+* UKTZED - Код УКТ ЗЕД,
+* PRICE_WITH_VAT - Ціна з ПДВ,
+* SUM_WITHOUT_VAT - Сума без ПДВ,
+* RETURN_TARE - Тара на повернення,
+* ORDER_NO - Номер замовлення,
+* ORDER_DATE - Дата замовлення,
+* DELIVERY_NOTE_NO - Номер повідомлення про відвантаження,
+* DELIVERY_NOTE_DATE - Дата повідомлення про відвантаження,
+* CONTAINER_NO - Номер контейнера,
+* SEAL_ADD_TYPE - Тип пломби,
+* SEAL_ADD_NO - Номер пломби,
+* RTP_TYPE - Тип транспортної упаковки,
+* RTP_NAME - Назва транспортної упаковки,
+* RTP_QUANTITY - Кількість транспортної упаковки,
+* TRUCK_NUMBER - Номер рейсу
+* PACKING_LIST_NO - Номер товарної накладної
+* PACKING_LIST_DATE - Дата товарної накладної
+* NET_WEIGHT - маса нетто за товарною позицією
+* CAR_COLOR - колір авто
+* COUNTERPARTY_CODE - код контрагента
+* DRIVER_PASSPORT - паспортні дані водія
+* CERTIFICATE_NUMBER - номер сертифіката
+* DRIVER_PHONE - телефон водія
+* BASE_UOM - одиниця виміру кількості"
+STAKE,O,"enum (ORIGINATOR, RECIPIENT, TRANSPORTER_DRIVER, ORIGINATOR_DRIVER, TRANSPORTER_EXPEDITION, TRANSPORTER, CUSTOMER, CONSIGNOR, ANY)","запис учасника:
+
+* ORIGINATOR - Ініціатор
+* RECIPIENT - Вантажоотримувач
+* TRANSPORTER_DRIVER - Водій / Водій, що приймає вантаж
+* ORIGINATOR_DRIVER - Водій, що здає вантаж
+* TRANSPORTER_EXPEDITION - Експедитор
+* TRANSPORTER - Перевізник
+* CUSTOMER - Замовник
+* CONSIGNOR - Вантажовідправник
+* ANY - будь-хто"
+VISIBLE,O,"enum (VISIBLE, INVISIBLE)","ознака видимості запису учасникам:
+
+* VISIBLE - відображається,
+* INVISIBLE - не відображається"
+CARGO_ROWNUM,O,Integer,"№ позиції в таблиці"
+RTP_ROWNUM,O,Integer,"№ транспортної упаковки в таблиці"
+SET_ROWNUM,O,Integer,"№ комплекту документів в таблиці"
+DATA,O,String,Дані запису
+**EXTENSION**,,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Закінчення блоку)"
+**DECLAREXT**,,,"Додаткова інформація для учасників перевезення (закінчення блоку)"
+**SIGN_ENVELOPE**,,,"Обгортка документа Ініціатора - Вантажовідправника (закінчення блоку)"
+**SIGNATURE**,M,,"Підпис Ініціатора - Вантажовідправника (початок блоку)"
+OWNER,M,ORIGINATOR,"Власник підпису: Ініціатор - Вантажовідправник"
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,"Підпис Ініціатора - Вантажовідправника (закінчення блоку)"
+**DECLARBODY**,M,,"Основні реквізити від Перевізника під час завантаження товару (початок блоку)"
+TYPE,M,AMENDMENT,Тип документа (Поправки)
+STAKE,M,TRANSPORTER,Учасник-підписант (Перевізник)
+R017G2S,O,String,Посада водія
+R017G3S,O,String,П.І.Б. водія
+R017G7S,O,String,Ідентифікаційний код Водія
+R017G21S,O,String,Посада експедитора. Поле заповнюється лише при наявності експедитора
+R017G31S,O,String,П.І.Б. експедитора. Поле заповнюється лише при наявності експедитора
+R017G71S,O,String,Ідентифікаційний код Експедитор
+**ACT**,M/O,,Документи про внесення змін. Номер та дата додаткового Акту до е-ТТН. Поле заповнюється лише при наявності акту (початок блоку)
+TYPE,M,String,"Типи актів, які можуть бути зазначені в еТТН:
+
+* ADJUSTMENT - акт виправлень-корекцій
+* RELOAD - акт перевантаження
+* DISAGREEMENT - акт розбіжностей
+* REJECT - акт відмови у завантаженні (відхилення еТТН)
+* WAREHOUSE_CHANGE - заміна складу отримувача"
+ID,M,String,Ідентифікатор акту
+NUMBER,M,String,Номер Акту
+DATE,M,String (YYYY-MM-DD),Дата формування Акту
+DATA,M,String,Додаткова інформація про Акт
+**ACT**,,,Документи про внесення змін. Номер та дата додаткового Акту до е-ТТН. Поле заповнюється лише при наявності акту (закінчення блоку)
+**DECLARBODY**,,,"Основні реквізити від Перевізника під час завантаження товару (закінчення блоку)"
+**DECLAREXT**,M,,"Додаткова інформація для учасників перевезення (початок блоку)"
+**EXTENSION**,M/O,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Початок блоку)"
+TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BASE_UOM, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE, ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE, CONTAINER_NO, SEAL_ADD_TYPE, SEAL_ADD_NO, RTP_TYPE, RTP_NAME, RTP_QUANTITY, TRUCK_NUMBER, PACKING_LIST_NO, PACKING_LIST_DATE, NET_WEIGHT, CAR_COLOR, COUNTERPARTY_CODE, DRIVER_PASSPORT, CERTIFICATE_NUMBER, DRIVER_PHONE, BASE_UOM)","тип даних:
+
+* EMAIL - email,
+* PHONE - номер телефону,
+* DRFO - ідентифікаційний код,
+* DIVISION - Назва філіалу,
+* FULLNAME - Повне ім'я особи,
+* ADDRESS - Адреса,
+* TOWN - Населений пункт,
+* REGION - Район в області,
+* AREA - Область,
+* KOATUU - Код КОАТУУ,
+* GLN - GLN,
+* GROUP - Група користувачів,
+* AGREEMENT - Номер договору,
+* AGREEMENT_DATE - Дата договору,
+* COMMENT - Текстове поле,
+* CONTACT - Контактна інформація,
+* MILAGE - Кілометраж,
+* TRANSPORTATION_REQUEST_NO - Номер заявки на перевезення,
+* TRANSPORTATION_REQUEST_DATE - Дата заявки на перевезення,
+* BARCODE - Штрих-код товару,
+* VENDOR_CODE - Артикул товару,
+* URL - Посилання на документ,
+* QUANTITY - Кількість товару,
+* BASE_UOM - Одиниця виміру кількості товару,
+* BUYER_CODE - Артикул покупця,
+* UKTZED - Код УКТ ЗЕД,
+* PRICE_WITH_VAT - Ціна з ПДВ,
+* SUM_WITHOUT_VAT - Сума без ПДВ,
+* RETURN_TARE - Тара на повернення,
+* ORDER_NO - Номер замовлення,
+* ORDER_DATE - Дата замовлення,
+* DELIVERY_NOTE_NO - Номер повідомлення про відвантаження,
+* DELIVERY_NOTE_DATE - Дата повідомлення про відвантаження,
+* CONTAINER_NO - Номер контейнера,
+* SEAL_ADD_TYPE - Тип пломби,
+* SEAL_ADD_NO - Номер пломби,
+* RTP_TYPE - Тип транспортної упаковки,
+* RTP_NAME - Назва транспортної упаковки,
+* RTP_QUANTITY - Кількість транспортної упаковки,
+* TRUCK_NUMBER - Номер рейсу
+* PACKING_LIST_NO - Номер товарної накладної
+* PACKING_LIST_DATE - Дата товарної накладної
+* NET_WEIGHT - маса нетто за товарною позицією
+* CAR_COLOR - колір авто
+* COUNTERPARTY_CODE - код контрагента
+* DRIVER_PASSPORT - паспортні дані водія
+* CERTIFICATE_NUMBER - номер сертифіката
+* DRIVER_PHONE - телефон водія
+* BASE_UOM - одиниця виміру кількості"
+STAKE,O,"enum (ORIGINATOR, RECIPIENT, TRANSPORTER_DRIVER, ORIGINATOR_DRIVER, TRANSPORTER_EXPEDITION, TRANSPORTER, CUSTOMER, CONSIGNOR, ANY)","запис учасника:
+
+* ORIGINATOR - Ініціатор
+* RECIPIENT - Вантажоотримувач
+* TRANSPORTER_DRIVER - Водій / Водій, що приймає вантаж
+* ORIGINATOR_DRIVER - Водій, що здає вантаж
+* TRANSPORTER_EXPEDITION - Експедитор
+* TRANSPORTER - Перевізник
+* CUSTOMER - Замовник
+* CONSIGNOR - Вантажовідправник
+* ANY - будь-хто"
+VISIBLE,O,"enum (VISIBLE, INVISIBLE)","ознака видимості запису учасникам:
+
+* VISIBLE - відображається,
+* INVISIBLE - не відображається"
+CARGO_ROWNUM,O,Integer,"№ позиції в таблиці"
+RTP_ROWNUM,O,Integer,"№ транспортної упаковки в таблиці"
+SET_ROWNUM,O,Integer,"№ комплекту документів в таблиці"
+DATA,O,String,Дані запису
+**EXTENSION**,,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Закінчення блоку)"
+**DECLAREXT**,,,"Додаткова інформація для учасників перевезення (закінчення блоку)"
+**SIGN_ENVELOPE**,,,"Обгортка документа Перевізника під час завантаження товару (закінчення блоку)"
+**SIGNATURE**,M,,"Підпис Перевізника під час завантаження товару (початок блоку)"
+OWNER,M,TRANSPORTER_DRIVER,"Власник підпису: Перевізник під час завантаження товару"
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,"Підпис Перевізника під час завантаження товару (закінчення блоку)"
+**SIGNATURE**,O,,"Підпис Експедитора (початок блоку)"
+OWNER,M,TRANSPORTER_EXPEDITION,"Власник підпису: Експедитор"
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,"Підпис Експедитора (закінчення блоку)"
+**DECLARBODY**,M,,"Основні реквізити від Вантажоотримувача (початок блоку)"
+TYPE,M,AMENDMENT,Тип документа (Поправки)
+STAKE,M,RECIPIENT,Учасник-підписант (Вантажоотримувач)
+R09G2,M,double,"Маса брутто, кг в пункті розвантаження"
+DATE_ARRIVAL_UNLOAD,M,String (YYYY-MM-DD),Дата прибуття
+R09G31,M,int,"Час прибуття, (год)"
+R09G32,M,int,"Час прибуття, (хв)"
+DATE_DEPARTURE_UNLOAD,M,String (YYYY-MM-DD),Дата вибуття
+R09G41,M,int,"Час вибуття, (год)"
+R09G42,M,int,"Час вибуття, (хв)"
+R09G51,M,int,"Час простою, (год)"
+R09G52,M,int,"Час простою, (хв)"
+R017G61S,M,String,Посада відповідальної особи Вантажоодержувача
+R017G6S,M,String,П.І.Б. відповідальної особи Вантажоодержувача
+**CLAIM_TRANSFER**,M/O,,Запис про передачу права на пред'явлення претензії. Поле заповнюється лише при наявності претензії (початок блоку)
+DATE,O,String (YYYY-MM-DD),Дата запису про передачу права на пред'явлення претензії
+TEXT,M,String,Номер запису про передачу права на пред'явлення претензії
+**SIGNATURE**,M,,Підпис отримувача (початок блоку)
+OWNER,M,RECIPIENT,власник підпису
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,"Підпис отримувача (закінчення блоку)"
+**CLAIM_TRANSFER**,,,Запис про передачу права на пред'явлення претензії (закінчення блоку)
+**ACT**,M/O,,Документи про внесення змін. Номер та дата додаткового Акту до е-ТТН. Поле заповнюється лише при наявності акту (початок блоку)
+TYPE,M,String,"Типи актів, які можуть бути зазначені в еТТН:
+
+* ADJUSTMENT - акт виправлень-корекцій
+* RELOAD - акт перевантаження
+* DISAGREEMENT - акт розбіжностей
+* REJECT - акт відмови у завантаженні (відхилення еТТН)
+* WAREHOUSE_CHANGE - заміна складу отримувача"
+ID,M,String,Ідентифікатор акту
+NUMBER,M,String,Номер Акту
+DATE,M,String (YYYY-MM-DD),Дата формування Акту
+DATA,M,String,Додаткова інформація про Акт
+**ACT**,,,Документи про внесення змін. Номер та дата додаткового Акту до е-ТТН. Поле заповнюється лише при наявності акту (закінчення блоку)
+**DECLARBODY**,,,"Основні реквізити від Вантажоотримувача (закінчення блоку)"
+**DECLAREXT**,M,,"Додаткова інформація для учасників перевезення (початок блоку)"
+**EXTENSION**,M/O,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Початок блоку)"
+TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BASE_UOM, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE, ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE, CONTAINER_NO, SEAL_ADD_TYPE, SEAL_ADD_NO, RTP_TYPE, RTP_NAME, RTP_QUANTITY, TRUCK_NUMBER, PACKING_LIST_NO, PACKING_LIST_DATE, NET_WEIGHT, CAR_COLOR, COUNTERPARTY_CODE, DRIVER_PASSPORT, CERTIFICATE_NUMBER, DRIVER_PHONE, BASE_UOM)","тип даних:
+
+* EMAIL - email,
+* PHONE - номер телефону,
+* DRFO - ідентифікаційний код,
+* DIVISION - Назва філіалу,
+* FULLNAME - Повне ім'я особи,
+* ADDRESS - Адреса,
+* TOWN - Населений пункт,
+* REGION - Район в області,
+* AREA - Область,
+* KOATUU - Код КОАТУУ,
+* GLN - GLN,
+* GROUP - Група користувачів,
+* AGREEMENT - Номер договору,
+* AGREEMENT_DATE - Дата договору,
+* COMMENT - Текстове поле,
+* CONTACT - Контактна інформація,
+* MILAGE - Кілометраж,
+* TRANSPORTATION_REQUEST_NO - Номер заявки на перевезення,
+* TRANSPORTATION_REQUEST_DATE - Дата заявки на перевезення,
+* BARCODE - Штрих-код товару,
+* VENDOR_CODE - Артикул товару,
+* URL - Посилання на документ,
+* QUANTITY - Кількість товару,
+* BASE_UOM - Одиниця виміру кількості товару,
+* BUYER_CODE - Артикул покупця,
+* UKTZED - Код УКТ ЗЕД,
+* PRICE_WITH_VAT - Ціна з ПДВ,
+* SUM_WITHOUT_VAT - Сума без ПДВ,
+* RETURN_TARE - Тара на повернення,
+* ORDER_NO - Номер замовлення,
+* ORDER_DATE - Дата замовлення,
+* DELIVERY_NOTE_NO - Номер повідомлення про відвантаження,
+* DELIVERY_NOTE_DATE - Дата повідомлення про відвантаження,
+* CONTAINER_NO - Номер контейнера,
+* SEAL_ADD_TYPE - Тип пломби,
+* SEAL_ADD_NO - Номер пломби,
+* RTP_TYPE - Тип транспортної упаковки,
+* RTP_NAME - Назва транспортної упаковки,
+* RTP_QUANTITY - Кількість транспортної упаковки,
+* TRUCK_NUMBER - Номер рейсу
+* PACKING_LIST_NO - Номер товарної накладної
+* PACKING_LIST_DATE - Дата товарної накладної
+* NET_WEIGHT - маса нетто за товарною позицією
+* CAR_COLOR - колір авто
+* COUNTERPARTY_CODE - код контрагента
+* DRIVER_PASSPORT - паспортні дані водія
+* CERTIFICATE_NUMBER - номер сертифіката
+* DRIVER_PHONE - телефон водія
+* BASE_UOM - одиниця виміру кількості"
+STAKE,O,"enum (ORIGINATOR, RECIPIENT, TRANSPORTER_DRIVER, ORIGINATOR_DRIVER, TRANSPORTER_EXPEDITION, TRANSPORTER, CUSTOMER, CONSIGNOR, ANY)","запис учасника:
+
+* ORIGINATOR - Ініціатор
+* RECIPIENT - Вантажоотримувач
+* TRANSPORTER_DRIVER - Водій / Водій, що приймає вантаж
+* ORIGINATOR_DRIVER - Водій, що здає вантаж
+* TRANSPORTER_EXPEDITION - Експедитор
+* TRANSPORTER - Перевізник
+* CUSTOMER - Замовник
+* CONSIGNOR - Вантажовідправник
+* ANY - будь-хто"
+VISIBLE,O,"enum (VISIBLE, INVISIBLE)","ознака видимості запису учасникам:
+
+* VISIBLE - відображається,
+* INVISIBLE - не відображається"
+CARGO_ROWNUM,O,Integer,"№ позиції в таблиці"
+RTP_ROWNUM,O,Integer,"№ транспортної упаковки в таблиці"
+SET_ROWNUM,O,Integer,"№ комплекту документів в таблиці"
+DATA,O,String,Дані запису
+**EXTENSION**,,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Закінчення блоку)"
+**DECLAREXT**,,,"Додаткова інформація для учасників перевезення (закінчення блоку)"
+**SIGN_ENVELOPE**,M,,"Обгортка документа Вантажоотримувача (початок блоку)"
+**SIGNATURE**,M,,Підпис Вантажоотримувача (початок блоку)
+OWNER,M,RECIPIENT,Власник підпису: Вантажоотримувач
+SIGN,M,String,Тіло підпису в base64
+**SIGNATURE**,,,"Підпис Вантажоотримувача (закінчення блоку)"
+**DECLARBODY**,M,,"Основні реквізити від Перевізника під час вивантаження товару (початок блоку)"
+TYPE,M,AMENDMENT,Тип документа (Поправки)
+STAKE,M,TRANSPORTER,Учасник-підписант (Перевізник)
+R017G4S,O,String,Посада водія
+R017G5S,O,String,П.І.Б. водія
+R017G8S,M,String,Ідентифікаційний код Водія
+R017G41S,O,String,Посада експедитора. Поле заповнюється лише при наявності експедитора
+R017G51S,O,String,П.І.Б. експедитора. Поле заповнюється лише при наявності експедитора
+R017G81S,O,String,Ідентифікаційний код Експедитора
+**ACT**,M/O,,Документи про внесення змін. Номер та дата додаткового Акту до е-ТТН. Поле заповнюється лише при наявності акту (початок блоку)
+TYPE,M,String,"Типи актів, які можуть бути зазначені в еТТН:
+
+* ADJUSTMENT - акт виправлень-корекцій
+* RELOAD - акт перевантаження
+* DISAGREEMENT - акт розбіжностей
+* REJECT - акт відмови у завантаженні (відхилення еТТН)
+* WAREHOUSE_CHANGE - заміна складу отримувача"
+ID,M,String,Ідентифікатор акту
+NUMBER,M,String,Номер Акту
+DATE,M,String (YYYY-MM-DD),Дата формування Акту
+DATA,M,String,Додаткова інформація про Акт
+**ACT**,,,Документи про внесення змін. Номер та дата додаткового Акту до е-ТТН. Поле заповнюється лише при наявності акту (закінчення блоку)
+**DECLARBODY**,,,"Основні реквізити від Перевізника під час вивантаження товару (закінчення блоку)"
+**DECLAREXT**,M,,"Додаткова інформація для учасників перевезення (початок блоку)"
+**EXTENSION**,M/O,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Початок блоку)"
+TYPE,O,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BASE_UOM, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE, ORDER_NO, ORDER_DATE, DELIVERY_NOTE_NO, DELIVERY_NOTE_DATE, CONTAINER_NO, SEAL_ADD_TYPE, SEAL_ADD_NO, RTP_TYPE, RTP_NAME, RTP_QUANTITY, TRUCK_NUMBER, PACKING_LIST_NO, PACKING_LIST_DATE, NET_WEIGHT, CAR_COLOR, COUNTERPARTY_CODE, DRIVER_PASSPORT, CERTIFICATE_NUMBER, DRIVER_PHONE, BASE_UOM)","тип даних:
+
+* EMAIL - email,
+* PHONE - номер телефону,
+* DRFO - ідентифікаційний код,
+* DIVISION - Назва філіалу,
+* FULLNAME - Повне ім'я особи,
+* ADDRESS - Адреса,
+* TOWN - Населений пункт,
+* REGION - Район в області,
+* AREA - Область,
+* KOATUU - Код КОАТУУ,
+* GLN - GLN,
+* GROUP - Група користувачів,
+* AGREEMENT - Номер договору,
+* AGREEMENT_DATE - Дата договору,
+* COMMENT - Текстове поле,
+* CONTACT - Контактна інформація,
+* MILAGE - Кілометраж,
+* TRANSPORTATION_REQUEST_NO - Номер заявки на перевезення,
+* TRANSPORTATION_REQUEST_DATE - Дата заявки на перевезення,
+* BARCODE - Штрих-код товару,
+* VENDOR_CODE - Артикул товару,
+* URL - Посилання на документ,
+* QUANTITY - Кількість товару,
+* BASE_UOM - Одиниця виміру кількості товару,
+* BUYER_CODE - Артикул покупця,
+* UKTZED - Код УКТ ЗЕД,
+* PRICE_WITH_VAT - Ціна з ПДВ,
+* SUM_WITHOUT_VAT - Сума без ПДВ,
+* RETURN_TARE - Тара на повернення,
+* ORDER_NO - Номер замовлення,
+* ORDER_DATE - Дата замовлення,
+* DELIVERY_NOTE_NO - Номер повідомлення про відвантаження,
+* DELIVERY_NOTE_DATE - Дата повідомлення про відвантаження,
+* CONTAINER_NO - Номер контейнера,
+* SEAL_ADD_TYPE - Тип пломби,
+* SEAL_ADD_NO - Номер пломби,
+* RTP_TYPE - Тип транспортної упаковки,
+* RTP_NAME - Назва транспортної упаковки,
+* RTP_QUANTITY - Кількість транспортної упаковки,
+* TRUCK_NUMBER - Номер рейсу
+* PACKING_LIST_NO - Номер товарної накладної
+* PACKING_LIST_DATE - Дата товарної накладної
+* NET_WEIGHT - маса нетто за товарною позицією
+* CAR_COLOR - колір авто
+* COUNTERPARTY_CODE - код контрагента
+* DRIVER_PASSPORT - паспортні дані водія
+* CERTIFICATE_NUMBER - номер сертифіката
+* DRIVER_PHONE - телефон водія
+* BASE_UOM - одиниця виміру кількості"
+STAKE,O,"enum (ORIGINATOR, RECIPIENT, TRANSPORTER_DRIVER, ORIGINATOR_DRIVER, TRANSPORTER_EXPEDITION, TRANSPORTER, CUSTOMER, CONSIGNOR, ANY)","запис учасника:
+
+* ORIGINATOR - Ініціатор
+* RECIPIENT - Вантажоотримувач
+* TRANSPORTER_DRIVER - Водій / Водій, що приймає вантаж
+* ORIGINATOR_DRIVER - Водій, що здає вантаж
+* TRANSPORTER_EXPEDITION - Експедитор
+* TRANSPORTER - Перевізник
+* CUSTOMER - Замовник
+* CONSIGNOR - Вантажовідправник
+* ANY - будь-хто"
+VISIBLE,O,"enum (VISIBLE, INVISIBLE)","ознака видимості запису учасникам:
+
+* VISIBLE - відображається,
+* INVISIBLE - не відображається"
+CARGO_ROWNUM,O,Integer,"№ позиції в таблиці"
+RTP_ROWNUM,O,Integer,"№ транспортної упаковки в таблиці"
+SET_ROWNUM,O,Integer,"№ комплекту документів в таблиці"
+DATA,O,String,Дані запису
+**EXTENSION**,,,"Додаткова інформація учасника перевезення. Кожен учасник перевезення, який підписує документ зобовʼязаний зберігати набір полів EXTENSION, який був заповнений учасниками раніше. При цьому можна доповнювати DECLAREXT додатковими EXTENSIONS, але не дозволяється видалення. (Закінчення блоку)"
+**DECLAREXT**,,,"Додаткова інформація для учасників перевезення (закінчення блоку)"
+**SIGN_ENVELOPE**,,,"Обгортка документа Перевізника під час вивантаження товару (закінчення блоку)"
+**SIGNATURE**,M,,"Підпис Перевізника під час вивантаження товару (початок блоку)"
+OWNER,M,TRANSPORTER_DRIVER,"Власник підпису: Перевізник під час вивантаження товару"
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,"Підпис Перевізника під час вивантаження товару (закінчення блоку)"
+**SIGNATURE**,O,,"Підпис Експедитора (початок блоку)"
+OWNER,M,TRANSPORTER_EXPEDITION,"Власник підпису: Експедитор"
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,"Підпис Експедитора (закінчення блоку)"

@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ApplicableTransportSettingTemperature:,,Об'єкт **ApplicableTransportSettingTemperature**,
+minimum,O,string,Мінімальне значення температури
+maximum,O,string,Максимальне значення температури

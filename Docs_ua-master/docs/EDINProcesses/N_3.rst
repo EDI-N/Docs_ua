@@ -1,0 +1,17 @@
+#############################################
+3 EDI + Видаткова накладна (COMDOC_006)
+#############################################
+
+.. image:: pics_EDINProcesses/EDINProcesses_N_3_001.png
+   :height: 700px
+   :align: center
+
+.. csv-table:: 
+  :file: N_3.csv
+  :widths:  7, 42, 7, 21
+  :header-rows: 1
+  :stub-columns: 0
+
+:download:`Завантажити колекцію методів для Postman (EDI + COMDOC_006)<PostmanCollections/EDI + COMDOC_006.postman_collection.json>`
+
+

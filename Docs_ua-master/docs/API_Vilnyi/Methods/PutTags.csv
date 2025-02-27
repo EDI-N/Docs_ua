@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    , **/api/sd/eds/employee/tags?employee_uuid=7c30a623-b84f-44d1-bda1-fdcc5f8be3d7**
+URL параметри ,"**employee_uuid** (обов'язково) UUID - унікальний ідентифікатор користувача"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
+Content-Type  , application/json
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту (json) передається масив об'єктів: `тегів <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/XTagResponse.html>`__ з відредагованими назвами."

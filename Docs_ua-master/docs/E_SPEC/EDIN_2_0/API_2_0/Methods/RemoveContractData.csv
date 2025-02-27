@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/es/contract/data?gln=9864067620417&contract_uuid=ebe77c79-85fc-4c58-a07b-833caac25d65**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**contract_uuid** (обов'язково) UUID - GUID контракту"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу може передаватись об'єкт з масивом **productID**, що містить список id позицій вказаного контракту (**видалення позицій**). Для **видалення контракту** тіло запиту не передається."

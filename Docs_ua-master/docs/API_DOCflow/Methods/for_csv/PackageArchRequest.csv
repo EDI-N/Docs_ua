@@ -1,0 +1,9 @@
+Параметр, Формат, Опис
+.. _PackageArchRequest:, Об'єкт **PackageArchRequest**,
+requestUuid,uuid,uuid запиту
+userId,long,ID користувача
+packageId,long,ID комплекту
+companyId,long,ID компанії-відправника запиту
+docStatuses,List,масив статусів документів які потраплять в архів
+isArchReady,int, "0 - архів ще не створений; 1 - архів уже створено;"
+zipArchName,long,"ім'я архіву (поле заповнене тільки якщо isArchReady == 1)"

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document-Invoice>
+  <Invoice-Header>
+    <InvoiceNumber>3222_3</InvoiceNumber>
+    <InvoiceDate>2022-09-08</InvoiceDate>
+    <DocumentFunctionCode>DRN</DocumentFunctionCode>
+    <ContractNumber>12312564</ContractNumber>
+    <ContractDate>2022-12-21</ContractDate>
+  </Invoice-Header>
+  <Invoice-Reference>
+    <Order>
+      <BuyerOrderNumber>ftp_3037_1</BuyerOrderNumber>
+      <BuyerOrderDate>2022-09-08</BuyerOrderDate>
+    </Order>
+    <TaxInvoice>
+      <TaxInvoiceDate>2022-09-08</TaxInvoiceDate>
+    </TaxInvoice>
+  </Invoice-Reference>
+  <Invoice-Parties>
+    <Buyer>
+      <ILN>9864066866014</ILN>
+      <TaxID>1010101014</TaxID>
+      <UtilizationRegisterNumber>34554362</UtilizationRegisterNumber>
+      <Name>Епіцентр</Name>
+      <StreetAndNumber>ул Улица</StreetAndNumber>
+      <CityName>г Городок</CityName>
+      <PostalCode>102030</PostalCode>
+      <PhoneNumber>#</PhoneNumber>
+    </Buyer>
+    <Seller>
+      <ILN>9864065732181</ILN>
+      <TaxID>1234567890</TaxID>
+      <CodeByBuyer>12312564</CodeByBuyer>
+      <UtilizationRegisterNumber>34554363</UtilizationRegisterNumber>
+      <Name>FelEx_1</Name>
+      <StreetAndNumber>ул. Умница, 3</StreetAndNumber>
+      <CityName>г. Херсон</CityName>
+      <PostalCode>453278</PostalCode>
+      <PhoneNumber>380930000000</PhoneNumber>
+    </Seller>
+    <DeliveryPoint>
+      <ILN>9864066866014</ILN>
+      <Name>Епіцентр</Name>
+      <CityName>г Городок</CityName>
+      <StreetAndNumber>ул Улица</StreetAndNumber>
+      <PostalCode>102030</PostalCode>
+    </DeliveryPoint>
+  </Invoice-Parties>
+  <Invoice-Lines>
+    <Line>
+      <Line-Item>
+        <LineNumber>1</LineNumber>
+        <EAN>1472583690147</EAN>
+        <BuyerItemCode>11111111</BuyerItemCode>
+        <ExternalItemCode>3333333333</ExternalItemCode>
+        <ItemDescription>drink1</ItemDescription>
+        <InvoiceQuantity>3.000</InvoiceQuantity>
+        <BuyerUnitOfMeasure>шт</BuyerUnitOfMeasure>
+        <InvoiceUnitGrossPrice>540</InvoiceUnitGrossPrice>
+        <InvoiceUnitNetPrice>450.00</InvoiceUnitNetPrice>
+        <TaxRate>20</TaxRate>
+        <TaxCategoryCode>S</TaxCategoryCode>
+        <GrossAmount>1620.00</GrossAmount>
+        <TaxAmount>270.00</TaxAmount>
+        <NetAmount>1350.000000</NetAmount>
+      </Line-Item>
+    </Line>
+  </Invoice-Lines>
+  <Invoice-Summary>
+    <TotalLines>1</TotalLines>
+    <TotalNetAmount>1350.00</TotalNetAmount>
+    <TotalTaxAmount>270.00</TotalTaxAmount>
+    <TotalGrossAmount>1620.00</TotalGrossAmount>
+  </Invoice-Summary>
+</Document-Invoice>

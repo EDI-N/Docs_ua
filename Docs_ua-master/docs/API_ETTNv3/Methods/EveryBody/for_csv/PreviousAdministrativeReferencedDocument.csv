@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _PreviousAdministrativeReferencedDocument:,,Об'єкт **PreviousAdministrativeReferencedDocument**,
+typeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__"
+id,M,string,Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій
+remarks,O,string,Base64 документа попередньої версії
+**formattedIssueDateTime**,O,DateTimeString_,"об'єкт; Дата складання документа, на основі якого складено поточний документ"
+**attachedSpecifiedBinaryFile**,M/O,AttachedSpecifiedBinaryFile_,"об'єкт; Дані документа до якого складається поточний документ. Обов'язковий при створенні Акта"

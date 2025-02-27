@@ -1,0 +1,18 @@
+Параметр, Формат, Опис
+.. _PackageFilterPart:, Об'єкт **PackageFilterPart**,
+folder,long,каталог (1 - Вхідні (inbox); 2 - Відправлені (outbox); 3 - Черновик (draft))
+fileName,String,пошук по імені файлу документа
+packageDictionaryValue,DictionaryValue_,об'єкт; пошук по значенню довідника комплекта документів
+extraField,ExtraField_,"об'єкт; пошук по значенню екстра поля; досить вказати 2 параметра: ExtraField {fieldId:1212, value:'dfdb'}"
+recipientCompaniesIds,List<Long>,масив id отримувачів
+senderCompaniesIds,List<Long>,масив id відправників
+contractIds,List<Long>,масив id сценаріїв документообігу
+packageTypesIds,List<Long>,масив; по типам комплектів документів
+packageChainIds,List<Long>,масив; по версії типу комплекта документів
+packageStatuses,List<Long>,"масив; по статусам комплектів документів, де ``1`` - чернетка; ``2`` - відправлений; ``3`` - прийнятий; ``4`` - запит на уточнення; ``5`` - відхилений; ``6`` - оброблений; ``7`` - відмова"
+dateFrom,long,по даті зміни комплекта документів (unix timestamp)
+dateTo,long,по даті зміни комплекта документів (unix timestamp)
+packageNumber,String,по номеру комплекта документів
+isReadFromApi,Integer,"ознака завантаження по API (0 - ні, 1 - так)"
+isRead,Integer,"ознака, що комплект прочитаний (0 - ні, 1 - так)"
+

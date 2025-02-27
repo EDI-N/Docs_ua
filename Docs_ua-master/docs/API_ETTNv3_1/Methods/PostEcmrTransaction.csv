@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/eds/doc/ettn/ttn/transaction?doc_uuid=13891ca1-76ff-40a6-927b-98db9444d3bf&gln=9864065732327**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної організації на платформі
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , *application/json* або *application/xml*
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу (в json форматі) передається транзакція - контент документа без підписів (`об'єкт Ecmr <https://wiki.edin.ua/uk/latest/API_ETTNv3/Methods/EveryBody/Ecmr.html>`__)"

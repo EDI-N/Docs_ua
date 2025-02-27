@@ -1,0 +1,21 @@
+Параметр, Формат, Опис
+.. _Contract:, Об'єкт **Contract**,
+contractId,long,ID сценарію документообігу
+number,String,номер документа
+contractName,String,назва сценарію документообігу
+date,long,дата документа у форматі UNIX TimeStamp
+**ownerCompany**,Company_,об'єкт; інформація про компанію відправника (власника)
+**clientCompany**,Company_,об'єкт; інформація про компанію одержувача (клієнта)
+description,String,опис / додаткова інформація
+expiredDate,long,дійсний до (дата у форматі UNIX TimeStamp)
+sentDate,long,дата відправки у форматі UNIX TimeStamp
+status,int,"статус; 0 - Чернетка; 1 - Новий; 2 - Прийнято; 3 - Відхилено; 4 - Розірвано; 5 - Чекає підписання; значення за замовчуванням = ""0"""
+paymentStatus,int,"ознака, що визначає платника за транзакцію; 0 - Відправник (клієнт), 1 - Одержувач (власник); значення за замовчуванням = ""0"";"
+isSpecialConditions,int,ознака використання спеціальних умов обслуговування
+isAllClientSenderPackages,int,"відмітка ""всі комплекти"" для вхідних; 0 - немає, 1 — так"
+isAllOwnerSenderPackages,int,"відмітка ""всі комплекти"" для вихідних; 0 - немає, 1 — так"
+**specialConditions**,SpecialConditions_,об'єкт; спеціальні умови
+**dictionaries**,List<Dictionary_>,масив об'єктів; дані довідників
+**tags**,List<Tag_>,масив об'єктів; дані тегів
+**ownerPackages**,List<PackageType_>,масив об'єктів; дані комплектів документів відправника
+**clientPackages**,List<PackageType_>,масив об'єктів; дані комплектів документів одержувача

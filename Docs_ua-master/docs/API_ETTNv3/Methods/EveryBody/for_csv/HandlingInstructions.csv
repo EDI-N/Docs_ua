@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _HandlingInstructions:,,Об'єкт **HandlingInstructions**,
+**applicableTransportSettingTemperature**,O,ApplicableTransportSettingTemperature_,"об'єкт; Температурний режим, необхідний для перевезення вантажу"

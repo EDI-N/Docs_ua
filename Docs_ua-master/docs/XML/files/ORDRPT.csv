@@ -1,0 +1,63 @@
+**Document-OrdersReport**,M,,Початок документа
+**OrdersReport-Header**,M,,Заголовна частина (початок блоку)
+OrdersReportNumber,M,Рядок(35),Номер документа
+OrdersReportDate,M,YYYY-MM-DD,Дата документа
+OrdersReportTime,O,hh:mm,Час документа
+DocumentFunctionCode,O,Рядок(3),"Функціональний код документа; допустимі значення: «O» - оригінал,  «C» - коригування"
+ContractType,M,Рядок(70),Тип контракту
+ContractNumber,M,Рядок(70),Номер контракту
+ContractDate,O,YYYY-MM-DD,Дата контракту
+**OrdersReport-Header**,,,Заголовна частина (закінчення блоку)
+**OrdersReport-Parties**,M,,Контрагенти (початок блоку)
+**Buyer**,M,,Покупець (початок блоку)
+ILN,M,Рядок(13),GLN Покупця
+CodeBySeller,M,Рядок(35),Код Покупця від Продавця
+TaxID,O,Рядок(35),Податковий ідентифікатор Покупця
+UtilizationRegisterNumber,M,Рядок(35),NIP Покупця
+Name,M,Рядок(175),Назва Покупця
+StreetAndNumber,O,Рядок(175),Назва вулиці та номер будівлі Покупця
+CityName,O,Рядок(35),Назва міста Покупця
+PostalCode,O,Рядок(9),Поштовий індекс Покупця
+Country,O,Рядок(3),Країна Покупця (згідно ISO 3166)
+PhoneNumber,O,Рядок(35),Номер телефону Покупця
+VatPayerCertificate,O,Рядок(70),Свідоцтво платника Покупця
+**Buyer**,,,Покупець (закінчення блоку)
+**Seller**,M,,Продавець (початок блоку)
+ILN,M,Рядок(13),GLN Продавця
+TaxID,M,Рядок(35),Податковий ідентифікатор Продавця
+UtilizationRegisterNumber,M,Рядок(35),NIP Продавця
+Name,M,Рядок(175),Назва Продавця
+StreetAndNumber,O,Рядок(175),Назва вулиці та номер будівлі Продавця
+CityName,M,Рядок(35),Назва міста Продавця
+PostalCode,M,Рядок(9),Поштовий індекс Продавця
+Country,M,Рядок(3),Країна Продавця (згідно ISO 3166)
+PhoneNumber,O,Рядок(35),Номер телефону Продавця
+VatPayerCertificate,O,Рядок(70),Свідоцтво платника Продавця
+**FinancialInformation**,O,,Фінансова інформація (початок блоку)
+BankIdentifierCode,M,Рядок(11),Ідентифікаційний код банку Продавця
+BankAccount,M,Рядок(17),Банківський рахунок Продавця
+BankName,M,Рядок(70),Назва банку Продавця
+IBAN,O,Рядок(35),IBAN Продавця
+**FinancialInformation**,,,Фінансова інформація (закінчення блоку)
+**ContactInformation**,O,,Контакти (початок блоку)
+ContactFunction,O,Рядок(512),Контакт Продавця
+ManagingPerson,O,Рядок(17),Менеджер Продавця
+ManagingPersonFather,O,Рядок(35),По батькові менеджера Продавця
+PhoneNumber,O,Рядок(512),Номер телефону Продавця
+**ContactInformation**,,,Контакти (закінчення блоку)
+**Seller**,,,Продавець (закінчення блоку)
+**OrdersReport-Parties**,,,Контрагенти (закінчення блоку)
+**OrdersReport-Lines**,M,,Таблична частина (початок блоку)
+**Line**,M,,Рядок (початок блоку)
+**Line-Item**,M,,Пункт в рядку (початок блоку)
+LineNumber,M,[0-9](5),Номер рядка
+ItemDescription,O,Рядок(256),Опис пункту (товару)
+PenaltyAmount,M,Число десяткове(2),Сума штрафу
+**Line-Item**,,,Пункт в рядку (закінчення блоку)
+**Line**,,,Рядок (закінчення блоку)
+**OrdersReport-Lines**,,,Таблична частина (закінчення блоку)
+**OrdersReport-Summary**,M,,Всього (початок блоку)
+TotalLines,M,[0-9](5),Всього рядків
+TotalPenaltyAmount,M,Число десяткове(2),Загальна сума штрафу
+**OrdersReport-Summary**,,,Всього (закінчення блоку)
+**Document-OrdersReport**,,,Завершення документа

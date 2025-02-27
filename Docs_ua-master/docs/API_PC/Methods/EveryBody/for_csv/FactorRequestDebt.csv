@@ -1,0 +1,11 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _FactorRequestDebt: , Об'єкт **FactorRequestDebt**,,
+id,long,O,ідентифікатор дебітора
+requestId,O,long,ідентифікатор запиту
+gln,M,String,GLN дебітора
+supplyContractNumber,M,String,№ договору постачання
+supplyContractDate,M,String,дата початку договору постачання
+supplyContractExpiredDate,M,String,дата закінчення договору постачання
+isSupplyContractProlong,O,int,"автопролонгація договору поставки (0-ні, 1-так)"
+companyName,O,String,назва компанії-дебітора
+companyCode,O,String,код компанії-дебітора

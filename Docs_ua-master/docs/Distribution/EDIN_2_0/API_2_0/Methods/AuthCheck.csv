@@ -1,0 +1,6 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/auth_check**
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

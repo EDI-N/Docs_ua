@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _Package2ExtraField:, Об'єкт **Package2ExtraField**,
+packageId,long,id комплекта
+fillType,int,тип заповнення; 1 - заповнює клієнт; 2 - заповнює власник; 3 - заповнюють обидва
+required,int,"ознака обов'язковості; 0 - немає, 1 - так"
+**extraField**,ExtraField_,об'єкт; дані додаткового поля

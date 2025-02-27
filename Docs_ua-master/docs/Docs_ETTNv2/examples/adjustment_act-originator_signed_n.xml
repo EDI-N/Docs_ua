@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SIGN_ENVELOPE STATE="ORIGINATOR_SIGNED">
+        <DECLARHEAD>
+            <C_DOC>Код документа</C_DOC>
+            <C_DOC_SUB>Подтип документа</C_DOC_SUB>
+            <C_DOC_VER>Версия документа</C_DOC_VER>
+        </DECLARHEAD>
+	    <DECLARBODY TYPE="CORE" STAKE="ORIGINATOR">
+            <HNUM>Номер акта корректировки</HNUM>
+            <HFILL>Дата акта корректировки</HFILL>
+            <BASE_HNUM>Номер ТТН</BASE_HNUM>
+            <BASE_HFILL>Дата ТТН</BASE_HFILL>
+            <UUID_TTN>a30f8385-87a3-4a7d-b8fe-e6e2f756b6dd</UUID_TTN>
+            <DOCUMENT_PLACE>Место составления акта корректировки</DOCUMENT_PLACE>
+            <R02G21S>ЕГРПОУ/ИНН заказчика</R02G22S>
+            <HTIN>ЕГРПОУ/ИНН грузоотправителя</HTIN>
+            <R02G11S>ЕГРПОУ/ИНН перевозчика</R02G11S>
+            <R02G3S>Фамилия водителя</R02G3S>
+            <R02G31S>Имя водителя</R02G31S>
+            <R02G32S>Отчество водителя</R02G32S>
+            <R02G4S>Серия, номер прав водителя</R02G4S>
+            <DRIVER_ID>ИНН водителя</DRIVER_ID>
+            <R04G1S>ЕГРПОУ/ИНН грузополучателя</R04G1S>
+            <ADJUSTMENT>
+               <DOCUMENT_PLACE>Место составления ТТН</DOCUMENT_PLACE>
+               <R01G10S>Вид перевозки</R01G10S>
+               <R02G2S>Название заказчика</R02G2S>
+               <HNAME>Название грузоотправителя</HNAME>
+               <HLOC>Юр. адрес грузоотправителя</HLOC>
+               <R02G1S>Название перевозчика</R02G1S>
+               <R04G2S>Название грузополучателя</R04G2S>
+               <R04G3S>Юр. адрес грузополучателя</R04G3S>
+               <R05G2S>Адрес пункта погрузки</R05G2S>
+               <R05G4S>Адрес пункта разгрузки</R05G4S>
+               <R010G3S>Всего отпущено на общую сумму с НДС (словами)</R010G3S>
+               <R011G1>В том числе НДС</R011G1>
+               <DECLARBODY_ORIGINATOR_SECURITY>
+                  <FIRST_NAME>Имя</FIRST_NAME>
+                  <LAST_NAME>Фамилия</LAST_NAME>
+                  <FATHERS_NAME>Отчество</FATHERS_NAME>
+                  <DOCUMENT_TYPE>Тип документа</DOCUMENT_TYPE>
+                  <DOCUMENT_ID>Номер документа</DOCUMENT_ID>
+                  <DOCUMENT_DATE>Дата документа</DOCUMENT_DATE>
+               </DECLARBODY_ORIGINATOR_SECURITY>
+               <T1RXXXXG81S ROWNUM="1">Наименование груза</T1RXXXXG81S>
+               <T1RXXXXG9S ROWNUM="1">Единица измерения</T1RXXXXG9S>
+               <T1RXXXXG11 ROWNUM="1">Цена за единицу без НДС</T1RXXXXG11>
+               <T1RXXXXG12 ROWNUM="1">Общая сумма с НДС</T1RXXXXG12>
+               <T1RXXXXG13S ROWNUM="1">Вид упаковки</T1RXXXXG13S>
+               <T1RXXXXG14S ROWNUM="1">Документы с грузом</T1RXXXXG14S>
+               <R001G12>Всего общая сумма с НДС</R001G12>
+               <DATE_ARRIVAL_LOAD>Дата прибытия</DATE_ARRIVAL_LOAD>
+               <R08G31>Время прибытия (час)</R08G31>
+               <R08G32>Время прибытия (мин)</R08G32>
+               <DATE_DEPARTURE_LOAD>Дата отправления</DATE_DEPARTURE_LOAD>
+               <R08G41>Время отправления (час)</R08G41>
+               <R08G42>Время отправления (мин)</R08G42>
+               <R08G51>Время простоя (час)</R08G51>
+               <R08G52>Время простоя (мин)</R08G52>
+               <R017G11S>Должность ответственного лица грузоотправителя</R017G11S>
+               <R017G1S>ФИО ответственного лица грузоотправителя</R017G1S>
+               <DATE_ARRIVAL_UNLOAD>Дата прибытия</DATE_ARRIVAL_UNLOAD>
+               <R09G31>Время прибытия (час)</R09G31>
+               <R09G32>Время прибытия (мин)</R09G32>
+               <DATE_DEPARTURE_UNLOAD>Дата отправления</DATE_DEPARTURE_UNLOAD>
+               <R09G41>Время отправления (час)</R09G41>
+               <R09G42>Время отправления (мин)</R09G42>
+               <R09G51>Время простоя (час)</R09G51>
+               <R09G52>Время простоя (мин)</R09G52>
+               <R017G61S>Должность ответственного лица грузополучателя</R017G61S>
+               <R017G6S>ФИО ответственного лица грузополучателя</R017G6S>
+               <DECLAREXT>
+                  <EXTENSION TYPE="DIVISION" STAKE="TRANSPORTER">Закарпатське відділення N1</EXTENSION>
+                  <EXTENSION TYPE="KOATUU" STAKE="RECIPIENT" VISIBLE="INVISIBLE">2100000000</EXTENSION>
+                  <EXTENSION TYPE="BARCODE" STAKE="ORIGINATOR" CARGO_ROWNUM="1">12345678</EXTENSION>            
+               </DECLAREXT>
+            </ADJUSTMENT>
+            <ADJUSTMENT_INFORMATION>Описание причин составления акта</ADJUSTMENT_INFORMATION>
+        </DECLARBODY>
+    </SIGN_ENVELOPE>
+    <SIGNATURE OWNER="ORIGINATOR">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+</DECLAR>

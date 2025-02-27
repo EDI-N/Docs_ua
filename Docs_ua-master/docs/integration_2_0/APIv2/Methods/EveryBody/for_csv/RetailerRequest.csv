@@ -1,0 +1,29 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _RetailerRequest: ,**Об'єкт RetailerRequest** ,
+accountId,,long,id акаунта
+retailerId,,long,id мережі
+status,,int,"статус заявки:
+
+- 0 - Чернетка
+- 1 - На розгляді
+- 2 - Прийнято
+- 3 - Відхилено"
+gln,,String,GLN номер
+contractNumber,,String,номер договору
+contractDate,,String,дата договору
+info,,String,додаткова інформація
+rejectComment,,String,коментар до відхилення заявки
+dateCreated,,String,дата створення
+fio,,String,ПІБ
+phone,,String,контактний телефон
+email,,String,email
+type,,int,"тип підключення
+
+- 1 - з ЮЗД
+- 2 - без ЮЗД"
+code,,String,Код (Для ТМ Розетка в поле обов'язково потрібно вказати код товару з сайту Розетки)
+inn,,String,код ІПН
+edrpou,,String,код ЄДРПОУ/КПП
+companyName,,String,назва компанії
+id,,long,id компанії
+**retailer**,,Retailer_,об'єкт; дані мережі

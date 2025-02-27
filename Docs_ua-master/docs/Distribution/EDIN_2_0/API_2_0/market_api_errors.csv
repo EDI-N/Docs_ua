@@ -1,0 +1,22 @@
+**Код відповіді**,**Індекс помилки**,**Текст помилки**,**Опис**
+400,ERR_MRKT-1,"Validation document errors: [%s]
+
+Документ містить помилки: [%s]","Помилка виникає, якщо не передати обовязковий url-параметр"
+400,ERR_MRKT-2,"No connection between producer and distributor
+
+Відсутній зв'язок між Продавцем (Виробником) і Покупцем (Дистрибʼютором)",
+400,ERR_MRKT-3,"The currency doesn't match the one already set
+
+Валюта не відповідає вже встановленій",
+400,ERR_MRKT-4,"Save pricelist error: [%s]
+
+Помилка при збереженні прайсу: [%s]",
+400,ERR_MRKT-5,"Position with barcode [%s] not found in original order
+
+Позиції з штрихкодом [%s] не знайдено в оригінальному замовленні",
+400,ERR_MRKT-6,"The 'VAT included' doesn't match the one already set
+
+Ознака 'З/Без ПДВ' у існуючого прайсу відрізняється",
+400,ERR_MRKT-7,"Some positions don't have a price %s vat
+
+По деяких позиціях відсутня ціна %s ПДВ",

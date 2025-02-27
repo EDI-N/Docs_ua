@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _XNoveltyMarketing: , Об'єкт **XNoveltyMarketing** ,
+promotion,String,Просування (%)
+logistics,String,Логістика (%)
+damage,String,Псування продукту (%)
+TPR,String,ТPR бюджет (%)

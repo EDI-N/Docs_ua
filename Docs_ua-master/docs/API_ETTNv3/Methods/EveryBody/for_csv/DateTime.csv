@@ -1,0 +1,3 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DateTime:,,Об'єкт **DateTime**,
+dateTime,,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа

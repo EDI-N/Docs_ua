@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XSearchCategories: ,, Об'єкт **XSearchCategories** ,
+all,O,boolean,чи весь довідник
+withSubCategories,O,boolean,чи включно з дочірніми підкатегоріями 
+ids,O,List<Long>,за списком ідентифікаторів (масив значень)
+name,O,String,за назвою
+names,O,List<String>,за списком назв (масив значень)

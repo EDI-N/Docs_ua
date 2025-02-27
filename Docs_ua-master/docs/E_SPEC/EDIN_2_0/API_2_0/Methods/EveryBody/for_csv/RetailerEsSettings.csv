@@ -1,0 +1,23 @@
+Параметр, Формат, Опис
+.. _RetailerEsSettings: , Об'єкт **RetailerEsSettings** ,
+changePriceTerm,int,термін подачі на розгляд регулярних цін
+isPriceWithDiscount,boolean,робота з ціною зі знижкою
+isPriceWithVat,boolean,узгодження за ціною з ПДВ
+maxNumbersOfAgreements,int,максимальна кількість узгоджень
+isChangePricePeriod,boolean,доступ до зміни термінів дії
+changePromoPriceTerm,int,термін подачі на розгляд промо цін
+changeLastingTerm,int,період дії регулярних цін (за замовчуванням)
+changePromoLastingTerm,int,період дії промо цін (за замовчуванням)
+changeOutputGoodsTerm,int,термін подачі на розгляд призупинки/виводу товарів
+isNewPositions,boolean,"відображення списка мереж на стороні Постачальника у вкладці Новинки"
+isExtendedSpec,boolean,тільки розширені характеристики
+isOutputGoods,boolean,призупинка/вивід товарів з асортимента
+isTypePromo,boolean,узгодження промо ціни
+isPromoQuantity,boolean,відображення колонки Кількість товарів промо
+isExtendedSpecUcat,boolean,тільки розширені характеристики Ucat
+isSignUnBlock,boolean,можливо підписувати «Товарну специфікацію» (COMDOC_008) за день до початку дії ціни
+isProlongationContract,boolean,автоматична пролонгація контракту
+isNewSupplier,boolean,нові постачальники
+isReplaceProductlistData,boolean,попередня очистка «Електронної специфікації» (PRODUCTLIST)
+isActionControl,boolean,керування акціями
+isWorkWithUKTVED,boolean,робота з кодом УКТЗЕД

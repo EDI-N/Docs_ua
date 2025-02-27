@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <SENDER>1111111111111</SENDER>
+    <RECIPIENT>2222222222222</RECIPIENT>
+    <NUMBER>0001</NUMBER>
+    <DATE>2021-10-29</DATE>
+    <CATEGORY>Вода</CATEGORY>
+    <GROUP1>Водичка</GROUP1>
+    <GROUP2>Сильногазовані</GROUP2>
+    <GROUP_ID>Моршинська</GROUP_ID>
+    <POSTPONEMENT>5</POSTPONEMENT>
+    <MARKETING>
+        <PROMOTION>Продвижение</PROMOTION>
+        <LOGISTICS>Логистика</LOGISTICS>
+        <DAMAGE>Порча продукта</DAMAGE>
+        <TPR>ТPR-бюджет</TPR>
+    </MARKETING>
+    <RESPONSIBLE_OFFICER>
+        <SURNAME>Петренко</SURNAME>
+        <NAME>Ответственный сотрудник поставщика</NAME>
+        <MIDDLENAME>Петрович</MIDDLENAME>
+        <EMAIL>petrovich.best@gmail.com</EMAIL>
+        <PHONE>+380991234567</PHONE>
+    </RESPONSIBLE_OFFICER>
+    <STORAGE_CONDITIONS>Условия хранения товара</STORAGE_CONDITIONS>
+    <DELIVERY_OPTION>распределительный центр и/или магазин</DELIVERY_OPTION>
+    <MINIMAL_AMOUNT>Минимальная сумма заказа</MINIMAL_AMOUNT>
+    <DELIVERY_REGION>Дніпропетровська</DELIVERY_REGION>
+    <REASON_REJECTION>Щось зламалось</REASON_REJECTION>
+    <ACCEPTATION_COMMENT>Коментар</ACCEPTATION_COMMENT>
+    <POSITION>
+        <POSITIONNUMBER>1</POSITIONNUMBER>
+        <NAME>Наименование1</NAME>
+        <BARCODE>Штрихкод1</BARCODE>
+        <BRAND>Торговая марка 1</BRAND>
+        <PRODUCER_NAME>Производитель1</PRODUCER_NAME>
+        <UNIT>шт.</UNIT>
+        <UNIT_WEIGHT>21</UNIT_WEIGHT>
+        <UNIT_VOLUME>31</UNIT_VOLUME>
+        <UNIT_PRICE>11.5</UNIT_PRICE>
+        <WEIGHT_PRICE>201</WEIGHT_PRICE>
+        <VOLUME_PRICE>201</VOLUME_PRICE>
+        <VAT>1</VAT>
+        <PROFITABILITY>2</PROFITABILITY>
+        <ICON_LINK>посилання на іконку</ICON_LINK>
+        <LOGO_LINK>посилання на фото</LOGO_LINK>
+        <TRADE_CONDITION>
+            <RETAILER_NAME>Розничная сеть №1</RETAILER_NAME>
+            <EDRPOU_CODE>3333331</EDRPOU_CODE>
+            <PRICE>9.5</PRICE>
+        </TRADE_CONDITION>
+    </POSITION>

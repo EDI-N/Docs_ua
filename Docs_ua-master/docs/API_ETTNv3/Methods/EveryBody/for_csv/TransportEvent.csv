@@ -1,0 +1,10 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _TransportEvent:,,Об'єкт **TransportEvent**,
+id,O/-,string,Порядковий номер події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
+typeCode,O,string,"Тип операції (розвантаження=5, завантаження=10)"
+description,O/-,string,Опис
+**actualOccurrenceDateTime**,O,DateTime_,об'єкт; Дата і час прибуття автомобіля на розвантаження
+**scheduledOccurrenceDateTime**,O,DateTime_,об'єкт; Дата і час вибуття автомобіля з-під розвантаження
+**occurrenceLogisticsLocation**,O/M,LogisticsLocation_,об'єкт; Місцезнаходження
+**certifyingTradeParties**,O/M,List<TradeParty_>,"масив об'єктів; Інформація (РНОКПП) про відповідальних осіб (підписантів), що передбачені логікою документообігу"
+**applicableNotes**,O,List<ApplicableNote_>,масив об'єктів; Примітки

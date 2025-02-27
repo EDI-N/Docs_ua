@@ -1,0 +1,4 @@
+Параметр,Формат,Опис
+id,long,GLN ідентифікатор
+mediaType,String,тип даних
+logoBase64,String,контент логотипу в base64 форматі

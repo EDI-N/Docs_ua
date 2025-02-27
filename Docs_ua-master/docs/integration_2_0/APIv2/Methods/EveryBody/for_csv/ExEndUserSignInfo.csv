@@ -1,0 +1,6 @@
+Параметр, Формат, Опис
+.. _ExEndUserSignInfo:, Об'єкт **ExEndUserSignInfo**,
+isStamp,boolean,true - печатка; false - підпис
+**ownerInfo**,EndUserOwnerInfo_,об'єкт; дані власника сертифікату
+**timeInfo**,ExEndUserTimeInfo_,об'єкт; дата підписання сертифікату
+**certificateInfo**,EndUserCertificateInfo,об'єкт; дані про сертифікат

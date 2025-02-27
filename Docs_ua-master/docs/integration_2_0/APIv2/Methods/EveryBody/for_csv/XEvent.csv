@@ -1,0 +1,16 @@
+Параметр,Формат,Опис
+.. _XEvent: ,**Об'єкт XEvent** ,
+id,long,ідентифікатор події
+docId,long,id документа
+type,int,"тип події: 
+
+* 0 - новий відправлений документ (`метод відправки документів через API <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocumentWithoutDraft.html>`__);
+* 1 - створено чернетку;
+* 2 - створено новий вхідний документ;
+* 3 - у документа змінився статус;
+* 4 - у документа змінився сабстатус (`детальніше про exchange_status <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/Ticket_exchange_status.html>`__);
+* 5 - документ змінився (всі інші зміни документа поза зміною статусу та сабстатусу);
+* 6 - чернетку видалено;
+* 7 - додано вкладення до документа (`XDocAttachment <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/PostAttachmentResponse.html>`__);
+* 8 - додано новий статус `XStatus <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XStatus.html>`__;
+* 9 - видалено статус `XStatus <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XStatus.html>`__"

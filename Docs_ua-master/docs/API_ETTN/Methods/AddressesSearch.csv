@@ -1,0 +1,10 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/oas/v2/company/addresses/search?edrpou=3148615913&query=к**
+URL параметри ,"**edrpou** (обов'язково) long - ЄДРПОУ компанії в довіднику якої здійснюється пошук
+
+**query** (опціонально) String - текст пошуку (пошук здійснюється за назвою / містом / вулицею / кодом КОАТУУ). Якщо не вказувати параметр query, то прийде список з перших 10 адрес з довідника даної компанії
+**isKatottgRequired** (опціонально) boolean - при true значенні пошук здійснюється лише по записах з заповненим значенням коду КАТОТТГ"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json

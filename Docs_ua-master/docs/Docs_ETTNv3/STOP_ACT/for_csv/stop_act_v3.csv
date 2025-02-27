@@ -1,0 +1,128 @@
+Назва поля,Тип [1]_,Формат,Опис
+**UAECMR_ACT**,M,,(початок документа)
+**ACT**,M,,(початок змісту документа)
+**ExchangedDocumentContext**,M,,Технічні дані (початок блоку)
+ram:SpecifiedTransactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,M,,"параметр контексту документа, визначений бізнес-процесом (початок блоку)"
+ram:ID,M,string,код документа
+**ram:BusinessProcessSpecifiedDocumentContextParameter**,,,"параметр контексту документа, визначений бізнес-процесом (закінчення блоку)"
+**ram:GuidelineSpecifiedDocumentContextParameter**,M,,"параметр контексту визначеного документа (початок блоку)"
+ram:ID,M,unsignedByte,підтип документа
+**ram:GuidelineSpecifiedDocumentContextParameter**,,,"параметр контексту визначеного документа (закінчення блоку)"
+**ExchangedDocumentContext**,,,Технічні дані (закінчення блоку)
+**ExchangedDocument**,M,,Реквізити Акта (початок блоку)
+ram:ID,M,string,номер документа
+**ram:IssueDateTime**,M,,Дата і час складання документа (початок блоку)
+**udt:DateTime**,,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання Акта
+**ram:IssueDateTime**,,,Дата і час складання документа (закінчення блоку)
+ram:Remarks,O,string,Інші примітки
+**ram:IssueLogisticsLocation**,M,,Місце складання документа (початок блоку)
+ram:Name,M,string,Найменування місця складання Акта
+ram:Description,M,string,Опис (адреса) місця складання Акта
+**ram:IssueLogisticsLocation**,,,Місце складання документа (закінчення блоку)
+**ExchangedDocument**,,,Реквізити Акта (закінчення блоку)
+**StopActPayload**,M,,Інформація про Акт (початок блоку)
+**PreviousAdministrativeReferencedDocument**,M,,"Інформація про е-ТТН, для якої складається акт (початок блоку)"
+ram:TypeCode,M,string,Тип документа (730 - ТТН). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:ID,M,string,Номер документа-підстави (ТТН); має відповідати номеру документа ExchangedDocument.ID еТТН
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (початок блоку)
+qdt:DateTimeString,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час документа-підстави (ТТН)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (ТТН); має відповідати даті документа ExchangedDocument.IssueDateTime еТТН (закінчення блоку)
+**ram:AttachedSpecifiedBinaryFile**,M,,"Дані е-ТТН, для якої складається акт (початок блоку)"
+ram:ID,M,string,Ідентифікатор (guid) документа-підстави (ТТН); має відповідати document.id еТТН в ЦБД (значення **ettnId** з методу `Отримання списку подій з ЦБД  <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/MintransEvents.html>`__ = значення **external_doc_id** `Отримання мета-даних документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocument.html>`__)
+ram:URIID,O,string,посилання на документ
+ram:MIMECode,O,string,`MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+ram:SizeMeasure,O,long,розмір файлу в байтах
+**ram:AttachedSpecifiedBinaryFile**,,,"Дані е-ТТН, для якої складається акт (закінчення блоку)"
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про е-ТТН, для якої складається акт (закінчення блоку)"
+**PreviousAdministrativeReferencedDocument**,-/M,,"Інформація про попередній акт, у випадку наступної транзакції (початок блоку)"
+ram:TypeCode,M,string,Тип документа. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:ID,M,string,Номер документа-підстави (Акт); має відповідати номеру документа ExchangedDocument.ID Акта
+**ram:FormattedIssueDateTime**,M,,Дата документа-підстави (Акт); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (початок блоку)
+qdt:DateTimeString,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час документа-підстави (Акта)
+**ram:FormattedIssueDateTime**,,,Дата документа-підстави (Акта); має відповідати даті документа ExchangedDocument.IssueDateTime Акта (закінчення блоку)
+**PreviousAdministrativeReferencedDocument**,,,"Інформація про попередній акт, у випадку наступної транзакції (закінчення блоку)"
+**InitiatorTradeParty**,M,,"Ініціатор акта - Замовник (початок блоку). Тут наведено приклад, коли ініціатором Акта є Замовник  -  у документа буде дві сторони-підписувачі: Замовник та Перевізник."
+**ram:ID**,M,,"Ідентифікаційний код Замовника (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Замовника (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Замовника"
+ram:RoleCode,M,string,Роль учасника (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,GLN Замовника (початок блоку)
+ram:ID,M/O,string,"GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
+ram:TypeCode,O,string,"Код типу:
+
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,GLN Замовника (закінчення блоку)
+**InitiatorTradeParty**,,,"Ініціатор акта - Замовник (закінчення блоку). Тут наведено приклад, коли ініціатором Акта є Замовник  -  у документа буде дві сторони-підписувачі: Замовник та Перевізник."
+**CarrierTradeParty**,M,,"Перевізник (початок блоку)"
+**ram:ID**,M,,"Ідентифікаційний код Перевізника (початок блоку)"
+schemeAgencyID,M,string,ЄДРПОУ
+value,M,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код Перевізника (закінчення блоку)"
+ram:Name,M,string,"Повне найменування Перевізника"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:SpecifiedGovernmentRegistration**,M,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (початок блоку)
+ram:ID,M/O,string,"* Серія та номер водійського посвідчення Водія (поле обов'язкове до заповнення). Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``
+* для ram:TypeCode=DRIVER_GLN - GLN Водія (поле опціональне до заповнення)
+* для ram:TypeCode=TRADEPARTY_GLN - GLN компанії-учасника (поле обов'язкове до заповнення для відправника транзакції)"
+ram:TypeCode,O,string,"Код типу:
+
+* DRIVER_GLN
+* TRADEPARTY_GLN"
+**ram:SpecifiedGovernmentRegistration**,,,Посвідчення Водія / GLN Водія / GLN компанії-учасника (закінчення блоку)
+**CarrierTradeParty**,,,"Перевізник (закінчення блоку)"
+InitiatorNotes,M,string,Короткий або повний опис причин складання акта (Замовник)
+CarrierNotes,O,string,Особливі відмітки / Інформація щодо незгоди зі змістом Акта (Перевізник)
+**StopActPayload**,,,Інформація про Акт (закінчення блоку)
+**CertifyingPartyPayload**,M,,Інформація про відповідальних осіб (початок блоку)
+**ram:CertifyingTradeParty** (RoleCode=ОВ),M,,"Інформація про відповідальних осіб Замовника (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП Замовника (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+ram:Name,M,string,"Посада Замовника"
+ram:RoleCode,M,string,Роль учасника (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ Замовника"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=ОВ),,,"Інформація про відповідальних осіб Замовника (закінчення блоку)"
+**ram:CertifyingTradeParty** (RoleCode=CA),M,,"Інформація про відповідальних осіб Перевізника (початок блоку)"
+**ram:ID**,O,,"Ідентифікаційний код - РНОКПП водія (початок блоку)"
+schemeAgencyID,O,string,РНОКПП
+value,O,decimal,Значення
+**ram:ID**,,,"Ідентифікаційний код - РНОКПП водія (закінчення блоку)"
+ram:Name,M,string,"Посада водія"
+ram:RoleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**ram:DefinedTradeContact**,M,,Контакти відповідального представника (початок блоку)
+ram:PersonName,M,string,"ПІБ водія"
+**ram:DefinedTradeContact**,,,Контакти відповідального представника (закінчення блоку)
+**ram:CertifyingTradeParty** (RoleCode=CA),,,"Інформація про відповідальних осіб Перевізника (закінчення блоку)"
+**CertifyingPartyPayload**,,,Інформація про відповідальних осіб (закінчення блоку)
+**ACT**,,,(закінчення змісту документа)
+**UaSignatureStorage**,M,,Підписи (початок блоку)
+**VisualReferencedDocument**,O,,Графічне відображення документа (початок блоку)
+ram:TypeCode,O,string,Тип (916 - Акт). `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__
+ram:Remarks,O,string,Графічне зображення Акта в base64
+**VisualReferencedDocument**,,,Графічне відображення документа (закінчення блоку)
+**Signature** (SigningPartyRoleCode=OB),M,,"КЕП Замовника (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (Замовника)
+Position,O,string,Посада підписанта (Замовника)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код Замовника (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Замовника)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код Замовника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=OB),,,"КЕП Замовника (закінчення блоку)"
+**Signature** (SigningPartyRoleCode=CA),M,,"КЕП Перевізника (початок блоку)"
+SigningPartyRoleCode,M,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+PartySignature,M,string,Підпис (base64 підпису p7s)
+Name,M,string,ПІБ підписанта (Перевізника)
+Position,O,string,Посада підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,M,,Ідентифікаційний код Перевізника (початок блоку)
+ram:ID,M,string,РНОКПП підписанта (Перевізника)
+**ram:SpecifiedTaxRegistration**,,,Ідентифікаційний код Перевізника (закінчення блоку)
+**Signature** (SigningPartyRoleCode=CA),,,"КЕП Перевізника (закінчення блоку)"
+**UaSignatureStorage**,,,Підписи (закінчення блоку)
+**UAECMR_ACT**,,,(закінчення документа)

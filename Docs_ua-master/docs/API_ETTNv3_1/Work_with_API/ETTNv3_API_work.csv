@@ -1,0 +1,31 @@
+":green:`1.1` `Авторизація Вантажовідправника <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`1.2` `Створення/редагування чернетки е-ТТН <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/CreateEcmrEttn.html>`__
+
+:green:`1.3` `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`1.4` `Підписання е-ТТН Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`1.5` `Відправка е-ТТН Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendEcmrDoc.html>`__",:red:`1.6*` `Відхилення "Електронної товарно-транспортної накладної" (е-ТТН) Вантажовідправником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectEcmr.html>`__
+":green:`2.1` `Авторизація Водія <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`2.2` `Отримання тіла документа (рекомендовано в json) для подальшого доповнення документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`2.3` `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Водієм <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
+
+:green:`2.4` `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Водієм <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`2.5` `Підписання е-ТТН Водієм <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`2.6` `Відправка нової транзакції до е-ТТН документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__",:red:`2.2*` `Відхилення "Електронної товарно-транспортної накладної" (е-ТТН) Водієм/Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectEcmr.html>`__
+":green:`3.1` `Авторизація Вантажоотримувача <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`3.2` `Отримання тіла документа (рекомендовано в json) для подальшого доповнення документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`3.3` `Доповнення тіла та створення/редагування нової транзакції (чернетки) до е-ТТН документа Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostEcmrTransaction.html>`__
+
+:green:`3.4` `Отримання тіла документа (рекомендовано в ecmr) для подальшого підписання Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__
+
+:green:`3.5` `Підписання е-ТТН Вантажоотримувачем <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`3.6` `Відправка нової транзакції до е-ТТН документа <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutEcmrTransaction.html>`__",

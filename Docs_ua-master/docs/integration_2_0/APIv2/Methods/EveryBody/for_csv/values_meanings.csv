@@ -1,0 +1,28 @@
+Параметр,Тип [1]_,Формат,Опис
+**Для name=TRANSPORT:**,,,
+isTrailer,M,int,"тип транспортного засобу:
+
+* 0 - автомобіль
+* 1 - причіп
+* 2 - напівпричіп"
+number,M,String,реєстраційний номер
+brand,M,String,марка
+model,M,String,модель
+type,M,String,тип
+color,O,String,колір
+**Для name=TTN_RESPONSIBLE_PERSONS:**,,,
+name,M,String,ПІБ
+ipn,M,String,IПН
+position,M,String,Посада
+phone,M,String,Телефон
+email,O,String,E-mail
+isPartner,M,String,"чи є представником Мережі: 0 -ні, 1-так"
+companyGln,M,String,GLN компанії
+**Для name=comdoc_responsible:**,,,
+surname,M,String,Прізвище
+name,M,String,Ім'я
+basement,M,String,На підставі
+ipn,M,String,ІПН Відповідальної Особи
+basementDate,M,Дата (РРРР-ММ-ДД),На підставі (дата)
+unit,M,String,Посада
+secondName,M,String,По батькові

@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , PATCH                                          
+URL запиту    , **/api/eds/docs?gln=9864065732211&family=edi**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**family** (опціонально) UUID - сервіс/сімейство документів; можливі значення: edi
+
+**detailed_response** (опціонально) boolean - false за замовчуванням; при detailed_response = true, то у відповідь повернеться додатково статус видалення по кожному документу (success/failed)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <hhttps://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається масив ідентифікаторів документів-чернеток до видалення, наприклад: ``[«345b68bb-552b-4d0e-8091-a5991f16250c»,«a751981c-1abf-4268-afac-c2389948fe54»]``"

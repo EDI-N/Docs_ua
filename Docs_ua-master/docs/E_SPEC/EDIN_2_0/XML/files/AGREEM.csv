@@ -1,0 +1,76 @@
+Назва поля, Тип [1]_, Формат, Опис
+**AGREEM**, М,, Початок документа
+NUMBER, М, Рядок (16), Номер документа
+DATE, М, Дата (РРРР-ММ-ДД), Дата документа
+CONTRACTNUMBER, М, Рядок (20), Номер контракту
+CONTRACTEXPIRYDATE, М, Дата (РРРР-ММ-ДД), Дата закінчення дії контракту
+CAMPAIGNNUMBER, М, Рядок (20), Номер договору
+CAMPAIGNDATE, М, Дата (РРРР-ММ-ДД), Дата договору
+CAMPAIGN_GLN, M, Число (13), GLN контракту
+DOCSTARTDATE, М, Дата (РРРР-ММ-ДД), Дата початку дії нової ціни
+DOCENDDATE, М, Дата (РРРР-ММ-ДД), Дата закінчення дії нової ціни
+PRICETYPE, М, Рядок («regular» / «promo» / «promo_compensation» / «promo_combo»), "підтип документа (дія)
+
+* **regular** - змінити регулярну ціну
+* **promo** - змінити промо ціну-Зниження ціни
+* **promo_compensation** - змінити промо ціну-Компенсація
+* **promo_combo** - змінити промо ціну-Комбо (Зниження ціни + Компенсація)"
+DOCACTION, М, Число (1), ознака документа (0 - за замовчуванням; 1 - документ AGREEM з відхиленими позиціями)
+CONTRACTNUMBER_MARKETING, O, Число, Номер маркетингового договору
+CONTRACTDATE_MARKETING, O, Дата (РРРР-ММ-ДД), Дата маркетингового договору
+ACTION_NAME, O, Рядок (255), Назва акції
+ACTION_ACTIVATION_PAYMENT, O, Число, "Оплата за активацію акції
+
+* 1 - Безкоштовно
+* 2 - З маркетингового бюджету
+* 3 - Окремий рахунок
+* 4 - Компенсаційний бюджет"
+COMPENSATION_PAYMENT, O, Число, "Оплата за компенсацію
+
+* 1 - З маркетингового бюджету
+* 2 - Окремий рахунок"
+REASON_REJECTION, O/M, Рядок (500), Причина відхилення. Обов'язково передається при відхиленні документа чи його позицій (DOCACTION = 1)
+**HEAD**,,, Початок основного блоку
+SUPPLIER, M, Число (13), GLN продавця
+BUYER, M, Число (13), GLN покупця
+RECIPIENT, M, Число (13), GLN одержувача
+SENDER, M, Число (13), GLN відправника
+ATTACHMENT, O, Рядок, Вкладення (назва файлу)
+RESPONSIBLE_OFFICER, O, Рядок (255), Відповідальний співробітник (ПІП; контакти)
+**POSITION**,,, Товарні позиції (початок блоку)
+POSITIONNUMBER, М, Число позитивне (3), Номер позиції в документі
+PRODUCT, M, Число (13), Штрихкод продукту
+PRODUCTIDBUYER, М, Рядок (10), Артикул покупця
+UCCFEA, O/M, Число (4-10), Код УКТ ЗЕД. За запитом мережі поле може бути обов'язковим (в випадку наявності цього поля в PRODUCTLIST) 
+POSITIONIDBUYER, O, Рядок (10), id товарної позиції
+DESCRIPTION, M, Рядок (50), Найменування
+PRICEWITHOUTVAT, М,Decimal (#.00), Ціна без ПДВ
+PRICEWITHVAT, M,Decimal (#.00), Ціна з ПДВ
+PRICEWITHOUTVAT_CHNG, О,Decimal (#.00), Нова ціна без ПДВ
+PRICEWITHVAT_CHNG, M,Decimal (#.00), Нова ціна з ПДВ
+DIFFPRICE, M,Decimal (#.00),% зміни ціни
+DISCOUNTPRICEWITHOUTVAT, O,Decimal (#.00), Ціна зі знижкою без ПДВ
+DISCOUNTPRICEWITHVAT, O,Decimal (#.00), Ціна зі знижкою з ПДВ
+DISCOUNTVAL, O,Decimal (#.00),% знижки
+DISCOUNTPRICEWITHOUTVAT_CHNG, O,Decimal (#.00), Нова ціна зі знижкою без ПДВ
+DISCOUNTPRICEWITHVAT_CHNG, O,Decimal (#.00), Нова ціна зі знижкою з ПДВ
+DIFFDISCOUNTPRICE, O,Decimal (#.00),% зміни ціни зі знижкою
+DISCOUNTVAL_CHNG, O,Decimal (#.00),% нової знижки
+PROMO, O,Decimal (#.00), промоціна без ПДВ
+PROMOWITHVAT, O,Decimal (#.00), промоціна з ПДВ
+PROMODISCOUNT, O, Число,% промознижки
+PROMOQUANTITY, O, "Число (10,3)", Кількість промо
+COMPENSATION_PERCENTAGE, O, "Число (6,2)", % компенсації
+ACTION_ACTIVATION_AMOUNT, O,"Число (6,4)", Сума за активацію акції
+PROMOPRICEWITHVAT_RECOMMEND, O, "Число (6,4)", Рекомендована роздрібна ціна з ПДВ
+VAT, O,Число («20» / «7» / «0»),"Ставка ПДВ,%"
+UNIT, O, Рядок (3),`Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+STATE, O, Число («-1» / «0» / «1»),"Стан позиції
+
+* -1 - статус відсутній
+* 0 - позиція відхилена
+* 1 - позиція прийнята"
+POSITIONACTION, O (М - при DOCACTION = 1), Рядок («decline»),Статус позиції при відхиленні AGREEM
+**POSITION**,,, Товарні позиції (закінчення блоку)
+**HEAD**,,, Закінчення основного блоку
+**AGREEM**,,, Закінчення документа

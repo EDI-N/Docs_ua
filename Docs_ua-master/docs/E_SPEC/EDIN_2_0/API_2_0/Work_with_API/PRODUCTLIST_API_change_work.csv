@@ -1,0 +1,6 @@
+":green:`1.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
+
+:green:`1.2` `Оновлення раніше створеної специфікації (Мережа) <hhttps://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/PutContractController.html>`__"
+":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
+
+:green:`2.2` `Перегляд усіх контрактів/специфікацій <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContracts.html>`__ / `Переглянути контракт з конкретним контрагентом <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContract.html>`__"

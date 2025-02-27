@@ -1,0 +1,5 @@
+Параметр, Формат, Опис
+.. _XDistribexAccessGroup: , Об'єкт **XDistribexAccessGroup** ,
+producerId,long,ідентифікатор Продавця (Виробника)
+name,String,назва групи
+groupId,long,ідентифікатор групи

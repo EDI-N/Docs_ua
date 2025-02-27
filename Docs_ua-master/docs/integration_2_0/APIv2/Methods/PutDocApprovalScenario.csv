@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , PUT
+URL запиту    , **/api/eds/doc/approval/scenario?gln=9864065732181&id=67**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+
+**id** (обов'язково) long - ідентифікатор сценарію до редагування"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , application/json
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передаються `дані кроків за сценарієм <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/PostXDocApprovalScenario.html>`__ (об'єкт з масивами об'єктів XDocApprovalScenario)"

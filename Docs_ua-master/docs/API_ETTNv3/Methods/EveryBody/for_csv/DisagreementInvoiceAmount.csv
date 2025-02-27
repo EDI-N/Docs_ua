@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _DisagreementInvoiceAmount:,,Об'єкт **DisagreementInvoiceAmount**,
+**originalInvoiceAmount**,M,InvoiceAmount_,"об'єкт; Загальна сума з ПДВ за ТТН"
+**actualInvoiceAmount**,O,InvoiceAmount_,"об'єкт; Загальна сума з ПДВ Фактична"
+**deltaInvoiceAmount**,O,DeltaInvoiceAmount_,"об'єкт; Відхилення"

@@ -1,0 +1,4 @@
+Параметр, Формат, Опис
+.. _EventsStorageQueryResult:, Об'єкт **EventsStorageQueryResult**, 
+lastEventId,long,ідентифікатор останньої події
+**items**,List<DocumentEvent_>,масив об'єктів; дані подій та документів

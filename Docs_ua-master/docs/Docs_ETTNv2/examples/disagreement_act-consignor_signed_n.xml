@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SIGN_ENVELOPE STATE="CONSIGNOR_SIGNED">
+        <SIGN_ENVELOPE STATE="TRANSPORTER_SIGNED">
+            <SIGN_ENVELOPE STATE="ORIGINATOR_SIGNED">
+                <DECLARHEAD>
+                    <C_DOC>Код документа</C_DOC>
+                    <C_DOC_SUB>Подтип документа</C_DOC_SUB>
+                    <C_DOC_VER>Версия документа</C_DOC_VER>
+                </DECLARHEAD>
+                <DECLARBODY TYPE="CORE" STAKE="ORIGINATOR">
+                    <HNUM>Номер акта расхождений</HNUM>
+                    <HFILL>Дата акта расхождений</HFILL>
+                    <BASE_HNUM>Номер ТТН</BASE_HNUM>
+                    <BASE_HFILL>Дата ТТН</BASE_HFILL>
+                    <UUID_TTN>a30f8385-87a3-4a7d-b8fe-e6e2f756b6dd</UUID_TTN>
+                    <DOCUMENT_PLACE>Место составления</DOCUMENT_PLACE>
+                    <R04G1S>ЕГРПОУ/ИНН грузополучателя</R02G11S>
+                    <R04G2S>Название грузополучателя</R02G1S>
+                    <R04G3S>Юр. адрес грузополучателя</R02G12S>
+                    <R02G11S>ЕГРПОУ/ИНН перевозчика</R02G11S>
+                    <R02G1S>Название перевозчика</R02G1S>
+                    <R02G3S>Фамилия водителя</R02G3S>
+                    <R02G31S>Имя водителя</R02G31S>
+                    <R02G32S>Отчество водителя</R02G32S>
+                    <R02G4S>Серия, номер прав водителя</R02G4S>
+                    <DRIVER_ID>ИНН водителя</DRIVER_ID>
+                    <HTIN>ЕГРПОУ/ИНН грузоотправителя</HTIN>
+                    <HNAME>Название грузоотправителя</HNAME>
+                    <HLOC>Юр. адрес грузоотправителя</HLOC>
+                    <SEAL_NO>Номер пломбы согласно ТТН</SEAL_NO>
+                    <SEAL_NO_DAMAGE>Сведения о нарушении пломбы</SEAL_NO_DAMAGE>
+                    <TEMPERATURE>Температурный режим согласно ТТН</TEMPERATURE>
+                    <TEMPERATURE_MISMATCH>Сведения о несоблюдении температурного режима</TEMPERATURE_MISMATCH>
+                    <PACKAGE_DAMAGE>Сведения о повреждении тары</PACKAGE_DAMAGE>
+                    <OTHER_MISMATCH>Сведения о других разногласиях</OTHER_MISMATCH>
+                    <T1RXXXXG81S ROWNUM="1">Наименование груза в ТТН</T1RXXXXG81S>
+                    <T1RXXXXG9S ROWNUM="1">Единица измерения</T1RXXXXG9S>
+                    <T1RXXXXG10 ROWNUM="1">Количество мест в ТТН</T1RXXXXG10>
+                    <CARGO_NUMBER_PLACES_FACT ROWNUM="1">Количество мест фактическое</CARGO_NUMBER_PLACES_FACT>
+                    <CARGO_NUMBER_PLACES_MISMATCH ROWNUM="1">Количество мест отклонение</CARGO_NUMBER_PLACES_MISMATCH>
+                    <CARGO_NUMBER_PLACES_REASON ROWNUM="1">Причина</CARGO_NUMBER_PLACES_REASON>
+                    <T1RXXXXG15 ROWNUM="1">Масса брутто в ТТН</T1RXXXXG15>
+                    <CARGO_GROSS_WEIGHT_FACT ROWNUM="1">Масса брутто фактическая</CARGO_GROSS_WEIGHT_FACT>
+                    <CARGO_GROSS_WEIGHT_MISMATCH ROWNUM="1">Масса брутто отклонение</CARGO_GROSS_WEIGHT_MISMATCH>
+                    <CARGO_GROSS_WEIGHT_REASON ROWNUM="1">Причина</CARGO_GROSS_WEIGHT_REASON>
+                    <T1RXXXXG12 ROWNUM="1">Общая сумма с НДС</T1RXXXXG12>
+                    <CARGO_SUM_FACT ROWNUM="1">Общая сумма с НДС фактическая</CARGO_SUM_FACT>
+                    <CARGO_SUM_MISMATCH ROWNUM="1">Общая сумма с НДС отклонение</CARGO_SUM_MISMATCH>
+                    <CARGO_SUM_REASON ROWNUM="1">Причина</CARGO_SUM_REASON>
+                    <CARGO_OTHER_MISMATCH ROWNUM="1">Другие замечания</CARGO_OTHER_MISMATCH>
+                    <CARGO_TOTAL_GROSS_WEIGHT>Всего масса брутто в ТТН</CARGO_TOTAL_GROSS_WEIGHT>
+                    <CARGO_TOTAL_GROSS_WEIGHT_MISMATCH>Всего масса брутто отклонение</CARGO_TOTAL_GROSS_WEIGHT_MISMATCH>
+                    <CARGO_TOTAL_SUM>Всего общая сумма с НДС в ТТН</CARGO_TOTAL_SUM>
+                    <CARGO_TOTAL_SUM_MISMATCH>Всего общая сумма с НДС отклонение</CARGO_TOTAL_SUM_MISMATCH>
+                    <DISAGREEMENT_INFORMATION>Описание причин составления акта расхождений</DISAGREEMENT_INFORMATION>
+                    <DISAGREEMENT_CONCLUSION>Заключение (требования по решению разногласий)</DISAGREEMENT_CONCLUSION>
+                </DECLARBODY>
+            </SIGN_ENVELOPE>
+            <SIGNATURE OWNER="ORIGINATOR">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+            <DECLARBODY TYPE="AMENDMENT" STAKE="TRANSPORTER">
+                <DISAGREEMENT_NOTES_TRANSPORTER>Особые отметки</DISAGREEMENT_NOTES_TRANSPORTER>
+            </DECLARBODY>
+        </SIGN_ENVELOPE>
+        <SIGNATURE OWNER="TRANSPORTER_DRIVER">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+        <DECLARBODY TYPE="AMENDMENT" STAKE="CONSIGNOR">
+            <DISAGREEMENT_NOTES_CONSIGNOR>Особые отметки</DISAGREEMENT_NOTES_CONSIGNOR>
+        </DECLARBODY>
+    </SIGN_ENVELOPE>
+    <SIGNATURE OWNER="CONSIGNOR">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+</DECLAR>

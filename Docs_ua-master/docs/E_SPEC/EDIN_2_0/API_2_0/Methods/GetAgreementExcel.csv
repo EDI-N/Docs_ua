@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/es/agreement/excel?gln=9864067620417&promotion_id=28**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії; 
+АБО
+**guid** (обов'язково) String - унікальний ідентифікатор власної Компанії;
+
+**promotion_id** (обов'язково) String - ідентифікатор акції"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json

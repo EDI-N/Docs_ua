@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CONSIGNEE_SIGN_ENVELOPE:,О, Об'єкт **CONSIGNEE_SIGN_ENVELOPE**,
+STATE,О,«RECIPIENT_SIGNED»,стан документу «підписано Вантажоотримувачем»
+**DECLARBODY**,О,CONSIGNEE_BODY_,об'єкт; зміст документа

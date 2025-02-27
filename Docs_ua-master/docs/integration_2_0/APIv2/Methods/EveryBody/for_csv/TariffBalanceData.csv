@@ -1,0 +1,7 @@
+Параметр,Формат,Опис
+.. _TariffBalanceData: ,Об'єкт **TariffBalanceData**,
+**tariffProducts**,List<TariffProduct_>,масив об'єктів; дані тарифних пакетів
+balance,double,кошти на балансі
+rate,double,курс валют
+**userProducts**,AccountBalance_,об'єкт з масивами активних і придбаних продуктів у вигляді об'єктів
+history,List<BalanceHistory_>,масив об'єктів; історія операцій

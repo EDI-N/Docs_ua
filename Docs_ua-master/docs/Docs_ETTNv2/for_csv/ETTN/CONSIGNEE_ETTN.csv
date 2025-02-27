@@ -1,0 +1,4 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CONSIGNEE_ETTN:,О, Об'єкт **CONSIGNEE_ETTN**,
+**SIGN_ENVELOPE**,О,CONSIGNEE_SIGN_ENVELOPE_,об'єкт; обгортка для накладання підпису на контент
+**SIGNATURE**,О,SIGNATURE_ORIGINATOR_,об'єкт; підписи

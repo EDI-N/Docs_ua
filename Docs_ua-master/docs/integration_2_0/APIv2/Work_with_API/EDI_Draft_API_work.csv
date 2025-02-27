@@ -1,0 +1,9 @@
+":green:`I` `Авторизація <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`II` `Знайти чернетки документів для редагування <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocsSearch.html>`__
+
+:green:`III` `Отримати тіло документа-чернетки для редагування <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocBody.html>`__
+
+:green:`IV` `Редагувати чернетку документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EditDocument.html>`__
+
+:green:`V` `Змінити індекси (оновлення полей екстрапараметрів) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/UpdateExtraFields.html>`__"

@@ -1,0 +1,18 @@
+":green:`1.1` `Авторизація Замовника <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`1.2` `Створення/редагування чернетки «Акта примусового завершення е-ТТН» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/CreateStopAct.html>`__
+
+:green:`1.3` `Підписання «Акта примусового завершення е-ТТН» Замовником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`1.4` `Відправка «Акта примусового завершення е-ТТН» Замовником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SendAct.html>`__",:red:`1.5*` `Відхилення «Акта примусового завершення е-ТТН» Замовником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectAct.html>`__
+":green:`2.1` `Авторизація Перевізника <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`2.2` `Отримання контенту (json) «Акта примусового завершення е-ТТН» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ 
+
+:green:`2.3` `Створення/редагування нової транзакції (чернетки) до «Акта примусового завершення е-ТТН» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PostActTransaction.html>`__
+
+:green:`2.4` `Отримання контенту (ecmr) «Акта примусового завершення е-ТТН» <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/GetEcmrDocumentBody.html>`__ 
+
+:green:`2.5` `Підписання «Акта примусового завершення е-ТТН» Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/SaveEcmrSign.html>`__
+
+:green:`2.6` `Відправка «Акта примусового завершення е-ТТН» Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/PutActTransaction.html>`__",:red:`2.2*` `Відхилення «Акта примусового завершення е-ТТН» Перевізником <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/RejectAct.html>`__

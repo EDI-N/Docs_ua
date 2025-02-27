@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/ettn/eds/doc/attachment?doc_uuid=b48aae9a-003a-453f-a40d-46d90181cdc7&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226&attach_id=353**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа
+
+**attach_id** (обов'язково) long - ідентифікатор вкладення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json 

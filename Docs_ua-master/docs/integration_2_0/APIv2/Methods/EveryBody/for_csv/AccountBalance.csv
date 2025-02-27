@@ -1,0 +1,23 @@
+Параметр,Формат,Опис
+.. _AccountBalance: ,Об'єкт **AccountBalance**,
+productId,long,ідентифікатор продукту
+month,int,місяць (тривалість активності продукту)
+year,int,рік (тривалість активності продукту)
+price,double,вартість тарифного плану (євро)
+multiplierCount,int,"кількість одиниць замовленої послуги (за умови, що це передбачає тариф)"
+limit,int,ліміт транзакцій по тарифному плану
+count,int,кількість транзакцій
+countDate,String,дата останньої транзакції
+dateExpiry,String,дата закінчення терміну дії
+priceUAH,double,вартість тарифного плану (грн)
+transactionID,long,ідентифікатор транзакції (поповнення/списання з Балансу)
+debt,boolean,відмітка про заборгованість
+autoRenewal,boolean,автоматична пролонгація
+extraTariff,boolean,extra тариф (додатковий)
+individual,boolean,індивідуальний тариф
+tariff2accountId,long,ідентифікатор зв'язку тарифу з аккаунтом
+account2servicesId,long,ідентифікатор оплаченої послуги
+tariffId,long,ідентифікатор тарифного плану
+tariffName,String,назва тарифного плану
+paymentID,long,ідентифікатор рахунку за сервіс
+maxTariff,boolean,максимальний тариф (інші тарифи по сервісу обрати неможливо)

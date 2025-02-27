@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , PATCH                                        
+URL запиту    ,**/api/eds/doc/ettn/ttn/sub_status?gln=9864065750741&doc_uuid=0a64011c-80d9-4929-b475-e7d0f19be11f**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа «Зведена ТТН»"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"

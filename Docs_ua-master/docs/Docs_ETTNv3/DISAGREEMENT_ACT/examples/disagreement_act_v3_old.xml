@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UAECMR_ACT xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103"
+    xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27"
+    xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103"
+    xmlns:uas="urn:ua:signatures:SignaturesExtensions:1">
+    <ACT>
+        <ExchangedDocumentContext>
+            <!-- Номер верії документа (транзакції) в ланцюгу підписання доументів -->
+            <ram:SpecifiedTransactionID>2</ram:SpecifiedTransactionID>
+            <ram:BusinessProcessSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01</ram:ID>
+            </ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:GuidelineSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01:disagreement:001</ram:ID>
+            </ram:GuidelineSpecifiedDocumentContextParameter>
+        </ExchangedDocumentContext>
+        <ExchangedDocument>
+            <!-- Номер документу HNUM -->
+            <ram:ID>123123</ram:ID>
+            <!-- Дата і час складання документу -->
+            <ram:IssueDateTime>
+                <udt:DateTime>2021-10-26T21:32:52+02:00</udt:DateTime>
+            </ram:IssueDateTime>
+            <ram:Remarks>
+                Інші замітки
+            </ram:Remarks>
+            <!-- Місце складання документу -->
+            <ram:IssueLogisticsLocation>
+                <ram:Name>Місце складання документу</ram:Name>
+                <ram:Description>79000, м.Львів, вул. Словацького, 1</ram:Description>
+            </ram:IssueLogisticsLocation>
+        </ExchangedDocument>
+        <DisagreementActPayload>
+            <!-- Інформація про еТТН для якого складається даний акт -->
+            <PreviousAdministrativeReferencedDocument>
+                <ram:TypeCode>730</ram:TypeCode>
+                <!-- Номер е-ТТН (ettn.id) отриманий з ЦБД -->
+                <ram:ID>c5a2db34-5d96-11ec-a11f-dbe59d253156</ram:ID>
+                <ram:Remarks>
+                    <!-- Base64 документу версії 1 -->
+                </ram:Remarks>
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString>2021-10-26T21:32:52+02:00</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+                <ram:AttachedSpecifiedBinaryFile>
+                    <!-- document.id із ЦБД еТТН -->
+                    <ram:ID>607cef34-5d8b-11ec-8f8b-c36339da6e6a</ram:ID>
+                    <!-- document.url із ЦБД еТТН, лінк на обʼєкт у провайдера -->
+                    <ram:URIID>http://shared.provider.url/607cef34-5d8b-11ec-8f8b-c36339da6e6a</ram:URIID>
+                    <ram:MIMECode>application/xml</ram:MIMECode>
+                    <!-- Розмір файлу, байт-->
+                    <ram:SizeMeasure>2048</ram:SizeMeasure>
+                </ram:AttachedSpecifiedBinaryFile>
+            </PreviousAdministrativeReferencedDocument>
+            <!-- Інформація про попередній акт, у випадку наступної транзакції -->
+            <PreviousAdministrativeReferencedDocument>
+                <!-- Попередній документ, якщо поточний є наступною транзакцією контр-підписання -->
+                <ram:TypeCode>916</ram:TypeCode>
+                <!-- Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій-->
+                <ram:ID>1</ram:ID>
+                <ram:Remarks>
+                    <!-- Base64 документу версії 1 -->
+                </ram:Remarks>
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString>2021-10-26T21:32:52+02:00</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+                <ram:AttachedSpecifiedBinaryFile>
+                    <!-- document.id із ЦБД еТТН -->
+                    <ram:ID>607cef34-5d8b-11ec-8f8b-c36339da6e6a</ram:ID>
+                    <!-- document.url із ЦБД еТТН, лінк на обʼєкт у провайдера -->
+                    <ram:URIID>http://shared.provider.url/607cef34-5d8b-11ec-8f8b-c36339da6e6a</ram:URIID>
+                    <ram:MIMECode>application/xml</ram:MIMECode>
+                    <!-- Розмір файлу, байт-->
+                    <ram:SizeMeasure>2048</ram:SizeMeasure>
+                </ram:AttachedSpecifiedBinaryFile>
+            </PreviousAdministrativeReferencedDocument>
+            <!-- Отримувач -->
+            <ConsigneeTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>ТОВ "Компанія отримувач"</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+            </ConsigneeTradeParty>
+            <!-- Перевізник -->
+            <CarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>ТОВ "Компанія перевізник"</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+            </CarrierTradeParty>
+            <DisagreementSubjectSupplyChainConsignmentItem>
+                <SequenceNumeric>1</SequenceNumeric>
+                <NatureIdentificationTransportCargo>
+                    <ram:Identification>Опис елементу 1 вантажу</ram:Identification>
+                </NatureIdentificationTransportCargo>
+                <TransportLogisticsPackageType>
+                        <!--Одиниця виміру (колонка 3)-->
+                        кг
+                </TransportLogisticsPackageType>
+                <DisagreementItemQuantity>
+                    <OriginalItemQuantity>20</OriginalItemQuantity>
+                    <ActualItemQuantity>12</ActualItemQuantity>
+                    <DeltaItemQuantity>
+                        <Quantity>5</Quantity>
+                        <Explanation>брак</Explanation>
+                    </DeltaItemQuantity>
+                    <DeltaItemQuantity>
+                        <Quantity>3</Quantity>
+                        <Explanation>недовоз</Explanation>
+                    </DeltaItemQuantity>
+                </DisagreementItemQuantity>
+                <DisagreementGrossWeightMeasure>
+                    <OriginalGrossWeightMeasure unitCode="KGM">30</OriginalGrossWeightMeasure>
+                    <ActualGrossWeightMeasure unitCode="KGM">20</ActualGrossWeightMeasure>
+                    <DeltaGrossWeightMeasure>
+                        <Measure unitCode="KGM">10</Measure>
+                        <Explanation>різниця при зважуванні</Explanation>
+                    </DeltaGrossWeightMeasure>
+                </DisagreementGrossWeightMeasure>
+                <DisagreementInvoiceAmount>
+                    <OriginalInvoiceAmount currencyID="UAH">300</OriginalInvoiceAmount>
+                    <ActualInvoiceAmount currencyID="UAH">200</ActualInvoiceAmount>
+                    <DeltaInvoiceAmount>
+                        <Amount currencyID="UAH">100</Amount>
+                        <Explanation>Пояснення щодо різниці в 100грн</Explanation>
+                    </DeltaInvoiceAmount>
+                </DisagreementInvoiceAmount>
+                <DisagreementOtherNotes>Не знайдено один з трьох елементів вантажу ціною 100грн</DisagreementOtherNotes>
+            </DisagreementSubjectSupplyChainConsignmentItem>
+
+            <DisagreementSubjectSupplyChainConsignmentSummary>
+                <OriginalGrossWeightMeasure unitCode="KGM">30</OriginalGrossWeightMeasure>
+                <DeltaGrossWeightMeasure unitCode="KGM">10</DeltaGrossWeightMeasure>
+                <OriginalInvoiceAmount currencyID="UAH">300</OriginalInvoiceAmount>
+                <DeltaInvoiceAmount currencyID="UAH">100</DeltaInvoiceAmount>
+            </DisagreementSubjectSupplyChainConsignmentSummary>
+
+            <QualityCharacteristicsDisagreement>
+                <AffixedLogisticsSeal>
+                    <ram:ID>123123</ram:ID>
+                </AffixedLogisticsSeal>
+                <AffixedLogisticsSeal>
+                    <ram:ID>23456</ram:ID>
+                </AffixedLogisticsSeal>
+                <AffixedLogisticsSealNotes>
+                    Пломба 123123 пошкоджена, пломба 23456 відсутня
+                </AffixedLogisticsSealNotes>
+                <ApplicableTransportSettingTemperature>
+                    <ram:MinimumValueMeasure unitCode="CEL">-20</ram:MinimumValueMeasure>
+                    <ram:MaximumValueMeasure unitCode="CEL">-15</ram:MaximumValueMeasure>
+                </ApplicableTransportSettingTemperature>
+                <ApplicableTransportSettingTemperatureNotes>
+                        Порушено температурний режим, зафіксовано температуру вище максимальної норми
+                </ApplicableTransportSettingTemperatureNotes>
+                <PackagingDamageDisagreementNotes>
+                    Відомості про пошкодження тари
+                </PackagingDamageDisagreementNotes>
+                <OtherDisagreementNotes>
+                    Відомості про інші розбіжності
+                </OtherDisagreementNotes>
+            </QualityCharacteristicsDisagreement>
+
+            <ConsigneeNotes>Короткий або повний опис причин складання акту</ConsigneeNotes>
+            <ClaimNotes>Висновок (вимоги щодо вирішення розбіжностей)</ClaimNotes>
+            <CarrierNotes>Особливі відмітки (Перевізник)</CarrierNotes>
+        </DisagreementActPayload>
+        <CertifyingPartyPayload>
+            <CertifyingTradeParty>
+                <ram:ID schemeAgencyID="РНОКПП">12345678</ram:ID>
+                <ram:Name>комірник</ram:Name>
+                <ram:RoleCode>CN</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Петренко В.В.</ram:PersonName>
+                </ram:DefinedTradeContact>
+            </CertifyingTradeParty>
+            <CertifyingTradeParty>
+                <ram:ID schemeAgencyID="РНОКПП">12345678</ram:ID>
+                <ram:Name>Водій</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Іваненко В.В.</ram:PersonName>
+                </ram:DefinedTradeContact>
+            </CertifyingTradeParty>
+        </CertifyingPartyPayload>
+    </ACT>
+    <UaSignatureStorage>
+        <VisualReferencedDocument>
+            <ram:TypeCode>916</ram:TypeCode>
+            <ram:Remarks><!--base64 графічного відображеня документу--></ram:Remarks>
+        </VisualReferencedDocument>
+        <Signature>
+            <SigningPartyRoleCode>CN</SigningPartyRoleCode>
+            <PartySignature><!-- base64 підпису p7s--></PartySignature>
+            <Name>Петренко В.В.</Name>
+            <Position>комірник</Position>
+            <SpecifiedTaxRegistration>
+                <ram:ID>12345678</ram:ID>
+            </SpecifiedTaxRegistration>
+        </Signature>
+        <Signature>
+            <SigningPartyRoleCode>CA</SigningPartyRoleCode>
+            <PartySignature><!-- base64 підпису p7s--></PartySignature>
+            <Name>Іваненко В.В.</Name>
+            <Position>водій</Position>
+            <SpecifiedTaxRegistration>
+                <ram:ID>12345678</ram:ID>
+            </SpecifiedTaxRegistration>
+        </Signature>
+    </UaSignatureStorage>
+</UAECMR_ACT>

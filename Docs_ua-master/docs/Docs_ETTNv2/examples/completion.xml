@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DECLARHEAD>
+    <C_DOC>EVD</C_DOC>
+    <C_DOC_SUB>002</C_DOC_SUB>
+    <C_DOC_VER>01</C_DOC_VER>
+  </DECLARHEAD>
+  <DECLARBODY>
+    <HNUM>test-eva-olya-2</HNUM>
+    <HFILL>2022-01-04</HFILL>
+    <HPLACE>м. Київ</HPLACE>
+    <HPODNUM>153</HPODNUM>
+    <HPODFILL>2021-10-04</HPODFILL>
+    <HTIN>31600017</HTIN>
+    <HNAME>Компанiя &quot;Вантажовiдправник&quot;</HNAME>
+    <HLOC>м. Київ, вул. М. Донця, 6</HLOC>
+    <R02G11S>31600022</R02G11S>
+    <R02G1S>ТОВ &quot;Перевiзник&quot;</R02G1S>
+    <R02G12S>м. Київ, вул. М. Донця, 6</R02G12S>
+    <R001G12>2400.0</R001G12>
+    <R011G1>400.0</R011G1>
+    <T3RXXXXG11S ROWNUM="1">Транспортно-експедиторські послуги</T3RXXXXG11S>
+    <T3RXXXXG12 ROWNUM="1">1</T3RXXXXG12>
+    <T3RXXXXG13S ROWNUM="1">послуга</T3RXXXXG13S>
+    <T3RXXXXG21S ROWNUM="1">test-eva-olya-2</T3RXXXXG21S>
+    <T3RXXXXG22S ROWNUM="1">2022-01-04</T3RXXXXG22S>
+    <T3RXXXXG3 ROWNUM="1">2000.00</T3RXXXXG3>
+    <T3RXXXXG4 ROWNUM="1">20</T3RXXXXG4>
+    <T3RXXXXG5 ROWNUM="1">2400.00</T3RXXXXG5>
+    <T3RXXXXG12S ROWNUM="1">Тестовая марка</T3RXXXXG12S>
+    <T3RXXXXG14S ROWNUM="1">Тестовая модель </T3RXXXXG14S>
+    <T3RXXXXG15S ROWNUM="1">АА0000АА</T3RXXXXG15S>
+    <T3RXXXXG16S ROWNUM="1">Тестовый тип</T3RXXXXG16S>
+    <T3RXXXXG17S ROWNUM="1">Тестовая марка 2</T3RXXXXG17S>
+    <T3RXXXXG18S ROWNUM="1">Тестовая модель 2</T3RXXXXG18S>
+    <T3RXXXXG19S ROWNUM="1">АА0001АА</T3RXXXXG19S>
+    <T3RXXXXG23S ROWNUM="1">Тестовый тип 2</T3RXXXXG23S>
+    <T3RXXXXG24S ROWNUM="1">Тестовая марка 2</T3RXXXXG24S>
+    <T3RXXXXG25S ROWNUM="1">Тестовая модель 2</T3RXXXXG25S>
+    <T3RXXXXG26S ROWNUM="1">АА0001АА</T3RXXXXG26S>
+    <T3RXXXXG27S ROWNUM="1">Тестовый тип 2</T3RXXXXG27S>
+    <T3RXXXXG28S ROWNUM="1">Дмитро</T3RXXXXG28S>
+    <T3RXXXXG29S ROWNUM="1">Олександрович</T3RXXXXG29S>
+    <T3RXXXXG31S ROWNUM="1">Гончаров</T3RXXXXG31S>
+    <T3RXXXXG32S ROWNUM="1">ЯГО149141</T3RXXXXG32S>
+    <T3RXXXXG33S ROWNUM="1">123123123123</T3RXXXXG33S>
+    <T3RXXXXG34S ROWNUM="1">2342342312</T3RXXXXG34S>
+    <T3RXXXXG42S ROWNUM="1">test</T3RXXXXG42S>
+    <T3RXXXXG35S ROWNUM="1">31600017</T3RXXXXG35S>
+    <T3RXXXXG36S ROWNUM="1">Компанiя &quot;Вантажовiдправник&quot;</T3RXXXXG36S>
+    <T3RXXXXG37S ROWNUM="1">м. Київ, вул. М. Донця, 6</T3RXXXXG37S>
+    <T3RXXXXG38S ROWNUM="1">31600038</T3RXXXXG38S>
+    <T3RXXXXG39S ROWNUM="1">Компанiя &quot;Вантажоотримувач&quot;</T3RXXXXG39S>
+    <T3RXXXXG41S ROWNUM="1">м. Київ, вул. М. Донця</T3RXXXXG41S>
+    <T3RXXXXG7 ROWNUM="1">c. Львів, Криворізький р-н, Дніпропетровська обл., шевченка,5</T3RXXXXG7>
+    <T3RXXXXG8 ROWNUM="1">UA12060250180086420</T3RXXXXG8>
+    <T3RXXXXG9 ROWNUM="1">c. Львів, Криворізький р-н, Дніпропетровська обл., Гончара, 7</T3RXXXXG9>
+    <T3RXXXXG10 ROWNUM="1">UA12060250180086420</T3RXXXXG10>
+  </DECLARBODY>
+</DECLAR>

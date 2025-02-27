@@ -1,0 +1,177 @@
+<UAECMR_ACT xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
+    <ACT>
+        <ExchangedDocumentContext>
+            <ram:SpecifiedTransactionID>0</ram:SpecifiedTransactionID>
+            <ram:BusinessProcessSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01</ram:ID>
+            </ram:BusinessProcessSpecifiedDocumentContextParameter>
+            <ram:GuidelineSpecifiedDocumentContextParameter>
+                <ram:ID>urn:ua:e-transport.gov.ua:act:01:reload:001</ram:ID>
+            </ram:GuidelineSpecifiedDocumentContextParameter>
+        </ExchangedDocumentContext>
+        <ExchangedDocument>
+            <ram:ID>3739</ram:ID>
+            <ram:IssueDateTime>
+                <udt:DateTime>2023-06-29T10:25:00.000Z</udt:DateTime>
+            </ram:IssueDateTime>
+            <ram:IssueLogisticsLocation>
+                <ram:Name>Місце складання документу</ram:Name>
+                <ram:Description>Київ</ram:Description>
+            </ram:IssueLogisticsLocation>
+        </ExchangedDocument>
+        <ReloadActPayload>
+            <PreviousAdministrativeReferencedDocument>
+                <ram:TypeCode>730</ram:TypeCode>
+                <ram:ID>6ae83082-bb0d-4119-9c4f-9cc1b2e9c3a5</ram:ID>
+                <ram:FormattedIssueDateTime>
+                    <qdt:DateTimeString>2023-06-29T12:08:00.000Z</qdt:DateTimeString>
+                </ram:FormattedIssueDateTime>
+            </PreviousAdministrativeReferencedDocument>
+            <CarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">12345678</ram:ID>
+                <ram:Name>МСК Перевізник</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Перший Водій Батькович</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380544472828</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:CompleteNumber>vod01@test.tst</ram:CompleteNumber>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>74589</ram:PostcodeCode>
+                    <ram:StreetName>пл. Тараса Чмута, буд. 1, офіс 1</ram:StreetName>
+                    <ram:CityName>м. Буськ</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Львівська обл,  Золочівський р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>1111111101</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>VOD010101</ram:ID>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745952</ram:ID>
+                    <ram:TypeCode>DRIVER_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745709</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </CarrierTradeParty>
+            <ConnectingCarrierTradeParty>
+                <ram:ID schemeAgencyID="ЄДРПОУ">101010187</ram:ID>
+                <ram:Name>МСК Перевізник 2</ram:Name>
+                <ram:RoleCode>CH</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Другий Водій Батькович</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380445444728</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:StreetName>вул.Жасмінова, 5 а/с 9671</ram:StreetName>
+                    <ram:CityName>c. Іванівка</ram:CityName>
+                    <ram:CountryID>UA</ram:CountryID>
+                    <ram:CountrySubDivisionName>Вінницька обл,  Вінницький р-н</ram:CountrySubDivisionName>
+                </ram:PostalTradeAddress>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID>22222222</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>ВОД000202</ram:ID>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065745976</ram:ID>
+                    <ram:TypeCode>DRIVER_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+                <ram:SpecifiedGovernmentRegistration>
+                    <ram:ID>9864065747581</ram:ID>
+                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
+                </ram:SpecifiedGovernmentRegistration>
+            </ConnectingCarrierTradeParty>
+            <CarrierUtilizedLogisticsTransportEquipment>
+                <ram:ID>аа0101аа</ram:ID>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>пл-авто-ттн</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:SettingTransportSettingTemperature>
+                    <ram:MinimumValueMeasure unitCode="CEL">-22</ram:MinimumValueMeasure>
+                    <ram:MaximumValueMeasure unitCode="CEL">-15</ram:MaximumValueMeasure>
+                </ram:SettingTransportSettingTemperature>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>COLOR</ram:ContentCode>
+                    <ram:Content>колір авто</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип авто</ram:Content>
+                </ram:ApplicableNote>
+            </CarrierUtilizedLogisticsTransportEquipment>
+            <CarrierUtilizedLogisticsTransportEquipment>
+                <ram:ID>нп1717нп</ram:ID>
+                <ram:CategoryCode>TE</ram:CategoryCode>
+                <ram:CharacteristicCode>17</ram:CharacteristicCode>
+                <ram:AffixedLogisticsSeal>
+                    <ram:ID>пл-нп-ттн</ram:ID>
+                </ram:AffixedLogisticsSeal>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>марка напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>модель напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>тип напівпричепу</ram:Content>
+                </ram:ApplicableNote>
+            </CarrierUtilizedLogisticsTransportEquipment>
+            <ConnectingCarrierUtilizedLogisticsTransportEquipment>
+                <ram:ID>аА7687Аа</ram:ID>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>BRAND</ram:ContentCode>
+                    <ram:Content>Нова Марка</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>MODEL</ram:ContentCode>
+                    <ram:Content>Нова Модель</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>COLOR</ram:ContentCode>
+                    <ram:Content>ЧеРвона</ram:Content>
+                </ram:ApplicableNote>
+                <ram:ApplicableNote>
+                    <ram:ContentCode>TYPE</ram:ContentCode>
+                    <ram:Content>Новий Тир</ram:Content>
+                </ram:ApplicableNote>
+            </ConnectingCarrierUtilizedLogisticsTransportEquipment>
+            <CarrierNotes>Додаткова інформація</CarrierNotes>
+        </ReloadActPayload>
+        <CertifyingPartyPayload>
+            <CertifyingTradeParty>
+                <ram:ID schemeAgencyID="РНОКПП">222222222222</ram:ID>
+                <ram:Name>в.о. Перевізника</ram:Name>
+                <ram:RoleCode>CA</ram:RoleCode>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Пивоній Кущ Зелений</ram:PersonName>
+                    <ram:MobileTelephoneUniversalCommunication>
+                        <ram:CompleteNumber>380222222222</ram:CompleteNumber>
+                    </ram:MobileTelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+            </CertifyingTradeParty>
+        </CertifyingPartyPayload>
+    </ACT>
+</UAECMR_ACT>

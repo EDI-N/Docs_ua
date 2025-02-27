@@ -1,0 +1,15 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/distribex/preorder?gln=9864065732327&producerId=13200791**
+URL параметри ,"**gln** (обов'язково) String - GLN Покупця (Дистрибʼютора)
+
+**producerId** (обов'язково) String - ідентифікатор Продавця (Виробника)
+
+**type_id** (опціонально) int - ідентифікатор підтипу документа:
+
+* 1 - оригінальне замовлення (за замовчуванням);
+* 2 - попереднє замовлення;
+* 3 - відредаговане замовлення"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

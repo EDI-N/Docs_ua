@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Ecmr:,,Об'єкт **Ecmr**,
+**documentContext**,M,DocumentContext_,об'єкт; технічні дані
+**exchangedDocument**,M,ExchangedDocument_,об'єкт; реквізити ТТН
+**specifiedSupplyChainConsignment**,M,SpecifiedSupplyChainConsignment_,об'єкт; інформація про перевезення

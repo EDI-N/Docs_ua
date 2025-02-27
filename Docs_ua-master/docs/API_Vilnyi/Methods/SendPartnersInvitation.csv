@@ -1,0 +1,8 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/oas/partners/invite**
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__"
+Content-Type  , application/json
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту через кому передається масив з ідентифікаторами `завантажених <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/PostPartnerList.html>`__ в сервіс контрагентів (id) - id можливо `отримати наступним методом <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/GetPartnerList.html>`__."

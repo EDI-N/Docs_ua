@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _EDistribexRegion: , Об'єкт **EDistribexRegion** ,
+id,int,ідентифікатор запису
+countryId,int,ідентифікатор країни
+countryRegionId,int,ідентифікатор області
+name,String,назва області чи країни
+nameEn,String,назва області чи країни англійською

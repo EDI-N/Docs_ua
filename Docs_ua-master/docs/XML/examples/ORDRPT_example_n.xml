@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+ <Document-OrdersReport>
+		<OrdersReport-Header>
+			<OrdersReportNumber>5670241</OrdersReportNumber>
+			<OrdersReportDate>2020-01-09</OrdersReportDate>
+			<OrdersReportTime>14:14</OrdersReportTime>
+			<DocumentFunctionCode>C</DocumentFunctionCode>
+			<ContractType>PDEF</ContractType>
+			<ContractNumber>112/20/365924</ContractNumber>
+			<ContractDate>2020-01-09</ContractDate>
+		</OrdersReport-Header>
+		<OrdersReport-Parties>
+			<Buyer>
+				<ILN>4824000000349</ILN>
+				<CodeBySeller>20054</CodeBySeller>
+				<TaxID>320491926511</TaxID>
+				<UtilizationRegisterNumber>32000576</UtilizationRegisterNumber>
+				<Name>ПЛЮС ТОВ</Name>
+				<StreetAndNumber>стрит</StreetAndNumber>
+                <CityName>м. Київ</CityName>
+                <PostalCode>02140</PostalCode>
+				<Country>Україна</Country>
+				<PhoneNumber>0444922100</PhoneNumber>
+				<VatPayerCertificate>320400026511</VatPayerCertificate>
+			</Buyer>
+			<Seller>
+				<ILN>4820000030009</ILN>
+				<TaxID>100000847</TaxID>
+				<UtilizationRegisterNumber>32000199</UtilizationRegisterNumber>
+				<Name>ТОВ "МЕТРО КЕШ ЕНД КЕРІ УКРАЇНА"</Name>
+				<StreetAndNumber>пр-т Петра Григоренка, 43</StreetAndNumber>
+				<CityName>м.Київ</CityName>
+				<PostalCode>02140</PostalCode>
+				<Country>Україна</Country>
+				<PhoneNumber>0444922101</PhoneNumber>
+				<VatPayerCertificate>320400026510</VatPayerCertificate>
+				<FinancialInformation>
+					<BankIdentifierCode>380005</BankIdentifierCode>
+					<BankAccount>26000039987</BankAccount>
+					<BankName>АТ "Райффайзен Банк Аваль"</BankName>
+					<IBAN>UA613808050000000000004439987</IBAN>
+				</FinancialInformation>
+				<ContactInformation>
+					<ContactFunction>Комірник</ContactFunction>
+					<ManagingPerson>Ярослав</ManagingPerson>
+					<ManagingPersonFather>Сергійович</ManagingPersonFather>
+					<PhoneNumber>0951111111</PhoneNumber>
+				</ContactInformation>
+			</Seller>
+		</OrdersReport-Parties>
+		<OrdersReport-Lines>
+			<Line>
+				<Line-Item>
+					<LineNumber>1</LineNumber>
+					<ItemDescription>Штрафні санкції, що застосовуються до Постачальника за порушення умов Договору</ItemDescription>
+					<PenaltyAmount>90.11</PenaltyAmount>
+				</Line-Item>
+			</Line>
+		</OrdersReport-Lines>
+		<OrdersReport-Summary>
+			<TotalLines>1</TotalLines>
+			<TotalPenaltyAmount>90.11</TotalPenaltyAmount>
+		</OrdersReport-Summary>
+	</Document-OrdersReport> 

@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _ActRequest: , Об'єкт **ActRequest**,,
+documentType,M,String,тип документа
+email,M,String,email
+requestDescription,M,String,опис запиту

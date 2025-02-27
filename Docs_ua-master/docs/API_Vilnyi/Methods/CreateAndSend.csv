@@ -1,0 +1,12 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/sd/eds/doc/create_and_send**
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/Authorization.html>`__ "
+Content-Type  , `multipart/form-data <https://tools.ietf.org/html/rfc7578>`__                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу обов'язково передаються два файли (+ додатково можуть передаватись підписи):
+
+* **Тіло документа** - json файл, що містить дані про отримувачів, тему документа, повідомлення. Назва файлу повинна бути з префіксом *_doc_body_*, наприклад: **_doc_body_vilniy-doc.json**. Детальніше: `Метадані документа <https://wiki.edin.ua/uk/latest/API_Vilnyi/Methods/EveryBody/DocumentJson.html>`__;
+* **Файли для відправки** - не більше 10 файлів в наступних форматах: PDF/JPG/JPEG/PNG/BMP/DOC/DOCX/XLS/XLSX/PPT/PPTX/CSV/TXT/XML/P7S з розміром файлу не більше 5 Мб. Назви файлів повинні бути з префіксом *_doc_file_*, наприклад: **_doc_file_dogovir.txt**;
+* **Підписи** - підписи до файлів (опціонально). Назви файлів підписів повинні бути з префіксом *_doc_sign_file_name*, де *file_name* - це назва файлу, до якого відноситься підпис, наприклад: **_doc_sign_dogovir.txt1.p7s** та **_doc_sign_dogovir.txt2.p7s**."

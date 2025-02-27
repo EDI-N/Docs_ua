@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _EcmrUnitValue:,,Об'єкт **EcmrUnitValue**,
+unitCode,M,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__ (для tariffQuantity приймає значення «UAH»)
+value,M,decimal,"Значення"

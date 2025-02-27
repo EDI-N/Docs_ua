@@ -1,0 +1,24 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XCertificate:,,Об'єкт **XCertificate**,
+id,,long,ідентифікатор сертифіката
+uuid,-/M,UUID,унікальний ідентифікатор сертифіката (передається при редагуванні сертифіката)
+number,M,String,номер сертифіката
+createDate,,long,дата створення (Unix timestamp)
+updateDate,,long,дата оновлення (Unix timestamp)
+issueDate,M,long,дата видачі (Unix timestamp)
+**type**,M,XCertificateType_,об'єкт; тип сертифіката
+**view**,M,XCertificateView_,об'єкт; вид сертифіката
+**access**,,List<Long>,масив; доступність
+startDate,M,long,дата початку дії сертифіката (Unix timestamp)
+endDate,O/M,long,дата завершення дії сертифіката (Unix timestamp); параметр обов'язковий при view.id=1
+isSigned,,boolean,"true - підписаний, false - не підписаний"
+**accessType**,,AccessType_,об'єкт; тип доступу до сертифіката
+creator,,long,ідентифікатор власника/автора сертифіката
+info,O,String,коментар (додаткова інформація)
+**level**,,Level_,об'єкт; рівень сертифіката
+**bodies**,,"Map<Integer, byte[]>",вкладення
+**characteristics**,O/M,"Map<String, String>",характеристики characteristics_ (обов'язково передається при view.id=2)
+**parents**,,List<XCertificate_>,масив об'єктів; материнські сертифікати
+**products**,,List<XCertificateProduct_>,масив об'єктів; товари
+productsQty,,int,кількість товарів зв'язаних із сертифікатом
+autoArchive,,boolean,"true - автоматично архівувати, false - не архівувати автоматично"

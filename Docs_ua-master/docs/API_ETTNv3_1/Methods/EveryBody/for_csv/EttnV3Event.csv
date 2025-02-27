@@ -1,0 +1,9 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _EttnV3Event:,,Об'єкт **EttnV3Event**,
+entityId,,String,id події
+entityType,,String,тип події
+ettnId,,String,id ТТН документа в ЦБД (= external_doc_id)
+entityStatus,,String,статус події
+timestamp,,String,дата/час події
+documentId,,String,id документа
+actorIdentifier,,String,ЄДРПОУ/ІПН компанії

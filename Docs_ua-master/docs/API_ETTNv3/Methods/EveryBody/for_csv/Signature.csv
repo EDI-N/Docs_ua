@@ -1,0 +1,7 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _Signature:,M,Об'єкт **Signature**,
+signingPartyRoleCode,M,string,"Роль підписанта (наприклад, Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__"
+partySignature,M,string,Підпис (base64 підпису p7s)
+name,M,string,ПІБ підписанта (відповідальної особи)
+position,O,string,Посада підписанта (відповідальної особи)
+**specifiedTaxRegistration**,M,SimpleIdentity_,об'єкт; Ідентифікаційний код відповідальної особи

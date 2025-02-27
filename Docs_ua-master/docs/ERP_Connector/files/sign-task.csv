@@ -1,0 +1,7 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , "**/api/sign-task**"
+**Headers**   ,
+Content-Type  , "multipart/form-data"
+**REQUEST**   ,
+JSON Body     , "**key_names** (обов'язково) - список імен ключів у вигляді масиву рядків ([key1,key2]); **файл для підписання**"

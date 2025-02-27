@@ -1,0 +1,176 @@
+﻿<Document-ProductCatalogue>
+	<ProductCatalogue-Header>
+		<ProductCatalogueNumber>7B_ftpTest_test3_20211001</ProductCatalogueNumber>
+		<ProductCatalogueDate>2021-10-28</ProductCatalogueDate>
+		<AdditionalAgreementDate>2021-10-01</AdditionalAgreementDate>
+		<ReviewDeadlineDate>2021-10-31</ReviewDeadlineDate>
+		<ContractNumber>21554</ContractNumber>
+		<ContractDate>2016-02-22</ContractDate>
+		<ContractGLN>9991027243437</ContractGLN>
+		<ContractDescription>153</ContractDescription>
+		<DocumentFunctionCode>7B</DocumentFunctionCode>
+		<MessageType>7Б</MessageType>
+		<SpecialServices>
+			<SpecialService>
+				<ServiceNumber>C-01</ServiceNumber>
+				<ServiceName>Services on the organization for the goods promotion/ Послуги по організації просування товарів Постачальника</ServiceName>
+				<ContractDescription>153</ContractDescription>
+				<ItemCategoryNumber>FB106 (153 PUAR)</ItemCategoryNumber>
+				<PeriodStartDate>2021-10-01</PeriodStartDate>
+				<PeriodEndDate>2021-10-31</PeriodEndDate>
+				<ReviewDeadlineDate>2021-10-31</ReviewDeadlineDate>
+				<InvoicingPeriod>end of month/ кінець місяця</InvoicingPeriod>
+				<ConditionMethod>% from turnover/ % від товарообігу</ConditionMethod>
+				<ConditionModels>
+					<ConditionModel>
+						<ConditionValue>0.5</ConditionValue>
+						<TurnoverScale>2000000</TurnoverScale>
+						<Interpolation>YES</Interpolation>
+					</ConditionModel>
+					<ConditionModel>
+						<ConditionValue>1</ConditionValue>
+						<TurnoverScale>3500000</TurnoverScale>
+						<Interpolation>YES</Interpolation>
+					</ConditionModel>
+					<ConditionModel>
+						<ConditionValue>1.5</ConditionValue>
+						<TurnoverScale>5000000</TurnoverScale>
+						<Interpolation>YES</Interpolation>
+					</ConditionModel>
+					<ConditionModel>
+						<ConditionValue>2</ConditionValue>
+						<TurnoverScale>6500000</TurnoverScale>
+						<Interpolation>YES</Interpolation>
+					</ConditionModel>
+					<ConditionModel>
+						<ConditionValue>2.5</ConditionValue>
+						<TurnoverScale>8000000</TurnoverScale>
+						<Interpolation>YES</Interpolation>
+					</ConditionModel>
+					<ConditionModel>
+						<ConditionValue>3</ConditionValue>
+						<TurnoverScale>9500000</TurnoverScale>
+						<Interpolation>YES</Interpolation>
+					</ConditionModel>
+				</ConditionModels>
+			</SpecialService>
+		</SpecialServices>
+	</ProductCatalogue-Header>
+	<ProductCatalogue-Parties>
+		<Buyer>
+			<ILN>4820086630009</ILN>
+			<Name>ТОВ МЕТРО Кеш енд Кері Україна</Name>
+			<CityName>02140, Київ, Україна</CityName>
+			<StreetAndNumber>пр-т П. Григоренка, 43</StreetAndNumber>
+			<PhoneNumber>+380444921000</PhoneNumber>
+		</Buyer>
+		<Seller>
+			<ILN>9864065732181</ILN>
+			<Name>FelEx_1</Name>
+		</Seller>
+		<Sender>
+			<ILN>4820086630009</ILN>
+		</Sender>
+		<Receiver>
+			<ILN>9864065732181</ILN>
+		</Receiver>
+		<DeliveryPoint>
+			<ILN>9991027243437</ILN>
+			<DeliveryPlace>0</DeliveryPlace>
+		</DeliveryPoint>
+	</ProductCatalogue-Parties>
+	<ProductCatalogue-Lines>
+		<Line>
+			<Line-Item>
+				<ServiceNumber>AD01</ServiceNumber>
+				<ServiceName>Advertising services/ Послуги з рекламування товарів Постачальника</ServiceName>
+				<ItemCategoryNumber>FB106 (153 PUAR)</ItemCategoryNumber><ContractDescription>153</ContractDescription>
+				<PeriodStartDate>2021-10-01</PeriodStartDate>
+				<PeriodEndDate>2021-10-31</PeriodEndDate>
+				<ReviewDeadlineDate>2021-10-31</ReviewDeadlineDate>
+				<InvoicingDate />
+				<InvoicingPeriod>end of month UAH/ кінець місяця</InvoicingPeriod><ConditionMethod>% from turnover/ % від товарообігу</ConditionMethod>
+				<Amount>5</Amount>
+				<Currency>%</Currency>
+				<Remarks /></Line-Item>
+				<Line-Parties>
+					<Orderer>
+						<ILN>9991027243437</ILN>
+						<OrdererPlace>0</OrdererPlace>
+					</Orderer>
+				</Line-Parties>
+			</Line>
+			<Line>
+				<Line-Item>
+					<ServiceNumber>HVS1</ServiceNumber>
+					<ServiceName>High volume sales services/ Послуги зі стимулювання підвищених обсягів продажу товарів Постачальника</ServiceName>
+					<ItemCategoryNumber>FB106 (153 PUAR)</ItemCategoryNumber>
+					<ContractDescription>153</ContractDescription>
+					<PeriodStartDate>2021-10-01</PeriodStartDate>
+					<PeriodEndDate>2021-10-31</PeriodEndDate>
+					<ReviewDeadlineDate>2021-10-31</ReviewDeadlineDate>
+					<InvoicingDate />
+					<InvoicingPeriod>end of month UAH/ кінець місяця</InvoicingPeriod>
+					<ConditionMethod>% from turnover/ % від товарообігу</ConditionMethod>
+					<Amount>2</Amount>
+					<Currency>%</Currency>
+					<Remarks>BMPL</Remarks>
+				</Line-Item>
+				<Line-Parties>
+					<Orderer>
+						<ILN>9991027243437</ILN>
+						<OrdererPlace>0</OrdererPlace>
+					</Orderer>
+				</Line-Parties>
+			</Line>
+			<Line>
+				<Line-Item>
+					<ServiceNumber>PR01</ServiceNumber>
+					<ServiceName>Marketing services (promo-actions)/ Маркетингові послуги стосовно товарів Постачальника (промо-активності)</ServiceName>
+					<ItemCategoryNumber>FB106 (153 PUAR)</ItemCategoryNumber>
+					<ContractDescription>153</ContractDescription>
+					<PeriodStartDate>2021-10-01</PeriodStartDate>
+					<PeriodEndDate>2021-10-31</PeriodEndDate>
+					<ReviewDeadlineDate>2021-10-31</ReviewDeadlineDate>
+					<InvoicingDate />
+					<InvoicingPeriod>according to App#7a / згідно Дод №7а </InvoicingPeriod>
+					<ConditionMethod>% from turnover/ % від товарообігу</ConditionMethod>
+					<Amount>3</Amount>
+					<Currency>%</Currency>
+					<Remarks>promo</Remarks>
+				</Line-Item>
+				<Line-Parties>
+					<Orderer>
+						<ILN>9991027243437</ILN>
+						<OrdererPlace>0</OrdererPlace>
+					</Orderer>
+				</Line-Parties>
+			</Line>
+			<Line>
+				<Line-Item>
+					<ServiceNumber>C-01</ServiceNumber>
+					<ServiceName>Services on the organization for the goods promotion/ Послуги по організації просування товарів Постачальника</ServiceName>
+					<ItemCategoryNumber>FB106 (153 PUAR)</ItemCategoryNumber>
+					<ContractDescription>153</ContractDescription>
+					<PeriodStartDate>2021-10-01</PeriodStartDate>
+					<PeriodEndDate>2021-10-31</PeriodEndDate>
+					<ReviewDeadlineDate>2021-10-31</ReviewDeadlineDate>
+					<InvoicingDate />
+					<InvoicingPeriod>end of month UAH/ кінець місяця</InvoicingPeriod>
+					<ConditionMethod>% from turnover/ % від товарообігу</ConditionMethod>
+					<Amount>2.5</Amount>
+					<Currency>%</Currency>
+					<Remarks />
+				</Line-Item>
+				<Line-Parties>
+					<Orderer>
+						<ILN>9991027243437</ILN>
+						<OrdererPlace>0</OrdererPlace>
+					</Orderer>
+				</Line-Parties>
+			</Line>
+		</ProductCatalogue-Lines>
+		<ProductCatalogue-Summary>
+			<TotalLines>4</TotalLines>
+		</ProductCatalogue-Summary>
+	</Document-ProductCatalogue>

@@ -1,0 +1,4 @@
+Параметр, Формат, Опис
+.. _XChainStatus: , Об'єкт **XChainStatus**, 
+state, int , id статусу
+title, String , статус

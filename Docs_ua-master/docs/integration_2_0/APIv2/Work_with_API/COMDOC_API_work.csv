@@ -1,0 +1,24 @@
+":green:`1.1` `Авторизація <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:orange:`a) Відправка документа зі створенням чернетки:`
+
+:green:`1.2` `Створення чернетки документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/CreateDocumentV2.html>`__
+
+:green:`1.3` `Підписання чернетки документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/CreateTicketV2.html>`__
+
+:green:`1.4` `Відправка підписаної чернетки документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocument.html>`__
+
+:orange:`b) Відправка документа без створення чернетки:`
+
+:green:`1.2*` `Відправка вже підписаного документа (.p7s) без створення чернетки <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/SendDocumentWithoutDraft.html>`__",:red:`1.5*` `Відкликання підписання COMDOC документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocumentRevoke.html>`__
+":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`2.2` `Отримання контенту документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocBody.html>`__ 
+
+:green:`2.3` `Підписання вхідного документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/ComdocAccept.html>`__",:red:`2.3*` `Відхилення підписання COMDOC документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/DocReject.html>`__
+,":red:`3.1` `Авторизація Ініціатора <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:red:`3.2` `Створення запиту на анулювання COMDOC документа Ініціатором <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/RepealRequest.html>`__"
+":green:`4.1` `Авторизація Отримувача <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__
+
+:green:`4.2` `Відмова від анулювання COMDOC документа Отримувачем <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/RepealReject.html>`__",:red:`4.2*` `Приймання анулювання COMDOC документа Отримувачем <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/RepealAccept.html>`__

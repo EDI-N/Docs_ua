@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SIGN_ENVELOPE STATE="TRANSPORTER_SIGNED_LOADED">
+        <SIGN_ENVELOPE STATE="ORIGINATOR_SIGNED">
+            <DECLARHEAD>
+                <C_DOC>T01</C_DOC>
+                <C_DOC_SUB>001</C_DOC_SUB>
+                <C_DOC_VER>02</C_DOC_VER>
+            </DECLARHEAD>
+            <DECLARBODY TYPE="CORE" STAKE="ORIGINATOR">
+                <HFILL>2020-04-20</HFILL>
+                <HNUM>ТМ000000010279</HNUM>
+                <DOCUMENT_PLACE>м.Київ</DOCUMENT_PLACE>
+                <R01G1S>DAF</R01G1S>
+                <R01G11S>XF105</R01G11S>
+                <R01G2S>АН6754ЕА</R01G2S>
+                <R01G3S>авто</R01G3S>
+                <R01G4S>DAF</R01G4S>
+                <R01G5S>АН2325ЕА</R01G5S>
+                <R01G6S>причіп1</R01G6S>
+                <R01G7S>DAF</R01G7S>
+                <R01G8S>АН1111ЕА</R01G8S>
+                <R01G9S>причіп2</R01G9S>
+                <R01G10S>вантажні перевезення</R01G10S>
+                <R02G11S>11223344</R02G11S>
+                <R02G1S>Перевізник 1</R02G1S>
+                <R02G12S>Юридична адреса Перевізник</R02G12S>
+                <R02G21S>34554362</R02G21S>
+                <R02G2S>Замовник Тестовий платник 3</R02G2S>
+                <R02G22S>Юридична адреса Замовник</R02G22S>
+                <R02G3S>Шевченко</R02G3S>
+                <R02G31S>Тарас</R02G31S>
+                <R02G32S>Григорович</R02G32S>
+                <R02G4S>АА123456</R02G4S>
+                <DRIVER_ID>1234567890</DRIVER_ID>
+                <HTIN>34554362</HTIN>
+                <HNAME>Тестовий платник 3</HNAME>
+                <HLOC>УКРАЇНА, 88745, ЧЕРКАСЬКА ОБЛАСТЬ, ЖАШКIВСЬКИЙ РАЙОН Р-Н, М.ЖАШКІВ, ВУЛ. ЛЕНІНА, БУД. 22, КВ. (ОФІС) 3</HLOC>
+                <R04G1S>33445566</R04G1S>
+                <R04G2S>Тестовий платник 4</R04G2S>
+                <R04G3S>УКРАЇНА, 88745, М. КИЇВ, ВУЛ. ЛЕНІНА, БУД. 22, КВ. (ОФІС) 3</R04G3S>
+                <R05G21>8000000000</R05G21>
+                <R05G2S>Київ, пр. Тараса Шевченко</R05G2S>
+                <R05G41>8000000000</R05G41>
+                <R05G4S>Київ, Хрещатик</R05G4S>
+                <R012G3S>дванадцять</R012G3S>
+                <R013G1>200.00</R013G1>
+                <R013G2S>двісті</R013G2S>
+                <R010G3S>сто тисяч</R010G3S>
+                <R011G1>16666.67</R011G1>
+                <R014G1S>сертифікат якості</R014G1S>
+                <SEAL_NO>пломба 123, пломба 456</SEAL_NO>
+                <TEMPERATURE>Температурний режим</TEMPERATURE>
+                <T1RXXXXG81S ROWNUM="1">побутова техніка</T1RXXXXG81S>
+                <T1RXXXXG82 ROWNUM="1" xsi:nil="true"/>
+                <T1RXXXXG9S ROWNUM="1">шт</T1RXXXXG9S>
+                <T1RXXXXG10 ROWNUM="1">12</T1RXXXXG10>
+                <T1RXXXXG11 ROWNUM="1">100.00</T1RXXXXG11>
+                <T1RXXXXG12 ROWNUM="1">1440.00</T1RXXXXG12>
+                <T1RXXXXG13S ROWNUM="1">коробка</T1RXXXXG13S>
+                <T1RXXXXG14S ROWNUM="1">сертифікат якості</T1RXXXXG14S>
+                <T1RXXXXG15 ROWNUM="1">1.00</T1RXXXXG15>
+                <T1RXXXXG81S ROWNUM="2">небезпечний вантаж</T1RXXXXG81S>
+                <T1RXXXXG82 ROWNUM="2">1.1</T1RXXXXG82>
+                <T1RXXXXG9S ROWNUM="2">шт</T1RXXXXG9S>
+                <T1RXXXXG10 ROWNUM="2">12</T1RXXXXG10>
+                <T1RXXXXG11 ROWNUM="2">200.00</T1RXXXXG11>
+                <T1RXXXXG12 ROWNUM="2">300.00</T1RXXXXG12>
+                <T1RXXXXG13S ROWNUM="2">бочка</T1RXXXXG13S>
+                <T1RXXXXG14S ROWNUM="2" xsi:nil="true" />
+                <T1RXXXXG15 ROWNUM="2">12.0</T1RXXXXG15>
+                <R001G10>12.00</R001G10>
+                <R001G12>1440.00</R001G12>
+                <R08G2>1.00</R08G2>
+                <DATE_ARRIVAL_LOAD>2020-07-01</DATE_ARRIVAL_LOAD>
+                <R08G31>9</R08G31>
+                <R08G32>0</R08G32>
+                <DATE_DEPARTURE_LOAD>2020-07-01</DATE_DEPARTURE_LOAD>
+                <R08G41>10</R08G41>
+                <R08G42>0</R08G42>
+                <R08G51>2</R08G51>
+                <R08G52>2</R08G52>
+                <R017G11S>комірник</R017G11S>
+                <R017G1S>Ткаченко</R017G1S>
+                <DECLARBODY_ORIGINATOR_SECURITY>
+                    <FIRST_NAME>Богдан</FIRST_NAME>
+                    <LAST_NAME>Хмельницький</LAST_NAME>
+                    <FATHERS_NAME>Михайлович</FATHERS_NAME>
+                    <DOCUMENT_TYPE>договір щодо надання послух в сфері охорони вантажів</DOCUMENT_TYPE>
+                    <DOCUMENT_ID>№2345-ФФ</DOCUMENT_ID>
+                    <DOCUMENT_DATE>2020-04-01</DOCUMENT_DATE>
+                </DECLARBODY_ORIGINATOR_SECURITY>
+            </DECLARBODY>
+            <DECLAREXT>
+                <EXTENSION TYPE="EMAIL" STAKE="RECIPIENT">name@foo.com</EXTENSION>
+                <EXTENSION TYPE="EMAIL" STAKE="TRANSPORTER">name@bar.com</EXTENSION>
+                <EXTENSION TYPE="DIVISION" STAKE="TRANSPORTER">Закарпатське відділення N1</EXTENSION>
+                <EXTENSION TYPE="KOATUU" STAKE="RECIPIENT" VISIBLE="INVISIBLE">2100000000</EXTENSION>
+                <EXTENSION TYPE="BARCODE" STAKE="ORIGINATOR" CARGO_ROWNUM="1">12345678</EXTENSION>
+            </DECLAREXT>
+        </SIGN_ENVELOPE>
+        <SIGNATURE OWNER="ORIGINATOR">T1JJR0lOQVRPUl9TSUdORUQK</SIGNATURE>
+        <DECLARBODY TYPE="AMENDMENT" STAKE="TRANSPORTER">
+            <R017G2S>водій</R017G2S>
+            <R017G3S>Шевченко</R017G3S>
+            <R017G21S>старший експедитор</R017G21S>
+            <R017G31S>Василенко</R017G31S>
+        </DECLARBODY>
+        <DECLAREXT>
+            <EXTENSION TYPE="EMAIL" STAKE="RECIPIENT">name2@foo.com</EXTENSION>
+        </DECLAREXT>
+    </SIGN_ENVELOPE>
+    <SIGNATURE OWNER="TRANSPORTER_EXPEDITION">VFJBTlNQT1JURVJfU0lHTkVECg==</SIGNATURE>
+    <SIGNATURE OWNER="TRANSPORTER_DRIVER">RFJJVkVSX1NJR05FRAo=</SIGNATURE>
+</DECLAR>

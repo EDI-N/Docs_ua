@@ -1,0 +1,4 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XPriceListPeriod:,, Об'єкт **XPriceListPeriod** ,
+date_from,,long,період дії з
+date_to,,long,період дії по

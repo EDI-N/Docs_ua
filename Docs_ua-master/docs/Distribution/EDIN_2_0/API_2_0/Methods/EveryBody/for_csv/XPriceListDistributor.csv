@@ -1,0 +1,5 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _XPriceListDistributor:,, Об'єкт **XPriceListDistributor** ,
+name,,String,назва Покупця (Дистиб’ютора)
+id,,long,ідентифікатор Покупця (Дистиб’ютора)
+gln,,String,GLN Покупця (Дистиб’ютора)

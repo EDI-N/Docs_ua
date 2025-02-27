@@ -1,0 +1,7 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _CARRIER_LOAD_SIGN_ENVELOPE:,О, Об'єкт **CARRIER_LOAD_SIGN_ENVELOPE**,
+STATE,О,«TRANSPORTER_SIGNED_LOADED»,стан документу «підписано Перевізником під час завантаження товару»
+**SIGN_ENVELOPE**,О,CONSIGNOR_SIGN_ENVELOPE_,об'єкт; обгортка для накладання підпису Вантажовідправника на контент
+**SIGNATURE**,О,SIGNATURE_ORIGINATOR_,об'єкт; підписи
+**DECLARBODY**,О,CARRIER_LOAD_BODY_,об'єкт; зміст документа
+**DECLAREXT**,О,DECLAREXT_,об'єкт; додаткова інформація для учасників перевезення

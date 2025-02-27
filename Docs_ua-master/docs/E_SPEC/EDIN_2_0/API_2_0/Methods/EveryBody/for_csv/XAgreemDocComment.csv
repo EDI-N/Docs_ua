@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _XAgreemDocComment: , Об'єкт **XAgreemDocComment** ,
+id,long,id коментаря
+docId,long,id документа (пропозиції)
+date,long,дата коментаря 
+user,String,id користувача
+comment,String,текст коментаря
+attachments,List<XAgreemDocAttachment_>,масив об'єктів; дані файла-вкладення

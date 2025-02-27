@@ -1,0 +1,8 @@
+Параметр, Формат, Опис
+.. _Address: , Об'єкт **Address** ,
+uuid,UUID,ідентифікатор адреси
+name,String,назва адреси
+city,String,місто
+street,String,вулиця
+koatuu,String,код КОАТУУ
+katottg,String,код КАТОТТГ

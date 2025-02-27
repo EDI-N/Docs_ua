@@ -1,0 +1,19 @@
+Параметр, Формат, Опис
+.. _UIType2Role:, Об'єкт **UIType2Role**,
+uiType,UIType,"id розділу
+1 - ""packages""
+2 - ""companies""
+3 - ""contracts""
+4 - ""package_types""
+5 - ""access""
+6 - ""security""
+7 - ""account""
+8 - ""logs""
+9 - ""package_routes""
+10 - ""contract_templates""
+11 - ""payments""
+12 - ""agreement_groups""
+13 - ""agreement_processes""
+14 - ""agreement_tasks""
+15 - ""partners"""
+accessType,int,"тип доступу; ""1-Повний доступ; 2-Перегляд"""

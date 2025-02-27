@@ -1,0 +1,9 @@
+**URL**       ,
+Метод запиту  , PUT                                          
+URL запиту    , **/api/distribex/accessgroup?gln=9864065732303**
+URL параметри ,"**gln** (обов'язково) String - GLN Продавця (Виробника)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передаються дані групи дистиб'юторів (об'єкт `XDistribexAccessGroup <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/EveryBody/XDistribexAccessGroup.html>`__)"

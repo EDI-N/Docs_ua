@@ -1,0 +1,11 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/products/group?gln=9864067620417&shard_gln=9864119011415**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії (для мережі обидва параметра мають однакове значення);
+
+**shard_gln** (обов'язково) String - GLN мережі;
+
+**group_id** (опціонально) long - ідентифікатор групи/категорії"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Commercial_offers/API/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

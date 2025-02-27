@@ -1,0 +1,357 @@
+Параметр,Тип [1]_,Формат,Опис
+**UAECMR**.**ecmr**.**documentContext**.transactionID,M,string,Номер версії документа (транзакції) в ланцюгу підписання документів
+**UAECMR**.**ecmr**.**documentContext**.**documentCode**.id,M,string,код типу документа
+**UAECMR**.**ecmr**.**documentContext**.**documentSubCode**.id,M,string,код підтипу документа
+**UAECMR**.**ecmr**.**exchangedDocument**.id,M,string,порядковий номер (серія) документа
+**UAECMR**.**ecmr**.**exchangedDocument**.**issueDateTime**.dateTime,M,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата і час складання документа
+**UAECMR**.**ecmr**.**exchangedDocument**.remarks,O,string,Ремарки
+**UAECMR**.**ecmr**.**exchangedDocument**.**includedNote**.**contentCode**.listAgencyID,"M для GLN (решта O)",String,"Ідентифікатор:
+
+* GLN
+* transportation_max_temperature (Максимальна температура під час перевезення)
+* logger_return (Повернення логера)
+* logistic_unit_number_with_logger (Номер логістичної одиниці з термологером)
+* gps_number (Номер GPS)
+* logger_number (Номер термологера).
+
+Ідентифікатори logistic_unit_number_with_logger / gps_number / logger_number вказуються контрагентом з роллю «Вантажовідправник». Ідентифікатори transportation_max_temperature та logger_return вказуються контрагентом з роллю «Вантажоодержувач»"
+**UAECMR**.**ecmr**.**exchangedDocument**.**includedNote**.**contentCode**.value,M,"* для GLN = Число (13)
+* для transportation_max_temperature = Число (3)
+* для logger_return = «Так» / «Ні»
+* для logistic_unit_number_with_logger = Рядок
+* для gps_number = Рядок
+* для logger_number = Рядок",значення ідентифікатора
+**UAECMR**.**ecmr**.**exchangedDocument**.**includedNote**.content,M,string,"Код ролі учасника. `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+
+* перевізник - CA
+* новий перевізник - CH
+* водій - DR
+* новий водій - DRS"
+**UAECMR**.**ecmr**.**exchangedDocument**.**issueLogisticsLocation**.name,M,string,Найменування місця складання ТТН
+**UAECMR**.**ecmr**.**exchangedDocument**.**issueLogisticsLocation**.description,M,string,Опис (адреса) місця складання ТТН
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**grossWeightMeasure**.unitCode,M,string,`Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**grossWeightMeasure**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedInvoiceAmount**.currencyId,M,string,Тризначний код валюти (UAH)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedInvoiceAmount**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.consignmentItemQuantity,M,decimal,Загальна кількість місць вантажу (контейнерів)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Вантажовідправника
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.name,M,string,"Повне найменування Вантажовідправника (юридичної особи або ПІБ фізичної-особи підприємця), що проводить відвантаження (списання) перелічених в ТТН товарно-матеріальних цінностей"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.roleCode,M,string,Роль учасника (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**tradeContact**.personName,O,string,ПІБ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**postalTradeAddress**.streetName,M,string,Адреса (назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**postalTradeAddress**.cityName,M,string,Місто (назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignor**.**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Вантажоодержувача
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.name,M,string,"Повне найменування Вантажоодержувача (юридичної особи або ПІБ фізичної-особи підприємця), що проводить одержання (оприбуткування) перелічених в ТТН товарно-матеріальних цінностей"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.roleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**tradeContact**.personName,O,string,ПІБ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**postalTradeAddress**.streetName,M,string,Адреса (назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**postalTradeAddress**.cityName,M,string,Місто (назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consignee**.**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Перевізника
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.name,M,string,"Повне найменування Перевізника (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник уклав договір на надання транспортних послуг"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.roleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**tradeContact**.personName,M,string,"ПІБ водія, що керуватиме ТЗ при перевезенні вантажу"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.streetName,M,string,Адреса (назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.cityName,M,string,Місто (назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**taxRegistration**.id,M,string,РНОКПП відповідальної особи (водія)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrier**.**specifiedGovernmentRegistrations**.id,M,string,"Серія та номер водійського посвідчення Водія. Заповнюється в форматі «3 заголовні кириличні літери + 6 цифр без пробілів», наприклад: ``DGJ123456``, ``АБВ123456``"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Експедитора
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).name,M,string,"Повне найменування Експедитора (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, з яким вантажовідправник (замовник) уклав договір траспортного експедирування"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).roleCode,M,string,Роль учасника (Експедитор - FW). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**tradeContact**.personName,O,string,ПІБ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**postalTradeAddress**.streetName,M,string,Адреса (назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**postalTradeAddress**.cityName,M,string,Місто (назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - FW).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Замовника
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).name,M,string,"Повне найменування Замовника (юридичної особи або фізичної особи - підприємця) або прізвище, ім’я, по батькові фізичної особи, що проводить оплату транспортної роботи і послуг"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).roleCode,M,string,Роль учасника (Замовник - OB). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**tradeContact**.personName,O,string,ПІБ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**postalTradeAddress**.streetName,M,string,Адреса (назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**postalTradeAddress**.cityName,M,string,Місто (назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - OB).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Проміжного складу
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).name,M,string,"Повне найменування Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).roleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**tradeContact**.personName,O,string,ПІБ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**postalTradeAddress**.streetName,M,string,Адреса (назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**postalTradeAddress**.cityName,M,string,Місто (назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - WD).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - COP).**id**.schemeAgencyID,M,string,ЄДРПОУ / РНОКПП Охоронної компанії
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - COP).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - COP).name,M,string,"Повне найменування Охоронної компанії, що надає охоронні послуги вантажу під час перевезення"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - COP).roleCode,M,string,Роль учасника (Охоронна компанія - COP). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**notifiedTradeParties**(роль - COP).**tradeContact**.personName,O,string,"ПІБ представника Замовника, який уповноважений супроводжувати вантаж, що підлягає спеціальній охороні"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**id**.schemeAgencyID,M,string,КАТОТТГ пункту навантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.name,M,string,Найменування пункту навантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.typeCode,M,string,Тип операції: 10 - навантаження; 5 - розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.description,M,string,Опис (адреса) пункту навантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**physicalGeographicalCoordinate**.latitudeMeasure,O,string,Географічні координати (Широта)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**physicalGeographicalCoordinate**.longitudeMeasure,O,string,Географічні координати (Довгота)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**physicalGeographicalCoordinate**.**systemId**.schemeAgencyID,M,string,GLN
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**carrierAcceptanceLogisticsLocation**.**physicalGeographicalCoordinate**.**systemId**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**id**.schemeAgencyID,M,string,КАТОТТГ пункту розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.name,M,string,Найменування пункту розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.typeCode,M,string,Тип операції: 10 - навантаження; 5 - розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.description,M,string,Опис (адреса) пункту розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**physicalGeographicalCoordinate**.latitudeMeasure,O,string,Географічні координати (Широта)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**physicalGeographicalCoordinate**.longitudeMeasure,O,string,Географічні координати (Довгота)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**physicalGeographicalCoordinate**.**systemId**.schemeAgencyID,M,string,GLN
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**consigneeReceiptLogisticsLocation**.**physicalGeographicalCoordinate**.**systemId**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=723).typeCode,M,string,"Тип 723 - використовується при зазначенні документа, що підтверджує надання спеціальних охоронних послуг (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=723).id,M,string,"Номер документа, згідно з яким представник Замовника уповноважений супроводжувати вантаж, який підлягає спеціальній охороні"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=723).remarks,O,string,"UUID супровідного документа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=723).**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=290).typeCode,M,string,Тип 290 - використовується при зазначенні передачі права предʼявлення претензії (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=290).id,O,string,Номер документа
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=290).remarks,O,string,"UUID супровідного документа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=290).**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=916).typeCode,M,string,"Тип 916 - використовується при формуванні актів, для вказання попередньої транзакції поточного акту (`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=916).id,M,string,Номер акта
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=916).remarks,O,string,"UUID супровідного документа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(TypeCode=916).**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(інші).typeCode,O,string,"Тип 
+
+* код 730 використовується для вказання попередніх транзакцій типу е-ТТН
+* код 730 також використовується при створенні актів для вказання е-ТТН до якого створюється акт
+* код 916 використовується при формуванні актів, для вказання попередньої транзакції поточного акту
+* код 723 при зазначенні документа, що підтверджує надання спеціальних охоронних послуг
+* код 290 при зазначенні передачі права предʼявлення претензії
+* код 119 при операціях з актом навантаження на проміжному складі, для зазначення попереднього акту розвантаження на цьому ж складі
+
+(`довідник кодів документів МІУ <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__ + `довідник внутрішніх кодів документів EDIN <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/TTN_doc_codes.html>`__)"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(інші).id,O,string,"Номер документа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(інші).remarks,O,string,"UUID супровідного документа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**associatedReferencedDocuments**(інші).**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання супровідного документа
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**actualOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час прибуття автомобіля на розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**scheduledOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час вибуття автомобіля з-під розвантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CN).name,M,string,Посада матеріально відповідальної особи вантажоодержувача
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CN).roleCode,M,string,Роль учасника (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CN).**tradeContact**.personName,M,string,ПІБ матеріально відповідальної особи вантажоодержувача
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CN).**id**.schemeAgencyID,M,string,РНОКПП матеріально відповідальної особи вантажоодержувача
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CN).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=DR).name,M,string,"Посада водія, що здав вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=DR).roleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=DR).**tradeContact**.personName,M,string,"ПІБ водія, що здав вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=DR).**id**.schemeAgencyID,O,string,РНОКПП Водія
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=DR).**id**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CA).name,M,string,"Посада відповідальної особи Перевізника"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CA).roleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CA).**tradeContact**.personName,M,string,"ПІБ відповідальної особи Перевізника"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CA).**id**.schemeAgencyID,O,string,РНОКПП Перевізника
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=CA).**id**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=FW).name,M,string,"Посада відповідальної особи Експедитора"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=FW).roleCode,M,string,Роль учасника (Експедитор - FW). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=FW).**tradeContact**.personName,M,string,"ПІБ відповідальної особи Експедитора"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=FW).**id**.schemeAgencyID,O,string,РНОКПП Експедитора
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**certifyingTradeParties**(RoleCode=FW).**id**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**applicableNotes**(з кодом GROSSWEIGHT).contentCode,O,string,Код GROSSWEIGHT
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**applicableNotes**(з кодом GROSSWEIGHT).content,O,decimal,"Маса брутто отриманого вантажу в місці розвантаження в кілограмах"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**applicableNotes**(з кодом DOWNTIME).contentCode,O,string,Код DOWNTIME
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryTransportEvent**.**applicableNotes**(з кодом DOWNTIME).content,O,unsignedByte,Час (години) простою під розвантаженням
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**actualOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час прибуття автомобіля під навантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**scheduledOccurrenceDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час вибуття автомобіля з-під навантаження
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CZ).name,M,string,"Посада матеріально відповідальної особи, яка відпускає вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CZ).roleCode,M,string,Роль учасника (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CZ).**tradeContact**.personName,M,string,"ПІБ матеріально відповідальної особи, яка відпускає вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CZ).**id**.schemeAgencyID,M,string,"РНОКПП матеріально відповідальної особи, яка відпускає вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CZ).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=DR).name,M,string,"Посада водія, що прийняв вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=DR).roleCode,M,string,Роль учасника (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=DR).**tradeContact**.personName,M,string,"ПІБ водія, що прийняв вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=DR).**id**.schemeAgencyID,O,string,РНОКПП Водія
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=DR).**id**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CA).name,M,string,"Посада відповідальної особи Перевізника"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CA).roleCode,M,string,Роль учасника (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CA).**tradeContact**.personName,M,string,"ПІБ відповідальної особи Перевізника"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CA).**id**.schemeAgencyID,O,string,РНОКПП Перевізника
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=CA).**id**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=FW).name,M,string,"Посада відповідальної особи Експедитора"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=FW).roleCode,M,string,Роль учасника (Експедитор - FW). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=FW).**tradeContact**.personName,M,string,"ПІБ відповідальної особи Експедитора"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=FW).**id**.schemeAgencyID,O,string,РНОКПП Експедитора
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**certifyingTradeParties**(RoleCode=FW).**id**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**applicableNotes**(з кодом GROSSWEIGHT).contentCode,M,string,Код GROSSWEIGHT
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**applicableNotes**(з кодом GROSSWEIGHT).content,M,decimal,"Маса брутто зданого/отриманого вантажу в кілограмах"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**applicableNotes**(з кодом DOWNTIME).contentCode,O,string,Код DOWNTIME
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**pickUpTransportEvent**.**applicableNotes**(з кодом DOWNTIME).content,O,unsignedByte,Час простою
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.sequenceNumeric,M,int,Порядковий номер рядка в таблиці
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**invoiceAmount**.currencyId,M,string,Загальна сума з ПДВ. Тризначний код валюти (UAH)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**invoiceAmount**.value,M,decimal,Загальна сума з ПДВ. Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**grossWeightMeasure**.unitCode,M,string,Маса брутто вантажу по кожному рядку в кг. `Код одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**grossWeightMeasure**.value,M,decimal,Маса брутто вантажу по кожному рядку в кг. Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**tariffQuantity**.unitCode,O,string,Ціна без ПДВ за одиницю в грн. Це можуть бути як гривні на кілограм (грн./кг) так і гривні на ящик (грн./ящик) - залежить від зазначеної одиниці виміру. Код одиниці виміру («UAH»)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**tariffQuantity**.value,O,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**globalID**.schemeAgencyID,O,string(min 4 - max 10),УКТЗЕД (код продукції)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**globalID**.value,O,string,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**natureIdentificationTransportCargo**.identification,M,string,Найменування вантажу
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableTransportDangerousGoods**.UNDGIdentificationCode,O,decimal,"Клас небезпечних речовин, до якого віднесено вантаж (у разі перевезення небезпечних вантажів). Код UNDG, 0 - якщо не використовується"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**associatedReferencedLogisticsTransportEquipment**.id,O,string,"Номер контейнера, в якому завантажено цей вантаж. Використовуєься опційно для контейнерих перевезень і має відповідати даним тегу utilizedLogisticsTransportEquipments"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**associatedReferencedDocuments**.id,O,string,"Номер документа, який водій отримує від вантажовідправника і передає вантажоодержувачеві разом з вантажем (товарні, залізничні накладні, сертифікати, свідоцтва тощо)"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**associatedReferencedDocuments**.remarks,O,string,"UUID супровідного документа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**transportLogisticsPackage**.itemQuantity,O,decimal,"Кількість місць, які визначаються за кожним найменуванням вантажу (це можуть бути ящики, кошики, мішки тощо; якщо вантаж упаковано на піддонах - вказують кількість піддонів)"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**transportLogisticsPackage**.typeCode,O,string,Вид пакування (`Довідник видів упаковок <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#packaging-types>`__)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**transportLogisticsPackage**.type,O,string,Одиниця виміру для itemQuantity
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**transportLogisticsPackage**.**physicalLogisticsShippingMarks**.marking,O,string,"Назва транспортної упаковки (вільна назва), в якій перевозиться вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**transportLogisticsPackage**.**physicalLogisticsShippingMarks**.**barcodeLogisticsLabel**.id,O,string,Штрихкод товару
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом VENDOR_CODE).contentCode,O,string,Код VENDOR_CODE
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом VENDOR_CODE).content,O,string,Артикул товару
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом QUANTITY).contentCode,O,string,Код QUANTITY
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом QUANTITY).content,O,string,Кількість товару
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом URL).contentCode,O,string,Код URL
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом URL).content,O,string,Посилання на документ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом BASE_UOM).contentCode,O,string,Код BASE_UOM
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом BASE_UOM).content,O,string,Одиниця виміру кількості товару для QUANTITY
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом BUYER_CODE).contentCode,O,string,Код BUYER_CODE
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом BUYER_CODE).content,O,string,Артикул покупця (використовується для ідентифікації товарної позиції при прийманні)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом PRICE_WITH_VAT).contentCode,O,string,Код PRICE_WITH_VAT
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом PRICE_WITH_VAT).content,O,string,Ціна за одиницю з ПДВ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом SUM_WITHOUT_VAT).contentCode,O,string,Код SUM_WITHOUT_VAT
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом SUM_WITHOUT_VAT).content,O,string,Загальна сума без ПДВ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RETURN_TARE).contentCode,O,string,Код RETURN_TARE
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RETURN_TARE).content,O,string,"Ознака «зворотня тара»"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом NET_WEIGHT).contentCode,O,string,Код NET_WEIGHT
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом NET_WEIGHT).content,O,string,Маса нетто
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RTP_TYPE).contentCode,O,string,Код RTP_TYPE
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RTP_TYPE).content,O,string,"Тип транспортної упаковки, наприклад, контейнер"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RTP_NAME).contentCode,O,string,Код RTP_NAME
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RTP_NAME).content,O,string,"Назва транспортної упаковки, наприклад, контейнер для перевезення сипучих речовин"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RTP_QUANTITY).contentCode,O,string,Код RTP_QUANTITY
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**includedSupplyChainConsignmentItems**.**applicableNotes**(з кодом RTP_QUANTITY).content,O,string,Кількість транспортної упаковки (використовується для обліку оборотної тари)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.id,M,string,"Реєстраційний номер автомобіля згідно з техпаспортом
+
+* укр.номери: має відповідати одному з патернів для автомобільних номерних знаків
+* єврономери: без валідації"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування автомобіля"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**handlingInstructions**.**applicableTransportSettingTemperature**.minimum,O,string,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**handlingInstructions**.**applicableTransportSettingTemperature**.maximum,O,string,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом BRAND).contentCode,M,string,Код BRAND
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом BRAND).content,M,string,Марка автомобіля згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом MODEL).contentCode,M,string,Код MODEL
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом MODEL).content,M,string,Модель автомобіля згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом COLOR).contentCode,O,string,Код COLOR
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом COLOR).content,O,string,Колір автомобіля згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом TYPE).contentCode,O,string,Код TYPE
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**.**applicableNotes**(з кодом TYPE).content,O,string,Тип автомобіля згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).id,O,string,"Реєстраційний номер причіпа/напівпричіпа згідно з техпаспортом"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).categoryCode,M,string,Тип TE - Причіп/напівпричіп
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).characteristicCode,M,string,"Код визначення Причіп/напівпричіп:
+
+* 14 - Причіп
+* 17 - Напівпричіп"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування причіпа/напівпричіпа"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**handlingInstructions**.**applicableTransportSettingTemperature**.minimum,O,string,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**handlingInstructions**.**applicableTransportSettingTemperature**.maximum,O,string,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом BRAND).contentCode,M,string,Код BRAND
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом BRAND).content,M,string,Марка причіпа/напівпричіпа згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом MODEL).contentCode,M,string,Код MODEL
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом MODEL).content,M,string,Модель причіпа/напівпричіпа згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом COLOR).contentCode,O,string,Код COLOR
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом COLOR).content,O,string,Колір причіпа/напівпричіпа згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом TYPE).contentCode,O,string,Код TYPE
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=TE).**applicableNotes**(з кодом TYPE).content,O,string,Тип причіпа/напівпричіпа згідно з техпаспортом
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=CN).categoryCode,M,string,Тип CN - Контейнер
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=CN).characteristicCode,M,string,"Тип контейнера:
+
+* 21 - 20-футовий
+* 23 - 40-футовий"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=CN).id,M,string,Ідентифікаційний номер контейнера
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=CN).**affixedLogisticsSeals**.id,O,string,"Номер пломби, якою проводилося пломбування контейнера"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=CN).**handlingInstructions**.**applicableTransportSettingTemperature**.minimum,O,string,"Температурний режим, необхідний для перевезення вантажу. Мінімальне значення температури"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**utilizedLogisticsTransportEquipments**(CategoryCode=CN).**handlingInstructions**.**applicableTransportSettingTemperature**.maximum,O,string,"Температурний режим, необхідний для перевезення вантажу. Максимальне значення температури"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.id,M,string,Порядковий номер проміжного розвантаження події (події завжди нумеруються в порядку поступового зростання за принципом N+1)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.typeCode,M,string,"Тип операції (розвантаження=5); завжди одне значення (5), оскільки використовується як планові пункти розвантаження"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.description,O,string,Опис
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**occurrenceLogisticsLocation**.**id**.schemeAgencyID,M,string,Код КАТОТТГ складу тимчасового зберігання відповідно до Кодифікатора адміністративно-територіальних одиниць та територій територіальних громад
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**occurrenceLogisticsLocation**.**id**.value,M,string,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**occurrenceLogisticsLocation**.name,O,string,Найменування та адреса (Місцезнаходження складу)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**occurrenceLogisticsLocation**.typeCode,M,string,"Тип операції (розвантаження=5); завжди одне значення (5), оскільки використовується як планові пункти розвантаження"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**occurrenceLogisticsLocation**.description,O,string,Додаткова інформація складу тимчасового зберігання
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**id**.schemeAgencyID,M,string,"ЄДРПОУ підприємства (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**id**.value,M,decimal,Значення
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).name,M,string,"Повне найменування Проміжного складу (Вантажовідправник/Перевізник/Експедитор/Вантажоодержувач/Товарний склад), що приймає від Перевізника на тимчасове зберігання вантаж"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).roleCode,M,string,Роль учасника (Проміжний склад - WD). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**tradeContact**.personName,O,string,ПІБ відповідальні особи Проміжного складу
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**tradeContact**.**telephoneUniversalCommunication**.completeNumber,O,string,Основний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**tradeContact**.**mobileTelephoneUniversalCommunication**.completeNumber,O,string,Мобільний телефон
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**tradeContact**.**emailURIUniversalCommunication**.completeNumber,O,string,Електронна адреса
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**postalTradeAddress**.postCode,O,string,Індекс
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**postalTradeAddress**.streetName,M,string,Адреса (Назва вулиці + номер будівлі)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**postalTradeAddress**.cityName,M,string,Місто (Назва населеного пункту)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**postalTradeAddress**.countryID,M,string,Країна (UA)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**postalTradeAddress**.countrySubDivisionName,O,string,Область та район (за наявності)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**mainCarriageLogisticsTransportMovement**.**specifiedTransportEvents**.**certifyingTradeParties**(RoleCode=WD).**taxRegistration**.id,O,string,РНОКПП відповідальної особи
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryInstructions**.description,O,string,"Опис (вид роботи перевізника: за відрядним тарифом, за погодинним тарифом, за покілометровим тарифом, централізовані перевезення тощо)"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**deliveryInstructions**.descriptionCode,M,string,Код (TRANSPORTATION_TYPE)
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.typeCode,O,string,"Тип документа, на основі якого складено поточний документ. `Довідник кодів документів <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/Dictionaries/Dictionaries.html#un-edifact-codes>`__"
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.id,M,string,Відповідає ExchangedDocumentContext.SpecifiedTransactionID попередніх версій
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.remarks,O,string,Base64 документа попередньої версії
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.**formattedIssueDateTime**.dateTime,O,`datetime <https://www.w3.org/TR/xmlschema-2/#dateTime>`__ (2021-12-13T14:19:23+02:00),Дата та час складання попереднього ECMR документа
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.**attachedSpecifiedBinaryFile**.id,M,string,Відповідає document.id із ЦБД еТТН
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.**attachedSpecifiedBinaryFile**.uriid,M,string,Посилання на документ
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.**attachedSpecifiedBinaryFile**.MIMECode,O,string,Код `MIME типізації <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+**UAECMR**.**ecmr**.**specifiedSupplyChainConsignment**.**previousAdministrativeReferencedDocument**.**attachedSpecifiedBinaryFile**.SizeMeasure,M,Long,Розмір файлу
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CZ).signingPartyRoleCode,M,string,Роль підписанта (Вантажовідправник - CZ). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CZ).partySignature,M,string,Підпис (base64 підпису p7s)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CZ).name,M,string,ПІБ підписанта (відповідальної особи вантажовідправника)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CZ).position,O,string,Посада підписанта (відповідальної особи вантажовідправника)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CZ).**specifiedTaxRegistration**.id,M,string,РНОКПП відповідальної особи вантажовідправника
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=DR).signingPartyRoleCode,M,string,Роль підписанта (Водій - DR). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=DR).partySignature,M,string,Підпис (base64 підпису p7s)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=DR).name,M,string,ПІБ підписанта (Водія)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=DR).position,O,string,Посада підписанта (Водія)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=DR).**specifiedTaxRegistration**.id,M,string,РНОКПП підписанта (Водія)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CA).signingPartyRoleCode,M,string,Роль підписанта (Перевізник - CA). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CA).partySignature,M,string,Підпис (base64 підпису p7s)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CA).name,M,string,ПІБ підписанта (відповідальної особи Перевізника)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CA).position,O,string,Посада підписанта (відповідальної особи Перевізника)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CA).**specifiedTaxRegistration**.id,M,string,РНОКПП підписанта (Перевізника)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CN).signingPartyRoleCode,M,string,Роль підписанта (Вантажоодержувач - CN). `Довідник ролей <https://docs.google.com/spreadsheets/d/1DTHZKlXo1klqBP_DfiUnaDq1teIeNk1gpMlapN2ZKb4/edit?pli=1#gid=112300961>`__
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CN).partySignature,M,string,Підпис (base64 підпису p7s)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CN).name,M,string,ПІБ підписанта (відповідальної особи Вантажоодержувача)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CN).position,O,string,Посада підписанта (відповідальної особи Вантажоодержувача)
+**UAECMR**.**signatureStorage**.**signatures**(SigningPartyRoleCode=CN).**specifiedTaxRegistration**.id,M,string,РНОКПП підписанта (Вантажоодержувача)

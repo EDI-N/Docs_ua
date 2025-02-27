@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _Package2Dictionaries:, Об'єкт **Package2Dictionaries**,
+packageId,long,id комплекту
+dictionaryId,long,id довідника
+fillType,int,"тип заповнення поля; ""1 - заповнює ініціатор комплекта; 2 - одержувач; 3 - обидва"""
+required,int,"ознака обов'язковості; ""0 - Ні; 1 - Так"""
+dictionary,Dictionary,об'єкт; дані довідника

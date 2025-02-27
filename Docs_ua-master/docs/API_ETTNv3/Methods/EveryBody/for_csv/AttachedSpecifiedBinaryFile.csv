@@ -1,0 +1,6 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _AttachedSpecifiedBinaryFile:,,Об'єкт **AttachedSpecifiedBinaryFile**,
+id,M,string,Ідентифікатор (guid) документа-підстави (ТТН / Акта); має відповідати document.id еТТН/Акта в ЦБД (значення **ettnId** з методу `Отримання списку подій з ЦБД  <https://wiki.edin.ua/uk/latest/API_ETTNv3_1/Methods/MintransEvents.html>`__ = значення **external_doc_id** `Отримання мета-даних документа <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/GetDocument.html>`__)
+uriid,O,string,Посилання на документ
+MIMECode,O,string,Код `MIME типізація <https://uk.wikipedia.org/wiki/MIME_%D1%82%D0%B8%D0%BF>`__
+SizeMeasure,O,Long,Розмір файла

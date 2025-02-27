@@ -1,0 +1,20 @@
+**URL**       ,
+Метод запиту  , POST
+URL запиту    , **/api/v2/eds/doc/reject?gln=9864065702429&doc_uuid=c1f6a1d0-5aaf-4a06-b78d-71c238f70986&autoGenerate**
+URL параметри ,"**gln** (обов'язково) String (13) - номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні аккаунта АБО **guid** (обов'язково) String - унікальний ідентифікатор організації на платформі EDIN 2.0
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа;
+
+
+:red:`лише для DOCUMENTINVOICE/DOCCORINVOICE:` **autoGenerate** (опціонально) - параметр (без значення), що вказує на автоматичне генерування xml Повідомлення про відмову від підписання документа (`COMDOC_021 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
+Content-Type  , ``application/json`` (запит містить **autoGenerate** параметр) або ``application/pkcs7-signature`` (запит без **autoGenerate** параметра)
+**REQUEST**   ,
+Body          ,"В тілі запиту методу **обов'язково** передається:
+
+* текст причини відмови від підписання документа (коли запит містить **autoGenerate** параметр);
+
+АБО
+
+* підписаний p7s файл Повідомлення про відмову від підписання документа (`COMDOC_021 <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__) - запит без **autoGenerate** параметра."

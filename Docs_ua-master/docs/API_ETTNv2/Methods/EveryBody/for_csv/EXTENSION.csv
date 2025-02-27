@@ -1,0 +1,49 @@
+Параметр,Обов'язкове / Необов'язкове поле, Формат, Опис
+.. _EXTENSION:,Н, Об'єкт **EXTENSION**,
+TYPE,Н,"enum (EMAIL, PHONE, DRFO, DIVISION, FULLNAME, ADDRESS, TOWN, REGION, AREA, KOATUU, GLN, GROUP, AGREEMENT, AGREEMENT_DATE, COMMENT, CONTACT, MILAGE, TRANSPORTATION_REQUEST_NO, TRANSPORTATION_REQUEST_DATE, BARCODE, VENDOR_CODE, URL, QUANTITY, BUYER_CODE, UKTZED, PRICE_WITH_VAT, SUM_WITHOUT_VAT, RETURN_TARE)","тип даних:
+
+* EMAIL - email,
+* PHONE - номер телефону,
+* DRFO - ідентифікаційний код,
+* DIVISION - Назва філіалу,
+* FULLNAME - Повне ім'я особи,
+* ADDRESS - Адреса,
+* TOWN - Населений пункт,
+* REGION - Район в області,
+* AREA - Область,
+* KOATUU - Код КОАТУУ,
+* GLN - GLN,
+* GROUP - Група користувачів,
+* AGREEMENT - Номер договору,
+* AGREEMENT_DATE - Дата договору,
+* COMMENT - Текстове поле,
+* CONTACT - Контактна інформація,
+* MILAGE - Кілометраж,
+* TRANSPORTATION_REQUEST_NO - Номер заявки на перевезення,
+* TRANSPORTATION_REQUEST_DATE - Дата заявки на перевезення,
+* BARCODE - Штрих-код товару,
+* VENDOR_CODE - Артикул товару,
+* URL - Посилання на документ,
+* QUANTITY - Кількість товару,
+* BUYER_CODE - Артикул покупця,
+* UKTZED - Код УКТ ЗЕД,
+* PRICE_WITH_VAT - Ціна з ПДВ,
+* SUM_WITHOUT_VAT - Сума без ПДВ,
+* RETURN_TARE - Тара на повернення"
+STAKE,Н,"enum (ORIGINATOR, RECIPIENT, TRANSPORTER_DRIVER, ORIGINATOR_DRIVER, TRANSPORTER_EXPEDITION, TRANSPORTER, CUSTOMER, CONSIGNOR, ANY)","запис учасника:
+
+* ORIGINATOR - Ініціатор
+* RECIPIENT - Вантажоотримувач
+* TRANSPORTER_DRIVER - Водій / Водій, що приймає вантаж
+* ORIGINATOR_DRIVER - Водій, що здає вантаж
+* TRANSPORTER_EXPEDITION - Експедитор
+* TRANSPORTER - Перевізник
+* CUSTOMER - Замовник
+* CONSIGNOR - Вантажовідправник
+* ANY - будь-хто"
+VISIBLE,Н,"enum (VISIBLE, INVISIBLE)","ознака видимості запису учасникам:
+
+* VISIBLE - відображається,
+* INVISIBLE - не відображається"
+CARGO_ROWNUM,Н,Integer,"№ позиції в таблиці"
+DATA,Н,String,Дані запису

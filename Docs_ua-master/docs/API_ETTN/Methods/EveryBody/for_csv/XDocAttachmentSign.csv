@@ -1,0 +1,7 @@
+Параметр,Формат,Опис
+.. _XDocAttachmentSign: ,**Об'єкт XDocAttachmentSign** ,
+attachmentId,long,id вкладення
+identifierId,long,id запису
+crc32hash,long,хеш контрольної суми підпису (CRC32 кодування)
+signerUUID,String,унікальний ідентифікатор підписанта
+signBody,transient byte[],байтовий масив тіла підпису

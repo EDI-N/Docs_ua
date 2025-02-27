@@ -1,0 +1,14 @@
+**URL**       ,
+Метод запиту  , DELETE                                          
+URL запиту    , **/api/es/novelty/image?gln=9864067620417&novelty_uuid=27a69845-bdfa-4f48-ac03-0868c9047662&image_type=logo**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+**novelty_uuid** (обов'язково) UUID - унікальний ідентифікатор комерційної пропозиції; 
+
+**image_type** (обов'язково) String - тип зображення:
+
+* icon - маленький логотип
+* logo - великий логотип (оригінальний розмір)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , application/json

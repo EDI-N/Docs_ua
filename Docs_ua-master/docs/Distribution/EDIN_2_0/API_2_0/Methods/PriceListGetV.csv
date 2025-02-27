@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/distribex/pricelist?gln=9864065732303&gln_id=13200793**
+URL параметри ,"**gln** (обов'язково) Число (13) - GLN Продавця (Виробника)
+
+**gln_id** (обов'язково / - ) String - ідентифікатор Покупця (Дистрибʼютора) (distributor_id). Обов'язково передається або **gln_id** або **access_groups_id** (один з параметрів);
+
+**access_groups_id** (обов'язково / - ) long - ідентифікатор групи Покупців (Дистрибʼюторів). Обов'язково передається або **gln_id** або **access_groups_id** (один з параметрів);
+
+**date** (опціонально) YYYY-MM-DD - *Прайс-лист Покупця (Дистрибʼютора) на* дату (фільтр)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/API_2_0/Methods/Authorization.html>`__"
+Content-Type  , application/json                              

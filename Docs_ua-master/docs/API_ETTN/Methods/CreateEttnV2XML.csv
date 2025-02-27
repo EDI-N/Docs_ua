@@ -1,0 +1,16 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/ettn/eds/doc/v2/xml?doc_uuid=060bacde-9162-4873-8beb-e3a2af4dd767&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+Content-Type  , application/json                             
+**REQUEST**   ,
+JSON Body     ,"В залежності від ролі користувача та в якому статусі перебуває вказаний документ (**doc_uuid**) тіло запиту відрізняється (виконання дій з документом згідно діючої схеми документообігу е-ТТН):
+
+* для документа е-ТТН в статусі «Чернетка» передавати нічого не потрібно
+* для документа е-ТТН підписаного **Перевізником(під час завантаження)** (документ в статусі IN_PROCESS чи CONFIRMED_CARRIER_LOAD) в тілі запиту (json) передається об'єкт `CARRIER_LOAD_SIGN_ENVELOPE <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CARRIER_LOAD_SIGN_ENVELOPE_REQUEST.html>`__
+* для документа е-ТТН підписаного **Вантажоотримувачем** при завантажуванні товару (документ в статусі SIGNED_CARRIER_LOAD чи CONFIRMED_CONSIGNEE) в тілі запиту (json) передається об'єкт `CONSIGNEE_SIGN_ENVELOPE <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CONSIGNEE_SIGN_ENVELOPE_REQUEST.html>`__
+* для документа е-ТТН підписаного **Перевізником(під час розвантаження)** (документ в статусі SIGNED_CONSIGNEE чи CONFIRMED_CARRIER_UNLOAD) в тілі запиту (json) передається об'єкт `CARRIER_UNLOAD_SIGN_ENVELOPE <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/EveryBody/CARRIER_UNLOAD_SIGN_ENVELOPE_REQUEST.html>`__ "

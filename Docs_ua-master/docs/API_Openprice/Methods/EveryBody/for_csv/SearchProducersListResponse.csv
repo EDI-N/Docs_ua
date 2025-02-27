@@ -1,0 +1,7 @@
+Параметр, Формат, Опис
+.. _SearchProducersListResponse: , Об'єкт,
+**id**,Identificator_,об'єкт; інформація про організацію
+**limits**,Limits_,об'єкт; обмеження
+**regions**,List<EDistribexRegion_>,масив; область або країна наявності товару
+**categories**,List<XProductGroup_>,масив об'єктів; групи / категорії товарів
+**categoriesNew**,List<ProductCategory_>,масив об'єктів; групи / категорії товарів

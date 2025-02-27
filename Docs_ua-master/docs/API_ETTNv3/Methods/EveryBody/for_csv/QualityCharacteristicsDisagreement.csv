@@ -1,0 +1,8 @@
+Параметр,Тип [1]_,Формат,Опис
+.. _QualityCharacteristicsDisagreement:,,Об'єкт **QualityCharacteristicsDisagreement**,
+**affixedLogisticsSeals**,M,List<SimpleIdentity_>,"масив об'єктів; Номер пломби згідно з ТТН"
+affixedLogisticsSealNotes,O,string,Відомості про пошкодження пломби
+**applicableTransportSettingTemperature**,O,ApplicableTransportSettingTemperature_,"об'єкт; Температурний режим згідно з ТТН"
+applicableTransportSettingTemperatureNotes,O,string,Відомості про недотримання температурного режиму
+packagingDamageDisagreementNotes,O,string,"Відомості про пошкодження тари (опис пошкоджень тари, пакування, маркування тощо)"
+otherDisagreementNotes,O,string,"Відомості про інші розбіжності (опис інших невідповідностей у характеристиках вантажу)"

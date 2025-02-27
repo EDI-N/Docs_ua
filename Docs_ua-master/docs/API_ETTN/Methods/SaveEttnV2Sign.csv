@@ -1,0 +1,10 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    ,**/api/ettn/eds/doc/xml/v2/sign?doc_uuid=060bacde-9162-4873-8beb-e3a2af4dd767&company_uuid=0855e1ce-46ed-4995-83b6-356127b95226**
+URL параметри ,"**company_uuid** (обов'язково) UUID - ідентифікатор компанії
+
+**doc_uuid** (обов'язково) UUID - ідентифікатор документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/API_ETTN/Methods/Authorization.html>`__ "
+**REQUEST**   ,
+JSON Body     ,"В тілі запиту методу передається відокремлений підпис (в бінарному вигляді)."

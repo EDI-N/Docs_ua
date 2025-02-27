@@ -1,0 +1,12 @@
+Параметр, Формат, Опис
+.. _Document2Package:, Об'єкт **Document2Package**,
+packageId,long,id комплекта
+documentId,long,id документа
+needSign,int,"необхідність підписання; ""0 - Ні; 1 - Так"""
+signsCount,int,кількість підписів
+ownerSignsCount,int,кількість підписів власника
+needEncrypt,int,"необхідність шифрування; ""0 - Ні; 1 - Так"""
+required,int,обов'язковий документ: 0 - Ні; 1 - Так
+isRecipientAttach,int,"ознака, що вказує, що документ є ""довкладенням"" з боку одержувача; ""0 - Ні; 1 - Так"""
+maxFilesCount,int,максимальна кількість вкладених файлів
+**document**,Document_,об'єкт; дані документа

@@ -1,0 +1,13 @@
+**URL**       ,
+Метод запиту  , POST                                          
+URL запиту    , **/api/v2/eds/doc?gln=9864065702429&doc_type=orders**
+URL параметри ,"**gln** (обов'язково) рядок (13) - номер GLN організації, яка пов'язана з авторизованим користувачем платформи EDIN 2.0 на рівні акаунта
+
+**doc_type** (обов'язково/-) рядок - тип створюваного документа (`опис параметру <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/XDocPage.html#param-desc>`__); даний параметр не передається при клонуванні документа (коли передається **clone_from_doc_uuid** параметр);
+
+**clone_from_doc_uuid** (обов'язково/-) рядок - унікальний ідентифікатор вже відправленого документа (COMDOC) для клонування в чернетку (при цьому тіло передавати не обов'язково, а Content-Type=application/json); даний параметр не передається при створенні чернетки документа"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__ "
+Content-Type  , ``application/json`` або ``application/xml`` або ``application/pkcs7-signature``
+**REQUEST**   ,
+JSON Body     ,"При створенні чернетки в тілі запиту методу передається документ у форматі JSON або XML або P7S в бінарному вигляді (`приклад запиту (в тому числі й для створення CONDRA та TRANSPORTATIONORDER) <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/EveryBody/CreateDocExample.html>`__ + `специфікації документів <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__)"

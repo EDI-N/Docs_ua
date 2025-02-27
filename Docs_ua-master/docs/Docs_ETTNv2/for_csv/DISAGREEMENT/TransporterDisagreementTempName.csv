@@ -1,0 +1,75 @@
+Назва поля,Тип [1]_,Формат,Опис
+**SIGN_ENVELOPE**,M,,Обгортка документа Перевізника (початок блоку)
+STATE,M,TRANSPORTER_SIGNED,"Стан документа «підписано Перевізником»"
+**SIGN_ENVELOPE**,M,,Обгортка документа Вантажоотримувача (початок блоку)
+STATE,M,ORIGINATOR_SIGNED,"Стан документа «підписано Вантажоотримувачем»"
+**DECLARHEAD**,M,,Складовий номер документа (початок блоку)
+C_DOC,M,String,Код документа («A01»)
+C_DOC_SUB,M,String,Підтип документа («01»)
+C_DOC_VER,M,String,Номер версії документа («01»)
+**DECLARHEAD**,,,Складовий номер документа (закінчення блоку)
+**DECLARBODY**,M,,Зміст документа Вантажоотримувача (початок блоку)
+TYPE,M,CORE,Тип документа (Основа)
+STAKE,M,ORIGINATOR,"Учасник-підписант (Вантажоотримувач)"
+HNUM,M,String,Номер Акта розбіжностей
+HFILL,M,date(YYYY-MM-DD),Дата Акта розбіжностей
+BASE_HNUM,M,String,Номер документа-підстави (ТТН)
+BASE_HFILL,M,date(YYYY-MM-DD),Дата документа-підстави (ТТН)
+UUID_TTN,M,UUID,Унікальний ідентифікатор ТТН
+DOCUMENT_PLACE,M,String,Місце складання
+R04G1S,M,String,Ідентифікаційний код Вантажоодержувача (ЄДРПОУ/ІПН)
+R04G2S,M,String,Повне найменування Вантажоодержувача
+R04G3S,M,String,"Місцезнаходження Вантажоодержувача (Місто, Адреса)"
+R02G11S,M,String,Ідентифікаційний код Автомобільного перевізника (ЄДРПОУ/ІПН)
+R02G1S,M,String,Повне найменування / ПІБ Автомобільного перевізника
+R02G3S,M,String,Прізвище Водія
+R02G31S,M,String,Ім'я Водія
+R02G32S,O,String,По батькові Водія
+R02G4S,O,String,Номер посвідчення Водія
+DRIVER_ID,M,int(10),"Ідентифікаційний код Водія"
+HTIN,M,String,Ідентифікаційний код Вантажовідправника (ЄДРПОУ/ІПН)
+HNAME,M,String,Повне найменування Вантажовідправника
+HLOC,M,String,Місцезнаходження Вантажовідправника
+SEAL_NO,O,String,Номер пломби згідно ТТН
+SEAL_NO_DAMAGE,O,String,Відомості про пошкодження пломби
+TEMPERATURE,O,String,Температурний режим згідно ТТН
+TEMPERATURE_MISMATCH,O,String,Відомості про недотримання температурного режиму
+PACKAGE_DAMAGE,O,String,Відомості про пошкодження тари
+OTHER_MISMATCH,O,String,Відомості про інші розбіжності
+**<T1RXXXXG81S>** ROWNUM=«1» message=«value» **</T1RXXXXG81S>**,M,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: найменування вантажу (номер контейнера) згідно ТТН
+**<T1RXXXXG9S>** ROWNUM=«1» message=«value» **</T1RXXXXG9S>**,M,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: одиниця виміру
+**<T1RXXXXG10>** ROWNUM=«1» message=«value» **</T1RXXXXG10>**,O,,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість місць згідно ТТН
+**<CARGO_NUMBER_PLACES_FACT>** ROWNUM=«1» message=«value» **</CARGO_NUMBER_PLACES_FACT>**,O,decimal,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість місць фактична
+**<CARGO_NUMBER_PLACES_MISMATCH>** ROWNUM=«1» message=«value» **</CARGO_NUMBER_PLACES_MISMATCH>**,O,decimal (допускаються від'ємні значення),блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість місць - відхилення
+**<CARGO_NUMBER_PLACES_REASON>** ROWNUM=«1» message=«value» **</CARGO_NUMBER_PLACES_REASON>**,O,string,блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: кількість місць - причина відхилення
+**<T1RXXXXG15>** ROWNUM=«1» message=«value» **</T1RXXXXG15>**,M(зміна позиції) / O(додавання позиції),,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: маса брутто згідно ТТН, кг"
+**<CARGO_GROSS_WEIGHT_FACT>** ROWNUM=«1» message=«value» **</CARGO_GROSS_WEIGHT_FACT>**,O,decimal,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: маса брутто фактична, кг"
+**<CARGO_GROSS_WEIGHT_MISMATCH>** ROWNUM=«1» message=«value» **</CARGO_GROSS_WEIGHT_MISMATCH>**,O,decimal (допускаються від'ємні значення),"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: маса брутто - відхилення, кг"
+**<CARGO_GROSS_WEIGHT_REASON>** ROWNUM=«1» message=«value» **</CARGO_GROSS_WEIGHT_REASON>**,O,string,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: маса брутто - причина відхилення"
+**<T1RXXXXG12>** ROWNUM=«1» message=«value» **</T1RXXXXG12>**,O,,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: загальна сума з ПДВ, грн"
+**<CARGO_SUM_FACT>** ROWNUM=«1» message=«value» **</CARGO_SUM_FACT>**,O,decimal,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: загальна сума з ПДВ фактична, грн"
+**<CARGO_SUM_MISMATCH>** ROWNUM=«1» message=«value» **</CARGO_SUM_MISMATCH>**,O,decimal (допускаються від'ємні значення),"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: загальна сума з ПДВ - відхилення, грн"
+**<CARGO_SUM_REASON>** ROWNUM=«1» message=«value» **</CARGO_SUM_REASON>**,O,string,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: загальна сума з ПДВ - причина відхилення"
+**<CARGO_OTHER_MISMATCH>** ROWNUM=«1» message=«value» **</CARGO_OTHER_MISMATCH>**,O,string,"блок табличної частини з n-кількістю рядків; ROWNUM - номер рядка; message: інші зауваження/відхилення"
+CARGO_TOTAL_GROSS_WEIGHT,O,decimal,"Всього: маса брутто згідно ТТН, кг"
+CARGO_TOTAL_GROSS_WEIGHT_MISMATCH,O,decimal,"Всього: маса брутто - відхилення, кг"
+CARGO_TOTAL_SUM,O,decimal,"Всього: загальна сума з ПДВ, грн"
+CARGO_TOTAL_SUM_MISMATCH,O,decimal,"Всього: загальна сума з ПДВ - відхилення, грн"
+DISAGREEMENT_INFORMATION,M,String,Опис причини складання акта розбіжностей
+DISAGREEMENT_CONCLUSION,M,String,Висновки (вимоги по рішенню неузгодженості)
+**DECLARBODY**,,,Зміст документа Вантажоотримувача (закінчення блоку)
+**SIGN_ENVELOPE**,,,Обгортка документа Вантажоотримувача (закінчення блоку)
+**SIGNATURE**,M,,Підпис Вантажоотримувача (початок блоку)
+OWNER,M,ORIGINATOR,Власник підпису: Вантажоотримувач
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,Підпис Вантажоотримувача (закінчення блоку)
+**DECLARBODY**,M,,Зміст документа Перевізника (початок блоку)
+TYPE,M,AMENDMENT,Тип документа (Поправки)
+STAKE,M,TRANSPORTER,"Учасник-підписант (Перевізник)"
+DISAGREEMENT_NOTES_TRANSPORTER,O,String,"Особливі відмітки Перевізника (інформація щодо незгоди зі змістом Акта)"
+**DECLARBODY**,,,Зміст документа Перевізника (закінчення блоку)
+**SIGN_ENVELOPE**,,,Обгортка документа Перевізника (закінчення блоку)
+**SIGNATURE**,M,,Підпис Перевізника (початок блоку)
+OWNER,M,TRANSPORTER_DRIVER,Власник підпису: Перевізник
+SIGN,M,String,тіло підпису в base64
+**SIGNATURE**,,,Підпис Перевізника (закінчення блоку)

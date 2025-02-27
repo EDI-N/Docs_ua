@@ -1,0 +1,17 @@
+**URL**       ,
+Метод запиту  , GET                                          
+URL запиту    , **/api/es/novelty?gln=9864067620417&retailer_gln=9864119011415&offset=0&limit=20**
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії;
+
+:green:`для Постачальника:` **retailer_gln** (обов'язково) String - GLN Торгової Мережі;
+
+:green:`для Мережі:` **supplier_gln** (обов'язково) String - GLN Постачальника;
+
+**novelty_uuid** (опціонально) String - для отримання конкретної комерційної пропозиції по її uuid;
+
+**limit** (опціонально) int - ліміт вибірки (за замовчуванням=20);
+
+**offset** (опціонально) int - зміщення відносно верхньої межі вибірки (за замовчуванням=0)"
+**Headers**   ,
+Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__ "
+Content-Type  , application/json                              

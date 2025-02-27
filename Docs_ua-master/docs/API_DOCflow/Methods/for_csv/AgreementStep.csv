@@ -1,0 +1,11 @@
+Параметр, Формат, Опис
+.. _AgreementStep:, Об'єкт **AgreementStep**,
+**agreementGroups**,List<AgreementGroup_>,масив об'єктів; групи узгодження
+agreementStepId,long,ID налаштувань кроків узгодження
+agreementProcId,long,ID процесу узгодження
+agreementTaskType,int,"тип завдання; ""1 - узгодження; 2 - підписання; 3 - повідомлення"""
+agreementExecType,int,"тип виконання; ""1 — до виконання всіма користувачами групи; 2 - одним користувачем з групи"""
+agreementExecPeriod,int,строк виконання в днях
+agreementStepPriority,int,пріоритет; чим більше число тим вищий пріоритет
+groupNames,String,найменування груп виконавців узгодження
+**userIds**,List<Long_>,масив; ID користувачів
