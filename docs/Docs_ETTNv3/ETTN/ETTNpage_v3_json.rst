@@ -11,875 +11,875 @@
 
 .. code:: json
 
-{
-    "ecmr": {
-        "documentContext": {
-            "transactionID": "0",
-            "documentCode": {
-                "id": "urn:ua:e-transport.gov.ua:ettn:01"
-            },
-            "documentSubCode": {
-                "id": "urn:ua:e-transport.gov.ua:ettn:01:generic:001"
-            }
-        },
-        "exchangedDocument": {
-            "id": "test_03",
-            "issueDateTime": {
-                "dateTime": "2025-02-19T16:13:00+02:00"
-            },
-            "includedNote": [
-                {
-                    "contentCode": {
-                        "listAgencyID": "vatAmount",
-                        "value": "2332"
+        {
+            "ecmr": {
+                "documentContext": {
+                    "transactionID": "0",
+                    "documentCode": {
+                        "id": "urn:ua:e-transport.gov.ua:ettn:01"
                     },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "gps_number",
-                        "value": "1122"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "logger_number",
-                        "value": "3342113"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "reserve_number",
-                        "value": "1313441"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "comment",
-                        "value": "24422424"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "logistic_unit_number_with_logger",
-                        "value": "131331"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "vehicle_length",
-                        "value": "11.32"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "vehicle_width",
-                        "value": "3.3"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "vehicle_height",
-                        "value": "25"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "gross_vehicle_weight_with_cargo",
-                        "value": "34322"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "consignmentItemQuantity_text",
-                        "value": "чотири цілих"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "grossWeightMeasure_text",
-                        "value": "триста цілих"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "associatedInvoiceAmount_text",
-                        "value": "чотириста грн 0 коп"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "vatAmount_text",
-                        "value": "дві тисячі триста тридцять дві грн 0 коп"
-                    },
-                    "content": "CZ"
-                }
-            ],
-            "issueLogisticsLocation": {
-                "name": "Місце складання документу",
-                "description": "Чернігівський р-н, c. Дніпровське"
-            }
-        },
-        "specifiedSupplyChainConsignment": {
-            "grossWeightMeasure": {
-                "unitCode": "KGM",
-                "value": "300"
-            },
-            "associatedInvoiceAmount": {
-                "currencyId": "UAH",
-                "value": "400"
-            },
-            "consignmentItemQuantity": "4",
-            "consignor": {
-                "id": {
-                    "schemeAgencyID": "ПАСПОРТ",
-                    "value": "AA111111"
-                },
-                "name": "Мій Вантажовідправник",
-                "roleCode": "CZ",
-                "tradeContact": {
-                    "personName": "Іванов Іван Іванович",
-                    "mobileTelephoneUniversalCommunication": {
-                        "completeNumber": "380333434035"
-                    },
-                    "emailURIUniversalCommunication": {
-                        "completeNumber": "sfjkfskjfjk@qee.com"
+                    "documentSubCode": {
+                        "id": "urn:ua:e-transport.gov.ua:ettn:01:generic:001"
                     }
                 },
-                "postalTradeAddress": {
-                    "postCode": "993564",
-                    "streetName": "вул. Нічна, б. 2",
-                    "cityName": "c. Дніпровське",
-                    "countryID": "UA",
-                    "countrySubDivisionName": "Чернігівська обл., Чернігівський р-н"
-                },
-                "taxRegistration": {
-                    "id": "342244244224"
-                },
-                "specifiedGovernmentRegistrations": [
-                    {
-                        "id": "9864065745518",
-                        "typeCode": "TRADEPARTY_GLN"
+                "exchangedDocument": {
+                    "id": "test_03",
+                    "issueDateTime": {
+                        "dateTime": "2025-02-19T16:13:00+02:00"
                     },
-                    {
-                        "id": "23512342-35121",
-                        "typeCode": "TRADEPARTY_UNZR"
-                    }
-                ]
-            },
-            "consignee": {
-                "id": {
-                    "schemeAgencyID": "РНОКПП",
-                    "value": "8883923234"
-                },
-                "name": "Мій Вантажоодержувача",
-                "roleCode": "CN",
-                "tradeContact": {
-                    "personName": "Ivanov Ivan",
-                    "mobileTelephoneUniversalCommunication": {
-                        "completeNumber": "380242442424"
-                    },
-                    "emailURIUniversalCommunication": {
-                        "completeNumber": "kjksfjkfskj@jjl.com"
-                    }
-                },
-                "postalTradeAddress": {
-                    "postCode": "777321",
-                    "streetName": "вул. Котляревського, 1",
-                    "cityName": "c. Одиноке",
-                    "countryID": "UA",
-                    "countrySubDivisionName": "Львівська обл., Львівський р-н"
-                },
-                "taxRegistration": {
-                    "id": "982822894892"
-                },
-                "specifiedGovernmentRegistrations": [
-                    {
-                        "id": "9864232618959",
-                        "typeCode": "TRADEPARTY_GLN"
-                    },
-                    {
-                        "id": "23512342-35121",
-                        "typeCode": "TRADEPARTY_UNZR"
-                    }
-                ]
-            },
-            "carrier": {
-                "id": {
-                    "schemeAgencyID": "РНОКПП",
-                    "value": "7828624353"
-                },
-                "name": "Мій Перевізник",
-                "roleCode": "CA",
-                "tradeContact": {
-                    "personName": "Мій Водій",
-                    "telephoneUniversalCommunication": {
-                        "completeNumber": "380472348932"
-                    }
-                },
-                "postalTradeAddress": {
-                    "postCode": "990392",
-                    "streetName": "Адреса",
-                    "cityName": "c. Твіржа",
-                    "countryID": "UA",
-                    "countrySubDivisionName": "Львівська обл., Яворівський р-н"
-                },
-                "taxRegistration": {
-                    "id": "7098394897"
-                },
-                "specifiedGovernmentRegistrations": [
-                    {
-                        "id": "QWE534435"
-                    },
-                    {
-                        "id": "9864232618973",
-                        "typeCode": "DRIVER_GLN"
-                    },
-                    {
-                        "id": "23512342-35121",
-                        "typeCode": "DRIVER_UNZR"
-                    },
-                    {
-                        "id": "9864232618966",
-                        "typeCode": "TRADEPARTY_GLN"
-                    },
-                    {
-                        "id": "23512342-35121",
-                        "typeCode": "TRADEPARTY_UNZR"
-                    }
-                ]
-            },
-            "notifiedTradeParties": [
-                {
-                    "id": {
-                        "schemeAgencyID": "ПАСПОРТ",
-                        "value": "АВ534312"
-                    },
-                    "name": "Мій Замовник",
-                    "roleCode": "OB",
-                    "tradeContact": {
-                        "personName": "Іванов Іван Іванович",
-                        "mobileTelephoneUniversalCommunication": {
-                            "completeNumber": "380000000000"
-                        },
-                        "emailURIUniversalCommunication": {
-                            "completeNumber": "wwrrwrw@yyr.com"
-                        }
-                    },
-                    "postalTradeAddress": {
-                        "postCode": "633323",
-                        "streetName": "вул. Незалежності",
-                        "cityName": "c. Сімерки",
-                        "countryID": "UA",
-                        "countrySubDivisionName": "Закарпатська обл., Ужгородський р-н"
-                    },
-                    "taxRegistration": {
-                        "id": "213313131313"
-                    },
-                    "specifiedGovernmentRegistrations": [
+                    "includedNote": [
                         {
-                            "id": "9864232618997",
-                            "typeCode": "TRADEPARTY_GLN"
-                        },
-                        {
-                            "id": "23512342-35121",
-                            "typeCode": "TRADEPARTY_UNZR"
-                        }
-                    ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "ПАСПОРТ",
-                        "value": "AA111111"
-                    },
-                    "name": "ТОВ \"Тест1\"",
-                    "roleCode": "FW",
-                    "tradeContact": {
-                        "personName": "Іванов Іван Іванович",
-                        "mobileTelephoneUniversalCommunication": {
-                            "completeNumber": "380000999999"
-                        },
-                        "emailURIUniversalCommunication": {
-                            "completeNumber": "2ksfkjsfkjfsjk@eee.com"
-                        }
-                    },
-                    "postalTradeAddress": {
-                        "postCode": "73000",
-                        "streetName": "Адреса",
-                        "cityName": "м. Київ",
-                        "countryID": "UA"
-                    },
-                    "taxRegistration": {
-                        "id": "2498429824"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864065745518",
-                            "typeCode": "TRADEPARTY_GLN"
-                        },
-                        {
-                            "id": "23512342-35121",
-                            "typeCode": "TRADEPARTY_UNZR"
-                        }
-                    ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "ПАСПОРТ",
-                        "value": "AA111111"
-                    },
-                    "name": "ТОВ \"Тест1\"",
-                    "roleCode": "WD",
-                    "tradeContact": {
-                        "personName": "Іванов Іван Іванович",
-                        "mobileTelephoneUniversalCommunication": {
-                            "completeNumber": "380333434035"
-                        },
-                        "emailURIUniversalCommunication": {
-                            "completeNumber": "sfjkfskjfjk@qee.com"
-                        }
-                    },
-                    "postalTradeAddress": {
-                        "postCode": "73000",
-                        "streetName": "Адреса",
-                        "cityName": "м. Київ",
-                        "countryID": "UA"
-                    },
-                    "taxRegistration": {
-                        "id": "342244244224"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864065745518",
-                            "typeCode": "TRADEPARTY_GLN"
-                        },
-                        {
-                            "id": "23512342-35121",
-                            "typeCode": "TRADEPARTY_UNZR"
-                        }
-                    ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "ПАСПОРТ",
-                        "value": "AA111111"
-                    },
-                    "name": "ТОВ \"Тест1\"",
-                    "roleCode": "COP",
-                    "postalTradeAddress": {
-                        "postCode": "73000",
-                        "streetName": "Адреса",
-                        "cityName": "м. Київ",
-                        "countryID": "UA"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864065745518",
-                            "typeCode": "TRADEPARTY_GLN"
-                        },
-                        {
-                            "id": "23512342-35121",
-                            "typeCode": "TRADEPARTY_UNZR"
-                        }
-                    ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "ПАСПОРТ",
-                        "value": "AA111111"
-                    },
-                    "name": "ТОВ \"Тест1\"",
-                    "roleCode": "AF",
-                    "postalTradeAddress": {
-                        "postCode": "73000",
-                        "streetName": "Адреса",
-                        "cityName": "м. Київ",
-                        "countryID": "UA"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864065745518",
-                            "typeCode": "TRADEPARTY_GLN"
-                        },
-                        {
-                            "id": "19761009-12411",
-                            "typeCode": "TRADEPARTY_UNZR"
-                        }
-                    ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "ПАСПОРТ",
-                        "value": "AA111111"
-                    },
-                    "name": "ТОВ \"Тест1\"",
-                    "roleCode": "AB",
-                    "postalTradeAddress": {
-                        "postCode": "73000",
-                        "streetName": "Адреса",
-                        "cityName": "м. Київ",
-                        "countryID": "UA"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864065745518",
-                            "typeCode": "TRADEPARTY_GLN"
-                        },
-                        {
-                            "id": "19761009-12411",
-                            "typeCode": "TRADEPARTY_UNZR"
-                        }
-                    ]
-                }
-            ],
-            "carrierAcceptanceLogisticsLocation": {
-                "id": {
-                    "schemeAgencyID": "КАТОТТГ",
-                    "value": "UA80000000000093317"
-                },
-                "name": "ТОВ \"Тест1\"",
-                "typeCode": "10",
-                "description": "Україна, 73000, м. Київ, Адреса",
-                "physicalGeographicalCoordinate": {
-                    "systemId": {
-                        "schemeAgencyID": "GLN",
-                        "value": "9864065745518"
-                    }
-                }
-            },
-            "consigneeReceiptLogisticsLocation": {
-                "id": {
-                    "schemeAgencyID": "КАТОТТГ",
-                    "value": "UA46060450090035581"
-                },
-                "name": "Мій Вантажоодержувача",
-                "typeCode": "5",
-                "description": "Україна, 777321, Львівська обл., Львівський р-н, c. Одиноке, вул. Котляревського, 1",
-                "physicalGeographicalCoordinate": {
-                    "systemId": {
-                        "schemeAgencyID": "GLN",
-                        "value": "9864232618959"
-                    }
-                }
-            },
-            "associatedReferencedDocuments": [
-                {
-                    "typeCode": "3",
-                    "id": "7777777",
-                    "remarks": "f1d8d358-224e-4a06-baba-947124546a75",
-                    "formattedIssueDateTime": {
-                        "dateTime": "2025-02-13T12:00:00+02:00"
-                    }
-                },
-                {
-                    "typeCode": "105",
-                    "id": "555555",
-                    "remarks": "39f0b309-b858-4cf1-a06d-a9588b1d7f82",
-                    "formattedIssueDateTime": {
-                        "dateTime": "2025-02-14T12:00:00+02:00"
-                    }
-                },
-                {
-                    "typeCode": "723",
-                    "id": "112233",
-                    "formattedIssueDateTime": {
-                        "dateTime": "2025-02-26T12:00:00+02:00"
-                    }
-                },
-                {
-                    "typeCode": "290",
-                    "remarks": "ПІБ (кому передане право)",
-                    "formattedIssueDateTime": {
-                        "dateTime": "2025-02-26T12:00:00+02:00"
-                    }
-                }
-            ],
-            "deliveryTransportEvent": {
-                "actualOccurrenceDateTime": {
-                    "dateTime": "2025-02-19T19:15:00+02:00"
-                },
-                "scheduledOccurrenceDateTime": {
-                    "dateTime": "2025-02-19T19:15:00+02:00"
-                },
-                "certifyingTradeParties": [
-                    {
-                        "id": {
-                            "schemeAgencyID": "ПАСПОРТ",
-                            "value": "123456789"
-                        },
-                        "name": "Вантажоодержувач",
-                        "roleCode": "CN",
-                        "tradeContact": {
-                            "personName": "Гібрид",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380444444444"
-                            }
-                        }
-                    },
-                    {
-                        "id": {
-                            "schemeAgencyID": "РНОКПП",
-                            "value": "156235184971"
-                        },
-                        "name": "екстрасенс",
-                        "roleCode": "CA",
-                        "tradeContact": {
-                            "personName": "Гібрид Богдан Микитович",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380562354859"
-                            }
-                        }
-                    },
-                    {
-                        "id": {
-                            "schemeAgencyID": "РНОКПП",
-                            "value": "3413712913"
-                        },
-                        "name": "Комірник",
-                        "roleCode": "FW",
-                        "tradeContact": {
-                            "personName": "Іванов",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380000000000"
-                            }
-                        }
-                    }
-                ],
-                "applicableNotes": []
-            },
-            "pickUpTransportEvent": {
-                "actualOccurrenceDateTime": {
-                    "dateTime": "2025-02-07T10:30:00+02:00"
-                },
-                "scheduledOccurrenceDateTime": {
-                    "dateTime": "2025-02-07T10:30:00+02:00"
-                },
-                "certifyingTradeParties": [
-                    {
-                        "id": {
-                            "schemeAgencyID": "РНОКПП",
-                            "value": "845792873472"
-                        },
-                        "name": "тест-посада ВВ",
-                        "roleCode": "CZ",
-                        "tradeContact": {
-                            "personName": "ВО Вантажовідправника",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380777777434"
+                            "contentCode": {
+                                "listAgencyID": "vatAmount",
+                                "value": "2332"
                             },
-                            "emailURIUniversalCommunication": {
-                                "completeNumber": "test@gmail.com"
-                            }
-                        }
-                    },
-                    {
-                        "id": {
-                            "schemeAgencyID": "РНОКПП",
-                            "value": "156235184971"
+                            "content": "CZ"
                         },
-                        "name": "екстрасенс",
-                        "roleCode": "CA",
-                        "tradeContact": {
-                            "personName": "Гібрид Богдан Микитович",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380562354859"
-                            }
-                        }
-                    },
-                    {
-                        "id": {
-                            "schemeAgencyID": "РНОКПП",
-                            "value": "3434513149"
-                        },
-                        "name": "комірник",
-                        "roleCode": "FW",
-                        "tradeContact": {
-                            "personName": "Трясій Олена Володимирівна",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380971853145"
+                        {
+                            "contentCode": {
+                                "listAgencyID": "gps_number",
+                                "value": "1122"
                             },
-                            "emailURIUniversalCommunication": {
-                                "completeNumber": "test@gmail.com"
-                            }
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "logger_number",
+                                "value": "3342113"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "reserve_number",
+                                "value": "1313441"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "comment",
+                                "value": "24422424"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "logistic_unit_number_with_logger",
+                                "value": "131331"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "vehicle_length",
+                                "value": "11.32"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "vehicle_width",
+                                "value": "3.3"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "vehicle_height",
+                                "value": "25"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "gross_vehicle_weight_with_cargo",
+                                "value": "34322"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "consignmentItemQuantity_text",
+                                "value": "чотири цілих"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "grossWeightMeasure_text",
+                                "value": "триста цілих"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "associatedInvoiceAmount_text",
+                                "value": "чотириста грн 0 коп"
+                            },
+                            "content": "CZ"
+                        },
+                        {
+                            "contentCode": {
+                                "listAgencyID": "vatAmount_text",
+                                "value": "дві тисячі триста тридцять дві грн 0 коп"
+                            },
+                            "content": "CZ"
                         }
+                    ],
+                    "issueLogisticsLocation": {
+                        "name": "Місце складання документу",
+                        "description": "Чернігівський р-н, c. Дніпровське"
                     }
-                ],
-                "applicableNotes": [
-                    {
-                        "contentCode": "GROSSWEIGHT",
-                        "content": "3"
-                    },
-                    {
-                        "contentCode": "DOWNTIME",
-                        "content": "11:22"
-                    }
-                ]
-            },
-            "includedSupplyChainConsignmentItems": [
-                {
-                    "sequenceNumeric": "1",
-                    "invoiceAmount": {
-                        "currencyId": "UAH",
-                        "value": "400"
-                    },
+                },
+                "specifiedSupplyChainConsignment": {
                     "grossWeightMeasure": {
                         "unitCode": "KGM",
                         "value": "300"
                     },
-                    "tariffQuantity": {
-                        "unitCode": "UAH",
-                        "value": "200"
+                    "associatedInvoiceAmount": {
+                        "currencyId": "UAH",
+                        "value": "400"
                     },
-                    "globalID": {
-                        "schemeAgencyID": "УКТЗЕД",
-                        "value": "212112313"
+                    "consignmentItemQuantity": "4",
+                    "consignor": {
+                        "id": {
+                            "schemeAgencyID": "ПАСПОРТ",
+                            "value": "AA111111"
+                        },
+                        "name": "Мій Вантажовідправник",
+                        "roleCode": "CZ",
+                        "tradeContact": {
+                            "personName": "Іванов Іван Іванович",
+                            "mobileTelephoneUniversalCommunication": {
+                                "completeNumber": "380333434035"
+                            },
+                            "emailURIUniversalCommunication": {
+                                "completeNumber": "sfjkfskjfjk@qee.com"
+                            }
+                        },
+                        "postalTradeAddress": {
+                            "postCode": "993564",
+                            "streetName": "вул. Нічна, б. 2",
+                            "cityName": "c. Дніпровське",
+                            "countryID": "UA",
+                            "countrySubDivisionName": "Чернігівська обл., Чернігівський р-н"
+                        },
+                        "taxRegistration": {
+                            "id": "342244244224"
+                        },
+                        "specifiedGovernmentRegistrations": [
+                            {
+                                "id": "9864065745518",
+                                "typeCode": "TRADEPARTY_GLN"
+                            },
+                            {
+                                "id": "23512342-35121",
+                                "typeCode": "TRADEPARTY_UNZR"
+                            }
+                        ]
                     },
-                    "natureIdentificationTransportCargo": {
-                        "identification": "Найменування"
+                    "consignee": {
+                        "id": {
+                            "schemeAgencyID": "РНОКПП",
+                            "value": "8883923234"
+                        },
+                        "name": "Мій Вантажоодержувача",
+                        "roleCode": "CN",
+                        "tradeContact": {
+                            "personName": "Ivanov Ivan",
+                            "mobileTelephoneUniversalCommunication": {
+                                "completeNumber": "380242442424"
+                            },
+                            "emailURIUniversalCommunication": {
+                                "completeNumber": "kjksfjkfskj@jjl.com"
+                            }
+                        },
+                        "postalTradeAddress": {
+                            "postCode": "777321",
+                            "streetName": "вул. Котляревського, 1",
+                            "cityName": "c. Одиноке",
+                            "countryID": "UA",
+                            "countrySubDivisionName": "Львівська обл., Львівський р-н"
+                        },
+                        "taxRegistration": {
+                            "id": "982822894892"
+                        },
+                        "specifiedGovernmentRegistrations": [
+                            {
+                                "id": "9864232618959",
+                                "typeCode": "TRADEPARTY_GLN"
+                            },
+                            {
+                                "id": "23512342-35121",
+                                "typeCode": "TRADEPARTY_UNZR"
+                            }
+                        ]
                     },
-                    "applicableTransportDangerousGoods": {
-                        "UNDGIdentificationCode": "121221"
+                    "carrier": {
+                        "id": {
+                            "schemeAgencyID": "РНОКПП",
+                            "value": "7828624353"
+                        },
+                        "name": "Мій Перевізник",
+                        "roleCode": "CA",
+                        "tradeContact": {
+                            "personName": "Мій Водій",
+                            "telephoneUniversalCommunication": {
+                                "completeNumber": "380472348932"
+                            }
+                        },
+                        "postalTradeAddress": {
+                            "postCode": "990392",
+                            "streetName": "Адреса",
+                            "cityName": "c. Твіржа",
+                            "countryID": "UA",
+                            "countrySubDivisionName": "Львівська обл., Яворівський р-н"
+                        },
+                        "taxRegistration": {
+                            "id": "7098394897"
+                        },
+                        "specifiedGovernmentRegistrations": [
+                            {
+                                "id": "QWE534435"
+                            },
+                            {
+                                "id": "9864232618973",
+                                "typeCode": "DRIVER_GLN"
+                            },
+                            {
+                                "id": "23512342-35121",
+                                "typeCode": "DRIVER_UNZR"
+                            },
+                            {
+                                "id": "9864232618966",
+                                "typeCode": "TRADEPARTY_GLN"
+                            },
+                            {
+                                "id": "23512342-35121",
+                                "typeCode": "TRADEPARTY_UNZR"
+                            }
+                        ]
                     },
-                    "associatedReferencedLogisticsTransportEquipment": {
-                        "id": "22334"
+                    "notifiedTradeParties": [
+                        {
+                            "id": {
+                                "schemeAgencyID": "ПАСПОРТ",
+                                "value": "АВ534312"
+                            },
+                            "name": "Мій Замовник",
+                            "roleCode": "OB",
+                            "tradeContact": {
+                                "personName": "Іванов Іван Іванович",
+                                "mobileTelephoneUniversalCommunication": {
+                                    "completeNumber": "380000000000"
+                                },
+                                "emailURIUniversalCommunication": {
+                                    "completeNumber": "wwrrwrw@yyr.com"
+                                }
+                            },
+                            "postalTradeAddress": {
+                                "postCode": "633323",
+                                "streetName": "вул. Незалежності",
+                                "cityName": "c. Сімерки",
+                                "countryID": "UA",
+                                "countrySubDivisionName": "Закарпатська обл., Ужгородський р-н"
+                            },
+                            "taxRegistration": {
+                                "id": "213313131313"
+                            },
+                            "specifiedGovernmentRegistrations": [
+                                {
+                                    "id": "9864232618997",
+                                    "typeCode": "TRADEPARTY_GLN"
+                                },
+                                {
+                                    "id": "23512342-35121",
+                                    "typeCode": "TRADEPARTY_UNZR"
+                                }
+                            ]
+                        },
+                        {
+                            "id": {
+                                "schemeAgencyID": "ПАСПОРТ",
+                                "value": "AA111111"
+                            },
+                            "name": "ТОВ \"Тест1\"",
+                            "roleCode": "FW",
+                            "tradeContact": {
+                                "personName": "Іванов Іван Іванович",
+                                "mobileTelephoneUniversalCommunication": {
+                                    "completeNumber": "380000999999"
+                                },
+                                "emailURIUniversalCommunication": {
+                                    "completeNumber": "2ksfkjsfkjfsjk@eee.com"
+                                }
+                            },
+                            "postalTradeAddress": {
+                                "postCode": "73000",
+                                "streetName": "Адреса",
+                                "cityName": "м. Київ",
+                                "countryID": "UA"
+                            },
+                            "taxRegistration": {
+                                "id": "2498429824"
+                            },
+                            "specifiedGovernmentRegistrations": [
+                                {
+                                    "id": "9864065745518",
+                                    "typeCode": "TRADEPARTY_GLN"
+                                },
+                                {
+                                    "id": "23512342-35121",
+                                    "typeCode": "TRADEPARTY_UNZR"
+                                }
+                            ]
+                        },
+                        {
+                            "id": {
+                                "schemeAgencyID": "ПАСПОРТ",
+                                "value": "AA111111"
+                            },
+                            "name": "ТОВ \"Тест1\"",
+                            "roleCode": "WD",
+                            "tradeContact": {
+                                "personName": "Іванов Іван Іванович",
+                                "mobileTelephoneUniversalCommunication": {
+                                    "completeNumber": "380333434035"
+                                },
+                                "emailURIUniversalCommunication": {
+                                    "completeNumber": "sfjkfskjfjk@qee.com"
+                                }
+                            },
+                            "postalTradeAddress": {
+                                "postCode": "73000",
+                                "streetName": "Адреса",
+                                "cityName": "м. Київ",
+                                "countryID": "UA"
+                            },
+                            "taxRegistration": {
+                                "id": "342244244224"
+                            },
+                            "specifiedGovernmentRegistrations": [
+                                {
+                                    "id": "9864065745518",
+                                    "typeCode": "TRADEPARTY_GLN"
+                                },
+                                {
+                                    "id": "23512342-35121",
+                                    "typeCode": "TRADEPARTY_UNZR"
+                                }
+                            ]
+                        },
+                        {
+                            "id": {
+                                "schemeAgencyID": "ПАСПОРТ",
+                                "value": "AA111111"
+                            },
+                            "name": "ТОВ \"Тест1\"",
+                            "roleCode": "COP",
+                            "postalTradeAddress": {
+                                "postCode": "73000",
+                                "streetName": "Адреса",
+                                "cityName": "м. Київ",
+                                "countryID": "UA"
+                            },
+                            "specifiedGovernmentRegistrations": [
+                                {
+                                    "id": "9864065745518",
+                                    "typeCode": "TRADEPARTY_GLN"
+                                },
+                                {
+                                    "id": "23512342-35121",
+                                    "typeCode": "TRADEPARTY_UNZR"
+                                }
+                            ]
+                        },
+                        {
+                            "id": {
+                                "schemeAgencyID": "ПАСПОРТ",
+                                "value": "AA111111"
+                            },
+                            "name": "ТОВ \"Тест1\"",
+                            "roleCode": "AF",
+                            "postalTradeAddress": {
+                                "postCode": "73000",
+                                "streetName": "Адреса",
+                                "cityName": "м. Київ",
+                                "countryID": "UA"
+                            },
+                            "specifiedGovernmentRegistrations": [
+                                {
+                                    "id": "9864065745518",
+                                    "typeCode": "TRADEPARTY_GLN"
+                                },
+                                {
+                                    "id": "19761009-12411",
+                                    "typeCode": "TRADEPARTY_UNZR"
+                                }
+                            ]
+                        },
+                        {
+                            "id": {
+                                "schemeAgencyID": "ПАСПОРТ",
+                                "value": "AA111111"
+                            },
+                            "name": "ТОВ \"Тест1\"",
+                            "roleCode": "AB",
+                            "postalTradeAddress": {
+                                "postCode": "73000",
+                                "streetName": "Адреса",
+                                "cityName": "м. Київ",
+                                "countryID": "UA"
+                            },
+                            "specifiedGovernmentRegistrations": [
+                                {
+                                    "id": "9864065745518",
+                                    "typeCode": "TRADEPARTY_GLN"
+                                },
+                                {
+                                    "id": "19761009-12411",
+                                    "typeCode": "TRADEPARTY_UNZR"
+                                }
+                            ]
+                        }
+                    ],
+                    "carrierAcceptanceLogisticsLocation": {
+                        "id": {
+                            "schemeAgencyID": "КАТОТТГ",
+                            "value": "UA80000000000093317"
+                        },
+                        "name": "ТОВ \"Тест1\"",
+                        "typeCode": "10",
+                        "description": "Україна, 73000, м. Київ, Адреса",
+                        "physicalGeographicalCoordinate": {
+                            "systemId": {
+                                "schemeAgencyID": "GLN",
+                                "value": "9864065745518"
+                            }
+                        }
+                    },
+                    "consigneeReceiptLogisticsLocation": {
+                        "id": {
+                            "schemeAgencyID": "КАТОТТГ",
+                            "value": "UA46060450090035581"
+                        },
+                        "name": "Мій Вантажоодержувача",
+                        "typeCode": "5",
+                        "description": "Україна, 777321, Львівська обл., Львівський р-н, c. Одиноке, вул. Котляревського, 1",
+                        "physicalGeographicalCoordinate": {
+                            "systemId": {
+                                "schemeAgencyID": "GLN",
+                                "value": "9864232618959"
+                            }
+                        }
                     },
                     "associatedReferencedDocuments": [
                         {
                             "typeCode": "3",
-                            "id": "1221",
+                            "id": "7777777",
+                            "remarks": "f1d8d358-224e-4a06-baba-947124546a75",
                             "formattedIssueDateTime": {
-                                "dateTime": "2025-02-19T12:00:00+02:00"
+                                "dateTime": "2025-02-13T12:00:00+02:00"
+                            }
+                        },
+                        {
+                            "typeCode": "105",
+                            "id": "555555",
+                            "remarks": "39f0b309-b858-4cf1-a06d-a9588b1d7f82",
+                            "formattedIssueDateTime": {
+                                "dateTime": "2025-02-14T12:00:00+02:00"
+                            }
+                        },
+                        {
+                            "typeCode": "723",
+                            "id": "112233",
+                            "formattedIssueDateTime": {
+                                "dateTime": "2025-02-26T12:00:00+02:00"
+                            }
+                        },
+                        {
+                            "typeCode": "290",
+                            "remarks": "ПІБ (кому передане право)",
+                            "formattedIssueDateTime": {
+                                "dateTime": "2025-02-26T12:00:00+02:00"
                             }
                         }
                     ],
-                    "transportLogisticsPackage": {
-                        "itemQuantity": "4",
-                        "typeCode": "CT",
-                        "type": "г",
-                        "physicalLogisticsShippingMarks": {
-                            "marking": "бочки",
-                            "barcodeLogisticsLabel": {
-                                "id": "14141414141"
+                    "deliveryTransportEvent": {
+                        "actualOccurrenceDateTime": {
+                            "dateTime": "2025-02-19T19:15:00+02:00"
+                        },
+                        "scheduledOccurrenceDateTime": {
+                            "dateTime": "2025-02-19T19:15:00+02:00"
+                        },
+                        "certifyingTradeParties": [
+                            {
+                                "id": {
+                                    "schemeAgencyID": "ПАСПОРТ",
+                                    "value": "123456789"
+                                },
+                                "name": "Вантажоодержувач",
+                                "roleCode": "CN",
+                                "tradeContact": {
+                                    "personName": "Гібрид",
+                                    "mobileTelephoneUniversalCommunication": {
+                                        "completeNumber": "380444444444"
+                                    }
+                                }
+                            },
+                            {
+                                "id": {
+                                    "schemeAgencyID": "РНОКПП",
+                                    "value": "156235184971"
+                                },
+                                "name": "екстрасенс",
+                                "roleCode": "CA",
+                                "tradeContact": {
+                                    "personName": "Гібрид Богдан Микитович",
+                                    "mobileTelephoneUniversalCommunication": {
+                                        "completeNumber": "380562354859"
+                                    }
+                                }
+                            },
+                            {
+                                "id": {
+                                    "schemeAgencyID": "РНОКПП",
+                                    "value": "3413712913"
+                                },
+                                "name": "Комірник",
+                                "roleCode": "FW",
+                                "tradeContact": {
+                                    "personName": "Іванов",
+                                    "mobileTelephoneUniversalCommunication": {
+                                        "completeNumber": "380000000000"
+                                    }
+                                }
+                            }
+                        ],
+                        "applicableNotes": []
+                    },
+                    "pickUpTransportEvent": {
+                        "actualOccurrenceDateTime": {
+                            "dateTime": "2025-02-07T10:30:00+02:00"
+                        },
+                        "scheduledOccurrenceDateTime": {
+                            "dateTime": "2025-02-07T10:30:00+02:00"
+                        },
+                        "certifyingTradeParties": [
+                            {
+                                "id": {
+                                    "schemeAgencyID": "РНОКПП",
+                                    "value": "845792873472"
+                                },
+                                "name": "тест-посада ВВ",
+                                "roleCode": "CZ",
+                                "tradeContact": {
+                                    "personName": "ВО Вантажовідправника",
+                                    "mobileTelephoneUniversalCommunication": {
+                                        "completeNumber": "380777777434"
+                                    },
+                                    "emailURIUniversalCommunication": {
+                                        "completeNumber": "test@gmail.com"
+                                    }
+                                }
+                            },
+                            {
+                                "id": {
+                                    "schemeAgencyID": "РНОКПП",
+                                    "value": "156235184971"
+                                },
+                                "name": "екстрасенс",
+                                "roleCode": "CA",
+                                "tradeContact": {
+                                    "personName": "Гібрид Богдан Микитович",
+                                    "mobileTelephoneUniversalCommunication": {
+                                        "completeNumber": "380562354859"
+                                    }
+                                }
+                            },
+                            {
+                                "id": {
+                                    "schemeAgencyID": "РНОКПП",
+                                    "value": "3434513149"
+                                },
+                                "name": "комірник",
+                                "roleCode": "FW",
+                                "tradeContact": {
+                                    "personName": "Трясій Олена Володимирівна",
+                                    "mobileTelephoneUniversalCommunication": {
+                                        "completeNumber": "380971853145"
+                                    },
+                                    "emailURIUniversalCommunication": {
+                                        "completeNumber": "test@gmail.com"
+                                    }
+                                }
+                            }
+                        ],
+                        "applicableNotes": [
+                            {
+                                "contentCode": "GROSSWEIGHT",
+                                "content": "3"
+                            },
+                            {
+                                "contentCode": "DOWNTIME",
+                                "content": "11:22"
+                            }
+                        ]
+                    },
+                    "includedSupplyChainConsignmentItems": [
+                        {
+                            "sequenceNumeric": "1",
+                            "invoiceAmount": {
+                                "currencyId": "UAH",
+                                "value": "400"
+                            },
+                            "grossWeightMeasure": {
+                                "unitCode": "KGM",
+                                "value": "300"
+                            },
+                            "tariffQuantity": {
+                                "unitCode": "UAH",
+                                "value": "200"
+                            },
+                            "globalID": {
+                                "schemeAgencyID": "УКТЗЕД",
+                                "value": "212112313"
+                            },
+                            "natureIdentificationTransportCargo": {
+                                "identification": "Найменування"
+                            },
+                            "applicableTransportDangerousGoods": {
+                                "UNDGIdentificationCode": "121221"
+                            },
+                            "associatedReferencedLogisticsTransportEquipment": {
+                                "id": "22334"
+                            },
+                            "associatedReferencedDocuments": [
+                                {
+                                    "typeCode": "3",
+                                    "id": "1221",
+                                    "formattedIssueDateTime": {
+                                        "dateTime": "2025-02-19T12:00:00+02:00"
+                                    }
+                                }
+                            ],
+                            "transportLogisticsPackage": {
+                                "itemQuantity": "4",
+                                "typeCode": "CT",
+                                "type": "г",
+                                "physicalLogisticsShippingMarks": {
+                                    "marking": "бочки",
+                                    "barcodeLogisticsLabel": {
+                                        "id": "14141414141"
+                                    }
+                                }
+                            },
+                            "applicableNotes": [
+                                {
+                                    "contentCode": "VENDOR_CODE",
+                                    "content": "14141414"
+                                },
+                                {
+                                    "contentCode": "BUYER_CODE",
+                                    "content": "1314141"
+                                },
+                                {
+                                    "contentCode": "QUANTITY",
+                                    "content": "2"
+                                },
+                                {
+                                    "contentCode": "BASE_UOM",
+                                    "content": "мм"
+                                },
+                                {
+                                    "contentCode": "PRICE_WITH_VAT",
+                                    "content": "2"
+                                },
+                                {
+                                    "contentCode": "SUM_WITHOUT_VAT",
+                                    "content": "4"
+                                },
+                                {
+                                    "contentCode": "NET_WEIGHT",
+                                    "content": "12"
+                                },
+                                {
+                                    "contentCode": "RETURN_TARE",
+                                    "content": "12"
+                                },
+                                {
+                                    "contentCode": "RTP_TYPE",
+                                    "content": "одноразова"
+                                },
+                                {
+                                    "contentCode": "RTP_QUANTITY",
+                                    "content": "3"
+                                },
+                                {
+                                    "contentCode": "ANIMAL_ID",
+                                    "content": "00009999000099"
+                                },
+                                {
+                                    "contentCode": "ANIMAL_TYPE",
+                                    "content": "Вид тварини "
+                                },
+                                {
+                                    "contentCode": "TRANSPORTATION_MIN_TEMPERATURE",
+                                    "content": "10"
+                                },
+                                {
+                                    "contentCode": "TRANSPORTATION_MAX_TEMPERATURE",
+                                    "content": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "utilizedLogisticsTransportEquipments": [
+                        {
+                            "id": "APITESTNEW0",
+                            "affixedLogisticsSeals": [
+                                {
+                                    "id": "2424424"
+                                }
+                            ],
+                            "settingTransportSettingTemperature": {
+                                "minimum": {
+                                    "unitCode": "CEL",
+                                    "value": "22"
+                                },
+                                "maximum": {
+                                    "unitCode": "CEL",
+                                    "value": "34"
+                                }
+                            },
+                            "applicableNotes": [
+                                {
+                                    "contentCode": "BRAND",
+                                    "content": "brand"
+                                },
+                                {
+                                    "contentCode": "MODEL",
+                                    "content": "model"
+                                },
+                                {
+                                    "contentCode": "COLOR",
+                                    "content": "color"
+                                },
+                                {
+                                    "contentCode": "TYPE",
+                                    "content": "type"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "KA3935BA",
+                            "categoryCode": "TE",
+                            "characteristicCode": "17",
+                            "affixedLogisticsSeals": [
+                                {
+                                    "id": "24425525"
+                                }
+                            ],
+                            "settingTransportSettingTemperature": {
+                                "minimum": {
+                                    "unitCode": "CEL",
+                                    "value": "22"
+                                },
+                                "maximum": {
+                                    "unitCode": "CEL",
+                                    "value": "34"
+                                }
+                            },
+                            "applicableNotes": [
+                                {
+                                    "contentCode": "BRAND",
+                                    "content": "BMW"
+                                },
+                                {
+                                    "contentCode": "MODEL",
+                                    "content": "523I"
+                                },
+                                {
+                                    "contentCode": "COLOR",
+                                    "content": "ЧОРНИЙ"
+                                },
+                                {
+                                    "contentCode": "TYPE",
+                                    "content": "ЗАГАЛЬНИЙ, ЛЕГКОВИЙ, СЕДАН-B"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "KA3935BA",
+                            "categoryCode": "TE",
+                            "characteristicCode": "17",
+                            "affixedLogisticsSeals": [
+                                {
+                                    "id": "242424"
+                                }
+                            ],
+                            "settingTransportSettingTemperature": {
+                                "minimum": {
+                                    "unitCode": "CEL",
+                                    "value": "22"
+                                },
+                                "maximum": {
+                                    "unitCode": "CEL",
+                                    "value": "34"
+                                }
+                            },
+                            "applicableNotes": [
+                                {
+                                    "contentCode": "BRAND",
+                                    "content": "BMW"
+                                },
+                                {
+                                    "contentCode": "MODEL",
+                                    "content": "523I"
+                                },
+                                {
+                                    "contentCode": "COLOR",
+                                    "content": "ЧОРНИЙ"
+                                },
+                                {
+                                    "contentCode": "TYPE",
+                                    "content": "ЗАГАЛЬНИЙ, ЛЕГКОВИЙ, СЕДАН-B"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ГФ12",
+                            "categoryCode": "CN",
+                            "characteristicCode": "23",
+                            "affixedLogisticsSeals": [
+                                {
+                                    "id": "08258"
+                                }
+                            ],
+                            "settingTransportSettingTemperature": {
+                                "minimum": {
+                                    "unitCode": "CEL",
+                                    "value": "21"
+                                },
+                                "maximum": {
+                                    "unitCode": "CEL",
+                                    "value": "23"
+                                }
                             }
                         }
-                    },
-                    "applicableNotes": [
-                        {
-                            "contentCode": "VENDOR_CODE",
-                            "content": "14141414"
-                        },
-                        {
-                            "contentCode": "BUYER_CODE",
-                            "content": "1314141"
-                        },
-                        {
-                            "contentCode": "QUANTITY",
-                            "content": "2"
-                        },
-                        {
-                            "contentCode": "BASE_UOM",
-                            "content": "мм"
-                        },
-                        {
-                            "contentCode": "PRICE_WITH_VAT",
-                            "content": "2"
-                        },
-                        {
-                            "contentCode": "SUM_WITHOUT_VAT",
-                            "content": "4"
-                        },
-                        {
-                            "contentCode": "NET_WEIGHT",
-                            "content": "12"
-                        },
-                        {
-                            "contentCode": "RETURN_TARE",
-                            "content": "12"
-                        },
-                        {
-                            "contentCode": "RTP_TYPE",
-                            "content": "одноразова"
-                        },
-                        {
-                            "contentCode": "RTP_QUANTITY",
-                            "content": "3"
-                        },
-                        {
-                            "contentCode": "ANIMAL_ID",
-                            "content": "00009999000099"
-                        },
-                        {
-                            "contentCode": "ANIMAL_TYPE",
-                            "content": "Вид тварини "
-                        },
-                        {
-                            "contentCode": "TRANSPORTATION_MIN_TEMPERATURE",
-                            "content": "10"
-                        },
-                        {
-                            "contentCode": "TRANSPORTATION_MAX_TEMPERATURE",
-                            "content": "15"
-                        }
-                    ]
-                }
-            ],
-            "utilizedLogisticsTransportEquipments": [
-                {
-                    "id": "APITESTNEW0",
-                    "affixedLogisticsSeals": [
-                        {
-                            "id": "2424424"
-                        }
                     ],
-                    "settingTransportSettingTemperature": {
-                        "minimum": {
-                            "unitCode": "CEL",
-                            "value": "22"
-                        },
-                        "maximum": {
-                            "unitCode": "CEL",
-                            "value": "34"
-                        }
-                    },
-                    "applicableNotes": [
-                        {
-                            "contentCode": "BRAND",
-                            "content": "brand"
-                        },
-                        {
-                            "contentCode": "MODEL",
-                            "content": "model"
-                        },
-                        {
-                            "contentCode": "COLOR",
-                            "content": "color"
-                        },
-                        {
-                            "contentCode": "TYPE",
-                            "content": "type"
-                        }
-                    ]
-                },
-                {
-                    "id": "KA3935BA",
-                    "categoryCode": "TE",
-                    "characteristicCode": "17",
-                    "affixedLogisticsSeals": [
-                        {
-                            "id": "24425525"
-                        }
-                    ],
-                    "settingTransportSettingTemperature": {
-                        "minimum": {
-                            "unitCode": "CEL",
-                            "value": "22"
-                        },
-                        "maximum": {
-                            "unitCode": "CEL",
-                            "value": "34"
-                        }
-                    },
-                    "applicableNotes": [
-                        {
-                            "contentCode": "BRAND",
-                            "content": "BMW"
-                        },
-                        {
-                            "contentCode": "MODEL",
-                            "content": "523I"
-                        },
-                        {
-                            "contentCode": "COLOR",
-                            "content": "ЧОРНИЙ"
-                        },
-                        {
-                            "contentCode": "TYPE",
-                            "content": "ЗАГАЛЬНИЙ, ЛЕГКОВИЙ, СЕДАН-B"
-                        }
-                    ]
-                },
-                {
-                    "id": "KA3935BA",
-                    "categoryCode": "TE",
-                    "characteristicCode": "17",
-                    "affixedLogisticsSeals": [
-                        {
-                            "id": "242424"
-                        }
-                    ],
-                    "settingTransportSettingTemperature": {
-                        "minimum": {
-                            "unitCode": "CEL",
-                            "value": "22"
-                        },
-                        "maximum": {
-                            "unitCode": "CEL",
-                            "value": "34"
-                        }
-                    },
-                    "applicableNotes": [
-                        {
-                            "contentCode": "BRAND",
-                            "content": "BMW"
-                        },
-                        {
-                            "contentCode": "MODEL",
-                            "content": "523I"
-                        },
-                        {
-                            "contentCode": "COLOR",
-                            "content": "ЧОРНИЙ"
-                        },
-                        {
-                            "contentCode": "TYPE",
-                            "content": "ЗАГАЛЬНИЙ, ЛЕГКОВИЙ, СЕДАН-B"
-                        }
-                    ]
-                },
-                {
-                    "id": "ГФ12",
-                    "categoryCode": "CN",
-                    "characteristicCode": "23",
-                    "affixedLogisticsSeals": [
-                        {
-                            "id": "08258"
-                        }
-                    ],
-                    "settingTransportSettingTemperature": {
-                        "minimum": {
-                            "unitCode": "CEL",
-                            "value": "21"
-                        },
-                        "maximum": {
-                            "unitCode": "CEL",
-                            "value": "23"
-                        }
+                    "deliveryInstructions": {
+                        "description": "погодинний тариф",
+                        "descriptionCode": "TRANSPORTATION_TYPE"
                     }
                 }
-            ],
-            "deliveryInstructions": {
-                "description": "погодинний тариф",
-                "descriptionCode": "TRANSPORTATION_TYPE"
-            }
+            },
+            "ram": "urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103",
+            "udt": "urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27",
+            "qdt": "urn:un:unece:uncefact:data:standard:QualifiedDataType:103",
+            "uas": "urn:ua:signatures:SignaturesExtensions:1"
         }
-    },
-    "ram": "urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103",
-    "udt": "urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27",
-    "qdt": "urn:un:unece:uncefact:data:standard:QualifiedDataType:103",
-    "uas": "urn:ua:signatures:SignaturesExtensions:1"
-}
 
 .. role:: orange
 
