@@ -114,7 +114,7 @@
 5 Формування Комерційного документа "Видаткова накладна" (COMDOC_006)
 ==========================================================================================================================
 
-.. include:: /retail_2.0/ formirovanie_otpravka_dokumenta_Vydatkova_Nakladna_na_EDI_Network_2.0.rst
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Vydatkova_Nakladna_na_EDI_Network_2.0.rst
    :start-after: .. початок блоку для comdoc006_from_desadv
    :end-before: .. кінець блоку для comdoc006_from_desadv
    
