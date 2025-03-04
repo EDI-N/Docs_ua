@@ -64,7 +64,7 @@
           <GLN>9864065745518</GLN>
           <ID>12345678</ID>
           <UNZR>23512342-35121</UNZR>
-          <NAME>ТОВ &quot;Тест1&quot;</NAME>
+          <NAME>ТОВ "Тест1"</NAME>
           <ADDRESS>Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *</ADDRESS>
         </CUSTOMER>
         <CARRIER>
@@ -78,7 +78,7 @@
           <GLN>9864065745518</GLN>
           <ID>12345678</ID>
           <UNZR>23512342-35121</UNZR>
-          <NAME>ТОВ &quot;Тест1&quot;</NAME>
+          <NAME>ТОВ "Тест1"</NAME>
           <ADDRESS>Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *</ADDRESS>
         </CONSIGNOR>
         <DRIVER>
@@ -113,7 +113,7 @@
               <GLN>9864065749073</GLN>
               <ID>85548668</ID>
               <UNZR>23512342-35121</UNZR>
-              <NAME>Компанія &quot;Вантажоодержувач_v3&quot;</NAME>
+              <NAME>Компанія "Вантажоодержувач_v3"</NAME>
               <ADDRESS>Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир, Одесська 33</ADDRESS>
             </CONSIGNEE>
             <CONSIGNEECONTACTFACENAME>Іванов Іван Івіанович</CONSIGNEECONTACTFACENAME>
