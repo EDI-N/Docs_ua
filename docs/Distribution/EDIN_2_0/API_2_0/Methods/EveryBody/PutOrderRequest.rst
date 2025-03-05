@@ -44,9 +44,9 @@
 
 	[
 	  {
-		"senderName": "Микола",
-		"senderLastName": "Стрига",
-		"senderPhone": "380967929292"
+	    "senderName": "Микола",
+	    "senderLastName": "Стрига",
+	    "senderPhone": "380967929292"
 	  }
 	]
 
