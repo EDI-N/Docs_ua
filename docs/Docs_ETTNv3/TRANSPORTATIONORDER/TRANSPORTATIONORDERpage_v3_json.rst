@@ -9,142 +9,147 @@
 
 .. code:: json
 
-   {
-      "NUMBER": "Тест1",
-      "DATE": "2023-11-29",
-      "SUBDOCTYPE": "1",
-      "TRANSPORTATIONTYPE": "1",
-      "CAMPAIGNNUMBER": "1313",
-      "CAMPAIGNDATE": "2023-09-25",
-      "PURCHASEORDERNUMBER": "12331",
-      "TRANSPORTATIONPAYMENTTYPE": "1",
-      "TRANSPORTATIONCOST":
       {
-         "WITHOUTVAT": "121",
-         "VAT": "20",
-         "WITHVAT": "145.20"
-      },
-      "TRANSPORTATIONMEANS":
-      [
+         "NUMBER": "Тест1",
+         "DATE": "2023-11-29",
+         "SUBDOCTYPE": "1",
+         "TRANSPORTATIONTYPE": "1",
+         "CAMPAIGNNUMBER": "1313",
+         "CAMPAIGNDATE": "2023-09-25",
+         "PURCHASEORDERNUMBER": "12331",
+         "TRANSPORTATIONPAYMENTTYPE": "1",
+         "TRANSPORTATIONCOST":
          {
-               "ID": "АА1111ОО",
-               "MODEL": "2101",
-               "BRAND": "Камаззз",
-               "TYPE": "Бортовий",
-               "COLOR": "Синій"
+            "WITHOUTVAT": "121",
+            "VAT": "20",
+            "WITHVAT": "145.20"
          },
+         "TRANSPORTATIONMEANS":
+         [
+            {
+                  "ID": "АА1111ОО",
+                  "MODEL": "2101",
+                  "BRAND": "Камаззз",
+                  "TYPE": "Бортовий",
+                  "COLOR": "Синій"
+            },
+            {
+                  "CATEGORYCODE": "TE",
+                  "CHARACTERISTICCODE": "14",
+                  "ID": "АА1121АА",
+                  "MODEL": "Модель",
+                  "BRAND": "Марка",
+                  "TYPE": "ТИП"
+            },
+            {
+                  "CATEGORYCODE": "TE",
+                  "CHARACTERISTICCODE": "14",
+                  "ID": "АА1121АА",
+                  "MODEL": "Модель",
+                  "BRAND": "Марка",
+                  "TYPE": "ТИП"
+            }
+         ],
+         "LENGTHROUTE": "120",
+         "TEMPERATURE":
          {
-               "CATEGORYCODE": "TE",
-               "CHARACTERISTICCODE": "14",
-               "ID": "АА1121АА",
-               "MODEL": "Модель",
-               "BRAND": "Марка",
-               "TYPE": "ТИП"
+            "MIN": "11",
+            "MAX": "20"
          },
-         {
-               "CATEGORYCODE": "TE",
-               "CHARACTERISTICCODE": "14",
-               "ID": "АА1121АА",
-               "MODEL": "Модель",
-               "BRAND": "Марка",
-               "TYPE": "ТИП"
-         }
-      ],
-      "LENGTHROUTE": "120",
-      "TEMPERATURE":
-      {
-         "MIN": "11",
-         "MAX": "20"
-      },
-      "DESCRIPTION": "Найменування вантажу",
-      "TOTALPACKAGEWEIGHT": "233",
-      "TOTALPACKAGEQUANTITY": "12",
-      "LOADFACTOR": "30",
-      "INFO": "Додаткова інформація",
-      "FINANCIALINFO": "Додаткова інформація для фінансового відділу",
-      "TRANSPORTATIONMEANS_PARAMETERS": "Відомості про транспорт (Ваго габаритні характеристики)",
-      "HEAD":
-      [
-         {
-               "CUSTOMER":
-               {
-                  "GLN": "9864065745518",
-                  "ID": "12345678",
-                  "NAME": "ТОВ \"Тест1\"",
-                  "ADDRESS": "Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *"
-               },
-               "CARRIER":
-               {
-                  "GLN": "9864065748106",
-                  "ID": "9988663328",
-                  "NAME": "Перевізник ТТН",
-                  "ADDRESS": "Україна, 4215423, Житомирська, Житомирський р-н, м. Житомир, Шевченка 2"
-               },
-               "CONSIGNOR":
-               {
-                  "GLN": "9864065745518",
-                  "ID": "12345678",
-                  "NAME": "ТОВ \"Тест1\"",
-                  "ADDRESS": "Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *"
-               },
-               "DRIVER":
-               {
-                  "GLN": "9864232596134",
-                  "ID": "213242232",
-                  "NAME": "Водій Стрига І.А._v3 (прод)",
-                  "LICENSE": "XYY995511"
-               },
-               "POSITION":
-               [
+         "DESCRIPTION": "Найменування вантажу",
+         "TOTALPACKAGEWEIGHT": "233",
+         "TOTALPACKAGEQUANTITY": "12",
+         "LOADFACTOR": "30",
+         "INFO": "Додаткова інформація",
+         "FINANCIALINFO": "Додаткова інформація для фінансового відділу",
+         "TRANSPORTATIONMEANS_PARAMETERS": "Відомості про транспорт (Ваго габаритні характеристики)",
+         "HEAD":
+         [
+            {
+                  "CUSTOMER":
                   {
-                     "POSITIONNUMBER": "1",
-                     "LOAD":
+                     "GLN": "9864065745518",
+                     "ID": "12345678",
+                     "UNZR": "3512342-35121",
+                     "NAME": "ТОВ \"Тест1\"",
+                     "ADDRESS": "Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *"
+                  },
+                  "CARRIER":
+                  {
+                     "GLN": "9864065748106",
+                     "ID": "9988663328",
+                     "UNZR": "3512342-35121",
+                     "NAME": "Перевізник ТТН",
+                     "ADDRESS": "Україна, 4215423, Житомирська, Житомирський р-н, м. Житомир, Шевченка 2"
+                  },
+                  "CONSIGNOR":
+                  {
+                     "GLN": "9864065745518",
+                     "ID": "12345678",
+                     "UNZR": "3512342-35121",
+                     "NAME": "ТОВ \"Тест1\"",
+                     "ADDRESS": "Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *"
+                  },
+                  "DRIVER":
+                  {
+                     "GLN": "9864232596134",
+                     "ID": "213242232",
+                     "UNZR": "3512342-35121",
+                     "NAME": "Водій Стрига І.А._v3 (прод)",
+                     "LICENSE": "XYY995511"
+                  },
+                  "POSITION":
+                  [
                      {
-                           "ADDRESS":
-                           {
-                              "GLN": "9864065748090",
-                              "ID": "UA05020030010063857",
-                              "NAME": "Україна, 3232323323, Вінницький р-н, м. Вінниця",
-                              "ADDRESS": "Лозова 6"
-                           },
-                           "DATE": "2023-11-29 14:16",
-                           "CONSIGNORCONTACTFACENAME": "Відповідальна особа",
-                           "CONSIGNORCONTACTFACENUMBER": "380000000000"
-                     },
-                     "UNLOAD":
-                     {
-                           "ADDRESS":
-                           {
-                              "GLN": "9864065749073",
-                              "ID": "UA18040190010057814",
-                              "NAME": "Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир",
-                              "ADDRESS": "Одесська 33"
-                           },
-                           "DATE": "2023-11-30 14:17",
-                           "CONSIGNEE":
-                           {
-                              "GLN": "9864065749073",
-                              "ID": "85548668",
-                              "NAME": "Компанія \"Вантажоодержувач_v3\"",
-                              "ADDRESS": "Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир, Одесська 33"
-                           },
-                           "CONSIGNEECONTACTFACENAME": "Іванов Іван Івіанович",
-                           "CONSIGNEECONTACTFACENUMBER": "380222222222"
-                     },
-                     "PACKAGEWEIGHT": "233",
-                     "PACKAGEQUANTITY": "11",
-                     "TRANSPORTTYPE": "Вид транспорту",
-                     "TEMPERATURE":
-                     {
-                           "MIN": "11",
-                           "MAX": "20"
-                     },
-                     "INFO": "Коментар"
-                  }
-               ]
-         }
-      ]
-   }
+                        "POSITIONNUMBER": "1",
+                        "LOAD":
+                        {
+                              "ADDRESS":
+                              {
+                                 "GLN": "9864065748090",
+                                 "ID": "UA05020030010063857",
+                                 "NAME": "Україна, 3232323323, Вінницький р-н, м. Вінниця",
+                                 "ADDRESS": "Лозова 6"
+                              },
+                              "DATE": "2023-11-29 14:16",
+                              "CONSIGNORCONTACTFACENAME": "Відповідальна особа",
+                              "CONSIGNORCONTACTFACENUMBER": "380000000000"
+                        },
+                        "UNLOAD":
+                        {
+                              "ADDRESS":
+                              {
+                                 "GLN": "9864065749073",
+                                 "ID": "UA18040190010057814",
+                                 "NAME": "Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир",
+                                 "ADDRESS": "Одесська 33"
+                              },
+                              "DATE": "2023-11-30 14:17",
+                              "CONSIGNEE":
+                              {
+                                 "GLN": "9864065749073",
+                                 "ID": "85548668",
+                                 "UNZR": "3512342-35121",
+                                 "NAME": "Компанія \"Вантажоодержувач_v3\"",
+                                 "ADDRESS": "Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир, Одесська 33"
+                              },
+                              "CONSIGNEECONTACTFACENAME": "Іванов Іван Івіанович",
+                              "CONSIGNEECONTACTFACENUMBER": "380222222222"
+                        },
+                        "PACKAGEWEIGHT": "233",
+                        "PACKAGEQUANTITY": "11",
+                        "TRANSPORTTYPE": "Вид транспорту",
+                        "TEMPERATURE":
+                        {
+                              "MIN": "11",
+                              "MAX": "20"
+                        },
+                        "INFO": "Коментар"
+                     }
+                  ]
+            }
+         ]
+      }
 
 .. role:: orange
 

@@ -9,6 +9,7 @@
 7,comdis,`Комерційна дискусія <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDIS_x.html>`__
 10,declar,`Податкова накладна <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DECLAR_x.html>`__
 11,insdes,`Інструкція з доставки <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INSDES_x.html>`__
+12,desscc,`Повідомлення про відвантаження для розподільного центру <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESSCC_x.html>`__
 13,slsrpt,`Звіт про продажі <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/SLSRPT_x.html>`__
 14,invrpt,`Звіт про інвентаризацію <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVRPT_x.html>`__
 15,coacsu,`Акт звірки взаєморозрахунків <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COACSU_x.html>`__

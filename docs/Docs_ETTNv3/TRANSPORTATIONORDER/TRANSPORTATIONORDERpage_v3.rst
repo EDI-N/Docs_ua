@@ -9,122 +9,127 @@
 
 .. code:: xml
 
-  <?xml version="1.0" encoding="UTF-8"?>
-  <TRANSPORTATIONORDER>
-    <NUMBER>Тест1</NUMBER>
-    <DATE>2023-11-29</DATE>
-    <SUBDOCTYPE>1</SUBDOCTYPE>
-    <TRANSPORTATIONTYPE>1</TRANSPORTATIONTYPE>
-    <CAMPAIGNNUMBER>1313</CAMPAIGNNUMBER>
-    <CAMPAIGNDATE>2023-09-25</CAMPAIGNDATE>
-    <PURCHASEORDERNUMBER>12331</PURCHASEORDERNUMBER>
-    <TRANSPORTATIONPAYMENTTYPE>1</TRANSPORTATIONPAYMENTTYPE>
-    <TRANSPORTATIONCOST>
-      <WITHOUTVAT>121</WITHOUTVAT>
-      <VAT>20</VAT>
-      <WITHVAT>145.20</WITHVAT>
-    </TRANSPORTATIONCOST>
-    <TRANSPORTATIONMEANS>
-      <ID>АА1111ОО</ID>
-      <MODEL>2101</MODEL>
-      <BRAND>Камаззз</BRAND>
-      <TYPE>Бортовий</TYPE>
-      <COLOR>Синій</COLOR>
-    </TRANSPORTATIONMEANS>
-    <TRANSPORTATIONMEANS>
-      <CATEGORYCODE>TE</CATEGORYCODE>
-      <CHARACTERISTICCODE>14</CHARACTERISTICCODE>
-      <ID>АА1121АА</ID>
-      <MODEL>Модель</MODEL>
-      <BRAND>Марка</BRAND>
-      <TYPE>ТИП</TYPE>
-    </TRANSPORTATIONMEANS>
-    <TRANSPORTATIONMEANS>
-      <CATEGORYCODE>TE</CATEGORYCODE>
-      <CHARACTERISTICCODE>14</CHARACTERISTICCODE>
-      <ID>АА1121АА</ID>
-      <MODEL>Модель</MODEL>
-      <BRAND>Марка</BRAND>
-      <TYPE>ТИП</TYPE>
-    </TRANSPORTATIONMEANS>
-    <LENGTHROUTE>120</LENGTHROUTE>
-    <TEMPERATURE>
-      <MIN>11</MIN>
-      <MAX>20</MAX>
-    </TEMPERATURE>
-    <DESCRIPTION>Найменування вантажу</DESCRIPTION>
-    <TOTALPACKAGEWEIGHT>233</TOTALPACKAGEWEIGHT>
-    <TOTALPACKAGEQUANTITY>12</TOTALPACKAGEQUANTITY>
-    <LOADFACTOR>30</LOADFACTOR>
-    <INFO>Додаткова інформація</INFO>
-    <FINANCIALINFO>Додаткова інформація для фінансового відділу</FINANCIALINFO>
-    <TRANSPORTATIONMEANS_PARAMETERS>Відомості про транспорт (Ваго габаритні характеристики)</TRANSPORTATIONMEANS_PARAMETERS>
-    <HEAD>
-      <CUSTOMER>
-        <GLN>9864065745518</GLN>
-        <ID>12345678</ID>
-        <NAME>ТОВ &quot;Тест1&quot;</NAME>
-        <ADDRESS>Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *</ADDRESS>
-      </CUSTOMER>
-      <CARRIER>
-        <GLN>9864065748106</GLN>
-        <ID>9988663328</ID>
-        <NAME>Перевізник ТТН</NAME>
-        <ADDRESS>Україна, 4215423, Житомирська, Житомирський р-н, м. Житомир, Шевченка 2</ADDRESS>
-      </CARRIER>
-      <CONSIGNOR>
-        <GLN>9864065745518</GLN>
-        <ID>12345678</ID>
-        <NAME>ТОВ &quot;Тест1&quot;</NAME>
-        <ADDRESS>Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *</ADDRESS>
-      </CONSIGNOR>
-      <DRIVER>
-        <GLN>9864232596134</GLN>
-        <ID>213242232</ID>
-        <NAME>Водій Стрига І.А._v3 (прод)</NAME>
-        <LICENSE>XYY995511</LICENSE>
-      </DRIVER>
-      <POSITION>
-        <POSITIONNUMBER>1</POSITIONNUMBER>
-        <LOAD>
-          <ADDRESS>
-            <GLN>9864065748090</GLN>
-            <ID>UA05020030010063857</ID>
-            <NAME>Україна, 3232323323, Вінницький р-н, м. Вінниця</NAME>
-            <ADDRESS>Лозова 6</ADDRESS>
-          </ADDRESS>
-          <DATE>2023-11-29 14:16</DATE>
-          <CONSIGNORCONTACTFACENAME>Відповідальна особа</CONSIGNORCONTACTFACENAME>
-          <CONSIGNORCONTACTFACENUMBER>380000000000</CONSIGNORCONTACTFACENUMBER>
-        </LOAD>
-        <UNLOAD>
-          <ADDRESS>
-            <GLN>9864065749073</GLN>
-            <ID>UA18040190010057814</ID>
-            <NAME>Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир</NAME>
-            <ADDRESS>Одесська 33</ADDRESS>
-          </ADDRESS>
-          <DATE>2023-11-30 14:17</DATE>
-          <CONSIGNEE>
-            <GLN>9864065749073</GLN>
-            <ID>85548668</ID>
-            <NAME>Компанія &quot;Вантажоодержувач_v3&quot;</NAME>
-            <ADDRESS>Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир, Одесська 33</ADDRESS>
-          </CONSIGNEE>
-          <CONSIGNEECONTACTFACENAME>Іванов Іван Івіанович</CONSIGNEECONTACTFACENAME>
-          <CONSIGNEECONTACTFACENUMBER>380222222222</CONSIGNEECONTACTFACENUMBER>
-        </UNLOAD>
-        <PACKAGEWEIGHT>233</PACKAGEWEIGHT>
-        <PACKAGEQUANTITY>11</PACKAGEQUANTITY>
-        <TRANSPORTTYPE>Вид транспорту</TRANSPORTTYPE>
-        <TEMPERATURE>
-          <MIN>11</MIN>
-          <MAX>20</MAX>
-        </TEMPERATURE>
-        <INFO>Коментар</INFO>
-      </POSITION>
-    </HEAD>
-  </TRANSPORTATIONORDER>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <TRANSPORTATIONORDER>
+      <NUMBER>Тест1</NUMBER>
+      <DATE>2023-11-29</DATE>
+      <SUBDOCTYPE>1</SUBDOCTYPE>
+      <TRANSPORTATIONTYPE>1</TRANSPORTATIONTYPE>
+      <CAMPAIGNNUMBER>1313</CAMPAIGNNUMBER>
+      <CAMPAIGNDATE>2023-09-25</CAMPAIGNDATE>
+      <PURCHASEORDERNUMBER>12331</PURCHASEORDERNUMBER>
+      <TRANSPORTATIONPAYMENTTYPE>1</TRANSPORTATIONPAYMENTTYPE>
+      <TRANSPORTATIONCOST>
+        <WITHOUTVAT>121</WITHOUTVAT>
+        <VAT>20</VAT>
+        <WITHVAT>145.20</WITHVAT>
+      </TRANSPORTATIONCOST>
+      <TRANSPORTATIONMEANS>
+        <ID>АА1111ОО</ID>
+        <MODEL>2101</MODEL>
+        <BRAND>Камаззз</BRAND>
+        <TYPE>Бортовий</TYPE>
+        <COLOR>Синій</COLOR>
+      </TRANSPORTATIONMEANS>
+      <TRANSPORTATIONMEANS>
+        <CATEGORYCODE>TE</CATEGORYCODE>
+        <CHARACTERISTICCODE>14</CHARACTERISTICCODE>
+        <ID>АА1121АА</ID>
+        <MODEL>Модель</MODEL>
+        <BRAND>Марка</BRAND>
+        <TYPE>ТИП</TYPE>
+      </TRANSPORTATIONMEANS>
+      <TRANSPORTATIONMEANS>
+        <CATEGORYCODE>TE</CATEGORYCODE>
+        <CHARACTERISTICCODE>14</CHARACTERISTICCODE>
+        <ID>АА1121АА</ID>
+        <MODEL>Модель</MODEL>
+        <BRAND>Марка</BRAND>
+        <TYPE>ТИП</TYPE>
+      </TRANSPORTATIONMEANS>
+      <LENGTHROUTE>120</LENGTHROUTE>
+      <TEMPERATURE>
+        <MIN>11</MIN>
+        <MAX>20</MAX>
+      </TEMPERATURE>
+      <DESCRIPTION>Найменування вантажу</DESCRIPTION>
+      <TOTALPACKAGEWEIGHT>233</TOTALPACKAGEWEIGHT>
+      <TOTALPACKAGEQUANTITY>12</TOTALPACKAGEQUANTITY>
+      <LOADFACTOR>30</LOADFACTOR>
+      <INFO>Додаткова інформація</INFO>
+      <FINANCIALINFO>Додаткова інформація для фінансового відділу</FINANCIALINFO>
+      <TRANSPORTATIONMEANS_PARAMETERS>Відомості про транспорт (Ваго габаритні характеристики)</TRANSPORTATIONMEANS_PARAMETERS>
+      <HEAD>
+        <CUSTOMER>
+          <GLN>9864065745518</GLN>
+          <ID>12345678</ID>
+          <UNZR>23512342-35121</UNZR>
+          <NAME>ТОВ "Тест1"</NAME>
+          <ADDRESS>Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *</ADDRESS>
+        </CUSTOMER>
+        <CARRIER>
+          <GLN>9864065748106</GLN>
+          <ID>9988663328</ID>
+          <UNZR>23512342-35121</UNZR>
+          <NAME>Перевізник ТТН</NAME>
+          <ADDRESS>Україна, 4215423, Житомирська, Житомирський р-н, м. Житомир, Шевченка 2</ADDRESS>
+        </CARRIER>
+        <CONSIGNOR>
+          <GLN>9864065745518</GLN>
+          <ID>12345678</ID>
+          <UNZR>23512342-35121</UNZR>
+          <NAME>ТОВ "Тест1"</NAME>
+          <ADDRESS>Україна, 73000, Житомирська, Житомирський р-н, м. Житомир, *</ADDRESS>
+        </CONSIGNOR>
+        <DRIVER>
+          <GLN>9864232596134</GLN>
+          <ID>213242232</ID>
+          <UNZR>23512342-35121</UNZR>
+          <NAME>Водій Стрига І.А._v3 (прод)</NAME>
+          <LICENSE>XYY995511</LICENSE>
+        </DRIVER>
+        <POSITION>
+          <POSITIONNUMBER>1</POSITIONNUMBER>
+          <LOAD>
+            <ADDRESS>
+              <GLN>9864065748090</GLN>
+              <ID>UA05020030010063857</ID>
+              <NAME>Україна, 3232323323, Вінницький р-н, м. Вінниця</NAME>
+              <ADDRESS>Лозова 6</ADDRESS>
+            </ADDRESS>
+            <DATE>2023-11-29 14:16</DATE>
+            <CONSIGNORCONTACTFACENAME>Відповідальна особа</CONSIGNORCONTACTFACENAME>
+            <CONSIGNORCONTACTFACENUMBER>380000000000</CONSIGNORCONTACTFACENUMBER>
+          </LOAD>
+          <UNLOAD>
+            <ADDRESS>
+              <GLN>9864065749073</GLN>
+              <ID>UA18040190010057814</ID>
+              <NAME>Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир</NAME>
+              <ADDRESS>Одесська 33</ADDRESS>
+            </ADDRESS>
+            <DATE>2023-11-30 14:17</DATE>
+            <CONSIGNEE>
+              <GLN>9864065749073</GLN>
+              <ID>85548668</ID>
+              <UNZR>23512342-35121</UNZR>
+              <NAME>Компанія "Вантажоодержувач_v3"</NAME>
+              <ADDRESS>Україна, 131413413134, Житомирська, Житомирський р-н, м. Житомир, Одесська 33</ADDRESS>
+            </CONSIGNEE>
+            <CONSIGNEECONTACTFACENAME>Іванов Іван Івіанович</CONSIGNEECONTACTFACENAME>
+            <CONSIGNEECONTACTFACENUMBER>380222222222</CONSIGNEECONTACTFACENUMBER>
+          </UNLOAD>
+          <PACKAGEWEIGHT>233</PACKAGEWEIGHT>
+          <PACKAGEQUANTITY>11</PACKAGEQUANTITY>
+          <TRANSPORTTYPE>Вид транспорту</TRANSPORTTYPE>
+          <TEMPERATURE>
+            <MIN>11</MIN>
+            <MAX>20</MAX>
+          </TEMPERATURE>
+          <INFO>Коментар</INFO>
+        </POSITION>
+      </HEAD>
+    </TRANSPORTATIONORDER>
 
 .. role:: orange
 
