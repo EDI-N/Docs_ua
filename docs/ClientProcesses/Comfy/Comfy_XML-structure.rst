@@ -5,6 +5,19 @@ XML Специфікації для роботи з Мережею "Comfy"
 
 ---------
 
+Замовлення (ORDER)
+==============================================
+
+.. csv-table:: Замовлення (ORDER)
+  :file: Comfy_XML/files/ORDER.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
+
+:download:`XML-Приклад "Замовлення" (ORDER)<Comfy_XML/examples/ORDER_example.xml>`
+
+
+---------
+
 Підтвердження замовлення (ORDRSP)
 ==============================================
 
@@ -15,35 +28,26 @@ XML Специфікації для роботи з Мережею "Comfy"
 
 :download:`XML-Приклад "Підтвердження замовлення" (ORDRSP)<Comfy_XML/examples/ORDRSP_example.xml>`
 
-:download:`JSON-Приклад "Підтвердження замовлення" (ORDRSP)<Comfy_XML/examples/ORDRSP.json>`
 
 ---------
 
-Прайс-лист (PRICAT)
+Статус Підтвердження замовлення (Status)
 ====================
 
-.. csv-table:: Прайс-лист (PRICAT)
-  :file: Comfy_XML/files/PRICAT.csv
-  :widths:  40, 7, 12, 41
-  :header-rows: 1
-
-:download:`XML-Приклад "Прайс-листа" (PRICAT)<Comfy_XML/examples/PRICAT_example.xml>`
-
-:download:`JSON-Приклад "Прайс-листа" (PRICAT)<Comfy_XML/examples/PRICAT.json>`
+Статус передається за допомогою `методу API <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
 
 ---------
 
-Видаткова накладна (COMDOC_006)
+Повідомлення про відвантаження (DESADV)
 ========================================
 
-.. csv-table:: Видаткова накладна (COMDOC_006)
-  :file: Comfy_XML/files/COMDOC_006.csv
+.. csv-table:: Повідомлення про відвантаження (DESADV)
+  :file: Comfy_XML/files/DESADV.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад "Видаткової накладної" (COMDOC_006)<Comfy_XML/examples/comdoc_006_example.xml>`
+:download:`XML-Приклад "Повідомлення про відвантаження" (DESADV)<Comfy_XML/examples/DESADV_example.xml>`
 
-:download:`JSON-Приклад "Видаткової накладної" (COMDOC_006)<Comfy_XML/examples/comdoc_006.json>`
 
 -------------------------
 
