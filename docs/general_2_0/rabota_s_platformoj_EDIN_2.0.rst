@@ -582,7 +582,7 @@
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_014.gif
    :align: center
 
-2) Також заповнити рядок пошуку можливо за допомогою набору фільтрів **"Розширеного пошуку"** (|advserch|):
+2. Також заповнити рядок пошуку можливо за допомогою набору фільтрів **"Розширеного пошуку"** (|advserch|):
 
 .. image:: pics_rabota_s_platformoj_EDIN_2.0/rabota_s_platformoj_015.png
    :align: center
