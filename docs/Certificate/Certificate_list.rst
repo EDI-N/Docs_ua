@@ -1,5 +1,5 @@
 .. toctree::
-   :titlesonly:
+   :maxdepth: 1
    :caption: Інструкції "Е-Сертифікати"
 
    EDIN_2_0/APIv2/Instrukcija_postachalnika_EDIN_Certificate
