@@ -16,7 +16,7 @@ Metro
    Metro_Instructions/formirovanie_COMDOC_027_na_EDI_Network_2_0
    Metro_Instructions/Metro_7a_instruction
    Metro_Instructions/Metro_RC_TC_delivery
-   Metro_Instructions/create_ETTN_for_METRO
+   Metro_Instructions/rules_ETTN_for_METRO
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з ТМ "МЕТРО" [1]
