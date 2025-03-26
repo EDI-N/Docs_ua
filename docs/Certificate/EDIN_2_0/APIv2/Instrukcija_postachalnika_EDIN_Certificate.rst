@@ -29,6 +29,8 @@
 1. Початок роботи на Порталі Сертифікатів Е-Сертифікати
 ============================================================================
 
+.. початок блоку для Start
+
 На вкладці «**Продукти та рішення**» перейдіть в розділ **Е-Сертифікати** 
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_01.png
@@ -44,6 +46,8 @@
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_02.png
    :align: center
+
+.. кінець блоку для Start
 
 2. Додавання документа на Портал Сертифікатів
 =========================================================================
