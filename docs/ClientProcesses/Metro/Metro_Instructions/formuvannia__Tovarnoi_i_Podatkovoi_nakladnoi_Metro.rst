@@ -9,7 +9,7 @@
 ---------
 
 .. contents:: Зміст
-   :depth: 2
+   :depth: 1
    :local:
    :class: no-bullets
 
