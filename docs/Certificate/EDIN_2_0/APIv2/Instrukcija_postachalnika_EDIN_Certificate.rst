@@ -299,5 +299,6 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_26.png
    :align: center
 
-
-.. include:: kontakti.rst
+----------------------------
+   
+.. include:: /_constant/kontakti.rst
