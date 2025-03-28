@@ -77,7 +77,7 @@ EDIN | Електронний документообіг для бізнесу
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/Certificate/EDIN/Certificate_list.html
 
-        .. grid-item-card::  Driver
+    .. grid-item-card::  Driver
         :img-top: _static/card_pic/driver.png
         :class-card: intro-card
         :shadow: lg
