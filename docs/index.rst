@@ -247,33 +247,11 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: 💎 WhiteDoc
-
-   WhiteDoc/WD_Instructions/WD_Instructions_list
-   API <https://wd-api.edin.ua/swagger-ui/#/>
-   WhiteDoc/API/errors
-
-.. toctree::
-   :maxdepth: 2
    :caption: 👨‍⚖️ Юридична інформація
 
    Legal_info/Rules
    Legal_info/Oferta
    Legal_info/KP
    Legal_info/Politic_list
-   Legal_info/Licenses/Licenses_list
    Legal_info/Promotions/Promotions_list
-
-.. toctree::
-   :titlesonly: 
-   :caption: 📺 Вебінари
-   
-   Webinars/Videos
-
-.. toctree::
-   :maxdepth: 2
-   :caption: 👮 Законодавство
-
-   Zakon/Zakonodavcha_baza
-   Legal_info/Test
 
