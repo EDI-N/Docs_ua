@@ -95,6 +95,12 @@ EDIN | Електронний документообіг для бізнесу
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/ETTN_2_0/ETTN_2_0_list.html
 
+    .. grid-item-card::  Законодавство
+        :img-top: _static/card_pic/zakon_g.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Zakon/Zakonodavcha_baza.html
+
     .. grid-item-card::  ERP Connector
         :img-top: _static/card_pic/erp.png
         :class-card: intro-card
@@ -106,12 +112,6 @@ EDIN | Електронний документообіг для бізнесу
         :class-card: intro-card
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/ERP_Connector_PRO/Instructions/Videoinstruction.html
-
-    .. grid-item-card::  Законодавство
-        :img-top: _static/card_pic/zakon_g.png
-        :class-card: intro-card
-        :shadow: lg
-        :link: https://wiki.edin.ua/uk/latest/Zakon/Zakonodavcha_baza.html
 
 
 Зміст:
