@@ -244,3 +244,10 @@ EDIN | Електронний документообіг для бізнесу
    Legal_info/Politic_list
    Legal_info/Promotions/Promotions_list
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 👮 Законодавство
+
+   Zakon/Zakonodavcha_baza
+   Legal_info/Test
+
