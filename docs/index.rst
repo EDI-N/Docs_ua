@@ -113,6 +113,12 @@ EDIN | Електронний документообіг для бізнесу
         :shadow: lg
         :link: https://wiki.edin.ua/uk/latest/ERP_Connector_PRO/Instructions/Videoinstruction.html
 
+    .. grid-item-card::  Юридична інформація
+        :img-top: _static/card_pic/legal_g.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/Legal_info/Rules.html
+
 
 Зміст:
 
