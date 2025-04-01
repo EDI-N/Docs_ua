@@ -25,7 +25,7 @@
 
 .. csv-table:: 
   :file: for_csv/un_edifact_codes.csv
-  :widths:  1, 5, 10, 1, 10, 41
+  :widths:  1, 5, 10, 10, 41
   :header-rows: 1
   :stub-columns: 0
 
@@ -47,7 +47,7 @@
 
 .. csv-table:: 
   :file: for_csv/user_role_codes.csv
-  :widths:  1, 5, 10, 1, 10, 41
+  :widths:  1, 5, 10, 10, 41
   :header-rows: 1
   :stub-columns: 0
 
