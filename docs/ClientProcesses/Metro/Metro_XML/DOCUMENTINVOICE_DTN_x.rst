@@ -61,8 +61,6 @@
           <ProductIdBuyer>133873009999</ProductIdBuyer>
           <ItemDescription>СОСИСКА</ItemDescription>
           <UnitOfMeasure>KGM</UnitOfMeasure>
-          <TaxAmount>0.00</TaxAmount>
-          <NetAmount>0.00</NetAmount>
           <InvoiceDeliveredQuantity>5.123</InvoiceDeliveredQuantity>
           <AcceptedQuantity>10</AcceptedQuantity>
           <ReturnedQuantity>0</ReturnedQuantity>

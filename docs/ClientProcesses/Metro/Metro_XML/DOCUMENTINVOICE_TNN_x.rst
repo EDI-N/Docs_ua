@@ -77,11 +77,6 @@
          <ItemDescription>Мандарин клементина 1</ItemDescription>
          <InvoiceQuantity>1212</InvoiceQuantity>
          <UnitOfMeasure>KGM</UnitOfMeasure>
-         <InvoiceUnitNetPrice>99.51515</InvoiceUnitNetPrice>
-         <TaxRate>20</TaxRate>
-         <TaxCategoryCode>S</TaxCategoryCode>
-         <TaxAmount>24122.47</TaxAmount>
-         <NetAmount>120612.36</NetAmount>
          <CountPiecesInBox>56.555</CountPiecesInBox>
          <DeliveredQuantity>450.666</DeliveredQuantity>
          </Line-Item>
