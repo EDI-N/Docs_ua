@@ -60,8 +60,6 @@
          <ProductIdBuyer>2323</ProductIdBuyer>
          <ItemDescription>Тестова позиція 003</ItemDescription>
          <UnitOfMeasure>PCE</UnitOfMeasure>
-         <TaxAmount>0.00</TaxAmount>
-         <NetAmount>0.00</NetAmount>
          <CountPiecesInBox>50</CountPiecesInBox>
          <DeliveredQuantity>1000</DeliveredQuantity>
          </Line-Item>
@@ -90,11 +88,6 @@
          <ItemDescription>Хлібчик</ItemDescription>
          <InvoiceQuantity>3434</InvoiceQuantity>
          <UnitOfMeasure>PCE</UnitOfMeasure>
-         <InvoiceUnitNetPrice>10.210000</InvoiceUnitNetPrice>
-         <TaxRate>20</TaxRate>
-         <TaxCategoryCode>S</TaxCategoryCode>
-         <TaxAmount>7012.23</TaxAmount>
-         <NetAmount>35061.14</NetAmount>
          <CountPiecesInBox>15</CountPiecesInBox>
          <BoxesCount>2000.00</BoxesCount>
          <DeliveredQuantity>30000</DeliveredQuantity>
@@ -109,11 +102,6 @@
          <ItemDescription>drink</ItemDescription>
          <InvoiceQuantity>222</InvoiceQuantity>
          <UnitOfMeasure>PCE</UnitOfMeasure>
-         <InvoiceUnitNetPrice>0.000000</InvoiceUnitNetPrice>
-         <TaxRate>20</TaxRate>
-         <TaxCategoryCode>S</TaxCategoryCode>
-         <TaxAmount>0</TaxAmount>
-         <NetAmount>0</NetAmount>
          <CountPiecesInBox>5</CountPiecesInBox>
          <DeliveredQuantity>30</DeliveredQuantity>
          </Line-Item>
@@ -130,11 +118,6 @@
          <ItemType>CU</ItemType>
          <InvoiceQuantity>50</InvoiceQuantity>
          <UnitOfMeasure>PCE</UnitOfMeasure>
-         <InvoiceUnitNetPrice>100.000000</InvoiceUnitNetPrice>
-         <TaxRate>20</TaxRate>
-         <TaxCategoryCode>S</TaxCategoryCode>
-         <TaxAmount>1000.00</TaxAmount>
-         <NetAmount>5000.00</NetAmount>
          <CountPiecesInBox>10</CountPiecesInBox>
          <DeliveredQuantity>100</DeliveredQuantity>
          </Line-Item>
