@@ -82,8 +82,21 @@
 ==========================================================================================================================
 
 .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
-   :start-after: .. початок блоку для Desadv_from_Ordrsp
-   :end-before: .. кінець блоку для Desadv_from_Ordrsp
+   :start-after: .. початок блоку для Desadv_from_Ordrsp_Silpo1
+   :end-before: .. кінець блоку для Desadv_from_Ordrsp_Silpo1
+
+.. image:: pics_Silpo_shops/Silpo_shops_002.png
+   :align: center
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Desadv_from_Ordrsp_Silpo2
+   :end-before: .. кінець блоку для Desadv_from_Ordrsp_Silpo2
+
+
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Desadv_from_Ordrsp_Silpo3
+   :end-before: .. кінець блоку для Desadv_from_Ordrsp_Silpo3
    
 ------------------------------------------------
 
