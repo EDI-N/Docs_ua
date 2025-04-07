@@ -94,6 +94,8 @@
 
 .. початок блоку для Desadv_from_Ordrsp
 
+.. початок блоку для Desadv_from_Ordrsp_Silpo1
+
 Щоб сформувати "Повідомлення про відвантаження" (DESADV) на підставі "Підтвердження замовлення" (ORDRSP) Вам потрібно в меню сервісу **"EDI Network"** увійти в папку "Надіслані" і обрати "Підтвердження замовлення" (ORDRSP) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
 .. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0/DESADV_na_EDI_Network_009.png
@@ -101,8 +103,12 @@
 
 Потрібно відкрити надіслане "Підтвердження замовлення" (ORDRSP) лівою кнопкою миші та створити "Повідомлення про відвантаження" (DESADV) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ за допомогою кнопки **"Створити документ"**:
 
+.. кінець блоку для Desadv_from_Ordrsp_Silpo1
+
 .. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0/DESADV_na_EDI_Network_010.png
    :align: center
+
+.. початок блоку для Desadv_from_Ordrsp_Silpo2
 
 У відкритій формі "Повідомлення про відвантаження" (DESADV) значна частина полів заповнюються автоматично з пов'язаного "Підтвердження замовлення" (ORDRSP) (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
@@ -132,6 +138,10 @@
 .. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0/DESADV_na_EDI_Network_004.png
    :align: center
 
+.. кінець блоку для Desadv_from_Ordrsp_Silpo2
+
+.. початок блоку для Desadv_from_Ordrsp_Silpo3
+
 :red:`Всі зміни за позиціями потребують узгодження з Вашим Контрагентом!`
 
 .. important:: **Увага!** У разі створення **кількох** видаткових накладних на замовлення, необхідно на кожну накладну формувати **Повідомлення про відвантаження**. При цьому, поле «**За накладною №**» в документах повинно відрізнятися.
@@ -155,6 +165,8 @@
 
 .. image:: /retail_2.0/pics_DESADV_na_EDI_Network_2.0/DESADV_na_EDI_Network_008.png
    :align: center
+
+.. кінець блоку для Desadv_from_Ordrsp_Silpo3
 
 .. кінець блоку для Desadv_from_Ordrsp
 
