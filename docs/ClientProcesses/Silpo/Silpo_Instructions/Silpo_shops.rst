@@ -88,10 +88,16 @@
 .. image:: pics_Silpo_shops/Silpo_shops_002.png
    :align: center
 
+
+
 .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
    :start-after: .. початок блоку для Desadv_from_Ordrsp_Silpo2
    :end-before: .. кінець блоку для Desadv_from_Ordrsp_Silpo2
 
+Поле "Кількість ящиків" заповнюється автоматично і доступне для редагування, але є обов'язковим. При створенні документу в Чернетки дозволяється відсутність даних в цьому полі по одній або декільком товарним позиціям. Але при відправці документу буде показаноо помилку, якщо хоча б по одній товарній позиції поле "Кількість ящиків" не заповнене:
+
+.. image:: pics_Silpo_shops/Silpo_shops_003.png
+   :align: center
 
 
 .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
