@@ -15,6 +15,7 @@ XML Специфікації для роботи з "АТБ"
 У специфікаціях представлено опис полів XML-документів, які застосовуються в електронному обміні даними при роботі з мережею "АТБ" на платформі EDIN за схемою:
 
 .. image:: pictures/АТБ_API_v2_0.png
+   :height: 700px
    :align: center
 
 ---------------------------------------------------------
@@ -64,6 +65,17 @@ XML Специфікації для роботи з "АТБ"
 .. кінець блоку для International_transportation_specs1
 
 ---------
+
+Транспортні документи: ТТН + Акти
+================================================================================
+
+.. raw:: html
+
+    <embed>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=330971859&amp;single=true&amp;widget=true&amp;headers=false" width="1145" height="13750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </embed>
+
+-------------------------
 
 Акт приймання товару до ВН (COMDOC_035)
 ================================================================================
