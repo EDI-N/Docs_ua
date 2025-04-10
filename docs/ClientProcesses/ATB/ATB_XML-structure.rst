@@ -72,8 +72,12 @@ XML Специфікації для роботи з "АТБ"
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=330971859&single=true" width="1145" height="13700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=330971859&single=true" width="1145" height="13680" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
+
+:download:`XML-Приклад ТТН<ATB_XML/examples/TTH.xml>`
+
+:download:`JSON-Приклад ТТН<ATB_XML/examples/TTH.json>`
 
 -------------------------
 

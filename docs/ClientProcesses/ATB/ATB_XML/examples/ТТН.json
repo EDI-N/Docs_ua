@@ -1,0 +1,469 @@
+{
+    "ecmr": {
+        "documentContext": {
+            "transactionID": "0",
+            "documentCode": {
+                "id": "urn:ua:e-transport.gov.ua:ettn:01"
+            },
+            "documentSubCode": {
+                "id": "urn:ua:e-transport.gov.ua:ettn:01:generic:001"
+            }
+        },
+        "exchangedDocument": {
+            "id": "1122",
+            "issueDateTime": {
+                "dateTime": "2025-04-10T21:02:00+03:00"
+            },
+            "includedNote": [
+                {
+                    "contentCode": {
+                        "listAgencyID": "vatAmount",
+                        "value": "11223"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "gross_vehicle_weight_with_cargo",
+                        "value": "55.741"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "vehicle_width",
+                        "value": "4.09"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "vehicle_height",
+                        "value": "7.06"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "vehicle_length",
+                        "value": "78.05"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "consignmentItemQuantity_text",
+                        "value": "сто двадцять чотири цілих"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "grossWeightMeasure_text",
+                        "value": "двісті цілих"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "associatedInvoiceAmount_text",
+                        "value": "три тисячі п\u0027ятсот сімдесят одна грн 20 коп"
+                    },
+                    "content": "CZ"
+                },
+                {
+                    "contentCode": {
+                        "listAgencyID": "vatAmount_text",
+                        "value": "одинадцять тисяч двісті двадцять три грн 0 коп"
+                    },
+                    "content": "CZ"
+                }
+            ],
+            "issueLogisticsLocation": {
+                "name": "Місце складання документу",
+                "description": "м. Київ"
+            }
+        },
+        "specifiedSupplyChainConsignment": {
+            "grossWeightMeasure": {
+                "unitCode": "KGM",
+                "value": "200"
+            },
+            "associatedInvoiceAmount": {
+                "currencyId": "UAH",
+                "value": "3571.2"
+            },
+            "consignmentItemQuantity": "124",
+            "consignor": {
+                "id": {
+                    "schemeAgencyID": "ЄДРПОУ",
+                    "value": "31500036"
+                },
+                "name": "Тестовий Постачальник АТБ",
+                "roleCode": "CZ",
+                "postalTradeAddress": {
+                    "postCode": "20202",
+                    "streetName": "Донця 6",
+                    "cityName": "м. Київ",
+                    "countryID": "UA",
+                    "countrySubDivisionName": "Київська"
+                },
+                "specifiedGovernmentRegistrations": [
+                    {
+                        "id": "9864065737490",
+                        "typeCode": "TRADEPARTY_GLN"
+                    }
+                ]
+            },
+            "consignee": {
+                "id": {
+                    "schemeAgencyID": "ЄДРПОУ",
+                    "value": "79797979"
+                },
+                "name": "Тест_АТБ",
+                "roleCode": "CN",
+                "postalTradeAddress": {
+                    "postCode": "49000",
+                    "streetName": "ПРОСПЕКТ ОЛЕКСАНДРА ПОЛЯ, будинок 40",
+                    "cityName": "м. Дніпро",
+                    "countryID": "UA",
+                    "countrySubDivisionName": "Дніпропетровська, Дніпровський р-н"
+                },
+                "specifiedGovernmentRegistrations": [
+                    {
+                        "id": "9864065738930",
+                        "typeCode": "TRADEPARTY_GLN"
+                    }
+                ]
+            },
+            "carrier": {
+                "id": {
+                    "schemeAgencyID": "ЄДРПОУ",
+                    "value": "34307753"
+                },
+                "name": "ПП \"ТРАНС ЛОГІСТИК\"",
+                "roleCode": "CA",
+                "tradeContact": {
+                    "personName": "Резніченко Ліліана Валентинівна",
+                    "telephoneUniversalCommunication": {
+                        "completeNumber": "380000000000"
+                    }
+                },
+                "postalTradeAddress": {
+                    "postCode": "111111112",
+                    "streetName": "Тест адреса 2",
+                    "cityName": "м. Київ",
+                    "countryID": "UA",
+                    "countrySubDivisionName": "м. Київ"
+                },
+                "taxRegistration": {
+                    "id": "2901510902"
+                },
+                "specifiedGovernmentRegistrations": [
+                    {
+                        "id": "RLV005577"
+                    },
+                    {
+                        "id": "9864065750437",
+                        "typeCode": "DRIVER_GLN"
+                    },
+                    {
+                        "id": "9864065750420",
+                        "typeCode": "TRADEPARTY_GLN"
+                    }
+                ]
+            },
+            "notifiedTradeParties": [
+                {
+                    "id": {
+                        "schemeAgencyID": "ЄДРПОУ",
+                        "value": "31500036"
+                    },
+                    "name": "Тестовий Постачальник АТБ",
+                    "roleCode": "OB",
+                    "postalTradeAddress": {
+                        "postCode": "20202",
+                        "streetName": "Донця 6",
+                        "cityName": "м. Київ",
+                        "countryID": "UA",
+                        "countrySubDivisionName": "Київська"
+                    },
+                    "specifiedGovernmentRegistrations": [
+                        {
+                            "id": "9864065737490",
+                            "typeCode": "TRADEPARTY_GLN"
+                        }
+                    ]
+                },
+                {
+                    "id": {
+                        "schemeAgencyID": "ЄДРПОУ",
+                        "value": "34307753"
+                    },
+                    "name": "ПП \"ТРАНС ЛОГІСТИК\"",
+                    "roleCode": "FW",
+                    "postalTradeAddress": {
+                        "postCode": "111111112",
+                        "streetName": "Тест адреса 2",
+                        "cityName": "м. Київ",
+                        "countryID": "UA",
+                        "countrySubDivisionName": "м. Київ"
+                    },
+                    "specifiedGovernmentRegistrations": [
+                        {
+                            "id": "9864065750420",
+                            "typeCode": "TRADEPARTY_GLN"
+                        }
+                    ]
+                },
+                {
+                    "id": {
+                        "schemeAgencyID": "ЄДРПОУ",
+                        "value": "34307753"
+                    },
+                    "name": "ПП \"ТРАНС ЛОГІСТИК\"",
+                    "roleCode": "COP",
+                    "postalTradeAddress": {
+                        "postCode": "111111112",
+                        "streetName": "Тест адреса 2",
+                        "cityName": "м. Київ",
+                        "countryID": "UA",
+                        "countrySubDivisionName": "м. Київ"
+                    },
+                    "specifiedGovernmentRegistrations": [
+                        {
+                            "id": "9864065750420",
+                            "typeCode": "TRADEPARTY_GLN"
+                        }
+                    ]
+                }
+            ],
+            "carrierAcceptanceLogisticsLocation": {
+                "id": {
+                    "schemeAgencyID": "КАТОТТГ",
+                    "value": "UA59080270010036634"
+                },
+                "name": "Тестовий пункт навантаження",
+                "typeCode": "10",
+                "description": "Україна, Сумська, Сумський р-н, м. Суми, Київська, 33",
+                "physicalGeographicalCoordinate": {
+                    "systemId": {
+                        "schemeAgencyID": "GLN",
+                        "value": "9864065735373"
+                    }
+                }
+            },
+            "consigneeReceiptLogisticsLocation": {
+                "id": {
+                    "schemeAgencyID": "КАТОТТГ",
+                    "value": "UA12020250010046556"
+                },
+                "name": "РЦ7_тест",
+                "typeCode": "5",
+                "description": "Україна, 52005, Дніпропетровська, Дніпровський р-н, смт. Слобожанське, комплекс будівель та споруд №8 (розподільний центр)",
+                "physicalGeographicalCoordinate": {
+                    "systemId": {
+                        "schemeAgencyID": "GLN",
+                        "value": "9864065751229"
+                    }
+                }
+            },
+            "associatedReferencedDocuments": [
+                {
+                    "typeCode": "220",
+                    "id": "OrderNum_123",
+                    "formattedIssueDateTime": {
+                        "dateTime": "2023-05-03T12:00:00+03:00"
+                    }
+                },
+                {
+                    "typeCode": "351",
+                    "id": "DESADVNum_661",
+                    "formattedIssueDateTime": {
+                        "dateTime": "2025-04-10T12:00:00+03:00"
+                    }
+                }
+            ],
+            "deliveryTransportEvent": {
+                "certifyingTradeParties": [],
+                "applicableNotes": []
+            },
+            "pickUpTransportEvent": {
+                "actualOccurrenceDateTime": {
+                    "dateTime": "2023-05-01T16:24:00+03:00"
+                },
+                "scheduledOccurrenceDateTime": {
+                    "dateTime": "2023-05-01T16:24:00+03:00"
+                },
+                "certifyingTradeParties": [
+                    {
+                        "id": {
+                            "schemeAgencyID": "РНОКПП",
+                            "value": "1776627701"
+                        },
+                        "name": "комірник",
+                        "roleCode": "CZ",
+                        "tradeContact": {
+                            "personName": "Тестовий Тест Тестович",
+                            "mobileTelephoneUniversalCommunication": {
+                                "completeNumber": "380688108777"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "schemeAgencyID": "РНОКПП",
+                            "value": "2901510902"
+                        },
+                        "name": "водій",
+                        "roleCode": "DR",
+                        "tradeContact": {
+                            "personName": "Резніченко Ліліана Валентинівна",
+                            "mobileTelephoneUniversalCommunication": {
+                                "completeNumber": "380962386900"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "schemeAgencyID": "РНОКПП",
+                            "value": "123456465414"
+                        },
+                        "name": "Комірник",
+                        "roleCode": "CA",
+                        "tradeContact": {
+                            "personName": "Іванов Іван Іванович",
+                            "mobileTelephoneUniversalCommunication": {
+                                "completeNumber": "380500000211"
+                            }
+                        }
+                    }
+                ],
+                "applicableNotes": [
+                    {
+                        "contentCode": "GROSSWEIGHT",
+                        "content": "200"
+                    },
+                    {
+                        "contentCode": "DOWNTIME",
+                        "content": "05:00"
+                    }
+                ]
+            },
+            "includedSupplyChainConsignmentItems": [
+                {
+                    "sequenceNumeric": "1",
+                    "invoiceAmount": {
+                        "currencyId": "UAH",
+                        "value": "3571.20"
+                    },
+                    "grossWeightMeasure": {
+                        "unitCode": "KGM",
+                        "value": "200.0"
+                    },
+                    "tariffQuantity": {
+                        "unitCode": "UAH",
+                        "value": "24.00"
+                    },
+                    "globalID": {
+                        "schemeAgencyID": "УКТЗЕД",
+                        "value": "4235346756"
+                    },
+                    "natureIdentificationTransportCargo": {
+                        "identification": "Мандарин клементина 1"
+                    },
+                    "applicableTransportDangerousGoods": {
+                        "UNDGIdentificationCode": "Клас 1"
+                    },
+                    "associatedReferencedLogisticsTransportEquipment": {
+                        "id": "88"
+                    },
+                    "transportLogisticsPackage": {
+                        "itemQuantity": "124",
+                        "typeCode": "PP",
+                        "type": "г",
+                        "physicalLogisticsShippingMarks": {
+                            "marking": "тест упаковка",
+                            "barcodeLogisticsLabel": {
+                                "id": "1110000000001"
+                            }
+                        }
+                    },
+                    "applicableNotes": [
+                        {
+                            "contentCode": "VENDOR_CODE",
+                            "content": "79998898989"
+                        },
+                        {
+                            "contentCode": "BUYER_CODE",
+                            "content": "1578410"
+                        },
+                        {
+                            "contentCode": "QUANTITY",
+                            "content": "76"
+                        },
+                        {
+                            "contentCode": "BASE_UOM",
+                            "content": "кг"
+                        },
+                        {
+                            "contentCode": "PRICE_WITH_VAT",
+                            "content": "28.80"
+                        },
+                        {
+                            "contentCode": "SUM_WITHOUT_VAT",
+                            "content": "2976.00"
+                        },
+                        {
+                            "contentCode": "NET_WEIGHT",
+                            "content": "89.567"
+                        },
+                        {
+                            "contentCode": "RETURN_TARE",
+                            "content": "зворотня тара"
+                        },
+                        {
+                            "contentCode": "RTP_TYPE",
+                            "content": "Тип транспортної упаковки"
+                        },
+                        {
+                            "contentCode": "RTP_QUANTITY",
+                            "content": "777"
+                        }
+                    ]
+                }
+            ],
+            "utilizedLogisticsTransportEquipments": [
+                {
+                    "id": "AA1111AA",
+                    "applicableNotes": [
+                        {
+                            "contentCode": "BRAND",
+                            "content": "test"
+                        },
+                        {
+                            "contentCode": "MODEL",
+                            "content": "test11"
+                        },
+                        {
+                            "contentCode": "COLOR",
+                            "content": "test42635"
+                        },
+                        {
+                            "contentCode": "TYPE",
+                            "content": "test4235"
+                        }
+                    ]
+                }
+            ],
+            "deliveryInstructions": {
+                "description": "централізоване перевезення",
+                "descriptionCode": "TRANSPORTATION_TYPE"
+            }
+        }
+    },
+    "ram": "urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103",
+    "udt": "urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27",
+    "qdt": "urn:un:unece:uncefact:data:standard:QualifiedDataType:103",
+    "uas": "urn:ua:signatures:SignaturesExtensions:1"
+}
