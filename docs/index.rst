@@ -11,6 +11,13 @@ EDIN | Електронний документообіг для бізнесу
     :padding: 2 2 0 0
     :class-container: sd-text-center
 
+
+    .. grid-item-card:: What's new?
+        :img-top: _static/card_pic/vilnyi.png
+        :class-card: intro-card
+        :shadow: lg
+        :link: https://wiki.edin.ua/uk/latest/general_2_0/whats_new.html
+
     .. grid-item-card:: F.A.Q.
         :img-top: _static/card_pic/faq_g.png
         :class-card: intro-card
@@ -121,6 +128,12 @@ EDIN | Електронний документообіг для бізнесу
 
 
 Зміст:
+
+.. toctree::
+   :titlesonly:
+   :caption: 🌟 What's new?
+
+   general_2_0/whats_new
 
 .. toctree::
    :titlesonly:
