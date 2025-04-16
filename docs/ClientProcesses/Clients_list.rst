@@ -28,3 +28,4 @@
    Avrora/Avrora_list
    Varus/Varus_list
    Rozetka/Rozetka_list
+   ProStor/Prostor_list
