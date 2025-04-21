@@ -203,7 +203,7 @@
 .. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_007.png
    :align: center
 
-При переході в документ відображається його статус, наприклад **"Відправлений на перевірку в тогровельну мережу"**:
+При переході в документ відображається його статус, наприклад **"Відправлений на перевірку в торговельну мережу"**:
 
 .. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_011.png
    :align: center
@@ -217,6 +217,43 @@
    :align: center
 
 .. кінець блоку для DECLAR_from_COMDOC_006_002
+
+3 Створення "Податкової накладної" (DECLAR) на підставі Акту наданих послуг (Логістика) (COMDOC_037)
+==============================================================================================================================================
+
+Для створення "Податкової накладної" (DECLAR) Вам потрібно в меню сервісу **"EDI Network"** в папці **"Надіслані"** обрати "Акт наданих послуг (логістика)" (COMDOC_006), на підставі якої потрібно створити новий документ (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
+.. include:: /retail_2.0/Create_DECLAR_from.rst
+   :start-after: .. початок блоку для DECLAR_from_DOCUMENTINVOICE_TN_003
+   :end-before: .. кінець блоку для DECLAR_from_DOCUMENTINVOICE_TN_003
 
 -------------------------------------
 
