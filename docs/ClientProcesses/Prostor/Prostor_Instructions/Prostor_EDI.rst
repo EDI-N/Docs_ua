@@ -44,5 +44,5 @@
 =============================================================================
 
 .. include:: /ETTN_3_0/Create_ETTN_from
-    :start-after: .. початок блоку для Enter
-    :end-before: .. кінець блоку для Enter
+   :start-after: .. початок блоку для ETTN_from_DESADV
+   :end-before: .. кінець блоку для ETTN_from_DESADV
