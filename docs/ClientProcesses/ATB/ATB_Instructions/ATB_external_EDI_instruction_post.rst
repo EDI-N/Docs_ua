@@ -142,7 +142,7 @@
 2.2. Створення «е-ТТН» на підставі «Підтвердження заявки на транспортування» (TRANSPORTATIONORDER з SUBDOCTYPE = 2)
 ---------------------------------------------------------------------------------------------------------------------
 
-.. include:: /ETTN_3_0/Create_ETTN_from
+.. include:: /ETTN_3_0/Create_ETTN_from.rst
    :start-after: .. початок блоку для ETTN_from_Proposal_Confirmation
    :end-before: .. кінець блоку для ETTN_from_Proposal_Confirmation
 
