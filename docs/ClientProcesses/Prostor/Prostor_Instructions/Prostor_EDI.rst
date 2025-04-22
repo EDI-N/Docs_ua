@@ -43,6 +43,6 @@
 2. Створення "e-TTH" на підставі "Повідомлення про відвантаження" (DESADV)
 =============================================================================
 
-.. include:: /ETTN_3_0/Create_ETTN_from
+.. include:: /ETTN_3_0/Create_ETTN_from.rst
    :start-after: .. початок блоку для ETTN_from_DESADV
    :end-before: .. кінець блоку для ETTN_from_DESADV
