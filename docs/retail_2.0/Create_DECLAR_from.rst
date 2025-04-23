@@ -225,12 +225,12 @@
 
 Для створення "Податкової накладної" (DECLAR) Вам потрібно в меню сервісу **"EDI Network"** в папці **"Надіслані"** обрати "Акт наданих послуг (логістика)" (COMDOC_037), на підставі якого потрібно створити новий документ (для зручності можна скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_014.png
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_015.png
    :align: center
 
 Відкрите надісланий "Акт наданих послуг (Логістика)" (COMDOC_037) лівою кнопкою миші. Створіть "Податкову накладну" (DECLAR) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ за допомогою кнопки **"Створити документ"** та оберіть ставку ПДВ у вікні, що з'явилось:
 
-.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_014.png
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_016.png
    :align: center
 
 .. attention::
@@ -238,12 +238,12 @@
 
 У відкритій формі "Податкової накладної" (DECLAR) обов'язкові до заповнення поля (позначені червоною зірочкою :red:`*`) частково заповнюються автоматично з пов'язаного "Акту наданих послуг (Логістика)" (COMDOC_037):
 
-.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_003.png
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_017.png
    :align: center
 
 В нижній частині документа знаходиться перелік товарних позицій, які переносяться з "Акту наданих послуг (Логістика)" (COMDOC_037):
 
-.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_004.png
+.. image:: /retail_2.0/pics_Create_DECLAR_from/Create_DECLAR_from_018.png
    :align: center
 
 Після заповнення всіх даних документ потрібно (1) **"Зберегти"**, (2) **"Підписати"** та (3) **"Відправити"**:
