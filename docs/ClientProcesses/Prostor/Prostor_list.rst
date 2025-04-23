@@ -5,13 +5,13 @@
    :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
-   Prostor_Instructions/Prostor_EDI
+   Prostor_Instructions/Prostor_EDI.rst
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з ТOB "ProStor" [1]
    :maxdepth: 1
    
-   Prostor_XML-structure
+   Prostor_XML-structure.rst
 
 ----------------------------
 
