@@ -11,7 +11,7 @@
    :caption: Специфікації документів (XML) для роботи з ТOB "ProStor" [1]
    :maxdepth: 1
    
-   Prostor_XML-structure
+   Prostor_XML-structure.rst
 
 ----------------------------
 
