@@ -1,5 +1,5 @@
 #####################################################################################################################################################################################################################
-Інструкція для постачальників по обміну Е-ТТН на постачання товару в ТОВ «АТБ-МАРКЕТ» з поставкою через ТОВ «Логістик Юніон»
+Інструкція для постачальників по обміну Е-ТТН на постачання товару в ТОВ «АТБ-МАРКЕТ»
 #####################################################################################################################################################################################################################
 
 
@@ -21,6 +21,6 @@
 .. raw:: html
 
     <embed>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRb7joo-4lQo37o2IOo0MliKotueovBnEFRIDqJiu_nblwZMKUhq0Z4Jlyrjpt1V8jw76TxL9n1uErB/pub?embedded=true" width="1145" height="13430" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vT1lVYYGxzmK6RcNGpLJ1EcOGg94xBDePtzwVEo4X-OQvoU199MvkNd2oXD0RsCbMonfFN5z6-dVOsz/pub?embedded=true" width="1145" height="13430" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
