@@ -15,11 +15,8 @@
 .. |info| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_064.png
 
 .. raw:: html
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRb7joo-4lQo37o2IOo0MliKotueovBnEFRIDqJiu_nblwZMKUhq0Z4Jlyrjpt1V8jw76TxL9n1uErB/pub?embedded=true"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
-    </div>
+
+    <embed>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRb7joo-4lQo37o2IOo0MliKotueovBnEFRIDqJiu_nblwZMKUhq0Z4Jlyrjpt1V8jw76TxL9n1uErB/pub?embedded=true" width="1500" height="13430" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </embed>
+
