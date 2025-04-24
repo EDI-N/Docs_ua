@@ -25,10 +25,11 @@
    :caption: Інструкції для постачальників від мережі "ATB" 
    :maxdepth: 1
 
+   ATB_Instructions_for_provider/ATB_inst_for_provider.rst
    ATB_Instructions_for_provider/ATB_inst_for_provider_through_LogisticUnion.rst
 
 
-   
+
    
 .. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
 
