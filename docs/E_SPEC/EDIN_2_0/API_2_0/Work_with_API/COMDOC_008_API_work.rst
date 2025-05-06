@@ -21,7 +21,7 @@
 
 .. csv-table:: 
   :file: COMDOC_008_API_work.csv
-  :widths:  40
+  :widths:  40, 40
   :stub-columns: 0
 
 

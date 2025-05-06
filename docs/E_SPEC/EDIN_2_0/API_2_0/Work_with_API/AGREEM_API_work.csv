@@ -1,12 +1,14 @@
+Мережа, Постачальник
 ":green:`1.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
 
 :green:`1.2` `Перегляд усіх Cпецифікацій <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContracts.html>`__ / `Переглянути Специфікацію з конкретним контрагентом <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContract.html>`__
 
-:green:`1.3` `Створити пропозицію (переузгодження) на підставі отриманої Специфікації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreement.html>`__",
-":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
+:green:`1.3` `Створити пропозицію (переузгодження) на підставі отриманої Специфікації <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/CreateAgreement.html>`__", ":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
 
 :green:`2.2` `Пошук «Товарних узгоджень» (AGREEM) з фільтрацією <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/SearchAgreements.html>`__ 
 
 :green:`2.3` `Отримати тіло документа (комерційної пропозиції / товарного узгодження) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetAgreementBody.html>`__
 
-:green:`2.4` `Приймання/Відхилення позицій «Товарного узгодження» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/AgreementPositionAction.html>`__",:red:`2.4*` `Відхилення «Товарного узгодження» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/AgreementReject.html>`__
+:green:`2.4` `Приймання/Відхилення позицій «Товарного узгодження» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/AgreementPositionAction.html>`__
+
+:red:`2.4*` `Відхилення «Товарного узгодження» (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/AgreementReject.html>`__"
