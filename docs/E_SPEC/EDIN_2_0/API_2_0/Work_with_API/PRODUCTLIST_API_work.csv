@@ -1,6 +1,6 @@
+Мережа, Постачальник
 ":green:`1.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
 
-:green:`1.2` `Створення нової специфікації (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/PostContractController.html>`__"
-":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
+:green:`1.2` `Створення нової специфікації (Мережа) <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/PostContractController.html>`__", ":green:`2.1` `Авторизація <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/Authorization.html>`__
 
 :green:`2.2` `Перегляд усіх Cпецифікацій <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContracts.html>`__ / `Переглянути Специфікацію з конкретним контрагентом <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/API_2_0/Methods/GetContract.html>`__"
