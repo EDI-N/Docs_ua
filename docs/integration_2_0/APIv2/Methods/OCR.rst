@@ -135,7 +135,8 @@ OCR API інтеграція
 **JSON:**
 
 .. code:: json
-            {
+    
+    {
         "documentname": "Назва документу",
         "Document-Header": {
             "InvoiceNumber": "номер документу. поле опціональне",
@@ -237,4 +238,4 @@ OCR API інтеграція
             }
             ]
         }
-        }
+    }
