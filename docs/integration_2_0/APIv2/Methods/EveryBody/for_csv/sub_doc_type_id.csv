@@ -30,7 +30,7 @@
 036,36,`Акт коригування (COMDOC_036) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_036_x.html>`__
 037,37,`Акт наданих послуг (Логістика) (COMDOC_037) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_037_x.html>`__
 038,38,`Коригування видаткової накладної (COMDOC_038) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_038_x.html>`__
-040,40,`Рахунок (логістика) (COMDOC_038) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_040_x.html>`__
+040,40,`Рахунок (логістика) (COMDOC_040) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_040_x.html>`__
 **Підтип накладної (DOCUMENTINVOICE.DocumentFunctionCode)**,**sub_doc_type_id**,**Назва та опис документа**
 TN,0,`Товарна накладна / Накладна за кількістю (для Метро та Леруа Мерлен) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
 TN,1,`Накладна за кількістю <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DOCUMENTINVOICE_x.html>`__
