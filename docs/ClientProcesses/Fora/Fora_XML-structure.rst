@@ -15,13 +15,13 @@ XML Специфікації для роботи з мережею "Фора"
 ==========================
 
 .. csv-table:: Замовлення (ORDER) на поставку відправляє покупець постачальнику, вказуючи штрих-код продукту, його опис, замовлену кількість, ціну та іншу необхідну інформацію.
-  :file: Silpo_XML/files/ORDER.csv
+  :file: Fora_XML/files/ORDER.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад ORDER<Silpo_XML/examples/ORDER.xml>`
+:download:`XML-Приклад ORDER<Fora_XML/examples/ORDER.xml>`
 
-:download:`JSON-Приклад ORDER<Silpo_XML/examples/ORDER.json>`
+:download:`JSON-Приклад ORDER<Fora_XML/examples/ORDER.json>`
 
 ---------
 
@@ -29,13 +29,13 @@ XML Специфікації для роботи з мережею "Фора"
 ========================================
 
 .. csv-table:: **Підтвердження замовлення (ORDRSP)** відправляється у відповідь на прийнятий документ **Замовлення (ORDER)**. Основною особливістю **Підтвердження замовлення** є уточнення про постачання по кожній товарній позиції: чи буде товар доставлений; чи змінилася кількість/ціна чи буде відмова від поставки товарної позиції?
-  :file: Silpo_XML/files/ORDRSP.csv
+  :file: Fora_XML/files/ORDRSP.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад ORDRSP<Silpo_XML/examples/ORDRSP.xml>`
+:download:`XML-Приклад ORDRSP<Fora_XML/examples/ORDRSP.xml>`
 
-:download:`JSON-Приклад ORDRSP<Silpo_XML/examples/ORDRSP.json>`
+:download:`JSON-Приклад ORDRSP<Fora_XML/examples/ORDRSP.json>`
 
 ---------
 
@@ -43,13 +43,13 @@ XML Специфікації для роботи з мережею "Фора"
 ===============================================
 
 .. csv-table:: **Повідомлення про відвантаження (DESADV)** відправляє постачальник у відповідь на **Замовлення (ORDER)**. При цьому постачальник може змінити кількість замовлених товарних позицій, що поставляються, дату і час поставки, додаткові відомості. Даний документ є аналогом товарно-транспортної накладної (ТТН)
-  :file: Silpo_XML/files/DESADV.csv
+  :file: Fora_XML/files/DESADV.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад DESADV<Silpo_XML/examples/DESADV.xml>`
+:download:`XML-Приклад DESADV<Fora_XML/examples/DESADV.xml>`
 
-:download:`JSON-Приклад DESADV<Silpo_XML/examples/DESADV.json>`
+:download:`JSON-Приклад DESADV<Fora_XML/examples/DESADV.json>`
 
 ---------
 
@@ -57,13 +57,13 @@ XML Специфікації для роботи з мережею "Фора"
 ===============================
 
 .. csv-table:: **Повідомлення про прийом (RECADV)** використовується для оповіщення постачальників про прийом товарів. Даний документ інформує про кількість отриманих товарних позицій і може вказувати на розбіжності між фактично отриманим товаром і зазначеним у документації.
-  :file: Silpo_XML/files/RECADV.csv
+  :file: Fora_XML/files/RECADV.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад RECADV<Silpo_XML/examples/RECADV.xml>`
+:download:`XML-Приклад RECADV<Fora_XML/examples/RECADV.xml>`
 
-:download:`JSON-Приклад RECADV<Silpo_XML/examples/RECADV.json>`
+:download:`JSON-Приклад RECADV<Fora_XML/examples/RECADV.json>`
 
 ---------
 
@@ -71,13 +71,13 @@ XML Специфікації для роботи з мережею "Фора"
 ==============================================
 
 .. csv-table:: Інструкція з транспортування (IFTMIN) відправляється замовником оператору логістичних послуг. В даному документі вказуються остаточні деталі поставки
-  :file: Silpo_XML/files/IFTMIN.csv
+  :file: Fora_XML/files/IFTMIN.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад IFTMIN<Silpo_XML/examples/IFTMIN_example.xml>`
+:download:`XML-Приклад IFTMIN<Fora_XML/examples/IFTMIN_example.xml>`
 
-:download:`JSON-Приклад IFTMIN<Silpo_XML/examples/IFTMIN.json>`
+:download:`JSON-Приклад IFTMIN<Fora_XML/examples/IFTMIN.json>`
 
 ---------
 
@@ -85,15 +85,15 @@ XML Специфікації для роботи з мережею "Фора"
 ==============================================
 
 .. csv-table:: Акт невідповідності (COMDOC_009)
-  :file: Silpo_XML/files/COMDOC_009.csv
+  :file: Fora_XML/files/COMDOC_009.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
 .. include:: units_comdoc.rst
 
-:download:`XML-Приклад COMDOC_009<Silpo_XML/examples/COMDOC_009.xml>`
+:download:`XML-Приклад COMDOC_009<Fora_XML/examples/COMDOC_009.xml>`
 
-:download:`JSON-Приклад COMDOC_009<Silpo_XML/examples/COMDOC_009.json>`
+:download:`JSON-Приклад COMDOC_009<Fora_XML/examples/COMDOC_009.json>`
 
 ---------
 
@@ -101,24 +101,13 @@ XML Специфікації для роботи з мережею "Фора"
 =============================================
 
 .. csv-table:: Звіт про відвантаження (CONTRL) являється завершаючим документом в логіці документообігу з ТМ Сільпо - відправляється постачальником у відповідь на RECADV (Повідомлення про прийом)
-  :file: Silpo_XML/files/CONTRL.csv
+  :file: Fora_XML/files/CONTRL.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
 
-:download:`XML-Приклад CONTRL<Silpo_XML/examples/CONTRL.xml>`
+:download:`XML-Приклад CONTRL<Fora_XML/examples/CONTRL.xml>`
 
-:download:`JSON-Приклад CONTRL<Silpo_XML/examples/CONTRL.json>`
-
-.. сеть запретила следующий документ
-  Накладна за кількістю (DOCUMENTINVOICE)
-  =============================================
-
-  .. csv-table:: Накладна за кількістю (DOCUMENTINVOICE)
-    :file: Silpo_XML/files/DOCUMENTINVOICE.csv
-    :widths:  40, 7, 12, 41
-    :header-rows: 1
-
-  :download:`Приклад DOCUMENTINVOICE<Silpo_XML/examples/DOCUMENTINVOICE_example_f.xml>`
+:download:`JSON-Приклад CONTRL<Fora_XML/examples/CONTRL.json>`
 
 .. include:: /ClientProcesses/Fozzy/Fozzy_XML-structure.rst
    :start-after: .. початок блоку для specs_for_Silpo
