@@ -171,8 +171,8 @@
 
 "Накладна за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) є юридично значущим документом (ЮЗД) і може використовуватись при роботі з мережею Фора в схемі документообігу "Match Invoice". "Накладна за кількістю" може бути створена Постачальником на підставі вхідного "Замовлення" (ORDER).
 
-.. hint::
-   Дата накладної повинна дорівнювати даті поставки та даті підпису від постачальника
+.. attention::
+   Дата поставки повинна дорівнювати даті підпису від постачальника.
 
 .. include:: /ClientProcesses/Fozzy/Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_TN_instruction.rst
    :start-after: .. початок блоку для documentinvoice_tn_from_order_Silpo
@@ -197,8 +197,8 @@
 
 При цьому: якщо в ланцюжку документів вже відправлена "Накладна за кількістю", то "Цінову накладну" можливо створити лише на підставі "Накладної за кількістю".
 
-.. hint::
-   Дата накладної повинна дорівнювати даті поставки та даті підпису від постачальника
+.. attention::
+   Дата поставки повинна дорівнювати даті підпису від постачальника.
 
 .. include:: /ClientProcesses/Fozzy/Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction.rst
    :start-after: .. початок блоку для documentinvoice_prn_from_order_Silpo
