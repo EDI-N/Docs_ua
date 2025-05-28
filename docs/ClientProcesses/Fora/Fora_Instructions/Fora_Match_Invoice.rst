@@ -48,7 +48,7 @@
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Silpo_Match_Invoice/Silpo_Match_Invoice_002.png
+.. image:: pics_Fora_Match_Invoice/Fora_Match_Invoice_002.png
    :height: 700px
    :align: center
 
