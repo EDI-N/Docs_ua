@@ -27,7 +27,7 @@
 .. role:: underline
 
 .. contents:: Зміст:
-   :depth: 5
+   :depth: 4
 
 ---------
 
@@ -169,7 +169,10 @@
 5 Створення "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) на підставі вхідного "Замовлення" (ORDER)
 ==========================================================================================================================
 
-В схемі документообігу "Match Invoice" з Мережею "Інструкція з транспортування" (IFTMIN) створюється Постачальником на підставі вхідного "Замовлення" (ORDER).
+"Накладна за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN) є юридично значущим документом (ЮЗД) і може використовуватись при роботі з мережею Фора в схемі документообігу "Match Invoice". "Накладна за кількістю" може бути створена Постачальником на підставі вхідного "Замовлення" (ORDER).
+
+.. hint::
+   Дата накладної повинна дорівнювати даті поставки та даті підпису від постачальника
 
 .. include:: /ClientProcesses/Fozzy/Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_TN_instruction.rst
    :start-after: .. початок блоку для documentinvoice_tn_from_order_Silpo
@@ -187,12 +190,15 @@
 .. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_002.png
    :align: center
 
-* на підставі відправленої "Накладно ї за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN).
+* на підставі відправленої "Накладної за кількістю" (DOCUMENTINVOICE.DocumentFunctionCode = TN).
 
 .. image:: /ClientProcesses/Fozzy/Fozzy_Instructions/pics_Fozzy_DOCUMENTINVOICE_PRN_instruction/Fozzy_DOCUMENTINVOICE_PRN_instruction_010.png
    :align: center
 
 При цьому: якщо в ланцюжку документів вже відправлена "Накладна за кількістю", то "Цінову накладну" можливо створити лише на підставі "Накладної за кількістю".
+
+.. hint::
+   Дата накладної повинна дорівнювати даті поставки та даті підпису від постачальника
 
 .. include:: /ClientProcesses/Fozzy/Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction.rst
    :start-after: .. початок блоку для documentinvoice_prn_from_order_Silpo
