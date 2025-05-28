@@ -36,13 +36,14 @@
 
 Дана інструкція описує порядок документообігу на платформі EDI Network 2.0 з мережею "Фора" за схемою "Match Invoice". В документообігу за даною схемою приймають участь наступні документи:
 
-- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#order>`__
-- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#ordrsp>`__
-- `Інструкція з транспортування (IFTMIN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#iftmin>`__
-- `Накладна за кількістю (DOCUMENTINVOICE_TN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#documentinvoice-tn>`__
-- `Цінова накладна (DOCUMENTINVOICE_PRN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#documentinvoice-prn>`__
-- `Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#comdoc-009>`__
-- `Коригування до товарної накладної (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/Silpo/Silpo_XML-structure.html#doccorinvoice>`__
+- `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#order>`__
+- `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#ordrsp>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#desadv>`__
+- `Інструкція з транспортування (IFTMIN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#iftmin>`__
+- `Накладна за кількістю (DOCUMENTINVOICE_TN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#documentinvoice-tn>`__
+- `Цінова накладна (DOCUMENTINVOICE_PRN) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#documentinvoice-prn>`__
+- `Акт невідповідності (COMDOC_009) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#comdoc-009>`__
+- `Коригування до товарної накладної (DOCCORINVOICE) <https://wiki.edin.ua/uk/latest/ClientProcesses/Fora/Fora_XML-structure.html#doccorinvoice>`__
 
 Документообіг здійснюється між двома Учасниками, де ініціатором виступає мережа "Фора".
 

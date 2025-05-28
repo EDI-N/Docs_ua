@@ -53,20 +53,6 @@ XML Специфікації для роботи з мережею "Фора"
 
 ---------
 
-Повідомлення про прийом (RECADV)
-===============================
-
-.. csv-table:: **Повідомлення про прийом (RECADV)** використовується для оповіщення постачальників про прийом товарів. Даний документ інформує про кількість отриманих товарних позицій і може вказувати на розбіжності між фактично отриманим товаром і зазначеним у документації.
-  :file: Fora_XML/files/RECADV.csv
-  :widths:  40, 7, 12, 41
-  :header-rows: 1
-
-:download:`XML-Приклад RECADV<Fora_XML/examples/RECADV.xml>`
-
-:download:`JSON-Приклад RECADV<Fora_XML/examples/RECADV.json>`
-
----------
-
 Інструкція з транспортування (IFTMIN)
 ==============================================
 
@@ -96,18 +82,6 @@ XML Специфікації для роботи з мережею "Фора"
 :download:`JSON-Приклад COMDOC_009<Fora_XML/examples/COMDOC_009.json>`
 
 ---------
-
-Звіт про відвантаження (CONTRL)
-=============================================
-
-.. csv-table:: Звіт про відвантаження (CONTRL) являється завершаючим документом в логіці документообігу з ТМ Сільпо - відправляється постачальником у відповідь на RECADV (Повідомлення про прийом)
-  :file: Fora_XML/files/CONTRL.csv
-  :widths:  40, 7, 12, 41
-  :header-rows: 1
-
-:download:`XML-Приклад CONTRL<Fora_XML/examples/CONTRL.xml>`
-
-:download:`JSON-Приклад CONTRL<Fora_XML/examples/CONTRL.json>`
 
 .. include:: /ClientProcesses/Fozzy/Fozzy_XML-structure.rst
    :start-after: .. початок блоку для specs_for_Silpo
