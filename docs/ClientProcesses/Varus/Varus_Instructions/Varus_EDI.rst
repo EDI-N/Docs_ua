@@ -31,14 +31,17 @@
 - `Замовлення (ORDER) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDER_x.html>`__
 - `Підтвердження замовлення (ORDRSP) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/ORDRSP_x.html>`__
 - `Рахунок (INVOICE) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/INVOICE_x.html>`__
+- `Повідомлення про відвантаження (DESADV) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/DESADV_x.html>`__
 - `Акт про виявлені недоліки (COMDOC_005) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_005_x.html>`__
 - `Прибуткова накладна (COMDOC_007) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_007_x.html>`__
 
 **Загальна схема документообігу:**
 
-.. image:: pics_Varus_EDI/Varus_EDI_001.png
+.. image:: pics_Varus_EDI/Varus_EDI_009.png
    :height: 700px
    :align: center
+
+В цій схемі формування "Повідомлення про відвантаження" (DESADV) замість "Рахунку" (INVOICE) є пріоритетним для поставок в магазини.
 
 1 Вхід на платформу
 ====================================
@@ -70,9 +73,16 @@
    :start-after: .. початок блоку для Invoice_from_Order
    :end-before: .. кінець блоку для Invoice_from_Order
 
+4 Створення та відправка "Повідомлення про відвантаження" (DESADV) на підставі «Підтвердження замовлення» (ORDRSP)
+==================================================================================================================================
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Desadv_from_Ordrsp
+   :end-before: .. кінець блоку для Desadv_from_Ordrsp
+
 .. _comdoc-005-processing:
 
-4 Обробка вхідного "Акта про виявлені недоліки" (COMDOC_005)
+5 Обробка вхідного "Акта про виявлені недоліки" (COMDOC_005)
 ==================================================================================================================================
 
 .. note::
@@ -101,7 +111,7 @@
 
 .. _comdoc-007-processing:
 
-5 Обробка вхідної "Прибуткової накладної" (COMDOC_007)
+6 Обробка вхідної "Прибуткової накладної" (COMDOC_007)
 ==================================================================================================================================
 
 Для обробки "Прибуткової накладної" (COMDOC_007) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **"Прибуткова накладна"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
