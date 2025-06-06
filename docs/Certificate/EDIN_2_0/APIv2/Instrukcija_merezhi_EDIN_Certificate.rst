@@ -55,6 +55,10 @@
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_29.png
    :align: center
 
+.. include:: /Certificate/EDIN_2_0/APIv2/Instrukcija_postachalnika_EDIN_Certificate.rst
+   :start-after: .. початок блоку для Save_Search
+   :end-before: .. кінець блоку для Save_Search
+
 3. Робота з журналом Сертифікатів
 ============================================================================
 
