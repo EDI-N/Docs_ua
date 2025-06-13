@@ -20,7 +20,9 @@
    BOX_Market/BOX_Market_list
    GS1/GS1_list
    TurboUA/TurboUA_list
-   Epicentr/Epicentr_list
+   
+   .. Epicentr/Epicentr_list
+
    Comfy/Comfy_list
    Mondelez/Mondelez_list
    MHP/MHP_list
