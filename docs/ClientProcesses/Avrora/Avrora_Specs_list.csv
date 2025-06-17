@@ -1,3 +1,6 @@
 1,:doc:`/EDIN_Specs/XML/ORDER_x`
 2,:doc:`/ClientProcesses/Avrora/Avrora_XML/ORDRSP_x`
 3,:doc:`/ClientProcesses/Avrora/Avrora_XML/DESADV_x`
+4,:doc:`/ClientProcesses/Epicentr/Epicentr_XML/DOCUMENTINVOICE_DRN_x`
+5,:doc:`/EDIN_Specs/XML/DOCCORINVOICE_x`
+6,:doc:`/ClientProcesses/Epicentr/Epicentr_XML/DOCUMENTINVOICE_NP_x`
