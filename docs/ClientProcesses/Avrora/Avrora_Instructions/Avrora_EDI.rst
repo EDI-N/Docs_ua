@@ -118,6 +118,60 @@
    :start-after: .. початок блоку для Desadv_from_Ordrsp
    :end-before: .. кінець блоку для Desadv_from_Ordrsp
 
+6.3 Створення, підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE) на підставі  «Повідомлення про відвантаження» (DESADV)
+----------------------------------------------------------------------------------------------------------------------------------------
+
+.. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_supplier.rst
+   :start-after: .. початок блоку для Docinvoice_from_desadv
+   :end-before: .. кінець блоку для Docinvoice_from_desadv
+
+6.3.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE)
+--------------------------------------------------------------------------------------------------
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
+-------------------------------
+
+.. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_supplier.rst
+   :start-after: .. початок блоку для Docinvoice_sign
+   :end-before: .. кінець блоку для Docinvoice_sign
+
+6.4 Обробка вхідного "Акту розбіжностей" (DOCCORINVOICE)
+--------------------------------------------------------------------------------------------------
+
+
+
+6.5 Обробка вхідної "Накладної на повернення" (DOCUMENTINVOICE_NP)
+--------------------------------------------------------------------------------------------------
+
+.. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_supplier.rst
+   :start-after: .. початок блоку для Docinvoice_np_processing
+   :end-before: .. кінець блоку для Docinvoice_np_processing
+
 -------------------------------------
 
 .. include:: /_constant/kontakti.rst
