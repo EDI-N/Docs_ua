@@ -163,7 +163,50 @@
 6.4 Обробка вхідного "Акту розбіжностей" (DOCCORINVOICE)
 --------------------------------------------------------------------------------------------------
 
+Знайдіть потрібний документ в меню сервісу **"EDI Network"** в теці **"Вхідні"** (для зручності в полі `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ оберіть "Коригування товарної накладної" (DOCCORINVOICE)"):
 
+.. image:: pics_Avrora_EDI/Avrora_EDI_002.png
+   :height: 700px
+   :align: center
+
+Відкрийте документ, що очікує на підписання отримувачем, та натисніть кнопку **"Підписати"** (попередньо переглянути дані підпису Відправника можна після натискання кнопки "Переглянути підписи", що розташована нижче кнопки "Підписати"):
+
+.. image:: pics_Avrora_EDI/Avrora_EDI_003.png
+   :height: 700px
+   :align: center
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
+Після підписання документа його необхідно відправити, натиснувши кнопку **"Відправити"**
+
+.. image:: /retail_2.0/pics_Create_DOCCORINVOICE_from/Create_DOCCORINVOICE_from_010.png
+   :align: center
+
+Після відправки документ лишається в теці **"Вхідні"** зі статусом "Підписано двома сторонами".
 
 6.5 Обробка вхідної "Накладної на повернення" (DOCUMENTINVOICE_NP)
 --------------------------------------------------------------------------------------------------
