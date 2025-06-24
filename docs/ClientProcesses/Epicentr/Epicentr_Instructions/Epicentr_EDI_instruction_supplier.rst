@@ -131,17 +131,17 @@
 
 Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Надіслані"** обрати "Повідомлення про відвантаження" (DESADV) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_029.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_029.png
    :align: center
 
 Потрібно відкрити надіслане "Повідомлення про відвантаження" (DESADV) лівою кнопкою миші та створити "Видаткову накладну" (DOCUMENTINVOICE) в блоці `ланцюжка документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ для Мережі за допомогою кнопки **"Створити документ"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_030.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_030.png
    :align: center
 
 У відкритій формі "Видаткової накладної" (DOCUMENTINVOICE) багато даних автоматично переносяться з пов'язаного документа-підстави (обов'язкові до заповнення поля позначені червоною зірочкою :red:`*`):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_041.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_041.png
    :align: center
 
 Дані **Відправника** та **Одержувача** заповнюються автоматично з обраної компанії та документа-підстави відповідно і не підлягають редагуванню. **Номер** документа співпадає з номером документа-підстави, **Дата** документа заповнюються автоматично поточною датою, але доступна до редагування за потреби. Дані **Точки доставки** також заповнюються автоматично з документа-підстави.
@@ -154,25 +154,25 @@
 
 Про необхідність заповнення та інші помилки в табличній частині документа Ви будете проінформовані (вказується номер позиції та невідповідність), а також рядок позиції виділяється помаранчевим кольором:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_014.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_014.png
    :align: center
 
 **"Змінити"** дані позиції можливо в розширеній формі "Дані товару" після натискання на штрихкод позиції:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_015.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_015.png
    :align: center
 
 Якщо по якійсь з позицій не буде поставки її необхідно відзначити галочкою і **"Видалити"**. Лише **після видалення** можливо **"+Додати"** товарні позиції, що були зазначені в **"Замовленні"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_043.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_043.png
    :align: center
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_042.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_042.png
    :align: center
 
 Після внесення всіх необхідних змін в документ потрібно натиснути кнопку **"Зберегти"** (1), після чого можливо **"Підписати"** (2):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
    :align: center
 
 .. кінець блоку для Documentinvoice_create
