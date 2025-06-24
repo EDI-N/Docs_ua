@@ -127,7 +127,7 @@
 4 Формування "Видаткової накладної" (DOCUMENTINVOICE)
 =========================================================================================================================
 
-..  початок блоку для Docinvoice_from_desadv
+.. початок блоку для documentinvoice-create
 
 Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Надіслані"** обрати "Повідомлення про відвантаження" (DESADV) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
@@ -175,6 +175,8 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
    :align: center
 
+.. кінець блоку для documentinvoice-create
+
 .. there was a scheme DOCUMENTINVOICE from ORDER
 
    Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Вхідні"** обрати "Замовлення" (ORDER), за яким потрібно зробити підтвердження (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
@@ -220,8 +222,6 @@
    .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
       :align: center
 
-.. кінець блоку для Docinvoice_from_desadv
-
 .. _sign:
 
 4.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE)
@@ -259,7 +259,7 @@
 
 Після підписання "Видаткової накладної" (DOCUMENTINVOICE) документ потрібно **"Відправити"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_018.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_018.png
    :align: center
 
 Відправлений документ автоматично потрапляє в папку **"Надіслані"** і буде знаходитись в `ланцюжку документів <https://wiki.edin.ua/uk/latest/_constant/chain/chain.html>`__ разом із пов'язаними документами.
@@ -296,17 +296,17 @@
 
 Для обробки "Накладної на повернення" (DOCUMENTINVOICE_NP) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **""Накладна на повернення"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_044.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_044.png
    :align: center
 
 Відкриється форма документа, де Ви зможете ознайомитись з причинами повернення, позиціями, кількістю (вся доступна інформація за позиціями відкривається при натисканні на кнопку "Показати повністю"):
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_045.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_045.png
    :align: center
 
 Якщо Ви згодні зі змістом документа Ви можете **Прийняти** чи **Відхилити** "Накладну на повернення" (DOCUMENTINVOICE_NP). Для того, щоб **Прийняти**, документ обов'язково потрібно **"Підписати"**:
 
-.. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_046.png
+.. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_046.png
    :align: center
 
 .. hint::
