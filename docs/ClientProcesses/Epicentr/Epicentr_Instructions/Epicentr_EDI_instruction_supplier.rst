@@ -127,7 +127,7 @@
 4 Формування "Видаткової накладної" (DOCUMENTINVOICE)
 =========================================================================================================================
 
-.. початок блоку для documentinvoice-create
+.. початок блоку для Documentinvoice_create
 
 Для формування "Видаткової накладної" (DOCUMENTINVOICE) потрібно у папці **"Надіслані"** обрати "Повідомлення про відвантаження" (DESADV) (для зручності можливо скористатись `пошуком <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
 
@@ -175,7 +175,7 @@
 .. image:: pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_017.png
    :align: center
 
-.. кінець блоку для documentinvoice-create
+.. кінець блоку для Documentinvoice_create
 
 .. there was a scheme DOCUMENTINVOICE from ORDER
 
@@ -309,10 +309,10 @@
 .. image:: /ClientProcesses/Epicentr/Epicentr_Instructions/pics_Epicentr_EDI_instruction/Epicentr_EDI_instruction_046.png
    :align: center
 
+.. кінець блоку для Docinvoice_np_processing
+
 .. hint::
    Процес підписання є типовим на платформі EDI Network та описаний в `розділі вище <https://wiki.edin.ua/uk/latest/ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_consolidated_TTN_instruction_web.html#sign>`__.
-
-.. кінець блоку для Docinvoice_np_processing
 
 -------------------------------------
 

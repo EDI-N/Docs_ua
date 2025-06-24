@@ -122,8 +122,8 @@
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 .. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_supplier.rst
-   :start-after: .. початок блоку для Documentinvoice-create
-   :end-before: .. кінець блоку для Documentinvoice-create
+   :start-after: .. початок блоку для Documentinvoice_create
+   :end-before: .. кінець блоку для Documentinvoice_create
 
 .. tabs::
 
@@ -163,7 +163,6 @@
 Знайдіть потрібний документ в меню сервісу **"EDI Network"** в теці **"Вхідні"** (для зручності в полі `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__ оберіть "Коригування товарної накладної" (DOCCORINVOICE)"):
 
 .. image:: pics_Avrora_EDI/Avrora_EDI_002.png
-   :height: 700px
    :align: center
 
 Відкрийте документ, що очікує на підписання отримувачем, та натисніть кнопку **"Підписати"** (попередньо переглянути дані підпису Відправника можна після натискання кнопки "Переглянути підписи", що розташована нижче кнопки "Підписати"):
@@ -211,6 +210,32 @@
 .. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_supplier.rst
    :start-after: .. початок блоку для Docinvoice_np_processing
    :end-before: .. кінець блоку для Docinvoice_np_processing
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
 
 -------------------------------------
 
