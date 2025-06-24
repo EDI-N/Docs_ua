@@ -122,11 +122,8 @@
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 .. include:: /ClientProcesses/Epicentr/Epicentr_Instructions/Epicentr_EDI_instruction_supplier.rst
-   :start-after: .. початок блоку для Docinvoice_from_desadv
-   :end-before: .. кінець блоку для Docinvoice_from_desadv
-
-6.3.1 Підписання та відправка "Видаткової накладної" (DOCUMENTINVOICE)
---------------------------------------------------------------------------------------------------
+   :start-after: .. початок блоку для Documentinvoice-create
+   :end-before: .. кінець блоку для Documentinvoice-create
 
 .. tabs::
 
