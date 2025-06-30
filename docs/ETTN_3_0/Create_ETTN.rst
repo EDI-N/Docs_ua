@@ -120,7 +120,7 @@
    * поля, які були заповнені вручну або підтягнуті з документа-підстави, не перезаписуються під час автоматичного розрахунку.
   
 .. note::
-   Як працює автоматичний розрахунок детально описано за `посиланням <https://wiki.edin.ua/uk/latest/ETTN_3_0/What_work_calculation.html>`
+   Як працює автоматичний розрахунок детально описано за `посиланням <https://wiki.edin.ua/uk/latest/ETTN_3_0/What_work_calculation.html>`__
 
 .. image:: pics_Create_ETTN/Create_ETTN_078.png
    :align: center
