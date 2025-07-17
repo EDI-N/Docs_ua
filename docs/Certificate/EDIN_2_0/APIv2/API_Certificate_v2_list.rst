@@ -87,6 +87,7 @@
    Methods/SearchCertificates
    Methods/CertificateProducts
    Methods/Certificates
+   Methods/Certdoc
    Methods/CertificateBodyPost
    Methods/CertificateBodyPut
    Methods/CertificateBodyGet
