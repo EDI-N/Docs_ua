@@ -5,12 +5,24 @@
 «Електронна товарно-транспортна накладна» (е-ТТН)
 ====================================================
 
-.. role:: orange
+**Шановні користувачі!**
 
-.. contents:: Зміст:
-   :depth: 5
-   :local:
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
 
-.. include:: /Docs_ETTNv3/ETTN/ETTNpage_v3.rst
-   :start-after: .. початок блоку для Prostor_XML-structure
-   :end-before: .. кінець блоку для Prostor_XML-structure
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/elektronna-tovarno-transportna-nakladna-e-ttn>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. role:: orange
+
+   .. contents:: Зміст:
+      :depth: 5
+      :local:
+
+   .. include:: /Docs_ETTNv3/ETTN/ETTNpage_v3.rst
+      :start-after: .. початок блоку для Prostor_XML-structure
+      :end-before: .. кінець блоку для Prostor_XML-structure

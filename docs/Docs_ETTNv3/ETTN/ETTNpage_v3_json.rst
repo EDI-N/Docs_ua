@@ -2,14 +2,26 @@
 **"Електронна товарно-транспортна накладна" (е-ТТН)**
 ##########################################################################################################################
 
-.. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1423864081
+**Шановні користувачі!**
 
-.. important::
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/elektronna-tovarno-transportna-nakladna-e-ttn>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1423864081
+
+   .. important::
    Зверніть увагу, що поля в json та `в xml форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3.html>`__ відрізняються! 
 
-**JSON:**
+   **JSON:**
 
-.. code:: json
+   .. code:: json
 
         {
             "ecmr": {
@@ -881,31 +893,31 @@
             "uas": "urn:ua:signatures:SignaturesExtensions:1"
         }
 
-.. role:: orange
+   .. role:: orange
 
-.. raw:: html
+   .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=254043882&single=true" width="1100" height="10300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+   -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+   .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+   .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;
    * :orange:`масивОб'єктів`;
    * жовтим фоном виділяються комірки, в яких відбувались останні зміни
 
-.. data from table (remember to renew time to time)
+   .. data from table (remember to renew time to time)
 
-.. raw:: html
+    .. raw:: html
 
    <!-- <div> № з/п,Параметр²,Тип¹,Формат,Опис
     I,ecmr,M, ,Початок змісту документа

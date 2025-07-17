@@ -2,26 +2,38 @@
 **"Електронна товарно-транспортна накладна" (е-ТТН)**
 ##########################################################################################################################
 
+**Шановні користувачі!**
 
-.. role:: orange
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
 
-.. contents:: Зміст:
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/elektronna-tovarno-transportna-nakladna-e-ttn>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. role:: orange
+
+   .. contents:: Зміст:
    :depth: 5
    :local:
 
----------
+   ---------
 
-.. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1423864081
+   .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=1423864081
+ 
 
-.. important::
+  .. important::
    Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/ETTN/ETTNpage_v3_json.html>`__ відрізняються! 
 
  .. початок блоку для Prostor_XML-structure
 
-XML-example
-==============================================
+  XML-example
+  ==============================================
 
-.. code:: xml
+  .. code:: xml
 
    <UAECMR xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
       <eCMR>
@@ -695,45 +707,45 @@ XML-example
       </eCMR>
       </UAECMR>
 
-XML-Специфікація
-==============================================
+  XML-Специфікація
+  ==============================================
 
-.. raw:: html
+  .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrSft75XLCHJK-EsFJsq_rSCmhiwaX1pkEvqxXROD6rVTh2fbdd2pmr1TmYeNjRA/pubhtml?gid=398354812&single=true" width="1145" height="13820" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+  -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+  .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+  .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;
    * :orange:`масивОб'єктів`;
    * жовтим фоном виділяються комірки, в яких відбувались останні зміни
 
--------------------------
+  -------------------------
 
-Друкована форма (XML)
-==============================================
+  Друкована форма (XML)
+  ==============================================
 
-`⏬ Завантажити форму <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ydc9QfbBeOrHfM7IdOKukjb03UoRL2ZyPkrs4sl2hQHBhb7CIEEMP5H_2MBoYQ/pub?output=pdf&gid=78385386>`__
+  `⏬ Завантажити форму <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ydc9QfbBeOrHfM7IdOKukjb03UoRL2ZyPkrs4sl2hQHBhb7CIEEMP5H_2MBoYQ/pub?output=pdf&gid=78385386>`__
 
-.. raw:: html
+  .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ydc9QfbBeOrHfM7IdOKukjb03UoRL2ZyPkrs4sl2hQHBhb7CIEEMP5H_2MBoYQ/pubhtml?gid=78385386&single=true" width="1100" height="3500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
-.. data from table (remember to renew time to time)
+  .. data from table (remember to renew time to time)
 
-.. raw:: html
+  .. raw:: html
 
    <!-- <div>№ з/п,Параметр²,Тип¹,Формат,Опис
    ,UAECMR,M,,Початок документа
