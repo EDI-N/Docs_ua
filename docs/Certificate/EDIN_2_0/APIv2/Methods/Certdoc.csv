@@ -2,8 +2,11 @@
 Метод запиту  , POST                                          
 URL запиту    ,**/api/ecs/certdoc?gln=9864065732181**
 URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+
 **publish** (необовязково) Boolean- ознака публікації сертифікату при створенні: 
+
 - true - значення за замовчуванням, сертифікат публікується,
+
 - false - сертифікат створюється в чернетках"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
