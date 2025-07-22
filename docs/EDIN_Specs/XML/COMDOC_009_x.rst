@@ -2,13 +2,25 @@
 **Акт невідповідності (COMDOC_009)**
 ##########################################################################################################################
 
-.. include:: /EDIN_Specs/COMDOC.rst
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-nevidpovidnosti-comdoc-009>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. include:: /EDIN_Specs/COMDOC.rst
    :start-after: .. початок блоку для ComdocHint
    :end-before: .. кінець блоку для ComdocHint
 
-**XML:**
+    **XML:**
 
-.. code:: xml
+   .. code:: xml
 
    <?xml version="1.0" encoding="UTF-8"?>
    <ЕлектроннийДокумент>
@@ -89,26 +101,26 @@
    </ВсьогоПоДокументу>
    </ЕлектроннийДокумент>
 
-.. role:: orange
+   .. role:: orange
 
-.. include:: /EDIN_Specs/COMDOC.rst
+   .. include:: /EDIN_Specs/COMDOC.rst
    :start-after: .. початок блоку для ComdocHint2
    :end-before: .. кінець блоку для ComdocHint2
 
-.. raw:: html
+   .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=2042155082&single=true" width="1100" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+   -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+   .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+   .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;
