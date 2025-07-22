@@ -2,13 +2,25 @@
 **Додаток до договору 7Ц (METRO_7C)**
 ##########################################################################################################################
 
-.. epigraph::
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/dodatok-do-dogovoru-7c-metro-7c>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. epigraph::
 
    Додаток до договору 7Ц (METRO_7C)
 
-**XML:**
+   **XML:**
 
-.. code:: xml
+   .. code:: xml
 
    <?xml version='1.0' encoding='windows-1251'?>
    <Document-ProductCatalogue>
@@ -102,22 +114,22 @@
          </ProductCatalogue-Summary>
    </Document-ProductCatalogue>
 
-.. role:: orange
+   .. role:: orange
 
-.. raw:: html
+   .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxinOWh0XZPuImDPCyCo0wpZU89EAoEfEXkL-YFP0hoA5A27BfY5A35CZChtiddQ/pubhtml?gid=1964803766&single=true" width="1100" height="3200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+   -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+   .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+   .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;
