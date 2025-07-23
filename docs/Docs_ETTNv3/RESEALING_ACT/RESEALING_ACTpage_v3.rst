@@ -2,14 +2,26 @@
 **"Акт перепломбування"**
 ##########################################################################################################################
 
-.. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=740795377
+**Шановні користувачі!**
 
-.. important::
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-pereplombuvannia>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=740795377
+
+   .. important::
    Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/RESEALING_ACT/RESEALING_ACTpage_v3_json.html>`__ відрізняються!
 
-**XML:**
+   **XML:**
 
-.. code:: xml
+   .. code:: xml
 
    <UAECMR_ACT xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
       <ACT>
@@ -207,22 +219,22 @@
       </ACT>
    </UAECMR_ACT>
 
-.. role:: orange
+   .. role:: orange
 
-.. raw:: html
+   .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBq7ko1S8vmDYo3ObFd0ezRY-zO7KmMz4M4KVSPyFkTpA7UPp8RaSZ9N19vlpeEQ/pubhtml?gid=1593635642&single=true" width="1100" height="4350" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+   -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+   .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+   .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;
