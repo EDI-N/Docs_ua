@@ -8,7 +8,7 @@
 
 Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
 
-Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-rozbiznostei-pro-vantaz>`__
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-pro-zaminu-punktu-priznacennia-vantazu>`__
 
 Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
 
