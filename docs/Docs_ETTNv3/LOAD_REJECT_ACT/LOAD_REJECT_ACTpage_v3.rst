@@ -14,6 +14,8 @@
 
 Дякуємо за розуміння та користування сервісом!
 
+.. сторінка перенесена на нову вікі
+
    .. important::
    Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/LOAD_REJECT_ACT/LOAD_REJECT_ACTpage_v3_json.html>`__ відрізняються!
 
