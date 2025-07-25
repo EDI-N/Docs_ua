@@ -24,41 +24,6 @@
                 },
                 {
                     "contentCode": {
-                        "listAgencyID": "comment",
-                        "value": "Коментар Коментар"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "gps_number",
-                        "value": "S1235623451"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "logistic_unit_number_with_logger",
-                        "value": "UA64245241"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "logger_number",
-                        "value": "6345623462"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
-                        "listAgencyID": "reserve_number",
-                        "value": "52311451"
-                    },
-                    "content": "CZ"
-                },
-                {
-                    "contentCode": {
                         "listAgencyID": "gross_vehicle_weight_with_cargo",
                         "value": "18653"
                     },
@@ -136,24 +101,12 @@
                 },
                 "name": "ФІЗИЧНА ОСОБА-ПІДПРИЄМЕЦЬ Тестовий отримувач АТБ",
                 "roleCode": "CZ",
-                "tradeContact": {
-                    "personName": "Тестовий Відповідальний",
-                    "mobileTelephoneUniversalCommunication": {
-                        "completeNumber": "380111111111"
-                    },
-                    "emailURIUniversalCommunication": {
-                        "completeNumber": "edin@edin.ua"
-                    }
-                },
                 "postalTradeAddress": {
                     "postCode": "04123",
                     "streetName": "донця 6",
                     "cityName": "м. Київ",
                     "countryID": "UA",
                     "countrySubDivisionName": "Київська"
-                },
-                "taxRegistration": {
-                    "id": "1111111111"
                 },
                 "specifiedGovernmentRegistrations": [
                     {
@@ -262,48 +215,6 @@
                             "typeCode": "TRADEPARTY_GLN"
                         }
                     ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "ЄДРПОУ",
-                        "value": "34554363"
-                    },
-                    "name": "ФІЗИЧНА ОСОБА-ПІДПРИЄМЕЦЬ Тестовий отримувач АТБ",
-                    "roleCode": "WD",
-                    "postalTradeAddress": {
-                        "postCode": "04123",
-                        "streetName": "донця 6",
-                        "cityName": "м. Київ",
-                        "countryID": "UA",
-                        "countrySubDivisionName": "Київська"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864232890188",
-                            "typeCode": "TRADEPARTY_GLN"
-                        }
-                    ]
-                },
-                {
-                    "id": {
-                        "schemeAgencyID": "РНОКПП",
-                        "value": "3219412912"
-                    },
-                    "name": "ТОВ \"Вайтдок\"",
-                    "roleCode": "COP",
-                    "postalTradeAddress": {
-                        "postCode": "01001",
-                        "streetName": "Тестова адреса",
-                        "cityName": "м. Київ",
-                        "countryID": "UA",
-                        "countrySubDivisionName": "Київська"
-                    },
-                    "specifiedGovernmentRegistrations": [
-                        {
-                            "id": "9864232301905",
-                            "typeCode": "TRADEPARTY_GLN"
-                        }
-                    ]
                 }
             ],
             "carrierAcceptanceLogisticsLocation": {
@@ -373,13 +284,7 @@
                         "name": "Комірник",
                         "roleCode": "CZ",
                         "tradeContact": {
-                            "personName": "Тестовий Відповідальний",
-                            "mobileTelephoneUniversalCommunication": {
-                                "completeNumber": "380111111111"
-                            },
-                            "emailURIUniversalCommunication": {
-                                "completeNumber": "edin@edin.ua"
-                            }
+                            "personName": "Тестовий Відповідальний"
                         }
                     }
                 ],
@@ -409,28 +314,16 @@
                         "unitCode": "UAH",
                         "value": "20.00"
                     },
-                    "globalID": {
-                        "schemeAgencyID": "УКТЗЕД",
-                        "value": "6910537245"
-                    },
                     "natureIdentificationTransportCargo": {
                         "identification": "Товар тест 1"
                     },
+                    "associatedReferencedDocuments": [],
                     "transportLogisticsPackage": {
                         "itemQuantity": "7",
                         "typeCode": "PX",
-                        "type": "шт",
-                        "physicalLogisticsShippingMarks": {
-                            "barcodeLogisticsLabel": {
-                                "id": "48555693265485"
-                            }
-                        }
+                        "type": "шт"
                     },
                     "applicableNotes": [
-                        {
-                            "contentCode": "VENDOR_CODE",
-                            "content": "230859"
-                        },
                         {
                             "contentCode": "BUYER_CODE",
                             "content": "230859"
@@ -450,22 +343,6 @@
                         {
                             "contentCode": "SUM_WITHOUT_VAT",
                             "content": "680.00"
-                        },
-                        {
-                            "contentCode": "ANIMAL_ID",
-                            "content": "UA55334242124"
-                        },
-                        {
-                            "contentCode": "ANIMAL_TYPE",
-                            "content": "Велика рогата худоба"
-                        },
-                        {
-                            "contentCode": "TRANSPORTATION_MIN_TEMPERATURE",
-                            "content": "0"
-                        },
-                        {
-                            "contentCode": "TRANSPORTATION_MAX_TEMPERATURE",
-                            "content": "4"
                         }
                     ]
                 },
@@ -483,28 +360,16 @@
                         "unitCode": "UAH",
                         "value": "16"
                     },
-                    "globalID": {
-                        "schemeAgencyID": "УКТЗЕД",
-                        "value": "6910068314"
-                    },
                     "natureIdentificationTransportCargo": {
                         "identification": "Товар тест 2"
                     },
+                    "associatedReferencedDocuments": [],
                     "transportLogisticsPackage": {
                         "itemQuantity": "5",
                         "typeCode": "PX",
-                        "type": "шт",
-                        "physicalLogisticsShippingMarks": {
-                            "barcodeLogisticsLabel": {
-                                "id": "4800006532123"
-                            }
-                        }
+                        "type": "шт"
                     },
                     "applicableNotes": [
-                        {
-                            "contentCode": "VENDOR_CODE",
-                            "content": "0005345"
-                        },
                         {
                             "contentCode": "BUYER_CODE",
                             "content": "3457826"
@@ -524,22 +389,6 @@
                         {
                             "contentCode": "SUM_WITHOUT_VAT",
                             "content": "1600"
-                        },
-                        {
-                            "contentCode": "ANIMAL_ID",
-                            "content": "S135145123"
-                        },
-                        {
-                            "contentCode": "ANIMAL_TYPE",
-                            "content": "Рогата худоба"
-                        },
-                        {
-                            "contentCode": "TRANSPORTATION_MIN_TEMPERATURE",
-                            "content": "0"
-                        },
-                        {
-                            "contentCode": "TRANSPORTATION_MAX_TEMPERATURE",
-                            "content": "2"
                         }
                     ]
                 }
@@ -557,50 +406,8 @@
                             "content": "S562"
                         },
                         {
-                            "contentCode": "COLOR",
-                            "content": "білий"
-                        },
-                        {
                             "contentCode": "TYPE",
                             "content": "Тягач"
-                        }
-                    ]
-                },
-                {
-                    "id": "AA0002AA",
-                    "categoryCode": "TE",
-                    "characteristicCode": "17",
-                    "affixedLogisticsSeals": [
-                        {
-                            "id": "S5321572"
-                        }
-                    ],
-                    "settingTransportSettingTemperature": {
-                        "minimum": {
-                            "unitCode": "CEL",
-                            "value": "-1"
-                        },
-                        "maximum": {
-                            "unitCode": "CEL",
-                            "value": "1"
-                        }
-                    },
-                    "applicableNotes": [
-                        {
-                            "contentCode": "BRAND",
-                            "content": "REFER"
-                        },
-                        {
-                            "contentCode": "MODEL",
-                            "content": "HZ321"
-                        },
-                        {
-                            "contentCode": "COLOR",
-                            "content": "жовто-блакитний"
-                        },
-                        {
-                            "contentCode": "TYPE",
-                            "content": "рефрежиратор"
                         }
                     ]
                 }
