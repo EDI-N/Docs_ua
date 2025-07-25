@@ -4,12 +4,24 @@
 
 .. https://docs.google.com/spreadsheets/d/1eiLgIFbZBOK9hXDf2pirKB88izrdOqj1vSdV3R8tvbM/edit?pli=1#gid=804820694
 
-.. important::
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-primusovogo-zaversennia-e-ttn>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. important::
    Зверніть увагу, що поля в json та `в xml форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/STOP_ACT/STOP_ACTpage_v3.html>`__ відрізняються! 
 
-**JSON:**
+   **JSON:**
 
-.. code:: json
+   .. code:: json
 
   {
     "ram": "urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103",
@@ -114,22 +126,22 @@
     }
   }
 
-.. role:: orange
+   .. role:: orange
 
-.. raw:: html
+   .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPbzkPgNe3yqDqIzd_3PyYlNGPbaL27tiF7z5CPd5iexGV74qv6KkAGquRrJL9OQ/pubhtml?gid=2013259786&single=true" width="1100" height="2550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+   -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+   .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+   .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;

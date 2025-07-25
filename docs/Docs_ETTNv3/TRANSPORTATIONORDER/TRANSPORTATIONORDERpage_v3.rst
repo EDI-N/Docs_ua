@@ -2,12 +2,24 @@
 **"Заявка на транспортування" / "Підтвердження заявки на транспортування"**
 ##########################################################################################################################
 
-.. important::
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/zaiavka-na-transportuvannia-pidtverdzennia-zaiavki-na-transportuvannia>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. сторінка перенесена на нову вікі
+
+   .. important::
    Зверніть увагу, що поля в xml та `в json форматі <https://wiki.edin.ua/uk/latest/Docs_ETTNv3/TRANSPORTATIONORDER/TRANSPORTATIONORDERpage_v3_json.html>`__ відрізняються!
 
-**XML:**
+   **XML:**
 
-.. code:: xml
+   .. code:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
     <TRANSPORTATIONORDER>
@@ -131,22 +143,22 @@
       </HEAD>
     </TRANSPORTATIONORDER>
 
-.. role:: orange
+   .. role:: orange
 
-.. raw:: html
+   .. raw:: html
 
     <embed>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS26-juW1nVfoMUOAEl5EBG2M_GBbZiw4-YLBN1btAxU9yWI12nsZ1931PABr-SNS-dx0ey1gMD_gYy/pubhtml?gid=1874513573&single=true" width="1100" height="4450" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
--------------------------
+   -------------------------
 
-.. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
+   .. [#] Під визначенням колонки **Тип поля** мається на увазі скорочене позначення:
 
    * M (mandatory) — обов'язкові до заповнення поля;
    * O (optional) — необов'язкові (опціональні) до заповнення поля.
 
-.. [#] елементи структури мають наступний вигляд:
+   .. [#] елементи структури мають наступний вигляд:
 
    * параметрЗіЗначенням;
    * **об'єктЗПараметрами**;
