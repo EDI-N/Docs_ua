@@ -1,3 +1,4 @@
+
 <UAECMR xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:103" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:103" xmlns:uas="urn:ua:signatures:SignaturesExtensions:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:27">
     <eCMR>
         <ExchangedDocumentContext>
@@ -16,26 +17,6 @@
             </ram:IssueDateTime>
             <ram:IncludedNote>
                 <ram:ContentCode listAgencyID="vatAmount">500</ram:ContentCode>
-                <ram:Content>CZ</ram:Content>
-            </ram:IncludedNote>
-            <ram:IncludedNote>
-                <ram:ContentCode listAgencyID="comment">Коментар Коментар</ram:ContentCode>
-                <ram:Content>CZ</ram:Content>
-            </ram:IncludedNote>
-            <ram:IncludedNote>
-                <ram:ContentCode listAgencyID="gps_number">S1235623451</ram:ContentCode>
-                <ram:Content>CZ</ram:Content>
-            </ram:IncludedNote>
-            <ram:IncludedNote>
-                <ram:ContentCode listAgencyID="logistic_unit_number_with_logger">UA64245241</ram:ContentCode>
-                <ram:Content>CZ</ram:Content>
-            </ram:IncludedNote>
-            <ram:IncludedNote>
-                <ram:ContentCode listAgencyID="logger_number">6345623462</ram:ContentCode>
-                <ram:Content>CZ</ram:Content>
-            </ram:IncludedNote>
-            <ram:IncludedNote>
-                <ram:ContentCode listAgencyID="reserve_number">52311451</ram:ContentCode>
                 <ram:Content>CZ</ram:Content>
             </ram:IncludedNote>
             <ram:IncludedNote>
@@ -83,15 +64,6 @@
                 <ram:ID schemeAgencyID="ЄДРПОУ">34554363</ram:ID>
                 <ram:Name>ФІЗИЧНА ОСОБА-ПІДПРИЄМЕЦЬ Тестовий отримувач АТБ</ram:Name>
                 <ram:RoleCode>CZ</ram:RoleCode>
-                <ram:DefinedTradeContact>
-                    <ram:PersonName>Тестовий Відповідальний</ram:PersonName>
-                    <ram:MobileTelephoneUniversalCommunication>
-                        <ram:CompleteNumber>380111111111</ram:CompleteNumber>
-                    </ram:MobileTelephoneUniversalCommunication>
-                    <ram:EmailURIUniversalCommunication>
-                        <ram:CompleteNumber>edin@edin.ua</ram:CompleteNumber>
-                    </ram:EmailURIUniversalCommunication>
-                </ram:DefinedTradeContact>
                 <ram:PostalTradeAddress>
                     <ram:PostcodeCode>04123</ram:PostcodeCode>
                     <ram:StreetName>донця 6</ram:StreetName>
@@ -99,9 +71,6 @@
                     <ram:CountryID>UA</ram:CountryID>
                     <ram:CountrySubDivisionName>Київська</ram:CountrySubDivisionName>
                 </ram:PostalTradeAddress>
-                <ram:SpecifiedTaxRegistration>
-                    <ram:ID>1111111111</ram:ID>
-                </ram:SpecifiedTaxRegistration>
                 <ram:SpecifiedGovernmentRegistration>
                     <ram:ID>9864232890188</ram:ID>
                     <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
@@ -187,38 +156,6 @@
                     <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
                 </ram:SpecifiedGovernmentRegistration>
             </ram:NotifiedTradeParty>
-            <ram:NotifiedTradeParty>
-                <ram:ID schemeAgencyID="ЄДРПОУ">34554363</ram:ID>
-                <ram:Name>ФІЗИЧНА ОСОБА-ПІДПРИЄМЕЦЬ Тестовий отримувач АТБ</ram:Name>
-                <ram:RoleCode>WD</ram:RoleCode>
-                <ram:PostalTradeAddress>
-                    <ram:PostcodeCode>04123</ram:PostcodeCode>
-                    <ram:StreetName>донця 6</ram:StreetName>
-                    <ram:CityName>м. Київ</ram:CityName>
-                    <ram:CountryID>UA</ram:CountryID>
-                    <ram:CountrySubDivisionName>Київська</ram:CountrySubDivisionName>
-                </ram:PostalTradeAddress>
-                <ram:SpecifiedGovernmentRegistration>
-                    <ram:ID>9864232890188</ram:ID>
-                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
-                </ram:SpecifiedGovernmentRegistration>
-            </ram:NotifiedTradeParty>
-            <ram:NotifiedTradeParty>
-                <ram:ID schemeAgencyID="РНОКПП">3219412912</ram:ID>
-                <ram:Name>ТОВ "Вайтдок"</ram:Name>
-                <ram:RoleCode>COP</ram:RoleCode>
-                <ram:PostalTradeAddress>
-                    <ram:PostcodeCode>01001</ram:PostcodeCode>
-                    <ram:StreetName>Тестова адреса</ram:StreetName>
-                    <ram:CityName>м. Київ</ram:CityName>
-                    <ram:CountryID>UA</ram:CountryID>
-                    <ram:CountrySubDivisionName>Київська</ram:CountrySubDivisionName>
-                </ram:PostalTradeAddress>
-                <ram:SpecifiedGovernmentRegistration>
-                    <ram:ID>9864232301905</ram:ID>
-                    <ram:TypeCode>TRADEPARTY_GLN</ram:TypeCode>
-                </ram:SpecifiedGovernmentRegistration>
-            </ram:NotifiedTradeParty>
             <ram:CarrierAcceptanceLogisticsLocation>
                 <ram:ID schemeAgencyID="КАТОТТГ">UA18040190010057814</ram:ID>
                 <ram:Name>Тестовий перевізник АТБ</ram:Name>
@@ -266,12 +203,6 @@
                     <ram:RoleCode>CZ</ram:RoleCode>
                     <ram:DefinedTradeContact>
                         <ram:PersonName>Тестовий Відповідальний</ram:PersonName>
-                        <ram:MobileTelephoneUniversalCommunication>
-                            <ram:CompleteNumber>380111111111</ram:CompleteNumber>
-                        </ram:MobileTelephoneUniversalCommunication>
-                        <ram:EmailURIUniversalCommunication>
-                            <ram:CompleteNumber>edin@edin.ua</ram:CompleteNumber>
-                        </ram:EmailURIUniversalCommunication>
                     </ram:DefinedTradeContact>
                 </ram:CertifyingTradeParty>
                 <ram:ApplicableNote>
@@ -288,7 +219,6 @@
                 <ram:InvoiceAmount currencyID="UAH">816.00</ram:InvoiceAmount>
                 <ram:GrossWeightMeasure unitCode="KGM">100</ram:GrossWeightMeasure>
                 <ram:TariffQuantity unitCode="UAH">20.00</ram:TariffQuantity>
-                <ram:GlobalID schemeAgencyID="УКТЗЕД">6910537245</ram:GlobalID>
                 <ram:NatureIdentificationTransportCargo>
                     <ram:Identification>Товар тест 1</ram:Identification>
                 </ram:NatureIdentificationTransportCargo>
@@ -296,16 +226,7 @@
                     <ram:ItemQuantity>7</ram:ItemQuantity>
                     <ram:TypeCode>PX</ram:TypeCode>
                     <ram:Type>шт</ram:Type>
-                    <ram:PhysicalLogisticsShippingMarks>
-                        <ram:BarcodeLogisticsLabel>
-                            <ram:ID>48555693265485</ram:ID>
-                        </ram:BarcodeLogisticsLabel>
-                    </ram:PhysicalLogisticsShippingMarks>
                 </ram:TransportLogisticsPackage>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>VENDOR_CODE</ram:ContentCode>
-                    <ram:Content>230859</ram:Content>
-                </ram:ApplicableNote>
                 <ram:ApplicableNote>
                     <ram:ContentCode>BUYER_CODE</ram:ContentCode>
                     <ram:Content>230859</ram:Content>
@@ -326,29 +247,12 @@
                     <ram:ContentCode>SUM_WITHOUT_VAT</ram:ContentCode>
                     <ram:Content>680.00</ram:Content>
                 </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>ANIMAL_ID</ram:ContentCode>
-                    <ram:Content>UA55334242124</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>ANIMAL_TYPE</ram:ContentCode>
-                    <ram:Content>Велика рогата худоба</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>TRANSPORTATION_MIN_TEMPERATURE</ram:ContentCode>
-                    <ram:Content>0</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>TRANSPORTATION_MAX_TEMPERATURE</ram:ContentCode>
-                    <ram:Content>4</ram:Content>
-                </ram:ApplicableNote>
             </ram:IncludedSupplyChainConsignmentItem>
             <ram:IncludedSupplyChainConsignmentItem>
                 <ram:SequenceNumeric>2</ram:SequenceNumeric>
                 <ram:InvoiceAmount currencyID="UAH">2000</ram:InvoiceAmount>
                 <ram:GrossWeightMeasure unitCode="KGM">150</ram:GrossWeightMeasure>
                 <ram:TariffQuantity unitCode="UAH">16</ram:TariffQuantity>
-                <ram:GlobalID schemeAgencyID="УКТЗЕД">6910068314</ram:GlobalID>
                 <ram:NatureIdentificationTransportCargo>
                     <ram:Identification>Товар тест 2</ram:Identification>
                 </ram:NatureIdentificationTransportCargo>
@@ -356,16 +260,7 @@
                     <ram:ItemQuantity>5</ram:ItemQuantity>
                     <ram:TypeCode>PX</ram:TypeCode>
                     <ram:Type>шт</ram:Type>
-                    <ram:PhysicalLogisticsShippingMarks>
-                        <ram:BarcodeLogisticsLabel>
-                            <ram:ID>4800006532123</ram:ID>
-                        </ram:BarcodeLogisticsLabel>
-                    </ram:PhysicalLogisticsShippingMarks>
                 </ram:TransportLogisticsPackage>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>VENDOR_CODE</ram:ContentCode>
-                    <ram:Content>0005345</ram:Content>
-                </ram:ApplicableNote>
                 <ram:ApplicableNote>
                     <ram:ContentCode>BUYER_CODE</ram:ContentCode>
                     <ram:Content>3457826</ram:Content>
@@ -386,22 +281,6 @@
                     <ram:ContentCode>SUM_WITHOUT_VAT</ram:ContentCode>
                     <ram:Content>1600</ram:Content>
                 </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>ANIMAL_ID</ram:ContentCode>
-                    <ram:Content>S135145123</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>ANIMAL_TYPE</ram:ContentCode>
-                    <ram:Content>Рогата худоба</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>TRANSPORTATION_MIN_TEMPERATURE</ram:ContentCode>
-                    <ram:Content>0</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>TRANSPORTATION_MAX_TEMPERATURE</ram:ContentCode>
-                    <ram:Content>2</ram:Content>
-                </ram:ApplicableNote>
             </ram:IncludedSupplyChainConsignmentItem>
             <ram:UtilizedLogisticsTransportEquipment>
                 <ram:ID>AA0001AA</ram:ID>
@@ -414,40 +293,8 @@
                     <ram:Content>S562</ram:Content>
                 </ram:ApplicableNote>
                 <ram:ApplicableNote>
-                    <ram:ContentCode>COLOR</ram:ContentCode>
-                    <ram:Content>білий</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
                     <ram:ContentCode>TYPE</ram:ContentCode>
                     <ram:Content>Тягач</ram:Content>
-                </ram:ApplicableNote>
-            </ram:UtilizedLogisticsTransportEquipment>
-            <ram:UtilizedLogisticsTransportEquipment>
-                <ram:ID>AA0002AA</ram:ID>
-                <ram:CategoryCode>TE</ram:CategoryCode>
-                <ram:CharacteristicCode>17</ram:CharacteristicCode>
-                <ram:AffixedLogisticsSeal>
-                    <ram:ID>S5321572</ram:ID>
-                </ram:AffixedLogisticsSeal>
-                <ram:SettingTransportSettingTemperature>
-                    <ram:MinimumValueMeasure unitCode="CEL">-1</ram:MinimumValueMeasure>
-                    <ram:MaximumValueMeasure unitCode="CEL">1</ram:MaximumValueMeasure>
-                </ram:SettingTransportSettingTemperature>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>BRAND</ram:ContentCode>
-                    <ram:Content>REFER</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>MODEL</ram:ContentCode>
-                    <ram:Content>HZ321</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>COLOR</ram:ContentCode>
-                    <ram:Content>жовто-блакитний</ram:Content>
-                </ram:ApplicableNote>
-                <ram:ApplicableNote>
-                    <ram:ContentCode>TYPE</ram:ContentCode>
-                    <ram:Content>рефрежиратор</ram:Content>
                 </ram:ApplicableNote>
             </ram:UtilizedLogisticsTransportEquipment>
             <ram:DeliveryInstructions>
