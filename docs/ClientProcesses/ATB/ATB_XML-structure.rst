@@ -78,7 +78,11 @@ XML Специфікації для роботи з "АТБ"
 
 :download:`XML-Приклад ТТН<ATB_XML/examples/ttn.xml>`
 
+:download:`Обов'язкові поля XML-Приклад ТТН<ATB_XML/examples/required_fields.xml>`
+
 :download:`JSON-Приклад ТТН<ATB_XML/examples/ttn.json>`
+
+:download:`Обов'язкові поля JSON-Приклад ТТН<ATB_XML/examples/required_fields.json>`
 
 -------------------------
 
