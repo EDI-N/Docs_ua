@@ -242,6 +242,7 @@ API v2
    Methods/GetDocumentsContent
    Methods/SendPrdrsrvnTransaction
    Methods/CreateAndSendDocumentsTickets
+   Methods/GetState
 
 .. _tickets:
 
