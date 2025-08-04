@@ -25,9 +25,9 @@
     "44f3cf03-e2a3-4f8b-aae1-cafeb28fe699": {
         "sub_status_id": "1",
         "exchange_status": "000000000000000000000001"
-    },
+        },
     "fb56e025-9c4d-4936-b889-087c6d5c837d": {
         "sub_status_id": "1",
         "exchange_status": "000000000000000000000001"
+        }
     }
-}
