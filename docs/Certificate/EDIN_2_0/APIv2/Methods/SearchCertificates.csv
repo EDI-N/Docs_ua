@@ -1,7 +1,9 @@
 **URL**       ,
 Метод запиту  , POST                                          
 URL запиту    ,**/api/ecs/search?gln=9864232613879**
-URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії"
+URL параметри ,"**gln** (обов'язково) String - GLN власної Компанії
+
+**owner_gln** (необов'язково) String - GLN Компанії-Власника сертифікату"
 **Headers**   ,
 Authorization ,"**SID** - токен, отриманий при `авторизації <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/Authorization.html>`__"
 Content-Type  , *application/json*
