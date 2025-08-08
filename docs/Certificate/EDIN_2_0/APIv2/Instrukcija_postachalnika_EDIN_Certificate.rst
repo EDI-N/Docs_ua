@@ -190,7 +190,7 @@
 
 Щоб масово додати документ, потрібно попередньо підготувати необхідні файли, а саме заповнити шаблон і відсканувати необхідні документи в форматі *PDF, JPG, JPEG, PNG, TIFF*.
 
-Для завантаження шаблону натисніть кнопку «**Додаткові дії**» і виберіть опцію «**Масове завантаження**»
+Для завантаження шаблону натисніть кнопку «**Масове завантаження**»
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_16.png
    :align: center
@@ -254,7 +254,7 @@
 
 Далі необхідно додати заповнений шаблон і всі підготовлені та відскановані файли в zip-архів.
 
-Для масового створення документів знов натисніть кнопку «**Додаткові дії**» і виберіть опцію «**Масове завантаження**». 
+Для масового створення документів знов натисніть кнопку «**Масове завантаження**». 
 
 .. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_16.png
    :align: center
@@ -405,7 +405,7 @@
 
 Після ввода причини відхилення і натискання кнопки «**Відхилити**» праворуч відхиленої скарги замість іконки |крапки| з'явиться іконка |комент|:
 
-.. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_44.png
+.. image:: pics_Instrukcija_po_rabote_s_servisom_EDIN_Certificate/Instrukcija_po_rabote_s_servisom_EDIN_Certificate_47.png
    :align: center
 
 При натисненні іконки |комент| можна подивитись причину відхилення. 
@@ -434,6 +434,6 @@
 
 Для Сертифікатів типу «Декларація виробника/постачальника» (CERTDOC) створення pdf форми можливе індивідуально під клієнта.
 
-----------------------------
+--------------------------------------
    
 .. include:: /_constant/kontakti.rst

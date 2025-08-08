@@ -17,6 +17,12 @@
 
 .. |завантаж| image:: /_constant/icons/download.png
 
+.. |скарга| image:: /_constant/icons/cloud_red.png
+
+.. |комент| image:: /_constant/icons/cloud_dots.png
+
+.. |крапки| image:: /_constant/icons/dots.png   
+
 ---------
 
 .. contents:: Зміст:
