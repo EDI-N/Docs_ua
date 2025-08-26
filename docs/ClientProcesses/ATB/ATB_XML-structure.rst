@@ -106,9 +106,9 @@ XML Специфікації для роботи з "АТБ"
   :widths:  20, 11, 29, 37
   :header-rows: 1
 
-:download:`XML-Приклад COMDOC_006<ATB_XML/examples/COMDOC_006_.xml>`
+:download:`XML-Приклад COMDOC_006<ATB_XML/examples/COMDOC_006.xml>`
 
-:download:`JSON-Приклад COMDOC_006<ATB_XML/examples/COMDOC_006.json>`
+:download:`JSON-Приклад COMDOC_006<ATB_XML/examples/COMDOC_006_.json>`
 
 ---------
 
