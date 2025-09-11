@@ -33,3 +33,4 @@
    Prostor/Prostor_list
    Fora/Fora_list
    Novus/Novus_list
+   Obolon/Obolon_list
