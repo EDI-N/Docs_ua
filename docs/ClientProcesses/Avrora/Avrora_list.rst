@@ -8,7 +8,7 @@ Avrora
    Avrora_Instructions/Avrora_EDI
 
 .. toctree::
-   :caption: Специфікації документів (XML) для роботи з ТМ "Сьогодні Аврора" [1]
+   :caption: Специфікації документів (XML) для роботи з ТМ "Аврора мультимаркет" [1]
    :maxdepth: 1
    
    Avrora_XML-structure
