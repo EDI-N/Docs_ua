@@ -9,7 +9,7 @@
 
 Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
 
-Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/robota-z-api/chapter/opis-metodiv-api-zagalnix-dlia-vsix-servisiv>`__
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/robota-z-api/page/opis-sabstatusiv-dokumentiv-dlia-ettn-v3-xdocextrafieldssub-status>`__
 
 Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
 
