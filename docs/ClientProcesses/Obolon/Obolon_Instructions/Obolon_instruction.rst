@@ -37,7 +37,7 @@
 Дана інструкція описує порядок документообігу на платформі EDI Network 2.0 ПРАТ "Оболонь" з Дистриб'юторською Компанією. В документообігу за даною схемою приймають участь наступні документи:
 
 - `Акт приймання-передачі (COMDOC_041) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_041_x.html>`__
-- Акт повернення (COMDOC_042)
+- `Акт повернення (COMDOC_042) <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-povernennia-comdoc-042>`__
 - `Повідомлення про відмову від підписання (COMDOC_021) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__
 
 Документообіг здійснюється між двома Учасниками, де ініціатором виступає мережа "Оболонь".
