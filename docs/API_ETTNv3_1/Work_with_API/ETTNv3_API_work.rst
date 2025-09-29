@@ -32,6 +32,10 @@
   :widths:  40, 40
   :stub-columns: 0
 
+:download:`Postman environment (DEMO)<files/v.1-ettn+actu.postman_collection.json>`
+
+:download:`Postman environment (PROD)<files/v.1-prod.postman_environment.json>`
+
 -----------------------------------------------
 
 .. toggle-header::
