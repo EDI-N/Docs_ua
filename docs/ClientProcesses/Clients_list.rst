@@ -34,3 +34,4 @@
    Fora/Fora_list
    Novus/Novus_list
    Obolon/Obolon_list
+   Faino_market/Faino_list
