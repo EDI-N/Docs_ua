@@ -5,4 +5,12 @@ XML Специфікації для роботи з компанією "Обол
 
 У специфікації представлено опис полів XML-документів, які застосовуються в електронному обміні даними при роботі з компанією "Оболонь" на платформі EDIN.
 
-Опис стандартних XML специфікаціїй можна знайти за `посиланням <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__.
+В електронному обміні даними з компанією "Оболонь" використовуються стандартні XML-документи, опис полів яких можна знайти за наступними посиланнями:
+
+- `Акт приймання-передачі (COMDOC_041) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_041_x.html>`__
+- `Акт повернення (COMDOC_042) <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-povernennia-comdoc-042>`__
+- `Повідомлення про відмову від підписання (COMDOC_021) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__
+
+-------------------------------------
+
+.. include:: /_constant/kontakti.rst
