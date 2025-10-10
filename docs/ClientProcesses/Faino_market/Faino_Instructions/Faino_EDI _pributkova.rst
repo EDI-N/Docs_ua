@@ -37,7 +37,7 @@
 **Загальна схема документообігу:**
 
 .. image:: pics_Faino_EDI/Faino_EDI_001.png
-   :height: 700px
+   :height: 800px
    :align: center
 
 1. Вхід на платформу
@@ -63,12 +63,53 @@
 
 .. _desadv-create:
 
-3. Створення та відправка "Повідомлення про відвантаження" (DESADV) на підставі надісланого «Підтвердження замовлення» (ORDRSP)
+3. Створення та відправка «Повідомлення про відвантаження» (DESADV) на підставі надісланого «Підтвердження замовлення» (ORDRSP)
 ==================================================================================================================================
+
+«Повідомлення про відвантаження» (DESADV) можна створити на підставі вхідного «Замовлення» (ORDERS) або на підставі надісланого «Підтвердження замовлення» (ORDRSP). Розглянемо створення «Повідомлення про відвантаження» на основі «Підтвердження замовлення» (ORDRSP).
 
 .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
    :start-after: .. початок блоку для Desadv_from_Ordrsp
    :end-before: .. кінець блоку для Desadv_from_Ordrsp
+
+4. Створення та відправка «Рахунку» (INVOICE) на підставі вхідного «Замовлення» (ORDERS)
+==================================================================================================================================
+
+.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Schetfaktura_INVOICE_na_EDI_Network_2.0.rst
+   :start-after: .. початок блоку для Invoice_from_Order
+   :end-before: .. кінець блоку для Invoice_from_Order
+
+6 Обробка вхідної "Прибуткової накладної" (COMDOC_007)
+==================================================================================================================================
+
+Для обробки "Прибуткової накладної" (COMDOC_007) в сервісі "EDI Network" потрібно перейти у **"Вхідні"** та вибрати **"Прибуткова накладна"** в статусі :orange:`"Очікує на підписання отримувачем"` (для зручності можливо скористатись рядком `пошуку <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__):
+
+.. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_005.png
+   :align: center
+
+Відкриється форма документа, де Ви можете ознайомитись з документом. Якщо Ви згодні з документом, його потрібно **"Підписати"**:
+
+.. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_006.png
+   :align: center
+
+.. hint::
+   Процес підписання є типовим на платформі EDI Network та описаний в `розділі нижче <https://wiki.edin.ua/uk/latest/ClientProcesses/Faino_market/Faino_Instructions/Faino_EDI_vidatkova.html#edin-2-0>`__.
+
+Після підписання документ змінює свій статус на :green:`"Підписано двома сторонами"`.
+
+.. note::
+   Для того, щоб **Відхилити** "Прибуткову накладну" (COMDOC_007) можливо оформити типову для комерціних документів **"Відмову від підписання"** (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_reject/comdoc_reject.html>`__):
+
+   .. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_007.png
+      :align: center
+
+.. hint::
+   Також після підписання документа (документ підписаний з обох сторін в статусі :green:`"Підписано двома сторонами"`) за згодою сторін можливо відправити **"Запит на анулювання"** документа (`детальніше <https://wiki.edin.ua/uk/latest/_constant/comdoc_repeal/comdoc_repeal.html>`__):
+
+   .. image:: /ClientProcesses/Varus/Varus_Instructions/pics_Varus_EDI/Varus_EDI_008.png
+      :align: center
+
+   Ініціатором анулювання може виступати, як Мережа так і Постачальник.
 
 ------------------------------------------------------
 
@@ -76,10 +117,6 @@
 
 Підписання на платформі EDIN 2.0
 =========================================================================================================================
-
-.. include:: /_constant/atb_check/atb_check.rst
-   :start-after: .. початок блоку для ATB_check
-   :end-before: .. кінець блоку для ATB_check
 
 .. tabs::
 
