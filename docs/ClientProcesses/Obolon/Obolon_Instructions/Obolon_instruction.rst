@@ -50,8 +50,8 @@
 
 
 
-1 Вхід на платформу
-====================================
+1. Вхід на платформу
+================================================================================================================
 
 .. include:: /general_2_0/rabota_s_platformoj_EDIN_2.0.rst
    :start-after: .. початок блоку для Enter
@@ -61,6 +61,55 @@
 
 .. image:: /_constant/pics_landing/landing_edi.png
    :align: center
+
+2. Опрацювання вхідного "Акту приймання-передачі" (COMDOC_041) та вхідного "Акту повернення" (COMDOC_042)
+=======================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+Підписання на платформі EDIN 2.0
+=========================================================================================================================
+
+.. tabs::
+
+   .. tab:: Файловий ключ
+
+      .. include:: /_constant/signing/signing.rst
+         :start-after: .. початок блоку для Signing
+         :end-before: .. кінець блоку для Signing
+
+   .. tab:: Token
+
+      .. include:: /_constant/token_signing/token_signing.rst
+         :start-after: .. початок блоку для TokenSign
+         :end-before: .. кінець блоку для TokenSign
+
+   .. tab:: Гряда
+
+      .. include:: /_constant/gryada_signing/gryada_signing.rst
+         :start-after: .. початок блоку для GryadaSign
+         :end-before: .. кінець блоку для GryadaSign
+
+   .. tab:: Cloud
+
+      .. include:: /_constant/cloud_signing/cloud_signing.rst
+         :start-after: .. початок блоку для CloudSign
+         :end-before: .. кінець блоку для CloudSign
+
+Відмова від підписання комерційних документів - COMDOC_021 квитанція №13
+==================================================================================================================
+
+.. include:: /_constant/comdoc_reject/comdoc_reject.rst
+   :start-after: .. початок блоку для Comdoc_Reject
+   :end-before: .. кінець блоку для Comdoc_Reject
 
 ------------------------------------------------
 
