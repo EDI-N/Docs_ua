@@ -7,7 +7,7 @@ XML Специфікації для роботи з компанією "Обол
 
 В електронному обміні даними з компанією "Оболонь" використовуються стандартні XML-документи, опис полів яких можна знайти за наступними посиланнями:
 
-- `Акт приймання-передачі (COMDOC_041) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_041_x.html>`__
+- `Акт приймання-передачі (COMDOC_041) <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-priimannia-peredaci-comdoc-041>`__
 - `Акт повернення (COMDOC_042) <https://wiki-v2.edin.ua/books/xml-specifikaciyi-dokumentiv/page/akt-povernennia-comdoc-042>`__
 - `Повідомлення про відмову від підписання (COMDOC_021) <https://wiki.edin.ua/uk/latest/EDIN_Specs/XML/COMDOC_021_x.html>`__
 
