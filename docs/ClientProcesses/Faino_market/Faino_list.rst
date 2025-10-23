@@ -1,17 +1,18 @@
-Avrora
+Файно Маркет
 #############################################
 
 .. toctree::
    :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
-   Avrora_Instructions/Avrora_EDI
+   Faino_Instructions/Faino_EDI_pributkova
+   Faino_Instructions/Faino_EDI_vidatkova
 
 .. toctree::
-   :caption: Специфікації документів (XML) для роботи з ТМ "Аврора мультимаркет" [1]
+   :caption: Специфікації документів (XML) для роботи з ТМ "Файно Маркет" [1]
    :maxdepth: 1
    
-   Avrora_XML-structure
+   Faino_XML-structure
 
 ----------------------------
 

@@ -1,19 +1,19 @@
-Avrora
+Оболонь
 #############################################
 
 .. toctree::
    :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
-   Avrora_Instructions/Avrora_EDI
+   Obolon_Instructions/Obolon_instruction
 
 .. toctree::
-   :caption: Специфікації документів (XML) для роботи з ТМ "Аврора мультимаркет" [1]
+   :caption: Специфікації документів (XML) для роботи з мережею "Оболонь" [1]
    :maxdepth: 1
    
-   Avrora_XML-structure
+   Obolon_XML-structure
 
-----------------------------
+-------------------------
 
 .. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
 
