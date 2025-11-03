@@ -1,10 +1,19 @@
 Оферти
 ##################
 
-.. toctree::
-   :maxdepth: 1
+.. .. toctree::
+..    :maxdepth: 1
    
-   Dogovir_oferta
-   Ugoda_Oferta
-   Oferta_service_support
+..    Dogovir_oferta
+..    Ugoda_Oferta
+..    Oferta_service_support
 
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/dogovori-oferti>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
