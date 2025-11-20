@@ -32,7 +32,7 @@ XML Специфікації для роботи з Мережею "Comfy"
 ---------
 
 Статус Підтвердження замовлення (Status)
-====================
+===========================================
 
 Статус передається за допомогою `методу API <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
 
@@ -57,6 +57,8 @@ XML Специфікації для роботи з Мережею "Comfy"
   :file: Comfy_XML/files/COMDOC_006.csv
   :widths:  40, 7, 12, 41
   :header-rows: 1
+
+.. test
 
 -------------------------
 
