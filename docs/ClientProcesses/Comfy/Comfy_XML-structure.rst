@@ -48,6 +48,15 @@ XML Специфікації для роботи з Мережею "Comfy"
 
 :download:`XML-Приклад "Повідомлення про відвантаження" (DESADV)<Comfy_XML/examples/DESADV_example.xml>`
 
+------------
+
+Видаткова накладна (COMDOC_006)
+==============================================
+
+.. csv-table:: Видаткова накладна (COMDOC_006)
+  :file: Comfy_XML/files/COMDOC_006.csv
+  :widths:  40, 7, 12, 41
+  :header-rows: 1
 
 -------------------------
 
