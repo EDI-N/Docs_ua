@@ -31,7 +31,7 @@
 .. role:: underline
 
 .. contents:: Зміст:
-   :depth: 2
+   :depth: 3
 
 ---------
 
