@@ -58,7 +58,7 @@ XML Специфікації для роботи з Мережею "Comfy"
    :widths:  40, 7, 12, 41
    :header-rows: 1
 
-:download:`XML-Приклад "Видаткова накладна (COMDOC_006)" (DESADV)<Comfy_XML/examples/COMDOC_006_example.xml>`
+:download:`XML-Приклад "Видаткова накладна" (COMDOC_006) <Comfy_XML/examples/COMDOC_006_example.xml>`
 
 -------------------------
 
