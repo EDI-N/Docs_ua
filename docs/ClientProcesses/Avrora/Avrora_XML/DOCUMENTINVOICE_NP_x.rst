@@ -89,7 +89,7 @@
 .. raw:: html
 
     <embed>
-    <iframe src="https://docs.google.com/spreadsheets/d/1dque7rvcrfWajnLQhlP2qvveTUSY8h42/edit?gid=52901704#gid=52901704&single=true" width="1100" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/1dque7rvcrfWajnLQhlP2qvveTUSY8h42/pubhtml?gid=52901704#gid=52901704&single=true" width="1100" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 -------------------------
