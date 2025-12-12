@@ -17,6 +17,7 @@ Metro
    Metro_Instructions/Metro_7a_instruction
    Metro_Instructions/Metro_RC_TC_delivery
    Metro_Instructions/rules_ETTN_for_METRO
+   Metro_Instructions/Metro_saved_filters
 
 .. toctree::
    :caption: Специфікації документів (XML) для роботи з ТМ "МЕТРО" [1]
