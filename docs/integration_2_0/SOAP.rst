@@ -1,24 +1,36 @@
 SOAP API
 #########
 
-.. contents:: Зміст:
+**Шановні користувачі!**
 
----------
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
 
-WSDL схема для роботи з FTPEX по SOAP: https://soap.edin.ua/soap/service.wsdl
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/inse-ftp-as2-soap/chapter/soap-api>`__
 
-Отримання списку доступних файлів (getList)
-============================================================================================
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
 
-*Сигнатура* (параметри які потрібно передати): логін і MD5 пароля (ті дані, які були видані користувачу при підключенні до платформи електронного документообігу) (MD5 генератор http://www.danstools.com/md5-hash-generator/).
+Дякуємо за розуміння та користування сервісом!
 
-*У відповідь* отримуємо список імен файлів, які на даний момент доступні користувачеві.
+.. сторінка перенесена на нову вікі
 
-**Приклад відповіді**:
+   .. contents:: Зміст:
 
-:: 
+   ---------
 
- <result>
+   WSDL схема для роботи з FTPEX по SOAP: https://soap.edin.ua/soap/service.wsdl
+
+   Отримання списку доступних файлів (getList)
+   ============================================================================================
+
+   *Сигнатура* (параметри які потрібно передати): логін і MD5 пароля (ті дані, які були видані користувачу при підключенні до платформи електронного документообігу) (MD5 генератор http://www.danstools.com/md5-hash-generator/).
+
+   *У відповідь* отримуємо список імен файлів, які на даний момент доступні користувачеві.
+
+   **Приклад відповіді**:
+
+   :: 
+
+   <result>
             <errorCode>0</errorCode>
             <list>status_20150924144604_4679904.xml</list>
             <list>status_20150924144604_7259532.xml</list>
@@ -29,21 +41,21 @@ WSDL схема для роботи з FTPEX по SOAP: https://soap.edin.ua/soa
             <list>order_20151005132435_707890630.xml</list>
   </result>
 
-**Можливі помилки**:
+   **Можливі помилки**:
 
-- errorCode 1 - помилка при авторизації,
-- errorCode 2 - інша помилка
+   - errorCode 1 - помилка при авторизації,
+   - errorCode 2 - інша помилка
 
-"Масове" отримання документів (кількох шуканих документів) (getDocuments)
-============================================================================================
+   "Масове" отримання документів (кількох шуканих документів) (getDocuments)
+   ============================================================================================
 
-*Сигнатура* (параметри які потрібно передати): логін, MD5 пароля і конкретні імена файлів (імена файлів повертає getList)
+   *Сигнатура* (параметри які потрібно передати): логін, MD5 пароля і конкретні імена файлів (імена файлів повертає getList)
 
-*Що повертає*: код відповіді сервера (0 - успішна обробка), а також закодований в base64 zip архів із затребуваними файлами.
+   *Що повертає*: код відповіді сервера (0 - успішна обробка), а також закодований в base64 zip архів із затребуваними файлами.
 
-**Приклад запиту**:
+   **Приклад запиту**:
 
-::
+   ::
 
       <soap:getDocumentsRequest>
          <!--Optional:-->
@@ -58,89 +70,89 @@ WSDL схема для роботи з FTPEX по SOAP: https://soap.edin.ua/soa
         <fileName>musician.xml</fileName>
       </soap:getDocumentsRequest>
 
-**Приклад відповіді**:
+   **Приклад відповіді**:
 
-::
+   ::
 
          <result>
             <errorCode>0</errorCode>
           <content>UEsDBBQACAgIAD...AAAA</content>
          </result>
 
-**Можливі помилки**:
+   **Можливі помилки**:
 
-- errorCode 1 - помилка отримання документів (значення помилки повертається в <errorMessage/>)
+   - errorCode 1 - помилка отримання документів (значення помилки повертається в <errorMessage/>)
 
-Отримання конкретного файлу (getDoc)
-============================================================================================
+   Отримання конкретного файлу (getDoc)
+   ============================================================================================
 
-*Сигнатура* (параметри, які потрібно передати): логін, MD5 пароля і конкретне ім'я файлу (імена файлів повертає getList)
+    *Сигнатура* (параметри, які потрібно передати): логін, MD5 пароля і конкретне ім'я файлу (імена файлів повертає getList)
 
-*У відповідь* отримуємо конкретний файл у вигляді BASE-64 рядка.
+   *У відповідь* отримуємо конкретний файл у вигляді BASE-64 рядка.
 
-**Приклад відповіді**:
+   **Приклад відповіді**:
 
-:: 
+   :: 
 
   <result>
             <errorCode>0</errorCode>
             <content>PFN0YXR1cz4KI...4KPC9TdGF0dXM+</content>
   </result>
 
-Вміст поля <content> перекладається в XML подання шляхом розшифровки BASE-64 (в результаті виходить тіло XML файлу).
+   Вміст поля <content> перекладається в XML подання шляхом розшифровки BASE-64 (в результаті виходить тіло XML файлу).
 
-**Можливі помилки**:
+   **Можливі помилки**:
 
-- errorCode 1 - помилка при отриманні документа.
+   - errorCode 1 - помилка при отриманні документа.
 
-Передача конкретного файлу (sendDoc)
-============================================================================================
+   Передача конкретного файлу (sendDoc)
+   ============================================================================================
 
-*Сигнатура* (параметри які потрібно передати): логін, MD5 пароля, конкретне ім'я файлу і тіло файлу в вигляді BASE-64 рядка.
+   *Сигнатура* (параметри які потрібно передати): логін, MD5 пароля, конкретне ім'я файлу і тіло файлу в вигляді BASE-64 рядка.
 
-*У відповідь* отримуємо код відповіді сервера (0 - успішна передача).
+   *У відповідь* отримуємо код відповіді сервера (0 - успішна передача).
 
-**Приклад відповіді**:
+   **Приклад відповіді**:
 
-:: 
-
- <result>
-            <errorCode>0</errorCode>
- </result>
-
-**Можливі помилки**:
-
-- errorCode 3 - помилка при відправленні документа
-
-Архівування документа (видалення конкретного файлу з сервера) (archiveDoc)
-============================================================================================
-
-*Сигнатура* (параметри які потрібно передати): логін, MD5 пароля і конкретне ім'я файлу (імена файлів повертає getList)
-
-*Що повертає*: код відповіді сервера (0 - успішна обробка).
-
-**Приклад відповіді**:
-
-:: 
+   :: 
 
  <result>
             <errorCode>0</errorCode>
  </result>
 
-**Можливі помилки**:
+   **Можливі помилки**:
 
-- errorCode 4 - помилка при архівуванні документа
+   - errorCode 3 - помилка при відправленні документа
 
-"Масове" архівування документів (видалення файлів з сервера) (archiveDocuments)
-============================================================================================
+   Архівування документа (видалення конкретного файлу з сервера) (archiveDoc)
+   ============================================================================================
 
-*Сигнатура* (параметри які потрібно передати): логін, MD5 пароля і конкретне ім'я файлу (імена файлів повертає getList)
+   *Сигнатура* (параметри які потрібно передати): логін, MD5 пароля і конкретне ім'я файлу (імена файлів повертає getList)
 
-*Що повертає*: код відповіді сервера (0 - успішна обробка).
+   *Що повертає*: код відповіді сервера (0 - успішна обробка).
 
-**Приклад запиту**:
+   **Приклад відповіді**:
 
-:: 
+   :: 
+
+ <result>
+            <errorCode>0</errorCode>
+ </result>
+
+   **Можливі помилки**:
+
+   - errorCode 4 - помилка при архівуванні документа
+
+   "Масове" архівування документів (видалення файлів з сервера) (archiveDocuments)
+   ============================================================================================
+
+   *Сигнатура* (параметри які потрібно передати): логін, MD5 пароля і конкретне ім'я файлу (імена файлів повертає getList)
+
+   *Що повертає*: код відповіді сервера (0 - успішна обробка).
+
+   **Приклад запиту**:
+
+   :: 
 
       <soap:archiveDocumentsRequest>
          <!--Optional:-->
@@ -155,43 +167,43 @@ WSDL схема для роботи з FTPEX по SOAP: https://soap.edin.ua/soa
            <fileName>musician.xml</fileName>
       </soap:archiveDocumentsRequest>
 
-**Приклад відповіді**:
+   **Приклад відповіді**:
 
-:: 
+   :: 
 
  <result>
             <errorCode>0</errorCode>
  </result>
 
-**Можливі помилки**:
+   **Можливі помилки**:
 
-- errorCode 4 - помилка при архівуванні документа (значення помилки повертається в<errorMessage/>)
+   - errorCode 4 - помилка при архівуванні документа (значення помилки повертається в<errorMessage/>)
 
-Доповнення
-============================================================================================
+   Доповнення
+   ============================================================================================
 
-Повні запити і відповіді сервера по кожному методу:
+   Повні запити і відповіді сервера по кожному методу:
 
-:download:`sendDoc_response2.xml<SOAP_API_request_response/sendDoc_response2.xml>`
+   :download:`sendDoc_response2.xml<SOAP_API_request_response/sendDoc_response2.xml>`
 
-:download:`sendDoc_request2.xml<SOAP_API_request_response/sendDoc_request2.xml>`
+   :download:`sendDoc_request2.xml<SOAP_API_request_response/sendDoc_request2.xml>`
 
-:download:`getList_response2.xml<SOAP_API_request_response/getList_response2.xml>`
+   :download:`getList_response2.xml<SOAP_API_request_response/getList_response2.xml>`
 
-:download:`getList_request2.xml<SOAP_API_request_response/getList_request2.xml>`
+   :download:`getList_request2.xml<SOAP_API_request_response/getList_request2.xml>`
 
-:download:`getDocumentsResponse2.xml<SOAP_API_request_response/getDocumentsResponse2.xml>`
+   :download:`getDocumentsResponse2.xml<SOAP_API_request_response/getDocumentsResponse2.xml>`
 
-:download:`getDocumentsRequest2.xml<SOAP_API_request_response/getDocumentsRequest2.xml>`
+   :download:`getDocumentsRequest2.xml<SOAP_API_request_response/getDocumentsRequest2.xml>`
 
-:download:`getDoc_response2.xml<SOAP_API_request_response/getDoc_response2.xml>`
+   :download:`getDoc_response2.xml<SOAP_API_request_response/getDoc_response2.xml>`
 
-:download:`getDoc_request2.xml<SOAP_API_request_response/getDoc_request2.xml>`
+   :download:`getDoc_request2.xml<SOAP_API_request_response/getDoc_request2.xml>`
 
-:download:`archiveDocumentsResponse2.xml<SOAP_API_request_response/archiveDocumentsResponse2.xml>`
+   :download:`archiveDocumentsResponse2.xml<SOAP_API_request_response/archiveDocumentsResponse2.xml>`
 
-:download:`archiveDocumentsRequest2.xml<SOAP_API_request_response/archiveDocumentsRequest2.xml>`
+   :download:`archiveDocumentsRequest2.xml<SOAP_API_request_response/archiveDocumentsRequest2.xml>`
 
-:download:`archiveDoc_response2.xml<SOAP_API_request_response/archiveDoc_response2.xml>`
+   :download:`archiveDoc_response2.xml<SOAP_API_request_response/archiveDoc_response2.xml>`
 
-:download:`archiveDoc_request2.xml<SOAP_API_request_response/archiveDoc_request2.xml>`
+   :download:`archiveDoc_request2.xml<SOAP_API_request_response/archiveDoc_request2.xml>`
