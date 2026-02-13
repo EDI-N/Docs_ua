@@ -32,7 +32,7 @@ XML Специфікації для роботи з Мережею "Comfy"
 ---------
 
 Статус Підтвердження замовлення (Status)
-====================
+===========================================
 
 Статус передається за допомогою `методу API <https://wiki.edin.ua/uk/latest/integration_2_0/APIv2/Methods/PostDocStatuses.html>`__
 
@@ -48,6 +48,17 @@ XML Специфікації для роботи з Мережею "Comfy"
 
 :download:`XML-Приклад "Повідомлення про відвантаження" (DESADV)<Comfy_XML/examples/DESADV_example.xml>`
 
+------------
+
+Видаткова накладна (COMDOC_006)
+==============================================
+
+.. csv-table:: Видаткова накладна (COMDOC_006)
+   :file: Comfy_XML/files/COMDOC_006.csv
+   :widths:  40, 7, 12, 41
+   :header-rows: 1
+
+:download:`XML-Приклад "Видаткова накладна" (COMDOC_006) <Comfy_XML/examples/COMDOC_006_example.xml>`
 
 -------------------------
 

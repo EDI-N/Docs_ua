@@ -5,7 +5,7 @@ API
 
 Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
 
-Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/robota-z-api/chapter/api-servisu-e-specifikaciia>`__
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/robota-z-api/chapter/api-servisu-e-specifikaciia-komerciina-propoziciia>`__
 
 Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
 
