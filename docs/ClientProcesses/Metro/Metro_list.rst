@@ -17,6 +17,7 @@ Metro
    Metro_Instructions/Metro_7a_instruction
    Metro_Instructions/Metro_RC_TC_delivery
    Metro_Instructions/rules_ETTN_for_METRO
+   Metro_Instructions/сreate_act_rozbijnostei
    Metro_Instructions/Metro_saved_filters
 
 .. toctree::
