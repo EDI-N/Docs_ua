@@ -18,7 +18,7 @@
 .. raw:: html
 
     <embed>
-        <iframe src="https://wiki.edin.ua/uk/latest/_static/files/Licenses/Instraction_ATB.pdf" width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://wiki.edin.ua/uk/latest/_static/files/Licenses/Instraction_ATB.pdf" width="100%"  height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
 
