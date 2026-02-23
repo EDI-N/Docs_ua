@@ -17,6 +17,6 @@
 .. raw:: html
 
     <embed>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQcQTdhfkN8rGhX2xSW_QiL833TQc8Ub1uovsHTcCwdJ1CJbyMTpvRvWvO4xMf1vyjTjMXHBacrL9cl/pub?embedded=true" width="1500" height="19500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://wiki.edin.ua/uk/latest/_static/files/Licenses/Instraction_ATB_through_LogisticYunion.pdf" width="1500" height="19500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
 
