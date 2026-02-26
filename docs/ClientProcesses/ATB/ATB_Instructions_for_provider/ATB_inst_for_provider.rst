@@ -14,10 +14,13 @@
 
 .. |info| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_064.png
 
+*Оновлення інструкції 24.02.2026*
 
 .. raw:: html
 
     <embed>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vT1lVYYGxzmK6RcNGpLJ1EcOGg94xBDePtzwVEo4X-OQvoU199MvkNd2oXD0RsCbMonfFN5z6-dVOsz/pub?embedded=true" width="1600" height="17500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://wiki.edin.ua/uk/latest/_static/files/Licenses/Instraction_ATB.pdf" width="100%"  height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </embed>
+
+
 
