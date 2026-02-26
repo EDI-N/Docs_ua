@@ -14,6 +14,8 @@
 
 .. |info| image:: pics_ATB_external_EDI_instruction/ATB_external_EDI_instruction_064.png
 
+*Оновлення інструкції 24.02.2026*
+
 .. raw:: html
 
     <embed>
