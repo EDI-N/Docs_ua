@@ -32,7 +32,7 @@ DELIVERYPLACE, M, Число (13), GLN місця доставки
 **POSITION**,,, Позиція
 POSITIONNUMBER, М, Ціле позитивне число, Номер позиції
 PRODUCT, М,"Число (8, 10, 14)", Штрихкод продукту
-PRODUCTIDSUPPLIER, О, Рядок (16), Артикул в БД постачальника
+PRODUCTIDSUPPLIER, О, Рядок (40), Артикул в БД постачальника
 PRODUCTIDBUYER, О, Рядок (16), Артикул в БД покупця
 DELIVEREDQUANTITY, М, Ціле число, "Кількість товару, що поставляється"
 DELIVEREDUNIT, О, Рядок (3), `Одиниці виміру <https://wiki.edin.ua/uk/latest/XML/units_edi.html>`__
