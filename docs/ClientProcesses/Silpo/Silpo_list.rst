@@ -1,8 +1,18 @@
 Сільпо
 #############################################
 
-.. toctree::
-   :caption: Робота в сервісі "EDI Network"
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/mereza-silpo>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
+.. .. toctree::
+..    :caption: Робота в сервісі "EDI Network"
    :maxdepth: 1
    
    Silpo_Instructions/Silpo_shops
@@ -27,9 +37,9 @@
 
 -------------------------
 
-.. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
+.. .. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
 
-   * для `"EDI Network" <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__ сервісу;
-   * для `"Е-Специфікація" <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/XML/XML_structure.html>`__ сервісу;
-   * для `"Маркет" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html>`__ сервісу.
+..    * для `"EDI Network" <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__ сервісу;
+..    * для `"Е-Специфікація" <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/XML/XML_structure.html>`__ сервісу;
+..    * для `"Маркет" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html>`__ сервісу.
 
