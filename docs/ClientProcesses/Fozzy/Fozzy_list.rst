@@ -1,32 +1,42 @@
 Фоззі
 #############################################
 
+**Шановні користувачі!**
+
+Ми активно працюємо над оновленням бази знань EDIN-WiKi, тому ця сторінка втратила актуальність.
+
+Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/mereza-fozzi>`__
+
+Свої побажання, зауваження ви можете залишати в коментарях до статті на новій EDIN-WiKi.
+
+Дякуємо за розуміння та користування сервісом!
+
 .. deprecated
    Fozzy_Instructions/Fozzy_ORDRSP_instruction
    Fozzy_Instructions/Fozzy_IFTMIN_instruction
    Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_TN_instruction
    Fozzy_Instructions/Fozzy_DOCUMENTINVOICE_PRN_instruction
 
-.. toctree::
-   :caption: Робота з мережею "Фоззі" на платформі EDI Network 2.0
-   :maxdepth: 1
+.. .. toctree::
+..    :caption: Робота з мережею "Фоззі" на платформі EDI Network 2.0
+..    :maxdepth: 1
    
-   Fozzy_Instructions/Fozzy_EDI
+..    Fozzy_Instructions/Fozzy_EDI
 
-.. toctree::
-   :caption: Специфікації документів (XML) для роботи з "Fozzy" [1]
-   :maxdepth: 1
+.. .. toctree::
+..    :caption: Специфікації документів (XML) для роботи з "Fozzy" [1]
+..    :maxdepth: 1
    
-   Fozzy_XML-structure
+..    Fozzy_XML-structure
 
 -------------------------
 
-.. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
+.. .. [#] В переліку специфікацій вказані лише модифіковані під клієнта документи. Специфікації "стандартних" документів на платформі EDI Network 2.0:
 
-   * для `"EDI Network" <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__ сервісу;
-   * для `"Е-ТТН" <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ сервісу;
-   * для `"Е-Специфікація" <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/XML/XML_structure.html>`__ сервісу;
-   * для `"Маркет" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html>`__ сервісу.
+..    * для `"EDI Network" <https://wiki.edin.ua/uk/latest/EDIN_Specs/EDIN_Specs_list.html>`__ сервісу;
+..    * для `"Е-ТТН" <https://wiki.edin.ua/uk/latest/Docs_ETTNv2/Docs_ETTNv2_list.html>`__ сервісу;
+..    * для `"Е-Специфікація" <https://wiki.edin.ua/uk/latest/E_SPEC/EDIN_2_0/XML/XML_structure.html>`__ сервісу;
+..    * для `"Маркет" <https://wiki.edin.ua/uk/latest/Distribution/EDIN_2_0/XML/XML_structure.html>`__ сервісу.
 
 
 
