@@ -29,11 +29,11 @@
       
       Silpo_Instructions/Silpo_EDIN_Driver
 
-.. toctree::
-   :caption: Специфікації документів (XML) для роботи з "Сільпо" [1]
-   :maxdepth: 1
+   .. toctree::
+      :caption: Специфікації документів (XML) для роботи з "Сільпо" [1]
+      :maxdepth: 1
    
-   Silpo_XML-structure
+      Silpo_XML-structure
 
 -------------------------
 
