@@ -66,9 +66,12 @@
 **2. Формування "Повідомлення про відвантаження" (DESADV) на підставі вхідного "Замовлення" (ORDER)**
 ====================================================================================================================
 
-.. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
-   :start-after: .. початок блоку для Desadv_from_Order
-   :end-before: .. кінець блоку для Desadv_from_Order
+Оновлену інструкцію з формування "Повідомлення про відвантаження" (DESADV) для мережі "Метро" можна знайти за `посиланням <https://wiki-v2.edin.ua/books/mereza-metro/page/postacannia-na-rc-ta-tc-instrukciia-dlia-postacalnikiv-merezi-metro#bkmrk-2.-%D0%A4%D0%BE%D1%80%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%C2%AB%D0%9F%D0%BE%D0%B2%D1%96%D0%B4>`__
+
+.. deprecated
+  .. include:: /retail_2.0/formirovanie_otpravka_dokumenta_Uvedomlenie_ob_otgruzke_DESADV_na_EDI_Network_2.0.rst
+     :start-after: .. початок блоку для Desadv_from_Order
+     :end-before: .. кінець блоку для Desadv_from_Order
 
 **3. Формування "Транспортної накладної" (DOCUMENTINVOICE.DocumentFunctionCode = TNN) на підставі надісланого "Повідомлення про відвантаження" (DESADV)**
 =================================================================================================================================================================================================
