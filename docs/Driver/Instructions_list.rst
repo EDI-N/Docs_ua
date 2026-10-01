@@ -1,18 +1,18 @@
 Інструкції по роботі з додатком "EDIN Driver" 
 #############################################
 
-.. toctree::
-   :maxdepth: 1
+.. .. toctree::
+..    :maxdepth: 1
    
-   Instructions/Android
-   Instructions/iOS
-   Instructions/Huawei
+..    Instructions/Android
+..    Instructions/iOS
+..    Instructions/Huawei
 
    **Шановні користувачі!**
 
 Ми активно працюємо над оновленням бази знань EDIN-WiKi.
 
-Актуальну версію документації ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/edin-driver>`__
+Актуальну версію документації для роботи з додатком **EDIN Driver 2.0** ви знайдете за новим `посиланням <https://wiki-v2.edin.ua/books/edin-driver-20>`__
 
 Нові інструкції будуть поступово доповнюватися.
 
