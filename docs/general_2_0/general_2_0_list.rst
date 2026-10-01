@@ -6,7 +6,6 @@
    
    Terminology
    User_registration
-   Driver_registration
    rabota_s_platformoj_EDIN_2.0
    EDI_Network_Sign_instruction
    Robota_z_tokenom
